@@ -1,0 +1,192 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1472542260800258131> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Having a doubt",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772725073928,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1472542260800258131> Please elaborate your issue and mention your name, cohort name, registered mail ID",
+      "embeds": [],
+      "created": 1772725135315,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "pratik_113_28859",
+      "user_id": "1472542260800258131",
+      "is_bot": false,
+      "content": "Hello \nI m enrolled in both rsaians n aksians, due to some reason I couldn't able to start also till 15 march, so what should I do, any advice?",
+      "embeds": [],
+      "created": 1772725145580,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1472542260800258131> Only one enrollment is allowed and as mentioned in the onboarding itself, failing to follow up on milestiones might lead to your discontinuation of the internship. But do not worry, you can rejoin in any of the upcoming cohorts.",
+      "embeds": [],
+      "created": 1772725268780,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "pratik_113_28859",
+      "user_id": "1472542260800258131",
+      "is_bot": false,
+      "content": "Is there any deadline sir?",
+      "embeds": [],
+      "created": 1772725295437,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "pratik_113_28859",
+      "user_id": "1472542260800258131",
+      "is_bot": false,
+      "content": "I didn't know this before sir\nI enrolled in rsaians on 15 feb\nAnd aksians on 24 feb\nI didn't started anything in aksians, but in rsaians - 0.40 progress",
+      "embeds": [],
+      "created": 1772725493903,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Please check the milestones mentioned in the website.",
+      "embeds": [],
+      "created": 1772725778125,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "pratik_113_28859",
+      "user_id": "1472542260800258131",
+      "is_bot": false,
+      "content": "Okay sir, I checked it but what should I do",
+      "embeds": [],
+      "created": 1772726062411,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "As you are currently entangled with academic commitments, you might miss out on the milestone deadlines. Therefore I suggest you to discontinue from this cohort and join the upcoming ones after your commitments are done. Do not worry",
+      "embeds": [],
+      "created": 1772727187771,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "pratik_113_28859",
+      "user_id": "1472542260800258131",
+      "is_bot": false,
+      "content": "Okay sir",
+      "embeds": [],
+      "created": 1772727217032,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "pratik_113_28859",
+      "user_id": "1472542260800258131",
+      "is_bot": false,
+      "content": "So how to do that",
+      "embeds": [],
+      "created": 1772727222648,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Please wait for further announcements in this regard",
+      "embeds": [],
+      "created": 1772760531217,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772859543917,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772859544527,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772859546499,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0367",
+    "id": "1479140907537137754"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 15
+}

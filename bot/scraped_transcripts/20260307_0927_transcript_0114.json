@@ -1,0 +1,132 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1356206374576586814> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Query Regarding Health Points Not Updated",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771519758918,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1356206374576586814> Please elaborate on the issue so that it would be easier to dissect and resolve quickly",
+      "embeds": [],
+      "created": 1771519810159,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "sonalkendre_97771",
+      "user_id": "1356206374576586814",
+      "is_bot": false,
+      "content": "Dear Sir/Madam,\n\nI hope you are doing well.\n\nI am writing to raise a concern regarding my Health Points (HP) on the Vinternship dashboard. Despite completing the required milestones within the given deadlines, my Health Points do not seem to have increased accordingly.\n\nAccording to the milestones and deadlines mentioned on the portal, I have completed the required course percentage and submissions. However, my current HP displayed on the dashboard is still showing the same value.\n\nKindly request you to please review my progress and verify whether my Health Points have been correctly updated. If there is any pending requirement or additional action needed from my side, please let me know so that I can resolve it immediately.\n\nI have attached the relevant screenshots for your reference.\n\nLooking forward to your response.\n\nThank you for your time and support.\n\nRegards,\nSonal Kendre\n[24f2004938@ds.study.iitm.ac.in](mailto:24f2004938@ds.study.iitm.ac.in)",
+      "embeds": [],
+      "created": 1771519811925,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "sonalkendre_97771",
+      "user_id": "1356206374576586814",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771519840696,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1356206374576586814> \nIt may take some time for the HP to reflect on the dashboard after you have completed your milestone.\nKindly request you to please be patient while we process the update. We are actively working on it. Thank you for your understanding.",
+      "embeds": [],
+      "created": 1771563526855,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "sonalkendre_97771",
+      "user_id": "1356206374576586814",
+      "is_bot": false,
+      "content": "Thank you for your time and support",
+      "embeds": [],
+      "created": 1771584110863,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1356206374576586814>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771584176863,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771584177308,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771586067994,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0114",
+    "id": "1474085450032484573"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 9
+}

@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473735456473616598> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I have joined the Vinternship  AKSians on 19/02/2026 and completed 3% of course only but according to milestone one has to complete 25% course in 1 week to get offer letter. I could not complete 25% course due to laptop not working and serio",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772558234180,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473735456473616598> please proceed until further announcements are made. It is advised to strictly go parallel with the milestones mentioned in the vinternship webpage",
+      "embeds": [],
+      "created": 1772597722197,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473735456473616598> \nIs your issue resolved now?",
+      "embeds": [],
+      "created": 1772697652536,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473735456473616598> \nIs your issue resolved now?",
+      "embeds": [],
+      "created": 1772773171053,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "gurleenk_2210",
+      "user_id": "1473735456473616598",
+      "is_bot": false,
+      "content": "Yes mam first issue is resolved . But again i have doubt about whether certificates will be given to only those who have registered for NPTEL exam?",
+      "embeds": [],
+      "created": 1772774513628,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473735456473616598> \nIf you have not registered yet you may register on the NPTEL+ portal for the same course by sir.",
+      "embeds": [],
+      "created": 1772774581503,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "gurleenk_2210",
+      "user_id": "1473735456473616598",
+      "is_bot": false,
+      "content": "Okay thanks mam",
+      "embeds": [],
+      "created": 1772774613982,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1473735456473616598>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772774621277,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772774621841,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1772774715171,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772774717244,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0345",
+    "id": "1478441130487185469"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

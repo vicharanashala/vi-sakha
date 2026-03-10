@@ -1,0 +1,1527 @@
+[
+  {
+    "question": "What is the deadline to complete 20 percent of the ViBe course if I registered on 23/02/26?",
+    "answer": "The deadline to complete 20 percent of the ViBe course is one week from your course start date. Since you registered on 23/02/26, you have one week from that date to complete the 20 percent requirement.",
+    "source": "20260307_0929_transcript_0250"
+  },
+  {
+    "question": "When do I need to complete 20% of the internship to get an offer letter?",
+    "answer": "You need to complete 20% of the internship by the 1st week to receive your offer letter.",
+    "source": "20260307_0928_transcript_0204"
+  },
+  {
+    "question": "What is the duration of the Aksians internship?",
+    "answer": "For the internship duration details, please refer to the milestones page on the website or check the FAQ section for complete information.",
+    "source": "20260307_0928_transcript_0204"
+  },
+  {
+    "question": "My ViBe progress was stuck at 99.9% and I received a 10% HP deduction. I was told it would be reverted but it hasn't been restored yet. Can you help?",
+    "answer": "If your ViBe progress is stuck at 99.9% and you received an HP deduction, you will be considered as having completed the course. The health points deduction will be reverted and restored on your dashboard. You should provide your cohort name when reporting this issue to help with resolution.",
+    "source": "20260307_0930_transcript_0302"
+  },
+  {
+    "question": "Why did my HP decrease despite completing my internship course on time?",
+    "answer": "HP calculations include all course requirements, not just course completion. If you miss specific submissions like weekly case studies, your HP will be affected accordingly. In this case, the HP decrease was due to a missed Week 1 case study submission deadline on February 12th. The HP calculation was correct based on the missed submission.",
+    "source": "20260307_0927_transcript_0146"
+  },
+  {
+    "question": "Why does my React module show 368/369 completed when I have finished all the videos?",
+    "answer": "This is a known backend issue that has been documented in the FAQ. Even though you have completed all the videos, the module progress may not display as fully completed due to this technical issue. The backend team will manually correct the completion status, so you don't need to worry about it showing as incomplete. You can continue with your studies on ViBe as normal.",
+    "source": "20260307_0926_transcript_0028"
+  },
+  {
+    "question": "Where can I find the Google form to submit the timings when I will watch the lectures?",
+    "answer": "The slot booking forms are available through the provided links. There are two forms: one for committing when you will watch lectures, and another for confirming if you are true to your commitments. Both forms need to be filled out.",
+    "source": "20260307_0926_transcript_0068"
+  },
+  {
+    "question": "Do I need to fill out both Google forms for lecture timing commitments?",
+    "answer": "Yes, you need to fill out both forms - the commitment form for when you will watch lectures and the follow-up form about being true to your commitments.",
+    "source": "20260307_0926_transcript_0068"
+  },
+  {
+    "question": "As an IITM BS student who is already registered for RSians cohort, do I need to apply for AKSians cohort as well to become an intern?",
+    "answer": "No, you do not need to be part of AKSians since you are already in the RSians cohort. Both cohorts lead to the same internship opportunity through different entry paths.",
+    "source": "20260307_0927_transcript_0129"
+  },
+  {
+    "question": "Do RSians cohort members receive offer letters, and what is the exact completion percentage required?",
+    "answer": "Yes, RSians cohort members do receive offer letters. You will receive your offer letter after completing 20% of the ViBe course.",
+    "source": "20260307_0927_transcript_0129"
+  },
+  {
+    "question": "Why did my HP (Health Points) decrease suddenly without any apparent reason or rule violations?",
+    "answer": "HP decreases can occur due to system corrections. In some cases, automated scripts may mistakenly award incorrect HP amounts (such as giving 30% instead of the intended 10% increase), which then requires a correction that appears as a decrease. To check the reason for any HP changes, you should first review your live dashboard under Health Point -> Add/remove reason section for detailed explanations of all HP modifications.",
+    "source": "20260307_0926_transcript_0027"
+  },
+  {
+    "question": "I'm unable to attempt a quiz because it's stuck on loading and showing an error message. How can this be resolved?",
+    "answer": "If you encounter a loading error when attempting to quiz with a message like 'Failed to start quiz: Cannot use 'in' operator to search for 'message' in undefined', please provide a screenshot or screen recording of the issue to the instructor for better understanding. The technical team can then resolve the issue on their end, after which you should be able to attempt the quiz normally.",
+    "source": "20260307_0928_transcript_0208"
+  },
+  {
+    "question": "Why am I not seeing any enrolled courses on ViBe?",
+    "answer": "If you're not seeing any enrolled courses on ViBe, you should check your invites on the platform. The courses may be available through pending invitations that need to be accepted.",
+    "source": "20260307_0926_transcript_0029"
+  },
+  {
+    "question": "I submitted case studies but they are not appearing on my dashboard. What should I do?",
+    "answer": "This issue was caused by backend problems that have now been resolved. You should check your dashboard again to see if your submitted case studies are now visible. If you continue to experience this issue, please provide your email ID, cohort name, and submission time so the technical team can investigate further.",
+    "source": "20260307_0930_transcript_0309"
+  },
+  {
+    "question": "I'm showing as UNSAFE on the dashboard despite having sufficient HP. How can this be resolved?",
+    "answer": "If you're marked as UNSAFE on the dashboard despite having sufficient HP, this issue can be escalated to the technical team for resolution. The support team can revert your HP status, which will update your dashboard to show 'Safe' instead of 'Unsafe'. You'll need to provide your email ID when reporting this issue, and the changes should be visible on the dashboard soon after the technical team processes the request.",
+    "source": "20260307_0929_transcript_0251"
+  },
+  {
+    "question": "Where can I see my progress?",
+    "answer": "You can view your progress on the dashboard that is visible on the main website. The instructor provided a link to access the website where the progress dashboard is located.",
+    "source": "20260307_0926_transcript_0075"
+  },
+  {
+    "question": "I enrolled on February 17th and completed 20% of the ViBE course on February 27th, but couldn't meet the first week deadline. Will I still get an offer letter and when?",
+    "answer": "To be eligible for an offer letter, you must complete 20% of the ViBE course within the first week of enrollment. Since you missed this deadline, even though your case was escalated to the team, they have confirmed that the original deadlines and regulations must be followed. Therefore, you will not be eligible for the offer letter.",
+    "source": "20260307_0931_transcript_0352"
+  },
+  {
+    "question": "Should I stop the course if I'm not eligible for the offer letter?",
+    "answer": "No, you should not stop the course. You can continue with the internship and upon completion of all 3 phases mentioned on the website, you will receive a successful completion certificate from Vicharanashala Lab for Education Design.",
+    "source": "20260307_0931_transcript_0352"
+  },
+  {
+    "question": "My name is not visible on the vinternship dashboard even though I registered for the course on ViBe portal with my official IITM ID. What should I do?",
+    "answer": "First, check the HP -> Individual HP section on the dashboard as mentioned in the FAQ, rather than looking at the leaderboard. If your name is still not visible there despite having ViBe progress, this indicates a technical issue where your name was missed from the dashboard. Contact support to escalate the issue for resolution.",
+    "source": "20260307_0927_transcript_0147"
+  },
+  {
+    "question": "For the 19th Case Study of TypeScript, do I need to write the entire base code or just the relevant code when submitting the .ts file?",
+    "answer": "You don't have to rewrite the entire base code. The challenge is designed to build on the setup already provided in the case study. Just implement the parts required for the task and submit the relevant .ts file(s). It's understood that your solution extends the existing structure.",
+    "source": "20260307_0929_transcript_0253"
+  },
+  {
+    "question": "I'm unable to access React content after completing my TypeScript quiz, and my TypeScript progress is stuck at 287/288. The platform is taking me straight to MongoDB instead. What should I do?",
+    "answer": "This is a known technical issue that the tech team is working to resolve. Try refreshing the page using Ctrl+Shift+R. If the issue persists, an instructor can reset your progress to resolve the access problem. The TypeScript progress showing 287/288 will also be checked and resolved by the technical team.",
+    "source": "20260307_0926_transcript_0070"
+  },
+  {
+    "question": "Is it okay to proceed to MongoDB and beyond without completing React first?",
+    "answer": "No, you should follow the proper course sequence. After completing TypeScript, the next module should be React, not MongoDB. The instructor can reset your progress to ensure you can access the React modules in the correct order.",
+    "source": "20260307_0926_transcript_0070"
+  },
+  {
+    "question": "Should I raise a separate ticket for the TypeScript 287/288 progress issue?",
+    "answer": "No, you don't need to raise a separate ticket. The issue has been noted and will be investigated as part of your current support request. The technical team will check if you genuinely missed a video or quiz and resolve the progress tracking issue.",
+    "source": "20260307_0926_transcript_0070"
+  },
+  {
+    "question": "Should I close my support ticket once my main issue is resolved but I still have a secondary issue pending?",
+    "answer": "No, you should keep the ticket open until all issues are fully resolved. Wait for confirmation from the technical team that both your primary and secondary issues have been addressed before the ticket is closed by the support team.",
+    "source": "20260307_0926_transcript_0070"
+  },
+  {
+    "question": "There's a formatting discrepancy between the GitHub version and the rendered case study page - the numbering shows as 1.1.1.2. on the page but 1.2.3.4. on GitHub. Is the latest GitHub version not being used for the rendered page?",
+    "answer": "This formatting issue has been identified and resolved. The discrepancy was due to the rendered page not reflecting the latest GitHub version. All formatting issues have been fixed and you can now check the updated case studies.",
+    "source": "20260307_0931_transcript_0351"
+  },
+  {
+    "question": "How can I directly contribute fixes to case studies that have formatting and logical errors?",
+    "answer": "You can contribute by forking the repository, making your changes, and submitting a Pull Request (PR). It's recommended to consolidate all errors into one PR rather than multiple separate ones. After submitting your PR, inform the instructors on Discord by tagging both Nitin and Rohit, and they will review and merge if the changes look good to the team.",
+    "source": "20260307_0931_transcript_0351"
+  },
+  {
+    "question": "In case study 18, there's an error mentioning InversifyJS when it should be about TypeDI (which is covered in case study 19). Also, case study 19 has random InversifyJS references without proper attribution. Additionally, in case study 13, shouldn't 'Default' come before 'optional'?",
+    "answer": "These specific errors in case studies 18, 19, and 13 have been identified and addressed. All the mentioned issues have been fixed and you can check the updated case studies for the corrections.",
+    "source": "20260307_0931_transcript_0351"
+  },
+  {
+    "question": "When I submit a PR in the future, can I create a ticket or ping you on Discord to let you know?",
+    "answer": "Yes, you can submit your PR and then inform the instructors on Discord. You should tag both Nitin and Rohit on Discord after submitting your PR, and they will review and merge the changes if they look good to the team.",
+    "source": "20260307_0931_transcript_0351"
+  },
+  {
+    "question": "I have completed 28% of my vibe progress but haven't received an offer letter yet. When will I get it?",
+    "answer": "Offer letters are only issued to Aksians cohort members, not RSAians. RSAians cohort members will receive a completion certificate instead of an offer letter upon successful completion of the entire internship program.",
+    "source": "20260307_0931_transcript_0359"
+  },
+  {
+    "question": "When will I receive my completion certificate?",
+    "answer": "The completion certificate will be issued upon successful completion of the entire internship program, which includes completing the ViBe course, case studies, and viva/endorsements.",
+    "source": "20260307_0931_transcript_0359"
+  },
+  {
+    "question": "What should I do if my course shows 99.9% completion but I cannot identify which specific video or quiz is missing from the modules?",
+    "answer": "If you have made a genuine effort to complete all course content but cannot locate the remaining items due to unclear progress tracking, your situation will be noted and you will be considered as having completed the course. Any HP reduction related to incomplete course status will be reverted.",
+    "source": "20260307_0926_transcript_0030"
+  },
+  {
+    "question": "My name is not appearing on the health points dashboard even though I registered on ViBe and completed 28% of the course. What should I do?",
+    "answer": "If your name is not appearing on the health points dashboard despite registering and making progress, this issue will be escalated to the concerned team for resolution. The technical team will work to ensure your name becomes visible on the dashboard.",
+    "source": "20260307_0930_transcript_0311"
+  },
+  {
+    "question": "My name now appears on the health points dashboard but my health points show as 0 instead of reflecting my actual progress. How can this be fixed?",
+    "answer": "If your health points are showing as 0 despite your progress, this issue will be escalated again to the technical team. They will work to ensure your health points are properly updated to reflect your actual course completion percentage.",
+    "source": "20260307_0930_transcript_0311"
+  },
+  {
+    "question": "There's an inaccuracy in TypeScript Case Study 9 - the solution shows only a callback signature instead of the full function with two parameters as described in the challenge. Why does this case study have a solution when others don't?",
+    "answer": "The solution provided in TypeScript Case Study 9 was included accidentally and contains an error. The challenge requires a function with two parameters (orderID and a callback), but the solution only implements the callback signature. You should ignore the provided solution and proceed with your own implementation. The solution will be removed from the case study.",
+    "source": "20260307_0928_transcript_0211"
+  },
+  {
+    "question": "I encountered multiple issues with the ViBe portal quiz section - it didn't show correct/wrong status, didn't save progress, and blocked access randomly to certain quizzes. What should I do?",
+    "answer": "The ViBe portal quiz issues you experienced (status not showing, progress not saving, and random access blocking) have been resolved. These were platform bugs that affected multiple users, where different people experienced blocked access to different quizzes despite having watched the required videos.",
+    "source": "20260307_0928_transcript_0211"
+  },
+  {
+    "question": "I accidentally skipped the first part of the JavaScript module and went directly to the second part. Now I can't go back to watch the first part as it shows 'Access is restricted'. How can I access the first part?",
+    "answer": "The instructor can reset your progress to allow access to the first section. You need to provide your current progress details (which video you watched last) and your email ID. The instructor will then mark the first section as completed in the system, allowing you to access it. However, you must complete the first section before moving to TypeScript, otherwise your quiz submissions for the first section will not be recorded.",
+    "source": "20260307_0927_transcript_0149"
+  },
+  {
+    "question": "Why are my case study submissions not reflecting on the dashboard?",
+    "answer": "If your case study submissions are not appearing on the dashboard after multiple attempts, this is typically a technical issue that requires instructor intervention. You should provide your email ID used for submission, cohort name, and time of submission to help the instructor identify and resolve the problem. The technical team can then investigate and fix the issue so your submissions will properly display on the dashboard.",
+    "source": "20260307_0930_transcript_0312"
+  },
+  {
+    "question": "I completed a lecture but can't access the quiz - it says I don't have permission to start the quiz. What should I do?",
+    "answer": "If you're unable to start a quiz after completing a lecture due to permission issues, try refreshing the page first. If that doesn't work, log out completely and then log back in. The module may need to be reset on the system side to resolve the permission issue. After logging back in, you should be able to access and start the quiz normally.",
+    "source": "20260307_0928_transcript_0213"
+  },
+  {
+    "question": "How do I submit my hackathon phase 1 work and what is the submission deadline?",
+    "answer": "The instructor acknowledged your inquiry about hackathon phase 1 submission process and deadline but did not provide specific details in this conversation. You may need to follow up for complete submission instructions and timeline information.",
+    "source": "20260307_0926_transcript_0031"
+  },
+  {
+    "question": "My name is not showing on the internship dashboard even though I completed all case studies. What should I do?",
+    "answer": "If your name is not showing on the internship dashboard despite completing your coursework, you need to wait for your appeal to be processed. This typically happens when there were timing issues with milestone completions that required submitting an appeal form to management.",
+    "source": "20260307_0931_transcript_0361"
+  },
+  {
+    "question": "I am unable to enter the quiz after watching the video. What should I do?",
+    "answer": "Please check again to see if the issue still persists. If you continue to have problems accessing the quiz after watching the video, contact support with your email ID for further assistance.",
+    "source": "20260307_0927_transcript_0151"
+  },
+  {
+    "question": "I can't find the RSAian course on Vibe. How can I access it?",
+    "answer": "If you cannot find a course on Vibe, try clicking on the registration link again. This should resolve the issue and make the course accessible.",
+    "source": "20260307_0926_transcript_0078"
+  },
+  {
+    "question": "Is there a form to fill out after completing our daily study commitment, and what should we do about past missed days?",
+    "answer": "Yes, there is a commitment completion form in addition to the daily slot booking form. There are two forms: one for committing when you will study and another for confirming you completed your commitment. For past missed days, you will be assessed based on your activities, participation in sessions, stand-ups, and other factors rather than needing to fill out missed forms retroactively.",
+    "source": "20260307_0926_transcript_0077"
+  },
+  {
+    "question": "Can the commitment form links be added to the main cohort page for easier access?",
+    "answer": "Yes, the links will be added to the main cohort page. The instructor will inform the concerned team to update the website with the commitment form links for easier accessibility.",
+    "source": "20260307_0926_transcript_0077"
+  },
+  {
+    "question": "I registered for an NPTEL course but didn't fill out the exam form. Can I get an internship certificate through NPTEL+ courses instead?",
+    "answer": "Yes, you can continue the NPTEL course on NPTEL+ as an alternative. You will need to enroll in the course on NPTEL+ and take the exam there to obtain the internship certificate. Enrolling in the course is mandatory for certification.",
+    "source": "20260307_0929_transcript_0256"
+  },
+  {
+    "question": "I incorrectly filled A1 instead of A2 activity in the form. What should I do?",
+    "answer": "You need to refill the form with the correct information. Once you have refilled the form correctly, your HP's (Honor Points) will be awarded to you. The issue will be escalated and processed, though it may take some time to complete.",
+    "source": "20260307_0930_transcript_0318"
+  },
+  {
+    "question": "I haven't received any email regarding the standup session and its link. What should I do?",
+    "answer": "First, check your spam folders as there may be email delays. If you still haven't received it and you're part of the RSAians or AKSians cohorts, you can join using the link provided by your instructor for your specific cohort.",
+    "source": "20260307_0931_transcript_0365"
+  },
+  {
+    "question": "Why are my courses not showing on the vibe page even though my registration is complete?",
+    "answer": "After registration approval, you need to go to the student dashboard (not the main registration page) to access your courses. If you're still seeing the registration link, navigate specifically to the student dashboard section where your enrolled courses will be displayed.",
+    "source": "20260307_0928_transcript_0214"
+  },
+  {
+    "question": "Can I access courses from my mobile phone?",
+    "answer": "No, mobile phone access is not allowed for courses. You must use a laptop to access and watch the course content. Mobile devices will show an 'access restricted' message.",
+    "source": "20260307_0928_transcript_0214"
+  },
+  {
+    "question": "Will watching course videos outside of booked slots due to a family emergency affect my HP (Honor Points)?",
+    "answer": "No, it will not affect your HP for this incident. The instructors understand that family emergencies can prevent students from following the normal booking schedule, and exceptions are made in such circumstances.",
+    "source": "20260307_0926_transcript_0032"
+  },
+  {
+    "question": "Why are the TypeScript videos not accessible?",
+    "answer": "If you're experiencing issues accessing TypeScript videos, you can follow the instructions provided in the discussion forum. These steps should resolve the accessibility problem and allow you to view the videos properly.",
+    "source": "20260307_0926_transcript_0079"
+  },
+  {
+    "question": "Why are my quizzes not visible after the TypeScript 1 module?",
+    "answer": "The quizzes are still functioning correctly - they are now being rendered directly after each video rather than appearing in a separate quiz section. This is the expected behavior, so you should be automatically directed to the quiz upon completing each video.",
+    "source": "20260307_0928_transcript_0218"
+  },
+  {
+    "question": "I am unable to go forward and load new videos. After completing 2 sessions from TypeScript video, it goes back to the very first video. How can I fix this?",
+    "answer": "If you're experiencing issues where videos reset to the first video after completing sessions, try reloading the page and logging in again. This should resolve the navigation issue and allow you to continue from where you left off.",
+    "source": "20260307_0929_transcript_0258"
+  },
+  {
+    "question": "My course progress went back and is showing completed modules as incomplete even after hard refresh and logout. I was in the Express module but now it shows I'm back at the MongoDB section. How can this be resolved?",
+    "answer": "This is a technical issue that requires escalation to the tech team for resolution. The support team will need to arrange an escalation meeting with the technical team to discuss and resolve the progress tracking issue hands-on. You should contact support to schedule a suitable time for this escalation meeting where they can directly address and fix your progress data.",
+    "source": "20260307_0929_transcript_0255"
+  },
+  {
+    "question": "How can I prove that I completed modules when the system doesn't show my progress data?",
+    "answer": "To prove module completion when system data is missing, you need to provide a screen recording after clicking the Continue button that shows the 'Completed' tag on items under the Express module. You should also click the View Details button on the dashboard course card and share a screenshot. The support team will consider these as proof of completion to update your progress accordingly.",
+    "source": "20260307_0929_transcript_0255"
+  },
+  {
+    "question": "Why should I redo the course modules if I have already completed them once?",
+    "answer": "You shouldn't have to redo completed modules. This appears to be a technical issue with progress tracking that requires escalation to the tech team. The support team will arrange an escalation meeting to discuss the issue and resolve it directly with the technical team, so you won't need to repeat work you've already completed.",
+    "source": "20260307_0929_transcript_0255"
+  },
+  {
+    "question": "I am unable to attempt quiz 24 and it shows 'you do not have permission'. What should I do?",
+    "answer": "First, try watching the previous video and attempting its associated quiz before proceeding to video 23 and then quiz 23. This ensures you follow the proper sequence. If the issue persists after completing the required videos, try these troubleshooting steps: 1) Log out and log back into your account, 2) Clear your browser cache and browsing data, 3) Try a different browser like Firefox or Microsoft Edge, 4) Disable any YouTube ad-blocker extensions temporarily, 5) Try connecting through a VPN, and 6) Use a different internet connection. If none of these steps resolve the issue, contact support with your email address for further assistance.",
+    "source": "20260307_0927_transcript_0157"
+  },
+  {
+    "question": "Why is my HP increment not showing on the dashboard after completing A1 and A2 activities?",
+    "answer": "To receive HP increments for completed activities, you must fill out the activity completion form. Once you have submitted the completion form for your A1 (Discord profile picture confirmation) and A2 (LinkedIn post) activities, the dashboard will be updated to reflect the completion status and corresponding HP increment.",
+    "source": "20260307_0930_transcript_0319"
+  },
+  {
+    "question": "Why was my HP reduced by 5% for CS Week 3 even though I completed the case studies?",
+    "answer": "Your HP was reduced because while you completed the case studies, you missed the Week 3 milestone requirement of completing 30 out of 42 items. Missing milestones results in negative HP even if individual assignments are completed.",
+    "source": "20260307_0931_transcript_0366"
+  },
+  {
+    "question": "Is there any way to recover the HP that I lost?",
+    "answer": "You can gain more HP by completing your remaining milestones on time. Focus on meeting future milestone deadlines to earn additional HP points.",
+    "source": "20260307_0931_transcript_0366"
+  },
+  {
+    "question": "I completed all videos in the vibe course but it still shows 8 videos pending even after refreshing and rewatching them. What should I do?",
+    "answer": "You should re-attempt the quiz/video content marked as not completed, as it might not have been registered by the application due to penalty score issues. After completing these items again, ensure that you have finished all content (1006/1006) to achieve 100% completion. If the issue persists after multiple attempts, you may need to provide video recording evidence of your completion.",
+    "source": "20260307_0926_transcript_0033"
+  },
+  {
+    "question": "I'm getting a 'Failed to start quiz – no permission' error when trying to take a quiz. How can I resolve this?",
+    "answer": "This permission error can typically be resolved by first ensuring you have watched the previous video lecture completely before attempting the quiz. If the issue persists, contact support with your email address so they can fix the permission settings on the backend. After the fix is applied, refresh the page and try accessing the quiz again.",
+    "source": "20260307_0927_transcript_0160"
+  },
+  {
+    "question": "I enrolled in the course on February 17th but couldn't access it until February 20th due to technical restrictions. I completed 20% of the course after the 5-day enrollment deadline. Will this affect my offer letter eligibility?",
+    "answer": "No, this will not be a problem. As long as you have completed 20% of the course, you will receive the offer letter regardless of the delay in accessing the course due to technical restrictions.",
+    "source": "20260307_0928_transcript_0220"
+  },
+  {
+    "question": "I am not able to understand the process and what is going to happen. What should I do?",
+    "answer": "Please go through our website first. If you still have doubts after reviewing the website, you can reach out to us again for further assistance.",
+    "source": "20260307_0926_transcript_0081"
+  },
+  {
+    "question": "I chose the wrong channel and role according to the email I received. Do I need to change them?",
+    "answer": "The channel and role you have chosen are actually perfect and correct. There is no need to change them.",
+    "source": "20260307_0926_transcript_0081"
+  },
+  {
+    "question": "I joined the Aksian channel. What is the next process?",
+    "answer": "You can hover over the website for information. The guidelines about upcoming activities will be posted on the announcements channel. For now, you can proceed with the ViBe course until further instructions are provided.",
+    "source": "20260307_0926_transcript_0081"
+  },
+  {
+    "question": "My name was removed from the dashboard and my HP decreased in VIBe week 4 despite completing 99.90% of the course. After the deadline, my HP dropped to -10%. Can this be fixed so I can proceed with internship?",
+    "answer": "The issue has been escalated and your HP has been reverted. It may take some time for the changes to reflect on the dashboard. Your name should reappear on the dashboard once the system updates.",
+    "source": "20260307_0930_transcript_0322"
+  },
+  {
+    "question": "Why were my health points reduced by 10 even though I completed my vibe course yesterday?",
+    "answer": "This appears to be a technical issue with the system not properly marking content as completed. The instructor will consider this situation and account for the completion that may not have been registered correctly in the system.",
+    "source": "20260307_0926_transcript_0036"
+  },
+  {
+    "question": "I accidentally submitted my LinkedIn Post Activity under the wrong activity category (A1 instead of A2). Can you help me reset the duplicate submission?",
+    "answer": "The submission will not be reverted. While the A1 activity was not officially announced, if you have added a display picture to Discord, you are eligible for the House Points. Therefore, the duplicate submission will remain as is.",
+    "source": "20260307_0929_transcript_0259"
+  },
+  {
+    "question": "Should I fill out the form again with my Discord display picture screenshot, or is it not needed since I already submitted?",
+    "answer": "Yes, you should fill out the form as requested.",
+    "source": "20260307_0929_transcript_0259"
+  },
+  {
+    "question": "Can I do case studies while progressing through my MERN lectures, or do I have to finish all the video lectures first?",
+    "answer": "You can proceed with both the video course and case studies in parallel. However, you should be aware of the deadlines that need to be completed for each component.",
+    "source": "20260307_0926_transcript_0082"
+  },
+  {
+    "question": "Can I submit the consent form by tomorrow?",
+    "answer": "Yes, you should submit the consent form at the earliest possible time. Submitting it by today evening would be acceptable.",
+    "source": "20260307_0930_transcript_0324"
+  },
+  {
+    "question": "I'm enrolled in both RSAians and AKSians cohorts but haven't been able to start until March 15th due to some reasons. What should I do?",
+    "answer": "Only one enrollment is allowed per student. Since you're currently dealing with academic commitments and might miss milestone deadlines, it's recommended that you discontinue from the current cohort and rejoin in any of the upcoming cohorts after your commitments are completed. Please wait for further announcements regarding the discontinuation process.",
+    "source": "20260307_0931_transcript_0367"
+  },
+  {
+    "question": "Are there specific milestone deadlines I need to be aware of?",
+    "answer": "Yes, there are milestone deadlines that must be followed during the internship. Failing to meet these milestones might lead to discontinuation from the program. You can check the specific milestone details and deadlines mentioned on the website.",
+    "source": "20260307_0931_transcript_0367"
+  },
+  {
+    "question": "I'm unable to access Quiz 12 in the ViBe platform and getting a 'Loading Quiz..' error. How can I fix this?",
+    "answer": "If you're experiencing loading issues with quizzes in the ViBe platform, try these troubleshooting steps: 1) Log out and log back into your account, 2) Clear your browser cache and browsing data including cookies and cached files, 3) Try using a different browser like Firefox or Microsoft Edge, 4) Temporarily disable any YouTube ad-blocker extensions, 5) Connect through a VPN to test if it's a network issue, and 6) Try using a different internet connection or mobile hotspot. Test each step individually to identify what resolves the issue. If the problem persists, contact support as there may be a platform issue that needs to be fixed on the backend.",
+    "source": "20260307_0927_transcript_0162"
+  },
+  {
+    "question": "Will live sessions be aligned with our cohort or are they shared across cohorts?",
+    "answer": "Live sessions are organized across all cohorts, not aligned with individual cohorts. The live session recordings will be made available as a playlist on the website soon as they are currently in progress.",
+    "source": "20260307_0928_transcript_0224"
+  },
+  {
+    "question": "When will the code used in video sessions be uploaded to GitHub for revision?",
+    "answer": "Once the GitHub repository is updated with the video session codes, it will be added to the announcements section for students to access.",
+    "source": "20260307_0928_transcript_0224"
+  },
+  {
+    "question": "What are the expected working hours during the final two weeks of the internship project?",
+    "answer": "The internship is a self-paced course with deadlines in place, so there are no specific time restrictions or scheduled working hours. You can complete the project whenever you're available and work on it at any time that suits your schedule. During the final weeks, you will be working on final case studies and endorsements, for which you can refer to the website for clarification.",
+    "source": "20260307_0926_transcript_0083"
+  },
+  {
+    "question": "The videos and quizzes are not in the right order - quizzes appear before their related video segments. How can this be fixed?",
+    "answer": "For content ordering issues like this, you should raise a submit flag directly in ViBe at the specific video content location where the problem occurs. This will allow the technical team to review and make the necessary changes to correct the sequence. If similar issues arise in the future, use the submit flag feature in ViBe for faster resolution by the tech team.",
+    "source": "20260307_0931_transcript_0368"
+  },
+  {
+    "question": "What should I do if videos are still marked as incomplete even though I've finished watching them?",
+    "answer": "Go to your dashboard and refresh the page. This should resolve the issue and properly mark the videos as complete. If the problem persists, contact support with your registered email ID and cohort name.",
+    "source": "20260307_0928_transcript_0226"
+  },
+  {
+    "question": "Why did a quiz question accept '2 online' as the correct answer when the screenshot clearly shows 4 outputs are online?",
+    "answer": "The instructor acknowledged this as an issue that needs to be investigated. There appears to be a discrepancy between what the student can see in their screenshot (4 online outputs) and what the quiz system is accepting as the correct answer (2 online outputs). This suggests there may be a technical problem with either the quiz question or the display of the system status.",
+    "source": "20260307_0927_transcript_0164"
+  },
+  {
+    "question": "I registered for the course but cannot access it and am not enrolled. What should I do?",
+    "answer": "If you are unable to access the course despite registration, this may be due to a pending approval process. Contact your instructor with your email ID and cohort name so they can verify your registration status and manually approve your enrollment if needed.",
+    "source": "20260307_0929_transcript_0266"
+  },
+  {
+    "question": "There seems to be confusion about Activity 1 - the announcement mentions changing Discord profile picture, but the website shows LinkedIn post as the first activity. Also, I don't see where to upload screenshot proof for the Discord profile picture change. Can you clarify this?",
+    "answer": "This issue has been escalated and acknowledged. You don't need to submit proof or upload screenshots for the Discord profile picture activity. Simply mark the activity as completed in the form. The system operates on trust that if you've filled out the form, you have completed the activity correctly.",
+    "source": "20260307_0929_transcript_0262"
+  },
+  {
+    "question": "If the formal Discord profile photo is Activity 1, what activity number is the LinkedIn post?",
+    "answer": "The activity numbers and details are clearly mentioned on the website. You should refer to the website to find the correct activity number for the LinkedIn post.",
+    "source": "20260307_0929_transcript_0262"
+  },
+  {
+    "question": "Is it mandatory to fill the attendance form every day for dijkstrains batch students from the internship offer letter?",
+    "answer": "Yes, the attendance form must be filled even after attendance was made non-compulsory. This form is required for reference by the NPTEL Internship team, as clearly mentioned in the FAQ.",
+    "source": "20260307_0926_transcript_0042"
+  },
+  {
+    "question": "What should I do if I haven't been filling the attendance form since the announcement that attendance is not compulsory? Will this affect my internship completion or certificate?",
+    "answer": "You need to contact the NPTEL Internship team who sent you the offer letter to address this issue. The attendance form should have been filled daily except Sundays, even though attendance requirements were relaxed.",
+    "source": "20260307_0926_transcript_0042"
+  },
+  {
+    "question": "Are standup meetings and live sessions still compulsory as mentioned in the FAQ, or are they not compulsory as announced in the standup meeting?",
+    "answer": "Standup meetings and live sessions are not compulsory, as announced in the standup meeting. The FAQ may not have been updated to reflect this change.",
+    "source": "20260307_0926_transcript_0042"
+  },
+  {
+    "question": "I missed marking my attendance twice on the NPTEL attendance link. Since only 1 leave was allowed, will I be removed or discontinued from the cohort?",
+    "answer": "You can continue in the internship despite missing attendance twice.",
+    "source": "20260307_0926_transcript_0084"
+  },
+  {
+    "question": "Why does my leaderboard show 100% completion but my dashboard shows 99.80% with 1004/1006 items completed?",
+    "answer": "This discrepancy is caused by a mismatch in ViBe due to penalty scores. Despite the dashboard showing incomplete progress, your course will be considered as completed.",
+    "source": "20260307_0926_transcript_0043"
+  },
+  {
+    "question": "Video 11 of 'Configuring Typescript for Real Projects' is stuck in a loop at 14:58 and won't finish. How can I resolve this issue?",
+    "answer": "Technical issues with videos getting stuck in loops can typically be resolved by the support team. Contact the instructor or technical support team, and they will address the video playback issue on the backend to restore normal functionality.",
+    "source": "20260307_0931_transcript_0369"
+  },
+  {
+    "question": "My health points were deducted even though I submitted my case studies before the deadline. Can this be reviewed?",
+    "answer": "Health point deductions occur when submission requirements are not fully met by the specified deadlines. The system tracks cumulative requirements - for example, by Week 3 deadline, you need a total of 30 case studies submitted. If the required number isn't met within the deadline, it's considered a missed deadline and HP is reduced according to policy. If you believe there was a technical issue with your submissions, you should provide your details (name, cohort, submission email) and the issue can be escalated to the team for review. You may be asked to resubmit missing case studies and track your progress carefully.",
+    "source": "20260307_0930_transcript_0329"
+  },
+  {
+    "question": "How often are live sessions conducted in a week and what topics are currently being covered?",
+    "answer": "To find information about live session frequency and current topics being covered, you need to access your cohort-specific webpage. Click on your cohort name from the landing page, which will redirect you to a page containing the live session details and schedule.",
+    "source": "20260307_0928_transcript_0233"
+  },
+  {
+    "question": "Where can I find the webpage with live session details for my cohort?",
+    "answer": "You can find your cohort's live session details by clicking on your cohort name on the landing page. This will redirect you to your cohort-specific webpage that contains the live session schedule and information.",
+    "source": "20260307_0928_transcript_0233"
+  },
+  {
+    "question": "I have completed the JavaScript section completely but it's still showing 89/90 completed. What should I do?",
+    "answer": "This is a glitch in the platform. You can proceed with the course despite the incorrect completion count being displayed.",
+    "source": "20260307_0928_transcript_0234"
+  },
+  {
+    "question": "How can I become a volunteer to help other students?",
+    "answer": "You can request to join the volunteer group by expressing your interest in helping other students. The instructors will consider your request and may accept you as a volunteer. In the meantime, you can start helping your peers in the discussion channels to demonstrate your willingness to assist others.",
+    "source": "20260307_0931_transcript_0370"
+  },
+  {
+    "question": "I am not able to open quizzes in the Javascript module even though I have completed the module wholly. How can this be fixed?",
+    "answer": "This appears to be a technical issue that can be resolved by the instructor on the backend. Contact your instructor to have them check and fix the quiz access permissions for your completed Javascript module.",
+    "source": "20260307_0927_transcript_0169"
+  },
+  {
+    "question": "I registered for RSAians cohort but didn't get access to the course on ViBe portal. What should I do?",
+    "answer": "For RSAians cohort, only IITM BS official student IDs are allowed for ViBe portal access. You need to register using your IITM BS ID (format: xxxxx.study.iitm.ac.in) instead of a personal email address. Simply re-register with your official IITM BS student ID and your registration will be accepted.",
+    "source": "20260307_0927_transcript_0166"
+  },
+  {
+    "question": "Can I change my email ID after initial registration?",
+    "answer": "Yes, you can change your ID. Simply register again using your IITM BS official student ID and your registration will be accepted.",
+    "source": "20260307_0927_transcript_0166"
+  },
+  {
+    "question": "I used my personal Gmail ID during Discord server registration. Will that be an issue?",
+    "answer": "Personal email ID will work on Discord only if you have a professional display picture and full name. However, for ViBe portal access, you must use your official college ID (IITM BS student ID).",
+    "source": "20260307_0927_transcript_0166"
+  },
+  {
+    "question": "I enrolled and registered in Programming in Java but couldn't register on JOC. Is there any other cohort for it, or how will I get the certificate of internship?",
+    "answer": "To continue with the internship and receive the certificate, it is essential that you need to be a part of NPTEL courses offered by Prof. Sudarshan Iyengar. You must register for the appropriate NPTEL course to be eligible for the internship program.",
+    "source": "20260307_0929_transcript_0288"
+  },
+  {
+    "question": "I completed my Vibe lecture with 100% completion and see a 10% increase in individual HP, but why haven't the health points been added to my total HP?",
+    "answer": "Health points may take some time to be added to your total HP after completing a lecture. The system processes these updates with a delay, so you should wait for the points to be reflected in your total HP. If the issue persists, it can be escalated for manual resolution.",
+    "source": "20260307_0930_transcript_0333"
+  },
+  {
+    "question": "I enrolled in the course but it's showing I'm not enrolled anymore and I've lost my progress. How can this be resolved?",
+    "answer": "This issue can occur when you have registered twice with different names, creating duplicate accounts. The instructor can identify and remove the duplicate account, then ask you to logout and login again. Your progress should be restored - in this case, the student's 26% progress was successfully recovered after removing the duplicate account.",
+    "source": "20260307_0929_transcript_0268"
+  },
+  {
+    "question": "Can you delete my duplicate account so I can access my original account with the correct name?",
+    "answer": "Yes, duplicate accounts can be deleted by the instructor. After identifying which account is the duplicate, the instructor will remove it and ask you to logout and login again to access your original account with the correct name and restored progress.",
+    "source": "20260307_0929_transcript_0268"
+  },
+  {
+    "question": "How do I submit questions or issues I find with case studies?",
+    "answer": "If there are logical errors or issues in the case studies, you can mention them in the support channels. For discussions with peers, you can use the chit chat channels.",
+    "source": "20260307_0930_transcript_0330"
+  },
+  {
+    "question": "There are errors in Case Study #19 for TypeScript - the rebind and resolve methods don't work with TypeDI, and using interfaces doesn't compile properly. Can these issues be fixed?",
+    "answer": "The team has been notified and will be correcting the case studies. The specific issues identified include: rebind and resolve methods not being recognized in TypeDI (requiring the use of set and get instead), and interfaces not running during compilation (requiring abstract classes to be used instead). These corrections will be made to improve the case study materials.",
+    "source": "20260307_0930_transcript_0330"
+  },
+  {
+    "question": "For activity A2, do I need to fill out the completion form again when posting my second week's experience on LinkedIn?",
+    "answer": "No, the completion form for activity A2 was only required for week 1. You do not need to fill it out again for your second week's experience.",
+    "source": "20260307_0931_transcript_0377"
+  },
+  {
+    "question": "I am unable to access the quiz and it's hindering my progress in the course. How can this be resolved?",
+    "answer": "Try accessing the quiz again as the technical issue should now be resolved. If you continue to experience problems, contact your instructor for further assistance.",
+    "source": "20260307_0927_transcript_0171"
+  },
+  {
+    "question": "I accidentally entered my name incorrectly in the consent form. Can I submit the form again with the correct name?",
+    "answer": "Yes, you can submit the consent form again with the correct name if you made an error in your initial submission.",
+    "source": "20260307_0931_transcript_0379"
+  },
+  {
+    "question": "I have been facing issues with ViBe for teaching purposes. Can you help me resolve this?",
+    "answer": "Your ViBe issue has been acknowledged by the support team and will be resolved soon. The instructors have seen your ticket and are working to address the technical problems you're experiencing with ViBe for your teaching activities.",
+    "source": "20260307_0926_transcript_0087"
+  },
+  {
+    "question": "The course is not showing during registration. What should I do?",
+    "answer": "Try changing your network connection. This appears to be a network-specific issue where certain networks (like Jio) may not display the course properly, while others (like Vi) work correctly. If changing networks resolves the issue, you can proceed with registration using the working network.",
+    "source": "20260307_0926_transcript_0046"
+  },
+  {
+    "question": "Should I enroll in multiple courses if I'm having registration issues?",
+    "answer": "No, you should not enroll in multiple courses. Focus on resolving the registration issue with your intended course first.",
+    "source": "20260307_0926_transcript_0046"
+  },
+  {
+    "question": "I registered on Vibe 3 days ago but still can't access the modules. What should I do?",
+    "answer": "To resolve module access issues after registration, you should first ensure you have registered and logged in properly, then try to access the modules from there. If you continue experiencing problems, contact support with your cohort name and provide a screenshot of the issue for further assistance.",
+    "source": "20260307_0929_transcript_0306"
+  },
+  {
+    "question": "I mislabeled my LinkedIn post activity completion as 'A1' instead of 'A2'. Is this correct or do I need to resubmit?",
+    "answer": "Using 'A1' for your LinkedIn post activity completion is correct. Activities are released in order, so LinkedIn is designated as A1. You can view your HP percentage awarded in the individual section, and deadlines are mentioned in the corresponding column on the dashboard.",
+    "source": "20260307_0928_transcript_0238"
+  },
+  {
+    "question": "I'm having a problem with the quiz - what should I do?",
+    "answer": "The issue has been resolved. Please try the following steps: log out of your account, clear your browser cache, and then log back in to retry the quiz. If you continue to experience problems after following these steps, please share your email ID, cohort name, and a screenshot of any error messages you receive.",
+    "source": "20260307_0927_transcript_0175"
+  },
+  {
+    "question": "I'm enrolled in the IITM BS RSAians Vinternship batch and also received a mail about AKSians Vinternship batch eligibility. Are these different batches and which one should I follow for internship confirmation?",
+    "answer": "Since you're already part of the RSAians batch, you should proceed with that batch and continue with your ViBe progress.",
+    "source": "20260307_0926_transcript_0088"
+  },
+  {
+    "question": "Will I receive an internship offer letter after completing 20% of the RSAians batch?",
+    "answer": "Information about the internship offer letter will be communicated in due time through announcements. For now, continue with your ViBe progress.",
+    "source": "20260307_0926_transcript_0088"
+  },
+  {
+    "question": "I submitted 18 case studies but my score is still low and my health points haven't updated. What happened?",
+    "answer": "When you experience issues with case study scores not updating or health points not reflecting your submissions, you should provide your email ID, cohort name, and submission timing details to the support team. The technical team will investigate and resolve the scoring discrepancy for you.",
+    "source": "20260307_0929_transcript_0310"
+  },
+  {
+    "question": "After completing the MERN Developer Sprint course, can I directly start with case study or internship?",
+    "answer": "Yes, you can directly start working on the case study exercises after completing the course. You should refer to the website for more details, and the submission forms will soon be live on the website.",
+    "source": "20260307_0926_transcript_0047"
+  },
+  {
+    "question": "Where can I find the case study details and information on the website?",
+    "answer": "You can find the case study details in the header section of the website. Look for it in the obvious locations on the main navigation.",
+    "source": "20260307_0926_transcript_0047"
+  },
+  {
+    "question": "Where do I submit the case study?",
+    "answer": "You can submit the case study through the website's cohort-specific page. Look for the submission form in the 'forms and links' section of your cohort page.",
+    "source": "20260307_0926_transcript_0047"
+  },
+  {
+    "question": "I am a working professional, not currently a college student. What should I enter in the 'Institute Name' and 'College/University Name' fields on the forms?",
+    "answer": "As a working professional who is not currently enrolled in college, you should mention the college or university from which you have graduated. Use your most recent educational institution's details for these fields on the forms.",
+    "source": "20260307_0930_transcript_0339"
+  },
+  {
+    "question": "What should I do if the ViBe platform is lagging and not playing videos or opening quizzes?",
+    "answer": "If you experience lagging issues with the ViBe platform where videos won't play or quizzes won't load, try refreshing the page and attempting to access the content again. The technical team can also investigate platform issues when they occur. These types of problems are typically temporary and resolve after refreshing or waiting a brief moment.",
+    "source": "20260307_0928_transcript_0235"
+  },
+  {
+    "question": "Why is my video marked as completed but the quiz is not opening?",
+    "answer": "Sometimes there can be a delay between video completion status and quiz accessibility. If a video shows as completed but the quiz isn't loading, try refreshing the page and attempting to access the quiz again. The platform may need a moment to sync the completion status with the next available content.",
+    "source": "20260307_0928_transcript_0235"
+  },
+  {
+    "question": "Can I transfer my progress from the VIBE MERN stack course to a new internship course when switching from my student email to personal email?",
+    "answer": "No, you cannot transfer progress from the VIBE MERN stack course to the new internship course. Since it is a new internship course, you will need to start from the beginning regardless of your previous progress.",
+    "source": "20260307_0926_transcript_0048"
+  },
+  {
+    "question": "I'm unable to submit a .js file in the case study form submission. What should I do?",
+    "answer": "If you're having trouble submitting a .js file directly, you can zip the file first and then submit it. This workaround should resolve the upload issue and is an acceptable solution for submitting your case study.",
+    "source": "20260307_0927_transcript_0181"
+  },
+  {
+    "question": "Is it okay to convert files into zip format and submit them whenever I face file upload issues?",
+    "answer": "Yes, it is acceptable to zip files and submit them whenever you encounter file upload issues with specific file types.",
+    "source": "20260307_0927_transcript_0181"
+  },
+  {
+    "question": "I submitted my case studies in docx format instead of the required text file format. Is this acceptable or do I need to resubmit?",
+    "answer": "You should follow the steps mentioned in FAQ sections 8.5 and 8.6 for the proper submission format and requirements.",
+    "source": "20260307_0931_transcript_0380"
+  },
+  {
+    "question": "The FAQ says 'Multiple file submissions are not considered' - does this mean I shouldn't resubmit my case studies that were submitted in the wrong format?",
+    "answer": "The 'multiple file submissions' policy refers to submitting multiple files at once for a single submission. For each case study, you need to fill out the form again separately. You should resubmit your case studies following the correct format requirements.",
+    "source": "20260307_0931_transcript_0380"
+  },
+  {
+    "question": "I have completed 26% of the coursework before the deadline but haven't received my offer letter yet. When will I receive it?",
+    "answer": "The offer letter will be released soon as the team is currently working on it. You should continue making progress with your coursework while waiting for the offer letter to be issued.",
+    "source": "20260307_0929_transcript_0313"
+  },
+  {
+    "question": "I was removed from the Kruskalians batch dashboard due to low HP (102) during my exams, but I've now completed 85% of the Vibe Course and submitted an appeal form with no response. What should I do?",
+    "answer": "Your appeal will be processed by the team and a decision will be made regarding your batch status. In the meantime, you can continue proceeding with the course until further communication is provided.",
+    "source": "20260307_0931_transcript_0381"
+  },
+  {
+    "question": "I'm not able to view the content and start the course under 'Vinternship (IITM BS) - RSAians'. After hitting the start button, I cannot proceed. How can I fix this?",
+    "answer": "This issue appears to be related to browser permission settings. To resolve it, reset your browser's media permissions and then click Continue/Start. If the problem persists, try accessing the course using a different browser and check if that resolves the issue.",
+    "source": "20260307_0926_transcript_0050"
+  },
+  {
+    "question": "I'm unable to access the course - it shows I'm registered but not enrolled. How can I fix this?",
+    "answer": "This appears to be an enrollment issue that requires instructor assistance. Contact your instructor with screenshots showing the registration status but missing enrollment access. The instructor can manually resolve the enrollment problem from their end.",
+    "source": "20260307_0927_transcript_0182"
+  },
+  {
+    "question": "How do I join a Zoom meeting when it asks me to sign in and provide organization details after entering the meeting ID and passcode?",
+    "answer": "To join a scheduled Zoom session, you need to register first using the registration link or information provided in the meeting confirmation email you received from Zoom. Look for registration details in that email and complete the registration process before joining the meeting at the scheduled time.",
+    "source": "20260307_0926_transcript_0089"
+  },
+  {
+    "question": "I received a meeting link via email but no registration link. How do I register for the Zoom meeting?",
+    "answer": "The registration option should be available within the same email you received from Zoom for meeting confirmation. Check that email carefully as the registration process is typically included in the meeting confirmation email itself. Register using the information provided in that email.",
+    "source": "20260307_0926_transcript_0089"
+  },
+  {
+    "question": "Can I change my name on the ViBe platform if it appears as my roll number instead of my actual name?",
+    "answer": "Yes, you can change your name on the ViBe platform if there is an edit option available in the profile section. The platform may automatically take your name from your college Gmail account, which sometimes includes your roll number. However, this won't create any identification issues, so you can either edit it to your preferred name or leave it as is - both options are acceptable and won't affect your progress or cause any problems.",
+    "source": "20260307_0926_transcript_0095"
+  },
+  {
+    "question": "I'm unable to access Quiz 1 from the TypeScript Class Architecture OOPs module and getting a 'cannot read undefined id' error. What should I do?",
+    "answer": "This appears to be a technical issue that requires investigation by the support team. You should provide your cohort information, email ID, and detailed explanation of which specific quiz is not loading. The technical team will need some time to resolve the issue, but your progress will remain safe and unaffected during the resolution process.",
+    "source": "20260307_0928_transcript_0242"
+  },
+  {
+    "question": "Why am I seeing 'no active courses' in my dashboard?",
+    "answer": "This issue may be caused by system changes or maintenance activities occurring on the platform. The technical team needs time to investigate and resolve the issue. Your course progress remains safe and unaffected during this time, and the issue should be resolved as soon as possible.",
+    "source": "20260307_0928_transcript_0242"
+  },
+  {
+    "question": "Can I get an extension for course milestones due to university semester exams?",
+    "answer": "Your issue has been escalated for review. In the meantime, try to complete as many milestones as possible while waiting for an update on your resolution.",
+    "source": "20260307_0930_transcript_0356"
+  },
+  {
+    "question": "Why can't I see my name in the HP (ranking) list even though I can access my dashboard?",
+    "answer": "You should refer to the website under your cohort name to find the dashboard. If your name doesn't appear initially, please wait for the page to fully load as it contains a lot of data and may take some time to display completely.",
+    "source": "20260307_0930_transcript_0356"
+  },
+  {
+    "question": "I can't change my email ID to the official IITM email ID in the registration form. How can I fix this?",
+    "answer": "To resolve this issue, you need to logout of your current session and then login again using your student email ID. This should allow you to update your email to the official IITM email ID in the registration form.",
+    "source": "20260307_0926_transcript_0051"
+  },
+  {
+    "question": "I am unable to access the quiz and getting a permission error message. What should I do?",
+    "answer": "If you receive a \"You do not have permission to do so\" error when trying to access a quiz, contact your instructor immediately. They can investigate the permission settings and resolve the access issue for you. Try refreshing the page or logging out and back in, but if the problem persists, instructor intervention is required to fix the permissions.",
+    "source": "20260307_0928_transcript_0245"
+  },
+  {
+    "question": "Why is my HP increment for completed assignments A1 and A2 not showing in the dashboard even though I submitted the Google forms?",
+    "answer": "If your HP increment for completed assignments is not reflected in the dashboard despite submitting the required Google forms, this is a technical issue that needs to be escalated to the support team. You should provide your cohort name and email ID to the instructor so they can forward your case to the technical team for resolution.",
+    "source": "20260307_0929_transcript_0315"
+  },
+  {
+    "question": "When I refresh the page, the TypeScript introduction section from Quiz 8-10 is not marked as complete even though I have completed them multiple times. How can I fix this?",
+    "answer": "Try refreshing the page again. This should resolve the issue and properly show the quizzes as completed.",
+    "source": "20260307_0928_transcript_0247"
+  },
+  {
+    "question": "Why is the slot booking Google form no longer accepting requests?",
+    "answer": "The slot booking has been temporarily closed by the instructors. An announcement will be made if it is reopened. You can continue with the course without slot booking in the meantime.",
+    "source": "20260307_0926_transcript_0101"
+  },
+  {
+    "question": "My health points were deducted even though I submitted my case study before the deadline. How can this be resolved?",
+    "answer": "If you submitted your case study before the deadline with your registered email ID, this appears to be a system error. The issue should be escalated to the concerned team for review. Your health points will be corrected and updated on the dashboard, though it may take some time for the changes to be reflected in the system.",
+    "source": "20260307_0928_transcript_0037"
+  },
+  {
+    "question": "I have enrolled in the NPTEL DM course but haven't registered for the exam. Am I eligible for the internship and offer letter, and will I get a certificate for this internship without registering for the NPTEL exam?",
+    "answer": "You should continue with the internship milestones as an official announcement regarding this matter will be released soon. However, you need to enroll in the same course from NPTEL+ as giving the exam is mandatory for the program.",
+    "source": "20260307_0931_transcript_0261"
+  },
+  {
+    "question": "I have completed all registrations but my course is not visible in my dashboard. What should I do?",
+    "answer": "First, verify that your enrollment is properly registered in the system. Then try logging in using a laptop to view the course. If the course is still not visible, the issue is likely network-related, so try using a different internet connection or network to access the platform.",
+    "source": "20260307_0926_transcript_0052"
+  },
+  {
+    "question": "I'm getting a 'Failed to fetch' error when trying to login on my laptop. How can I fix this?",
+    "answer": "Check your internet connection and ensure that you are entering the correct email address and password. If the problem persists, try using a different network connection, as this error is typically network-related.",
+    "source": "20260307_0926_transcript_0052"
+  },
+  {
+    "question": "Will missing live sessions at 6:45 PM affect my internship progress?",
+    "answer": "No, missing the live sessions will not affect your internship progress. The 6:45 PM session is the inaugural session and attendance is not compulsory. You can get the key information from your peers in the Discord chat if you miss the sessions.",
+    "source": "20260307_0930_transcript_0231"
+  },
+  {
+    "question": "I completed 20% by February 24th and 25% by February 26th, but enrolled on February 18th. Is this progress acceptable?",
+    "answer": "Yes, this progress is acceptable. While the standard requirement is 25% completion in one week, your completion of 20% in one week followed by reaching 25% shortly after has been approved and there are no issues with your progress timeline.",
+    "source": "20260307_0930_transcript_0231"
+  },
+  {
+    "question": "I completed Joy of Computing Python NPTEL course last semester but enrolled in different courses this semester. Will I still get the certificate for the internship?",
+    "answer": "Your query has been escalated to the concerned team and is under review. An official announcement will be released soon regarding this matter. In the meantime, continue with your ViBe course progress and you will not be eliminated from this opportunity.",
+    "source": "20260307_0930_transcript_0223"
+  },
+  {
+    "question": "How do I know if I'm eligible for the completion certificate?",
+    "answer": "Check if your name appears on the dashboard. If your name is listed there, continue completing the milestones to get the certificate. As long as your name is on the dashboard, you can earn the certificate by fulfilling the required milestones.",
+    "source": "20260307_0930_transcript_0223"
+  },
+  {
+    "question": "I didn't receive the viBe platform joining link. How can I get access?",
+    "answer": "If you have registered at the required link, you can continue accessing the platform. If you're having trouble, the instructor can check your registration status using your email ID and approve it if needed. Make sure to provide your correct email ID for verification.",
+    "source": "20260307_0929_transcript_0177"
+  },
+  {
+    "question": "Why can I only see videos in the UI but not the upcoming quizzes?",
+    "answer": "Quizzes are not displayed in the main UI interface, but they should render and appear after each video. There have been recent UI changes being implemented, but the functionality should work normally otherwise.",
+    "source": "20260307_0929_transcript_0177"
+  },
+  {
+    "question": "How do I withdraw from an internship before offer letters are issued?",
+    "answer": "You need to send a formal email to DLED.ac.in stating your reason for withdrawal and follow the steps mentioned in FAQ 6.6. The process remains the same even if offer letters haven't been issued yet.",
+    "source": "20260307_0931_transcript_0272"
+  },
+  {
+    "question": "How can I stay informed about upcoming internship cohorts after withdrawing?",
+    "answer": "This query was escalated to the concerned team, but no specific process for staying informed about future cohorts was provided in the conversation. You would need to raise a separate ticket for clarification on this matter.",
+    "source": "20260307_0931_transcript_0272"
+  },
+  {
+    "question": "Why are courses failing to load on Vibe after login and showing 'failed to fetch course' error?",
+    "answer": "This issue is typically caused by network connectivity problems. First, try doing a hard refresh of your webpage and refer to the FAQ section. If the problem persists, try switching to a different network connection, as this is often a network-related issue that can be resolved by changing your internet connection.",
+    "source": "20260307_0926_transcript_0053"
+  },
+  {
+    "question": "My name is not appearing on the leaderboard despite completing all deadlines and earning health points. What should I do?",
+    "answer": "This issue occurs when ViBe progress is not properly reflected in the system dashboard. The leaderboard updates can take 6-12 hours to run fully and reflect names properly. If your name doesn't appear despite completing requirements, the issue will be escalated to the technical team for resolution. Once resolved, it may take some time for your name to appear on the leaderboard.",
+    "source": "20260307_0927_transcript_0026"
+  },
+  {
+    "question": "Why am I not receiving emails for daily standup sessions?",
+    "answer": "When your name is not properly reflected in the system dashboard, automated emails for standup sessions are not sent out. This is directly linked to leaderboard visibility issues. Once your name is updated in the dashboard system, you will automatically start receiving standup session emails again. The dashboard updates can take 6-12 hours to process completely.",
+    "source": "20260307_0927_transcript_0026"
+  },
+  {
+    "question": "Why didn't I receive the Zoom meeting link for the stand-up session?",
+    "answer": "If you don't receive the Zoom meeting link for stand-up sessions, it may be because your ViBe progress was below the required threshold after the deadline, or you may have missed previous deadlines. Missing deadlines can affect access to meeting links and other program resources.",
+    "source": "20260307_0927_transcript_0086"
+  },
+  {
+    "question": "Has my internship been discontinued?",
+    "answer": "Yes, the internship has been discontinued. As per program requirements, participants were expected to complete 50% of VIBE within the given deadline. Since this milestone was not met, the internship was discontinued. However, you are encouraged to apply again for the upcoming cohort and would be welcome to participate in future cohorts.",
+    "source": "20260307_0927_transcript_0086"
+  },
+  {
+    "question": "Why is my completed module still showing incomplete items?",
+    "answer": "This can happen due to a system synchronization issue. Try refreshing the page and rewatching the specific video or retaking the quiz that shows as incomplete. If the progress updates partially but not completely, perform a hard reload, logout, and then login again. This should resolve the completion tracking issue and update your progress to 100%.",
+    "source": "20260307_0927_transcript_0187"
+  },
+  {
+    "question": "What should I do if I get an error when trying to watch a video again?",
+    "answer": "First, refresh the page and try again. If you're still getting an error or being redirected to earlier modules when trying to access your current position, try refreshing again or logging out and logging back in. These are typically temporary system issues that resolve with a page refresh or re-authentication.",
+    "source": "20260307_0927_transcript_0187"
+  },
+  {
+    "question": "Why can't I return to the module I was working on after fixing completion issues?",
+    "answer": "After resolving completion tracking issues through logout/login or hard refresh, you may temporarily lose your current position in the course. Try refreshing the page and manually navigating to the specific module and section you were working on. If you continue to get redirected to earlier modules, refresh again or contact support, as this is usually a temporary system issue.",
+    "source": "20260307_0927_transcript_0187"
+  },
+  {
+    "question": "What is the deadline for joining the internship?",
+    "answer": "The internship joining deadline is mentioned on the website. Please refer to the website for the specific date.",
+    "source": "20260307_0926_transcript_0055"
+  },
+  {
+    "question": "My platform registration request is still pending for approval. What should I do?",
+    "answer": "Please check your registration status again. If the issue persists after checking, contact support with an update on the current status. The technical team will review and resolve pending registration approvals.",
+    "source": "20260307_0930_transcript_0260"
+  },
+  {
+    "question": "I was wrongly deducted 7.5% HP for the Vibe 75% milestone deadline. The portal was down on the deadline night and I wasn't able to submit on time. Can you restore my milestone mark?",
+    "answer": "Your query has been escalated and the HP deduction will be reverted soon. For future support queries, please use the support desk in Discord rather than emailing support.",
+    "source": "20260307_0928_transcript_0112"
+  },
+  {
+    "question": "My HP deduction was reverted but my total HP calculation still appears incorrect. Based on my completed milestones, my HP should be 146.96 but it's showing a lower amount. Can you manually correct this?",
+    "answer": "Your issue has been escalated to the concerned team and has been fixed. The dashboard may take some time to update with the corrected HP values.",
+    "source": "20260307_0928_transcript_0112"
+  },
+  {
+    "question": "I completed 20% of the ViBe progress but haven't received my offer letter yet. When will I get it?",
+    "answer": "Offer letters will be circulated to all students who have completed 20% of ViBe progress. You can expect to receive your offer letter by next week. In the meantime, continue progressing with your ViBe coursework.",
+    "source": "20260307_0928_transcript_0133"
+  },
+  {
+    "question": "If I complete my slot that runs from 11 PM to 12 AM, how will I be able to book the next day's slot since registration ends at 11:59 PM?",
+    "answer": "Slot booking has been temporarily closed. When it reopens, details will be announced. In the meantime, you can continue with the course without needing to book slots.",
+    "source": "20260307_0927_transcript_0097"
+  },
+  {
+    "question": "I'm new to the internship program. Which 20% courses do I have to complete and what are the steps?",
+    "answer": "You need to register for the MERN course on the ViBe platform and follow the milestones mentioned on the Vinternship webpage. Go through your cohort-specific dashboard and proceed according to the guidelines provided there.",
+    "source": "20260307_0929_transcript_0186"
+  },
+  {
+    "question": "When I clicked on begin registration, it says 'no form fields available'. How do I resolve this?",
+    "answer": "This appears to be a temporary issue. Try refreshing the page or waiting a moment before attempting registration again. If the problem persists, contact support with a screenshot for reference.",
+    "source": "20260307_0929_transcript_0186"
+  },
+  {
+    "question": "I'm registered now, but where can I find and watch the video lectures for the courses?",
+    "answer": "You need to register and login on the platform using your laptop or desktop. Once logged in, click on 'invites' and check if there is a course being shown. You must have an invite that you need to accept, and then you should be able to access the video lectures.",
+    "source": "20260307_0929_transcript_0186"
+  },
+  {
+    "question": "Where can I find the vicharanashala.ai link that was shared in announcements?",
+    "answer": "You can find the vicharanashala.ai link by scrolling up in the announcements section.",
+    "source": "20260307_0926_transcript_0056"
+  },
+  {
+    "question": "What is the vicharanashala.ai link for?",
+    "answer": "The vicharanashala.ai link is for registration on VIBE, which is Phase 1 of the internship program.",
+    "source": "20260307_0926_transcript_0056"
+  },
+  {
+    "question": "I accidentally clicked lesson 2 instead of lesson 1 and completed it, but now I can't access lesson 1 because it says access restricted. What should I do?",
+    "answer": "You need to watch the videos in the correct linear order. Since you watched the second video of module 1 first, you'll need to provide your cohort name and email ID to get assistance with accessing lesson 1 in the proper sequence.",
+    "source": "20260307_0928_transcript_0142"
+  },
+  {
+    "question": "If I have already completed an NPTEL course offered by Sudarshan Sir in the previous semester, am I eligible for Vintership?",
+    "answer": "Your eligibility question has been escalated and you will receive an official announcement with a solution soon. In the meantime, you can continue learning on the ViBe platform while this matter is being resolved.",
+    "source": "20260307_0929_transcript_0191"
+  },
+  {
+    "question": "I took an NPTEL course offered by Sudarshan Sir but didn't fill in the examination form. Does this affect my eligibility?",
+    "answer": "This issue has been escalated for review and an official announcement will be released soon to clarify eligibility requirements for cases where the examination form was not completed. You can continue using the ViBe platform while awaiting the official guidance.",
+    "source": "20260307_0929_transcript_0191"
+  },
+  {
+    "question": "How do I register for the Vinternship if I'm starting late?",
+    "answer": "To register for the Vinternship, you need to register on the ViBe platform using the provided registration link. Getting enrolled successfully on the ViBe platform serves as confirmation that you have been onboarded - no separate confirmation email is sent.",
+    "source": "20260307_0931_transcript_0280"
+  },
+  {
+    "question": "What should I do after registering on ViBe if I haven't received a confirmation email?",
+    "answer": "You don't need to wait for a confirmation email. Successfully enrolling on the ViBe platform is itself the confirmation that you have been onboarded. You should start completing the milestones immediately after registration.",
+    "source": "20260307_0931_transcript_0280"
+  },
+  {
+    "question": "I have started the AKSians program and watched some videos with 8% completion. When will I get my offer letter?",
+    "answer": "Please refer to the FAQ section for information about offer letter timelines and requirements.",
+    "source": "20260307_0927_transcript_0105"
+  },
+  {
+    "question": "Where can I find the FAQ and can you provide the link?",
+    "answer": "You can find the FAQ by clicking on the channel mentioned in the message. The link is available within the channel itself.",
+    "source": "20260307_0927_transcript_0105"
+  },
+  {
+    "question": "I haven't received my offer letter yet. When will I get it?",
+    "answer": "No one has received offer letters yet. An official announcement regarding offer letters will be released soon. For now, you can continue with your ViBe course and proceed with the internship.",
+    "source": "20260307_0930_transcript_0263"
+  },
+  {
+    "question": "How do I join the ViBe course?",
+    "answer": "You should refer to the provided resources which contain all the details about joining the ViBe course. You can also seek help from your peers if needed.",
+    "source": "20260307_0930_transcript_0263"
+  },
+  {
+    "question": "Is this a paid internship?",
+    "answer": "Please refer to the FAQ section which contains answers to all questions about the internship, including information about compensation.",
+    "source": "20260307_0930_transcript_0263"
+  },
+  {
+    "question": "I'm experiencing video quality issues where the resolution drops to 144p and becomes too blurry to read code. Can you add a manual resolution selector?",
+    "answer": "Currently, YouTube doesn't provide access to change video quality through external platforms, so the quality adjusts automatically based on your network connection only. The platform cannot offer manual resolution controls due to these YouTube API limitations.",
+    "source": "20260307_0931_transcript_0274"
+  },
+  {
+    "question": "Is this video quality issue happening for specific videos or the entire course?",
+    "answer": "Video quality issues can vary by content. If you're experiencing problems with certain sessions (like TypeScript) while others (like JavaScript) work fine, this is typically still related to network connectivity issues rather than specific video problems.",
+    "source": "20260307_0931_transcript_0274"
+  },
+  {
+    "question": "What troubleshooting steps can I try to fix the video quality issues?",
+    "answer": "Try the following troubleshooting steps: 1) Use a different browser (Chrome, Brave, etc.), 2) Try connecting to a different network, and 3) Clear your browser cache and try again. If these don't resolve the issue, you may need access to a network with better speed, as video quality depends on network connectivity.",
+    "source": "20260307_0931_transcript_0274"
+  },
+  {
+    "question": "What should I do if videos on ViBe platform keep rewinding and starting from the beginning repeatedly?",
+    "answer": "This is a known bug that has been reported by several students. First, submit a flag with details of the issue and attach a video if possible. Also post about the problem on the discussion channel. The technical team has been notified and will reach out to affected students to investigate and resolve this video playback issue. Standard troubleshooting steps like refreshing or logging out may not resolve this particular bug.",
+    "source": "20260307_0926_transcript_0013"
+  },
+  {
+    "question": "Is a previous semester NPTEL certificate from Sudharshan Iyengar's course valid for the current vinternship certificate requirement, or do I need to complete the current semester course?",
+    "answer": "This issue is currently being reviewed by the team. An official announcement will be released soon to clarify whether previous semester NPTEL certificates from Sudharshan Iyengar's course are valid for the current vinternship certificate requirement. In the meantime, you should continue with your ViBe progress while waiting for the official statement.",
+    "source": "20260307_0929_transcript_0193"
+  },
+  {
+    "question": "I am unable to follow the announcements channel. What should I do?",
+    "answer": "You don't need to worry about being unable to follow the announcements channel, as it's not necessary to follow it.",
+    "source": "20260307_0926_transcript_0014"
+  },
+  {
+    "question": "I have completed 21% of the course and registered 5 days ago. Am I eligible to get the offer letter, and when can I expect it?",
+    "answer": "The team is currently working on offer letters. If you have completed the required percentage, you should proceed with the course until further announcements are made. Since you mentioned completing 21% of the course, this would make you eligible for the internship milestone. For any milestone-related issues, please refer to the provided website for more detailed information.",
+    "source": "20260307_0931_transcript_0289"
+  },
+  {
+    "question": "What is the due date for completing the course on ViBe?",
+    "answer": "Please check the milestones page on the vintership website for the deadline and the flow of the internship. The milestones page contains all the relevant deadline information you need.",
+    "source": "20260307_0928_transcript_0145"
+  },
+  {
+    "question": "I haven't registered for the NPTEL exam - does that affect my internship?",
+    "answer": "Your issue has been escalated to the appropriate team and there will be an official announcement regarding NPTEL course registration requirements soon. In the meantime, you can continue with your ViBe progress until the official announcement is made.",
+    "source": "20260307_0929_transcript_0199"
+  },
+  {
+    "question": "Why hasn't my 9% increment been added to my Individual HP after 3 days?",
+    "answer": "The issue was escalated to the technical team and has been resolved. The HP increment for ViBe completion has been reverted and added to your account. You can check your individual HP page to verify the updated points.",
+    "source": "20260307_0930_transcript_0269"
+  },
+  {
+    "question": "How can I tell if the HP increment I received was from my ViBe completion or from case study completion?",
+    "answer": "The HP increment you received was specifically for your ViBe completion, not for case study completion. You can check your individual HP page for detailed information about the source of your HP points.",
+    "source": "20260307_0930_transcript_0269"
+  },
+  {
+    "question": "How can I fix video quality issues on the platform?",
+    "answer": "To resolve video quality issues, try the following troubleshooting steps: 1. Hard reload your browser, 2. Use an incognito tab to login, 3. Try a different browser. If these steps don't resolve the issue, provide screenshots of the problem along with a screenshot of your network speed for further assistance.",
+    "source": "20260307_0930_transcript_0273"
+  },
+  {
+    "question": "Where can I find the slot booking form?",
+    "answer": "The slot booking form is shared in the announcements section. Please check the announcements to access the form.",
+    "source": "20260307_0926_transcript_0059"
+  },
+  {
+    "question": "I have completed 20 percent of my course and today is the 7th day, so I will complete 25 percent by tonight. When will I get the offer letter and is this progress valid?",
+    "answer": "Your progress is valid. However, offer letters have not been released yet according to official announcements. The team is currently working on this issue and further announcements will be made upon release. In the meantime, you can proceed with the internship flow following the milestones.",
+    "source": "20260307_0931_transcript_0297"
+  },
+  {
+    "question": "My HP got reduced by 10% due to a vibe course completion glitch even though I completed it before the deadline. The course was stuck at 99.2% due to missed videos and quizzes, and I couldn't find the final quiz until after the deadline due to server issues. Can my HP be restored?",
+    "answer": "If you completed the course before the deadline and experienced HP reduction due to technical issues or server problems, your case will be considered as successfully completed and the HP reduction will be reverted. The system recognizes when technical glitches prevent timely completion despite student effort.",
+    "source": "20260307_0927_transcript_0109"
+  },
+  {
+    "question": "What happens to my current internship if I drop out of the BS Degree program and lose my student email ID? Can I continue with another email ID?",
+    "answer": "If you drop out of the IITM BS program, you will no longer be considered an IITM student and therefore cannot continue with the current internship course.",
+    "source": "20260307_0926_transcript_0057"
+  },
+  {
+    "question": "If I re-join the BS program with a different email ID, can I continue my internship progress without losing what I've already completed?",
+    "answer": "No, you cannot continue with your previous progress. You would have to restart the progress from the beginning unless there is a valid reason for discontinuation.",
+    "source": "20260307_0926_transcript_0057"
+  },
+  {
+    "question": "If I get kicked out due to course completion guidelines but then willingly re-join the program, can I continue with the same progress I had before?",
+    "answer": "No, you cannot continue with your previous progress even in this scenario.",
+    "source": "20260307_0926_transcript_0057"
+  },
+  {
+    "question": "I don't have permission to attempt a quiz and it keeps redirecting me to the video. How can I resolve this?",
+    "answer": "First, make sure to watch the video completely. The quiz will automatically appear after the video ends. Once you answer the quiz questions correctly, you will be redirected to the next video. If the issue persists after watching the video, contact technical support as there may be a system issue that needs to be resolved on the backend.",
+    "source": "20260307_0928_transcript_0150"
+  },
+  {
+    "question": "I have completed my case studies in a previous cohort. Do I have to do them again in this current cohort?",
+    "answer": "There is no official update available yet regarding whether previously completed case studies need to be repeated in the current cohort. You will be notified once more information becomes available.",
+    "source": "20260307_0926_transcript_0016"
+  },
+  {
+    "question": "I am unable to access the course videos and it just shows 'Preparing environment'. What should I do?",
+    "answer": "The instructor acknowledged the issue where course videos show 'Preparing environment' and cannot be accessed even after trying different browsers. However, no specific solution was provided in this conversation. If you continue to experience this issue, you should raise a new support ticket for technical assistance.",
+    "source": "20260307_0928_transcript_0173"
+  },
+  {
+    "question": "What should I do if I am unable to access the vibe platform?",
+    "answer": "The instructor will investigate the access issue and provide a solution. In the meantime, you should check the FAQ section which may contain troubleshooting steps for platform access problems.",
+    "source": "20260307_0926_transcript_0017"
+  },
+  {
+    "question": "Why is my registration request taking so long to be approved?",
+    "answer": "Registration requests are reviewed and processed by the administration team. While most requests are processed quickly, some may take up to 24-48 hours depending on the volume of requests. If your request has been pending for more than expected, you can raise a support ticket for assistance.",
+    "source": "20260307_0927_transcript_0110"
+  },
+  {
+    "question": "I registered with my institute email first, then with my personal email, but only the institute email registration was approved. How can I get my personal email registration approved instead?",
+    "answer": "If you have multiple registration requests with different email addresses, contact support to clarify which email address should be used for your enrollment. The support team can help ensure your preferred personal email address is properly registered and approved for access to the platform.",
+    "source": "20260307_0927_transcript_0110"
+  },
+  {
+    "question": "My HP points were deducted but haven't been reverted yet. I received an email on February 12th saying the issue was noted and HP reduction would be reverted soon, but it still hasn't happened. What should I do?",
+    "answer": "Your issue has already been noted and will be reverted soon by Sakshi. The HP points that were deducted due to backend technical issues with Vibe (which caused your progress to show 99.9% instead of 100% completion) will be restored as promised in the email you received.",
+    "source": "20260307_0927_transcript_0111"
+  },
+  {
+    "question": "How do I join and register for the internship as a new participant?",
+    "answer": "To join the internship, you should attend the inaugural session using the zoom invite link you received. You can also refer to the designated Discord channel and follow the server regulations, which include having a professional display picture and ensuring your name is visible. Additionally, you need to register using the ViBe course registration link provided. If you're new to ViBe, you must sign up first using the link, then return and click the same link again to join the cohort.",
+    "source": "20260307_0929_transcript_0215"
+  },
+  {
+    "question": "What should I do after registering for the course?",
+    "answer": "After registering for the course, you should access your course through a laptop or PC to begin your internship activities.",
+    "source": "20260307_0929_transcript_0215"
+  },
+  {
+    "question": "Is it compulsory to complete 20% of the internship tasks by the deadline if I'm just starting today?",
+    "answer": "No, you have flexibility with the deadline. The requirement to complete 20% of the internship tasks is calculated as one week from your start date of the ViBe course, not from the general deadline date.",
+    "source": "20260307_0929_transcript_0215"
+  },
+  {
+    "question": "Can I study outside my booked time slots if I want to study more than planned?",
+    "answer": "Yes, it is permitted to study outside your booked slots. However, you should ensure that you book slots for your study sessions so that your progress can be tracked and there will be a record of your progress.",
+    "source": "20260307_0926_transcript_0060"
+  },
+  {
+    "question": "Will my HP be deducted for watching content outside my booked slots?",
+    "answer": "Currently, no HP will be deducted for watching extra content outside your slots. However, this rule will be enforced starting Wednesday, and students will not receive advance notification when the rule goes into effect.",
+    "source": "20260307_0926_transcript_0060"
+  },
+  {
+    "question": "When should I book my study slots and how far in advance?",
+    "answer": "You must book your slot for the next day at least 24 hours prior. This means there should be a 24-hour gap between booking a slot and attending that slot.",
+    "source": "20260307_0926_transcript_0060"
+  },
+  {
+    "question": "When does my first week end after enrolling in the course on February 18, 2026, and when will I receive my offer letter?",
+    "answer": "Your issue has been escalated regarding the timeline. For the offer letter, an official announcement will be released soon, but no specific date can be guaranteed. Focus on completing the internship milestones in the meantime. You can track your progress through the milestones mentioned on the website.",
+    "source": "20260307_0930_transcript_0277"
+  },
+  {
+    "question": "Is there a stipend available for this internship program?",
+    "answer": "According to the FAQ for this cohort, there is no stipend provided. This is a parallel internship, so you should focus on completing the milestones outlined on the website.",
+    "source": "20260307_0930_transcript_0277"
+  },
+  {
+    "question": "What should I do if my ViBe course completion status was reset before the deadline and my HP penalty wasn't reverted despite support confirmation?",
+    "answer": "You should provide the following details to support: completion date of the ViBe course, percentage of completion, and cohort name. Also include your email ID for processing. The support team will escalate the issue and revert the HP penalty while awarding the appropriate completion bonus. The changes may take some time to reflect on your dashboard.",
+    "source": "20260307_0929_transcript_0217"
+  },
+  {
+    "question": "Will the leaderboard rank update automatically after HP corrections are made?",
+    "answer": "Yes, the leaderboard rank will update automatically after HP corrections, but it may take some time to reflect the changes.",
+    "source": "20260307_0929_transcript_0217"
+  },
+  {
+    "question": "I joined using my student email on the vibe portal, but no courses are showing up in the enroll section of my dashboard. What should I do?",
+    "answer": "You should click on the internship registration link. If you see the message 'Your registration has been received and is pending approval. Please wait for further updates,' this means your registration is currently being processed and you need to wait for approval before courses will appear in your dashboard.",
+    "source": "20260307_0926_transcript_0061"
+  },
+  {
+    "question": "How can I participate in the vinternship program?",
+    "answer": "You can start participating in the vinternship program immediately. For detailed information about participation, refer to the provided link and join the telegram channel mentioned in the video.",
+    "source": "20260307_0931_transcript_0332"
+  },
+  {
+    "question": "Can I start the vinternship now and how do I join the telegram channel?",
+    "answer": "Yes, you can start the vinternship program now. To join the telegram channel, follow the instructions shown in the video tutorial.",
+    "source": "20260307_0931_transcript_0332"
+  },
+  {
+    "question": "What should I do if my case study submission doesn't appear in the portal due to a technical glitch?",
+    "answer": "If you believe there was a technical glitch with your submission, you should raise the issue through the Discord support desk (which is the active support channel) and submit an appeal form. The support team will investigate your case, check the submission timestamps on the dashboard, and if they find your appeal genuine, they will restore your status and award the appropriate HP.",
+    "source": "20260307_0931_transcript_0301"
+  },
+  {
+    "question": "Can I submit backlog case studies along with current week tasks to meet deadlines?",
+    "answer": "Yes, it is permitted to cover backlog tasks alongside the current week's tasks. However, you must ensure that all required submissions are completed within the stipulated deadline. It's important to regularly monitor your dashboard to track your progress and ensure all required components are completed on time.",
+    "source": "20260307_0931_transcript_0301"
+  },
+  {
+    "question": "Do I need to fill an appeal form in addition to raising a support ticket for submission issues?",
+    "answer": "Yes, if you have a submission issue that affects your HP or status, you should fill out an appeal form in addition to raising the issue through support channels. The appeal form allows the team to formally review your case, and if found genuine, they will restore your HP and reinstate you in the cohort.",
+    "source": "20260307_0931_transcript_0301"
+  },
+  {
+    "question": "Why are my Health Points not updating on the Vinternship dashboard despite completing required milestones within deadlines?",
+    "answer": "It may take some time for the Health Points to reflect on the dashboard after you have completed your milestone. Please be patient while the system processes the update, as the team is actively working on it.",
+    "source": "20260307_0927_transcript_0114"
+  },
+  {
+    "question": "I registered on ViBe but can't see the content or videos for my enrolled course, and it shows 0 enrolled courses on the home page. How can I fix this?",
+    "answer": "Try accessing ViBe through a laptop or PC instead of mobile. If the issue persists after switching devices, take a screenshot of the error and share it with support for further assistance.",
+    "source": "20260307_0928_transcript_0179"
+  },
+  {
+    "question": "Why am I unable to access ViBe with my email address for the past 3 days?",
+    "answer": "There appears to be an access issue with your account that requires technical investigation. Please contact technical support with your specific email address so they can look into the ViBe access problem and restore your ability to progress in the platform.",
+    "source": "20260307_0926_transcript_0018"
+  },
+  {
+    "question": "I'm unable to join the Zoom meeting for today's inauguration. How can I resolve login issues?",
+    "answer": "To resolve Zoom login issues, follow these steps: 1. Login to Zoom using your registered email ID. 2. Join the Zoom meeting through your registered email ID. 3. If you still cannot login, you can alternatively watch the live stream on YouTube as a backup option.",
+    "source": "20260307_0929_transcript_0219"
+  },
+  {
+    "question": "I accidentally joined the wrong course cohort (Kruskalaints instead of Aksaini) that had already started on January 1st. What should I do?",
+    "answer": "Your issue has been escalated to the concerned team who will reach out to you. You can follow the withdrawal procedure outlined in FAQ number 6.6, which provides the steps to withdraw from your current cohort so you can join the correct one.",
+    "source": "20260307_0930_transcript_0284"
+  },
+  {
+    "question": "I registered on the vibe portal with my IITM-BS student email but cannot see any courses. What should I do?",
+    "answer": "If you cannot see courses after registering on the vibe portal with your IITM-BS student email, try switching to a different network first. If that doesn't work, contact support with your registered email ID so they can send you a course invite to resolve the access issue.",
+    "source": "20260307_0926_transcript_0062"
+  },
+  {
+    "question": "I completed my activities on time but got negative health points and am in an unsafe position. Why did this happen and how can it be resolved?",
+    "answer": "Health point deductions can occur even when activities are completed if required forms are not submitted by the deadline, or if there are system errors. If you believe the deduction was made in error, you should fill out an appeal form with evidence of your timely completion (such as screenshots or post copies). The support team will review your case and revert health points if the appeal is found to be genuine. Once health points are restored, you will be moved out of the unsafe zone.",
+    "source": "20260307_0930_transcript_0275"
+  },
+  {
+    "question": "If my health points are below the threshold and I'm removed from the leaderboard, will I be removed from the cohort?",
+    "answer": "Being below the health point threshold and removed from the leaderboard does put you at risk of cohort removal. However, if your health points are successfully reverted through the appeal process and your name becomes visible on the dashboard again, you can continue in the cohort. Your continuation depends on your name appearing back on the dashboard after the health point restoration.",
+    "source": "20260307_0930_transcript_0275"
+  },
+  {
+    "question": "How long does it take for reverted health points to reflect on the dashboard?",
+    "answer": "Once health points are reverted by the support team, it may take some time for the changes to reflect on the dashboard. You should monitor the dashboard to confirm when your name becomes visible again, which indicates that the health point restoration has been processed successfully.",
+    "source": "20260307_0930_transcript_0275"
+  },
+  {
+    "question": "Can I continue in the cohort or join an upcoming cohort if there are issues with my health points?",
+    "answer": "If your health points are successfully restored through the appeal process and your name becomes visible on the dashboard again, you can continue in your current cohort. The ability to continue depends on the successful resolution of your health point issues and your status being restored to a safe zone.",
+    "source": "20260307_0930_transcript_0275"
+  },
+  {
+    "question": "My name and email are not showing in the HP dashboard even though I'm enrolled in the vibe platform. What should I do?",
+    "answer": "If your name and email are not appearing in the HP dashboard after enrolling in the vibe platform, it should typically update within 24 hours of joining. If the issue persists beyond 24 hours, the support team can escalate the matter to have your HP added manually. Once resolved, you should refill your activity form using the email ID registered for Vibe and ensure you use the same email for all future Google forms.",
+    "source": "20260307_0931_transcript_0337"
+  },
+  {
+    "question": "I completed my assignments before the deadline but my HP (Health Points) percentage is not showing correctly in the dashboard. What should I do?",
+    "answer": "If you have completed your assignments before the deadline but your HP percentage is not reflecting correctly in the dashboard, you should report this issue with your registered email ID and cohort name. The technical team will investigate and resolve the issue. Note that even after the issue is resolved on the backend, the dashboard may take some additional time to update and display the correct HP percentage.",
+    "source": "20260307_0928_transcript_0180"
+  },
+  {
+    "question": "What should I do if my dashboard credentials aren't associated with my name and my email has been moved to another person?",
+    "answer": "This type of credential and dashboard issue needs to be reported to the backend team, not through the regular support channel. You should have received an email message with contact information for whom to reach out to regarding these specific types of issues. Make sure to follow the proper procedure and contact the designated backend team for resolution.",
+    "source": "20260307_0926_transcript_0019"
+  },
+  {
+    "question": "By when should I complete 20% of the ViBe course to get my offer letter?",
+    "answer": "You must complete 20% of the ViBe course within one week of starting the course to receive your offer letter.",
+    "source": "20260307_0929_transcript_0229"
+  },
+  {
+    "question": "If I joined the ViBe course on February 24th and complete 20% by February 28th, will I receive my offer letter?",
+    "answer": "Yes, if you complete 20% of the course by your deadline (February 28th, which is one week after joining on February 24th), you will receive your offer letter.",
+    "source": "20260307_0929_transcript_0229"
+  },
+  {
+    "question": "Can we start submitting case studies?",
+    "answer": "Yes, you can start submitting case studies using the forms mentioned in the cohort-specific page. You should continue with submissions as they will be counted and progress will be updated on the dashboard.",
+    "source": "20260307_0927_transcript_0115"
+  },
+  {
+    "question": "How are case studies evaluated and is there a specific structure or format required for proper evaluation?",
+    "answer": "For detailed information about case study evaluation criteria and required format/structure, please refer to the FAQ section on case studies which contains comprehensive guidelines for proper submission and evaluation.",
+    "source": "20260307_0927_transcript_0115"
+  },
+  {
+    "question": "Why are health points not being increased for A1 and A2 activities?",
+    "answer": "The instructor requested additional details about the health point issue but closed the ticket due to lack of response from the student. To resolve health point tracking problems, students should provide more specific information about the activities and the expected versus actual point increases.",
+    "source": "20260307_0931_transcript_0340"
+  },
+  {
+    "question": "Will I lose my internship opportunity if I only completed 20% of the ViBe course by the deadline due to unforeseen activities?",
+    "answer": "Missing deadlines for course activities might lead to your discontinuation from the current cohort. However, you will be given a chance to join later cohorts. Check the milestones mentioned on the website for specific deadline requirements.",
+    "source": "20260307_0930_transcript_0286"
+  },
+  {
+    "question": "Will my internship be terminated and offer letter cancelled if I completed 25% of the course just one day after the deadline due to being out of station for a competition?",
+    "answer": "You should follow the appeal procedures mentioned in the announcements. If you did not receive any appeal procedures, please proceed until further announcements are made.",
+    "source": "20260307_0930_transcript_0286"
+  },
+  {
+    "question": "What are HP points and how do they influence my internship?",
+    "answer": "For information about HP points and their influence on your internship, please refer to the specific page that will be provided to you.",
+    "source": "20260307_0930_transcript_0286"
+  },
+  {
+    "question": "Why did my Health Points decrease instead of increasing by 10% after completing 100% of my viBe course?",
+    "answer": "This was a technical error in the system. When you complete 100% of your viBe course within the deadline, you should receive a 10% Health Points increase as per guidelines. The issue has been forwarded to the technical team and resolved. Your Health Points have been reverted to the correct amount, though it may take some time to reflect on your dashboard.",
+    "source": "20260307_0928_transcript_0183"
+  },
+  {
+    "question": "Can I still do the internship if I missed my registration for the NPTEL exam?",
+    "answer": "Yes, you can still participate by enrolling yourself in the same course through NPTEL+, which provides an alternative pathway even after missing the regular NPTEL exam registration.",
+    "source": "20260307_0931_transcript_0342"
+  },
+  {
+    "question": "Why am I not able to join the general announcement group?",
+    "answer": "You don't need to follow any announcement channel. There is no requirement to join or follow the general announcement group, so this should not be a concern.",
+    "source": "20260307_0930_transcript_0287"
+  },
+  {
+    "question": "I am unable to access the ViBe platform as it shows an error while loading courses. How can I resolve this issue?",
+    "answer": "ViBe platform loading errors are typically temporary technical issues that resolve automatically. If you encounter an error while loading courses, wait a short period and try accessing the platform again. The system administrators monitor these issues and work to resolve them quickly to minimize disruption to the learning process.",
+    "source": "20260307_0926_transcript_0021"
+  },
+  {
+    "question": "I cannot find the courses on the ViBe Platform. How can I access them?",
+    "answer": "To help resolve course access issues on the ViBe Platform, please provide a screenshot of the problem you're encountering. This will help identify the specific issue and provide appropriate guidance for accessing your courses.",
+    "source": "20260307_0926_transcript_0064"
+  },
+  {
+    "question": "I'm getting an \"Access Restricted Error\" when trying to access the TypeScript module after completing JavaScript lectures on the Vibe platform. It redirects me to React instead. What should I do?",
+    "answer": "This is a known technical issue that the support team is actively working to resolve. If you encounter this access restriction error when trying to move from JavaScript to TypeScript modules, please contact support with your registered email ID for assistance. The technical team will work on resolving the access permissions issue and provide updates on the resolution.",
+    "source": "20260307_0927_transcript_0117"
+  },
+  {
+    "question": "I've completed the lecture, but the quiz page is showing an 'Access Restricted' error and I cannot proceed. What should I do?",
+    "answer": "This is typically a technical issue that requires instructor intervention. You should provide your email, cohort name, and specific details about the item you're facing issues with to the support team. The access restriction error will be resolved by the technical team, after which you should be able to access the quizzes normally.",
+    "source": "20260307_0929_transcript_0236"
+  },
+  {
+    "question": "After the access issue was fixed, the quiz pages are not showing up. Is this normal?",
+    "answer": "Yes, this is normal. The absence of visible quiz pages is a UI (user interface) change, not an error. You should still be able to access and take the quizzes even if the quiz pages are not prominently displayed in the interface.",
+    "source": "20260307_0929_transcript_0236"
+  },
+  {
+    "question": "I completed my case studies but they are not showing as updated. What should I do?",
+    "answer": "If you submitted your case studies using a personal email instead of your ViBe registered email, you need to resubmit them using your registered email address as mentioned in the FAQs. The system requires submissions to be made from the registered email for proper tracking and updates.",
+    "source": "20260307_0927_transcript_0119"
+  },
+  {
+    "question": "I completed my ViBe course before the deadline but my HP points were still deducted. How can I get my deducted HP points restored?",
+    "answer": "If you completed your ViBe course before the deadline but HP points were still deducted, you should raise a support ticket for restoration. The issue will be escalated to the concerned team and your HP points will be updated and restored.",
+    "source": "20260307_0931_transcript_0343"
+  },
+  {
+    "question": "My ViBe video is stuck on 'Preparing environment...' for over 10 minutes and won't load. I've tried hard refresh, incognito mode, and different browsers but the issue persists. What should I do?",
+    "answer": "For ViBe platform loading issues, try the following troubleshooting steps in order: 1) Perform a hard refresh and log in again, 2) Try different browsers including Firefox, 3) Update your current browser (Chrome/Edge) or Windows, 4) Check your network connection, 5) Test on a different device preferably a laptop/PC, and 6) Try using the Comet browser. If the issue involves videos showing as completed when not watched or restricted quiz access, this may indicate an account provisioning issue that requires backend investigation.",
+    "source": "20260307_0928_transcript_0188"
+  },
+  {
+    "question": "I'm getting an error 'Failed to start quiz: Cannot read properties of undefined (reading '_id')' when trying to start a quiz. How can I fix this?",
+    "answer": "This was a common technical issue that has been identified and resolved by the development team. The error occurred when the system tried to access quiz properties that were not properly defined. This issue was addressed and fixed, so you should now be able to start quizzes without encountering this error.",
+    "source": "20260307_0929_transcript_0237"
+  },
+  {
+    "question": "How and when can I join a new cohort after being removed from my current one?",
+    "answer": "An announcement will be shared when the new cohort starts, and you will be welcome to rejoin at that time.",
+    "source": "20260307_0926_transcript_0023"
+  },
+  {
+    "question": "Will a new cohort definitely start in the future?",
+    "answer": "Yes, a new cohort will start for sure.",
+    "source": "20260307_0926_transcript_0023"
+  },
+  {
+    "question": "Why is my dashboard showing 0 courses enrolled error?",
+    "answer": "To resolve this issue, first check the available courses tab on your ViBe landing dashboard where you'll find your respective course. Then join the course using your registered email ID. If you're still having trouble, provide your cohort name for further assistance.",
+    "source": "20260307_0927_transcript_0122"
+  },
+  {
+    "question": "Why are quiz results not showing which answers are correct or wrong, and why is the 'Reveal Hint' option not appearing?",
+    "answer": "This is a known technical issue that the development team is working to fix. Some quizzes may not have hints available, which is why the 'Reveal Hint' option doesn't appear for those questions. The platform is undergoing a major overhaul, so the fix will take some time. In the meantime, you should continue with your learning journey and proceed further in the course.",
+    "source": "20260307_0930_transcript_0294"
+  },
+  {
+    "question": "Should I rush to complete the course quickly like other students, or should I follow the milestone schedule?",
+    "answer": "You should follow the schedule mentioned in the milestones rather than rushing to complete the course. There's no need to hurry - consistency is key. Following the milestone schedule will ensure you complete the course appropriately without falling behind.",
+    "source": "20260307_0930_transcript_0294"
+  },
+  {
+    "question": "Can I get a recording or minutes of meeting if I missed a Zoom meeting?",
+    "answer": "Unfortunately, recordings are not provided for missed Zoom meetings. However, you can check the designated channel for more details about what was covered in the meeting.",
+    "source": "20260307_0928_transcript_0198"
+  },
+  {
+    "question": "I registered for AKSians but wasn't aware that enrollment in Sudershan sir's course is mandatory for this internship. What should I do?",
+    "answer": "You should de-enroll yourself from the AKSians batch and enroll in the RSAians batch using your IITM BS mail ID. The instructor can assist with removing you from AKSians if you're unable to de-enroll yourself.",
+    "source": "20260307_0928_transcript_0196"
+  },
+  {
+    "question": "I have completed only 8% of the course in RSAians while other peers have moved to case studies. How can I catch up to their level?",
+    "answer": "You should complete the ViBe progress first before moving to case studies. You can seek help from your peers if you get stuck somewhere during the process.",
+    "source": "20260307_0928_transcript_0196"
+  },
+  {
+    "question": "Should I attend live sessions where they solve React problems?",
+    "answer": "Yes, you can join the live sessions as they will increase your knowledge and help you connect with peers. You'll also learn concepts that you may need to study at a later stage, making it beneficial for your overall progress.",
+    "source": "20260307_0928_transcript_0196"
+  },
+  {
+    "question": "I couldn't complete the 25% course milestone in the first week due to technical issues with my laptop. What should I do about the vinternship requirements?",
+    "answer": "You should proceed with the course until further announcements are made. It is advised to strictly follow the milestones mentioned on the vinternship webpage going forward.",
+    "source": "20260307_0931_transcript_0345"
+  },
+  {
+    "question": "Will certificates only be given to those who have registered for the NPTEL exam?",
+    "answer": "If you have not registered yet, you may register on the NPTEL+ portal for the same course to be eligible for certificates.",
+    "source": "20260307_0931_transcript_0345"
+  },
+  {
+    "question": "I completed the LinkedIn and Cliq activity but didn't receive health points and instead lost 5%. I filled out the Google form. Why did this happen?",
+    "answer": "Health points are only awarded when the email used to complete activities matches exactly with the email used to submit the associated Google form. This verification system prevents others from filling forms on someone else's behalf. If the emails don't match, you won't receive health points and may face deductions.",
+    "source": "20260307_0926_transcript_0022"
+  },
+  {
+    "question": "My registered email is a Microsoft email (college domain) but I can't submit Google Forms with it. How should I proceed with activity submissions?",
+    "answer": "If your college email is not on Google Workspace domain, you'll need to inform the instructor personally each time you complete an activity while also filling out the form with an alternative email. The instructor can manually update your health points, but you must notify them for each activity completion.",
+    "source": "20260307_0926_transcript_0022"
+  },
+  {
+    "question": "I submitted my TypeScript case study before the February 19th deadline. When will my health points and progress be updated?",
+    "answer": "Health points for case study submissions are awarded according to guidelines after the last date of submissions, not immediately upon submission. Your progress has been noted and will be updated accordingly after the deadline period ends.",
+    "source": "20260307_0926_transcript_0022"
+  },
+  {
+    "question": "I submitted my case studies but they're not updating on the dashboard and my HP was reduced. Can this be reviewed and corrected?",
+    "answer": "After verification of your submissions, you had 36 total valid case studies (excluding duplicates). However, the requirement was to submit 30 case studies by February 26, 2026, and only 27 valid submissions were recorded by that deadline, making Week 3 incomplete. Although you eventually submitted more case studies, HP adjustments made due to missed cumulative deadline requirements cannot be reverted according to policy. Please ensure you track cumulative targets carefully to avoid future discrepancies.",
+    "source": "20260307_0930_transcript_0295"
+  },
+  {
+    "question": "Why is my course not showing up on my dashboard even after accepting the invitation?",
+    "answer": "If your course is not appearing on your dashboard after accepting the invitation, please post your issue in the existing discussion thread created for this specific problem. This allows the support team to forward all similar issues to the backend team collectively for resolution.",
+    "source": "20260307_0926_transcript_0024"
+  },
+  {
+    "question": "I'm unable to access a quiz. What should I do?",
+    "answer": "If you're experiencing issues accessing a quiz, please provide your email address along with the specific module name, section name, and quiz number you're trying to access. The technical team can then investigate and resolve the access issue for you.",
+    "source": "20260307_0929_transcript_0246"
+  },
+  {
+    "question": "Where can I find the code examples used in lectures on the vibe portal for quick revision?",
+    "answer": "For most subjects, you can refer to the case studies section which contains the code examples taught in lectures. However, for JavaScript specifically, there are currently no case studies available. The team has been notified about making lecture codes available, possibly on GitHub, and they will make an appropriate decision regarding this request.",
+    "source": "20260307_0927_transcript_0125"
+  },
+  {
+    "question": "My viva completion is stuck at 99.9% and my health points were reduced. Can you check this issue and increase my HP since students in the unsafe zone may be removed from the cohort?",
+    "answer": "The issue has been escalated and your dashboard access has been restored. This should resolve both the viva completion percentage problem and the health points reduction.",
+    "source": "20260307_0931_transcript_0347"
+  },
+  {
+    "question": "Do all tickets come to you directly?",
+    "answer": "No, tickets go to a group called 'ticketsolvers' which includes multiple people: me, Nitin, and Abiram. The tickets are distributed among this team for resolution.",
+    "source": "20260307_0926_transcript_0063"
+  },
+  {
+    "question": "How are tickets distributed and escalated for resolution?",
+    "answer": "Tickets go to Nitin first, and then he escalates them if necessary. There's no additional interface - the ticketsolvers get notified about ticket creation and handle them accordingly.",
+    "source": "20260307_0926_transcript_0063"
+  },
+  {
+    "question": "Where can I see the ticketing interface?",
+    "answer": "There's no additional interface for ticket management. The ticketsolvers simply get notified about the creation of tickets and handle them directly.",
+    "source": "20260307_0926_transcript_0063"
+  },
+  {
+    "question": "Are support tickets visible to all members of the server?",
+    "answer": "No, tickets are only visible to mentors, ticket solvers, admins, and the person who created the ticket. They are not visible to all server members.",
+    "source": "20260307_0926_transcript_0063"
+  },
+  {
+    "question": "Why are there fewer tickets? Do participants get their queries resolved in discussion channels instead?",
+    "answer": "Yes, participants help each other out in discussion channels. No moderator or mentor is allowed to reply in those channels. If issues aren't resolved through peer discussion, participants create tickets. Many tickets have been successfully closed, which is why there appear to be fewer tickets visible.",
+    "source": "20260307_0926_transcript_0063"
+  },
+  {
+    "question": "Do moderators only reply through tickets and not in open discussions for tracking purposes?",
+    "answer": "Moderators are not allowed to reply to anyone at all. Only mentors reply to participants, and they do so through tickets. Moderators are volunteers and are not permitted to handle tickets to ensure quality of replies and responses.",
+    "source": "20260307_0926_transcript_0063"
+  },
+  {
+    "question": "Who are the mentors and who are the moderators?",
+    "answer": "Lab members are mentors, including Nitin and everyone else on the team. The moderators are Ahana, Yazdan, Karthik, and KomalPreet - they are volunteers from the vinternship program.",
+    "source": "20260307_0926_transcript_0063"
+  },
+  {
+    "question": "Can mentors reply in open discussions to resolve queries before they reach the ticket system?",
+    "answer": "Mentors can reply in open discussions if they want to, but they generally avoid doing so. If mentors reply in discussions, students won't have discussions among themselves and might start mentioning mentors everywhere for small problems, which would create a huge workload for the mentors.",
+    "source": "20260307_0926_transcript_0063"
+  },
+  {
+    "question": "What is the current member count on the server?",
+    "answer": "The current member count is 1,193 members.",
+    "source": "20260307_0926_transcript_0063"
+  },
+  {
+    "question": "What are the pending requests about?",
+    "answer": "The pending requests are for profile screening to ensure that everyone has a professional profile picture and good username. Many students are ignoring this requirement, but if they are penalized for not joining Discord, they will eventually join.",
+    "source": "20260307_0926_transcript_0063"
+  },
+  {
+    "question": "Where can I check member statistics for different groups in the future?",
+    "answer": "To check member statistics for different groups, go to server settings and click on roles. This will show you the distribution across groups like Euclideans, Dijkstrians, Kruskalians, RSAians, Founderskeepers, etc.",
+    "source": "20260307_0926_transcript_0063"
+  },
+  {
+    "question": "How do I do case studies for MongoDB and where can I access databases?",
+    "answer": "Unless explicitly mentioned, MongoDB case studies can be completed and tested using MongoDB Compass or MongoDB Atlas. A full backend setup is not mandatory. You can simply use the queries you implement to complete the case studies.",
+    "source": "20260307_0930_transcript_0298"
+  },
+  {
+    "question": "How do I submit MongoDB case studies and what file format should I use?",
+    "answer": "You should create a PDF file containing the outputs and queries you used or entered. Create a zip file with these materials and submit it. You do not need to submit VS Code files.",
+    "source": "20260307_0930_transcript_0298"
+  },
+  {
+    "question": "Where can I find the Google form to submit slot booking commit or progress?",
+    "answer": "The instructor provided specific links for slot booking and commitment tracking. There are separate forms available - one for committing when you will watch content and another called 'Are you true to your Commitments' for tracking progress.",
+    "source": "20260307_0926_transcript_0067"
+  },
+  {
+    "question": "Why is my course not showing up on my dashboard even after accepting the invite?",
+    "answer": "If your course (Pintership - Cohort 3) is not appearing on your dashboard after accepting the invite, please contact technical support with your details: Name: Maha Manisha M, Email: mahamanisha2005.com, Course Name: Pintership - Cohort 3. This appears to be a technical issue that requires instructor assistance to resolve the course access problem.",
+    "source": "20260307_0926_transcript_0025"
+  },
+  {
+    "question": "Can I code in VS Code while taking the ViBe course?",
+    "answer": "You cannot code in VS Code or other external applications while pursuing the ViBe course because the proctoring system detects anomalies when you switch to other applications. For this reason, exclusive case studies are provided after the completion of the ViBe course for hands-on coding practice.",
+    "source": "20260307_0928_transcript_0202"
+  },
+  {
+    "question": "What should I do if I cannot complete Week 1 targets on time due to other commitments like exams?",
+    "answer": "The deadlines mentioned are calculated from the start of the course and you should stick to them. The learning videos are designed as small capsules, making 25% completion quite manageable. It's important to complete tasks according to the milestones as missing them might lead to discontinuation from the cohort.",
+    "source": "20260307_0928_transcript_0202"
+  },
+  {
+    "question": "I'm not receiving any emails and cannot register for zoom sessions using my registered IIT Madras BS degree email ID. What should I do?",
+    "answer": "First, check your spam folder for any missed emails. If you still haven't received any emails in either your inbox or spam folder, the technical team can be informed to update their records for your email address. Once updated, you should start receiving the necessary emails for zoom session registration.",
+    "source": "20260307_0927_transcript_0128"
+  },
+  {
+    "question": "I received an email after reporting the issue - is this the correct email I should have received for zoom sessions?",
+    "answer": "Yes, if you received an email after the issue was reported to the technical team, that is the correct email you should have received for the zoom sessions.",
+    "source": "20260307_0927_transcript_0128"
+  },
+  {
+    "question": "I completed my A1 activity but the bonus shows as +5% in the HP dashboard without being added to my total. Can you help resolve this?",
+    "answer": "This issue has been escalated and resolved from the technical side. You should now see the bonus properly reflected in your total score in the HP dashboard.",
+    "source": "20260307_0931_transcript_0350"
+  },
+  {
+    "question": "What should I do if a quiz I completed before the deadline was not reflected as completed in the system?",
+    "answer": "If you experience a system issue where your completed quiz is not properly registered, you should provide your cohort name and contact details to your instructor so they can escalate the issue for resolution. The support team can investigate system-related errors that occurred beyond your control and make appropriate adjustments to your course status.",
+    "source": "20260307_0930_transcript_0300"
+  },
+  {
+    "question": "I registered on ViBe platform but cannot access course material and the registration page keeps reverting to Course Registration Form after refresh. What should I do?",
+    "answer": "This appears to be a technical issue with the platform. Contact support with your registered email address so they can provide you with the correct course access link and resolve the registration form reverting issue.",
+    "source": "20260307_0929_transcript_0248"
+  },
+  {
+    "question": "I'm unable to register for Zoom meetings. How can I fix this?",
+    "answer": "To register for Zoom meetings, you need to first create a Zoom account using the same email address that you used for ViBe platform registration. Once you have a Zoom account with your registered email, you will be able to register for the scheduled meetings successfully.",
+    "source": "20260307_0929_transcript_0248"
+  },
+  {
+    "question": "The quiz is not working and showing errors. What should I do?",
+    "answer": "If you encounter quiz loading issues or errors, try refreshing your dashboard first as this often resolves display glitches. If the problem persists, the technical team will work on resolving the issue. You may also need to provide your cohort information and email ID for further assistance if the refresh doesn't work.",
+    "source": "20260307_0929_transcript_0240"
+  },
+  {
+    "question": "I enrolled on February 19th and have only completed 9% of the course. Is my deadline today or do I have the full week?",
+    "answer": "To get specific information about your course deadline, you need to provide your cohort details and email ID to the instructor for them to check your enrollment status and deadline information.",
+    "source": "20260307_0929_transcript_0240"
+  },
+  {
+    "question": "How much time will it take to resolve the quiz loading issue?",
+    "answer": "Technical issues with quizzes are typically resolved shortly as the team works actively on them. You should check periodically to see if the issue has been fixed, and refreshing your dashboard may help resolve display glitches.",
+    "source": "20260307_0929_transcript_0240"
+  },
+  {
+    "question": "I completed 3 videos but cannot access quiz 3. Why am I not able to access the quiz even after rewatching the videos?",
+    "answer": "If you've completed the required videos but still cannot access the corresponding quiz, this may be due to a system glitch. Try refreshing your dashboard completely, as this often removes such glitches and restores proper access to quizzes. If you're specifically on the 'Introduction to TypeScript' section, make sure you're on the correct video before attempting to access the quiz.",
+    "source": "20260307_0929_transcript_0240"
+  }
+]

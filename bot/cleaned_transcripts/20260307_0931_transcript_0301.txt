@@ -1,0 +1,29 @@
+Student (samarthkapoor_): Glitch in submitting Typescript case study Hi team, I observed that my HP was reduced for the case studies submission deadline dated 26th Feb, even when I submitted all the case studies from my side. After checking the portal, I found out that my TypeScript case study #19 submission wasn't reflecting there, when I am sure I did submit it. Since then, I have again submitted that case study for you to review- please do the needful and award me the HP as it is currently unsafe. Please note that I've completed all case studies till MongoDB #1, so it wouldn't make sense for me to leave just one TS case study incomplete; there must have been a glitch while submitting the form. Kindly consider this as an honest mistake from my end and a technical error; no malicious intent is involved, and I have genuinely completed the case studies on time. I mailed about this issue the day before itself when the list came out
+
+Instructor (nitin_fighter1379): please note that the support desk in discord is the active one and please do note for future query addressing. Also, we would check the submission and award the HP if the submissions are made via the forms
+
+Student (samarthkapoor_): Okay sir I'll keep that in mind. Yes sir, please check it and award the HP as I'm unsafe right now due to that and can lead to my removal.
+
+Instructor (jinalgupta.): Kindly mention your cohort name.
+
+Student (samarthkapoor_): It's euclideans ma'am
+
+Instructor (imsakshivk, jinalgupta.): We have escalated your issue. The Deadline for CS1 12/02/2026 CS2 19/02/2026 CS3 26/02/2026 You have clearly missed the week 2 deadline, and hence, missed week 3 too. We cannot revert your HP. We hope your issue has been resolved.
+
+Student (samarthkapoor_): Ma'am, while I did miss my week 2 deadline, I covered it up within the next week. So I submitted the pending case studies and the case studies for that week as well. I don't see why you can't cover your backlogs and cover that week's task at the same time, within the due date.
+
+Instructor (imsakshivk): Dear Samarth, Kindly refer to the submission timestamps on the dashboard. As of 26/02/2026, you had submitted 29 out of the required 30 tasks. Since 30 submissions were mandatory by that date, this will be considered as a missed requirement. You may track your progress directly through the CS dashboard. The completion percentage is calculated as follows: (30 / 42) × 100 = 71.42% If your CS percentage was not reflecting 71.42% by 26/02/2026, it indicates that one required submission was pending. It is important to regularly monitor your dashboard to ensure all required components are completed within the stipulated timeline. While it is permitted to cover backlog tasks alongside the current week’s tasks, in your case the pending requirement remained at 29/30 and was not completed within the deadline. Please ensure closer tracking of your submissions going forward to avoid such instances.
+
+Student (samarthkapoor_): Ma'am that is exactly my concern as I mentioned before. I submitted all 30/30 of them but due to some glitch from either end the typescript #19 case study couldn't be submitted I complete all of them till mongoDB #3 so it anyways wouldn't make sense for me to just leave one case study in between Ma'am please resolve this as you've already removed my name from the leaderboard from your end Please refer to my original ticket for clarification
+
+Instructor (prkharvndn): Ticket id if I may know? Or are we talking about the same ticket?
+
+Student (samarthkapoor_, shaurya.loop): Same ticket I meant request- like please go through it once again Also inform whether I've to fill the appeal form regardless of this raising this issue here? Any updates? Kindly wait for the reply of the concerned support team. CC:
+
+Instructor (jinalgupta.): If you have sent an appeal form then surely you will get the HP back if your appeal is genuine. Kindly wait for sometime. We will update you soon. CC:
+
+Student (samarthkapoor_): Yes ma'am I did send the appeal as well today
+
+Instructor (imsakshivk, jinalgupta., nitin_fighter1379): We are looking into your appeal and if we find it genuine we will surely onboard you again in the same cohort. I saw you have completed next milestones we will restore you soon. Is the issue resolved?
+
+Student (samarthkapoor_): Yes sir, thank you

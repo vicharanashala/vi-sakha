@@ -1,0 +1,202 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1334164358397296681> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Problem in Registration",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771073310220,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Hey <@1334164358397296681> please elaborate your problem",
+      "embeds": [],
+      "created": 1771075052417,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "im_the_kalki.",
+      "user_id": "1334164358397296681",
+      "is_bot": false,
+      "content": "the course is not shown",
+      "embeds": [],
+      "created": 1771075158185,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "try changing your network!",
+      "embeds": [],
+      "created": 1771075766464,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@1334164358397296681>",
+      "embeds": [],
+      "created": 1771075777150,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "noted down your issue, add me as friend!",
+      "embeds": [],
+      "created": 1771075798520,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "we will solve it, don't worry",
+      "embeds": [],
+      "created": 1771075805920,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "im_the_kalki.",
+      "user_id": "1334164358397296681",
+      "is_bot": false,
+      "content": "i tried changing the network",
+      "embeds": [],
+      "created": 1771075949450,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "will fix it, don't worry!",
+      "embeds": [],
+      "created": 1771075976557,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "im_the_kalki.",
+      "user_id": "1334164358397296681",
+      "is_bot": false,
+      "content": "should i enroll in this one too?",
+      "embeds": [],
+      "created": 1771076009961,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "nope",
+      "embeds": [],
+      "created": 1771076817568,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "im_the_kalki.",
+      "user_id": "1334164358397296681",
+      "is_bot": false,
+      "content": "i opened the link sent in the mail \nin vi network it works\nbut when its jio network it doesnt show \nnow through vi network i registered",
+      "embeds": [],
+      "created": 1771084730062,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Similar thing happened with me aswell",
+      "embeds": [],
+      "created": 1771129000804,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1359148118444343517>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771163589907,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771163590461,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771163592171,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0046",
+    "id": "1472212907608772651"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 16
+}

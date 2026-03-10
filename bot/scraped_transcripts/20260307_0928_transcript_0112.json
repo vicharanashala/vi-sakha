@@ -1,0 +1,312 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1398811600512880822> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Wrongly Deducted HP for Deadline 75% Vibe",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771516730451,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "yashkalra27",
+      "user_id": "1398811600512880822",
+      "is_bot": false,
+      "content": "Sub : Please Restore my +7.5% milestone mark\n\nHello Team, I am writing to inform you that I have been wrongly marked -7.5%, for the third milestone of the Vibe Course.\n\nMy Details are as follows :-\nName : Yash Kalra\nEmail Address : yashkalra_23it178@dtu.ac.in\nCohort : Euclideans\n\nOn the night of the deadline that was Thursday, 5th February...The Vibe portal was down due to Vibe's internal reasons, as a result of which I wasn't able to complete my milestone, to which I also contacted Meenakshi ma'am for the due date to be extended...No information was provided of the revised deadline and Since Friday and Saturday we have our college classes, I got the time to finish my deadline work at Sunday, which I also did, but I am still marked as -7.5%.\n\nKindly resolve this issue as soon as possible since due to this, I have marked UNSAFE in regard to my health points.\n\nThank you.",
+      "embeds": [],
+      "created": 1771516893141,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "yashkalra27",
+      "user_id": "1398811600512880822",
+      "is_bot": false,
+      "content": "PFA the screenshot of my initiative in conveying my concern to Meenakshi Ma'am on the same day itself",
+      "embeds": [],
+      "created": 1771516948075,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1398811600512880822> \nThank you for reaching out to us with your query we will look into this issue and get back to you.",
+      "embeds": [],
+      "created": 1771516991950,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "yashkalra27",
+      "user_id": "1398811600512880822",
+      "is_bot": false,
+      "content": "Also as far as it goes, as to why I am so late in bringing the issue here, I first sent out the email to support@vicharanashala.zohodesk.in, and patiently waited for 1 week for a response, and then only escalated here.\n\nPFA the relevant proof of my claim of Emailing...",
+      "embeds": [],
+      "created": 1771517054487,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1398811600512880822> \nWe have escalated your query.",
+      "embeds": [],
+      "created": 1771518502582,
+      "edited": 1771518518066
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1398811600512880822> please use the support desk here in discord for further support queries",
+      "embeds": [],
+      "created": 1771518514612,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1398811600512880822> The HP's will be reverted soon. Don't Worry. \nThank you for reaching out to us. \nWe hope your issue has been resolved.",
+      "embeds": [],
+      "created": 1771522171252,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "yashkalra27",
+      "user_id": "1398811600512880822",
+      "is_bot": false,
+      "content": "Thank you so much Ma'am for understanding my concern,\nAs I can now find in the spreadsheet, that my HP deduction has been reverted...But there is another issue",
+      "embeds": [],
+      "created": 1771618991712,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "yashkalra27",
+      "user_id": "1398811600512880822",
+      "is_bot": false,
+      "content": "The HP which it must show isn't being shown...\nLet me provide the breakdown :-\n\n1. Zoho Picture : 100 + 5% = 105\n2. Vibe 25% Deadline : 105 + 2.5% = 107.625\n3. LinkedIn Post : 107.625 + 5% = 113.00625\n4. Vibe 50% Deadline : 113.00625 + 5% = 118.6565625\n5. Vibe 75% Deadline : 118.6565625 + 7.5% = 127.5558046875\n6. Blogs Deadline (MISSED) : 127.5558046875 - 5% = 121.1780144531\n7. Vibe 100% Deadline : 121.1780144531 + 10% = 133.2958158984\n8. CS Week 1 : 133.2958158984 + 5% = 139.9606066933\n9. CS Week 2 : 139.9606066933 + 5% = 146.958637028\n\nFinal Calculated HP = 146.96",
+      "embeds": [],
+      "created": 1771619417358,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "yashkalra27",
+      "user_id": "1398811600512880822",
+      "is_bot": false,
+      "content": "The above breakdown is in accordance with the deadlines provided in Excel..\n\nAlso For reference, attaching the screenshot of the HP of one of my friend/colleague, who has also completed and missed, exactly the same parameters as mine.",
+      "embeds": [],
+      "created": 1771619532642,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "yashkalra27",
+      "user_id": "1398811600512880822",
+      "is_bot": false,
+      "content": "I do understand that making this change now, might be troublesome for you now, but if not possible to achieve this through automation, I very humbly request to manually edit this HP of mine, since right I am lying in unsafe zone, with no fault of mine, keeping me in risk of being eliminated from the cohort...",
+      "embeds": [],
+      "created": 1771619630712,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "yashkalra27",
+      "user_id": "1398811600512880822",
+      "is_bot": false,
+      "content": "<@956180961832362014> <@836880971017748512> Kindly help me with the needful",
+      "embeds": [],
+      "created": 1771619662765,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1293270010537578575> mam, can we verify this?",
+      "embeds": [],
+      "created": 1771655101623,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "sudarshansudarshan",
+      "user_id": "903979459475021874",
+      "is_bot": false,
+      "content": "What is the status? <@836880971017748512> <@1293270010537578575> ?",
+      "embeds": [],
+      "created": 1771739487551,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1398811600512880822> \nWe are looking into your issue. We have escalated your issue to the concerned team. \nWe will update you soon.",
+      "embeds": [],
+      "created": 1771746182520,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "yashkalra27",
+      "user_id": "1398811600512880822",
+      "is_bot": false,
+      "content": "Alright Ma'am, Will wait for the update...",
+      "embeds": [],
+      "created": 1771751816255,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1398811600512880822> Is the issue resolved?",
+      "embeds": [],
+      "created": 1771823877611,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1398811600512880822> \nWe have fixed your issue. The dashboard may take some while to update.",
+      "embeds": [],
+      "created": 1771825212137,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1398811600512880822> \nIs your issue been resolved?",
+      "embeds": [],
+      "created": 1771856234283,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1398811600512880822> \nIs your issue been resolved?",
+      "embeds": [],
+      "created": 1771913482205,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1398811600512880822> \nIs your issue been resolved?",
+      "embeds": [],
+      "created": 1771940048751,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1398811600512880822> \nAs you are not responding to the messages we will assume that your issue has been resolved and hence closing this ticket.",
+      "embeds": [],
+      "created": 1772001802365,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "CC: <@836880971017748512>",
+      "embeds": [],
+      "created": 1772001811186,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772001865276,
+      "edited": null
+    },
+    {
+      "index": 26,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772001865716,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772001867778,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0112",
+    "id": "1474072747377295513"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 27
+}

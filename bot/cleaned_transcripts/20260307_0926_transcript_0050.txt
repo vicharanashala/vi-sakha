@@ -1,0 +1,7 @@
+Student (21f1006665): Not able to view the content and start the course under "Vinternship (IITM BS) - RSAians"
+
+Instructor (prkharvndn): did you joined the vibe course? Then start this course Or elaborate on your problem
+
+Student (21f1006665): after hitting this button, i am not able to proceed. can you please help?
+
+Instructor (abiramk7427, prkharvndn): Sure, can you join me on a call? The issue appears to be related to browser permission settings. Kindly reset the browser’s media permissions and then click Continue/Start. If the problem persists, please try accessing it using a different browser and share an update with us.

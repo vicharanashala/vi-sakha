@@ -1,0 +1,132 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1441719434438901860> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I am unable to access the quiz it says... : \"You do not have permission to do so..\"",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772006155949,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "upbring.",
+      "user_id": "1441719434438901860",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1772006185001,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "upbring.",
+      "user_id": "1441719434438901860",
+      "is_bot": false,
+      "content": "<@&1473943500390141984> \nI have refreshed multiple times...re-logged in still facing the same...",
+      "embeds": [],
+      "created": 1772006219649,
+      "edited": 1772006240851
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@759435748721557514> <@1220060098643230811> Please look into it.",
+      "embeds": [],
+      "created": 1772006250428,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "Kindly check now and update us <@1441719434438901860>",
+      "embeds": [],
+      "created": 1772007134187,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "upbring.",
+      "user_id": "1441719434438901860",
+      "is_bot": false,
+      "content": "Yes thankyou!",
+      "embeds": [],
+      "created": 1772007890624,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@759435748721557514>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772007925067,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772007925629,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772007928349,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0245",
+    "id": "1476125545501823094"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 9
+}

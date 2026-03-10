@@ -1,0 +1,202 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@972514940676108338> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Registration done on ViBe platform for 'Vinternship(NPTEL) - AKSians' but cannot access any course material. Registration page keeps reverting to  Course Registration Form after page reload/refresh",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772015366882,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "surajpb",
+      "user_id": "972514940676108338",
+      "is_bot": false,
+      "content": "Registered email: surajpbiradar@gmail.com",
+      "embeds": [],
+      "created": 1772015457071,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "thirumalesh_33801",
+      "user_id": "1449603507865784334",
+      "is_bot": false,
+      "content": "You can access course here. https://vibe.vicharanashala.ai/student",
+      "embeds": [],
+      "created": 1772016069073,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "surajpb",
+      "user_id": "972514940676108338",
+      "is_bot": false,
+      "content": "I can access it now. Thank you.",
+      "embeds": [],
+      "created": 1772018933528,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "surajpb",
+      "user_id": "972514940676108338",
+      "is_bot": false,
+      "content": "I was also unable to register for the Zoom meeting that was scheduled for yesterday evening. Could you look into that aswell please?",
+      "embeds": [],
+      "created": 1772019010450,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@972514940676108338> It will be looked upon. Meanwhile please try to register using your ViBe registered mail as that is the mail accepted for zoom sessions.",
+      "embeds": [],
+      "created": 1772021718364,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "surajpb",
+      "user_id": "972514940676108338",
+      "is_bot": false,
+      "content": "Yes, I have been the same email across all platforms.",
+      "embeds": [],
+      "created": 1772023473460,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@972514940676108338> \nI hope you have logged in zoom using the registered mail ID.",
+      "embeds": [],
+      "created": 1772084340546,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "surajpb",
+      "user_id": "972514940676108338",
+      "is_bot": false,
+      "content": "<@956180961832362014> The zoom meeting link didn't prompt me to *sign in* as such, instead it asked me to register for the meeting using my name & email.",
+      "embeds": [],
+      "created": 1772116433213,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "surajpb",
+      "user_id": "972514940676108338",
+      "is_bot": false,
+      "content": "I will do that next time, however.",
+      "embeds": [],
+      "created": 1772116450942,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@972514940676108338> \nWas the issue resolved?",
+      "embeds": [],
+      "created": 1772169196610,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "surajpb",
+      "user_id": "972514940676108338",
+      "is_bot": false,
+      "content": "Yes, I signed up for zoom first and now I am able to register for meetings.\nThank you <@956180961832362014>",
+      "embeds": [],
+      "created": 1772170308855,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1772170722638,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772170730962,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772170731417,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772170733483,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0248",
+    "id": "1476164180007587880"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 16
+}

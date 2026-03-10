@@ -1,0 +1,236 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473638338723319934> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Regarding Upcoming semester exams at my university",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772643652324,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "sanhitamukhopadhyay",
+      "user_id": "1473638338723319934",
+      "is_bot": false,
+      "content": "Respected Team,\nMy university semester  exam is starting from tomorrow, and will continue  till 19/03/2026. Till today from 19th Feb, I have wrapped up upto approx 52% of the course,with utmost dedication.\nPlease kindly do not remove me from this cohort and this learning. In this time, i am solely focusing on my academic subjects,to prevent any sort of academic downfalls.\nKindly spare me some time, I assure,right from 19th march,I will again resume my course activites. Kindly please do not remove me from here, I have been learning a lot from here and implementing the same has become a passion for me. I really want to be a member of IIT Ropar family. Please guide me regarding the HPs also (7.5,10)",
+      "embeds": [],
+      "created": 1772643664789,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473638338723319934> \nWe have escalated youe issue.",
+      "embeds": [],
+      "created": 1772644309759,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "sanhitamukhopadhyay",
+      "user_id": "1473638338723319934",
+      "is_bot": false,
+      "content": "Thank you Ma'am.",
+      "embeds": [],
+      "created": 1772644332834,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473638338723319934> Try to complete the milestones as much as possible.",
+      "embeds": [],
+      "created": 1772644381933,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "sanhitamukhopadhyay",
+      "user_id": "1473638338723319934",
+      "is_bot": false,
+      "content": "in this time ma'am?",
+      "embeds": [],
+      "created": 1772644413811,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473638338723319934> \nTill the time we update you with your resolution for the issue try to complete your milestones. \nFor better understanding of the milestones you may refer the following website page:\nhttps://sudarshansudarshan.github.io/vinternship/milestones/",
+      "embeds": [
+        {
+          "title": "Milestones & Completion Requirements",
+          "description": "Vinternship - A comprehensive full-stack development internship program covering the MERN stack and modern web technologies. Master TypeScript, React, Express.js, and MongoDB through hands-on case studies.",
+          "url": "https://sudarshansudarshan.github.io/vinternship/milestones/",
+          "fields": []
+        }
+      ],
+      "created": 1772644582690,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "sanhitamukhopadhyay",
+      "user_id": "1473638338723319934",
+      "is_bot": false,
+      "content": "Thank you ma'am",
+      "embeds": [],
+      "created": 1772644611004,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "sanhitamukhopadhyay",
+      "user_id": "1473638338723319934",
+      "is_bot": false,
+      "content": "Ma'am while opening dashboard, I can see my name, but in hp i cannot? Am i excluded ? 🙁",
+      "embeds": [],
+      "created": 1772647042013,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "https://sudarshansudarshan.github.io/vinternship//\nKindly refer to this website under you cohort name you will find the dashboard there dear.",
+      "embeds": [
+        {
+          "title": "Welcome to Vinternship",
+          "description": "Vinternship - A comprehensive full-stack development internship program covering the MERN stack and modern web technologies. Master TypeScript, React, Express.js, and MongoDB through hands-on case studies.",
+          "url": "https://sudarshansudarshan.github.io/vinternship//",
+          "fields": []
+        }
+      ],
+      "created": 1772647132601,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "sanhitamukhopadhyay",
+      "user_id": "1473638338723319934",
+      "is_bot": false,
+      "content": "Like this a list was showing,my name is not there mam",
+      "embeds": [],
+      "created": 1772647215797,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Kindly wait for it to load dear. It will take sometime as it has a lot of data.",
+      "embeds": [],
+      "created": 1772647252937,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "sanhitamukhopadhyay",
+      "user_id": "1473638338723319934",
+      "is_bot": false,
+      "content": "sorry ma'am, i got it finally #85. Extremely sorry for the inconvenience",
+      "embeds": [],
+      "created": 1772647269257,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "No issues dear",
+      "embeds": [],
+      "created": 1772647318645,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved. \nI will be closing the ticket now.",
+      "embeds": [],
+      "created": 1772647332748,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772647343665,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772647344533,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772647348841,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0356",
+    "id": "1478799398925504594"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 18
+}

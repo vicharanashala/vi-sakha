@@ -1,0 +1,132 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1458373906275631168> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Regarding ViBe 100% completion",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772555644534,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "gauritiwari_76915",
+      "user_id": "1458373906275631168",
+      "is_bot": false,
+      "content": "Respected Ma’am/Sir,\n\nAs per instructions given, I have already completed my ViBe course before the deadline but still my HP points was deducted.\nIt was advised by Jinal ma’am to raise the support ticket for restoration of earlier deducted HP points (screenshots are attached).\nHence, it is requested to kindly provide the deducted HP points.\nRegards,\nGauri Tiwari, ID:- WIN25562R",
+      "embeds": [],
+      "created": 1772556118008,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1458373906275631168> \nWe will escalate your issue to the concerned team.",
+      "embeds": [],
+      "created": 1772644857573,
+      "edited": 1772644906986
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1458373906275631168> \nWe have updated your HP.",
+      "embeds": [],
+      "created": 1772697613872,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "gauritiwari_76915",
+      "user_id": "1458373906275631168",
+      "is_bot": false,
+      "content": "Thanks and Regards Ma'am.",
+      "embeds": [],
+      "created": 1772709495709,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1772710254587,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772710260016,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772710260653,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772710263152,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0343",
+    "id": "1478430268854636813"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 9
+}

@@ -1,0 +1,159 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1474982565931782398> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Did aksians start if no how to get enrolled what I should do to get this internship and from when to when is this internship i need everything Abt ut",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771865983926,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "hi <@1474982565931782398> \nWere you able to register for Aksians?\nif yes\nplease provide the email you registered with",
+      "embeds": [],
+      "created": 1771869468408,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "kothayakshitha",
+      "user_id": "1474982565931782398",
+      "is_bot": false,
+      "content": "Yes I am able and email is kothayakshitha@gmail.com",
+      "embeds": [],
+      "created": 1771899679313,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "kothayakshitha",
+      "user_id": "1474982565931782398",
+      "is_bot": false,
+      "content": "And one more thing if we complete 20% we will get offer letter right by when we should complete? And can u give duration of internship",
+      "embeds": [],
+      "created": 1771899738423,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1474982565931782398> Please refer to the FAQ  and the website for more details. Completion of 20% by 1st week will get you the offer letter. For the duration, please refer to the milestones page:\nhttps://sudarshansudarshan.github.io/vinternship/milestones/",
+      "embeds": [
+        {
+          "title": "Milestones & Completion Requirements",
+          "description": "Vinternship - A comprehensive full-stack development internship program covering the MERN stack and modern web technologies. Master TypeScript, React, Express.js, and MongoDB through hands-on case studies.",
+          "url": "https://sudarshansudarshan.github.io/vinternship/milestones/",
+          "fields": []
+        }
+      ],
+      "created": 1771903407197,
+      "edited": 1771903423495
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474982565931782398> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1771915459859,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "kothayakshitha",
+      "user_id": "1474982565931782398",
+      "is_bot": false,
+      "content": "Yes",
+      "embeds": [],
+      "created": 1771917611117,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Ticket.",
+      "embeds": [],
+      "created": 1771917725239,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771917732185,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771917732730,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771917734986,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0204",
+    "id": "1475537621978583203"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

@@ -1,0 +1,23 @@
+Student (deepshichoubey): Good morning, I registered on ViBe on 23 feb 2026, completed 28% till now but my name is not present on the health points dashboard.
+
+Instructor (jinalgupta.): Which cohort are you from?
+
+Student (deepshichoubey): RSAians
+
+Instructor (jinalgupta.): We have escalated your issue to the concerned team.
+
+Student (deepshichoubey): Thank you mam
+
+Instructor (jinalgupta.): Your issue has been resolved kindly check once and then update for the same.
+
+Student (deepshichoubey): no, my name is still not there on dashboarrd mam it is updated here. but my HP is 0 it is still not updated here Any updates mam?
+
+Instructor (nitin_fighter1379): Is it resolved before?
+
+Student (deepshichoubey): My Health Point is still 0.
+
+Instructor (jinalgupta.): I will escalate the issue once again do not worry. Kindly check once your name is visible on the dashboard now.
+
+Student (deepshichoubey): yes mam,
+
+Instructor (jinalgupta.): As the issue has been resolved hence closing the ticket.

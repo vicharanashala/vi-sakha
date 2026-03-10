@@ -1,0 +1,292 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1402530591253069938> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Hi, my ViBe video (video_1 under JavaScript Building Blocks) is stuck on \"Preparing environment...\" for 10+ minutes.  I tried: - Hard refresh - Incognito mode - Different browser  Still not loading. Kindly help.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771852856478,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1402530591253069938> \nKindly explain your issue with your email ID and your cohort name.",
+      "embeds": [],
+      "created": 1771853157481,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "rohitposimsetti",
+      "user_id": "1402530591253069938",
+      "is_bot": false,
+      "content": "Hi,\n\nMy registered email ID: rohit122622@gmail.com\nCohort: AKSians (Cohort 5)\n\nIssue:\nThe ViBe platform video (video_1 under JavaScript Building Blocks) is stuck on \"Preparing environment...\" for more than 10 minutes and is not loading.\n\nI have already tried:\n\nHard refresh (Ctrl + Shift + R)\n\nIncognito mode\n\nDifferent browser\n\nThe issue still persists.\nKindly help resolve this.\n\nThank you.",
+      "embeds": [],
+      "created": 1771853466404,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469178567551090933> <@1366708005483053076> \nKindly look into this issue.",
+      "embeds": [],
+      "created": 1771853512012,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "sure,  will check",
+      "embeds": [],
+      "created": 1771855443940,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "<@1402530591253069938> Did you check your network connection??",
+      "embeds": [],
+      "created": 1771856500474,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "rohitposimsetti",
+      "user_id": "1402530591253069938",
+      "is_bot": false,
+      "content": "yes mam",
+      "embeds": [],
+      "created": 1771856555788,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "okay",
+      "embeds": [],
+      "created": 1771856569901,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "Please check on the different browser like Firefox. <@1402530591253069938>. Also try to update the chrome or edge what ever you use. May be updating the windows can also work.",
+      "embeds": [],
+      "created": 1771859797726,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "rohitposimsetti",
+      "user_id": "1402530591253069938",
+      "is_bot": false,
+      "content": "Ok sir",
+      "embeds": [],
+      "created": 1771860574857,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "<@1402530591253069938> Did your issue resolve?",
+      "embeds": [],
+      "created": 1771862191685,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "rohitposimsetti",
+      "user_id": "1402530591253069938",
+      "is_bot": false,
+      "content": "No ma’am, the issue is still not resolved.\nI have tried:\nDifferent browser (Chrome and Edge),Incognito mode, Hard refresh, Checked network connection\nThe video is still stuck on “Preparing environment…”.\nPlease let me know if there is anything else I should try.",
+      "embeds": [],
+      "created": 1771870076493,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Hi <@1402530591253069938> \n\nTry again once with hard refresh and then logging in again\n\nIf that doesn't work please try with a new device to test if it works on other devices, preferably a laptop/pc.",
+      "embeds": [],
+      "created": 1771870791935,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "rohitposimsetti",
+      "user_id": "1402530591253069938",
+      "is_bot": false,
+      "content": "ok mam",
+      "embeds": [],
+      "created": 1771870821961,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "rohitposimsetti",
+      "user_id": "1402530591253069938",
+      "is_bot": false,
+      "content": "Hi ma’am,\nI tried again with hard refresh and logging in again, but the issue still persists.\nAdditionally, I noticed something unusual:\nvideo_1 is showing as “Completed” even though I have not watched it.\nQuiz 1 is showing “Access Restricted”.\nBecause of this, I think there might be an issue with my account provisioning or environment setup on the backend.\nKindly check if my account environment needs to be reset.\n\nThank you.",
+      "embeds": [],
+      "created": 1771907641823,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1402530591253069938> please state your availability for a escalation call with the team so that we can diagnose and resolve the issue there.\n\nCC: <@1220060098643230811> <@759435748721557514>",
+      "embeds": [],
+      "created": 1771908285421,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "rohitposimsetti",
+      "user_id": "1402530591253069938",
+      "is_bot": false,
+      "content": "Hi sir,\nThank you for the support.\nI am available today between 4:00 PM – 7:00 PM\nPlease let me know a convenient time.\nThank you.",
+      "embeds": [],
+      "created": 1771908574905,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "<@1402530591253069938> Could you please provide your system specifications? The issue might be related to that.\nAdditionally, have you tried accessing the platform using a different system or network, as previously advised?",
+      "embeds": [],
+      "created": 1771910805778,
+      "edited": 1771910820583
+    },
+    {
+      "index": 19,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1402530591253069938> Try using firefox too",
+      "embeds": [],
+      "created": 1771910970123,
+      "edited": 1771911511090
+    },
+    {
+      "index": 20,
+      "author": "rohitposimsetti",
+      "user_id": "1402530591253069938",
+      "is_bot": false,
+      "content": "Hi Sreehari / Nitin,\n\nHere are my system specifications:\n\n• Device: ASUS ROG Zephyrus G16 (GU603VV)\n• OS: Windows 11 Home (Version 25H2, 64-bit)\n• Processor: 13th Gen Intel Core i7-13620H @ 2.40 GHz\n• RAM: 16 GB (15.6 GB usable)\n• Storage: 477 GB SSD\n• Graphics: 8 GB GPU\n\nI have also tried switching browsers and will try accessing the platform using Firefox as suggested. I will also check using a different network/system if required.\n\nPlease let me know if any additional details are needed.\n\nThank you.",
+      "embeds": [],
+      "created": 1771911662109,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "rohitposimsetti",
+      "user_id": "1402530591253069938",
+      "is_bot": false,
+      "content": "Hi Sreehari / Nitin,\nThe issue has been resolved. It is now working properly on the Comet browser.\nThank you.",
+      "embeds": [],
+      "created": 1771912357007,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Ticket",
+      "embeds": [],
+      "created": 1771912670044,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771912686490,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771912686914,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771912689224,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0188",
+    "id": "1475482562800390307"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 25
+}

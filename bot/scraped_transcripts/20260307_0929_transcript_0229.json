@@ -1,0 +1,172 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1475314192603938870> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Sir i have joined the vibe course today so by when should I complete 20% to get my offer letter",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771956202974,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Hi <@1475314192603938870> , we have noted your concern and will get back to you after checking in with the concerned team.\nCC: <@956180961832362014>",
+      "embeds": [],
+      "created": 1771956956680,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1475314192603938870> You must complete 20% of the course in a week's time after starting ViBe course.",
+      "embeds": [],
+      "created": 1771992237512,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1475314192603938870> \nI hope your doubt is clear and your issue has been resolved?",
+      "embeds": [],
+      "created": 1772001364124,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "aksharanelakuditi08",
+      "user_id": "1475314192603938870",
+      "is_bot": false,
+      "content": "Yes mam so I joined on 24th so my deadline is 28th feb so if I complete by that time I will receive my offer letter right??",
+      "embeds": [],
+      "created": 1772016466346,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Yes",
+      "embeds": [],
+      "created": 1772017744833,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "aksharanelakuditi08",
+      "user_id": "1475314192603938870",
+      "is_bot": false,
+      "content": "Ok sir thank you",
+      "embeds": [],
+      "created": 1772018933976,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1475314192603938870> Is your query resolved? Shall I close the ticket?",
+      "embeds": [],
+      "created": 1772021609067,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "aksharanelakuditi08",
+      "user_id": "1475314192603938870",
+      "is_bot": false,
+      "content": "Yes sir",
+      "embeds": [],
+      "created": 1772028868667,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Ticket",
+      "embeds": [],
+      "created": 1772029188812,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772029195876,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772029197002,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772029199367,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0229",
+    "id": "1475916028235219117"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 13
+}

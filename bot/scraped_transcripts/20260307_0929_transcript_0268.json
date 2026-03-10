@@ -1,0 +1,512 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1372886536156221500> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : same issue with me i have enrolled to the course on 20th and completed about 27% , now its showing i am not enrollled. can you please resolve it . abhiramreddy123.k@gmail.com",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772115813206,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "00abhiram",
+      "user_id": "1372886536156221500",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1772115900331,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "<@1372886536156221500> Tell me your cohort name",
+      "embeds": [],
+      "created": 1772116215789,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "00abhiram",
+      "user_id": "1372886536156221500",
+      "is_bot": false,
+      "content": "AKsians",
+      "embeds": [],
+      "created": 1772116246763,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "00abhiram",
+      "user_id": "1372886536156221500",
+      "is_bot": false,
+      "content": "cohort 5",
+      "embeds": [],
+      "created": 1772116258276,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "okay, will check it and update soon",
+      "embeds": [],
+      "created": 1772116363117,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "00abhiram",
+      "user_id": "1372886536156221500",
+      "is_bot": false,
+      "content": "thankyou",
+      "embeds": [],
+      "created": 1772116378243,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "<@1372886536156221500>  could you please refresh and check it again now?",
+      "embeds": [],
+      "created": 1772116693650,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "00abhiram",
+      "user_id": "1372886536156221500",
+      "is_bot": false,
+      "content": "it came but my progress has lost",
+      "embeds": [],
+      "created": 1772116733808,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "00abhiram",
+      "user_id": "1372886536156221500",
+      "is_bot": false,
+      "content": "tomorrow is the deadline for completing 25% for reciving offer letter",
+      "embeds": [],
+      "created": 1772116807096,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "You had registered twice",
+      "embeds": [],
+      "created": 1772116895767,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "with different names",
+      "embeds": [],
+      "created": 1772116902621,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "can i remove the second one?",
+      "embeds": [],
+      "created": 1772116927550,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "00abhiram",
+      "user_id": "1372886536156221500",
+      "is_bot": false,
+      "content": "yeah please remove the 0 one",
+      "embeds": [],
+      "created": 1772116946993,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "I had removed it",
+      "embeds": [],
+      "created": 1772116989632,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "now check with the other name",
+      "embeds": [],
+      "created": 1772117005523,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "00abhiram",
+      "user_id": "1372886536156221500",
+      "is_bot": false,
+      "content": "should i relogin",
+      "embeds": [],
+      "created": 1772117069131,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "yes",
+      "embeds": [],
+      "created": 1772117263578,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "00abhiram",
+      "user_id": "1372886536156221500",
+      "is_bot": false,
+      "content": "i tried changing name mam but its not changing and i have logined from google account if i am logining its directing to this account only .",
+      "embeds": [],
+      "created": 1772117504965,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "00abhiram",
+      "user_id": "1372886536156221500",
+      "is_bot": false,
+      "content": "mam ??",
+      "embeds": [],
+      "created": 1772118660758,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "00abhiram",
+      "user_id": "1372886536156221500",
+      "is_bot": false,
+      "content": "mam will it be resolved ? or else ill start it from beginning because i should complete 25% by tomorrow",
+      "embeds": [],
+      "created": 1772120549915,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "I was checking it, its showing like your progress is 26%",
+      "embeds": [],
+      "created": 1772123072434,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "00abhiram",
+      "user_id": "1372886536156221500",
+      "is_bot": false,
+      "content": "yes mam",
+      "embeds": [],
+      "created": 1772123088725,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "00abhiram",
+      "user_id": "1372886536156221500",
+      "is_bot": false,
+      "content": "but its no been updated in my account .",
+      "embeds": [],
+      "created": 1772123110918,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "00abhiram",
+      "user_id": "1372886536156221500",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1772123134915,
+      "edited": null
+    },
+    {
+      "index": 26,
+      "author": "00abhiram",
+      "user_id": "1372886536156221500",
+      "is_bot": false,
+      "content": "mam can u delete account with name as K Abhi",
+      "embeds": [],
+      "created": 1772123228000,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "00abhiram",
+      "user_id": "1372886536156221500",
+      "is_bot": false,
+      "content": "and after that ig ill be able to login account with name as K Abhi Ram Reddy",
+      "embeds": [],
+      "created": 1772123290229,
+      "edited": 1772123427240
+    },
+    {
+      "index": 28,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "I'm checking",
+      "embeds": [],
+      "created": 1772123512162,
+      "edited": null
+    },
+    {
+      "index": 29,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "please wait",
+      "embeds": [],
+      "created": 1772123519205,
+      "edited": null
+    },
+    {
+      "index": 30,
+      "author": "00abhiram",
+      "user_id": "1372886536156221500",
+      "is_bot": false,
+      "content": "ok mam no problem , just little worried about offer letter and my progress. Thankyou",
+      "embeds": [],
+      "created": 1772123570411,
+      "edited": null
+    },
+    {
+      "index": 31,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "I deleted it. could you please logout and login again",
+      "embeds": [],
+      "created": 1772123984992,
+      "edited": null
+    },
+    {
+      "index": 32,
+      "author": "00abhiram",
+      "user_id": "1372886536156221500",
+      "is_bot": false,
+      "content": "one sec mam",
+      "embeds": [],
+      "created": 1772124001657,
+      "edited": null
+    },
+    {
+      "index": 33,
+      "author": "00abhiram",
+      "user_id": "1372886536156221500",
+      "is_bot": false,
+      "content": "no mam it is same .",
+      "embeds": [],
+      "created": 1772124103444,
+      "edited": null
+    },
+    {
+      "index": 34,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "could you please check it again?",
+      "embeds": [],
+      "created": 1772124694093,
+      "edited": null
+    },
+    {
+      "index": 35,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "logout and then login",
+      "embeds": [],
+      "created": 1772124703816,
+      "edited": null
+    },
+    {
+      "index": 36,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "<@1372886536156221500>",
+      "embeds": [],
+      "created": 1772124707530,
+      "edited": null
+    },
+    {
+      "index": 37,
+      "author": "00abhiram",
+      "user_id": "1372886536156221500",
+      "is_bot": false,
+      "content": "one sec mam",
+      "embeds": [],
+      "created": 1772124724640,
+      "edited": null
+    },
+    {
+      "index": 38,
+      "author": "00abhiram",
+      "user_id": "1372886536156221500",
+      "is_bot": false,
+      "content": "thankyou soo much mam .",
+      "embeds": [],
+      "created": 1772124759314,
+      "edited": null
+    },
+    {
+      "index": 39,
+      "author": "00abhiram",
+      "user_id": "1372886536156221500",
+      "is_bot": false,
+      "content": "thankyou for resolving",
+      "embeds": [],
+      "created": 1772124771849,
+      "edited": null
+    },
+    {
+      "index": 40,
+      "author": "00abhiram",
+      "user_id": "1372886536156221500",
+      "is_bot": false,
+      "content": "should i close the ticket",
+      "embeds": [],
+      "created": 1772124784524,
+      "edited": null
+    },
+    {
+      "index": 41,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "You're welcome, please feel free to connect if you need any further support",
+      "embeds": [],
+      "created": 1772124851264,
+      "edited": null
+    },
+    {
+      "index": 42,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "Sure, you can close it now",
+      "embeds": [],
+      "created": 1772124862966,
+      "edited": null
+    },
+    {
+      "index": 43,
+      "author": "00abhiram",
+      "user_id": "1372886536156221500",
+      "is_bot": false,
+      "content": "ok mam",
+      "embeds": [],
+      "created": 1772124868683,
+      "edited": null
+    },
+    {
+      "index": 44,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "Are you sure you would like to close this ticket?",
+      "embeds": [],
+      "created": 1772124888684,
+      "edited": null
+    },
+    {
+      "index": 45,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1372886536156221500>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772124895623,
+      "edited": null
+    },
+    {
+      "index": 46,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772124896071,
+      "edited": null
+    },
+    {
+      "index": 47,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772162650372,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0268",
+    "id": "1476585482539372717"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 47
+}

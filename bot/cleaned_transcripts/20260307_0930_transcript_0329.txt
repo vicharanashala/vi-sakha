@@ -1,0 +1,15 @@
+Student (anish_01693): Regarding deduction in health points I had submitted the 12 case studies before deadline on 26th February but my health points have been deducted. Kindly look into it as this deduction has pushed me into the unsafe zone.
+
+Instructor (nitin_fighter1379): please mention your Name, cohort name, submission mail ID
+
+Student (anish_01693): Anish Sunil Phadke, Euclideans cohort, 23f1002613.study.iitm.ac.in
+
+Instructor (imsakshivk, nitin_fighter1379): your issue has been forwarded to the team. Please note the following details regarding your weekly deadlines and HP (Honor Points) status: Week 1 – Deadline: 12/02/2026 You successfully met the Week 1 requirement and have received the corresponding HP. Week 2 – Deadline: 19/02/2026 No submission was recorded within the stipulated deadline. Therefore, this has been marked as a missed submission. Week 3 – Deadline: 26/02/2026 By this date, you were required to submit a total of 30 case studies (6 + 12 + 12 cumulative requirement). However, only 25 case studies were submitted. As the required number was not met within the deadline, this is considered a missed deadline. Consequently, your HP has been reduced in accordance with policy. Please be informed that HP adjustments made due to missed deadlines cannot be reverted.
+
+Student (anish_01693): Ma'am, I agree that I missed my deadline on 19/02/2026 due to my college exams, but I submitted the typescript case studies from 7 to 19 on 20/02/2026 itself. This data shows no record of the case studies from 7 to 12. This might be due to a technical issue or system glitch because I'm sure I submitted it. Nevertheless, I have no problem submitting those case studies again if required. I request you to kindly reconsider it as this can put me into safe zone. Thank you for your understanding.
+
+Instructor (jinalgupta.): We have escalated your issue. Kindly resubmit your case studies and also keep track of the cases tudies from you CS progress.
+
+Student (anish_01693): Done ma'am. Thank you for the help
+
+Instructor (jinalgupta.): As the issue has now be resolved so closing the ticket.

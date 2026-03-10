@@ -1,0 +1,292 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1469637847639396414> Welcome, the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Health Points got unnecessarily deducted for Case Study",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1770992804800,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "harshitkansal_62900",
+      "user_id": "1469637847639396414",
+      "is_bot": false,
+      "content": "I submitted the case studies for this week before deadline . Instead of getting Health Points for that I got my Health Points deducted. I would Request the Vinternship team to look into this.",
+      "embeds": [],
+      "created": 1770992838803,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@836880971017748512>",
+      "embeds": [],
+      "created": 1770994180596,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1293270010537578575> mam, can this be resolved?",
+      "embeds": [],
+      "created": 1771217858858,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469637847639396414> \nDid you submit your case study with the registered mail ID?",
+      "embeds": [],
+      "created": 1771350741930,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "harshitkansal_62900",
+      "user_id": "1469637847639396414",
+      "is_bot": false,
+      "content": "Yes Ma'am",
+      "embeds": [],
+      "created": 1771400583968,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469637847639396414> \nDon't worry we have forwarded your issue to the concerned team. \nWe will get back to you soon.",
+      "embeds": [],
+      "created": 1771415059780,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "harshitkansal_62900",
+      "user_id": "1469637847639396414",
+      "is_bot": false,
+      "content": "Thank You Ma'am.",
+      "embeds": [],
+      "created": 1771439589282,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469637847639396414> \nWe hope that you have submitted the case study on or before the deadline that is 12th of February 2026. \nIf not then this could have been a reason of your reduction of the HP's.",
+      "embeds": [],
+      "created": 1771484158633,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "harshitkansal_62900",
+      "user_id": "1469637847639396414",
+      "is_bot": false,
+      "content": "Yes ma'am I have submitted case study well before the deadline.",
+      "embeds": [],
+      "created": 1771493074997,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469637847639396414> \nOk we are looking into this.",
+      "embeds": [],
+      "created": 1771501903437,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469637847639396414> \nThe dashboard will updated soon.",
+      "embeds": [],
+      "created": 1771584018778,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "harshitkansal_62900",
+      "user_id": "1469637847639396414",
+      "is_bot": false,
+      "content": "Thank You Ma'am.",
+      "embeds": [],
+      "created": 1771591806637,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469637847639396414> \nWe have corrected your HP. and it will be updated on the dashboard also. \nI hope your issue has been solved now?",
+      "embeds": [],
+      "created": 1771666498289,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "harshitkansal_62900",
+      "user_id": "1469637847639396414",
+      "is_bot": false,
+      "content": "Thank you very much, Ma’am, for all your support.\n\nAs of now, the corrected health points are not yet reflected on the dashboard. If this update requires some additional time, that is perfectly fine.\n\nOnce the changes are reflected, my issue will be resolved.\n\nThank you again for your assistance.",
+      "embeds": [],
+      "created": 1771682121209,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Ok <@1469637847639396414>",
+      "embeds": [],
+      "created": 1771683074494,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469637847639396414> \nKindly check once if your issue has been resolved.",
+      "embeds": [],
+      "created": 1771745927582,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "harshitkansal_62900",
+      "user_id": "1469637847639396414",
+      "is_bot": false,
+      "content": "It is still  \"-5%\"  for the case study week one and hp is not updated either.",
+      "embeds": [],
+      "created": 1771747079995,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469637847639396414> \nYour issue has been escalated.",
+      "embeds": [],
+      "created": 1771752752835,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469637847639396414> \nAre your HP's updated now as it may have taken some time to get updated?",
+      "embeds": [],
+      "created": 1771856318374,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "harshitkansal_62900",
+      "user_id": "1469637847639396414",
+      "is_bot": false,
+      "content": "My Health Points have now been updated.\n\nThank you very much ma'am for your kind assistance and prompt support in resolving this matter. I truly appreciate your help.",
+      "embeds": [],
+      "created": 1771859784454,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Ticket",
+      "embeds": [],
+      "created": 1771861376859,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771861427452,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771861428028,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771861430724,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0037",
+    "id": "1471875243243995401"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 25
+}

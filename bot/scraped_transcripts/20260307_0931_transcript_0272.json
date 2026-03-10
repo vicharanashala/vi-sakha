@@ -1,0 +1,229 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473423074119647327> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Withdrawal from Internship & Query about Future Cohorts",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772130853305,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "sukanyasarkar_42553",
+      "user_id": "1473423074119647327",
+      "is_bot": false,
+      "content": "I started this internship in the AKSians cohort with strong motivation and even completed the minimum 25% requirement in the first week. However, after my end-semester exam schedule was released, I realized I won’t be able to continue due to academic commitments next month.\n\nCould you please guide me on the process to withdraw? Should I follow the FAQ steps, or is there a simpler process since offer letters haven’t been issued yet?\n\nAlso, I’m still very interested in the internship. How can I stay informed about upcoming cohorts? Will there be another opportunity for current NPTEL batch students, or should I reapply separately?\n\nThank you!",
+      "embeds": [],
+      "created": 1772130882214,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@1473423074119647327> \nWe have noted your concern and would come back after connecting with the concern team. Kindly also provide your email id for reference.\ncc <@956180961832362014>  Mam",
+      "embeds": [],
+      "created": 1772132094905,
+      "edited": 1772132120420
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473423074119647327> \nWe have escalated your query. \nkindly wait for the update for the same.",
+      "embeds": [],
+      "created": 1772169638714,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "sukanyasarkar_42553",
+      "user_id": "1473423074119647327",
+      "is_bot": false,
+      "content": "My E-mail ID is : ssarkar1510@gmail.com",
+      "embeds": [],
+      "created": 1772210426142,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "sukanyasarkar_42553",
+      "user_id": "1473423074119647327",
+      "is_bot": false,
+      "content": "Ok",
+      "embeds": [],
+      "created": 1772210449474,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "sukanyasarkar_42553",
+      "user_id": "1473423074119647327",
+      "is_bot": false,
+      "content": "Any updates ?",
+      "embeds": [],
+      "created": 1772390809353,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473423074119647327> please send a formal mail to DLED@iitrpr.ac.in stating the reason",
+      "embeds": [],
+      "created": 1772422757743,
+      "edited": 1772534330913
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473423074119647327> \nDid you do the steps mentioned?",
+      "embeds": [],
+      "created": 1772427936509,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "sukanyasarkar_42553",
+      "user_id": "1473423074119647327",
+      "is_bot": false,
+      "content": "I have done it now as instructed. Please check the mail.",
+      "embeds": [],
+      "created": 1772469809495,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473423074119647327> \nOk. We will revert back soon.",
+      "embeds": [],
+      "created": 1772515326839,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473423074119647327> please follow the steps mentioned in FAQ 6.6",
+      "embeds": [],
+      "created": 1772534525225,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473423074119647327> \nWe hope you have followed the steps given in FAQ 6.6. \nThe link for the same is as follows: https://sudarshansudarshan.github.io/vinternship/faq/",
+      "embeds": [
+        {
+          "title": "FAQ",
+          "description": "Vinternship - A comprehensive full-stack development internship program covering the MERN stack and modern web technologies. Master TypeScript, React, Express.js, and MongoDB through hands-on case studies.",
+          "url": "https://sudarshansudarshan.github.io/vinternship/faq/",
+          "fields": []
+        }
+      ],
+      "created": 1772643178006,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473423074119647327> \nWe hope you taken the following steps.",
+      "embeds": [],
+      "created": 1772693283367,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473423074119647327> \nWe hope you have taken the following steps. \nHence closing the ticket. \nYou may raise a new ticket if the issue is not clarified.",
+      "embeds": [],
+      "created": 1772772154803,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772794200564,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772794201363,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772794203609,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0272",
+    "id": "1476648564624064685"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 18
+}

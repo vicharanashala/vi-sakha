@@ -1,0 +1,9 @@
+Student (ruhaandalia): Health Points reduced instead of 10% increase after 100% viBe completion. Dear Team, I am raising this ticket regarding the reduction of my Health Points. I successfully completed 100% of my viBe course within the given deadline, and as per the guidelines, I was expecting a 10% Health Points increase on 12th February. However, instead of an increase, my Health Points decreased by approximately 10%. I had already mailed the team regarding this issue but have not received a response yet. Therefore, I am following up through this support ticket. I have attached screenshots showing my course completion status as evidence. Kindly review my account activity and let me know the reason for this deduction. If this is a technical error, I request you to please update my Health Points accordingly. I would appreciate your support in resolving this issue at the earliest, as it directly affects my internship progress. Thank you. Regards, Ruhaan Dalia Cohort-Euclideans Internship ID – WIN251046
+
+Instructor (jinalgupta., nitin_fighter1379): Sorry for the inconvenience caused. This issue is forwarded to the team and will be resolved soon. The HP has been reverted. It may take sometime to get reflected on the dashboard. I hope this has now resolved your issue. I hope your issue has been resolved?
+
+Student (ruhaandalia): Yes Ma’am, the issue has been resolved and the Health Points are now reflected correctly. Thank you very much for your support.
+
+Instructor (riyamehtaatwork): May i close the ticket
+
+Student (ruhaandalia): Yes Ma’am, you may close the ticket.

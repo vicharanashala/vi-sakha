@@ -1,0 +1,37 @@
+Student (anamjumnal): Issues in quiz While attempting quizzes its not showing me which answer is correct n which is wrong..and even if the answer is correct its showing incorrect Its occurring in THE BACKBONE OF MODERN WEB APPS SECTION Its not showing the option REVEAL HINT next to the question
+
+Instructor (riyamehtaatwork): Kindly provide your Cohort name, email. Is this happening in all of the quiz in this section?
+
+Student (anamjumnal): Email-anamjumnal908.com Cohort-AKsians Yes mam its happening in all of the quizzes in this section
+
+Instructor (riyamehtaatwork): Okay So sometimes some quiz do not have the hints, that is why it might not show hint for those questions. I'll look into the other issue of correct answer not being marked as corrected
+
+Student (anamjumnal): At least it should show me which question i got correct and which i didn't
+
+Instructor (riyamehtaatwork): Okay so after the quiz, it is not showing the correct answer if the answers are incorrect, right? If that is the case, it is intentional. So that the student pays attention to the video chunk and can understand the concept better rather than telling the answer.
+
+Student (anamjumnal): No not like that when it gives me the final score Usually it shows me which question i got correct and which question i didn't I don't wanna know the answer i just wanna know what question to work on so i can get it correct in the next attempt
+
+Instructor (riyamehtaatwork): Okay can you share the screen recording so that i can better understand the isse? Okay yes sure, please provide the screen recording so that i can understand the issue.
+
+Student (anamjumnal): Mam for now i am about to sleep and i have logged out coz i have to wake tomorrow as i will be fasting So pls can i share it tomorrow?
+
+Instructor (riyamehtaatwork): Yes sure
+
+Student (anamjumnal): Here before it use to display which question i got correct which i got wrong now i can't even figure out what's correct and what's wrong May be i attempted it for 6th or 7th time and i am still not able to get all three correct Because i am not able to figure out where i am going wrong
+
+Instructor (a0rous, nitin_fighter1379): Please look into the issue We have noted the issue. Major overhaul of platform is going on so this will take some time. In mean time continue your journey and proceed further.
+
+Student (anamjumnal): I understand sir but there are mostly 15 members who have already completed 100% of the course ..its giving me kind of anxiety that i may fall behind I am confused about should i just follow the respective milestones or should i also complete the course as soon as possible And these kind of issues add on and make me more anxious
+
+Instructor (a0rous, nitin_fighter1379): I think this issue is related to course. The question highlighted issue you raised is from our developers side and we are fixing it. Regarding milestone and course completion timeline I would kindly ask to guide us... please state your issue
+
+Student (anamjumnal): Sir there are mostly 15 members who have already completed 100% of the course ..its giving me kind of anxiety that i may fall behind I am confused about should i just follow the respective milestones or should i also complete the course as soon as possible ? And these kind of issues add on and make me more anxious
+
+Instructor (nitin_fighter1379): please follow up with the schedule mentioned in the milestones.....if the issue is technical....the team will be fixing it soon. Do not worry.
+
+Student (anamjumnal): Even if there are no technical issues then too we can complete it by following the milestone schedule na sir? Like we don't need to hurry and complete it as soon as possible? We just need to be consistent?
+
+Instructor (nitin_fighter1379): Yes...of course
+
+Student (anamjumnal): if this prblm is inevitable you may close the ticket sir

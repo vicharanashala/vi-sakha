@@ -1,0 +1,112 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1469368077811716136> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : MISSED ATTENDANCE : I missed marking my attendance twice (once before and once yesterday) on NPTEL attendance link that was in offer letter. My progess is very good in this pinternship journey, I have completed my ViBe course and have done a",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771392269842,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "aditya_kumar_77",
+      "user_id": "1469368077811716136",
+      "is_bot": false,
+      "content": "MISSED ATTENDANCE : I missed marking my attendance twice (once before and once yesterday) on NPTEL attendance link that was in offer letter. My progess is very good in this pinternship journey, I have completed my ViBe course and have done almost 40% of Case Studies. My query is what will happen now, will I be removed or discontinued from this Cohort as only 1 leave was allowed. I want to continue this journey, it is very productive for me.I will do my utmost best that this will not happen again.",
+      "embeds": [],
+      "created": 1771392301766,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469368077811716136> \nYou can continue in the internship.",
+      "embeds": [],
+      "created": 1771392733187,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "aditya_kumar_77",
+      "user_id": "1469368077811716136",
+      "is_bot": false,
+      "content": "Thank you ma'am.",
+      "embeds": [],
+      "created": 1771392865431,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1469368077811716136>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771393034994,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771393035563,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771393572753,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0084",
+    "id": "1473550721961169048"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 7
+}

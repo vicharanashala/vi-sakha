@@ -1,0 +1,162 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1470441864682405949> Welcome, the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Regarding Health point",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1770954324603,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "akashmukherjee0837",
+      "user_id": "1470441864682405949",
+      "is_bot": false,
+      "content": "Akash Mukherjee - Euclideans batch \nI have completed my vibe course yesterday \nbut my hp was reduced by 10",
+      "embeds": [],
+      "created": 1770954490269,
+      "edited": 1770954511850
+    },
+    {
+      "index": 3,
+      "author": "ahana01041",
+      "user_id": "1397851049624342528",
+      "is_bot": false,
+      "content": "<@836880971017748512>",
+      "embeds": [],
+      "created": 1770954923174,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Your percentage of completion?",
+      "embeds": [],
+      "created": 1770958781186,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "akashmukherjee0837",
+      "user_id": "1470441864682405949",
+      "is_bot": false,
+      "content": "100%",
+      "embeds": [],
+      "created": 1770962536796,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "akashmukherjee0837",
+      "user_id": "1470441864682405949",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1770963081018,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "akashmukherjee0837",
+      "user_id": "1470441864682405949",
+      "is_bot": false,
+      "content": "<@836880971017748512> please check it 🙏 sir",
+      "embeds": [],
+      "created": 1770986858559,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Do not worry, we'll consider this situation as there might be some problem with the contents marking as completed.",
+      "embeds": [],
+      "created": 1770987277304,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "akashmukherjee0837",
+      "user_id": "1470441864682405949",
+      "is_bot": false,
+      "content": "Thank you sir 😊",
+      "embeds": [],
+      "created": 1770990550766,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771059649791,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771059650704,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771059653892,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0036",
+    "id": "1471713844979171369"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 12
+}

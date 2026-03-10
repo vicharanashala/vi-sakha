@@ -1,0 +1,172 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1472209163567497348> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Not able to view the content and start the course under \"Vinternship (IITM BS) - RSAians\"",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771082694456,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@1472209163567497348> did you joined the vibe course?",
+      "embeds": [],
+      "created": 1771083195558,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "21f1006665",
+      "user_id": "1472209163567497348",
+      "is_bot": false,
+      "content": "yes <@1359148118444343517>",
+      "embeds": [],
+      "created": 1771083210976,
+      "edited": 1771083532921
+    },
+    {
+      "index": 4,
+      "author": "21f1006665",
+      "user_id": "1472209163567497348",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771083231702,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Then start this course",
+      "embeds": [],
+      "created": 1771129515970,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Or elaborate on your problem",
+      "embeds": [],
+      "created": 1771129522426,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "21f1006665",
+      "user_id": "1472209163567497348",
+      "is_bot": false,
+      "content": "<@1359148118444343517> after hitting this button, i am not able to proceed. can you please help?",
+      "embeds": [],
+      "created": 1771130435328,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Sure, can you join me on a call?",
+      "embeds": [],
+      "created": 1771130741776,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "abiramk7427",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1472209163567497348> \n\nThe issue appears to be related to browser permission settings. Kindly reset the browser’s media permissions and then click Continue/Start. If the problem persists, please try accessing it using a different browser and share an update with us.",
+      "embeds": [],
+      "created": 1771133201088,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "21f1006665",
+      "user_id": "1472209163567497348",
+      "is_bot": false,
+      "content": "Thanks <@1359148118444343517>",
+      "embeds": [],
+      "created": 1771137068771,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1359148118444343517>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771163568265,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771163569013,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771163570753,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0050",
+    "id": "1472252268287102997"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 13
+}

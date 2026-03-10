@@ -1,0 +1,9 @@
+Student (pannala_lokesh_reddy): My dashboard showing 0 courses enrolled error
+
+Instructor (nitin_fighter1379): Please state your cohort name. Also, please view the available courses tab present in ViBe landing dashboard and you'll find yor respective course there. Please join on it through your registered mail ID.
+
+Student (pannala_lokesh_reddy): AKsians is my cohort, plokeshreddy5678.com is my registered email id
+
+Instructor (nitin_fighter1379): You have progressed around 5%. Is the issue resolved and are you able to view the course ?
+
+Student (pannala_lokesh_reddy): Yes resolved, thank you!!

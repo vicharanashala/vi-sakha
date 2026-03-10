@@ -1,0 +1,252 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@857163186206015488> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Incorrectly filled A1 instead of A2 activity in the form",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772449231837,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@857163186206015488> please refill the form",
+      "embeds": [],
+      "created": 1772450203087,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "abhishek.7770",
+      "user_id": "857163186206015488",
+      "is_bot": false,
+      "content": "Okay",
+      "embeds": [],
+      "created": 1772450224306,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@857163186206015488> \nWe hope you have filled the activity completion form?",
+      "embeds": [],
+      "created": 1772461820746,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "abhishek.7770",
+      "user_id": "857163186206015488",
+      "is_bot": false,
+      "content": "Yes!",
+      "embeds": [],
+      "created": 1772462024356,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Which cohort are you from?",
+      "embeds": [],
+      "created": 1772462817871,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@857163186206015488>",
+      "embeds": [],
+      "created": 1772463016455,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "abhishek.7770",
+      "user_id": "857163186206015488",
+      "is_bot": false,
+      "content": "Aksians",
+      "embeds": [],
+      "created": 1772464125431,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@857163186206015488> \nWe have escalated your issue.",
+      "embeds": [],
+      "created": 1772516590867,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@857163186206015488> \nRefilling the form is the only option we have got. \nWe hope you have filled the form for the correction?",
+      "embeds": [],
+      "created": 1772642241525,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "abhishek.7770",
+      "user_id": "857163186206015488",
+      "is_bot": false,
+      "content": "Yes mam",
+      "embeds": [],
+      "created": 1772643211440,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Then <@857163186206015488> rest assure your HP's will be awarded to you.",
+      "embeds": [],
+      "created": 1772643378644,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "It may take sometime.",
+      "embeds": [],
+      "created": 1772643388369,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "abhishek.7770",
+      "user_id": "857163186206015488",
+      "is_bot": false,
+      "content": "Okay",
+      "embeds": [],
+      "created": 1772643524166,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@857163186206015488> \nIf you have refilled the form correctly then you will get the HP so do not worry much.",
+      "embeds": [],
+      "created": 1772693794034,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "We hope this will resolve your issue and we can close this thread now.",
+      "embeds": [],
+      "created": 1772693817866,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "abhishek.7770",
+      "user_id": "857163186206015488",
+      "is_bot": false,
+      "content": "Sure",
+      "embeds": [],
+      "created": 1772694369493,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "Are you sure you would like to close this ticket?",
+      "embeds": [],
+      "created": 1772698108014,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772698114486,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772698115252,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772698117230,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0318",
+    "id": "1477983940500258817"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 21
+}

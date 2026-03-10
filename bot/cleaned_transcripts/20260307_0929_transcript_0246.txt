@@ -1,0 +1,11 @@
+Student (ayushsahu28): Failed to access quiz
+
+Instructor (sreehari5371): Please provide your email along with the current module, section, and quiz you are referring to
+
+Student (ayushsahu28): Email : ayushsahurajmarg.com Module : Typescript Section: Generics and reusability Quiz: 3
+
+Instructor (sreehari5371): Kindly check now and update us.
+
+Student (ayushsahu28): Now working, thankyou very much
+
+Instructor (nitin_fighter1379): Closing the ticket

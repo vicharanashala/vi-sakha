@@ -1,0 +1,132 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1200849516849533001> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Unable to Attempt Quiz Due to Loading Error",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771916142290,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@759435748721557514> <@1220060098643230811> <@1449603507865784334> \nKindly look at this.",
+      "embeds": [],
+      "created": 1771916330649,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "<@1200849516849533001> Kindly elaborate on the issue and provide a screenshot or screen recording for better understanding.",
+      "embeds": [],
+      "created": 1771917160826,
+      "edited": 1771917537465
+    },
+    {
+      "index": 4,
+      "author": "st0rm_16",
+      "user_id": "1200849516849533001",
+      "is_bot": false,
+      "content": "I am unable to attempt the quiz as it is stuck on loading and showing an error, “Failed to start quiz: Cannot use 'in' operator to search for 'message' in undefined.” I have attached a screenshot. Please check.",
+      "embeds": [],
+      "created": 1771918514024,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "Please check now and update us.",
+      "embeds": [],
+      "created": 1771919100579,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "st0rm_16",
+      "user_id": "1200849516849533001",
+      "is_bot": false,
+      "content": "The issue has been resolved now and I am able to attempt the quiz. Thank you for the support.",
+      "embeds": [],
+      "created": 1771919182780,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@666826791016595456>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771920271261,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771920271611,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771920281526,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0208",
+    "id": "1475748001854263383"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 9
+}

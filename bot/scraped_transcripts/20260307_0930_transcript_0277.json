@@ -1,0 +1,222 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1378948922046812200> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Regarding Task Deadline and Offer Letter. I enrolled the course on  18/2/2026 I want to know when will my first week over regarding I will schedule my upcoming weeks to achieve health points and receive offer letter",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772164275172,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1378948922046812200> \nWe have escalated your issue. \nFor offer letter we will soon release an official announcement. \nTill the time you can focus on the intership and keep on completing the milestones.",
+      "embeds": [],
+      "created": 1772169874358,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "iiitsavipawar_90767",
+      "user_id": "1378948922046812200",
+      "is_bot": false,
+      "content": "please share upto 3 march because i need to submit it at my college hod",
+      "embeds": [],
+      "created": 1772186085614,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1378948922046812200> \nCould you tell your cohort name please?",
+      "embeds": [],
+      "created": 1772197050098,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "iiitsavipawar_90767",
+      "user_id": "1378948922046812200",
+      "is_bot": false,
+      "content": "AKSian",
+      "embeds": [],
+      "created": 1772197067550,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1378948922046812200> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772428163778,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "iiitsavipawar_90767",
+      "user_id": "1378948922046812200",
+      "is_bot": false,
+      "content": "not yet actually i am studying at my college and i am getting stipend so i need to submit offer letter at admin office as o told previously to HOD of our department. so i am little worried. Our HOD sir agree with me and sir is continuously motivating me to complete internship within time period. but at admin office we need to submit offer letter.  so i generate ticket",
+      "embeds": [],
+      "created": 1772428365649,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "iiitsavipawar_90767",
+      "user_id": "1378948922046812200",
+      "is_bot": false,
+      "content": "<@956180961832362014>  Is thier any update for me.",
+      "embeds": [],
+      "created": 1772439959747,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1378948922046812200> \nOffer letter you will surely get very soon. I cannot guarantee for which date. \nAs per the FAQ's for this cohort there is no stipend. And as it is a parallel internship so you can just go through with the milestones mentioned on the website.",
+      "embeds": [],
+      "created": 1772440399068,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "iiitsavipawar_90767",
+      "user_id": "1378948922046812200",
+      "is_bot": false,
+      "content": "<@956180961832362014> noted miss i will inform to my hod. I agree with you because at the time of joining and during meetings we Rakesh sir alredy inform about stipend to me. I completed 32% as of now. let me finished up to 50% to receive 5 health point.",
+      "embeds": [],
+      "created": 1772440603673,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Are you talking about rohit sir if I am not wrong?",
+      "embeds": [],
+      "created": 1772440735844,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "iiitsavipawar_90767",
+      "user_id": "1378948922046812200",
+      "is_bot": false,
+      "content": "yes miss its rohit sir its my bad please accept my apology.",
+      "embeds": [],
+      "created": 1772440787475,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1378948922046812200> \nIt's totally ok. \nI hope your issue has now been resolved and now your doubt is clear.",
+      "embeds": [],
+      "created": 1772441005491,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1378948922046812200> \nCan we close this ticket now?",
+      "embeds": [],
+      "created": 1772461085126,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "iiitsavipawar_90767",
+      "user_id": "1378948922046812200",
+      "is_bot": false,
+      "content": "<@956180961832362014>  Yes madam",
+      "embeds": [],
+      "created": 1772464193368,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772515424745,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772515425231,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772515428876,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0277",
+    "id": "1476788746140520479"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 18
+}

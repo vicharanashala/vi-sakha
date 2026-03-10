@@ -1,0 +1,172 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1472197797104324719> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Not receiving any email and not able to register for the zoom sessions via my registered email id. I have used my official iitm bs degree email id : 24f3004909@ds.study.iitm.ac.in",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771594793866,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1472197797104324719> \nKindly check you spam folder once.",
+      "embeds": [],
+      "created": 1771596168287,
+      "edited": 1771596177893
+    },
+    {
+      "index": 3,
+      "author": "sanidhyakumarghosal_64747",
+      "user_id": "1472197797104324719",
+      "is_bot": false,
+      "content": "Just checked. I have not received any mail in either inbox or spam",
+      "embeds": [],
+      "created": 1771596719327,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "sanidhyakumarghosal_64747",
+      "user_id": "1472197797104324719",
+      "is_bot": false,
+      "content": "My mail id : 24f3004909@ds.study.iitm.ac.in",
+      "embeds": [],
+      "created": 1771596793272,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1472197797104324719> \nDon't worry we have informed your query to the team and they will update the sheet for the same.\nYou will receive the mails soon.",
+      "embeds": [],
+      "created": 1771597030339,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1472197797104324719> Are you receiving the mail now?",
+      "embeds": [],
+      "created": 1771666748491,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "sanidhyakumarghosal_64747",
+      "user_id": "1472197797104324719",
+      "is_bot": false,
+      "content": "I have received the attached mail. Is this is suppose to be the mail I should receive, or is there something more I am missing?",
+      "embeds": [],
+      "created": 1771678940003,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Yes this is the mail. \n<@1472197797104324719>",
+      "embeds": [],
+      "created": 1771681176735,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "sanidhyakumarghosal_64747",
+      "user_id": "1472197797104324719",
+      "is_bot": false,
+      "content": "Okay",
+      "embeds": [],
+      "created": 1771683302207,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "sanidhyakumarghosal_64747",
+      "user_id": "1472197797104324719",
+      "is_bot": false,
+      "content": "Thank you so much for your assistance and prompt response",
+      "embeds": [],
+      "created": 1771683320560,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1472197797104324719>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771683379100,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771683380008,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771683398985,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0128",
+    "id": "1474400168710377635"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 13
+}

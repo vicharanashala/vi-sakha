@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@623610868978155550> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : where is the gform to submit the timings we will watch the lectures? I was filling yesterday and today i was gonna submit it but its not visible",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771314761151,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@623610868978155550> Could you please elaborate a bit on which form you are talking about?\n\nThe slot booking forms are here as follows:\nCommit when you will watch: - https://forms.gle/mcbqd1mLVZQzugfM8\nAre you true to your Commitments: - https://forms.gle/Y2yn3nW7m6Lx3sKq9",
+      "embeds": [],
+      "created": 1771315835209,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "govindajaijai108",
+      "user_id": "623610868978155550",
+      "is_bot": false,
+      "content": "I think the first gform, do we need to fill the 2nd one too?",
+      "embeds": [],
+      "created": 1771315898785,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@623610868978155550> yes!",
+      "embeds": [],
+      "created": 1771318786197,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "govindajaijai108",
+      "user_id": "623610868978155550",
+      "is_bot": false,
+      "content": "Ok",
+      "embeds": [],
+      "created": 1771318812323,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@623610868978155550> I hope the issue has been resolved?",
+      "embeds": [],
+      "created": 1771341915785,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "govindajaijai108",
+      "user_id": "623610868978155550",
+      "is_bot": false,
+      "content": "Ofcourse",
+      "embeds": [],
+      "created": 1771341965084,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1771341983168,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771341993691,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771341994333,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771341997336,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0068",
+    "id": "1473225626658803733"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

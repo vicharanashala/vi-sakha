@@ -1,0 +1,23 @@
+Student (kanakashree.): I want to learn new things
+
+Instructor (nitin_fighter1379): Can you elaborate on the issue?
+
+Student (kanakashree.): I am unable any access vibe classes I can't really access the VIBe platform with milestone , quiz etc... I tried from both pc and phone... I registered and if I try to register again it says you're already enrolled in the course, how do I access the platform
+
+Instructor (nitin_fighter1379): Please share some screenshots of ViBe dashboard for reference
+
+Student (kanakashree.): I am able to access it now so no more problem may be Can I do code while learning in vs
+
+Instructor (nitin_fighter1379): You might not be able to code parallely while pursuing ViBe coiurse as the proctoring system finds anomalies and also for this reason only we have given exclusive case studies after the completion of ViBe course.
+
+Student (kanakashree.): Ohh ok
+
+Instructor (nitin_fighter1379): Is there any other queries? Shall I close the Ticket?
+
+Student (kanakashree.): As I have mid exam's going on now so I think I am unable to complete the week 1 target on time so I am not getting what to do
+
+Instructor (nitin_fighter1379): The Deadlines mentioned in the page are from the start of the course. Please stick onto it and the videos are very small capsules of learning module. 25 % completion is way easier. Please try to complete the tasks as per the milestones as missing might lead to your discontinuation from the cohort.
+
+Student (kanakashree.): Ok tq u may close the ticket
+
+Instructor (jinalgupta.): As the issue has been resolved hence closing the ticket.

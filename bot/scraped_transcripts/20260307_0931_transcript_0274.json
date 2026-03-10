@@ -1,0 +1,352 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1392426239364698263> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : video quality issue on vibe",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772147181948,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "sekiro_vg81",
+      "user_id": "1392426239364698263",
+      "is_bot": false,
+      "content": "My internet speed seems fine, but my video quality keeps dropping. The resolution hits \"144p\" and gets so blurry that I can't even read the code on the screen.\n\nmy suggestion is to make a resolution selector to give users manual control over the video playback quality",
+      "embeds": [],
+      "created": 1772147209364,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@759435748721557514> \nKindly help us out here.",
+      "embeds": [],
+      "created": 1772169730457,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "The suggestion has been escalated to the team.",
+      "embeds": [],
+      "created": 1772177998687,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@759435748721557514> \nDid we get an update regarding the same?",
+      "embeds": [],
+      "created": 1772428065335,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1178273014085857294> \nDo we have any update regarding this?",
+      "embeds": [],
+      "created": 1772515363848,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "Currently youtube doesn't give access to change video quality through another page. So the quality adjusts according to the network only.",
+      "embeds": [],
+      "created": 1772515764688,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1392426239364698263> \nKindly see your internet connectivity once.",
+      "embeds": [],
+      "created": 1772517052400,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1392426239364698263> \nWe hope this has helped you resolve your query.",
+      "embeds": [],
+      "created": 1772640418046,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1392426239364698263> \nIs your issue resolved now?",
+      "embeds": [],
+      "created": 1772693299717,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "sekiro_vg81",
+      "user_id": "1392426239364698263",
+      "is_bot": false,
+      "content": "here is my internet connection",
+      "embeds": [],
+      "created": 1772702998079,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1366708005483053076> \nKindly help us out here.",
+      "embeds": [],
+      "created": 1772705502315,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "sure",
+      "embeds": [],
+      "created": 1772705530473,
+      "edited": 1772705536171
+    },
+    {
+      "index": 14,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "<@1392426239364698263>  is this issue happens for any specific videos or are you facing the same for entire course?",
+      "embeds": [],
+      "created": 1772705971839,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "sekiro_vg81",
+      "user_id": "1392426239364698263",
+      "is_bot": false,
+      "content": "it happened almost every time",
+      "embeds": [],
+      "created": 1772706163142,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "sekiro_vg81",
+      "user_id": "1392426239364698263",
+      "is_bot": false,
+      "content": "first two session of javascript was ok but later typescript sessions were unreadable",
+      "embeds": [],
+      "created": 1772706288843,
+      "edited": 1772706349657
+    },
+    {
+      "index": 17,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@759435748721557514> \nKindly help us out here.",
+      "embeds": [],
+      "created": 1772772264833,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "sekiro_vg81",
+      "user_id": "1392426239364698263",
+      "is_bot": false,
+      "content": "this is the condition of my video quality and i genuinely can not read this",
+      "embeds": [],
+      "created": 1772787614227,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "hi <@1392426239364698263> \nPlease try the following:\n1. Try a different browser, also state which one are you using right now.\n2. Try a different network.\n3. Clear cache from the browser and then try again.\nSee if these help, because it seems to be a network issue, as it is working fine for others.",
+      "embeds": [],
+      "created": 1772789795352,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "sekiro_vg81",
+      "user_id": "1392426239364698263",
+      "is_bot": false,
+      "content": "1. i am using crome browser and i switch to brave browser but issue is still occurring\n2. i also try different network but that did not help",
+      "embeds": [],
+      "created": 1772791165948,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "sekiro_vg81",
+      "user_id": "1392426239364698263",
+      "is_bot": false,
+      "content": "3. i will try the third method",
+      "embeds": [],
+      "created": 1772791209939,
+      "edited": 1772791255765
+    },
+    {
+      "index": 22,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Okay please update me by tagging me\nalso see if you have access to faster network, try that\nmaybe that will help us diagnose the issue",
+      "embeds": [],
+      "created": 1772791627678,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "sekiro_vg81",
+      "user_id": "1392426239364698263",
+      "is_bot": false,
+      "content": "hello <@1469178567551090933>  \ni tried the third method, but that  did not work either",
+      "embeds": [],
+      "created": 1772820695777,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "thirumalesh_33801",
+      "user_id": "1449603507865784334",
+      "is_bot": false,
+      "content": "<@1392426239364698263> we understand you problem. But the video quality depends on you network speed.",
+      "embeds": [],
+      "created": 1772821319708,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "sekiro_vg81",
+      "user_id": "1392426239364698263",
+      "is_bot": false,
+      "content": "so what should i do ?\nshould i close this ticket",
+      "embeds": [],
+      "created": 1772821464073,
+      "edited": null
+    },
+    {
+      "index": 26,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "you'll need access to network with better speed",
+      "embeds": [],
+      "created": 1772853558600,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1392426239364698263> is the issue resolved? Can we close the ticket?",
+      "embeds": [],
+      "created": 1772859692371,
+      "edited": null
+    },
+    {
+      "index": 28,
+      "author": "sekiro_vg81",
+      "user_id": "1392426239364698263",
+      "is_bot": false,
+      "content": "No my issue is still occurring but you can close this ticket because the issue is with my network connectivity not with vibe platform as earlier stated by bala_thirumalesh_nemalipuri sir",
+      "embeds": [],
+      "created": 1772868395532,
+      "edited": null
+    },
+    {
+      "index": 29,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772875361938,
+      "edited": null
+    },
+    {
+      "index": 30,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772875362303,
+      "edited": null
+    },
+    {
+      "index": 31,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772875364226,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0274",
+    "id": "1476717052612972566"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 31
+}

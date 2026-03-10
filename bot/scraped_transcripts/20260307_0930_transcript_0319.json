@@ -1,0 +1,132 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1258502483773493258> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : HP Increment Not Reflected on Dashboard After A1 & A2 Completion",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772449997832,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "subhamduary",
+      "user_id": "1258502483773493258",
+      "is_bot": false,
+      "content": "Dear Support Team,\n\nI hope this message finds you well.\n\nI have successfully completed the A1 and A2 activities before the specified deadline. However, the corresponding HP increment has not yet been reflected on my dashboard.\n\nI kindly request you to look into this matter and update the status at the earliest. Please let me know if any additional information is required from my end.\n\nThank you\n\nName: Subham Duary\nEmail: subhamduary11@gmail.com",
+      "embeds": [],
+      "created": 1772450203189,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1258502483773493258> \nWe hope you have filled the activity completion form for the same.",
+      "embeds": [],
+      "created": 1772455628057,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "subhamduary",
+      "user_id": "1258502483773493258",
+      "is_bot": false,
+      "content": "<@956180961832362014> \nYes, I have submitted the activity completion form:\nhttps://forms.gle/q4sR3pUv7yG8oENs5\n\nA1: Discord profile picture confirmation\nA2: LinkedIn post",
+      "embeds": [
+        {
+          "title": "Kruskalians Activity Completion Confirmation Form",
+          "description": "Students are required to submit this form to confirm completion of an assigned activity for the health points.",
+          "url": "https://forms.gle/q4sR3pUv7yG8oENs5",
+          "thumbnail": {
+            "url": "https://lh3.googleusercontent.com/YlUllfujUJC8QyO3IGH3DWeFmJt6VyA7sK25VJwf_KlX1uGk2arz2HCJeylUECJXjDsOCmhMjZThZow=w1200-h630-p"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772458501402,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "subhamduary",
+      "user_id": "1258502483773493258",
+      "is_bot": false,
+      "content": "I just checked the dashboard — it has been updated and marked as completed now.\n\nThank you for your support 😊",
+      "embeds": [],
+      "created": 1772458789476,
+      "edited": 1772458816458
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1258502483773493258>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772464888206,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772464888802,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772518050132,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0319",
+    "id": "1477987155111444550"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 8
+}

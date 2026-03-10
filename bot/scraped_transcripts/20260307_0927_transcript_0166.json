@@ -1,0 +1,262 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1474374749500084396> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Regarding course enrollment",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771756036490,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "narayanlalsuthar_43626",
+      "user_id": "1474374749500084396",
+      "is_bot": false,
+      "content": "Sir i did not get access to the course on ViBe portal but registered for RSAians cohort. I also wrote email to \"vinternship-support@vicharanashala.zohodesk.in\"  regarding this issue but did not get any reply.  What should i do.",
+      "embeds": [],
+      "created": 1771756441644,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "Could you share your email id.",
+      "embeds": [],
+      "created": 1771756914375,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@857556884750729217> <@1178273014085857294> Kindly take a look into this.",
+      "embeds": [],
+      "created": 1771756943682,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@1474374749500084396> , kindly share your email id through which you have registered in the course",
+      "embeds": [],
+      "created": 1771761501888,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "narayanlalsuthar_43626",
+      "user_id": "1474374749500084396",
+      "is_bot": false,
+      "content": "<@1178273014085857294> \nn22031020@gmail.com",
+      "embeds": [],
+      "created": 1771763331968,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@956180961832362014> , is gmail id allowed in RSAians cohort? kindly confirm once.",
+      "embeds": [],
+      "created": 1771764625022,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474374749500084396> \nFor RSAians only IITM BS official student ID is allowed.",
+      "embeds": [],
+      "created": 1771780239669,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "narayanlalsuthar_43626",
+      "user_id": "1474374749500084396",
+      "is_bot": false,
+      "content": "can i change my id now?",
+      "embeds": [],
+      "created": 1771780291994,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Just regiter using your IITM BS ID your registration will be accepted.",
+      "embeds": [],
+      "created": 1771780320357,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "narayanlalsuthar_43626",
+      "user_id": "1474374749500084396",
+      "is_bot": false,
+      "content": "ok thanks for the clarification..",
+      "embeds": [],
+      "created": 1771780370612,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474374749500084396> \nI will close this ticket after you get yourself registered.",
+      "embeds": [],
+      "created": 1771780400505,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "narayanlalsuthar_43626",
+      "user_id": "1474374749500084396",
+      "is_bot": false,
+      "content": "one more question...during registration on discord server i submit my gmail id ..will that be an issue?",
+      "embeds": [],
+      "created": 1771780483451,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Provide your both ID's here I will escalate your issue for further guidance.",
+      "embeds": [],
+      "created": 1771780530712,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "narayanlalsuthar_43626",
+      "user_id": "1474374749500084396",
+      "is_bot": false,
+      "content": "personal gmail id (used for discord):- n22031020@gmail.com\nIITM id:- 23f3003750@ds.study.iitm.ac.in",
+      "embeds": [],
+      "created": 1771781054994,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474374749500084396> \nPersonal email ID will work on discord only if you have put on professional DP and Full name, but on ViBe you will have to use your college ID.",
+      "embeds": [],
+      "created": 1771826165702,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474374749500084396> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1771846538210,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "narayanlalsuthar_43626",
+      "user_id": "1474374749500084396",
+      "is_bot": false,
+      "content": "Yes....thank you very much for your guidance.....",
+      "embeds": [],
+      "created": 1771846657371,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing this ticket.",
+      "embeds": [],
+      "created": 1771846726913,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771846733503,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771846734232,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771846738280,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0166",
+    "id": "1475076469645377578"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 22
+}

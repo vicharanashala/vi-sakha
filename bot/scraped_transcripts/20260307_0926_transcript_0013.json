@@ -1,0 +1,232 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1008438276241240156> Welcome, the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Facing issue with video playback on ViBe platform",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1770292331542,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "hey Tushar, what issue are you facing, can you describe it in detail ?",
+      "embeds": [],
+      "created": 1770292473734,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "2shar.p",
+      "user_id": "1008438276241240156",
+      "is_bot": false,
+      "content": "just now, this new issue has started , where in the video playing on ViBe keeps on rewinding , starting from the start again and again",
+      "embeds": [],
+      "created": 1770292476126,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "i seee",
+      "embeds": [],
+      "created": 1770292513925,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "2shar.p",
+      "user_id": "1008438276241240156",
+      "is_bot": false,
+      "content": "I have tried refreshing, logging out and logging back in, but nothing seems to be working.",
+      "embeds": [],
+      "created": 1770292516986,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "2shar.p",
+      "user_id": "1008438276241240156",
+      "is_bot": false,
+      "content": "i am attaching the video",
+      "embeds": [],
+      "created": 1770292526772,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "sure please do that!",
+      "embeds": [],
+      "created": 1770292534257,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "2shar.p",
+      "user_id": "1008438276241240156",
+      "is_bot": false,
+      "content": "here",
+      "embeds": [],
+      "created": 1770292565868,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "click on submit flag!",
+      "embeds": [],
+      "created": 1770292619765,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "2shar.p",
+      "user_id": "1008438276241240156",
+      "is_bot": false,
+      "content": "I have already done that",
+      "embeds": [],
+      "created": 1770292693271,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "post the same thing on discussion channel as well in form of a post as this particular bug has been reported by few more students! will reach you out again in a bit!",
+      "embeds": [],
+      "created": 1770292784051,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "2shar.p",
+      "user_id": "1008438276241240156",
+      "is_bot": false,
+      "content": "okay, thanks for your time",
+      "embeds": [],
+      "created": 1770292829865,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "no worries",
+      "embeds": [],
+      "created": 1770292836441,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "i'll keep this ticket open for further updates!",
+      "embeds": [],
+      "created": 1770293037316,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "2shar.p",
+      "user_id": "1008438276241240156",
+      "is_bot": false,
+      "content": "thanks",
+      "embeds": [],
+      "created": 1770293196538,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "adityabmv",
+      "user_id": "647093625594839050",
+      "is_bot": false,
+      "content": "<@1008438276241240156> \nSorry about the trouble you’re facing. I’ve looped in the technical team, and one of them will reach out to you shortly to look into this and resolve it.",
+      "embeds": [],
+      "created": 1770296538744,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1359148118444343517>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1770300359985,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1770300360515,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1770300363338,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0013",
+    "id": "1468937244994965647"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 19
+}

@@ -1,0 +1,172 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1136662191689441350> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Deadline of completion of 20 percent",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772027067264,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "aniketchaudhuri7",
+      "user_id": "1136662191689441350",
+      "is_bot": false,
+      "content": "I have registered on vibe on 23/02/26\nWhat is the deadline to complete 20 percent",
+      "embeds": [],
+      "created": 1772027114218,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1136662191689441350> It is a week from your start of ViBe course",
+      "embeds": [],
+      "created": 1772027896127,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "aniketchaudhuri7",
+      "user_id": "1136662191689441350",
+      "is_bot": false,
+      "content": "Ok",
+      "embeds": [],
+      "created": 1772028359078,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1136662191689441350> \nWe hope your issue has been resolved?",
+      "embeds": [],
+      "created": 1772084404015,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Just a reminder do put a professional DP and write your full name as this may lead to reduction in your HP's.",
+      "embeds": [],
+      "created": 1772084441277,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "aniketchaudhuri7",
+      "user_id": "1136662191689441350",
+      "is_bot": false,
+      "content": "Yes",
+      "embeds": [],
+      "created": 1772087570837,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1136662191689441350> \nWe hope you will adhere to these rules.",
+      "embeds": [],
+      "created": 1772087653880,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved we will be closing the ticket.",
+      "embeds": [],
+      "created": 1772087666177,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "aniketchaudhuri7",
+      "user_id": "1136662191689441350",
+      "is_bot": false,
+      "content": "Ok",
+      "embeds": [],
+      "created": 1772088075599,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772088820514,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772088821040,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772088823420,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0250",
+    "id": "1476213255037780081"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 13
+}

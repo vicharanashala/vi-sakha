@@ -1,0 +1,11 @@
+Student (taskin_koushar): not able to submit the .js file in case study form submission
+
+Instructor (rishavkumar.nit): hi , can you please share the error screenshot
+
+Student (taskin_koushar): i was submitting the case study of mongodb in .js file even i tries .mongodb.js file but it is not uploading there. with the rest of file like .ts , .zip, i have no issue for submitting. please guide me on this that what should i do as there is deadline this thursday and i have to submit the case study
+
+Instructor (nitin_fighter1379, rishavkumar.nit): Will get back to you once confirmed from respective team. , can you please guide here further cc: can you zip the file and then try submitting?
+
+Student (taskin_koushar): yes sir i converted it into zip file and it's submitting. Is it okay to convert into zip file and then submit it whenever i will face this issue with any type of file?
+
+Instructor (nitin_fighter1379): Yes sure Closing the Ticket

@@ -1,0 +1,122 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1472100194324709406> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Typescript videos are not accessible",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771351134305,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1472100194324709406> \nPlease tell your cohort name once.",
+      "embeds": [],
+      "created": 1771353226308,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@666826791016595456> Please help.",
+      "embeds": [],
+      "created": 1771353306114,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "shobhansarkar_68209",
+      "user_id": "1472100194324709406",
+      "is_bot": false,
+      "content": "My cohort is IIT Madras <@956180961832362014> <@666826791016595456>  Sir",
+      "embeds": [],
+      "created": 1771387274108,
+      "edited": 1771387325824
+    },
+    {
+      "index": 5,
+      "author": "shobhansarkar_68209",
+      "user_id": "1472100194324709406",
+      "is_bot": false,
+      "content": "Sir, the video is now accessible.. I followed what Sir told in the discussion forum.. It is fine now <@956180961832362014> <@666826791016595456>",
+      "embeds": [],
+      "created": 1771388351898,
+      "edited": 1771388382027
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@666826791016595456>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771394264145,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771394264623,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771394266532,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0079",
+    "id": "1473378186153955506"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 8
+}

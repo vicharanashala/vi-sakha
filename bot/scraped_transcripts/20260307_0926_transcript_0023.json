@@ -1,0 +1,192 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1388578085644931123> Welcome, the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I got removed from the cohort",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1770636290144,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@1388578085644931123>, did you received any email regarding that?",
+      "embeds": [],
+      "created": 1770637067521,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "aditiprakash0129_71463",
+      "user_id": "1388578085644931123",
+      "is_bot": false,
+      "content": "Yes",
+      "embeds": [],
+      "created": 1770638985597,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "aditiprakash0129_71463",
+      "user_id": "1388578085644931123",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1770639039488,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "aditiprakash0129_71463",
+      "user_id": "1388578085644931123",
+      "is_bot": false,
+      "content": "How and when can I join new cohort",
+      "embeds": [],
+      "created": 1770639045523,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@1302535858519539792>",
+      "embeds": [],
+      "created": 1770639647828,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "koder_kartik",
+      "user_id": "1302535858519539792",
+      "is_bot": false,
+      "content": "An announcement will be shared when the new cohort starts. You’re welcome to rejoin then.",
+      "embeds": [],
+      "created": 1770639867758,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "aditiprakash0129_71463",
+      "user_id": "1388578085644931123",
+      "is_bot": false,
+      "content": "New cohort will start for sure?",
+      "embeds": [],
+      "created": 1770639902668,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "koder_kartik",
+      "user_id": "1302535858519539792",
+      "is_bot": false,
+      "content": "yes",
+      "embeds": [],
+      "created": 1770640215053,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@1388578085644931123> are you satisfied with the answer?",
+      "embeds": [],
+      "created": 1770649047996,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "aditiprakash0129_71463",
+      "user_id": "1388578085644931123",
+      "is_bot": false,
+      "content": "Yes",
+      "embeds": [],
+      "created": 1770649181388,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "shall i close this ticket?",
+      "embeds": [],
+      "created": 1770649230143,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1359148118444343517>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1770717174266,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1770717174682,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1770717176518,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0023",
+    "id": "1470379912664842437"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 15
+}

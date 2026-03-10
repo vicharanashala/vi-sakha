@@ -1,0 +1,132 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@747745120664944700> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Im unable to access the course. it says im registered but im not enrolled in the course",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771826619836,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@747745120664944700> Can you attach scrrenshots of the issue?",
+      "embeds": [],
+      "created": 1771826650449,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "thethirukonda",
+      "user_id": "747745120664944700",
+      "is_bot": false,
+      "content": "here you go .",
+      "embeds": [],
+      "created": 1771826729016,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "thethirukonda",
+      "user_id": "747745120664944700",
+      "is_bot": false,
+      "content": "i  cant see the enrollment",
+      "embeds": [],
+      "created": 1771826731440,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@747745120664944700> Can you check it now?",
+      "embeds": [],
+      "created": 1771826829426,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "thethirukonda",
+      "user_id": "747745120664944700",
+      "is_bot": false,
+      "content": "yes, thank you.  i think you can close the ticket now\\",
+      "embeds": [],
+      "created": 1771826922036,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771826975790,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771826976245,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771826978386,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0182",
+    "id": "1475372517538533558"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 9
+}

@@ -1,0 +1,164 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1469328521091481711> Welcome, the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I have completed my case studies.do I  have to do this again? In this cohort",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1770450851156,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1469328521091481711>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1770450938806,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@1468485905122594851> I have completed my case studies.do I have to do this again? In this cohort",
+      "embeds": [],
+      "created": 1770450971721,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@1359148118444343517>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1770450976688,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "kangaroo",
+      "user_id": "1468485905122594851",
+      "is_bot": true,
+      "content": "We haven't released an official update on that yet.",
+      "embeds": [],
+      "created": 1770450994704,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "gungunsinghadeo",
+      "user_id": "1469328521091481711",
+      "is_bot": false,
+      "content": "Ok",
+      "embeds": [],
+      "created": 1770451055885,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "will let you know <@1469328521091481711>",
+      "embeds": [],
+      "created": 1770451127254,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "gungunsinghadeo",
+      "user_id": "1469328521091481711",
+      "is_bot": false,
+      "content": "Okh thankyou",
+      "embeds": [],
+      "created": 1770451305982,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "Channel being renamed too quickly, Timeout: 2m, 34s - Skipping",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1359148118444343517>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1770451385048,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1770451385598,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1770451387633,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "ticket-0016",
+    "id": "1469602125343490162"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

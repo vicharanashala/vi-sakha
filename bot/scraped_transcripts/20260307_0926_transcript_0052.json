@@ -1,0 +1,242 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1147546943984259105> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Course is not visible",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771138171379,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jayanta2004",
+      "user_id": "1147546943984259105",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771138220507,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jayanta2004",
+      "user_id": "1147546943984259105",
+      "is_bot": false,
+      "content": "I have done all the registrations, but the course is not visible in my dashboard, \n\nAlso, when I am trying to login in my laptop, then it's showing \"Failed to fetch\"",
+      "embeds": [],
+      "created": 1771138259229,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "abiramk7427",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1147546943984259105> \n\nPlease check your internet connection and ensure that the email address and password entered are correct.\nAdditionally, could you kindly share your email ID here in the chat so that I can verify it from our end?",
+      "embeds": [],
+      "created": 1771138470882,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jayanta2004",
+      "user_id": "1147546943984259105",
+      "is_bot": false,
+      "content": "24f3004084@ds.study.iitm.ac.in",
+      "embeds": [],
+      "created": 1771138576741,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "abiramk7427",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1147546943984259105> I'am able to see your enrollment actually, Could you try login using laptop to view the course.",
+      "embeds": [],
+      "created": 1771139081132,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "abiramk7427",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "Please let me know, once you are able to login into ViBe and access the course.",
+      "embeds": [],
+      "created": 1771139471918,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jayanta2004",
+      "user_id": "1147546943984259105",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771145904339,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jayanta2004",
+      "user_id": "1147546943984259105",
+      "is_bot": false,
+      "content": "Still it's showing the same issue",
+      "embeds": [],
+      "created": 1771145910439,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "abiramk7427",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1147546943984259105> Are you available for a call ?",
+      "embeds": [],
+      "created": 1771146822777,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jayanta2004",
+      "user_id": "1147546943984259105",
+      "is_bot": false,
+      "content": "Yes",
+      "embeds": [],
+      "created": 1771146950171,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "abiramk7427",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "Please join the voice channel",
+      "embeds": [],
+      "created": 1771147070711,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "abiramk7427",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1147546943984259105> are you able to see the course? If not, try using different network, the issue you're facing is mostly network related.",
+      "embeds": [],
+      "created": 1771153873616,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jayanta2004",
+      "user_id": "1147546943984259105",
+      "is_bot": false,
+      "content": "Yes tes",
+      "embeds": [],
+      "created": 1771153973987,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jayanta2004",
+      "user_id": "1147546943984259105",
+      "is_bot": false,
+      "content": "Yes",
+      "embeds": [],
+      "created": 1771153975815,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jayanta2004",
+      "user_id": "1147546943984259105",
+      "is_bot": false,
+      "content": "It's resolved now",
+      "embeds": [],
+      "created": 1771153986415,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "abiramk7427",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "Okay👍🏻",
+      "embeds": [],
+      "created": 1771154006115,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@666826791016595456>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771154076326,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771154076897,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771154078778,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0052",
+    "id": "1472484954834468917"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 20
+}

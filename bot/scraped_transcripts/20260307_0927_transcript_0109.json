@@ -1,0 +1,112 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1013013754067308594> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Hp got reduced by 10% due to vibe completion glitch",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771502904223,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "sumaymittal",
+      "user_id": "1013013754067308594",
+      "is_bot": false,
+      "content": "Hello team, \nI completed the vibe course before the deadline but it was stuck at 99.2% due to some missed videos and quizzes, I was able to reach 99.8 by watching all the missed videos but there was still a quiz left as the deadline passed by, I was able to find that quiz after many attemps and reached 100% but the issue is that my hp got reduced by 10%, placing me in the unsafe zone, I request you to please address this issue and revert back my hp as I tried the best from my end, but couldn't get it completed in time because of the server issue.\nThank You\nSumay Mittal",
+      "embeds": [],
+      "created": 1771503145670,
+      "edited": 1771503171399
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1013013754067308594> Do not worry. If the course is completed before deadline and this issue caused HP reduction, your case will be considered as course completed successfully and the HP reduction will be reverted.",
+      "embeds": [],
+      "created": 1771504155171,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "sumaymittal",
+      "user_id": "1013013754067308594",
+      "is_bot": false,
+      "content": "OK Sir, Thankyou",
+      "embeds": [],
+      "created": 1771505858748,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771508626812,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771508627385,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771508629792,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0109",
+    "id": "1474014756145987584"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 7
+}

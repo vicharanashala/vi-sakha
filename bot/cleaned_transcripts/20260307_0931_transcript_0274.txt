@@ -1,0 +1,25 @@
+Student (sekiro_vg81): video quality issue on vibe My internet speed seems fine, but my video quality keeps dropping. The resolution hits "144p" and gets so blurry that I can't even read the code on the screen. my suggestion is to make a resolution selector to give users manual control over the video playback quality
+
+Instructor (jinalgupta., rishavkumar.nit, sreehari5371): Kindly help us out here. The suggestion has been escalated to the team. Did we get an update regarding the same? Do we have any update regarding this? Currently youtube doesn't give access to change video quality through another page. So the quality adjusts according to the network only. Kindly see your internet connectivity once.
+
+Student (sekiro_vg81): here is my internet connection
+
+Instructor (jinalgupta.): Kindly help us out here.
+
+Student (sekiro_vg81, thanhamariyam): is this issue happens for any specific videos or are you facing the same for entire course? it happened almost every time first two session of javascript was ok but later typescript sessions were unreadable
+
+Instructor (jinalgupta.): Kindly help us out here.
+
+Student (sekiro_vg81): this is the condition of my video quality and i genuinely can not read this
+
+Instructor (riyamehtaatwork): hi Please try the following: 1. Try a different browser, also state which one are you using right now. 2. Try a different network. 3. Clear cache from the browser and then try again. See if these help, because it seems to be a network issue, as it is working fine for others.
+
+Student (sekiro_vg81): 1. i am using crome browser and i switch to brave browser but issue is still occurring 2. i also try different network but that did not help 3. i will try the third method
+
+Instructor (riyamehtaatwork): Okay please update me by tagging me also see if you have access to faster network, try that maybe that will help us diagnose the issue
+
+Student (sekiro_vg81, thirumalesh_33801): hello i tried the third method, but that did not work either we understand you problem. But the video quality depends on you network speed. so what should i do ? should i close this ticket
+
+Instructor (nitin_fighter1379, riyamehtaatwork): you'll need access to network with better speed is the issue resolved? Can we close the ticket?
+
+Student (sekiro_vg81): No my issue is still occurring but you can close this ticket because the issue is with my network connectivity not with vibe platform as earlier stated by bala_thirumalesh_nemalipuri sir

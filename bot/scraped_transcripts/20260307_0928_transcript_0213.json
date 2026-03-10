@@ -1,0 +1,142 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1136662191689441350> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Unable to start quiz",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771930147584,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1136662191689441350> Please elaborate on the issue\n\nCC: <@1469178567551090933> <@857556884750729217>",
+      "embeds": [],
+      "created": 1771930202127,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "aniketchaudhuri7",
+      "user_id": "1136662191689441350",
+      "is_bot": false,
+      "content": "I have completed the lecture no 2 of Java script module but upon clicking on quiz 2 it states you don't have permission to start quiz",
+      "embeds": [],
+      "created": 1771930301403,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "<@1136662191689441350> Please refresh the page and start learning I have reseted the module it will work. \nFirst logout and then login. \nAfter that you can start learning... why you suddenly left the breakout room??",
+      "embeds": [],
+      "created": 1771932168214,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "aniketchaudhuri7",
+      "user_id": "1136662191689441350",
+      "is_bot": false,
+      "content": "Sir issue solved",
+      "embeds": [],
+      "created": 1771932190046,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "aniketchaudhuri7",
+      "user_id": "1136662191689441350",
+      "is_bot": false,
+      "content": "Network issue",
+      "embeds": [],
+      "created": 1771932201579,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "Ok no problem continue your journey and happy learning 🙂",
+      "embeds": [],
+      "created": 1771932277457,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@857556884750729217>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771932297925,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771932298369,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771932300990,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0213",
+    "id": "1475806744046342144"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 10
+}

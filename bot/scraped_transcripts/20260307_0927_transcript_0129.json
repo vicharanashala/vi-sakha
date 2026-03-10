@@ -1,0 +1,122 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1472291882364309778> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I want clarification between 2 cohorts.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771603550354,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "shibashishbanerjee",
+      "user_id": "1472291882364309778",
+      "is_bot": false,
+      "content": "Hello and good evening. I did search the announcement channel but didn't find the exact answers so I am creating this ticket.\nSo basically I am a IITM BS student. I have successfully registered for RSians cohort and have watched a few videos. I recently received a mail that since you've taken NPTEL courses offered by Sudharshan sir (Social Networks to be specific), you're eligible to apply for AKSians. It also said that we will get offer letter after watching a few videos in the same mail.\nSo to be an \"intern\" do I need to apply for that or both are same, just different entry paths? Secondly, as RSians do we also get offer letters? If yes, is the criteria of watching a few videos to obtain it, is the same or it's some different criterion? \nFinally, is there a exact completion percentage that we need to reach for getting the offer letter?\nThank you",
+      "embeds": [],
+      "created": 1771603960676,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1472291882364309778> \n\n1. You need not be a part of AKSians since you're already in the RSAians cohort.\n\n2. After 20% completion of ViBe course, you'll be receiving the offer letters.",
+      "embeds": [],
+      "created": 1771604994770,
+      "edited": 1771605009580
+    },
+    {
+      "index": 4,
+      "author": "shibashishbanerjee",
+      "user_id": "1472291882364309778",
+      "is_bot": false,
+      "content": "Ok thank you sir. Should I close this now?",
+      "embeds": [],
+      "created": 1771612659400,
+      "edited": 1771612676179
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Ticket",
+      "embeds": [],
+      "created": 1771645313025,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771645319897,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771645320477,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771645322569,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0129",
+    "id": "1474436895231443179"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 8
+}

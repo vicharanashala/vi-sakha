@@ -1,0 +1,542 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1025037428030967838> Welcome, the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Health Point Deduction",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1770635032863,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "Hi,\nI have completed the Linked and Cliq activity and still haven’t received any Health point instead my health point got removed 5% because of the linkedin activity \n\nIf you think that I may have not filled that google activity form I Did still it happened\n\n\nLinkedIn post :  https://www.linkedin.com/posts/nishant-singh-035800317_internship-ugcPost-7421771454268186624-k-S8?utm_source=share&utm_medium=member_ios&rcm=ACoAAFBjECkBHT359X7ju98l7LQjyJ_BbuxOleo",
+      "embeds": [],
+      "created": 1770635041385,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "I am on not safe side please help me sir/maam as i am afraid because of health point I would not be able to complete further",
+      "embeds": [],
+      "created": 1770635154019,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1770638796451,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1770638890885,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "I have completed the linkedin activity on 1 week ago",
+      "embeds": [],
+      "created": 1770639067704,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "hey <@1025037428030967838> we'll soon reach out to you!",
+      "embeds": [],
+      "created": 1770639259648,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "don't worry",
+      "embeds": [],
+      "created": 1770639264773,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@1293270010537578575> <@1468485581246959747>",
+      "embeds": [],
+      "created": 1770639298996,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "Okay",
+      "embeds": [],
+      "created": 1770640778132,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "imsakshivk",
+      "user_id": "1293270010537578575",
+      "is_bot": false,
+      "content": "Dear Nishant, Have you filled the associated google form for the same. If you have missed it only then this thing happens.",
+      "embeds": [],
+      "created": 1770655388344,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "Good Evening Sakshi Ma’am,\nI have submitted the associated google form with my email id still it happened to me.",
+      "embeds": [],
+      "created": 1770655476679,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "imsakshivk",
+      "user_id": "1293270010537578575",
+      "is_bot": false,
+      "content": "Have you used the same email, that is used to complete vibe.",
+      "embeds": [],
+      "created": 1770655520180,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "imsakshivk",
+      "user_id": "1293270010537578575",
+      "is_bot": false,
+      "content": "I m looking into your records on backend, I cannot find this id. NISHANT SINGH(240211649@geu.ac.in)",
+      "embeds": [],
+      "created": 1770655556341,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "Yes Ma’am it had a column to select email id I have selected the one with my name and registered email on it",
+      "embeds": [],
+      "created": 1770655565336,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "I think i have filled and submitted the form with my email id",
+      "embeds": [],
+      "created": 1770655617814,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "singhnishant0131@gmail.com",
+      "embeds": [],
+      "created": 1770655626258,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "imsakshivk",
+      "user_id": "1293270010537578575",
+      "is_bot": false,
+      "content": "But we have made the script such , if same email in the dropdoen and submiiting form not matches then you will not get the HP. Reason , if we do not match anyone can come and fill form on others behalf.",
+      "embeds": [],
+      "created": 1770655636606,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "imsakshivk",
+      "user_id": "1293270010537578575",
+      "is_bot": false,
+      "content": "I will check the second mail you are giving, but for next activity please use the same email.",
+      "embeds": [],
+      "created": 1770655663280,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "Ma’am,My registered email ID is a Microsoft email: 240211649@geu.ac.in. As far as I know, a Google Form cannot be submitted using a Microsoft email ID.\n\nPlease let me know how I should proceed.",
+      "embeds": [],
+      "created": 1770655855084,
+      "edited": 1770655887064
+    },
+    {
+      "index": 21,
+      "author": "imsakshivk",
+      "user_id": "1293270010537578575",
+      "is_bot": false,
+      "content": "Is your college id not on google workspace domain",
+      "embeds": [],
+      "created": 1770656509635,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "No ma’am",
+      "embeds": [],
+      "created": 1770656519732,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "imsakshivk",
+      "user_id": "1293270010537578575",
+      "is_bot": false,
+      "content": "I have manually  updated your HP, but everytime you complete an activity you have to tell me inperosn, and keep filling form too.",
+      "embeds": [],
+      "created": 1770656568074,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1770656606892,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "Okay Ma’am I have also completed the Zoho/Cliq profile picture activity\n\nand submitted the form using : singhnishant0131@gmail.com",
+      "embeds": [],
+      "created": 1770656864302,
+      "edited": null
+    },
+    {
+      "index": 26,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "and Thank you so much Ma’am for updating my health points",
+      "embeds": [],
+      "created": 1770657006163,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "Maam I have completed the discord quest",
+      "embeds": [],
+      "created": 1770900737700,
+      "edited": null
+    },
+    {
+      "index": 28,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1770900747140,
+      "edited": null
+    },
+    {
+      "index": 29,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "and have submitted the google docs form",
+      "embeds": [],
+      "created": 1770902866982,
+      "edited": null
+    },
+    {
+      "index": 30,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "proof of reacting to 5 introduction post",
+      "embeds": [],
+      "created": 1770903088440,
+      "edited": null
+    },
+    {
+      "index": 31,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "perfect",
+      "embeds": [],
+      "created": 1770906042346,
+      "edited": null
+    },
+    {
+      "index": 32,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "did you submitted it in gform ?",
+      "embeds": [],
+      "created": 1770906048264,
+      "edited": null
+    },
+    {
+      "index": 33,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "Not in the gform",
+      "embeds": [],
+      "created": 1770906227651,
+      "edited": 1770906232996
+    },
+    {
+      "index": 34,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "lemme submit it again",
+      "embeds": [],
+      "created": 1770906282154,
+      "edited": null
+    },
+    {
+      "index": 35,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "submit it over there",
+      "embeds": [],
+      "created": 1770906355688,
+      "edited": null
+    },
+    {
+      "index": 36,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "Done sir",
+      "embeds": [],
+      "created": 1770906505730,
+      "edited": null
+    },
+    {
+      "index": 37,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1770906518755,
+      "edited": null
+    },
+    {
+      "index": 38,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "i have submitted the proof and message and the 3 emoji activity in my initial submission but on the final submission i have submitted it with all the proof",
+      "embeds": [],
+      "created": 1770907443471,
+      "edited": null
+    },
+    {
+      "index": 39,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "great work <@1025037428030967838>",
+      "embeds": [],
+      "created": 1770908021263,
+      "edited": null
+    },
+    {
+      "index": 40,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "👏",
+      "embeds": [],
+      "created": 1770908037446,
+      "edited": null
+    },
+    {
+      "index": 41,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "shall i close your ticket now ?",
+      "embeds": [],
+      "created": 1770908045913,
+      "edited": null
+    },
+    {
+      "index": 42,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "Thank you sir",
+      "embeds": [],
+      "created": 1770908215213,
+      "edited": null
+    },
+    {
+      "index": 43,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "I think for all the activities submission this ticket is important so please if it’s possible don’t close it",
+      "embeds": [],
+      "created": 1770908256745,
+      "edited": null
+    },
+    {
+      "index": 44,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "Sir/Ma’am I have successful submitted the first 6 case study of Typescript The deadline was 19 Feb\nPlease update my case study progress and health points Sir/Ma’am\nThank you",
+      "embeds": [],
+      "created": 1771139850060,
+      "edited": null
+    },
+    {
+      "index": 45,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1025037428030967838> \nWe have noted down and your HP's will be awarded as per the guidelines after the last date of submissions.",
+      "embeds": [],
+      "created": 1771352666502,
+      "edited": 1771352695354
+    },
+    {
+      "index": 46,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1025037428030967838> \nI will be closing this ticket now as your issue has been resolved.",
+      "embeds": [],
+      "created": 1771414646218,
+      "edited": null
+    },
+    {
+      "index": 47,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "Okay Thank you Ma’am",
+      "embeds": [],
+      "created": 1771416578582,
+      "edited": null
+    },
+    {
+      "index": 48,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1359148118444343517>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771419400506,
+      "edited": null
+    },
+    {
+      "index": 49,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771419401149,
+      "edited": null
+    },
+    {
+      "index": 50,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771419402885,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0022",
+    "id": "1470374639799636112"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 50
+}

@@ -1,0 +1,182 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1241414057077248199> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : not able to submit the .js file in case study form submission",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771779692064,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "taskin_koushar",
+      "user_id": "1241414057077248199",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771779726829,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@1241414057077248199> , can you please share the error screenshot",
+      "embeds": [],
+      "created": 1771779916994,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "taskin_koushar",
+      "user_id": "1241414057077248199",
+      "is_bot": false,
+      "content": "i was submitting the case study of mongodb in .js file even i tries .mongodb.js file but it is not uploading there. with the rest of file like .ts , .zip, i have no issue for submitting. please guide me on this that what should i do as there is deadline this thursday and i have to submit the case study",
+      "embeds": [],
+      "created": 1771779923044,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "taskin_koushar",
+      "user_id": "1241414057077248199",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771779967723,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "<@1241414057077248199> Will get back to you once confirmed from respective team.",
+      "embeds": [],
+      "created": 1771781718143,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "<@836880971017748512> , can you please guide here further\ncc: <@956180961832362014>",
+      "embeds": [],
+      "created": 1771817462958,
+      "edited": 1771819051276
+    },
+    {
+      "index": 8,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1241414057077248199> can you zip the file and then try submitting?",
+      "embeds": [],
+      "created": 1771821200664,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "taskin_koushar",
+      "user_id": "1241414057077248199",
+      "is_bot": false,
+      "content": "<@836880971017748512> yes sir i converted it into zip file and it's submitting. Is it okay to convert into zip file and then submit it  whenever i will face this issue with any type of file?",
+      "embeds": [],
+      "created": 1771828329547,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1241414057077248199> Yes sure",
+      "embeds": [],
+      "created": 1771828719948,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Ticket",
+      "embeds": [],
+      "created": 1771834107417,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771834156294,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771834158379,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771834160637,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0181",
+    "id": "1475175687961972830"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 14
+}

@@ -1,0 +1,7 @@
+Student (tanishq_uppal): Clarfication Regarding the Slot booking and Commitment Completion Form Context: So we have to book a Slot Each day in which we would study Question: Is there any other Form that we need to fill out, saying that we have completed our commitment? If yes, then what will we do for the past days that we have missed
+
+Instructor (jinalgupta.): Yes, we have the commitment form as well. For your reference I am sharing the links for the forms here with you: Commit when you will watch: - Are you true to your Commitments: - For the past days you are being accessed based on your activities, participation in the sessions and stand ups and many more factors.
+
+Student (tanishq_uppal): Ok I would request to please add these links in the main page of the cohort for easier accessibility
+
+Instructor (jinalgupta.): Sure. I will tell the concerned team to update the website with the links. Thank you so much for your suggestion. I hope your query has been resolved and we can close this ticket.

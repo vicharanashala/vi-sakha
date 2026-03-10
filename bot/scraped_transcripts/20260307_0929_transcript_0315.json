@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1323300357236981823> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : A1 and A2 HP increment not showing in the dashboard",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772443389122,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "debojyoti_bain",
+      "user_id": "1323300357236981823",
+      "is_bot": false,
+      "content": "I have completed the A1 and A2 and have already submitted the google forms for the same. Still the increment in HP for A1 and A2 have not been reflected in the dashboard.\nKindly look into this matter.\nThank You",
+      "embeds": [],
+      "created": 1772443453191,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1323300357236981823> please mention your mail id, cohort name",
+      "embeds": [],
+      "created": 1772443585289,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "debojyoti_bain",
+      "user_id": "1323300357236981823",
+      "is_bot": false,
+      "content": "Cohort Name = Kruskalians\nEmail = coding123debojyoti@gmail.com",
+      "embeds": [],
+      "created": 1772443638624,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1323300357236981823> your issue has been forwarded to team and issue will be resolved soon.",
+      "embeds": [],
+      "created": 1772443729313,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "debojyoti_bain",
+      "user_id": "1323300357236981823",
+      "is_bot": false,
+      "content": "Thank you sir",
+      "embeds": [],
+      "created": 1772443778060,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "debojyoti_bain",
+      "user_id": "1323300357236981823",
+      "is_bot": false,
+      "content": "Sir my issue has been resolved and so I can I close the ticket?",
+      "embeds": [],
+      "created": 1772459085166,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1323300357236981823> \nAs you have stated the issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1772460000653,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772460008208,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772460008626,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772460010679,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0315",
+    "id": "1477959435765944505"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

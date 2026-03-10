@@ -1,0 +1,146 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1474450628829778097> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I have some login issues for the meeting",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771939532559,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "shailaja_0607",
+      "user_id": "1474450628829778097",
+      "is_bot": false,
+      "content": "Hey Hi I am unable to join in zoom meeting of today inaugration .",
+      "embeds": [],
+      "created": 1771939604615,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "1. Login into zoom through your registered mail ID. \n2. Join in the zoom through your registered mail ID. \n3. If you are still not able to login then you may watch the live stream on YouTube: https://www.youtube.com/live/iroG7nvZ9Io?si=vSQhXcp63dyEFvuX",
+      "embeds": [
+        {
+          "title": "Vinternship Inaugural Session – AKSians 2.0",
+          "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+          "url": "https://www.youtube.com/live/iroG7nvZ9Io?si=vSQhXcp63dyEFvuX",
+          "thumbnail": {
+            "url": "https://i.ytimg.com/vi/iroG7nvZ9Io/maxresdefault.jpg?v=2"
+          },
+          "author": {
+            "name": "VLED Labs",
+            "url": "https://www.youtube.com/@VLEDLabs"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771940755742,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474450628829778097> \nWe hope your issue has been resolved.",
+      "embeds": [],
+      "created": 1772002076383,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474450628829778097> \nWe hope your issue has been resolved.",
+      "embeds": [],
+      "created": 1772083851506,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474450628829778097> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772270056329,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1359148118444343517>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772383794613,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772383795695,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772383797224,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0219",
+    "id": "1475846106981073139"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 9
+}

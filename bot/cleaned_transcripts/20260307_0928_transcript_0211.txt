@@ -1,0 +1,21 @@
+Student (staticfan): Inaccuracy+Inconsistency in ts case study 9 Hi support team, Basically in Typescript Case Study Number 9, the solution provided with the Challenge is incorrect and also kind of unnecessary, no other case study before this has had a solution, I don't know why this one in particular has a solution section. Also the main problem is that the challenge mentions a function with two parameters, a orderID and a callback that has a signature of (orderStatus) => void, but instead in the solution the function that we need to construct just has the signature of the callback which was supposed to be the second argument. If needed I can share my solution on this if my explanation is not clear as to what I mean.
+
+Instructor (nitin_fighter1379): This issue is forwarded to the team and will resolve it. Meanwhile you can share your explanation on this. Which cohort are you from?
+
+Student (staticfan): rsaians Can i assume this ticket will be resolved later? Because I need to raise a more urgent issue with the vibe portal
+
+Instructor (nitin_fighter1379): The provided solution implements only the callback signature, not the full 'process order' function type. You can raise the issue here itself
+
+Student (staticfan): Yes that is the exact problem, the challenge clearly states that it should two take in two arguments where callback is one of them and in my code you can see one possible implementation of that. Also I don't understand why this case study alone has a solution when the others don't
+
+Instructor (nitin_fighter1379): you can ignore the solution and proceed with the completion And can you brief on the ViBe issue?
+
+Student (staticfan): It was solved in just a few minutes ago Basically the quiz section was particularly buggy multiple problems - Platform didn't show the status of whether the questions were correct or wrong - It didn't save progress - Blocked access randomly to a certain quiz(it was different quiz for different people) despite having watched the videos
+
+Instructor (nitin_fighter1379): Ok then, You can ignore the solution mentioned in the case study and proceed on your own. Meanwhile we'll remove the solution as it is there accidentally. Is this resolved?
+
+Student (staticfan): For now yes
+
+Instructor (nitin_fighter1379): Can I close the ticket?
+
+Student (staticfan): yes 👍

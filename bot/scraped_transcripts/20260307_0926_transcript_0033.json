@@ -1,0 +1,122 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1393228544292814991> Welcome, the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I have completed watch the last video in vibe course but it's still showed 8 videos pending after refreshing,then I again watched all those but still showing 8 videos pending ,i vene recorded video watching the last video",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1770905768267,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@836880971017748512>",
+      "embeds": [],
+      "created": 1770906066666,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1393228544292814991> Please attend the quiz/video content marked not completed once again as that might've been not considered by the application due to the penalty score. After This is done, please ensure that you've completed all the contents (1006/1006) for 100% completion.",
+      "embeds": [],
+      "created": 1770907718336,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "saivenkataharishkillamsetty",
+      "user_id": "1393228544292814991",
+      "is_bot": false,
+      "content": "Nitin sarkar I have again attempted all the remaining videos 2 times today , I have even recorded the video of submitting the quiz of last video \n\nThere was no sign of disturbance or increase in penalty score \n\nPlease address this quickly as today the deadline for cohort 1 vibe course",
+      "embeds": [],
+      "created": 1770907842633,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "saivenkataharishkillamsetty",
+      "user_id": "1393228544292814991",
+      "is_bot": false,
+      "content": "Shall I share the video recording?",
+      "embeds": [],
+      "created": 1770907860352,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771059355429,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771059356220,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771059358722,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0033",
+    "id": "1471510186194636953"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 8
+}

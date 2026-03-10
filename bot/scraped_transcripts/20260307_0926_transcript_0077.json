@@ -1,0 +1,122 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@932918184925884417> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Clarfication Regarding the Slot booking and Commitment Completion Form",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771348487535,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "tanishq_uppal",
+      "user_id": "932918184925884417",
+      "is_bot": false,
+      "content": "Context: So we have to book a Slot Each day in which we would study \nQuestion: Is there any other Form that we need to fill out, saying that we have completed our commitment? \nIf yes, then what will we do for the past days that we have missed",
+      "embeds": [],
+      "created": 1771348728659,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@932918184925884417> \nYes, we have the commitment form as well. \nFor your reference I am sharing the links for the forms here with you: \nCommit when you will watch: - https://forms.gle/mcbqd1mLVZQzugfM8\nAre you true to your Commitments: - https://forms.gle/Y2yn3nW7m6Lx3sKq9\nFor the past days you are being accessed based on your activities, participation in the sessions and stand ups and many more factors.",
+      "embeds": [],
+      "created": 1771351262819,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "tanishq_uppal",
+      "user_id": "932918184925884417",
+      "is_bot": false,
+      "content": "Ok I would request to please add these links in the main page of the cohort for easier accessibility",
+      "embeds": [],
+      "created": 1771355525964,
+      "edited": 1771355537088
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@932918184925884417> \nSure. \nI will tell the concerned team to update the website with the links. \nThank you so much for your suggestion. \nI hope your query has been resolved and we can close this ticket.",
+      "embeds": [],
+      "created": 1771395023462,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@932918184925884417>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771411821901,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771411822348,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771413669554,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0077",
+    "id": "1473367085257330891"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 8
+}

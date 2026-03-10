@@ -1,0 +1,182 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1258987537914007606> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : It failing to load the couses on vibe after login.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771138370511,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@1258987537914007606> hard refresh your webpage!",
+      "embeds": [],
+      "created": 1771163545791,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "and please refer to FAQ",
+      "embeds": [],
+      "created": 1771163552768,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "atulmishra0214",
+      "user_id": "1258987537914007606",
+      "is_bot": false,
+      "content": "I had done this just now but still it gives error failed to fetch course",
+      "embeds": [],
+      "created": 1771166445319,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@666826791016595456>",
+      "embeds": [],
+      "created": 1771166662907,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "it will be resolved! don't worry",
+      "embeds": [],
+      "created": 1771166671546,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "abiramk7427",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1258987537914007606> Could you share one screen recording of it",
+      "embeds": [],
+      "created": 1771168721397,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "abiramk7427",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "Also share your mail id",
+      "embeds": [],
+      "created": 1771168887434,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "atulmishra0214",
+      "user_id": "1258987537914007606",
+      "is_bot": false,
+      "content": "Also when I click browse all course it show failed to fetch. \nMy id 23f2001262@ds.study.iitm.ac.in",
+      "embeds": [],
+      "created": 1771170806233,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "abiramk7427",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "Could you try switching to a different network, it might be a network issue.",
+      "embeds": [],
+      "created": 1771173895074,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "atulmishra0214",
+      "user_id": "1258987537914007606",
+      "is_bot": false,
+      "content": "I tried sir and it worked.",
+      "embeds": [],
+      "created": 1771176177168,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1258987537914007606>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771176215465,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771176216034,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771179305183,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0053",
+    "id": "1472485790343893114"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 14
+}

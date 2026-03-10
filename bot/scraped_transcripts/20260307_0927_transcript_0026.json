@@ -1,0 +1,592 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1469043723823353949> Welcome, the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : My name is not on leaderboard",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1770739981742,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "will look into it <@1469043723823353949>",
+      "embeds": [],
+      "created": 1770807434202,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "leaderboard as in ViBe leaderboard right ?",
+      "embeds": [],
+      "created": 1770807461565,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "even after completing all the deadlines\nand also got health points for them",
+      "embeds": [],
+      "created": 1770816034990,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "Sir i had registered my query on mail also but i didnt got any reply to the last mail i sent from 3 days hence i decided to raise the ticket here.",
+      "embeds": [],
+      "created": 1770816185111,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "I hear you <@1469043723823353949>, and it will be resolved but tell me one thing, at what email id did you sent your mail?",
+      "embeds": [],
+      "created": 1770816615386,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "vinternship@vicharanashala.zohodesk.in",
+      "embeds": [],
+      "created": 1770821969039,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "no sir the leaderboard of website",
+      "embeds": [],
+      "created": 1770822848819,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "the vinternship website",
+      "embeds": [],
+      "created": 1770822862620,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "sir any update?",
+      "embeds": [],
+      "created": 1770899890711,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@836880971017748512>",
+      "embeds": [],
+      "created": 1770905831093,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1469043723823353949> , Your name is visible in the vinternship Kruskals dashboard:",
+      "embeds": [],
+      "created": 1770907932351,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "sir i am from dijkstrians batch",
+      "embeds": [],
+      "created": 1770908251323,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "Sir it is the health points",
+      "embeds": [],
+      "created": 1770908334527,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "my name is not in leaderboard",
+      "embeds": [],
+      "created": 1770908346003,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1770908377250,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Your issue is forwarded to the team and the team is looking into it.",
+      "embeds": [],
+      "created": 1770910539394,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "sir any update?",
+      "embeds": [],
+      "created": 1770999230257,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "<@&1471887023374598390>",
+      "embeds": [],
+      "created": 1771076336543,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "it was forwarded to higher ups!",
+      "embeds": [],
+      "created": 1771076365085,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "ok sir",
+      "embeds": [],
+      "created": 1771142755253,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "sir any updates about my query?",
+      "embeds": [],
+      "created": 1771333544441,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "Should i also share my mail history about this issue till now?",
+      "embeds": [],
+      "created": 1771333605455,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "<@836880971017748512>",
+      "embeds": [],
+      "created": 1771339151440,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "Also i didnt receive mail for todays standup",
+      "embeds": [],
+      "created": 1771344064744,
+      "edited": null
+    },
+    {
+      "index": 26,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "<@1359148118444343517>",
+      "embeds": [],
+      "created": 1771344253264,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469043723823353949> \nDon't worry, We have noted down your query we will get back to you soon with the resolution and an update for your issue.",
+      "embeds": [],
+      "created": 1771350609969,
+      "edited": null
+    },
+    {
+      "index": 28,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@1469043723823353949> did your issue got resolved?",
+      "embeds": [],
+      "created": 1771419430122,
+      "edited": null
+    },
+    {
+      "index": 29,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "No",
+      "embeds": [],
+      "created": 1771419446521,
+      "edited": null
+    },
+    {
+      "index": 30,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "sir",
+      "embeds": [],
+      "created": 1771419449797,
+      "edited": null
+    },
+    {
+      "index": 31,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "do you have any standup today ?",
+      "embeds": [],
+      "created": 1771419692426,
+      "edited": null
+    },
+    {
+      "index": 32,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "No sir",
+      "embeds": [],
+      "created": 1771419714234,
+      "edited": null
+    },
+    {
+      "index": 33,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "yesterday i had but didnt receive mail",
+      "embeds": [],
+      "created": 1771419735035,
+      "edited": null
+    },
+    {
+      "index": 34,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469043723823353949> \nAs your ViBe progress was not completed within the given deadline, it may have led to your discontinuation.\nHowever, we understand that there can be genuine challenges. Therefore, we are giving you a final opportunity to complete 100% of your ViBe progress by the end of today. Once completed, you will be able to continue your internship with us.\nPlease ensure it is done within the timeline, and feel free to reach out if you need any support.",
+      "embeds": [],
+      "created": 1771499930874,
+      "edited": null
+    },
+    {
+      "index": 35,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469043723823353949> \nIs your issue been resolved?",
+      "embeds": [],
+      "created": 1771520104163,
+      "edited": null
+    },
+    {
+      "index": 36,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "yes maam i have completed 100 percent course within the deadline and also got health points for it as well",
+      "embeds": [],
+      "created": 1771527271494,
+      "edited": null
+    },
+    {
+      "index": 37,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "Also maam , i had completed the vibe course progress always within the deadline except for the 75 percent one which was not the criteria of discontinuation as my name in the cohort wise leaderboard was not there well before it",
+      "embeds": [],
+      "created": 1771527370246,
+      "edited": null
+    },
+    {
+      "index": 38,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "No maam \nI still can't find my name in the leaderboard cohort wise",
+      "embeds": [],
+      "created": 1771527417761,
+      "edited": 1771527475871
+    },
+    {
+      "index": 39,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469043723823353949> \nIt will take some time to reflect.",
+      "embeds": [],
+      "created": 1771559379941,
+      "edited": null
+    },
+    {
+      "index": 40,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "yes maam \ni just saw my name is visible  now",
+      "embeds": [],
+      "created": 1771595410510,
+      "edited": null
+    },
+    {
+      "index": 41,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "thank you very much",
+      "embeds": [],
+      "created": 1771595417276,
+      "edited": null
+    },
+    {
+      "index": 42,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771595433152,
+      "edited": null
+    },
+    {
+      "index": 43,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "Maam but i didnt receive the mail for todays session",
+      "embeds": [],
+      "created": 1771595577166,
+      "edited": null
+    },
+    {
+      "index": 44,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@956180961832362014> please check the current status of the participant",
+      "embeds": [],
+      "created": 1771596117480,
+      "edited": null
+    },
+    {
+      "index": 45,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Since his name wasn't in the dashboard, the mails aren't being sent",
+      "embeds": [],
+      "created": 1771596143335,
+      "edited": null
+    },
+    {
+      "index": 46,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@836880971017748512> \nThe name will take sometime to update on the dashboard as said by sakshi ma'am it takes 6-12 hours to run fully and the name to reflect on the dashboard.",
+      "embeds": [],
+      "created": 1771596400384,
+      "edited": null
+    },
+    {
+      "index": 47,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Yes Already escalated the issue.",
+      "embeds": [],
+      "created": 1771596414466,
+      "edited": null
+    },
+    {
+      "index": 48,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "I got the mail of today's standup",
+      "embeds": [],
+      "created": 1771665493063,
+      "edited": null
+    },
+    {
+      "index": 49,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469043723823353949> \nYes, do join the session. \nWe have given you another chance as per your ViBe progress. So kindly join this session.",
+      "embeds": [],
+      "created": 1771666396164,
+      "edited": null
+    },
+    {
+      "index": 50,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As your issue has been resolved and you are onboarded once again then can we close this ticket?",
+      "embeds": [],
+      "created": 1771666440323,
+      "edited": null
+    },
+    {
+      "index": 51,
+      "author": "mananjain01",
+      "user_id": "1469043723823353949",
+      "is_bot": false,
+      "content": "Yes maam",
+      "embeds": [],
+      "created": 1771666473896,
+      "edited": null
+    },
+    {
+      "index": 52,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hene closing the ticket.",
+      "embeds": [],
+      "created": 1771666519427,
+      "edited": null
+    },
+    {
+      "index": 53,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771666528931,
+      "edited": null
+    },
+    {
+      "index": 54,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771666529966,
+      "edited": null
+    },
+    {
+      "index": 55,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771666532192,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0026",
+    "id": "1470814826078142702"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 55
+}

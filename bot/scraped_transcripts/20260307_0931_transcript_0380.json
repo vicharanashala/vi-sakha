@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1479202822112280728> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Good evening, I did not see the required text file format to be submitted for the case studies as I had exams for the past 2 weeks. I have submitted 2 case studies in docx format with required screenshots for the same. is it okay or do i nee",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772807243318,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "khushalagrawalwin251374_83733",
+      "user_id": "1479202822112280728",
+      "is_bot": false,
+      "content": "I realized the deadline was yesterday and in a hurry to complete one, didnt end up making the required report format",
+      "embeds": [],
+      "created": 1772807309116,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1479202822112280728> please follow the steps mentioned in the FAQ section 8.5 and 8.6",
+      "embeds": [],
+      "created": 1772807399578,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "khushalagrawalwin251374_83733",
+      "user_id": "1479202822112280728",
+      "is_bot": false,
+      "content": "the FAQ mentions \"Multiple file submissions are not considered\", thats why the doubt of should i resubmit the already submitted(in docx format) or continue with solving my case studies?",
+      "embeds": [],
+      "created": 1772807501262,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1479202822112280728> \nMultiple files at once it meant.",
+      "embeds": [],
+      "created": 1772815014984,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "For every case study you have to fill the form again.",
+      "embeds": [],
+      "created": 1772815036853,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1479202822112280728> is the issue resolved? Can we close the ticket?",
+      "embeds": [],
+      "created": 1772860380430,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "khushalagrawalwin251374_83733",
+      "user_id": "1479202822112280728",
+      "is_bot": false,
+      "content": "yes, thank you so muxh",
+      "embeds": [],
+      "created": 1772860584705,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1479202822112280728>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772860591297,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772860591722,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772860663492,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0380",
+    "id": "1479485550040711332"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

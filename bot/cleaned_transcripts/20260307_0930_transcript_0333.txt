@@ -1,0 +1,7 @@
+Student (aryankumararya_): I have completed my Vibe lecture with 100% completion. A 10% increase is showing in individual HP, but the health points have not been added to my total HP.
+
+Instructor (jinalgupta.): They will be added soon. It may take sometime so kindly wait for the same. We have escalated your issue. You HP has been updated kindly check once.
+
+Student (aryankumararya_): Yes I have checked . Thanks for the help .
+
+Instructor (jinalgupta.): As the issue is resolved hence closing the ticket.

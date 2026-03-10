@@ -1,0 +1,132 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473355289058214039> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Unable to access Quiz 12 in the ViBe Platform",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771753836495,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "arvindjb",
+      "user_id": "1473355289058214039",
+      "is_bot": false,
+      "content": "Hello. I'm unable to access Quiz 12 in the ViBe platform.\nI get the error - \"Loading Quiz..\".\nJavaScript  > JavaScript Building Blocks >> Quiz 12\nRegistered email - arvindjb@outlook.com",
+      "embeds": [],
+      "created": 1771753864909,
+      "edited": 1771754224221
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1220060098643230811> \nKindly look into this issue.",
+      "embeds": [],
+      "created": 1771753935540,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nxtnilesh.",
+      "user_id": "1220060098643230811",
+      "is_bot": false,
+      "content": "Please try the following steps one by one and check if the issue is resolved after each step:\n\n1. Log out of your account and then log in again.\n2. Clear your browser cache and all browsing data (cookies, cached files, etc.).\n3. Try using a different browser such as Firefox, Microsoft Edge, or another browser.\n4. If you are using any YouTube ad-blocker extension, disable it temporarily and try again.\n5. Try connecting through a VPN and check if the issue persists.\n6. Try using a different internet connection or mobile hotspot to rule out any network-related issues.\n\nPlease test these steps individually (or all of them if needed) and let me know the results.",
+      "embeds": [],
+      "created": 1771754237993,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1473355289058214039> We have fixed the issue, kindly refresh the page and try again. please let us know if it is working fine. Thank you.",
+      "embeds": [],
+      "created": 1771754835625,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "arvindjb",
+      "user_id": "1473355289058214039",
+      "is_bot": false,
+      "content": "Yes, it's working fine now, thank you.",
+      "embeds": [],
+      "created": 1771754886942,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1473355289058214039>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771755264650,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771755265227,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771755278669,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0162",
+    "id": "1475067241480454174"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 9
+}

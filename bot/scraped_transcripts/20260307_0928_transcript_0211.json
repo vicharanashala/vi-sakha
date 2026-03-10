@@ -1,0 +1,312 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1472488410982780929> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Inaccuracy+Inconsistency in ts case study 9",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771927913245,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "Hi support team,\n\nBasically in Typescript Case Study Number 9, the solution provided with the Challenge is incorrect and also kind of unnecessary, no other case study before this has had a solution, I don't know why this one in particular has a solution section.\n\nAlso the main problem is that the challenge mentions a function with two parameters, a orderID and a callback that has a signature of (orderStatus) => void, but instead in the solution the function that we need to construct just has the signature of the callback which was supposed to be the second argument. If needed I can share my solution on this if my explanation is not clear as to what I mean.",
+      "embeds": [],
+      "created": 1771928066951,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1472488410982780929> This issue is forwarded to the team and will resolve it. Meanwhile you can share your explanation on this.",
+      "embeds": [],
+      "created": 1771928219346,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771928421657,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1472488410982780929> Which cohort are you from?",
+      "embeds": [],
+      "created": 1771929008239,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "rsaians",
+      "embeds": [],
+      "created": 1771929113285,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "Can i assume this ticket will be resolved later? Because I need to raise a more urgent issue with the vibe portal",
+      "embeds": [],
+      "created": 1771931246069,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1472488410982780929> The provided solution implements only the callback signature, not the full 'process order' function type.",
+      "embeds": [],
+      "created": 1771932746106,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "You can raise the issue here itself",
+      "embeds": [],
+      "created": 1771932758972,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "Yes that is the exact problem, the challenge clearly states that it should two take in two arguments",
+      "embeds": [],
+      "created": 1771932823449,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "where callback is one of them",
+      "embeds": [],
+      "created": 1771932828242,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "and in my code you can see one possible implementation of that.",
+      "embeds": [],
+      "created": 1771932847394,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "Also I don't understand why this case study alone has a solution when the others don't",
+      "embeds": [],
+      "created": 1771932867342,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1472488410982780929> you can ignore the solution and proceed with the completion",
+      "embeds": [],
+      "created": 1771932905135,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "And can you brief on the ViBe issue?",
+      "embeds": [],
+      "created": 1771932924620,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "It was solved in <#1475744989089628304> just a few minutes ago",
+      "embeds": [],
+      "created": 1771932953384,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "Basically the quiz section was particularly buggy",
+      "embeds": [],
+      "created": 1771932963075,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "multiple problems",
+      "embeds": [],
+      "created": 1771932967817,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "- Platform didn't show the status of whether the questions were correct or wrong\n- It didn't save progress\n- Blocked access randomly to a certain quiz(it was different quiz for different people) despite having watched the videos",
+      "embeds": [],
+      "created": 1771933011206,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Ok then, You can ignore the solution mentioned in the case study and proceed on your own. Meanwhile we'll remove the solution as it is there accidentally.",
+      "embeds": [],
+      "created": 1771933040366,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Is this resolved?",
+      "embeds": [],
+      "created": 1771933049229,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "For now yes",
+      "embeds": [],
+      "created": 1771933061621,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Can I close the ticket?",
+      "embeds": [],
+      "created": 1771933187347,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "yes 👍",
+      "embeds": [],
+      "created": 1771933218411,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771933284710,
+      "edited": null
+    },
+    {
+      "index": 26,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771933285119,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771933287109,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0211",
+    "id": "1475797372432023592"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 27
+}

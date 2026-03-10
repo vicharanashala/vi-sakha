@@ -1,0 +1,352 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1359148118444343517> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : test for jinal didi",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771250005034,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1359148118444343517> Test.",
+      "embeds": [],
+      "created": 1771250110987,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "yeyyeyyy",
+      "embeds": [],
+      "created": 1771250164282,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "sasdahjafhsjdf",
+      "embeds": [],
+      "created": 1771250169289,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "dffgasdgadsfgadfggadfg",
+      "embeds": [],
+      "created": 1771250170951,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "fgsdgharg",
+      "embeds": [],
+      "created": 1771250172151,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "arge",
+      "embeds": [],
+      "created": 1771250172667,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "rgadg",
+      "embeds": [],
+      "created": 1771250173339,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "adfg",
+      "embeds": [],
+      "created": 1771250174033,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "adfgad",
+      "embeds": [],
+      "created": 1771250174540,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "fgadfg",
+      "embeds": [],
+      "created": 1771250175141,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "ad",
+      "embeds": [],
+      "created": 1771250175820,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "adf",
+      "embeds": [],
+      "created": 1771250176283,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "gad",
+      "embeds": [],
+      "created": 1771250176876,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "gf",
+      "embeds": [],
+      "created": 1771250177566,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "wfdg\ng",
+      "embeds": [],
+      "created": 1771250178179,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "dfgda",
+      "embeds": [],
+      "created": 1771250178800,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "fg",
+      "embeds": [],
+      "created": 1771250179538,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "dfgfhsdfg",
+      "embeds": [],
+      "created": 1771250180137,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "hshg",
+      "embeds": [],
+      "created": 1771250180764,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "fshsfghs",
+      "embeds": [],
+      "created": 1771250181536,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "hs",
+      "embeds": [],
+      "created": 1771250182270,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "fh",
+      "embeds": [],
+      "created": 1771250182748,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "sdh",
+      "embeds": [],
+      "created": 1771250183425,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "sh",
+      "embeds": [],
+      "created": 1771250183970,
+      "edited": null
+    },
+    {
+      "index": 26,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "sghfs",
+      "embeds": [],
+      "created": 1771250184632,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "ghs",
+      "embeds": [],
+      "created": 1771250185375,
+      "edited": null
+    },
+    {
+      "index": 28,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "f",
+      "embeds": [],
+      "created": 1771250186025,
+      "edited": null
+    },
+    {
+      "index": 29,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771250236075,
+      "edited": null
+    },
+    {
+      "index": 30,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771250236549,
+      "edited": null
+    },
+    {
+      "index": 31,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771250241078,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0065",
+    "id": "1472954019793211613"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 31
+}

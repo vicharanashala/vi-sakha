@@ -1,0 +1,7 @@
+Student (shibashishbanerjee): I want clarification between 2 cohorts. Hello and good evening. I did search the announcement channel but didn't find the exact answers so I am creating this ticket. So basically I am a IITM BS student. I have successfully registered for RSians cohort and have watched a few videos. I recently received a mail that since you've taken NPTEL courses offered by Sudharshan sir (Social Networks to be specific), you're eligible to apply for AKSians. It also said that we will get offer letter after watching a few videos in the same mail. So to be an "intern" do I need to apply for that or both are same, just different entry paths? Secondly, as RSians do we also get offer letters? If yes, is the criteria of watching a few videos to obtain it, is the same or it's some different criterion? Finally, is there a exact completion percentage that we need to reach for getting the offer letter? Thank you
+
+Instructor (nitin_fighter1379): 1. You need not be a part of AKSians since you're already in the RSAians cohort. 2. After 20% completion of ViBe course, you'll be receiving the offer letters.
+
+Student (shibashishbanerjee): Ok thank you sir. Should I close this now?
+
+Instructor (nitin_fighter1379): Closing the Ticket

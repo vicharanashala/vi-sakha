@@ -1,0 +1,162 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@932918184925884417> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Can we start submitting case studies",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771520182456,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@932918184925884417> Sure. You can start submitting the case studies in the forms mentioned in the cohort specific page parallelly",
+      "embeds": [],
+      "created": 1771520242034,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "tanishq_uppal",
+      "user_id": "932918184925884417",
+      "is_bot": false,
+      "content": "earlier i submiited two lecture of case study, but then stopped because somebody in the discussions said they would not be counted until phase 2.",
+      "embeds": [],
+      "created": 1771520407631,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "tanishq_uppal",
+      "user_id": "932918184925884417",
+      "is_bot": false,
+      "content": "Can you also clarify how case studies are  evaluated? Is there a specific structure/format we need to follow in the files for it to be evaluated properly",
+      "embeds": [],
+      "created": 1771520523386,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Please wait for phase 2 if you aren't yet and answering to the question, please visit FAQ section case studies for more details",
+      "embeds": [],
+      "created": 1771552784815,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@932918184925884417> \nWe hope your issue has been resolved.",
+      "embeds": [],
+      "created": 1771563557695,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "tanishq_uppal",
+      "user_id": "932918184925884417",
+      "is_bot": false,
+      "content": "But some are already submitting, and their progress is being updated on the dashboard",
+      "embeds": [],
+      "created": 1771594489225,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Please continue with the submissions",
+      "embeds": [],
+      "created": 1771594519242,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "tanishq_uppal",
+      "user_id": "932918184925884417",
+      "is_bot": false,
+      "content": "ok",
+      "embeds": [],
+      "created": 1771595305197,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@932918184925884417>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771595317002,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771595317652,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771595321094,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0115",
+    "id": "1474087225611522305"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 12
+}

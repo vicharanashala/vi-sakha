@@ -1,0 +1,13 @@
+Student (ishwarayya_kalmath): i am unable to attemp quiz 24 it is showing you do not have permission.
+
+Instructor (jinalgupta.): Kindly try watching the previous video and after attempting the quiz for that video you can come to video 23 and then to quiz 23.
+
+Student (ishwarayya_kalmath): mam completed the video related to the quiz after it is not loading the quiz
+
+Instructor (abiramk0107, nxtnilesh.): Please try the following steps one by one and check if the issue is resolved after each step: 1. Log out of your account and then log in again. 2. Clear your browser cache and all browsing data (cookies, cached files, etc.). 3. Try using a different browser such as Firefox, Microsoft Edge, or another browser. 4. If you are using any YouTube ad-blocker extension, disable it temporarily and try again. 5. Try connecting through a VPN and check if the issue persists. 6. Try using a different internet connection or mobile hotspot to rule out any network-related issues. Please test these steps individually (or all of them if needed) and let me know the results. Kindly share your email id.
+
+Student (ishwarayya_kalmath): kalmathishwarayya.com
+
+Instructor (abiramk0107): We have fixed the issue, kindly refresh the page and try again. please let us know if it is working fine. Thank you.
+
+Student (ishwarayya_kalmath): Yes sir,now it is working Thanks team for your support in my learning journey.

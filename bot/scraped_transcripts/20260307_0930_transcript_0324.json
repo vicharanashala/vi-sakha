@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1475314192603938870> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Consent form",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772469118808,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "aksharanelakuditi08",
+      "user_id": "1475314192603938870",
+      "is_bot": false,
+      "content": "Can I submit the consent form by tomorrow??",
+      "embeds": [],
+      "created": 1772469151876,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1475314192603938870> Please submit the consent form at the earliest as possible",
+      "embeds": [],
+      "created": 1772509008219,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1475314192603938870> \nWe hope your issue has been cleared?",
+      "embeds": [],
+      "created": 1772516794840,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "aksharanelakuditi08",
+      "user_id": "1475314192603938870",
+      "is_bot": false,
+      "content": "Yeah by today evening it's fine right",
+      "embeds": [],
+      "created": 1772516922598,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Yes",
+      "embeds": [],
+      "created": 1772517914374,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "I hope now your issue is cleared and we can close the ticket.",
+      "embeds": [],
+      "created": 1772517932039,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "aksharanelakuditi08",
+      "user_id": "1475314192603938870",
+      "is_bot": false,
+      "content": "Yes mam",
+      "embeds": [],
+      "created": 1772521213792,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1475314192603938870>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772611679008,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772611679502,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772612751906,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0324",
+    "id": "1478067353819545805"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

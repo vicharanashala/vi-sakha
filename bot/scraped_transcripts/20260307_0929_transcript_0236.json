@@ -1,0 +1,272 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1472433706353426567> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I've completed the lecture , but the quiz page is showing an 'Access Restricted' error . I am unable to proceed .",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771999362685,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "vipul31_",
+      "user_id": "1472433706353426567",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771999445833,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@759435748721557514> <@1220060098643230811> Please look into the issue",
+      "embeds": [],
+      "created": 1771999949605,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Hi <@1472433706353426567> \nkindly provide your email, cohort name, and  specific item you're facing issue with.",
+      "embeds": [],
+      "created": 1772024445166,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "vipul31_",
+      "user_id": "1472433706353426567",
+      "is_bot": false,
+      "content": "<@1469178567551090933> email - 23f3003765@ds.study.iitm.ac.in ,  cohort-name= RSAians,  Whenever I go to my Vibe portal, I either see only the video lectures without the quizzes, or if I refresh, the quiz page show up briefly. but once I start the video from where I left off, the quiz page won't load and says 'access restricted.",
+      "embeds": [],
+      "created": 1772078101184,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "vipul31_",
+      "user_id": "1472433706353426567",
+      "is_bot": false,
+      "content": "<@836880971017748512>",
+      "embeds": [],
+      "created": 1772078313509,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@759435748721557514> <@1220060098643230811> Please look into it.",
+      "embeds": [],
+      "created": 1772079208984,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "vipul31_",
+      "user_id": "1472433706353426567",
+      "is_bot": false,
+      "content": "<@759435748721557514>  <@1220060098643230811>",
+      "embeds": [],
+      "created": 1772081821063,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "The issue will be resolved shortly.Thank you for your patience.",
+      "embeds": [],
+      "created": 1772081919880,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "Kindly check now and update us. <@1472433706353426567>",
+      "embeds": [],
+      "created": 1772082084479,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1472433706353426567> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772084031841,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "vipul31_",
+      "user_id": "1472433706353426567",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1772086049076,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "vipul31_",
+      "user_id": "1472433706353426567",
+      "is_bot": false,
+      "content": "<@956180961832362014>  no",
+      "embeds": [],
+      "created": 1772086064672,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@759435748721557514> \nKindly help us out here.",
+      "embeds": [],
+      "created": 1772086109804,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "please check now <@1472433706353426567>",
+      "embeds": [],
+      "created": 1772086391621,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "vipul31_",
+      "user_id": "1472433706353426567",
+      "is_bot": false,
+      "content": "<@759435748721557514> now its working . but quiz pages are not showing.",
+      "embeds": [],
+      "created": 1772086607782,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "But you can access the quiz right?",
+      "embeds": [],
+      "created": 1772086649421,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "vipul31_",
+      "user_id": "1472433706353426567",
+      "is_bot": false,
+      "content": "Yes",
+      "embeds": [],
+      "created": 1772086673946,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "This is a UI change, not an error",
+      "embeds": [],
+      "created": 1772086707723,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "vipul31_",
+      "user_id": "1472433706353426567",
+      "is_bot": false,
+      "content": "ok thank you",
+      "embeds": [],
+      "created": 1772086723705,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1472433706353426567>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772160575402,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772160575861,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772169141456,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0236",
+    "id": "1476097051828813952"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 23
+}

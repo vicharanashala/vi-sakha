@@ -1,0 +1,242 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1299962468709171245> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : So I want to ask if we book slots for example i booked my slots 1am to 2am then 2am to 3am So I am going to do it tomorrow but additionally if I want to study more like form 3am to 4am then is it allowed ( i didn't added in my slots ) Basica",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771179278126,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@836880971017748512>",
+      "embeds": [],
+      "created": 1771179288415,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1299962468709171245> It is permitted but ensure that you are  booking slots so that your progress is tracked so that there will be a record of progress.",
+      "embeds": [],
+      "created": 1771217733753,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "captain_levi_p",
+      "user_id": "1299962468709171245",
+      "is_bot": false,
+      "content": "Thanks sir",
+      "embeds": [],
+      "created": 1771218634422,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "captain_levi_p",
+      "user_id": "1299962468709171245",
+      "is_bot": false,
+      "content": "<@836880971017748512> will my HP deducted for watching extra content outside my slots",
+      "embeds": [],
+      "created": 1771220135168,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "It will be enforced in the upcoming days, so as of now, no we won't",
+      "embeds": [],
+      "created": 1771220337723,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "captain_levi_p",
+      "user_id": "1299962468709171245",
+      "is_bot": false,
+      "content": "Will we be notified when the rule is enforced ?",
+      "embeds": [],
+      "created": 1771220672998,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "No, it will be enforced by Wednesday",
+      "embeds": [],
+      "created": 1771222591795,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1299962468709171245> hope the issue has been resolved and your doubt has been cleared?",
+      "embeds": [],
+      "created": 1771299952283,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "captain_levi_p",
+      "user_id": "1299962468709171245",
+      "is_bot": false,
+      "content": "Have one more question like i want study late night for example 1-2 am 2-3 am slot is best for me so when should I book my slot like for tomorrow 1-3 am slot can I book now?",
+      "embeds": [],
+      "created": 1771320159321,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "captain_levi_p",
+      "user_id": "1299962468709171245",
+      "is_bot": false,
+      "content": "<@836880971017748512>",
+      "embeds": [],
+      "created": 1771326557585,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1299962468709171245> You must book your slot for the next day 24 hrs prior.",
+      "embeds": [],
+      "created": 1771326629777,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "captain_levi_p",
+      "user_id": "1299962468709171245",
+      "is_bot": false,
+      "content": "Means there should be 24 hours gap between attending slot and booking a slot right?",
+      "embeds": [],
+      "created": 1771326674748,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Yeah",
+      "embeds": [],
+      "created": 1771326687785,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1299962468709171245> Is your issue has been resolved?",
+      "embeds": [],
+      "created": 1771342732204,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "captain_levi_p",
+      "user_id": "1299962468709171245",
+      "is_bot": false,
+      "content": "Yes",
+      "embeds": [],
+      "created": 1771343033182,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Ok then.\nAs the issue has been resolved I will be closing the ticket now.",
+      "embeds": [],
+      "created": 1771348968679,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771348976886,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771348977702,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771348979787,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0060",
+    "id": "1472657369149345828"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 20
+}

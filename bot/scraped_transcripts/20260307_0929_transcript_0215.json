@@ -1,0 +1,219 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1406202601325858918> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I am new in this intership so please explain how I join and register in the internship",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771932548157,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1406202601325858918> You can join the inaugural session for today for which you might have received the zoom invite link. You can refer this channel too: <#1468674639189381214> . Please follow the regulations of the Discord server too: Must have a professional DP and the Name of the candidate must be visible.",
+      "embeds": [],
+      "created": 1771933163649,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "mohanavallis",
+      "user_id": "1406202601325858918",
+      "is_bot": false,
+      "content": "How I registered for this internship and I only received one announcement mail what I do now??",
+      "embeds": [],
+      "created": 1771936611775,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Hello AKSians 🌟\nWe’re excited to officially welcome you to the journey!\n⏰ Date and Time: 23rd Feb, 2026. 6:45pm.\n📍 Zoom Link: https://zoom.us/j/93002365940?pwd=2pBHDX913lSJ3iYlaw3YxmdW2z0pbC.1\nIn this session, we’ll explain the program structure, platform usage, expectations, and key milestones. We’ll also answer your questions to ensure you start with complete clarity and confidence. 🚀\n\nThis session is important to help you begin strong and stay aligned from Day 1. 💪\nBe punctual, stay active, and come prepared!\nLet’s build something meaningful together 🚀💙. See you all there at 6:45pm.\nZoom\nWelcome! You are invited to join a meeting: Vinternship Inaugural S...\nWelcome! You are invited to join a meeting: Vinternship Inaugural Session – AKSians. After registering, you will receive a confirmation email about joining the meeting.",
+      "embeds": [
+        {
+          "title": "Welcome! You are invited to join a meeting: Vinternship Inaugural S...",
+          "description": "Welcome! You are invited to join a meeting: Vinternship Inaugural Session – AKSians. After registering, you will receive a confirmation email about joining the meeting.",
+          "url": "https://zoom.us/j/93002365940?pwd=2pBHDX913lSJ3iYlaw3YxmdW2z0pbC.1",
+          "fields": []
+        }
+      ],
+      "created": 1771936986889,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1406202601325858918> Please join this meeting at 6:45 PM today for the inaugural session where all the details of the internship will be explained",
+      "embeds": [],
+      "created": 1771937050259,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1406202601325858918> \n\nWe are rolling OUT THE REGISTRATION LINK!!\n\nNOTE : If you're new to ViBe, you MUST signup using the link and come back and click on the same link again to join the cohort!!\n\nDO NOT JOIN GURUSETU PIlOT\n\nHere's the link :\n\n https://vibe.vicharanashala.ai/student/course-registration/69942dc6d6d99b252e3a54ff \n\n\nPlease register in the course to start off",
+      "embeds": [],
+      "created": 1771937103186,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "mohanavallis",
+      "user_id": "1406202601325858918",
+      "is_bot": false,
+      "content": "Now I registered in this course next what I will do",
+      "embeds": [],
+      "created": 1771937436809,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@1406202601325858918> kindly access your course at  https://vibe.vicharanashala.ai/student through laptop or PC",
+      "embeds": [],
+      "created": 1771940322052,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1406202601325858918> \nWe hope you have enrolled to this course.",
+      "embeds": [],
+      "created": 1771940603638,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "mohanavallis",
+      "user_id": "1406202601325858918",
+      "is_bot": false,
+      "content": "yes sir thank you",
+      "embeds": [],
+      "created": 1771945174981,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1406202601325858918> \nWe hope your issue has been resolved now.",
+      "embeds": [],
+      "created": 1771945470654,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "mohanavallis",
+      "user_id": "1406202601325858918",
+      "is_bot": false,
+      "content": "Today is the last date for completing 20% of the internship tasks.As i am new to this internship and starting today,i would like to confirm whether it is compulsory to complete the 20% today itself .kindly let me know if there is any flexibility or what i should do next.",
+      "embeds": [],
+      "created": 1772026281723,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "It is a week from your start of ViBe course",
+      "embeds": [],
+      "created": 1772027853735,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "mohanavallis",
+      "user_id": "1406202601325858918",
+      "is_bot": false,
+      "content": "okay thank you sir",
+      "embeds": [],
+      "created": 1772032404382,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1469178567551090933>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772034049349,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772034049809,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772034052242,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0215",
+    "id": "1475816812666163352"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 17
+}

@@ -1,0 +1,232 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1472972250562171023> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : About HP..I completed my vibe 100% and week 1 case studies before deadline...in dashboard..in individual it is showing as 10 and 5..but in total HP only 6% is increased...2 days back i even completed week 2 case studies...can u please check",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771778894152,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@1472972250562171023> , kindly share your registered email id and cohort name.",
+      "embeds": [],
+      "created": 1771779092912,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "shaik.sannuarshi",
+      "user_id": "1472972250562171023",
+      "is_bot": false,
+      "content": "Email:sannuarshishaik@gmail.com \nCohort:Euclidean",
+      "embeds": [],
+      "created": 1771779152611,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "we are looking into this and will update you by tomorrow. <@1472972250562171023>",
+      "embeds": [],
+      "created": 1771779482442,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "shaik.sannuarshi",
+      "user_id": "1472972250562171023",
+      "is_bot": false,
+      "content": "Thank you sir",
+      "embeds": [],
+      "created": 1771779501852,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "<@956180961832362014> mam, kindly escalate the issue as per requirement.",
+      "embeds": [],
+      "created": 1771817446036,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1178273014085857294> <@1472972250562171023> \nWe have escalated your query.",
+      "embeds": [],
+      "created": 1771826052252,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "shaik.sannuarshi",
+      "user_id": "1472972250562171023",
+      "is_bot": false,
+      "content": "Ok mam",
+      "embeds": [],
+      "created": 1771830074094,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1472972250562171023> \nYour issue has been resolved now. \nThe dashboard may take some time to update. \nThank you for your patience and understanding.",
+      "embeds": [],
+      "created": 1771913838804,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "I hope your issue is now resolved.",
+      "embeds": [],
+      "created": 1771913858941,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "shaik.sannuarshi",
+      "user_id": "1472972250562171023",
+      "is_bot": false,
+      "content": "Still not updated mam....tq for the efforts mam....",
+      "embeds": [],
+      "created": 1771914286729,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1472972250562171023> \nIt will updated.",
+      "embeds": [],
+      "created": 1771915535354,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1472972250562171023> \nAs the issue has resolved can we close the issue now?",
+      "embeds": [],
+      "created": 1771915556334,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "shaik.sannuarshi",
+      "user_id": "1472972250562171023",
+      "is_bot": false,
+      "content": "Ok mam",
+      "embeds": [],
+      "created": 1771916424614,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "shaik.sannuarshi",
+      "user_id": "1472972250562171023",
+      "is_bot": false,
+      "content": "Tq mam",
+      "embeds": [],
+      "created": 1771916427156,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "closing the ticket.",
+      "embeds": [],
+      "created": 1771916590657,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771916604907,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771916605789,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771916607982,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0180",
+    "id": "1475172342022799411"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 19
+}

@@ -1,0 +1,224 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1474626519371350201> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : query regarding course",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772346628383,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "khwahish93",
+      "user_id": "1474626519371350201",
+      "is_bot": false,
+      "content": "i have completed 20 percent of course. when will i get the offer letter. and also today is the 7th day of my course so i will complete 25 percent by todays night . is it valid ?",
+      "embeds": [],
+      "created": 1772346712309,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474626519371350201> \nWhich cohort due you belong to?\nYes it is valid.",
+      "embeds": [],
+      "created": 1772363103804,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "khwahish93",
+      "user_id": "1474626519371350201",
+      "is_bot": false,
+      "content": "askians",
+      "embeds": [],
+      "created": 1772437832217,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "khwahish93",
+      "user_id": "1474626519371350201",
+      "is_bot": false,
+      "content": "resolve this issue !",
+      "embeds": [],
+      "created": 1772500908364,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474626519371350201> \nAs per the official announcement in this channel <#1473313063108350118> the team is working on it and will soon be released. \nSorry for the inconvenience caused. \nThank you for your patience, support and understanding.",
+      "embeds": [],
+      "created": 1772513527134,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474626519371350201> \nIs your issue resolved now?",
+      "embeds": [],
+      "created": 1772696852372,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "khwahish93",
+      "user_id": "1474626519371350201",
+      "is_bot": false,
+      "content": "no i have not recieved any offer letter till now",
+      "embeds": [],
+      "created": 1772706930621,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474626519371350201> \nDear kindly read the announcements once more.",
+      "embeds": [],
+      "created": 1772707282263,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1474626519371350201> the offer letters aren't released yet, further announcements will be made upon releasing. Please wait. In the meantime you can proceed with the internship flow following the milestones.",
+      "embeds": [],
+      "created": 1772707550643,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "khwahish93",
+      "user_id": "1474626519371350201",
+      "is_bot": false,
+      "content": "ok",
+      "embeds": [],
+      "created": 1772708268209,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1474626519371350201>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772708279860,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@956180961832362014>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1772708973556,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1772708985884,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772708988879,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772708989495,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772708991606,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0297",
+    "id": "1477553591932948525"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 17
+}

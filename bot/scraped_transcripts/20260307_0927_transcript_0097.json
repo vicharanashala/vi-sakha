@@ -1,0 +1,224 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@919657263197736960> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : i booked a slot for 11 pm to 12am , if i completed it then i will get my  progress for the next slot registration , so how i'm going to able to comite for the next day  .as the next day registration ends at  11.59pm .",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771432617172,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@919657263197736960>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771438368438,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@956180961832362014>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1771472296472,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@919657263197736960> \nIs your issue been resolved?",
+      "embeds": [],
+      "created": 1771472312505,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "ayushman_xd",
+      "user_id": "919657263197736960",
+      "is_bot": false,
+      "content": "yes",
+      "embeds": [],
+      "created": 1771484460431,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "ayushman_xd",
+      "user_id": "919657263197736960",
+      "is_bot": false,
+      "content": "i submitted it by 11.50",
+      "embeds": [],
+      "created": 1771484483268,
+      "edited": 1771484491513
+    },
+    {
+      "index": 7,
+      "author": "ayushman_xd",
+      "user_id": "919657263197736960",
+      "is_bot": false,
+      "content": "and next slot booking is temporary closed",
+      "embeds": [],
+      "created": 1771484505243,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "ayushman_xd",
+      "user_id": "919657263197736960",
+      "is_bot": false,
+      "content": "so it's also goes to my favor",
+      "embeds": [],
+      "created": 1771484521112,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@919657263197736960>  As of now, we have closed the slot booking temporarily. We'll be announcing soon if it is reopened. In the meantime, you can proceed with the course without slot booking.",
+      "embeds": [],
+      "created": 1771484674685,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "ayushman_xd",
+      "user_id": "919657263197736960",
+      "is_bot": false,
+      "content": "okay",
+      "embeds": [],
+      "created": 1771488976624,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "ayushman_xd",
+      "user_id": "919657263197736960",
+      "is_bot": false,
+      "content": "thank you",
+      "embeds": [],
+      "created": 1771488988542,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@919657263197736960> I hope your query has been resolved?",
+      "embeds": [],
+      "created": 1771489347904,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "ayushman_xd",
+      "user_id": "919657263197736960",
+      "is_bot": false,
+      "content": "yes",
+      "embeds": [],
+      "created": 1771502623088,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1771503281815,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771503289047,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771503289521,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771503291869,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0097",
+    "id": "1473719950290981056"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 17
+}

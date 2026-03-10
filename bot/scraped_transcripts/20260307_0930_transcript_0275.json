@@ -1,0 +1,382 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@754397705857662998> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Good morning,there is an issue with my hp,Even after completing the tasks(activities) on time,I got a negative hp for one activity. Because of which I am in an unsafe position. When I checked the reasons for the deduction,I found that my hp",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772159504240,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "dhanalakshmisj0458",
+      "user_id": "754397705857662998",
+      "is_bot": false,
+      "content": "Sorry for the error,\nIt is Activity -3 (blog writing) and week 1 vibe course completion (25%)",
+      "embeds": [],
+      "created": 1772160707343,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@754397705857662998> \nCould you explain your issue more clearly?",
+      "embeds": [],
+      "created": 1772169763604,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "dhanalakshmisj0458",
+      "user_id": "754397705857662998",
+      "is_bot": false,
+      "content": "Yes ma'am,\n1. For activity A3 blog -i have completed the task and also filled the form before the deadline,but still there is a minus in my hp,\n2. I have completed the vibe course before the deadline ,25% in 1st week ,but there is decrement in the hp\nI am in the Unsafe position , because of these ,\nCould you please check and help me.",
+      "embeds": [],
+      "created": 1772171271208,
+      "edited": 1772171360569
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@754397705857662998>",
+      "embeds": [],
+      "created": 1772171717190,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "We have escalated your issue.\nIt will be resolved soon.",
+      "embeds": [],
+      "created": 1772171740282,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "dhanalakshmisj0458",
+      "user_id": "754397705857662998",
+      "is_bot": false,
+      "content": "Thank you ma'am",
+      "embeds": [],
+      "created": 1772171753585,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "dhanalakshmisj0458",
+      "user_id": "754397705857662998",
+      "is_bot": false,
+      "content": "Hello ma'am,\nGood Evening,There are no changes reflected In my health points",
+      "embeds": [],
+      "created": 1772271978196,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "dhanalakshmisj0458",
+      "user_id": "754397705857662998",
+      "is_bot": false,
+      "content": "Good afternoon ma'am,\nThere are no changes reflected in hp yet.And these had a huge impact on overall hp.\nSince my hp is less than the threshold,will I be removed from the cohort?",
+      "embeds": [],
+      "created": 1772357907143,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@754397705857662998> \nI have already escalated your issue for the same. The team has said that they have reverted the HP. \nBut I will once again talk to them regarding this.",
+      "embeds": [],
+      "created": 1772363572288,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "dhanalakshmisj0458",
+      "user_id": "754397705857662998",
+      "is_bot": false,
+      "content": "Ok ma'am,\nThank you so much",
+      "embeds": [],
+      "created": 1772370312590,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@754397705857662998> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772428085505,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "dhanalakshmisj0458",
+      "user_id": "754397705857662998",
+      "is_bot": false,
+      "content": "No mam,my hp is still 128, below the threshold \nBecause of which I have been removed from the leaderboard...\nEmail id: dhanalakshmi240807@gmail.com\nId:WIN25853",
+      "embeds": [],
+      "created": 1772428826574,
+      "edited": 1772429676094
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@754397705857662998> \nKindly help us with your cohort name please.",
+      "embeds": [],
+      "created": 1772440239186,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "dhanalakshmisj0458",
+      "user_id": "754397705857662998",
+      "is_bot": false,
+      "content": "I am from Euclideans cohort maam",
+      "embeds": [],
+      "created": 1772440268729,
+      "edited": 1772440300651
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@754397705857662998> \nAs per our record you had missed submitting the week2 case study hence the HP went belo the base. \nYou may fill the appeal form and if we find it genuine we will revert your HP's",
+      "embeds": [],
+      "created": 1772461058424,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "dhanalakshmisj0458",
+      "user_id": "754397705857662998",
+      "is_bot": false,
+      "content": "Yes ma'am,I have filled out the appeal form .\nThank you ma'am.",
+      "embeds": [],
+      "created": 1772468647655,
+      "edited": 1772470453402
+    },
+    {
+      "index": 18,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@754397705857662998> \nWe have reverted your HP.",
+      "embeds": [],
+      "created": 1772515380452,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "It may take sometime to reflect on the dashboard.",
+      "embeds": [],
+      "created": 1772515401954,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "dhanalakshmisj0458",
+      "user_id": "754397705857662998",
+      "is_bot": false,
+      "content": "Good morning ma’am,\nThank you for reverting my HP. As my name is currently not visible on the dashboard due to the earlier unsafe status, could you please confirm whether I will continue in the cohort once the HP is updated?\nThank you.",
+      "embeds": [],
+      "created": 1772516534955,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "If your name comes on the dashboard then yes you may continue.",
+      "embeds": [],
+      "created": 1772517019169,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "dhanalakshmisj0458",
+      "user_id": "754397705857662998",
+      "is_bot": false,
+      "content": "Yes ma'am, Thank you.",
+      "embeds": [],
+      "created": 1772517075089,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the ticket.",
+      "embeds": [],
+      "created": 1772518848646,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "imsakshivk",
+      "user_id": "1293270010537578575",
+      "is_bot": false,
+      "content": "Deadline to submit the activity form was 08/02/2026. But it was submitted on 09/02/2026 , that is why -5%.\n\nalso you have missed the case study deadline, this internship is all about discipline and being regular , It would be difficult for us to revert your HP.",
+      "embeds": [],
+      "created": 1772524573442,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "dhanalakshmisj0458",
+      "user_id": "754397705857662998",
+      "is_bot": false,
+      "content": "Good afternoon ma’am,\nThank you for the clarification.\nI had completed the activity before the deadline; however, I missed filling out the Google form. I have attached a copy of my post to validate the submission date. I kindly request the team to please reconsider my case.\nI would also like to check regarding the Week 1 VIBE (25%) completion, as there was a deduction reflected even though I completed it within the first week.\nAdditionally, could you please confirm my current status — whether I can continue in this cohort, or if there is a possibility for me to join an upcoming cohort?\nThank you for your time and support.",
+      "embeds": [],
+      "created": 1772526774167,
+      "edited": 1772528035399
+    },
+    {
+      "index": 26,
+      "author": "dhanalakshmisj0458",
+      "user_id": "754397705857662998",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1772527155056,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@754397705857662998> \nWe have escalated your issue.",
+      "embeds": [],
+      "created": 1772640685288,
+      "edited": null
+    },
+    {
+      "index": 28,
+      "author": "dhanalakshmisj0458",
+      "user_id": "754397705857662998",
+      "is_bot": false,
+      "content": "Thank you, ma’am.",
+      "embeds": [],
+      "created": 1772642239207,
+      "edited": null
+    },
+    {
+      "index": 29,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "The activity HP has been reverted, and you are out of the unsafe zone, so you can continue. You can confirm if your name is visible on the dashboard again.\n<@754397705857662998>",
+      "embeds": [],
+      "created": 1772646233848,
+      "edited": null
+    },
+    {
+      "index": 30,
+      "author": "dhanalakshmisj0458",
+      "user_id": "754397705857662998",
+      "is_bot": false,
+      "content": "yes mam,It is visible.\nThank you so much for the consideration.",
+      "embeds": [],
+      "created": 1772677791976,
+      "edited": 1772677835356
+    },
+    {
+      "index": 31,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved now. \nHence closing the ticket.",
+      "embeds": [],
+      "created": 1772693349903,
+      "edited": null
+    },
+    {
+      "index": 32,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772693359232,
+      "edited": null
+    },
+    {
+      "index": 33,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772693359669,
+      "edited": null
+    },
+    {
+      "index": 34,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772693361632,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0275",
+    "id": "1476768735691014347"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 34
+}

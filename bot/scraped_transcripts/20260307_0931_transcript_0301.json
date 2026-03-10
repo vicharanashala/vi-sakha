@@ -1,0 +1,372 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1468871949915656223> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Glitch in submitting Typescript case study",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772369569213,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "samarthkapoor_",
+      "user_id": "1468871949915656223",
+      "is_bot": false,
+      "content": "Hi team,\nI observed that my HP was reduced for the case studies submission deadline dated 26th Feb, even when I submitted all the case studies from my side. After checking the portal, I found out that my TypeScript case study #19 submission wasn't reflecting there, when I am sure I did submit it. Since then, I have again submitted that case study for you to review- please do the needful and award me the HP as it is currently unsafe. \nPlease note that I've completed all case studies till MongoDB #1, so it wouldn't make sense for me to leave just one TS case study incomplete; there must have been a glitch while submitting the form. \nKindly consider this as an honest mistake from my end and a technical error; no malicious intent is involved, and I have genuinely completed the case studies on time.",
+      "embeds": [],
+      "created": 1772369663735,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "samarthkapoor_",
+      "user_id": "1468871949915656223",
+      "is_bot": false,
+      "content": "I mailed about this issue the day before  itself when the list came out",
+      "embeds": [],
+      "created": 1772369743869,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1468871949915656223> please note that the support desk in discord is the active one and please do note for future query addressing. Also, we would check the submission and award the HP if the submissions are made via the forms",
+      "embeds": [],
+      "created": 1772371587050,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "samarthkapoor_",
+      "user_id": "1468871949915656223",
+      "is_bot": false,
+      "content": "Okay sir I'll keep that in mind. \nYes sir, please check it and award the HP as I'm unsafe right now due to that and can lead to my removal.",
+      "embeds": [],
+      "created": 1772372326908,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1468871949915656223> \nKindly mention your cohort name.",
+      "embeds": [],
+      "created": 1772424549977,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "samarthkapoor_",
+      "user_id": "1468871949915656223",
+      "is_bot": false,
+      "content": "It's euclideans ma'am",
+      "embeds": [],
+      "created": 1772431638024,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1468871949915656223> \nWe have escalated your issue.",
+      "embeds": [],
+      "created": 1772460310340,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "imsakshivk",
+      "user_id": "1293270010537578575",
+      "is_bot": false,
+      "content": "The Deadline for \nCS1 12/02/2026\nCS2 19/02/2026\nCS3 26/02/2026\n \nYou have clearly missed the week 2 deadline, and hence, missed week 3 too.\n \nWe cannot revert your HP.",
+      "embeds": [],
+      "created": 1772510758469,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1468871949915656223> \nWe hope your issue has been resolved.",
+      "embeds": [],
+      "created": 1772513210065,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "samarthkapoor_",
+      "user_id": "1468871949915656223",
+      "is_bot": false,
+      "content": "Ma'am, while I did miss my week 2 deadline, I covered it up within the next week. So I submitted the pending case studies and the case studies for that week as well. \n\nI don't see why you can't cover your backlogs and cover that week's task at the same time, within the due date.",
+      "embeds": [],
+      "created": 1772515134645,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "imsakshivk",
+      "user_id": "1293270010537578575",
+      "is_bot": false,
+      "content": "Dear Samarth,\n\nKindly refer to the submission timestamps on the dashboard. As of 26/02/2026, you had submitted 29 out of the required 30 tasks. Since 30 submissions were mandatory by that date, this will be considered as a missed requirement.\n\nYou may track your progress directly through the CS dashboard. The completion percentage is calculated as follows:\n\n(30 / 42) × 100 = 71.42%\n\nIf your CS percentage was not reflecting 71.42% by 26/02/2026, it indicates that one required submission was pending. It is important to regularly monitor your dashboard to ensure all required components are completed within the stipulated timeline.\n\nWhile it is permitted to cover backlog tasks alongside the current week’s tasks, in your case the pending requirement remained at 29/30 and was not completed within the deadline.\n\nPlease ensure closer tracking of your submissions going forward to avoid such instances.",
+      "embeds": [],
+      "created": 1772515601784,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "samarthkapoor_",
+      "user_id": "1468871949915656223",
+      "is_bot": false,
+      "content": "Ma'am that is exactly my concern as I mentioned before. I submitted all 30/30 of them but due to some glitch from either end the typescript #19 case study couldn't be submitted",
+      "embeds": [],
+      "created": 1772537629017,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "samarthkapoor_",
+      "user_id": "1468871949915656223",
+      "is_bot": false,
+      "content": "I complete all of them till mongoDB #3 so it anyways wouldn't make sense for me to just leave one case study in between",
+      "embeds": [],
+      "created": 1772537717131,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "samarthkapoor_",
+      "user_id": "1468871949915656223",
+      "is_bot": false,
+      "content": "Ma'am please resolve this as you've already removed my name from the leaderboard from your end",
+      "embeds": [],
+      "created": 1772538348054,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "samarthkapoor_",
+      "user_id": "1468871949915656223",
+      "is_bot": false,
+      "content": "Please refer to my original ticket for clarification",
+      "embeds": [],
+      "created": 1772538457852,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Ticket id if I may know?",
+      "embeds": [],
+      "created": 1772544253580,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Or are we talking about the same ticket?",
+      "embeds": [],
+      "created": 1772544311164,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "samarthkapoor_",
+      "user_id": "1468871949915656223",
+      "is_bot": false,
+      "content": "Same ticket",
+      "embeds": [],
+      "created": 1772553704145,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "samarthkapoor_",
+      "user_id": "1468871949915656223",
+      "is_bot": false,
+      "content": "I meant request- like please go through it once again",
+      "embeds": [],
+      "created": 1772553723573,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "samarthkapoor_",
+      "user_id": "1468871949915656223",
+      "is_bot": false,
+      "content": "Also inform whether I've to fill the appeal form regardless of this raising this issue here?",
+      "embeds": [],
+      "created": 1772556403621,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "samarthkapoor_",
+      "user_id": "1468871949915656223",
+      "is_bot": false,
+      "content": "Any updates?",
+      "embeds": [],
+      "created": 1772599810979,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "shaurya.loop",
+      "user_id": "775738285103775775",
+      "is_bot": false,
+      "content": "Kindly wait for the reply of the concerned support team. \n\nCC:<@1359148118444343517> <@956180961832362014>",
+      "embeds": [],
+      "created": 1772599979457,
+      "edited": 1772600105973
+    },
+    {
+      "index": 24,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@1293270010537578575>",
+      "embeds": [],
+      "created": 1772600361425,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1468871949915656223> \nIf you have sent an appeal form then surely you will get the HP back if your appeal is genuine. \nKindly wait for sometime. We will update you soon. \nCC: <@836880971017748512>",
+      "embeds": [],
+      "created": 1772639073037,
+      "edited": null
+    },
+    {
+      "index": 26,
+      "author": "samarthkapoor_",
+      "user_id": "1468871949915656223",
+      "is_bot": false,
+      "content": "Yes ma'am I did send the appeal as well today",
+      "embeds": [],
+      "created": 1772640048335,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1468871949915656223> \nWe are looking into your appeal and if we find it genuine we will surely onboard you again in the same cohort.",
+      "embeds": [],
+      "created": 1772693127694,
+      "edited": null
+    },
+    {
+      "index": 28,
+      "author": "imsakshivk",
+      "user_id": "1293270010537578575",
+      "is_bot": false,
+      "content": "I saw you have completed next milestones we will restore you soon.",
+      "embeds": [],
+      "created": 1772773136438,
+      "edited": null
+    },
+    {
+      "index": 29,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1468871949915656223> Is the issue resolved?",
+      "embeds": [],
+      "created": 1772795523380,
+      "edited": null
+    },
+    {
+      "index": 30,
+      "author": "samarthkapoor_",
+      "user_id": "1468871949915656223",
+      "is_bot": false,
+      "content": "Yes sir, thank you",
+      "embeds": [],
+      "created": 1772798315299,
+      "edited": null
+    },
+    {
+      "index": 31,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772798447173,
+      "edited": null
+    },
+    {
+      "index": 32,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772798447779,
+      "edited": null
+    },
+    {
+      "index": 33,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772798449964,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0301",
+    "id": "1477649812068368557"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 33
+}

@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@965995094870208654> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : help regarding offer letter",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772079329636,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "__its_om_148343",
+      "user_id": "965995094870208654",
+      "is_bot": false,
+      "content": "i have enrolled in the nptel DM course but i have not registered for the exam so am i eligible for this internship and offer letter or not will i get certificate for this internship withist registering for the nptel exam",
+      "embeds": [],
+      "created": 1772079520295,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@965995094870208654> \nKindly continue with the internship milestones, we will soon release an official announcement regarding this.",
+      "embeds": [],
+      "created": 1772085163054,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@965995094870208654> \ncould you tell us your cohort once please.",
+      "embeds": [],
+      "created": 1772515062455,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "__its_om_148343",
+      "user_id": "965995094870208654",
+      "is_bot": false,
+      "content": "Aksian",
+      "embeds": [],
+      "created": 1772515080811,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@965995094870208654> \nKindly try to enroll in the same course from NPTEL + as giving exam is mandatory.",
+      "embeds": [],
+      "created": 1772771930376,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@965995094870208654> is the issue resolved? Can we close the ticket?",
+      "embeds": [],
+      "created": 1772859679246,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "__its_om_148343",
+      "user_id": "965995094870208654",
+      "is_bot": false,
+      "content": "Yes",
+      "embeds": [],
+      "created": 1772859688140,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772859700318,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772859700855,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772859703262,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0261",
+    "id": "1476432459108188162"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

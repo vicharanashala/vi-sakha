@@ -1,0 +1,23 @@
+# Vinternship AI Support System
+
+# Web scraping
+playwright==1.58.0
+
+# Anthropic Claude API
+anthropic
+
+# Discord Bot
+discord.py
+
+# Local embeddings (BGE model)
+sentence-transformers
+
+# Vector database
+chromadb
+
+# MongoDB
+pymongo
+
+# Environment variables
+python-dotenv
+

@@ -1,0 +1,532 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1237721609209511958> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Completed Module still showing incomplete items",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771852066418,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Hi <@1237721609209511958> \nKindly let me know your email, cohort and the specific module and section in which you're facing this issue.",
+      "embeds": [],
+      "created": 1771852388819,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "Girishjainl3016@gmail.com\ncohort 5 (aksians)\nJS module \n1st sec (video 3 and quiz 13)\n2nd sec ( quiz 10)",
+      "embeds": [],
+      "created": 1771852735050,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "On which module, section and item are you on currently?",
+      "embeds": [],
+      "created": 1771854705672,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "Currently on TS module \n7th section 1st item",
+      "embeds": [],
+      "created": 1771854763510,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "<@1237721609209511958> Go to JS>section 1> video 3 and watch it again",
+      "embeds": [],
+      "created": 1771854943070,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "it doesnt allow me to watch it again pops up an error",
+      "embeds": [],
+      "created": 1771855056711,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Kindly refresh and try again and then send the screenshot",
+      "embeds": [],
+      "created": 1771855084816,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "ok",
+      "embeds": [],
+      "created": 1771855095473,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Hi <@1237721609209511958> \nwere you able to watch it?",
+      "embeds": [],
+      "created": 1771855606202,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "yes was able to watch the 3rd video",
+      "embeds": [],
+      "created": 1771856876276,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "but it still does not say completed",
+      "embeds": [],
+      "created": 1771856936934,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771857033841,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "watched it 2-3  times also completed the quiz again after it but still does not show completed",
+      "embeds": [],
+      "created": 1771857065292,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Did you try refreshing after as well?",
+      "embeds": [],
+      "created": 1771857395620,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "yess ]",
+      "embeds": [],
+      "created": 1771857413510,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "isn't the progress now increased from 87 to 89?\nit was 87 before right?\n\nif this is the case please try hard reload\nlogout and then login",
+      "embeds": [],
+      "created": 1771857819417,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "It is now showing the whole 90/90 progress.\nkindly check again and let me know",
+      "embeds": [],
+      "created": 1771858016986,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "yes it was updated to 89 but still the video one isnt updated to 90/90",
+      "embeds": [],
+      "created": 1771858082448,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "ok let me login again",
+      "embeds": [],
+      "created": 1771858092476,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "sure",
+      "embeds": [],
+      "created": 1771858145677,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "yes it worked",
+      "embeds": [],
+      "created": 1771858197502,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "thanks",
+      "embeds": [],
+      "created": 1771858198922,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Okay Great!",
+      "embeds": [],
+      "created": 1771858208639,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "but now i cant return to the module i was on",
+      "embeds": [],
+      "created": 1771858210985,
+      "edited": null
+    },
+    {
+      "index": 26,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Which one was it?",
+      "embeds": [],
+      "created": 1771858233720,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": ".",
+      "embeds": [],
+      "created": 1771858247707,
+      "edited": null
+    },
+    {
+      "index": 28,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Okay",
+      "embeds": [],
+      "created": 1771858258845,
+      "edited": null
+    },
+    {
+      "index": 29,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "thanks again",
+      "embeds": [],
+      "created": 1771858281003,
+      "edited": null
+    },
+    {
+      "index": 30,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Anytime!\nIt's meta programming with decorators right? just to be sure",
+      "embeds": [],
+      "created": 1771858369386,
+      "edited": null
+    },
+    {
+      "index": 31,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "yess",
+      "embeds": [],
+      "created": 1771858405215,
+      "edited": null
+    },
+    {
+      "index": 32,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "i have to start it from the 1st video",
+      "embeds": [],
+      "created": 1771858417358,
+      "edited": null
+    },
+    {
+      "index": 33,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Okay!\nplease try again after refreshing and logging in again",
+      "embeds": [],
+      "created": 1771858443542,
+      "edited": null
+    },
+    {
+      "index": 34,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "ok",
+      "embeds": [],
+      "created": 1771858534884,
+      "edited": null
+    },
+    {
+      "index": 35,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "didnt work",
+      "embeds": [],
+      "created": 1771858619719,
+      "edited": null
+    },
+    {
+      "index": 36,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "logged in again still starting from the very first module",
+      "embeds": [],
+      "created": 1771858640141,
+      "edited": null
+    },
+    {
+      "index": 37,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "the very first as in js module?",
+      "embeds": [],
+      "created": 1771858674484,
+      "edited": null
+    },
+    {
+      "index": 38,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "yes",
+      "embeds": [],
+      "created": 1771858700812,
+      "edited": null
+    },
+    {
+      "index": 39,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Even when you're clicking on TS, module 7, item 1\nstill you're not able to play it. Is that right?",
+      "embeds": [],
+      "created": 1771858758135,
+      "edited": null
+    },
+    {
+      "index": 40,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "yes it pops up an error that i cant access and re directs me tot he js 1st video",
+      "embeds": [],
+      "created": 1771858894915,
+      "edited": null
+    },
+    {
+      "index": 41,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Please refresh and try again once more",
+      "embeds": [],
+      "created": 1771859385476,
+      "edited": null
+    },
+    {
+      "index": 42,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "ya it came back",
+      "embeds": [],
+      "created": 1771859506290,
+      "edited": null
+    },
+    {
+      "index": 43,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "for once it showed 100% and i was geniuely happy !!",
+      "embeds": [],
+      "created": 1771859525370,
+      "edited": null
+    },
+    {
+      "index": 44,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Haha\nyea it was an issue\nso everything back to normal right?",
+      "embeds": [],
+      "created": 1771859691870,
+      "edited": null
+    },
+    {
+      "index": 45,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "yess",
+      "embeds": [],
+      "created": 1771859707101,
+      "edited": null
+    },
+    {
+      "index": 46,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Okay great!",
+      "embeds": [],
+      "created": 1771859820489,
+      "edited": null
+    },
+    {
+      "index": 47,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1237721609209511958>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771859833596,
+      "edited": null
+    },
+    {
+      "index": 48,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771859834234,
+      "edited": null
+    },
+    {
+      "index": 49,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771859838768,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0187",
+    "id": "1475479248926937241"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 49
+}

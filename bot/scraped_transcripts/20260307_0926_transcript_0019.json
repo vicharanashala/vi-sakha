@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1323300357236981823> Welcome, the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Glitch in Dashboard",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1770492428345,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "debojyoti_bain",
+      "user_id": "1323300357236981823",
+      "is_bot": false,
+      "content": "My credentials:\nName: Debojyoti Bain\nEmail: coding123debojyoti@gmail.com\nViBe progress (as of 8/2/26, 12:57am) : 22.76%",
+      "embeds": [],
+      "created": 1770492496430,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "debojyoti_bain",
+      "user_id": "1323300357236981823",
+      "is_bot": false,
+      "content": "My credentials aren't associated with my name right now\nAnd my email and other credentials moved on to this person\nKindly fix this issue as soon as possible",
+      "embeds": [],
+      "created": 1770492545737,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "debojyoti_bain",
+      "user_id": "1323300357236981823",
+      "is_bot": false,
+      "content": "Note : I won't be available for 22hrs from now as I have GATE exam.\nKindly solve the issue and state all what you want and kindly keep the ticket open for 2 days\nI will reply once I will be free and then we can move further on.",
+      "embeds": [],
+      "created": 1770492628729,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "debojyoti_bain",
+      "user_id": "1323300357236981823",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1770492798290,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "yazdan_irfan",
+      "user_id": "761846131679297546",
+      "is_bot": false,
+      "content": "<@1323300357236981823> \nThis issue is something that has to be informed to the backend team not here as the team is not full onboarded. You have recieved a message with an email regarding whom to contact in case of these issue.",
+      "embeds": [],
+      "created": 1770526236342,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "yazdan_irfan",
+      "user_id": "761846131679297546",
+      "is_bot": false,
+      "content": "Use of this kind of tone for any further conversation will lead to direct Deduction of your HP. If you havent read the rules \nGo through them thoroughly, make sure you know the procedure before ordering what to do and when to do.",
+      "embeds": [],
+      "created": 1770526315566,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "debojyoti_bain",
+      "user_id": "1323300357236981823",
+      "is_bot": false,
+      "content": "okay you can close this",
+      "embeds": [],
+      "created": 1770562971544,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@761846131679297546>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1770563095438,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1770563097544,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1770563109437,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0019",
+    "id": "1469776513040646254"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

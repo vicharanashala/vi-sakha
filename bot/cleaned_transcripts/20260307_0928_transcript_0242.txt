@@ -1,0 +1,13 @@
+Student (pachipalanareshkumar): I have unable to access the quiz 1 (cannot read undefined id)from typescript class architecture oops module
+
+Instructor (nitin_fighter1379): Please look into the issue. Kindly mention your cohort, give your email ID and also explain your query in detail that which quiz is not loading.
+
+Student (pachipalanareshkumar): p.nareshkumar9347.com Aksians and I have unable to access the quiz 1 (cannot read undefined id)from typescript class architecture oops module i mentioned properly know No issue not resolved
+
+Instructor (jinalgupta.): OK Please be patient. We are looking into your issue it will take sometime to do so.
+
+Student (pachipalanareshkumar): I get no active courses in my dashboard
+
+Instructor (jinalgupta., sreehari5371): Kindly wait. There might be some changes going on that may have caused this issue. It may take sometime to resolve the same. Kindly look into this issue. Kindly be assured that your progress remains safe and unaffected. The issue will be resolved as soon as possible. The issue has been resolved. Please verify and let us know the status.
+
+Student (pachipalanareshkumar): Issue resolved

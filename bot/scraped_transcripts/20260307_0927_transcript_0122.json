@@ -1,0 +1,174 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473367944816889959> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : My dashboard showing 0 courses enrolled error",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771575664126,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473367944816889959> Please state your cohort name.",
+      "embeds": [],
+      "created": 1771576076086,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Also, please view the available courses tab present in ViBe landing dashboard and you'll find yor respective course there. Please join on it through your registered mail ID.",
+      "embeds": [],
+      "created": 1771576149261,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "pannala_lokesh_reddy",
+      "user_id": "1473367944816889959",
+      "is_bot": false,
+      "content": "AKsians is my cohort, plokeshreddy5678@gmial.com is my registered email id",
+      "embeds": [],
+      "created": 1771576214318,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1473367944816889959>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771576584871,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@836880971017748512>",
+      "embeds": [],
+      "created": 1771577215261,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@836880971017748512>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1771577633705,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "You have progressed around 5%. Is the issue resolved and are you able to view the course <@1473367944816889959> ?",
+      "embeds": [],
+      "created": 1771577717834,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "pannala_lokesh_reddy",
+      "user_id": "1473367944816889959",
+      "is_bot": false,
+      "content": "Yes resolved, thank you!!",
+      "embeds": [],
+      "created": 1771578126904,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771578155143,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771578155619,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771578158290,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0122",
+    "id": "1474319931255427124"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 12
+}

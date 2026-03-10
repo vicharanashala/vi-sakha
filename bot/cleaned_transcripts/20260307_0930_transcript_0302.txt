@@ -1,0 +1,9 @@
+Student (sanjay.a_20): I had previously raised a ticket regarding the 10% HP deduction when my ViBe progress was stuck at 99.9%. I was informed that I would be considered as having completed the course and that the HP deduction would be reverted. However, it has n
+
+Instructor (jinalgupta., nitin_fighter1379): do not worry....your health points will be reverted Kindly mention your cohort name and do elaborate on your issue.
+
+Student (sanjay.a_20): Ma'am, I am from Euclideans cohort. On February 13th or 14th, I raised a ticket regarding the 10% HP deduction when my ViBe progress was stuck at 99.9%. I was informed that I would be considered as having completed the course and that the HP deduction would be reverted. However, it has not been reverted yet.
+
+Instructor (imsakshivk, jinalgupta.): Reverted and restored on dashboard
+
+Student (sanjay.a_20): Thank you, Ma’am. The issue has been resolved now.

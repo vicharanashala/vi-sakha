@@ -1,0 +1,112 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1250246319029616651> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I've been removed from the dashboard from the kruskalians batch",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772813041723,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "manvith2115.",
+      "user_id": "1250246319029616651",
+      "is_bot": false,
+      "content": "I was having my exam's, so I was unable to be consistent with the course, Although I have completed the vibe till 40% before the Announcement was made by Meenakshi Mam, Since my HP was only 102 I was removed I guess, Now that my exams are finished I've been consistent with it and completed the Vibe Course up to 85% now, and I will complete the Vibe Course by tomorrow(i.e. Saturday). I've filled the appeal form but there was no answer for it, because of which I was concerned and I've raised this ticket.",
+      "embeds": [],
+      "created": 1772813375131,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1250246319029616651> The appeal will be processed by the team and a decision will be taken. Meanwhile you can proceed until further communications are made.",
+      "embeds": [],
+      "created": 1772854263604,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "manvith2115.",
+      "user_id": "1250246319029616651",
+      "is_bot": false,
+      "content": "Ok\nthank you",
+      "embeds": [],
+      "created": 1772854293605,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1250246319029616651>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772854326014,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772854327003,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772854445083,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0381",
+    "id": "1479509870679035987"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 7
+}

@@ -1,0 +1,372 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1472488410982780929> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Unable to access React content",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771332889462,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "Is it ok to type the problem out now? or should I wait for someone to be assigned to this?",
+      "embeds": [],
+      "created": 1771333159977,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "yep",
+      "embeds": [],
+      "created": 1771333328235,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "type it out",
+      "embeds": [],
+      "created": 1771333330534,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "This is the message I got after my last typescript quiz, also the typescript progress is stuck at 287/288(Might have to do with it not being able to successfully go the next video)",
+      "embeds": [],
+      "created": 1771333395783,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "Currently it is taking me straight to MongoDB",
+      "embeds": [],
+      "created": 1771333411841,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "Also I don't know if it saying \"Quiz -Segment 20\" has to do with anything",
+      "embeds": [],
+      "created": 1771333521711,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1472488410982780929> This issue has already been notified and is being resolved by the tech team. If you're able to progress further, please proceed through.",
+      "embeds": [],
+      "created": 1771334070904,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "It is ok to go to mongoDB and beyond without completing React first?",
+      "embeds": [],
+      "created": 1771334113575,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "Also can you please clarify on the 287/288 for typescript section as well?",
+      "embeds": [],
+      "created": 1771334140462,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "If i have genuinely missed a video or quiz I would like to complete it while the topics are still fresh in my mind.",
+      "embeds": [],
+      "created": 1771334160539,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "Should I raise a separate ticket for the typescript 287/288 problem?",
+      "embeds": [],
+      "created": 1771336628326,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "No....it has been noted",
+      "embeds": [],
+      "created": 1771336822897,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "Should I close the ticket?",
+      "embeds": [],
+      "created": 1771336901160,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1472488410982780929> \nWe will close it. If your issues have resolved.",
+      "embeds": [],
+      "created": 1771342041194,
+      "edited": 1771342089133
+    },
+    {
+      "index": 16,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "I mean I have received confirmation it is being looked into, but the problem hasn't been resolved on the platform yet.",
+      "embeds": [],
+      "created": 1771342148172,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "Hence why I was asking should I close it or not",
+      "embeds": [],
+      "created": 1771342158126,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Ok. \nJust wait for the confirmation. \nAs soon as you get the confirmation from the team, we will close the ticket.",
+      "embeds": [],
+      "created": 1771342214993,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "👍",
+      "embeds": [],
+      "created": 1771342224684,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@666826791016595456> \nCould you please look into it?",
+      "embeds": [],
+      "created": 1771353054034,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "abiramk7427",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1472488410982780929> Could you please let me know which section you are currently in and which quiz is showing this issue?",
+      "embeds": [],
+      "created": 1771376330883,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "While on the last quiz of typescript section, it didn't let me go to the react section, saying access was closed off. And in addition to that the progress of typescript section is at 287/288",
+      "embeds": [],
+      "created": 1771379655284,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "abiramk7427",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1472488410982780929>  Refresh (ctr+shift+r) the page and try again",
+      "embeds": [],
+      "created": 1771379913509,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "I actually saw sudarshan sir's message and tried this, I also logged out and logged in, tried clearing my cache. And the problems actually got worse, I can't access my mongodb videos now as well(I was able to until yesterday)",
+      "embeds": [],
+      "created": 1771380196897,
+      "edited": 1771380206956
+    },
+    {
+      "index": 25,
+      "author": "abiramk7427",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "You have completed TypeScript, so the next module is React, not MongoDB.\nPlease refresh the page now. I have reset your progress.",
+      "embeds": [],
+      "created": 1771381224245,
+      "edited": null
+    },
+    {
+      "index": 26,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "Yes I can access my React modules now 👍, but can you please continue to look into the typescript progress not being completed(I tried redoing the quiz), if i genuinely missed a video or quiz can you please check which one it is?",
+      "embeds": [],
+      "created": 1771385632698,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "Thank you for the fix 👍",
+      "embeds": [],
+      "created": 1771385639657,
+      "edited": null
+    },
+    {
+      "index": 28,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "<@666826791016595456> my primary issue is resolved, but secondary isn't, should I close the ticket?",
+      "embeds": [],
+      "created": 1771386105273,
+      "edited": null
+    },
+    {
+      "index": 29,
+      "author": "abiramk7427",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "Okay, that issue we will check and resolve soon.",
+      "embeds": [],
+      "created": 1771386199211,
+      "edited": null
+    },
+    {
+      "index": 30,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "should I close my ticket then?",
+      "embeds": [],
+      "created": 1771386950222,
+      "edited": null
+    },
+    {
+      "index": 31,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@666826791016595456>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771390564661,
+      "edited": null
+    },
+    {
+      "index": 32,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771390565388,
+      "edited": null
+    },
+    {
+      "index": 33,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771390567694,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0070",
+    "id": "1473301661752623216"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 33
+}

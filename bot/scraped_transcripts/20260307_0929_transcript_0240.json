@@ -1,0 +1,282 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473376132811194591> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : quiz is not working",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772001483515,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473376132811194591> \nKindly mention your cohort, give your email ID and also explain your query in detail that which quiz is not loading",
+      "embeds": [],
+      "created": 1772001560211,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "aaryan.1111",
+      "user_id": "1473376132811194591",
+      "is_bot": false,
+      "content": "this kind of error face and i enrolled 19 feb , and i completed 9% only so please can you tell me about my deadline is today or this full week?",
+      "embeds": [],
+      "created": 1772001673214,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473376132811194591> \nKindly mention your cohort, give your email ID and also explain your query in detail that which quiz is not loading.",
+      "embeds": [],
+      "created": 1772001720613,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "aaryan.1111",
+      "user_id": "1473376132811194591",
+      "is_bot": false,
+      "content": "kamblearyan644@gmail.com",
+      "embeds": [],
+      "created": 1772001745166,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "<@1473376132811194591> We are actively working on the issue and expect it to be resolved shortly.",
+      "embeds": [],
+      "created": 1772001873143,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "aaryan.1111",
+      "user_id": "1473376132811194591",
+      "is_bot": false,
+      "content": "ok",
+      "embeds": [],
+      "created": 1772001894033,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "aaryan.1111",
+      "user_id": "1473376132811194591",
+      "is_bot": false,
+      "content": "sir , how much time to resolve this issue ?",
+      "embeds": [],
+      "created": 1772001955358,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "kindly check now",
+      "embeds": [],
+      "created": 1772002232288,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "<@1473376132811194591>",
+      "embeds": [],
+      "created": 1772002254846,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "aaryan.1111",
+      "user_id": "1473376132811194591",
+      "is_bot": false,
+      "content": "sir again same problem face",
+      "embeds": [],
+      "created": 1772004026278,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "The issue has been resolved. Please verify and let us know the status. <@1473376132811194591>",
+      "embeds": [],
+      "created": 1772004663947,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "aaryan.1111",
+      "user_id": "1473376132811194591",
+      "is_bot": false,
+      "content": "this kind of glicth i face whenever i going in 3 quiz and you can see my 3 video completed why i am not access the quiz 3",
+      "embeds": [],
+      "created": 1772005343181,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "aaryan.1111",
+      "user_id": "1473376132811194591",
+      "is_bot": false,
+      "content": "i watch again from 1 video but still its show this",
+      "embeds": [],
+      "created": 1772005882202,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@759435748721557514> Please look into it.",
+      "embeds": [],
+      "created": 1772006199892,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "Are you currently on \"Introduction to TypeScript\" section video 3?\n<@1473376132811194591>",
+      "embeds": [],
+      "created": 1772006748904,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "<@1473376132811194591> Kindly let us know the details",
+      "embeds": [],
+      "created": 1772024511237,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "aaryan.1111",
+      "user_id": "1473376132811194591",
+      "is_bot": false,
+      "content": "yes",
+      "embeds": [],
+      "created": 1772043793327,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "aaryan.1111",
+      "user_id": "1473376132811194591",
+      "is_bot": false,
+      "content": "after refresh dashboard glitch remove completely",
+      "embeds": [],
+      "created": 1772043868267,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Okay\nShould we close this ticket?",
+      "embeds": [],
+      "created": 1772043903299,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "aaryan.1111",
+      "user_id": "1473376132811194591",
+      "is_bot": false,
+      "content": "yeah , thankl you for your guidance",
+      "embeds": [],
+      "created": 1772044066140,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1469178567551090933>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772044115307,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772044115695,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772044117921,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0240",
+    "id": "1476105949398700123"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 24
+}

@@ -1,0 +1,202 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1474397767622201428> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Like I just now attended the online session Rohit Sharms Sor said that to get vinternship certificate he said it is mandatory to have NPTEL certificate of Sudharshan iyengar course. But actually I completed it previously course by sudharshan",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771855487478,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474397767622201428> \nDo you have the certificate?",
+      "embeds": [],
+      "created": 1771855639121,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "reddynagavignesh",
+      "user_id": "1474397767622201428",
+      "is_bot": false,
+      "content": "Yes in previous semester jan-apr 2025 I completed joy of Computing using Python course in current I enrolled for social networks but not registered for exam but in online session rohit sharma sir said that it is mandatory to have current completion course offered by sudharshan itenger what to do ?",
+      "embeds": [],
+      "created": 1771855772718,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "reddynagavignesh",
+      "user_id": "1474397767622201428",
+      "is_bot": false,
+      "content": "<@956180961832362014>",
+      "embeds": [],
+      "created": 1771855999121,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Ok for now I have escalated your issue to the team once we get a final decision we will update you soon with this.",
+      "embeds": [],
+      "created": 1771856053060,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "reddynagavignesh",
+      "user_id": "1474397767622201428",
+      "is_bot": false,
+      "content": "Ok please let me know the update on this",
+      "embeds": [],
+      "created": 1771856093146,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474397767622201428> \nWe have escalated your issue to the team. \nWe will soon release an official announcement for the same. \nThank you for your patience, understanding and support.",
+      "embeds": [],
+      "created": 1771914503223,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "reddynagavignesh",
+      "user_id": "1474397767622201428",
+      "is_bot": false,
+      "content": "any update on this ? like im in doubt to start the course or not ?",
+      "embeds": [],
+      "created": 1771937825411,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Just carry on with the ViBe progress",
+      "embeds": [],
+      "created": 1771937871667,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "reddynagavignesh",
+      "user_id": "1474397767622201428",
+      "is_bot": false,
+      "content": "yes but if nptel certificate of sudharshan iyengar is mandatory to get end certificate of vinternship how can i worth with this as i have previous sem completion certificate if it not valid in current sem i didnt register for sudharshan iyengar course thats why im in doubt? not only me most of the people have this query?",
+      "embeds": [],
+      "created": 1771938037640,
+      "edited": 1771938087330
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474397767622201428> \nActually the team is handling this issue and we will soon release an official statement for the same.",
+      "embeds": [],
+      "created": 1771938758683,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474397767622201428> \nTill the time there is no official announcement you can continue with the ViBe progress.",
+      "embeds": [],
+      "created": 1771940355502,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "reddynagavignesh",
+      "user_id": "1474397767622201428",
+      "is_bot": false,
+      "content": "Ok madam",
+      "embeds": [],
+      "created": 1771941347016,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1359148118444343517>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772383716197,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772383716526,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772383718018,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0193",
+    "id": "1475493597447983245"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 16
+}

@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1469310023376179254> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Health Points reduced instead of 10% increase after 100% viBe completion.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771826748493,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "ruhaandalia",
+      "user_id": "1469310023376179254",
+      "is_bot": false,
+      "content": "Dear Team,\n\nI am raising this ticket regarding the reduction of my Health Points. I successfully completed 100% of my viBe course within the given deadline, and as per the guidelines, I was expecting a 10% Health Points increase on 12th February. However, instead of an increase, my Health Points decreased by approximately 10%.\n\nI had already mailed the team regarding this issue but have not received a response yet.  Therefore, I am following up through this support ticket.\n\nI have attached screenshots showing my course completion status as evidence.\n\nKindly review my account activity and let me know the reason for this deduction. If this is a technical error, I request you to please update my Health Points accordingly.\n\nI would appreciate your support in resolving this issue at the earliest, as it directly affects my internship progress.\n\nThank you.\n\nRegards,\nRuhaan Dalia\nCohort-Euclideans\nInternship ID – WIN251046",
+      "embeds": [],
+      "created": 1771827191982,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1469310023376179254> Sorry for the inconvenience caused. This issue is forwarded to the team and will be resolved soon.",
+      "embeds": [],
+      "created": 1771832534316,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469310023376179254> \nThe HP has been reverted. \nIt may take sometime to get reflected on the dashboard. \nI hope this has now resolved your issue.",
+      "embeds": [],
+      "created": 1771913932347,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469310023376179254> \nI hope your issue has been resolved?",
+      "embeds": [],
+      "created": 1771940132210,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "ruhaandalia",
+      "user_id": "1469310023376179254",
+      "is_bot": false,
+      "content": "Yes Ma’am, the issue has been resolved and the Health Points are now reflected correctly.\nThank you very much for your support.",
+      "embeds": [],
+      "created": 1771961440395,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "May i close the ticket <@1469310023376179254>",
+      "embeds": [],
+      "created": 1771961884908,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "ruhaandalia",
+      "user_id": "1469310023376179254",
+      "is_bot": false,
+      "content": "Yes Ma’am, you may close the ticket.",
+      "embeds": [],
+      "created": 1771962080593,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1469178567551090933>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771962793059,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771962793688,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771962795633,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0183",
+    "id": "1475373057144000534"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

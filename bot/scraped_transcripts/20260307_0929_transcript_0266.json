@@ -1,0 +1,242 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1024586116680134656> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I am not able to access the course",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772112042139,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "radhakrishna3811",
+      "user_id": "1024586116680134656",
+      "is_bot": false,
+      "content": "even though I have registered",
+      "embeds": [],
+      "created": 1772112146518,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "radhakrishna3811",
+      "user_id": "1024586116680134656",
+      "is_bot": false,
+      "content": "I am not enrolled in the course",
+      "embeds": [],
+      "created": 1772112160205,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "<@1024586116680134656> tell me your email id and cohort name",
+      "embeds": [],
+      "created": 1772112246259,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "radhakrishna3811",
+      "user_id": "1024586116680134656",
+      "is_bot": false,
+      "content": "chikkamrakhi@gmail.com",
+      "embeds": [],
+      "created": 1772112293661,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "radhakrishna3811",
+      "user_id": "1024586116680134656",
+      "is_bot": false,
+      "content": "AKSians",
+      "embeds": [],
+      "created": 1772112305252,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "couldn't find your name",
+      "embeds": [],
+      "created": 1772112459993,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "let me check the issue",
+      "embeds": [],
+      "created": 1772112482315,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "did you face any issues in registration?",
+      "embeds": [],
+      "created": 1772112520868,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "<@1024586116680134656> I have approved your registration",
+      "embeds": [],
+      "created": 1772112924008,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "please check it now and let me know whether you are facing any issues",
+      "embeds": [],
+      "created": 1772112950920,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "radhakrishna3811",
+      "user_id": "1024586116680134656",
+      "is_bot": false,
+      "content": "Thank you for your time",
+      "embeds": [],
+      "created": 1772112951508,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "You're welome, please feel free to connect if you need any further assistance",
+      "embeds": [],
+      "created": 1772112998766,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1024586116680134656> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772169432496,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "radhakrishna3811",
+      "user_id": "1024586116680134656",
+      "is_bot": false,
+      "content": "Yep",
+      "embeds": [],
+      "created": 1772187775767,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "radhakrishna3811",
+      "user_id": "1024586116680134656",
+      "is_bot": false,
+      "content": "Thank you for the follow up",
+      "embeds": [],
+      "created": 1772187798706,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved. \nHence closing this ticket.",
+      "embeds": [],
+      "created": 1772196669789,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772196676092,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772196676467,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772196678863,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0266",
+    "id": "1476569665756074145"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 20
+}

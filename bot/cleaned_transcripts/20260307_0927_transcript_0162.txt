@@ -1,0 +1,5 @@
+Student (arvindjb): Unable to access Quiz 12 in the ViBe Platform Hello. I'm unable to access Quiz 12 in the ViBe platform. I get the error - "Loading Quiz..". JavaScript > JavaScript Building Blocks >> Quiz 12 Registered email - arvindjb.com
+
+Instructor (abiramk0107, jinalgupta., nxtnilesh.): Kindly look into this issue. Please try the following steps one by one and check if the issue is resolved after each step: 1. Log out of your account and then log in again. 2. Clear your browser cache and all browsing data (cookies, cached files, etc.). 3. Try using a different browser such as Firefox, Microsoft Edge, or another browser. 4. If you are using any YouTube ad-blocker extension, disable it temporarily and try again. 5. Try connecting through a VPN and check if the issue persists. 6. Try using a different internet connection or mobile hotspot to rule out any network-related issues. Please test these steps individually (or all of them if needed) and let me know the results. We have fixed the issue, kindly refresh the page and try again. please let us know if it is working fine. Thank you.
+
+Student (arvindjb): Yes, it's working fine now, thank you.

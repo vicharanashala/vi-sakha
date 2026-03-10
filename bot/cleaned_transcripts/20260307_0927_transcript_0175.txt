@@ -1,0 +1,3 @@
+Student (sattwikmx): Problem in the quiz
+
+Instructor (jinalgupta., rishavkumar.nit): hi , the issue has been resolved, kindly retry once after logging out, removing caching and if issue still persist kindly share your email id , cohort name and error screenshot IS your issue been resolved? As the issue has been resolved hence

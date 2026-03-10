@@ -1,0 +1,132 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1469717287765414156> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Hello Team,  I am raising this ticket due to a mismatch in progress.  On the leaderboard, it shows 100% completion (Completed on 14/02/2026).  However, on my dashboard: • Total Completed: 1004 / 1006   • Quizzes Completed: 487 / 489   • Over",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771054981121,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "sontyanasaigowtham_39412",
+      "user_id": "1469717287765414156",
+      "is_bot": false,
+      "content": "Hello Team,\n\nI am raising this ticket due to a mismatch in progress.\n\nOn the leaderboard, it shows 100% completion (Completed on 14/02/2026).\n\nHowever, on my dashboard:\n• Total Completed: 1004 / 1006  \n• Quizzes Completed: 487 / 489  \n• Overall Progress: 99.80%\n\nAll videos are marked as completed (517/517), and I do not see any visible pending items.\n\nCould you please confirm whether the remaining 2 items are hidden/system-generated or if this is a calculation mismatch?\n\nThank you.",
+      "embeds": [],
+      "created": 1771055093650,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@836880971017748512>",
+      "embeds": [],
+      "created": 1771056862620,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "This is due to mismatch in ViBe  due to penalty score. We'll consider it as completed.",
+      "embeds": [],
+      "created": 1771059067355,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@1469717287765414156>",
+      "embeds": [],
+      "created": 1771059564102,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "sontyanasaigowtham_39412",
+      "user_id": "1469717287765414156",
+      "is_bot": false,
+      "content": "thank you sir",
+      "embeds": [],
+      "created": 1771060378514,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1469717287765414156>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771060567775,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771060568664,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771064936035,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0043",
+    "id": "1472136029845852299"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 9
+}

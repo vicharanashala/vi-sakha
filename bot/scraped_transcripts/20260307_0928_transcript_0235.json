@@ -1,0 +1,292 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473547376596615271> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : ViBe platform is lagging. Its not playing the videos and opening the quizes.  I need to complete 20% of the course by today",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771998624848,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1220060098643230811> <@759435748721557514> Please look into this issue",
+      "embeds": [],
+      "created": 1771999924081,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "mumtazparveen",
+      "user_id": "1473547376596615271",
+      "is_bot": false,
+      "content": "yeah, its working now",
+      "embeds": [],
+      "created": 1772000697608,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "mumtazparveen",
+      "user_id": "1473547376596615271",
+      "is_bot": false,
+      "content": "<@836880971017748512> now quiz isn't loading",
+      "embeds": [],
+      "created": 1772000989906,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "mumtazparveen",
+      "user_id": "1473547376596615271",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1772000999121,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473547376596615271> The team will look to it. do not worry",
+      "embeds": [],
+      "created": 1772001029685,
+      "edited": 1772001046673
+    },
+    {
+      "index": 7,
+      "author": "mumtazparveen",
+      "user_id": "1473547376596615271",
+      "is_bot": false,
+      "content": "<@836880971017748512> Oki, please make it fast",
+      "embeds": [],
+      "created": 1772001071050,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1449603507865784334> Please look into the issue",
+      "embeds": [],
+      "created": 1772001138617,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "thirumalesh_33801",
+      "user_id": "1449603507865784334",
+      "is_bot": false,
+      "content": "<@1473547376596615271> refresh and try again.",
+      "embeds": [],
+      "created": 1772001435798,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "mumtazparveen",
+      "user_id": "1473547376596615271",
+      "is_bot": false,
+      "content": "<@1449603507865784334> just a sec",
+      "embeds": [],
+      "created": 1772001466607,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "mumtazparveen",
+      "user_id": "1473547376596615271",
+      "is_bot": false,
+      "content": "<@1449603507865784334> it's not functioning",
+      "embeds": [],
+      "created": 1772001551913,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "mumtazparveen",
+      "user_id": "1473547376596615271",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1772001559379,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "mumtazparveen",
+      "user_id": "1473547376596615271",
+      "is_bot": false,
+      "content": "<@1449603507865784334> but the status is marked completed",
+      "embeds": [],
+      "created": 1772001592514,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "thirumalesh_33801",
+      "user_id": "1449603507865784334",
+      "is_bot": false,
+      "content": "It's completed right, try to access next video",
+      "embeds": [],
+      "created": 1772001605006,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "mumtazparveen",
+      "user_id": "1473547376596615271",
+      "is_bot": false,
+      "content": "<@1449603507865784334> yeah I hv attempted earlier",
+      "embeds": [],
+      "created": 1772001646527,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "mumtazparveen",
+      "user_id": "1473547376596615271",
+      "is_bot": false,
+      "content": "I'll just check the next quiz",
+      "embeds": [],
+      "created": 1772001658279,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "mumtazparveen",
+      "user_id": "1473547376596615271",
+      "is_bot": false,
+      "content": "<@1449603507865784334> second video is marked completed. But the current video (video 2) is still playing. Nd it is not not opening the quiz",
+      "embeds": [],
+      "created": 1772002071101,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "mumtazparveen",
+      "user_id": "1473547376596615271",
+      "is_bot": false,
+      "content": "<@1449603507865784334> now its working properly, thankyou so much",
+      "embeds": [],
+      "created": 1772002660878,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473547376596615271> \nAs the issue has been resolved can we close the ticket now?",
+      "embeds": [],
+      "created": 1772003159313,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "mumtazparveen",
+      "user_id": "1473547376596615271",
+      "is_bot": false,
+      "content": "yeah, sure. thankyou so much team",
+      "embeds": [],
+      "created": 1772003220845,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473547376596615271> \nYou're most welcome.",
+      "embeds": [],
+      "created": 1772003454323,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1772003469109,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772003476834,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772003477331,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772003479340,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0235",
+    "id": "1476093959037259872"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 25
+}

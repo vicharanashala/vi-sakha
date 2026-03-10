@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@873962989823336448> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Doubt Regarding Progress",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771074910874,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@873962989823336448>",
+      "embeds": [],
+      "created": 1771075022477,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "please elaborate your problem",
+      "embeds": [],
+      "created": 1771075034397,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "anshulrawal",
+      "user_id": "873962989823336448",
+      "is_bot": false,
+      "content": "can we transfer our progress from vibe mern stack?",
+      "embeds": [],
+      "created": 1771075130012,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "anshulrawal",
+      "user_id": "873962989823336448",
+      "is_bot": false,
+      "content": "this is in my student mail id and second one is my personal mail id",
+      "embeds": [],
+      "created": 1771075215513,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "anshulrawal",
+      "user_id": "873962989823336448",
+      "is_bot": false,
+      "content": "i already done around 24%",
+      "embeds": [],
+      "created": 1771075269400,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@666826791016595456>",
+      "embeds": [],
+      "created": 1771075746759,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "abiramk7427",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@873962989823336448> As it is new internship course, you have to start it from beginning.",
+      "embeds": [],
+      "created": 1771079384658,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@666826791016595456>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771079471491,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771079472415,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771079481710,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0048",
+    "id": "1472219621082923196"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

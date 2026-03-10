@@ -1,0 +1,212 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@791511988261879838> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : My name(Anuska Sarkar) or email id is not showing in the hp dashboard, I am a part of cohort 4 ,  i am already in the vibe platform,  my student email id is 24f2001416@ds.study.iitm.ac.in",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772548781696,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@791511988261879838> can you mention your cohort name?",
+      "embeds": [],
+      "created": 1772548854299,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@791511988261879838> Did you miss any deadline mentioned in the milestones?",
+      "embeds": [],
+      "created": 1772548896882,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "mirajane5471",
+      "user_id": "791511988261879838",
+      "is_bot": false,
+      "content": "RSAians",
+      "embeds": [],
+      "created": 1772548913981,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "mirajane5471",
+      "user_id": "791511988261879838",
+      "is_bot": false,
+      "content": "no i joined the vibe platform today only",
+      "embeds": [],
+      "created": 1772548943925,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "It will be updated within 24 hours of joining",
+      "embeds": [],
+      "created": 1772550080874,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "shaurya.loop",
+      "user_id": "775738285103775775",
+      "is_bot": false,
+      "content": "<@791511988261879838>  If your error is resolved then please close this ticket.",
+      "embeds": [],
+      "created": 1772552238234,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "mirajane5471",
+      "user_id": "791511988261879838",
+      "is_bot": false,
+      "content": "its been more than 24 hrs of enrollment into vibe platform, my name is visible on the case study progress page but still not visible in individual hp page",
+      "embeds": [],
+      "created": 1772608481646,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "shaurya.loop",
+      "user_id": "775738285103775775",
+      "is_bot": false,
+      "content": "<@836880971017748512>",
+      "embeds": [],
+      "created": 1772611274372,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@791511988261879838> your issue is escalated to the team. Do not worry it will be resolved",
+      "embeds": [],
+      "created": 1772611354453,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@791511988261879838> Do not worry. We have escalated your query it will be resolved soon .",
+      "embeds": [],
+      "created": 1772643817685,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@791511988261879838> \nYou HP has been added. Kinldy refill your activity form with the email ID registered for Vibe and keep the same in mind the same for fillling the rest of the google forms.",
+      "embeds": [],
+      "created": 1772696451704,
+      "edited": 1772696496442
+    },
+    {
+      "index": 13,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@791511988261879838>  is the issue resolved? Cant the ticket be closed?",
+      "embeds": [],
+      "created": 1772707682287,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "mirajane5471",
+      "user_id": "791511988261879838",
+      "is_bot": false,
+      "content": "yes, it has been resolved. thanks",
+      "embeds": [],
+      "created": 1772713577715,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@791511988261879838>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772713597246,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772713597825,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772713637590,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0337",
+    "id": "1478401484273221642"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 17
+}

@@ -1,0 +1,19 @@
+Student (priyasarwar): Sir/mam, I have completed 28% as my vibe progress, but i have not recived offer latter till now.
+
+Instructor (nitin_fighter1379): The offer letter will be issued in the upcoming days as the process are going on. Please wait until further announcements are made in this regard. Meanwhile you can proceed with the internship. please mention your cohort name
+
+Student (priyasarwar): RSAINS
+
+Instructor (nitin_fighter1379): Please refer to FAQ Section 5.....also there is no offer letters announced for RSAins, it is only for Aksians It is clearly mentioned in the FAQ and was also clarified in the standups
+
+Student (priyasarwar): In yesterday’s standup, Sudarshan sir told us that if we have completed 20% and have not received the offer letter, we should raise a ticket. That’s why I’m asking here.
+
+Instructor (jinalgupta.): Sure. It is good that you raised the support ticket but as per our announcements we never told that RSAians will get any offer letter. They will only get the completion certificate.
+
+Student (priyasarwar): okay mam,but may i know when we will get completion certificate.?
+
+Instructor (nitin_fighter1379): it will be issued upon successful completion of the internship. ViBe course, case studies and viva/endorsements
+
+Student (priyasarwar): 
+
+Instructor (nitin_fighter1379): Is the issue resolved? Can we close the ticket?

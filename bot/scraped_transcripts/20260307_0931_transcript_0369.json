@@ -1,0 +1,118 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473367944816889959> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Iam currently watching video 11 of ‘Configuring Typescript for Real Projects’, under module ‘Typescript’, the video 11 is stuck and running in loop and it is getting stuck at exactly 14:58 where only one second left to finish the video watch",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772727252582,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "<@1473367944816889959> kindly check now and update us",
+      "embeds": [],
+      "created": 1772735289527,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "pannala_lokesh_reddy",
+      "user_id": "1473367944816889959",
+      "is_bot": false,
+      "content": "Yes issue resolved thank you <@759435748721557514> & <@&1473943500390141984>",
+      "embeds": [],
+      "created": 1772735410978,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1473367944816889959>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772735417590,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772735418371,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript saved to <#1468832805713875159>",
+          "color": "#66bb6a",
+          "fields": []
+        }
+      ],
+      "created": 1772736171306,
+      "edited": 1772736172602
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772736186094,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0369",
+    "id": "1479150045113876663"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 7
+}

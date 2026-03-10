@@ -1,0 +1,182 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1465367317964918961> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : project schedule",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771381617388,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "what.in.tarnation.brada",
+      "user_id": "1465367317964918961",
+      "is_bot": false,
+      "content": "Respected Sir / Ma'am,\nI opened this ticket as I have sent a support request to the help desk on 13th February but I am yet to receive a reply. The information I asked for is very important. As such, I need the answer ASAP. So, I will provide the same body as the email here and hope to get a reply.\n\nI have attached the screenshot of the email.",
+      "embeds": [],
+      "created": 1771381767010,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "what.in.tarnation.brada",
+      "user_id": "1465367317964918961",
+      "is_bot": false,
+      "content": "I am currently part of the internship program, and as we are approaching the final two weeks dedicated to the project, I would like to request clarification regarding the expected working hours during this period.\n\nMy college has an official event scheduled from 13th to 15th March, and they have asked me to confirm the internship project’s daily time commitment before they can proceed with granting permission.\n\nCould you please let me know the exact working hours for the project during the final two weeks — specifically, from what time to what time we are expected to work each day, particularly between 13th and 15th March?\n\nThis information will help me plan accordingly and ensure that I fulfill all internship requirements without any conflicts.\n\nThank you for your support.",
+      "embeds": [],
+      "created": 1771381771407,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@956180961832362014> <@836880971017748512>",
+      "embeds": [],
+      "created": 1771384929747,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1465367317964918961> Since this internship is a self paced course with deadlines in place, you can complete it whenever you're available and there are no time restrictions and schedule for completion.\n\n In the final weeks, you will be in the Final case studies part and in the endorsements part for which you can look into the website for clarification.\n\nYou can work on the project anytime of your availability. \n\nAnd please use Discord support tool for immediate response as this is the sole active support desk now.",
+      "embeds": [],
+      "created": 1771389735787,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "what.in.tarnation.brada",
+      "user_id": "1465367317964918961",
+      "is_bot": false,
+      "content": "okay sir",
+      "embeds": [],
+      "created": 1771389775130,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "what.in.tarnation.brada",
+      "user_id": "1465367317964918961",
+      "is_bot": false,
+      "content": "thank you very much",
+      "embeds": [],
+      "created": 1771389780052,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1465367317964918961> \nI hope your issue has been resolved?",
+      "embeds": [],
+      "created": 1771394353606,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "what.in.tarnation.brada",
+      "user_id": "1465367317964918961",
+      "is_bot": false,
+      "content": "yes ma'am",
+      "embeds": [],
+      "created": 1771396182059,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "what.in.tarnation.brada",
+      "user_id": "1465367317964918961",
+      "is_bot": false,
+      "content": "you can close the ticket",
+      "embeds": [],
+      "created": 1771396182667,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "The issue has been resolved.\nHence, closing this ticket.",
+      "embeds": [],
+      "created": 1771396692519,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771396701584,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771396701995,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771396704649,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0083",
+    "id": "1473506042615959755"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 14
+}

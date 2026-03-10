@@ -1,0 +1,249 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1454138122471346202> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Offer letter",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772090966236,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "shreyansh3122",
+      "user_id": "1454138122471346202",
+      "is_bot": false,
+      "content": "I didnt received offer letter yet",
+      "embeds": [],
+      "created": 1772090988549,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1454138122471346202> \nWhich cohort are you from?",
+      "embeds": [],
+      "created": 1772091242743,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "shreyansh3122",
+      "user_id": "1454138122471346202",
+      "is_bot": false,
+      "content": "AKSians",
+      "embeds": [],
+      "created": 1772091277016,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "shreyansh3122",
+      "user_id": "1454138122471346202",
+      "is_bot": false,
+      "content": "I got an email so joined this discord channel regarding internship",
+      "embeds": [],
+      "created": 1772091313787,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "We will soon release an official announcement regarding this as no one has got an offer letter yet. \nFor now you can carry on with your ViBe course and continue with the internship.",
+      "embeds": [],
+      "created": 1772091504793,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "shreyansh3122",
+      "user_id": "1454138122471346202",
+      "is_bot": false,
+      "content": "How to join vibe course?",
+      "embeds": [],
+      "created": 1772091532641,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Kindly refer to this <#1468577919075880980>",
+      "embeds": [],
+      "created": 1772091644660,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "You will get all the details here. \nYou may take help of your peers too.",
+      "embeds": [],
+      "created": 1772091662877,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1454138122471346202> \nWas it helpful?",
+      "embeds": [],
+      "created": 1772169400691,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Is your issue resolveD?",
+      "embeds": [],
+      "created": 1772169407658,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1454138122471346202> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772427866599,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "shreyansh3122",
+      "user_id": "1454138122471346202",
+      "is_bot": false,
+      "content": "Mam is it paid internship?",
+      "embeds": [],
+      "created": 1772430079595,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Kindly refer to the FAQ's whose links are as follows: \nhttps://sudarshansudarshan.github.io/vinternship/faq/\nKindly read the FAQ's properly. \nAll the answers to your questions have been given here.",
+      "embeds": [
+        {
+          "title": "FAQ",
+          "description": "Vinternship - A comprehensive full-stack development internship program covering the MERN stack and modern web technologies. Master TypeScript, React, Express.js, and MongoDB through hands-on case studies.",
+          "url": "https://sudarshansudarshan.github.io/vinternship/faq/",
+          "fields": []
+        }
+      ],
+      "created": 1772439106047,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1454138122471346202> \nIs your issue resolveD?",
+      "embeds": [],
+      "created": 1772460858835,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1454138122471346202> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772515073599,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As there is no response hence marking this issue resolved.\nTherefore, closing this ticket.",
+      "embeds": [],
+      "created": 1772639206384,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772639213238,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772639213667,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772639216133,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0263",
+    "id": "1476481266244128829"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 20
+}

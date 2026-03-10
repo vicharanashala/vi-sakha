@@ -1,0 +1,9 @@
+Student (coralone.): I would like to know how to do case studies for MongoDB. I am trying to figure out where to access databases and how to submit case studies. Any link or document to explain this would be really helpful.
+
+Instructor (jinalgupta.): Ma'am, Unless explicitly mentioned, MongoDB case studies can be completed and tested using MongoDB Compass or MongoDB Atlas. A full backend setup is not mandatory. You can simply send the queries you used to implement the same.
+
+Student (coralone.): so for uploading the files, it would be a vs code file?
+
+Instructor (jinalgupta.): No ma'am, you can simply print the pdf file of the outputs and teh queries you might have used or enetered and create a zip file and then submit it.
+
+Student (coralone.): Thank you so much, I will close the ticket...

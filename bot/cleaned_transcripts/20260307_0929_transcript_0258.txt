@@ -1,0 +1,17 @@
+Student (jj032807): i am unable to go forward and load new videos,after completing 2 sessions from typescript video again goes back to the very firstest video
+
+Instructor (riyamehtaatwork): Hi kindly provide your cohort name, email and the specific module video you're stuck on
+
+Student (jj032807): cohort name:AKSians email:juliejohnson9629.com module stucked on:Javascript(basic building block-introduction to js)
+
+Instructor (riyamehtaatwork): Are you sure you're registered with this email? i cant find your profile in AKSians
+
+Student (jj032807): sry pls try this email:23cs357.ac.in profile pls help me out mam, by tomorrow i need to complete 25%
+
+Instructor (riyamehtaatwork): You're stuck on video 1 right? What was your current progress? before it moved to module 1? video 1
+
+Student (jj032807): 13.95%
+
+Instructor (riyamehtaatwork): Please try again after reloading and login in again was the issue resolved?
+
+Student (jj032807): s mam

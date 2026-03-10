@@ -1,0 +1,172 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@541288442185908236> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : My name is not visible on the vinternship dashboard",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771694107825,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "fasihnaqvi738",
+      "user_id": "541288442185908236",
+      "is_bot": false,
+      "content": "I can't see my name here on any list in the dashboard even though i have registered for the course on vibe portal with official IITM id. I am a part of the IITM BS cohort and joined using the discord and vibe portal link on Sudarshan Sir's post",
+      "embeds": [],
+      "created": 1771694215731,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@541288442185908236> this is the leaderboard. You'll be able to view your name in the HP -> Individual HP section as mentioned in the FAQ",
+      "embeds": [],
+      "created": 1771694639661,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "fasihnaqvi738",
+      "user_id": "541288442185908236",
+      "is_bot": false,
+      "content": "I looked there and my name is not there as well",
+      "embeds": [],
+      "created": 1771694701817,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "What is your ViBe progress?",
+      "embeds": [],
+      "created": 1771694743282,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "fasihnaqvi738",
+      "user_id": "541288442185908236",
+      "is_bot": false,
+      "content": "14.51%",
+      "embeds": [],
+      "created": 1771694947812,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1293270010537578575> mam, his name is missed out on the dashboard. Please do the needful.\n\nCC: <@956180961832362014>",
+      "embeds": [],
+      "created": 1771695265610,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@541288442185908236> \nWe have escalated your issue.",
+      "embeds": [],
+      "created": 1771746751614,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "fasihnaqvi738",
+      "user_id": "541288442185908236",
+      "is_bot": false,
+      "content": "Ok ma'aam, thanks for the help",
+      "embeds": [],
+      "created": 1771749087840,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "fasihnaqvi738",
+      "user_id": "541288442185908236",
+      "is_bot": false,
+      "content": "The issue has been solved. Thanks for the support!",
+      "embeds": [],
+      "created": 1771833810260,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@541288442185908236>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771833820689,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771833821253,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771834047696,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0147",
+    "id": "1474816720878440458"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 13
+}

@@ -1,0 +1,13 @@
+Student (ganjiyashwanthkumar): My mail is yashyashwanth884.com....My quizzes are not visible after typescript 1 module...please correct this error as soon as possible
+
+Instructor (riyamehtaatwork): Hi Could you share your cohort name as well also kindly share the screenshot for reference
+
+Student (ganjiyashwanthkumar): My cohort is Aksians...as you can see quiz section is completely gone
+
+Instructor (riyamehtaatwork): Are quiz still being rendered after each video?
+
+Student (ganjiyashwanthkumar): Ok ok thankyou now i noticed that it is directing directly to quiz after video
+
+Instructor (riyamehtaatwork): Anytime! May i close the ticket now?
+
+Student (ganjiyashwanthkumar): Yes... You can close the ticket

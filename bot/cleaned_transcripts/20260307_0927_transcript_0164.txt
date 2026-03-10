@@ -1,0 +1,5 @@
+Student (necro677): quiz question hello i am stuck on a question . this is the question the question ask me to select how many outputs are "online". and the ans will be 4 but there are no such option and i have clicked all the other option but it fails as it can clearly seen by my 2nd screen shot
+
+Instructor (abiramk0107): Kindly look into this issue.
+
+Student (necro677): just now on my 8th attempt it acecpted the option 2 i.e., there are 2 online . can u explain why because tin my 2nd screenshot it clearly shows 4 are online

@@ -1,0 +1,1463 @@
+{
+  "scraped_at": "2026-03-10T15:46:32.124176",
+  "channel_id": "1479770687169364082",
+  "total_messages": 208,
+  "transcripts": [
+    {
+      "message_id": "1479773599714902106",
+      "filename": "transcript-closed-0274.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773599383683152/transcript-closed-0274.html?ex=69b1368e&is=69afe50e&hm=de36e3c1e94ea751a7b325bc1743728a24e32a628d9391b846ddff1e88aaf62e&",
+      "size": 21847,
+      "timestamp": "2026-03-07T09:31:59.036000+00:00"
+    },
+    {
+      "message_id": "1479773593180049566",
+      "filename": "transcript-closed-0379.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773592878190693/transcript-closed-0379.html?ex=69b1368d&is=69afe50d&hm=2095a990b06f0119d5cd216f89a1274d217ac334cc1b7137502b661d2fbb6c8f&",
+      "size": 6673,
+      "timestamp": "2026-03-07T09:31:57.478000+00:00"
+    },
+    {
+      "message_id": "1479773587568201739",
+      "filename": "transcript-closed-0380.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773587312214048/transcript-closed-0380.html?ex=69b1368c&is=69afe50c&hm=bfd04cd489c244facbff11e6e1b246e9de4bbacfb4cff107587308097b4fa16e&",
+      "size": 9076,
+      "timestamp": "2026-03-07T09:31:56.140000+00:00"
+    },
+    {
+      "message_id": "1479773580001673267",
+      "filename": "transcript-closed-0366.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773579435315391/transcript-closed-0366.html?ex=69b1368a&is=69afe50a&hm=31aa2dd92abe67f11f83a4eb6aed063e68c18d97c49e027090484227a9dc72f9&",
+      "size": 9953,
+      "timestamp": "2026-03-07T09:31:54.336000+00:00"
+    },
+    {
+      "message_id": "1479773573202837536",
+      "filename": "transcript-closed-0261.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773572871229625/transcript-closed-0261.html?ex=69b13688&is=69afe508&hm=b9f99073407a2d21ca16904a5488e131334d1704542503a9f29d54763ac659f9&",
+      "size": 8657,
+      "timestamp": "2026-03-07T09:31:52.715000+00:00"
+    },
+    {
+      "message_id": "1479773550343884863",
+      "filename": "transcript-closed-0367.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773550431703212/transcript-closed-0367.html?ex=69b13683&is=69afe503&hm=6785381d016886a0733f002635ebb65d9d2896d414784af225917e458bde17f8&",
+      "size": 11360,
+      "timestamp": "2026-03-07T09:31:47.265000+00:00"
+    },
+    {
+      "message_id": "1479773540910764078",
+      "filename": "transcript-closed-0381.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773540692791397/transcript-closed-0381.html?ex=69b13680&is=69afe500&hm=f0dbffccf99e17575617968adc45ecc73220bf4534daf633224d5946f464c1e0&",
+      "size": 6839,
+      "timestamp": "2026-03-07T09:31:45.016000+00:00"
+    },
+    {
+      "message_id": "1479773534598336635",
+      "filename": "transcript-closed-0361.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773534703063182/transcript-closed-0361.html?ex=69b1367f&is=69afe4ff&hm=525e161b540c9961f29ef8b88a9aa578bac030399578f973b4ac95bf484ab9c9&",
+      "size": 8333,
+      "timestamp": "2026-03-07T09:31:43.511000+00:00"
+    },
+    {
+      "message_id": "1479773525777711207",
+      "filename": "transcript-closed-0301.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773525614006484/transcript-closed-0301.html?ex=69b1367d&is=69afe4fd&hm=a40c662f9ce338d8d13e4bab9b5d313cbdda6726485437348c7e41d1f796f0d2&",
+      "size": 25144,
+      "timestamp": "2026-03-07T09:31:41.408000+00:00"
+    },
+    {
+      "message_id": "1479773519612219493",
+      "filename": "transcript-closed-0352.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773519154778173/transcript-closed-0352.html?ex=69b1367b&is=69afe4fb&hm=dadda9cc0255c44e711c7a12371202659610a75d79a0421aba6ff779313310cc&",
+      "size": 16204,
+      "timestamp": "2026-03-07T09:31:39.938000+00:00"
+    },
+    {
+      "message_id": "1479773508996173886",
+      "filename": "transcript-closed-0340.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773508413292544/transcript-closed-0340.html?ex=69b13679&is=69afe4f9&hm=6c746343cc34aa5080cf46a08e8cbbce6649eb941951a582841988fe90089c37&",
+      "size": 6913,
+      "timestamp": "2026-03-07T09:31:37.407000+00:00"
+    },
+    {
+      "message_id": "1479773501500948495",
+      "filename": "transcript-closed-0342.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773501358473216/transcript-closed-0342.html?ex=69b13677&is=69afe4f7&hm=93a14469b661dcdd90513511999086df763cddda48462a124dbaba8d2cfd4963&",
+      "size": 7093,
+      "timestamp": "2026-03-07T09:31:35.620000+00:00"
+    },
+    {
+      "message_id": "1479773492466679990",
+      "filename": "transcript-closed-0289.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773492269416489/transcript-closed-0289.html?ex=69b13675&is=69afe4f5&hm=b4cb235166b891778c25ad55997ac8839419d9885c014917532d5be12e515249&",
+      "size": 10326,
+      "timestamp": "2026-03-07T09:31:33.466000+00:00"
+    },
+    {
+      "message_id": "1479773482282782812",
+      "filename": "transcript-closed-0272.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773482362601643/transcript-closed-0272.html?ex=69b13673&is=69afe4f3&hm=e7a5088d13abf24d79dc2a034d81d89cf841c01c4a95c040d057f8bdaecf6122&",
+      "size": 15546,
+      "timestamp": "2026-03-07T09:31:31.038000+00:00"
+    },
+    {
+      "message_id": "1479773477530763457",
+      "filename": "transcript-closed-0370.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773477614518445/transcript-closed-0370.html?ex=69b13671&is=69afe4f1&hm=6f15c571c27d1c478b13cb245466224e030cd70b6fbabc3fa396972ed391b442&",
+      "size": 9905,
+      "timestamp": "2026-03-07T09:31:29.905000+00:00"
+    },
+    {
+      "message_id": "1479773465874530506",
+      "filename": "transcript-closed-0377.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773465602035913/transcript-closed-0377.html?ex=69b1366f&is=69afe4ef&hm=c890221dcfd0934c956500dbfffa20514134191bf6e0d00742d0d520b84b1d37&",
+      "size": 6467,
+      "timestamp": "2026-03-07T09:31:27.126000+00:00"
+    },
+    {
+      "message_id": "1479773459839058055",
+      "filename": "transcript-closed-0368.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773459545329754/transcript-closed-0368.html?ex=69b1366d&is=69afe4ed&hm=08a44f7d2db440d243e7a640a8e87d2b9e2a8f821560084d43f1405ca93aeb67&",
+      "size": 9906,
+      "timestamp": "2026-03-07T09:31:25.687000+00:00"
+    },
+    {
+      "message_id": "1479773451744186431",
+      "filename": "transcript-closed-0332.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773451857297448/transcript-closed-0332.html?ex=69b1366b&is=69afe4eb&hm=d8a01e7955fbcb590166901c12cd6b6b04f1dea183fad0877163e042dc289c64&",
+      "size": 9164,
+      "timestamp": "2026-03-07T09:31:23.757000+00:00"
+    },
+    {
+      "message_id": "1479773444437573767",
+      "filename": "transcript-closed-0345.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773443804102806/transcript-closed-0345.html?ex=69b13669&is=69afe4e9&hm=a5c1ae59324b82cac47a04eb0084f97fa8067aa0c270a3cb98ba32e5a673ee86&",
+      "size": 8924,
+      "timestamp": "2026-03-07T09:31:22.015000+00:00"
+    },
+    {
+      "message_id": "1479773436258816052",
+      "filename": "transcript-closed-0369.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773436380319837/transcript-closed-0369.html?ex=69b13668&is=69afe4e8&hm=c9f08f7d2ba3f3ee6b4415644f048990974b65697d8f472531a8fd0756512c19&",
+      "size": 6670,
+      "timestamp": "2026-03-07T09:31:20.065000+00:00"
+    },
+    {
+      "message_id": "1479773426242687148",
+      "filename": "transcript-closed-0365.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773425944756275/transcript-closed-0365.html?ex=69b13665&is=69afe4e5&hm=32423868c8a813c9b737cca22fe45b2dda4d45782b9282c5082330a0b71a4d64&",
+      "size": 8567,
+      "timestamp": "2026-03-07T09:31:17.677000+00:00"
+    },
+    {
+      "message_id": "1479773420903333889",
+      "filename": "transcript-closed-0280.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773420395827220/transcript-closed-0280.html?ex=69b13664&is=69afe4e4&hm=ce093b201601189af65d176e8938255d33c3aeb852fd4fb9f57a19132d43e836&",
+      "size": 12811,
+      "timestamp": "2026-03-07T09:31:16.404000+00:00"
+    },
+    {
+      "message_id": "1479773411881390113",
+      "filename": "transcript-closed-0350.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773411525005464/transcript-closed-0350.html?ex=69b13662&is=69afe4e2&hm=3ab9093f800bbba63e062fd18226e4c74115963cbc4e0cd3c7b3991945103119&",
+      "size": 9101,
+      "timestamp": "2026-03-07T09:31:14.253000+00:00"
+    },
+    {
+      "message_id": "1479773401160749198",
+      "filename": "transcript-closed-0347.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773401252892682/transcript-closed-0347.html?ex=69b1365f&is=69afe4df&hm=9392fe8f872e550acf4c6ee1a62490550b78d7f74a6a40272d20f756769890db&",
+      "size": 8816,
+      "timestamp": "2026-03-07T09:31:11.697000+00:00"
+    },
+    {
+      "message_id": "1479773391627227137",
+      "filename": "transcript-closed-0337.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773391748599848/transcript-closed-0337.html?ex=69b1365d&is=69afe4dd&hm=953f2564603161ff9b5dcb283799daee3e84b546f8284059b59995264e374326&",
+      "size": 12998,
+      "timestamp": "2026-03-07T09:31:09.424000+00:00"
+    },
+    {
+      "message_id": "1479773382059757683",
+      "filename": "transcript-closed-0359.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773381845979147/transcript-closed-0359.html?ex=69b1365b&is=69afe4db&hm=db826ae9f869b16efa9909bb79c18af8955bc0d421860ce73b4f980c89e9fe0a&",
+      "size": 11862,
+      "timestamp": "2026-03-07T09:31:07.143000+00:00"
+    },
+    {
+      "message_id": "1479773377156874271",
+      "filename": "transcript-closed-0343.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773377244823703/transcript-closed-0343.html?ex=69b13659&is=69afe4d9&hm=126ff7095584e4291b9cf7313776431546c922bf53c0df659f80aca508a1cacf&",
+      "size": 8570,
+      "timestamp": "2026-03-07T09:31:05.974000+00:00"
+    },
+    {
+      "message_id": "1479773368059301938",
+      "filename": "transcript-closed-0297.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773367606182059/transcript-closed-0297.html?ex=69b13657&is=69afe4d7&hm=10fedb620a80ebee42d1142e630ba82205d190bded3aeb6fb12dcd69b8976910&",
+      "size": 11929,
+      "timestamp": "2026-03-07T09:31:03.805000+00:00"
+    },
+    {
+      "message_id": "1479773356869025803",
+      "filename": "transcript-closed-0351.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773356529156180/transcript-closed-0351.html?ex=69b13655&is=69afe4d5&hm=ead240802f0f8c740296ef6784f7f04341edd9044675b75782cc12391c2d11f2&",
+      "size": 23732,
+      "timestamp": "2026-03-07T09:31:01.137000+00:00"
+    },
+    {
+      "message_id": "1479773351051264054",
+      "filename": "transcript-closed-0329.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773351139479672/transcript-closed-0329.html?ex=69b13653&is=69afe4d3&hm=cf5d7c95c3ca1424194bb91e44114ee6b247acd71adb5c0f1d6733b4b4d5d0f1&",
+      "size": 12513,
+      "timestamp": "2026-03-07T09:30:59.750000+00:00"
+    },
+    {
+      "message_id": "1479773341974790276",
+      "filename": "transcript-closed-0311.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773342092492850/transcript-closed-0311.html?ex=69b13651&is=69afe4d1&hm=47199b7b43589ace8962667ad06e1157957cead760c7603d7349b6358a5e53cc&",
+      "size": 13233,
+      "timestamp": "2026-03-07T09:30:57.586000+00:00"
+    },
+    {
+      "message_id": "1479773330839048205",
+      "filename": "transcript-closed-0309.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773330943774790/transcript-closed-0309.html?ex=69b1364e&is=69afe4ce&hm=dfd2d079dca8ec7a4ba63d6dfa824a1a736f76d57d6ecda89a86b85cc4412261&",
+      "size": 11497,
+      "timestamp": "2026-03-07T09:30:54.931000+00:00"
+    },
+    {
+      "message_id": "1479773325428265122",
+      "filename": "transcript-closed-0330.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773325109494003/transcript-closed-0330.html?ex=69b1364d&is=69afe4cd&hm=5cbef13c7c434a3c99165b2791338426dc08c418258489646b4d3eefce8cc99e&",
+      "size": 11428,
+      "timestamp": "2026-03-07T09:30:53.641000+00:00"
+    },
+    {
+      "message_id": "1479773314355560489",
+      "filename": "transcript-closed-0318.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773314460291073/transcript-closed-0318.html?ex=69b1364b&is=69afe4cb&hm=3ebedb9bddda66c615c12eca6f2e51ea0dcaa23a3f2e81d3c4894a3eb18c2169&",
+      "size": 14507,
+      "timestamp": "2026-03-07T09:30:51.001000+00:00"
+    },
+    {
+      "message_id": "1479773309615997023",
+      "filename": "transcript-closed-0333.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773309703819356/transcript-closed-0333.html?ex=69b13649&is=69afe4c9&hm=0940e31a9e2a9dd4caba49daac0202ad55975da5ee60c43542a3f26ca7e23dff&",
+      "size": 7829,
+      "timestamp": "2026-03-07T09:30:49.871000+00:00"
+    },
+    {
+      "message_id": "1479773300426018837",
+      "filename": "transcript-closed-0275.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773300145127444/transcript-closed-0275.html?ex=69b13647&is=69afe4c7&hm=86734d5fb5c5a60ec6e157f206136e91a7976e7d41e1783b023571fac06dd665&",
+      "size": 25317,
+      "timestamp": "2026-03-07T09:30:47.680000+00:00"
+    },
+    {
+      "message_id": "1479773289793716238",
+      "filename": "transcript-closed-0356.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773289520959618/transcript-closed-0356.html?ex=69b13645&is=69afe4c5&hm=4a4b1bbc8c130deb03f7ae7c41c4620a3049c805bc86e4657ce7a095c0793daf&",
+      "size": 14533,
+      "timestamp": "2026-03-07T09:30:45.145000+00:00"
+    },
+    {
+      "message_id": "1479773284504436788",
+      "filename": "transcript-closed-0339.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773284408098816/transcript-closed-0339.html?ex=69b13643&is=69afe4c3&hm=a72837e4a38dde220f838c7da883b5a26728972063b5bedb3282fee89a8e350b&",
+      "size": 9101,
+      "timestamp": "2026-03-07T09:30:43.884000+00:00"
+    },
+    {
+      "message_id": "1479773276078084158",
+      "filename": "transcript-closed-0357.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773275730084013/transcript-closed-0357.html?ex=69b13641&is=69afe4c1&hm=934d4c94df77cad01b882c21a79fbc4d669492b65ae47e2d94cb449e3f1568f2&",
+      "size": 5168,
+      "timestamp": "2026-03-07T09:30:41.875000+00:00"
+    },
+    {
+      "message_id": "1479773266133389354",
+      "filename": "transcript-closed-0295.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773265881858139/transcript-closed-0295.html?ex=69b1363f&is=69afe4bf&hm=cd2d89a9d9234eff2081f2102634c87cb8e64c5352eb2023fca573863c4ec1f8&",
+      "size": 12668,
+      "timestamp": "2026-03-07T09:30:39.504000+00:00"
+    },
+    {
+      "message_id": "1479773261188431943",
+      "filename": "transcript-closed-0269.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773260727193672/transcript-closed-0269.html?ex=69b1363e&is=69afe4be&hm=d5c958998e2efbcb762eb9d1511d93043b8ce5e280480f5e2b9b86e109e09055&",
+      "size": 19566,
+      "timestamp": "2026-03-07T09:30:38.325000+00:00"
+    },
+    {
+      "message_id": "1479773250186641599",
+      "filename": "transcript-closed-0287.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773249905754153/transcript-closed-0287.html?ex=69b1363b&is=69afe4bb&hm=74ba1e56b67d9ac3545f86949f547cda1d5d5d9fdd80df69d002610f1ba36be8&",
+      "size": 11643,
+      "timestamp": "2026-03-07T09:30:35.702000+00:00"
+    },
+    {
+      "message_id": "1479773239772315783",
+      "filename": "transcript-closed-0273.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773239894085763/transcript-closed-0273.html?ex=69b13639&is=69afe4b9&hm=9414964133853b898c2aa85c29abdc43ce9ff3252cae726f36ba10bcd03740cc&",
+      "size": 11261,
+      "timestamp": "2026-03-07T09:30:33.219000+00:00"
+    },
+    {
+      "message_id": "1479773234105942036",
+      "filename": "transcript-closed-0263.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773233665278065/transcript-closed-0263.html?ex=69b13637&is=69afe4b7&hm=9a834db1ba09171e1c5f4be36d0d6d42edcc67159ed594537e86c76a274fc0c5&",
+      "size": 12776,
+      "timestamp": "2026-03-07T09:30:31.868000+00:00"
+    },
+    {
+      "message_id": "1479773223586500742",
+      "filename": "transcript-closed-0324.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773223431438356/transcript-closed-0324.html?ex=69b13635&is=69afe4b5&hm=ebb8bfa3c93d00385e0a422f9679ed6e514488f12e16ef91bd53970c7aedde98&",
+      "size": 8114,
+      "timestamp": "2026-03-07T09:30:29.360000+00:00"
+    },
+    {
+      "message_id": "1479773218242957312",
+      "filename": "transcript-closed-0231.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773218037301268/transcript-closed-0231.html?ex=69b13634&is=69afe4b4&hm=12d79e5592609c4d5871b9fc89fa3c3acc3c536eac08e24529f31bdd01adb7b5&",
+      "size": 16038,
+      "timestamp": "2026-03-07T09:30:28.086000+00:00"
+    },
+    {
+      "message_id": "1479773205580484710",
+      "filename": "transcript-closed-0302.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773205135622194/transcript-closed-0302.html?ex=69b13630&is=69afe4b0&hm=1afc82d94ffef7dbf1c0b2957a31540052bcec585d0a9908556f8a297fe81630&",
+      "size": 9253,
+      "timestamp": "2026-03-07T09:30:25.067000+00:00"
+    },
+    {
+      "message_id": "1479773199913713666",
+      "filename": "transcript-closed-0223.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773200023031919/transcript-closed-0223.html?ex=69b1362f&is=69afe4af&hm=6605db6b6708a225c36795ccc56d7cc3ec3bc46f0e1c1d8d600238bc57ead98b&",
+      "size": 16132,
+      "timestamp": "2026-03-07T09:30:23.716000+00:00"
+    },
+    {
+      "message_id": "1479773190828855440",
+      "filename": "transcript-closed-0334.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773189029625966/transcript-closed-0334.html?ex=69b1362d&is=69afe4ad&hm=21c6d765eab790852bbc7d345094a6620525acf23d0aa912b43e1315374305a9&",
+      "size": 4265,
+      "timestamp": "2026-03-07T09:30:21.550000+00:00"
+    },
+    {
+      "message_id": "1479773183648333884",
+      "filename": "transcript-closed-0294.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773183401001060/transcript-closed-0294.html?ex=69b1362b&is=69afe4ab&hm=c0c1bcdfea4bd87a9d8796ba94948450ab93717c514adf04bbcf427c2ed5b379&",
+      "size": 31240,
+      "timestamp": "2026-03-07T09:30:19.838000+00:00"
+    },
+    {
+      "message_id": "1479773174492172361",
+      "filename": "transcript-closed-0322.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773174118748281/transcript-closed-0322.html?ex=69b13629&is=69afe4a9&hm=7e5f3c2b5d23473a25a058792500f18a0d7c56b9707091c225c4fd9e5bf06cef&",
+      "size": 10212,
+      "timestamp": "2026-03-07T09:30:17.655000+00:00"
+    },
+    {
+      "message_id": "1479773164895731814",
+      "filename": "transcript-closed-0319.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773164224381049/transcript-closed-0319.html?ex=69b13627&is=69afe4a7&hm=c5f3bc8f0e89634c3b67b6e10f40fb7ee0af02fc09b55ac400fcb068ae39475f&",
+      "size": 8376,
+      "timestamp": "2026-03-07T09:30:15.367000+00:00"
+    },
+    {
+      "message_id": "1479773157006118983",
+      "filename": "transcript-closed-0286.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773156754587772/transcript-closed-0286.html?ex=69b13625&is=69afe4a5&hm=55f6a3f7e5c6c63e14e13399d1ad12a2e6e459bec3b50a7b3723c5c684d51a8a&",
+      "size": 13863,
+      "timestamp": "2026-03-07T09:30:13.486000+00:00"
+    },
+    {
+      "message_id": "1479773146981732392",
+      "filename": "transcript-closed-0312.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773146583142570/transcript-closed-0312.html?ex=69b13623&is=69afe4a3&hm=4cef364e98fe1741fd939325bac957aa4fcfa86d4e65eb1928b4fcd4ee4d78ac&",
+      "size": 9559,
+      "timestamp": "2026-03-07T09:30:11.096000+00:00"
+    },
+    {
+      "message_id": "1479773140753317929",
+      "filename": "transcript-closed-0284.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773140455260170/transcript-closed-0284.html?ex=69b13621&is=69afe4a1&hm=5cb9cee2e96caa11be54b97edd48e53fa245965b6154e410c3ca36b9fdc7841c&",
+      "size": 9882,
+      "timestamp": "2026-03-07T09:30:09.611000+00:00"
+    },
+    {
+      "message_id": "1479773130686857378",
+      "filename": "transcript-closed-0277.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773130313437267/transcript-closed-0277.html?ex=69b1361f&is=69afe49f&hm=ddc2fc225b06b44e3ad7475146557deb28a1ebae0f898e36853f4fbe1c9fb81a&",
+      "size": 14277,
+      "timestamp": "2026-03-07T09:30:07.211000+00:00"
+    },
+    {
+      "message_id": "1479773124529487903",
+      "filename": "transcript-closed-0300.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773124689002537/transcript-closed-0300.html?ex=69b1361d&is=69afe49d&hm=3b380ea11f5796932d71b3c3b93d056f5bf427fb0377271329dfcd0e954d595b&",
+      "size": 9640,
+      "timestamp": "2026-03-07T09:30:05.743000+00:00"
+    },
+    {
+      "message_id": "1479773115436236861",
+      "filename": "transcript-closed-0294.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773115109212291/transcript-closed-0294.html?ex=69b1361b&is=69afe49b&hm=159f84d0235c43b91d7afb8c8c4ae948ebbaf607fea90cfeb8d2b49b6913289c&",
+      "size": 25013,
+      "timestamp": "2026-03-07T09:30:03.575000+00:00"
+    },
+    {
+      "message_id": "1479773105613308046",
+      "filename": "transcript-closed-0298.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773105294409729/transcript-closed-0298.html?ex=69b13619&is=69afe499&hm=9e1b2e3ead0b711e286541c48d43c4441fdf310ba0ea09752bab94ab8a46f1b5&",
+      "size": 8189,
+      "timestamp": "2026-03-07T09:30:01.233000+00:00"
+    },
+    {
+      "message_id": "1479773100492197990",
+      "filename": "transcript-closed-0260.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773099820843068/transcript-closed-0260.html?ex=69b13617&is=69afe497&hm=589d3000973a206e220ad681c14773bab6e2796a1a0bcc1404256ed6ac523094&",
+      "size": 7220,
+      "timestamp": "2026-03-07T09:30:00.012000+00:00"
+    },
+    {
+      "message_id": "1479773089578618982",
+      "filename": "transcript-closed-0237.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773089519636520/transcript-closed-0237.html?ex=69b13615&is=69afe495&hm=9d2f0777763573b955994ea1191109b8cee3d7d9a77386a1e7b3847bdaadd562&",
+      "size": 10830,
+      "timestamp": "2026-03-07T09:29:57.410000+00:00"
+    },
+    {
+      "message_id": "1479773084025225268",
+      "filename": "transcript-closed-0315.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773083631091883/transcript-closed-0315.html?ex=69b13613&is=69afe493&hm=0486e0e8133cc52c988adb059a1beed88cb887359eff06bba383cbd64c74edce&",
+      "size": 9589,
+      "timestamp": "2026-03-07T09:29:56.086000+00:00"
+    },
+    {
+      "message_id": "1479773075582095493",
+      "filename": "transcript-closed-0313.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773075015733298/transcript-closed-0313.html?ex=69b13611&is=69afe491&hm=d9ad2aef26c3925177551e63b315ea1fa3637f603706f52b198a59ef79d07bdb&",
+      "size": 7225,
+      "timestamp": "2026-03-07T09:29:54.073000+00:00"
+    },
+    {
+      "message_id": "1479773065121370127",
+      "filename": "transcript-closed-0310.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773065268428912/transcript-closed-0310.html?ex=69b1360f&is=69afe48f&hm=cb74e424b1eeff52655b53884c324f184886c8bf1094c01ca32a12d131e7703b&",
+      "size": 9632,
+      "timestamp": "2026-03-07T09:29:51.579000+00:00"
+    },
+    {
+      "message_id": "1479773057370423337",
+      "filename": "transcript-closed-0306.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773057106051226/transcript-closed-0306.html?ex=69b1360d&is=69afe48d&hm=03d671e82ec7b5427842b8541dc29f52060791709d942e9ee8af6f99dcb56dd1&",
+      "size": 7328,
+      "timestamp": "2026-03-07T09:29:49.731000+00:00"
+    },
+    {
+      "message_id": "1479773047312486400",
+      "filename": "transcript-closed-0219.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773046960029796/transcript-closed-0219.html?ex=69b1360b&is=69afe48b&hm=d2f96db67785a84cc4cc31891846605f91384e5e779d455bc2014566e0c8c7f8&",
+      "size": 8486,
+      "timestamp": "2026-03-07T09:29:47.333000+00:00"
+    },
+    {
+      "message_id": "1479773038085144647",
+      "filename": "transcript-closed-0199.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773037749338163/transcript-closed-0199.html?ex=69b13609&is=69afe489&hm=6a1245704ed109b697bf7be7116e2856d96ada03b92213ceace5524b0c8dd751&",
+      "size": 6374,
+      "timestamp": "2026-03-07T09:29:45.133000+00:00"
+    },
+    {
+      "message_id": "1479773029142626456",
+      "filename": "transcript-closed-0193.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773029230841936/transcript-closed-0193.html?ex=69b13607&is=69afe487&hm=fa38d2c597074851dffc1b174adda19f599f789236cfb1fdc5ea62539074857f&",
+      "size": 13154,
+      "timestamp": "2026-03-07T09:29:43.001000+00:00"
+    },
+    {
+      "message_id": "1479773024155865130",
+      "filename": "transcript-closed-0191.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773024273174549/transcript-closed-0191.html?ex=69b13605&is=69afe485&hm=d219ec3e32c74d91f60ee5416adb7ccc3f45805efad00221b6e24da569530e71&",
+      "size": 7100,
+      "timestamp": "2026-03-07T09:29:41.812000+00:00"
+    },
+    {
+      "message_id": "1479773015788097717",
+      "filename": "transcript-closed-0186.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773015330914487/transcript-closed-0186.html?ex=69b13603&is=69afe483&hm=dc0142259eb67d493a4dd941b5090d1916be1c4211e96e1944250d7e723c0375&",
+      "size": 23007,
+      "timestamp": "2026-03-07T09:29:39.817000+00:00"
+    },
+    {
+      "message_id": "1479773006657097808",
+      "filename": "transcript-closed-0251.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773006224953395/transcript-closed-0251.html?ex=69b13601&is=69afe481&hm=791a8a8575844c12d152e0fdcd55179a05250eb77a41383f1fa3036415ca9016&",
+      "size": 11762,
+      "timestamp": "2026-03-07T09:29:37.640000+00:00"
+    },
+    {
+      "message_id": "1479773001242251378",
+      "filename": "transcript-closed-0255.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479773001343045684/transcript-closed-0255.html?ex=69b13600&is=69afe480&hm=463aafab615e4199b045329ebd4b44cb87b92e41432e6c682d5a97cabf839f26&",
+      "size": 28830,
+      "timestamp": "2026-03-07T09:29:36.349000+00:00"
+    },
+    {
+      "message_id": "1479772990047649904",
+      "filename": "transcript-closed-0288.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772990173609984/transcript-closed-0288.html?ex=69b135fd&is=69afe47d&hm=d0f54662fb7168aa9e88b3c2d315eee6179c5f7a2d5e3ac046ba8201cc64fd84&",
+      "size": 6013,
+      "timestamp": "2026-03-07T09:29:33.680000+00:00"
+    },
+    {
+      "message_id": "1479772979343654943",
+      "filename": "transcript-closed-0253.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772979465425007/transcript-closed-0253.html?ex=69b135fb&is=69afe47b&hm=b044f5231be542cfd10ed82c56c8ba0bfe4e41e7c91cb72f5e015857b5d8acbd&",
+      "size": 10409,
+      "timestamp": "2026-03-07T09:29:31.128000+00:00"
+    },
+    {
+      "message_id": "1479772974537117748",
+      "filename": "transcript-closed-0266.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772974260289697/transcript-closed-0266.html?ex=69b135f9&is=69afe479&hm=0f17344aa90cb10331211296c87e5e9a56bb63219ddcc53473b66fcb2eac37dc&",
+      "size": 12384,
+      "timestamp": "2026-03-07T09:29:29.982000+00:00"
+    },
+    {
+      "message_id": "1479772963413950607",
+      "filename": "transcript-closed-0248.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772963162161192/transcript-closed-0248.html?ex=69b135f7&is=69afe477&hm=9e9565693860c54bd0e030d12624c92662b6c342d858e1cfbadf731a572fdfd0&",
+      "size": 11887,
+      "timestamp": "2026-03-07T09:29:27.330000+00:00"
+    },
+    {
+      "message_id": "1479772957323558942",
+      "filename": "transcript-closed-0259.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772957017505792/transcript-closed-0259.html?ex=69b135f5&is=69afe475&hm=eef575d206268cc98d39e147a68efa2fd1248ac944c38816d0bd77a75887c165&",
+      "size": 10251,
+      "timestamp": "2026-03-07T09:29:25.878000+00:00"
+    },
+    {
+      "message_id": "1479772947941167265",
+      "filename": "transcript-closed-0236.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772947618070558/transcript-closed-0236.html?ex=69b135f3&is=69afe473&hm=e7b75e4c3fe8e2f6ac0439b3be71452c0e1054234ccd9c05fa598dd408999dfe&",
+      "size": 17339,
+      "timestamp": "2026-03-07T09:29:23.641000+00:00"
+    },
+    {
+      "message_id": "1479772938646458572",
+      "filename": "transcript-closed-0268.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772938428223573/transcript-closed-0268.html?ex=69b135f1&is=69afe471&hm=187d85a2cc20759fccd05f4a17742c83f93ed3a299071ab77a95df860f4daf32&",
+      "size": 26244,
+      "timestamp": "2026-03-07T09:29:21.425000+00:00"
+    },
+    {
+      "message_id": "1479772928454295664",
+      "filename": "transcript-closed-0262.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772928533856347/transcript-closed-0262.html?ex=69b135ef&is=69afe46f&hm=dee96f37504be7f42f20272c2da35edd904687356bacdbc55c9930c2b13214e9&",
+      "size": 11295,
+      "timestamp": "2026-03-07T09:29:18.995000+00:00"
+    },
+    {
+      "message_id": "1479772919776415836",
+      "filename": "transcript-closed-0250.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772919910498399/transcript-closed-0250.html?ex=69b135ec&is=69afe46c&hm=0ebc5360a871c2649e99c737f165c59f54b47f3ff61ff8d2fb93a288ff4c506d&",
+      "size": 9415,
+      "timestamp": "2026-03-07T09:29:16.926000+00:00"
+    },
+    {
+      "message_id": "1479772915036586116",
+      "filename": "transcript-closed-0217.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772914722148372/transcript-closed-0217.html?ex=69b135eb&is=69afe46b&hm=212589286787c2b02c1f5c8cfd090b144982866418408cb82c528bae90074532&",
+      "size": 17920,
+      "timestamp": "2026-03-07T09:29:15.796000+00:00"
+    },
+    {
+      "message_id": "1479772905310130220",
+      "filename": "transcript-closed-0256.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772905016393830/transcript-closed-0256.html?ex=69b135e9&is=69afe469&hm=f422fad849ede17768b001a73be6377c156521385595f5274e2562394fbc343e&",
+      "size": 7986,
+      "timestamp": "2026-03-07T09:29:13.477000+00:00"
+    },
+    {
+      "message_id": "1479772896619659478",
+      "filename": "transcript-closed-0258.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772896199970949/transcript-closed-0258.html?ex=69b135e7&is=69afe467&hm=691300d24aba67244cf24dc829aa22b7c8a44be556f28b92463d5af34a51b770&",
+      "size": 12619,
+      "timestamp": "2026-03-07T09:29:11.405000+00:00"
+    },
+    {
+      "message_id": "1479772889900257291",
+      "filename": "transcript-closed-0240.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772890017824822/transcript-closed-0240.html?ex=69b135e5&is=69afe465&hm=d7d37b307290553336be1487731de271cc4ba0b5f16c6127e4ed21e1e663d195&",
+      "size": 16843,
+      "timestamp": "2026-03-07T09:29:09.803000+00:00"
+    },
+    {
+      "message_id": "1479772881574428765",
+      "filename": "transcript-closed-0215.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772881302065193/transcript-closed-0215.html?ex=69b135e3&is=69afe463&hm=c6cbf5f7faac6549f6e6f66a9bc0332eb3d93b49846122b3e6c2faf1feb7cc16&",
+      "size": 15423,
+      "timestamp": "2026-03-07T09:29:07.818000+00:00"
+    },
+    {
+      "message_id": "1479772872368062645",
+      "filename": "transcript-closed-0229.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772872091111444/transcript-closed-0229.html?ex=69b135e1&is=69afe461&hm=36ba909009aa5592ecc93534df59e42f3f509c79933218faa5f9ae574284878f&",
+      "size": 9854,
+      "timestamp": "2026-03-07T09:29:05.623000+00:00"
+    },
+    {
+      "message_id": "1479772863081746604",
+      "filename": "transcript-closed-0177.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772862796664842/transcript-closed-0177.html?ex=69b135df&is=69afe45f&hm=06d84836802b02af4644c5a0ea8b6269171213a755e341d990560e9484933b48&",
+      "size": 16602,
+      "timestamp": "2026-03-07T09:29:03.409000+00:00"
+    },
+    {
+      "message_id": "1479772853565132900",
+      "filename": "transcript-closed-0246.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772853195767869/transcript-closed-0246.html?ex=69b135dd&is=69afe45d&hm=970971b308f38afd604824eb2185a3ee6e160018f801fe311f5110df529e0299&",
+      "size": 7642,
+      "timestamp": "2026-03-07T09:29:01.140000+00:00"
+    },
+    {
+      "message_id": "1479772848003350624",
+      "filename": "transcript-closed-0247.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772848150282272/transcript-closed-0247.html?ex=69b135db&is=69afe45b&hm=7b59cdf88806aca67717e857a7d1ec4325c67354217c1466fa41adc21e6b4fa8&",
+      "size": 6648,
+      "timestamp": "2026-03-07T09:28:59.814000+00:00"
+    },
+    {
+      "message_id": "1479772841372287170",
+      "filename": "transcript-closed-0245.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772840868974722/transcript-closed-0245.html?ex=69b135da&is=69afe45a&hm=2babeb2d9161a0aab6a411eb3fba9bd6c1841c6234d245ddcdc270a05acdf92a&",
+      "size": 7743,
+      "timestamp": "2026-03-07T09:28:58.233000+00:00"
+    },
+    {
+      "message_id": "1479772830764765325",
+      "filename": "transcript-closed-0242.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772830500651100/transcript-closed-0242.html?ex=69b135d7&is=69afe457&hm=8718c3a7f3d87e9e839511b6ae2b77ac3d3f3c679110703e8eafaabbc1129cff&",
+      "size": 15335,
+      "timestamp": "2026-03-07T09:28:55.704000+00:00"
+    },
+    {
+      "message_id": "1479772821600206949",
+      "filename": "transcript-closed-0238.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772821272920177/transcript-closed-0238.html?ex=69b135d5&is=69afe455&hm=2b8dc25b53b9034298db276f98fab90d202536d7820b473d88cdc8238217f59d&",
+      "size": 6376,
+      "timestamp": "2026-03-07T09:28:53.519000+00:00"
+    },
+    {
+      "message_id": "1479772811185754195",
+      "filename": "transcript-closed-0173.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772810879565875/transcript-closed-0173.html?ex=69b135d2&is=69afe452&hm=9e3420975c382e23a57f3608e425925a58dfc4b4fb029978437e8a74abb1c0ab&",
+      "size": 9925,
+      "timestamp": "2026-03-07T09:28:51.036000+00:00"
+    },
+    {
+      "message_id": "1479772805502341253",
+      "filename": "transcript-closed-0235.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772805611655219/transcript-closed-0235.html?ex=69b135d1&is=69afe451&hm=8f749f8c802492e97047df99cdfb5c4f8b12d623bcca3348ad02bed3c9b4934e&",
+      "size": 18159,
+      "timestamp": "2026-03-07T09:28:49.681000+00:00"
+    },
+    {
+      "message_id": "1479772795964624926",
+      "filename": "transcript-closed-0142.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772795021037658/transcript-closed-0142.html?ex=69b135cf&is=69afe44f&hm=286201a5bfbcb0c9bc02a122834e4612081630b61df19a4e1a60991b4c7f29ec&",
+      "size": 13839,
+      "timestamp": "2026-03-07T09:28:47.407000+00:00"
+    },
+    {
+      "message_id": "1479772789262127156",
+      "filename": "transcript-closed-0112.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772789354266634/transcript-closed-0112.html?ex=69b135cd&is=69afe44d&hm=8e4a3ffe6d7e7a3a6345366e4e8012c3a6f4771d1463eff530ba7986f2bd06e1&",
+      "size": 23045,
+      "timestamp": "2026-03-07T09:28:45.809000+00:00"
+    },
+    {
+      "message_id": "1479772778428366931",
+      "filename": "transcript-closed-0233.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772778390356008/transcript-closed-0233.html?ex=69b135cb&is=69afe44b&hm=f5b78c676b968c9f980b4a719e33b85db203f110cc99f058ed7752a8afcf2d1f&",
+      "size": 7763,
+      "timestamp": "2026-03-07T09:28:43.226000+00:00"
+    },
+    {
+      "message_id": "1479772773122441277",
+      "filename": "transcript-closed-0234.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772772988227604/transcript-closed-0234.html?ex=69b135c9&is=69afe449&hm=593383a44a6cc151c68d5d365eb2c4fb8e337c85612e41eeb49cfa87f7b48a56&",
+      "size": 6200,
+      "timestamp": "2026-03-07T09:28:41.961000+00:00"
+    },
+    {
+      "message_id": "1479772763945304164",
+      "filename": "transcript-closed-0183.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772763567685652/transcript-closed-0183.html?ex=69b135c7&is=69afe447&hm=d9786f543310887ec11bc0e10ed34139e549fa2ffc4a194dabb2dfde570da165&",
+      "size": 10598,
+      "timestamp": "2026-03-07T09:28:39.773000+00:00"
+    },
+    {
+      "message_id": "1479772753933500637",
+      "filename": "transcript-closed-0224.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772753568465057/transcript-closed-0224.html?ex=69b135c5&is=69afe445&hm=6dd9505a86a3228b4924333379a5d4c04dcf0d969b2b3535d7c4cf558969618f&",
+      "size": 6928,
+      "timestamp": "2026-03-07T09:28:37.386000+00:00"
+    },
+    {
+      "message_id": "1479772745116946544",
+      "filename": "transcript-closed-0226.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772744806699182/transcript-closed-0226.html?ex=69b135c3&is=69afe443&hm=365dfac73f2e158fa08cae9d62acc3a5438025d7a6cf7051fe440e528cac5082&",
+      "size": 9062,
+      "timestamp": "2026-03-07T09:28:35.284000+00:00"
+    },
+    {
+      "message_id": "1479772739484127242",
+      "filename": "transcript-closed-0220.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772739131932794/transcript-closed-0220.html?ex=69b135c1&is=69afe441&hm=b5a9be903ab2c142bf284b3cb5f4b2a3c87746b21debfe49b15613f7bb0b95e6&",
+      "size": 10250,
+      "timestamp": "2026-03-07T09:28:33.941000+00:00"
+    },
+    {
+      "message_id": "1479772729845616784",
+      "filename": "transcript-closed-0218.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772729598283898/transcript-closed-0218.html?ex=69b135bf&is=69afe43f&hm=ccf2cf1782690362c3ba9eba122dbcfb68900033fe1f0948c9d1c77d9fffac56&",
+      "size": 8986,
+      "timestamp": "2026-03-07T09:28:31.643000+00:00"
+    },
+    {
+      "message_id": "1479772719976415233",
+      "filename": "transcript-closed-0214.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772720114962494/transcript-closed-0214.html?ex=69b135bd&is=69afe43d&hm=6b8a483daee77602a0559b56eec0c63e6944fba870df2af649a19236ac20fd63&",
+      "size": 12993,
+      "timestamp": "2026-03-07T09:28:29.290000+00:00"
+    },
+    {
+      "message_id": "1479772714049999029",
+      "filename": "transcript-closed-0211.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772713726902343/transcript-closed-0211.html?ex=69b135bb&is=69afe43b&hm=db0ce48fad4312bf3f7b0f6b2bf771c26559e75a28c23270c7ab0d52db926b64&",
+      "size": 22518,
+      "timestamp": "2026-03-07T09:28:27.877000+00:00"
+    },
+    {
+      "message_id": "1479772702154952848",
+      "filename": "transcript-closed-0213.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772702146302196/transcript-closed-0213.html?ex=69b135b9&is=69afe439&hm=ff9848acc435d76601bb06158d752e16004fb7df640e23b6a7618b82440f006f&",
+      "size": 8154,
+      "timestamp": "2026-03-07T09:28:25.041000+00:00"
+    },
+    {
+      "message_id": "1479772697213927529",
+      "filename": "transcript-closed-0179.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772696907612181/transcript-closed-0179.html?ex=69b135b7&is=69afe437&hm=cb86156d6e2ea7b9a5e6be3c7a1c153ee67cb35e599e3b2511a4cdfa1f22d766&",
+      "size": 9124,
+      "timestamp": "2026-03-07T09:28:23.863000+00:00"
+    },
+    {
+      "message_id": "1479772687420227635",
+      "filename": "transcript-closed-0150.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772686845612207/transcript-closed-0150.html?ex=69b135b5&is=69afe435&hm=8d7fd7537b5221475bb62415812fa273080b18fdd1c0648514de940187b67641&",
+      "size": 14685,
+      "timestamp": "2026-03-07T09:28:21.528000+00:00"
+    },
+    {
+      "message_id": "1479772681418051689",
+      "filename": "transcript-closed-0208.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772680969519135/transcript-closed-0208.html?ex=69b135b3&is=69afe433&hm=d4334d01d650cb407d01e4d184a5828e81845173521ead615fc2458388367255&",
+      "size": 8101,
+      "timestamp": "2026-03-07T09:28:20.097000+00:00"
+    },
+    {
+      "message_id": "1479772670668177459",
+      "filename": "transcript-closed-0204.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772670387032134/transcript-closed-0204.html?ex=69b135b1&is=69afe431&hm=9e708e3943b2f10e1320cc7bdfb9eb764795a56ce9129e91afbc45089830fc70&",
+      "size": 9405,
+      "timestamp": "2026-03-07T09:28:17.534000+00:00"
+    },
+    {
+      "message_id": "1479772660568162374",
+      "filename": "transcript-closed-0180.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772660186611804/transcript-closed-0180.html?ex=69b135af&is=69afe42f&hm=828fe41dac9b6cf69f22b499527b5471f8eb8b3b6e897fd051214d6a1023e108&",
+      "size": 13211,
+      "timestamp": "2026-03-07T09:28:15.126000+00:00"
+    },
+    {
+      "message_id": "1479772655379939378",
+      "filename": "transcript-closed-0202.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772655035875328/transcript-closed-0202.html?ex=69b135ad&is=69afe42d&hm=b2cc3ad0e6304836f4d6932c743b636a1ff383556ef193fa0199bd4ba7312555&",
+      "size": 13015,
+      "timestamp": "2026-03-07T09:28:13.889000+00:00"
+    },
+    {
+      "message_id": "1479772650460024845",
+      "filename": "transcript-closed-0196.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772650116218922/transcript-closed-0196.html?ex=69b135ac&is=69afe42c&hm=e1fe7625ea138236e9946a1b0c58a09565ad82b1b430f77f70a2dde3f6a516c8&",
+      "size": 16326,
+      "timestamp": "2026-03-07T09:28:12.716000+00:00"
+    },
+    {
+      "message_id": "1479772643644412006",
+      "filename": "transcript-closed-0145.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772643832889425/transcript-closed-0145.html?ex=69b135ab&is=69afe42b&hm=a244ac88ccea0ba2bbd2d71501b34538602e726123711a01dad4f2839518d08c&",
+      "size": 11042,
+      "timestamp": "2026-03-07T09:28:11.091000+00:00"
+    },
+    {
+      "message_id": "1479772637411409992",
+      "filename": "transcript-closed-0188.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772630017114122/transcript-closed-0188.html?ex=69b135a7&is=69afe427&hm=5cf103b6d3862a57d1ac9f4cdd1c9422caa8febe5943f6c703d2c04f90399722&",
+      "size": 19978,
+      "timestamp": "2026-03-07T09:28:09.605000+00:00"
+    },
+    {
+      "message_id": "1479772618369400842",
+      "filename": "transcript-closed-0133.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772618013016075/transcript-closed-0133.html?ex=69b135a4&is=69afe424&hm=5f7c5ef00fdd380fb84da861615c4e037debae33c71e3f8b2fa603121b85c7a9&",
+      "size": 8310,
+      "timestamp": "2026-03-07T09:28:05.065000+00:00"
+    },
+    {
+      "message_id": "1479772613248024607",
+      "filename": "transcript-closed-0198.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772612908421351/transcript-closed-0198.html?ex=69b135a3&is=69afe423&hm=341db1a50132266dfd4086c487c09e8a95d993a7cf896a7b26af28f5fd2a8ab8&",
+      "size": 6163,
+      "timestamp": "2026-03-07T09:28:03.844000+00:00"
+    },
+    {
+      "message_id": "1479772603353792615",
+      "filename": "transcript-closed-0037.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772603106463896/transcript-closed-0037.html?ex=69b135a1&is=69afe421&hm=aa17464cd0b95cce71a7cbdff0ba7a90f4322ad7e5527ab6b1ae0610e762884f&",
+      "size": 19002,
+      "timestamp": "2026-03-07T09:28:01.485000+00:00"
+    },
+    {
+      "message_id": "1479772592800923699",
+      "filename": "transcript-closed-0146.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772592930951168/transcript-closed-0146.html?ex=69b1359f&is=69afe41f&hm=1ca3a5386c266e59617d6d7bf062f7f8c13f33bfe8940d15311b4229e7bed306&",
+      "size": 13595,
+      "timestamp": "2026-03-07T09:27:58.969000+00:00"
+    },
+    {
+      "message_id": "1479772586320724090",
+      "filename": "transcript-closed-0187.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772585951760495/transcript-closed-0187.html?ex=69b1359d&is=69afe41d&hm=21ef53bca42e466ec9caf6c5a20fd26df47beb2ca7826b32c42d9e28db50db90&",
+      "size": 25812,
+      "timestamp": "2026-03-07T09:27:57.424000+00:00"
+    },
+    {
+      "message_id": "1479772576728354917",
+      "filename": "transcript-closed-0166.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772576359120988/transcript-closed-0166.html?ex=69b1359b&is=69afe41b&hm=cd173b163b5053121484f145aa9d74bb349c01c499626c9ad98dafc803e5574b&",
+      "size": 15195,
+      "timestamp": "2026-03-07T09:27:55.137000+00:00"
+    },
+    {
+      "message_id": "1479772568155193458",
+      "filename": "transcript-closed-0181.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772567702077492/transcript-closed-0181.html?ex=69b13598&is=69afe418&hm=8a18acabeabe262f89162af5d4a70dc2d6356a860c4bd687b254010313288201&",
+      "size": 12114,
+      "timestamp": "2026-03-07T09:27:53.093000+00:00"
+    },
+    {
+      "message_id": "1479772561217818664",
+      "filename": "transcript-closed-0147.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772560861171794/transcript-closed-0147.html?ex=69b13597&is=69afe417&hm=6ff4d4bea9fd5520741b877e084be89735ab08c16a7f0fbd384e3dccc35544a4&",
+      "size": 9955,
+      "timestamp": "2026-03-07T09:27:51.439000+00:00"
+    },
+    {
+      "message_id": "1479772552493666417",
+      "filename": "transcript-closed-0182.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772552061784156/transcript-closed-0182.html?ex=69b13595&is=69afe415&hm=0e76cd1c5f11400fd44df61d998a99b2ca8f92832323a2d0827ba7d079b1ddad&",
+      "size": 7887,
+      "timestamp": "2026-03-07T09:27:49.359000+00:00"
+    },
+    {
+      "message_id": "1479772543543148748",
+      "filename": "transcript-closed-0169.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772543652073555/transcript-closed-0169.html?ex=69b13593&is=69afe413&hm=d9c549d05233ee4d73c7fc21eb8635b8fa1659e881c3843975aade83869c15fc&",
+      "size": 7456,
+      "timestamp": "2026-03-07T09:27:47.225000+00:00"
+    },
+    {
+      "message_id": "1479772535351410841",
+      "filename": "transcript-closed-0151.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772534978383963/transcript-closed-0151.html?ex=69b13591&is=69afe411&hm=a96c17d5ec42d3950c7037384d14eac2c883fa155bfa06476103c9f89f516542&",
+      "size": 7961,
+      "timestamp": "2026-03-07T09:27:45.272000+00:00"
+    },
+    {
+      "message_id": "1479772528497918088",
+      "filename": "transcript-closed-0175.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772528191864925/transcript-closed-0175.html?ex=69b1358f&is=69afe40f&hm=a4d8ea86ebaa27744830e3510bbfd2db5a5cb14ee55697fee90f5d7e7156c243&",
+      "size": 7451,
+      "timestamp": "2026-03-07T09:27:43.638000+00:00"
+    },
+    {
+      "message_id": "1479772517286809681",
+      "filename": "transcript-ticket-0160.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772517378953236/transcript-ticket-0160.html?ex=69b1358c&is=69afe40c&hm=eba42b68e3edd704603c6ddd99f468143d3731a9540e49d9723e3c3df06bcab8&",
+      "size": 9914,
+      "timestamp": "2026-03-07T09:27:40.965000+00:00"
+    },
+    {
+      "message_id": "1479772509594451978",
+      "filename": "transcript-closed-0171.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772509279621292/transcript-closed-0171.html?ex=69b1358b&is=69afe40b&hm=224668317da5c6c4d601870127a0df4e17c3bbc0662d2f07c44c26f2bc111fdd&",
+      "size": 5587,
+      "timestamp": "2026-03-07T09:27:39.131000+00:00"
+    },
+    {
+      "message_id": "1479772500777894001",
+      "filename": "transcript-closed-0149.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772500450742362/transcript-closed-0149.html?ex=69b13588&is=69afe408&hm=4a785d4ebed4bcf01d8ab0d27d055f8fead0ff916ce87078e163b5f824de08b8&",
+      "size": 12497,
+      "timestamp": "2026-03-07T09:27:37.029000+00:00"
+    },
+    {
+      "message_id": "1479772492506599536",
+      "filename": "transcript-closed-0164.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772492171317360/transcript-closed-0164.html?ex=69b13586&is=69afe406&hm=79f0396d7ba81963907b42aea48b2b18afc56de1bb31e017c84829bd9082bf3c&",
+      "size": 8530,
+      "timestamp": "2026-03-07T09:27:35.057000+00:00"
+    },
+    {
+      "message_id": "1479772484252471449",
+      "filename": "transcript-closed-0157.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772483983769654/transcript-closed-0157.html?ex=69b13585&is=69afe405&hm=9b5ed30d6e173a1021367a3ef584090c037630146ef2472d46af26fb8113140c&",
+      "size": 9810,
+      "timestamp": "2026-03-07T09:27:33.089000+00:00"
+    },
+    {
+      "message_id": "1479772477839376416",
+      "filename": "transcript-closed-0162.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772477679734814/transcript-closed-0162.html?ex=69b13583&is=69afe403&hm=552bec71562f34e00725ac5f99d0be85ad6c3d5ac8d2ad73632324304e0245a6&",
+      "size": 8479,
+      "timestamp": "2026-03-07T09:27:31.560000+00:00"
+    },
+    {
+      "message_id": "1479772467068141631",
+      "filename": "transcript-closed-0125.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772467173003274/transcript-closed-0125.html?ex=69b13581&is=69afe401&hm=93fd21c3cd520c5807a3012ddaceab97c6684b7116758f1973f4916383f7d03c&",
+      "size": 8384,
+      "timestamp": "2026-03-07T09:27:28.992000+00:00"
+    },
+    {
+      "message_id": "1479772459354951691",
+      "filename": "transcript-closed-0128.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772459430576169/transcript-closed-0128.html?ex=69b1357f&is=69afe3ff&hm=7d61cfd756ccb1c36cf207439d95d9399e339e477681e41c053d1365a74ba6ae&",
+      "size": 10719,
+      "timestamp": "2026-03-07T09:27:27.153000+00:00"
+    },
+    {
+      "message_id": "1479772451326918789",
+      "filename": "transcript-closed-0086.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772451570192444/transcript-closed-0086.html?ex=69b1357d&is=69afe3fd&hm=7b9a3c74b9f9d5ac4027e7a03170922d1cd967de9484575e64214d9b7df96f67&",
+      "size": 11227,
+      "timestamp": "2026-03-07T09:27:25.239000+00:00"
+    },
+    {
+      "message_id": "1479772443605471314",
+      "filename": "transcript-closed-0026.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772443177521162/transcript-closed-0026.html?ex=69b1357b&is=69afe3fb&hm=3674273f2e5987f8677b96160d8103fdb7a42049f43321181abb8401cfd04584&",
+      "size": 34902,
+      "timestamp": "2026-03-07T09:27:23.398000+00:00"
+    },
+    {
+      "message_id": "1479772434579062839",
+      "filename": "transcript-closed-0129.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772433945858058/transcript-closed-0129.html?ex=69b13579&is=69afe3f9&hm=0429a976625d0d9c0a7dda8ba5a56453a8be5a9b502194eb7b9d786221e9885b&",
+      "size": 7877,
+      "timestamp": "2026-03-07T09:27:21.246000+00:00"
+    },
+    {
+      "message_id": "1479772425997652031",
+      "filename": "transcript-closed-0115.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772425594994708/transcript-closed-0115.html?ex=69b13577&is=69afe3f7&hm=75070f07e2323927c6ebc29046321ac24a716bf66a53ad11e68bdf62c48b6303&",
+      "size": 9539,
+      "timestamp": "2026-03-07T09:27:19.200000+00:00"
+    },
+    {
+      "message_id": "1479772419517321267",
+      "filename": "transcript-closed-0114.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772419060404347/transcript-closed-0114.html?ex=69b13575&is=69afe3f5&hm=489e232086fead774fe85b1e4cbda3856a58dcbd50bbc92c00e2f8b75ee5414f&",
+      "size": 9399,
+      "timestamp": "2026-03-07T09:27:17.655000+00:00"
+    },
+    {
+      "message_id": "1479772410780844236",
+      "filename": "transcript-closed-0122.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772410394710086/transcript-closed-0122.html?ex=69b13573&is=69afe3f3&hm=c7e49a95a9b8bc1deee04145156046ee61903b0751174a857076a2a7e7dded29&",
+      "size": 9719,
+      "timestamp": "2026-03-07T09:27:15.572000+00:00"
+    },
+    {
+      "message_id": "1479772401674752145",
+      "filename": "transcript-closed-0119.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772401825873970/transcript-closed-0119.html?ex=69b13571&is=69afe3f1&hm=63b2effd226fa34694dc553d8a477b840170f565bfbb9f41fcb6c424d4ce5564&",
+      "size": 13117,
+      "timestamp": "2026-03-07T09:27:13.401000+00:00"
+    },
+    {
+      "message_id": "1479772399112028243",
+      "filename": "transcript-closed-0117.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772393059782696/transcript-closed-0117.html?ex=69b1356f&is=69afe3ef&hm=bc5bfc3c7a7160ef6ebd79b4283cd15798bfeec8c2cdd4c454b17b4b4e01f447&",
+      "size": 10218,
+      "timestamp": "2026-03-07T09:27:12.790000+00:00"
+    },
+    {
+      "message_id": "1479772384356728913",
+      "filename": "transcript-closed-0105.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772384037834762/transcript-closed-0105.html?ex=69b1356d&is=69afe3ed&hm=dfbb12e51d86d4450a59205e49f69a64749bd71dc767397f044a344fd7b6c18a&",
+      "size": 10272,
+      "timestamp": "2026-03-07T09:27:09.272000+00:00"
+    },
+    {
+      "message_id": "1479772375888429126",
+      "filename": "transcript-closed-0110.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772375414341764/transcript-closed-0110.html?ex=69b1356b&is=69afe3eb&hm=26e9b79de32edc4aece7e30a168ea0e8b9b58f2856a550dbcbfb76607f0c7cee&",
+      "size": 14293,
+      "timestamp": "2026-03-07T09:27:07.253000+00:00"
+    },
+    {
+      "message_id": "1479772367386447943",
+      "filename": "transcript-closed-0111.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772366912360559/transcript-closed-0111.html?ex=69b13569&is=69afe3e9&hm=51b75592ac3cee49b0feaca0276552eed6d6c8b63e25629eb3e0b9d561650bfe&",
+      "size": 17458,
+      "timestamp": "2026-03-07T09:27:05.226000+00:00"
+    },
+    {
+      "message_id": "1479772358066569309",
+      "filename": "transcript-closed-0109.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772358213373993/transcript-closed-0109.html?ex=69b13567&is=69afe3e7&hm=96e00271db96a939d71989f258586b76c25ea1116910455de1df737704a9ef0a&",
+      "size": 6850,
+      "timestamp": "2026-03-07T09:27:03.004000+00:00"
+    },
+    {
+      "message_id": "1479772351825576017",
+      "filename": "transcript-closed-0097.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772351754276925/transcript-closed-0097.html?ex=69b13565&is=69afe3e5&hm=fd8d10b5f3b5a85ea8df2984c361cd385d2fa49d547e0f1d43564873b8b007e7&",
+      "size": 10984,
+      "timestamp": "2026-03-07T09:27:01.516000+00:00"
+    },
+    {
+      "message_id": "1479772341108998376",
+      "filename": "transcript-closed-0101.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772341067186217/transcript-closed-0101.html?ex=69b13562&is=69afe3e2&hm=1ed70167873f3dc62172840065f74d4eadb9e3c6f2255593237a7e94313d7716&",
+      "size": 6799,
+      "timestamp": "2026-03-07T09:26:58.961000+00:00"
+    },
+    {
+      "message_id": "1479772333148340326",
+      "filename": "transcript-ticket-0075.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772333215322173/transcript-ticket-0075.html?ex=69b13561&is=69afe3e1&hm=a684a3cbecf392cc47e906e9dd8676a5db5553bc0116dd42577a1a582b5c1d4f&",
+      "size": 8589,
+      "timestamp": "2026-03-07T09:26:57.063000+00:00"
+    },
+    {
+      "message_id": "1479772325204197551",
+      "filename": "transcript-closed-0081.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772325200265258/transcript-closed-0081.html?ex=69b1355f&is=69afe3df&hm=0e58e23147b1ff067bfafd36024c931ad8d785b0858ab383fba0c459348ee51a&",
+      "size": 14466,
+      "timestamp": "2026-03-07T09:26:55.169000+00:00"
+    },
+    {
+      "message_id": "1479772318715609200",
+      "filename": "transcript-closed-0095.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772318484926514/transcript-closed-0095.html?ex=69b1355d&is=69afe3dd&hm=11b88e38f73c9924510db128c52730f928a2bf3a86538f61863ebdf4c0e568c5&",
+      "size": 14380,
+      "timestamp": "2026-03-07T09:26:53.622000+00:00"
+    },
+    {
+      "message_id": "1479772309412778048",
+      "filename": "transcript-closed-0064.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772309123240076/transcript-closed-0064.html?ex=69b1355b&is=69afe3db&hm=fc3e2d7edb6b71b4731c4b9940f04deeb7dd16cb80e839618acab640fa2995fd&",
+      "size": 7936,
+      "timestamp": "2026-03-07T09:26:51.404000+00:00"
+    },
+    {
+      "message_id": "1479772299618947125",
+      "filename": "transcript-closed-0022.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772299690512414/transcript-closed-0022.html?ex=69b13559&is=69afe3d9&hm=1c3d9bf895e3f0f3d7eae54dd01c6fa5975b9b1e707a639e4792901ac6c5d6b3&",
+      "size": 35065,
+      "timestamp": "2026-03-07T09:26:49.069000+00:00"
+    },
+    {
+      "message_id": "1479772293499588609",
+      "filename": "transcript-closed-0089.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772293201657908/transcript-closed-0089.html?ex=69b13557&is=69afe3d7&hm=8c69d4fc3d85f399cdbd8ac7b3fcb58d43221ff60b2fef4a35a771cd0d463af9&",
+      "size": 23669,
+      "timestamp": "2026-03-07T09:26:47.610000+00:00"
+    },
+    {
+      "message_id": "1479772284179714112",
+      "filename": "transcript-closed-0077.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772284288761926/transcript-closed-0077.html?ex=69b13555&is=69afe3d5&hm=7e7117cbc0657d6f83015c2bee4c3e3be783bd1d285d806897070e07928f14d1&",
+      "size": 7625,
+      "timestamp": "2026-03-07T09:26:45.388000+00:00"
+    },
+    {
+      "message_id": "1479772279075373058",
+      "filename": "transcript-closed-0088.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772278798417940/transcript-closed-0088.html?ex=69b13554&is=69afe3d4&hm=8e3a71fcbac160d93e8143294a42c3e34d4f679e33a2f7fe2d9ddacb3a69a411&",
+      "size": 8987,
+      "timestamp": "2026-03-07T09:26:44.171000+00:00"
+    },
+    {
+      "message_id": "1479772275829112832",
+      "filename": "transcript-closed-0087.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772275459883129/transcript-closed-0087.html?ex=69b13553&is=69afe3d3&hm=e2c977c7fcd3f863c517678161493cb4ef1acff07d57e79953a194c73c206b5b&",
+      "size": 8137,
+      "timestamp": "2026-03-07T09:26:43.397000+00:00"
+    },
+    {
+      "message_id": "1479772272465285232",
+      "filename": "transcript-closed-0083.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772272201040045/transcript-closed-0083.html?ex=69b13552&is=69afe3d2&hm=dea499e97c3679ac539acb1d2d3e818e9cb72fe311ae45df677fb7d44b87b709&",
+      "size": 12425,
+      "timestamp": "2026-03-07T09:26:42.595000+00:00"
+    },
+    {
+      "message_id": "1479772268820435040",
+      "filename": "transcript-closed-0079.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772268740481165/transcript-closed-0079.html?ex=69b13551&is=69afe3d1&hm=e9069d5c8953ffa099deae800713739bf76c1859c01b01d5c65ec57c3bb32ec9&",
+      "size": 7256,
+      "timestamp": "2026-03-07T09:26:41.726000+00:00"
+    },
+    {
+      "message_id": "1479772265867382838",
+      "filename": "transcript-closed-0082.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772265959915551/transcript-closed-0082.html?ex=69b13551&is=69afe3d1&hm=8b307f5052419d1fdf27a589bbff321ef346d635441f555471de4996694cd5fb&",
+      "size": 7087,
+      "timestamp": "2026-03-07T09:26:41.022000+00:00"
+    },
+    {
+      "message_id": "1479772263145410652",
+      "filename": "transcript-closed-0084.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772262851674183/transcript-closed-0084.html?ex=69b13550&is=69afe3d0&hm=17648b7b380d27445151cece04d52c3f781261a603db1313dde88556d007860e&",
+      "size": 7028,
+      "timestamp": "2026-03-07T09:26:40.373000+00:00"
+    },
+    {
+      "message_id": "1479772259945152585",
+      "filename": "transcript-closed-0082.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772260033106045/transcript-closed-0082.html?ex=69b1354f&is=69afe3cf&hm=06490c1111987ed0d1b7128ce50c09f585646cf76dd47e68df7df203df0cc9a1&",
+      "size": 5836,
+      "timestamp": "2026-03-07T09:26:39.610000+00:00"
+    },
+    {
+      "message_id": "1479772257415856181",
+      "filename": "transcript-closed-0085.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772257168523364/transcript-closed-0085.html?ex=69b1354e&is=69afe3ce&hm=95d0bc93377f4e59eec1801568aa0f158001d6175518946b9814d5d2438c14da&",
+      "size": 4309,
+      "timestamp": "2026-03-07T09:26:39.007000+00:00"
+    },
+    {
+      "message_id": "1479772254492561611",
+      "filename": "transcript-closed-0070.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772254048096307/transcript-closed-0070.html?ex=69b1354e&is=69afe3ce&hm=b1a1bb14a991bcd01759bf71cc658f08198c5c75155e8ece4e95c1e6f412fba3&",
+      "size": 23895,
+      "timestamp": "2026-03-07T09:26:38.310000+00:00"
+    },
+    {
+      "message_id": "1479772250528940066",
+      "filename": "transcript-closed-0078.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772250637865052/transcript-closed-0078.html?ex=69b1354d&is=69afe3cd&hm=a3013d0a3f82b0f4a384803efeab7caf8f976076047e51421533973dc24a1751&",
+      "size": 6826,
+      "timestamp": "2026-03-07T09:26:37.365000+00:00"
+    },
+    {
+      "message_id": "1479772247827939460",
+      "filename": "transcript-closed-0060.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772247349661716/transcript-closed-0060.html?ex=69b1354c&is=69afe3cc&hm=2d39540067eff1f2d43e7e18059474765c94b6bfcad354307fae72f4eb543414&",
+      "size": 14868,
+      "timestamp": "2026-03-07T09:26:36.721000+00:00"
+    },
+    {
+      "message_id": "1479772241917902980",
+      "filename": "transcript-closed-0068.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772242031153254/transcript-closed-0068.html?ex=69b1354b&is=69afe3cb&hm=2d13c65511886fb686dec453a0c7e8726c1ebc34f7f58918bfc25ee844b8efa6&",
+      "size": 8289,
+      "timestamp": "2026-03-07T09:26:35.312000+00:00"
+    },
+    {
+      "message_id": "1479772239305113611",
+      "filename": "transcript-closed-0051.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772239371964538/transcript-closed-0051.html?ex=69b1354a&is=69afe3ca&hm=7e6f0cc7d65fbaf3251e39c1a572267f6b07a5c3afdabbc8c310ec3040cddfe1&",
+      "size": 9152,
+      "timestamp": "2026-03-07T09:26:34.689000+00:00"
+    },
+    {
+      "message_id": "1479772235882299453",
+      "filename": "transcript-closed-0067.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772235408478238/transcript-closed-0067.html?ex=69b13549&is=69afe3c9&hm=fb852ce9ba77305350e1b852e76ad934496f38928ab83a85449033fa1037af5f&",
+      "size": 6358,
+      "timestamp": "2026-03-07T09:26:33.873000+00:00"
+    },
+    {
+      "message_id": "1479772232183189597",
+      "filename": "transcript-closed-0066.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772231876739134/transcript-closed-0066.html?ex=69b13548&is=69afe3c8&hm=cac616442f69787d71f0f7665553e3cdf470667d9f824da0446cd75e0c7b9d42&",
+      "size": 4273,
+      "timestamp": "2026-03-07T09:26:32.991000+00:00"
+    },
+    {
+      "message_id": "1479772228777283726",
+      "filename": "transcript-closed-0065.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772228479483944/transcript-closed-0065.html?ex=69b13548&is=69afe3c8&hm=fd8492eda606768ce7908824b8a0afc02ed0eda4ccdbc13932820f3ef4a882ff&",
+      "size": 15621,
+      "timestamp": "2026-03-07T09:26:32.179000+00:00"
+    },
+    {
+      "message_id": "1479772225283424277",
+      "filename": "transcript-closed-0063.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772224952205457/transcript-closed-0063.html?ex=69b13547&is=69afe3c7&hm=501deb3ac952a849a5b9d873345ae41bb3622e11772035abfde1e3d488b03239&",
+      "size": 49324,
+      "timestamp": "2026-03-07T09:26:31.346000+00:00"
+    },
+    {
+      "message_id": "1479772220896182335",
+      "filename": "transcript-closed-0047.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772220342538280/transcript-closed-0047.html?ex=69b13546&is=69afe3c6&hm=fb8711a160946296ec99a673a1518eb2521eaf92833d0f70c0754fc1ed64ebad&",
+      "size": 17625,
+      "timestamp": "2026-03-07T09:26:30.300000+00:00"
+    },
+    {
+      "message_id": "1479772216366338142",
+      "filename": "transcript-closed-0062.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772216446160916/transcript-closed-0062.html?ex=69b13545&is=69afe3c5&hm=f3ac1661f743eaf21ec37adb77504f3c720c03356e7997bf3e91f91d9f47e74b&",
+      "size": 9798,
+      "timestamp": "2026-03-07T09:26:29.220000+00:00"
+    },
+    {
+      "message_id": "1479772213862207681",
+      "filename": "transcript-closed-0030.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772213535182998/transcript-closed-0030.html?ex=69b13544&is=69afe3c4&hm=7a423d07e5460d0fb67cd557db922ff5ffccbd59e127dbf9975c24a11814990b&",
+      "size": 7775,
+      "timestamp": "2026-03-07T09:26:28.623000+00:00"
+    },
+    {
+      "message_id": "1479772210406097020",
+      "filename": "transcript-closed-0055.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772210154700850/transcript-closed-0055.html?ex=69b13543&is=69afe3c3&hm=f7da153b0e6648ab51349ed81a0fcf188a79c59e113e84e9cafef2442478f6d6&",
+      "size": 6104,
+      "timestamp": "2026-03-07T09:26:27.799000+00:00"
+    },
+    {
+      "message_id": "1479772206236958853",
+      "filename": "transcript-closed-0057.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772204240474203/transcript-closed-0057.html?ex=69b13542&is=69afe3c2&hm=fe4879a6cbfe09f0b5a8e9c264c8d746bb1faa454c86c9db39c5ada8ad91f3e2&",
+      "size": 9760,
+      "timestamp": "2026-03-07T09:26:26.805000+00:00"
+    },
+    {
+      "message_id": "1479772199513755831",
+      "filename": "transcript-closed-0061.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772199626866821/transcript-closed-0061.html?ex=69b13541&is=69afe3c1&hm=5cf4216163101de9450c26acb814396dcda3530ca72a52395ab8223f2620c74e&",
+      "size": 6457,
+      "timestamp": "2026-03-07T09:26:25.202000+00:00"
+    },
+    {
+      "message_id": "1479772196908830833",
+      "filename": "transcript-closed-0059.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772196544188416/transcript-closed-0059.html?ex=69b13540&is=69afe3c0&hm=c7d019a1fa536097a3e93b6cb2a37f05fedcf06d1eaf8a3a4a156a807c478c39&",
+      "size": 6616,
+      "timestamp": "2026-03-07T09:26:24.581000+00:00"
+    },
+    {
+      "message_id": "1479772193838727211",
+      "filename": "transcript-closed-0053.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772193654313105/transcript-closed-0053.html?ex=69b1353f&is=69afe3bf&hm=89468a94a2eb6862503c947873bf7374d8f10770fc3347ff735e3701f4de0da3&",
+      "size": 10791,
+      "timestamp": "2026-03-07T09:26:23.849000+00:00"
+    },
+    {
+      "message_id": "1479772190953046047",
+      "filename": "transcript-closed-0031.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772190617505923/transcript-closed-0031.html?ex=69b1353f&is=69afe3bf&hm=bfd9efc35c0a66828580e0698326da54afe42d8ac8adecf8979ad3792746d216&",
+      "size": 5568,
+      "timestamp": "2026-03-07T09:26:23.161000+00:00"
+    },
+    {
+      "message_id": "1479772187589087253",
+      "filename": "transcript-closed-0042.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772187429965875/transcript-closed-0042.html?ex=69b1353e&is=69afe3be&hm=f1ada8e84fe2be05c356570658d653549aefdb795e25019527105b075106d7ca&",
+      "size": 15295,
+      "timestamp": "2026-03-07T09:26:22.359000+00:00"
+    },
+    {
+      "message_id": "1479772184653336688",
+      "filename": "transcript-closed-0046.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772184468521093/transcript-closed-0046.html?ex=69b1353d&is=69afe3bd&hm=1aa582e848f694a994c46dcf162b7a4b46ba17d4dbc591b27005634f051432ca&",
+      "size": 12483,
+      "timestamp": "2026-03-07T09:26:21.659000+00:00"
+    },
+    {
+      "message_id": "1479772181515862211",
+      "filename": "transcript-closed-0050.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772180668747946/transcript-closed-0050.html?ex=69b1353c&is=69afe3bc&hm=d4cdf7430193f50249fe794aaebc4fc281facdd1e5b53cd5d5dc6e147ec33a41&",
+      "size": 11091,
+      "timestamp": "2026-03-07T09:26:20.911000+00:00"
+    },
+    {
+      "message_id": "1479772177535602929",
+      "filename": "transcript-closed-0056.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772176864379013/transcript-closed-0056.html?ex=69b1353b&is=69afe3bb&hm=e5b0b1142ca727dfe60c48f8143eff3ce81409e887328e82b235a43a753ba3aa&",
+      "size": 7616,
+      "timestamp": "2026-03-07T09:26:19.962000+00:00"
+    },
+    {
+      "message_id": "1479772172758290543",
+      "filename": "transcript-closed-0052.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772172850561024/transcript-closed-0052.html?ex=69b1353a&is=69afe3ba&hm=441e1d9de1ccf1a6646bfd7f1ae307c0c66a194c446899fd7ceb340f2889a18a&",
+      "size": 13641,
+      "timestamp": "2026-03-07T09:26:18.823000+00:00"
+    },
+    {
+      "message_id": "1479772170082324481",
+      "filename": "transcript-closed-0048.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772169562226771/transcript-closed-0048.html?ex=69b1353a&is=69afe3ba&hm=367bd4851c09569acec6b7e06050cb5514b94bdea519d7b03451133cdee4197c&",
+      "size": 9231,
+      "timestamp": "2026-03-07T09:26:18.185000+00:00"
+    },
+    {
+      "message_id": "1479772166802378942",
+      "filename": "transcript-closed-0045.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772166470897664/transcript-closed-0045.html?ex=69b13539&is=69afe3b9&hm=7680efe4d595b5a353b572438fb2292084f8046db0bda18f3b2b5e6ccd4e6573&",
+      "size": 4217,
+      "timestamp": "2026-03-07T09:26:17.403000+00:00"
+    },
+    {
+      "message_id": "1479772163182690446",
+      "filename": "transcript-closed-0043.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772163061059706/transcript-closed-0043.html?ex=69b13538&is=69afe3b8&hm=2dff9eb5e0feca9a4729359b4032a76fcfe4e7b89ef958957086089391e7fc19&",
+      "size": 8618,
+      "timestamp": "2026-03-07T09:26:16.540000+00:00"
+    },
+    {
+      "message_id": "1479772159432855572",
+      "filename": "transcript-closed-0036.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772158103388260/transcript-closed-0036.html?ex=69b13537&is=69afe3b7&hm=85059e00ecdd6e28fa48f46083c3e7b3e2e12cbc3b133f065793f27d6abdc1be&",
+      "size": 9077,
+      "timestamp": "2026-03-07T09:26:15.646000+00:00"
+    },
+    {
+      "message_id": "1479772147416174777",
+      "filename": "transcript-closed-0033.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772147542134958/transcript-closed-0033.html?ex=69b13534&is=69afe3b4&hm=929448587a8cf4558a25ca97f866a67db84e13a86cac892503fc08c5730c0a6a&",
+      "size": 8129,
+      "timestamp": "2026-03-07T09:26:12.781000+00:00"
+    },
+    {
+      "message_id": "1479772144027177103",
+      "filename": "transcript-closed-0032.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772143628845118/transcript-closed-0032.html?ex=69b13533&is=69afe3b3&hm=b5328ac1ab542335d1b5cf3a4f24ba64d2098c7e9b753dcde2831970d1fefad8&",
+      "size": 9075,
+      "timestamp": "2026-03-07T09:26:11.973000+00:00"
+    },
+    {
+      "message_id": "1479772139673616489",
+      "filename": "transcript-closed-0029.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772139526557747/transcript-closed-0029.html?ex=69b13532&is=69afe3b2&hm=859e147002672e11813091b1726d0bef12787bfdee37d7a56efa59c7c8cd6199&",
+      "size": 5863,
+      "timestamp": "2026-03-07T09:26:10.935000+00:00"
+    },
+    {
+      "message_id": "1479772136305590334",
+      "filename": "transcript-closed-0028.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772136074645675/transcript-closed-0028.html?ex=69b13532&is=69afe3b2&hm=f0a429b7c5dafaab5bb9718be5d941ba36c36568cd39916f3b65f79fc0134231&",
+      "size": 8772,
+      "timestamp": "2026-03-07T09:26:10.132000+00:00"
+    },
+    {
+      "message_id": "1479772133088563252",
+      "filename": "transcript-closed-0027.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772133193285642/transcript-closed-0027.html?ex=69b13531&is=69afe3b1&hm=31a2393f85a598e5bf7c541fb5e946479ff9a89ebf8323519b6c30785ca53094&",
+      "size": 13307,
+      "timestamp": "2026-03-07T09:26:09.365000+00:00"
+    },
+    {
+      "message_id": "1479772130538164337",
+      "filename": "transcript-closed-0018.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772130286764052/transcript-closed-0018.html?ex=69b13530&is=69afe3b0&hm=dfd96f112b2d2dca1a79b7602a038317e1110f4728fe0b65296f0ed49238c770&",
+      "size": 5613,
+      "timestamp": "2026-03-07T09:26:08.757000+00:00"
+    },
+    {
+      "message_id": "1479772127560204350",
+      "filename": "transcript-closed-0021.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772127413407885/transcript-closed-0021.html?ex=69b13530&is=69afe3b0&hm=e71dfd14076f0b91bb01b284415e00eeadb8628270c319dff4886f06744eb986&",
+      "size": 6627,
+      "timestamp": "2026-03-07T09:26:08.047000+00:00"
+    },
+    {
+      "message_id": "1479772124695494748",
+      "filename": "transcript-closed-0023.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772124465074257/transcript-closed-0023.html?ex=69b1352f&is=69afe3af&hm=274b18fa3c59c75812d68b4368ad201bbad4828d681f78eb6cf5f38148be6331&",
+      "size": 11477,
+      "timestamp": "2026-03-07T09:26:07.364000+00:00"
+    },
+    {
+      "message_id": "1479772121789104199",
+      "filename": "transcript-closed-0025.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772121382125639/transcript-closed-0025.html?ex=69b1352e&is=69afe3ae&hm=f029631cc9cc636a956d8181107d589e3056bf0392a637fd90f12d7dc1dcc91c&",
+      "size": 4453,
+      "timestamp": "2026-03-07T09:26:06.671000+00:00"
+    },
+    {
+      "message_id": "1479772117670039706",
+      "filename": "transcript-closed-0024.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772117485617183/transcript-closed-0024.html?ex=69b1352d&is=69afe3ad&hm=f8eac1b815b0461f81965155bc07d1b51cb5bb564c122c422eb5083a4d9029f6&",
+      "size": 5544,
+      "timestamp": "2026-03-07T09:26:05.689000+00:00"
+    },
+    {
+      "message_id": "1479772114537152627",
+      "filename": "transcript-closed-0019.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772114620911696/transcript-closed-0019.html?ex=69b1352c&is=69afe3ac&hm=7d25524fb8739e24e8cb59e57f0d5ba081b6608a979ea284a91a039507ca47ba&",
+      "size": 9669,
+      "timestamp": "2026-03-07T09:26:04.942000+00:00"
+    },
+    {
+      "message_id": "1479772111533904004",
+      "filename": "transcript-closed-0017.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772111248560280/transcript-closed-0017.html?ex=69b1352c&is=69afe3ac&hm=22dbcf51752053964ee207790636b0d6307fc42ee3faabefe65aeadef1afd823&",
+      "size": 5592,
+      "timestamp": "2026-03-07T09:26:04.226000+00:00"
+    },
+    {
+      "message_id": "1479772108556079165",
+      "filename": "transcript-ticket-0016.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772108195106846/transcript-ticket-0016.html?ex=69b1352b&is=69afe3ab&hm=b5f470f17b2b1feb42e2fae471d65f2f02d58c5c4903682ecc65f9c57c549464&",
+      "size": 8505,
+      "timestamp": "2026-03-07T09:26:03.516000+00:00"
+    },
+    {
+      "message_id": "1479772105225801831",
+      "filename": "transcript-closed-0014.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772104852246560/transcript-closed-0014.html?ex=69b1352a&is=69afe3aa&hm=931315e7ab120aba8f04c0bb89505b786d17b3c7f1107f5ff642f9f7bab692ab&",
+      "size": 8465,
+      "timestamp": "2026-03-07T09:26:02.722000+00:00"
+    },
+    {
+      "message_id": "1479772102058971258",
+      "filename": "transcript-closed-0013.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772101744267424/transcript-closed-0013.html?ex=69b13529&is=69afe3a9&hm=eee9b1d0588c95620144c51d2c45f6e2ae611bfe554a3aacf01dc3f741c59ed7&",
+      "size": 12026,
+      "timestamp": "2026-03-07T09:26:01.967000+00:00"
+    },
+    {
+      "message_id": "1479772098166788247",
+      "filename": "transcript-closed-0011.html",
+      "url": "https://cdn.discordapp.com/attachments/1479770687169364082/1479772097734643873/transcript-closed-0011.html?ex=69b13528&is=69afe3a8&hm=76753e64c7c5e1c9eb66fcb97f46c22e72989edf685aa6265033cdefaa51abea&",
+      "size": 6145,
+      "timestamp": "2026-03-07T09:26:01.039000+00:00"
+    }
+  ]
+}

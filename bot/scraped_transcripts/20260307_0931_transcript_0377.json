@@ -1,0 +1,112 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473350439427899526> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : About activity A2",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772786151802,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "I have already posted my week one experience on linkedin and filled the completion of activity form by selecting A2 .Its deadline was march 3\nToday marks my second week so i will post my 2nd week's experience on linkedin so should i again fill the form by selecting A2?",
+      "embeds": [],
+      "created": 1772786224480,
+      "edited": 1772787336139
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473350439427899526> \nNo it was only for week 1",
+      "embeds": [],
+      "created": 1772787777407,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "Okay mam you can close this ticket",
+      "embeds": [],
+      "created": 1772787817854,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772787830582,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772787831148,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772787833527,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0377",
+    "id": "1479397085777498285"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 7
+}

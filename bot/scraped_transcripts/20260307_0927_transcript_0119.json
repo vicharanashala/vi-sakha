@@ -1,0 +1,232 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1471421681124769875> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I completed my case studies but it is not updated",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771563287389,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1471421681124769875> Do not worry, it will be updated soon after phase 2 starts.",
+      "embeds": [],
+      "created": 1771563349116,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "saiaishwarya_61700",
+      "user_id": "1471421681124769875",
+      "is_bot": false,
+      "content": "I am from cohort 2 batch",
+      "embeds": [],
+      "created": 1771563444832,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Ok, It will be updated soon, do not worry.",
+      "embeds": [],
+      "created": 1771563546936,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "saiaishwarya_61700",
+      "user_id": "1471421681124769875",
+      "is_bot": false,
+      "content": "Ok thanks",
+      "embeds": [],
+      "created": 1771563595118,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Also, did you submit yesterday before deadline?",
+      "embeds": [],
+      "created": 1771563649349,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "There was a deadline yesterday for submission",
+      "embeds": [],
+      "created": 1771563668080,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@1471421681124769875>",
+      "embeds": [],
+      "created": 1771565957550,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "saiaishwarya_61700",
+      "user_id": "1471421681124769875",
+      "is_bot": false,
+      "content": "Yes I submitted yesterday",
+      "embeds": [],
+      "created": 1771566270007,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1471421681124769875> This issue will be looked upon.",
+      "embeds": [],
+      "created": 1771571054018,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1471421681124769875> did you use the ViBe registered email for submission of case studies?",
+      "embeds": [],
+      "created": 1771571076407,
+      "edited": 1771571093194
+    },
+    {
+      "index": 12,
+      "author": "saiaishwarya_61700",
+      "user_id": "1471421681124769875",
+      "is_bot": false,
+      "content": "No I think I submitted the case studies using my personal mail",
+      "embeds": [],
+      "created": 1771571385828,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Please use the registered emails to submit the case studies as mentioned in the FAQs.",
+      "embeds": [],
+      "created": 1771574054114,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1471421681124769875> Resubmit again using the Registered mail.",
+      "embeds": [],
+      "created": 1771574086346,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "saiaishwarya_61700",
+      "user_id": "1471421681124769875",
+      "is_bot": false,
+      "content": "Ok will resubmit it again",
+      "embeds": [],
+      "created": 1771574321217,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Tickect",
+      "embeds": [],
+      "created": 1771576033017,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771576039991,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771576040524,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771576043455,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0119",
+    "id": "1474268020779253892"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 19
+}

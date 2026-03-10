@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473838740467089569> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : My mail is yashyashwanth884@gmail.com....My quizzes are not visible after typescript 1 module...please correct this error as soon as possible",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771938635457,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Hi <@1473838740467089569> \nCould you share your cohort name as well\nalso kindly share the screenshot for reference",
+      "embeds": [],
+      "created": 1771938736734,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "ganjiyashwanthkumar",
+      "user_id": "1473838740467089569",
+      "is_bot": false,
+      "content": "My cohort is Aksians...as you can see quiz section is completely gone",
+      "embeds": [],
+      "created": 1771938834062,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Are quiz still being rendered after each video?",
+      "embeds": [],
+      "created": 1771938877701,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "<@1473838740467089569>",
+      "embeds": [],
+      "created": 1771939257008,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "ganjiyashwanthkumar",
+      "user_id": "1473838740467089569",
+      "is_bot": false,
+      "content": "Ok ok thankyou <@1469178567551090933>  now i noticed that it is directing directly to quiz after video",
+      "embeds": [],
+      "created": 1771939659633,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Anytime!\nMay i close the ticket now?",
+      "embeds": [],
+      "created": 1771939691960,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "ganjiyashwanthkumar",
+      "user_id": "1473838740467089569",
+      "is_bot": false,
+      "content": "Yes...\nYou can close the ticket",
+      "embeds": [],
+      "created": 1771939737292,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1469178567551090933>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771939802445,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771939804616,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771939806669,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0218",
+    "id": "1475842344376078482"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

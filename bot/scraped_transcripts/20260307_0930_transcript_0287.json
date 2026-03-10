@@ -1,0 +1,182 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1054510186133471262> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Not able to join general announcement group",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772249444113,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1054510186133471262> can you elaborate on your issue?",
+      "embeds": [],
+      "created": 1772251547354,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "gauravdhawan.",
+      "user_id": "1054510186133471262",
+      "is_bot": false,
+      "content": "When I click on announcement page to follow, it says send it to _________ but no options are showing to be available",
+      "embeds": [],
+      "created": 1772251730830,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1359148118444343517> I'm unable to understand the issue here. Can you help me out here?",
+      "embeds": [],
+      "created": 1772252002519,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "gauravdhawan.",
+      "user_id": "1054510186133471262",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1772252201666,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "gauravdhawan.",
+      "user_id": "1054510186133471262",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1772252203406,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@1054510186133471262> Sir, don't worry",
+      "embeds": [],
+      "created": 1772252379038,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "You don't have to follow any announcement channel",
+      "embeds": [],
+      "created": 1772252388349,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1054510186133471262> \nIs your issue clear?",
+      "embeds": [],
+      "created": 1772461310654,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1054510186133471262> \nIs your issue clear now?",
+      "embeds": [],
+      "created": 1772515648943,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1054510186133471262> \nAs there is no reply from your side we will assume the issue has been resolved. \nHence closing the ticket.",
+      "embeds": [],
+      "created": 1772641220488,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772641595769,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772641596427,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772641598554,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0287",
+    "id": "1477145971321475207"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 14
+}

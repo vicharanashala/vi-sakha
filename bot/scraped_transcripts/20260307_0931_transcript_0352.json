@@ -1,0 +1,252 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1443972202839150734> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I have enrolled on 17th feb in AKSians ,and completed the 20% of the vibe course on 27th feb .As I couldnt complete it in a week ,so will i get the offer letter .If yes then when will I be getting it ?",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772611083771,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1443972202839150734> as mentioned earlier itself, completion of 20% in the 1st week makes you eligible for offer letter",
+      "embeds": [],
+      "created": 1772612909315,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "sandeshdongaonkar",
+      "user_id": "1443972202839150734",
+      "is_bot": false,
+      "content": "Thanks for the clarification. I enrolled on 17th Feb but couldn't complete 20% within the first week due to some reasons. I have now completed 20% of the course on 27th feb . Could you please let me know if I am still eligible to receive the offer letter?",
+      "embeds": [],
+      "created": 1772613143925,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1443972202839150734> \nWE have escalated your query. But till the time it is clarified try to complete further more of the ViBe course.",
+      "embeds": [],
+      "created": 1772645413496,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1443972202839150734> \nIs your issue cleared now?",
+      "embeds": [],
+      "created": 1772697781182,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1443972202839150734> \nIs your issue resolved now?",
+      "embeds": [],
+      "created": 1772773185647,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1443972202839150734> We are closing the ticket since there has been no communication from your side.",
+      "embeds": [],
+      "created": 1772794376283,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "sandeshdongaonkar",
+      "user_id": "1443972202839150734",
+      "is_bot": false,
+      "content": "I Apologize that I couldn't address the message as I was stuck in personal stuff .",
+      "embeds": [],
+      "created": 1772794883788,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "sandeshdongaonkar",
+      "user_id": "1443972202839150734",
+      "is_bot": false,
+      "content": "I am into the vibe course now ,How long do I have to wait for the confirmation that I am eligible for the offer letter",
+      "embeds": [],
+      "created": 1772794935484,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1443972202839150734> please note that if and only if the announced target is achieved within the deadline, you'll be eligible to receive the offer letter",
+      "embeds": [],
+      "created": 1772795112377,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "sandeshdongaonkar",
+      "user_id": "1443972202839150734",
+      "is_bot": false,
+      "content": "As I have already mentioned that I couldn't achieve the target of first week and still if there is a chance, then Jinal Gupta Ma'am replied that she has escalated my query so I am looking for the reply on that ,whether I am allowed or not for the offer letter",
+      "embeds": [],
+      "created": 1772795321769,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1443972202839150734> yes it was escalated to the team and they have guided us to stick with the deadlines and regulations announced before.\n\nCC: <@956180961832362014>",
+      "embeds": [],
+      "created": 1772795390269,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1443972202839150734> is there anything else to discuss upon?",
+      "embeds": [],
+      "created": 1772795622974,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "sandeshdongaonkar",
+      "user_id": "1443972202839150734",
+      "is_bot": false,
+      "content": "Should I stop the course then?",
+      "embeds": [],
+      "created": 1772795667799,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1443972202839150734> No, you can proceed with the internship, you will get a successful completion certificate from Vicharanashala Lab for Education Design upon the completion of the internship(all 3 phases mentioned in the website)",
+      "embeds": [],
+      "created": 1772795802348,
+      "edited": 1772795812340
+    },
+    {
+      "index": 16,
+      "author": "sandeshdongaonkar",
+      "user_id": "1443972202839150734",
+      "is_bot": false,
+      "content": "That will be okay ,thank you",
+      "embeds": [],
+      "created": 1772796124390,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1443972202839150734> Can we close the ticket?",
+      "embeds": [],
+      "created": 1772796350665,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "sandeshdongaonkar",
+      "user_id": "1443972202839150734",
+      "is_bot": false,
+      "content": "Yes .",
+      "embeds": [],
+      "created": 1772796376256,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772796483520,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772796484163,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772796485820,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0352",
+    "id": "1478662798237237308"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 21
+}

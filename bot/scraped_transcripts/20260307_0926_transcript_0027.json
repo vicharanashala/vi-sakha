@@ -1,0 +1,182 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1469382524445786399> Welcome, the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Unexpected decrease in HP.   Dear Support team, My HP decreased suddenly from 142 to 118 and I don't know why. And I have also not violated any rules and regulations.   I would kindly request you to look into the matter. I shall be highly ob",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1770817063820,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "shreshthkumar_09",
+      "user_id": "1469382524445786399",
+      "is_bot": false,
+      "content": "Oh I am sorry I think the message got chopped in the end I wrote, \n\nDear Support Team,\n\n         My HP decreased suddenly from 142 to 118 and I don't know why. And I have also not violated any rules and regulations. I would kindly request you to look into the matter.\nI shall be highly obliged to you for this.\n\nThank you \nYours sincerely \nShreshth Kumar \nEmail ID - shreshthkumar2808@gmail.com \nInternship Id - \"WIN251601\"",
+      "embeds": [],
+      "created": 1770817523561,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "yazdan_irfan",
+      "user_id": "761846131679297546",
+      "is_bot": false,
+      "content": "Hi Shreshth \nWe suggest you to ones confirm weather a reason is mentioned in the live dashboard of your Cohort Website under the Health Point -> Add/remove reason",
+      "embeds": [],
+      "created": 1770829945026,
+      "edited": 1770829978239
+    },
+    {
+      "index": 4,
+      "author": "shreshthkumar_09",
+      "user_id": "1469382524445786399",
+      "is_bot": false,
+      "content": "Hello <@761846131679297546> \nI looked it up on the website dashboard I don't see any reason there for hp decrease",
+      "embeds": [],
+      "created": 1770830881824,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "shreshthkumar_09",
+      "user_id": "1469382524445786399",
+      "is_bot": false,
+      "content": "I only see 10% hp added for attending 31 st January standup meeting which was updated on 2 nd February",
+      "embeds": [],
+      "created": 1770831184719,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "shreshthkumar_09",
+      "user_id": "1469382524445786399",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1770831258488,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "shreshthkumar_09",
+      "user_id": "1469382524445786399",
+      "is_bot": false,
+      "content": "Hello,\nIs there any update?",
+      "embeds": [],
+      "created": 1770860054973,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@836880971017748512>",
+      "embeds": [],
+      "created": 1770905845332,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1469382524445786399> We have noticed that instead of 10% increase in HP which was intended, 30% was given by the scripts. It was a mistake from our side that the scripts have mistook the increment. This is the reason why there was a decreement in HP.",
+      "embeds": [],
+      "created": 1770908082822,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "shreshthkumar_09",
+      "user_id": "1469382524445786399",
+      "is_bot": false,
+      "content": "Ok sir thank you for the clarification . 🙂🙏",
+      "embeds": [],
+      "created": 1770950153077,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "Are you sure you would like to close this ticket?",
+      "embeds": [],
+      "created": 1771002184693,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1469382524445786399>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771002206448,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771002207161,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771006628994,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0027",
+    "id": "1471138132232769666"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 14
+}

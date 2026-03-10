@@ -1,0 +1,11 @@
+Student (hareesh2337): Access Restricted Error After JavaScript Module for TypeScript Module – Vibe Platform Hello, After completing the JavaScript lectures in the Vinternship program on the Vibe platform, I am unable to access the TypeScript module. It shows “Access restricted – returning to previous valid content” and redirects me to React instead. I have tried clearing cache, hard refresh, and re-logging, but the issue persists. I have attached the screenshot of the error message. Please check my access permissions. Thank you.
+
+Instructor (sreehari5371): 24f2003358.study.iitm.ac.in - is this your email address? You have completed JavaScript, and now you want to watch the very first video of TypeScript, correct?
+
+Student (hareesh2337): Yes, 24f2003358.study.iitm.ac.in - this is my registered email ID. I have completed the JavaScript module and I am trying to access the first TypeScript lecture, but it shows “Access restricted” and redirects me to React. Thank you
+
+Instructor (jinalgupta.): We sincerely apologize for the inconvenience caused from our end. Please be assured that we are actively working on resolving this issue and will get back to you at the earliest with an update. Thank you for your patience and understanding.
+
+Student (hareesh2337): Thank you for your support Now The issue has been resolved I am able to access TypeScript Video Lectures
+
+Instructor (nitin_fighter1379): closing the ticket

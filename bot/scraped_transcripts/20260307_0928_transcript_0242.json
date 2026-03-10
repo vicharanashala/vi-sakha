@@ -1,0 +1,264 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1145347907101405276> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I have unable to access the quiz 1  (cannot read undefined id)from typescript class architecture oops module",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772001755004,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1449603507865784334> Please look into the issue.",
+      "embeds": [],
+      "created": 1772001787016,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1145347907101405276> Kindly mention your cohort, give your email ID and also explain your query in detail that which quiz is not loading.",
+      "embeds": [],
+      "created": 1772001809499,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "pachipalanareshkumar",
+      "user_id": "1145347907101405276",
+      "is_bot": false,
+      "content": "<@1449603507865784334> p.nareshkumar9347@gmail.com\nAksians and  I have unable to access the quiz 1  (cannot read undefined id)from typescript class architecture oops module",
+      "embeds": [],
+      "created": 1772001871727,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "pachipalanareshkumar",
+      "user_id": "1145347907101405276",
+      "is_bot": false,
+      "content": "<@836880971017748512>i mentioned properly know",
+      "embeds": [],
+      "created": 1772001997338,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1145347907101405276>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772002587706,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@956180961832362014>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1772002641734,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1145347907101405276> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772002652771,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "pachipalanareshkumar",
+      "user_id": "1145347907101405276",
+      "is_bot": false,
+      "content": "<@956180961832362014> No issue not resolved",
+      "embeds": [],
+      "created": 1772002696785,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "OK <@1145347907101405276> Please be patient. We are looking into your issue it will take sometime to do so.",
+      "embeds": [],
+      "created": 1772002737122,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "pachipalanareshkumar",
+      "user_id": "1145347907101405276",
+      "is_bot": false,
+      "content": "<@956180961832362014> I get no active courses in my dashboard",
+      "embeds": [],
+      "created": 1772002738527,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1145347907101405276> Kindly wait.",
+      "embeds": [],
+      "created": 1772002750416,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "There might be some changes going on that may have caused this issue. It may take sometime to resolve the same.",
+      "embeds": [],
+      "created": 1772002783254,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "pachipalanareshkumar",
+      "user_id": "1145347907101405276",
+      "is_bot": false,
+      "content": "<@956180961832362014> Ok",
+      "embeds": [],
+      "created": 1772002819927,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@759435748721557514> \nKindly look into this issue.",
+      "embeds": [],
+      "created": 1772002906819,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "<@1145347907101405276> Kindly be assured that your progress remains safe and unaffected. The issue will be resolved as soon as possible.",
+      "embeds": [],
+      "created": 1772003082736,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "<@1145347907101405276> The issue has been resolved. Please verify and let us know the status.",
+      "embeds": [],
+      "created": 1772004700030,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "pachipalanareshkumar",
+      "user_id": "1145347907101405276",
+      "is_bot": false,
+      "content": "Issue resolved",
+      "embeds": [],
+      "created": 1772005261063,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772006218035,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772006218518,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772006221167,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0242",
+    "id": "1476107087556645007"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 21
+}

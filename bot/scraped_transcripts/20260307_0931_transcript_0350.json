@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1022465956003459092> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I have completed my A1 activity but in HP dashboard my bonous is displayed as +5% but not added to total . I am from AKSians Batch.Please look into this",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772602827075,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "bhanu_teja_t_s",
+      "user_id": "1022465956003459092",
+      "is_bot": false,
+      "content": "BHANU TEJA T S",
+      "embeds": [],
+      "created": 1772602873372,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1022465956003459092> \nWe have escalated your query.",
+      "embeds": [],
+      "created": 1772644101627,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "bhanu_teja_t_s",
+      "user_id": "1022465956003459092",
+      "is_bot": false,
+      "content": "Thank you",
+      "embeds": [],
+      "created": 1772644127736,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1022465956003459092>  is the issue resolved? Cant the ticket be closed?",
+      "embeds": [],
+      "created": 1772707694296,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1022465956003459092> \nThe HP issue has been resolved from our side now. \nKindly  take a look a nd do report to us.",
+      "embeds": [],
+      "created": 1772708956452,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "bhanu_teja_t_s",
+      "user_id": "1022465956003459092",
+      "is_bot": false,
+      "content": "Yes it has been resolved,Thank YOU!!!",
+      "embeds": [],
+      "created": 1772719950323,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "Are you sure you would like to close this ticket?",
+      "embeds": [],
+      "created": 1772719964976,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1022465956003459092>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772719968036,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772719968503,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772720096331,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0350",
+    "id": "1478628166921617498"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

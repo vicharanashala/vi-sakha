@@ -1,0 +1,23 @@
+Student (saiaishwarya_61700): I completed my case studies but it is not updated
+
+Instructor (nitin_fighter1379): Do not worry, it will be updated soon after phase 2 starts.
+
+Student (saiaishwarya_61700): I am from cohort 2 batch
+
+Instructor (nitin_fighter1379): Ok, It will be updated soon, do not worry.
+
+Student (saiaishwarya_61700): Ok thanks
+
+Instructor (nitin_fighter1379): Also, did you submit yesterday before deadline? There was a deadline yesterday for submission
+
+Student (saiaishwarya_61700): Yes I submitted yesterday
+
+Instructor (nitin_fighter1379): This issue will be looked upon. did you use the ViBe registered email for submission of case studies?
+
+Student (saiaishwarya_61700): No I think I submitted the case studies using my personal mail
+
+Instructor (nitin_fighter1379): Please use the registered emails to submit the case studies as mentioned in the FAQs. Resubmit again using the Registered mail.
+
+Student (saiaishwarya_61700): Ok will resubmit it again
+
+Instructor (nitin_fighter1379): Closing the Tickect

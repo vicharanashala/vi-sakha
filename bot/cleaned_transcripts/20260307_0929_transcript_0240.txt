@@ -1,0 +1,29 @@
+Student (aaryan.1111): quiz is not working
+
+Instructor (jinalgupta.): Kindly mention your cohort, give your email ID and also explain your query in detail that which quiz is not loading
+
+Student (aaryan.1111): this kind of error face and i enrolled 19 feb , and i completed 9% only so please can you tell me about my deadline is today or this full week?
+
+Instructor (jinalgupta.): Kindly mention your cohort, give your email ID and also explain your query in detail that which quiz is not loading.
+
+Student (aaryan.1111): kamblearyan644.com
+
+Instructor (sreehari5371): We are actively working on the issue and expect it to be resolved shortly.
+
+Student (aaryan.1111): sir , how much time to resolve this issue ?
+
+Instructor (sreehari5371): kindly check now
+
+Student (aaryan.1111): sir again same problem face
+
+Instructor (sreehari5371): The issue has been resolved. Please verify and let us know the status.
+
+Student (aaryan.1111): this kind of glicth i face whenever i going in 3 quiz and you can see my 3 video completed why i am not access the quiz 3 i watch again from 1 video but still its show this
+
+Instructor (nitin_fighter1379, riyamehtaatwork, sreehari5371): Please look into it. Are you currently on "Introduction to TypeScript" section video 3? Kindly let us know the details
+
+Student (aaryan.1111): after refresh dashboard glitch remove completely
+
+Instructor (riyamehtaatwork): Okay Should we close this ticket?
+
+Student (aaryan.1111): yeah , thankl you for your guidance

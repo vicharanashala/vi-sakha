@@ -1,0 +1,482 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1237721609209511958> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : progress went back completed modules still showing them even after hard refresh and logout",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772038716428,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "i had done my course till here \nand when i tried to refresh to check my progress and the baar it went back a lot",
+      "embeds": [],
+      "created": 1772039537693,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "currently it shows me that i am on 1st section of MongoDB eventhough i have completed all of that",
+      "embeds": [],
+      "created": 1772039581453,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@1237721609209511958> , please share where were your actual progress : item ,section and mudule name",
+      "embeds": [],
+      "created": 1772040350790,
+      "edited": 1772040374531
+    },
+    {
+      "index": 5,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "i had to start EXpress module 5th section 1st video\nexpress:authentication and authorization",
+      "embeds": [],
+      "created": 1772040575920,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "are you available for a call from you pc or laptop now ?",
+      "embeds": [],
+      "created": 1772040686675,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "i can not hop on a call right now",
+      "embeds": [],
+      "created": 1772040700650,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "ok, please contact here(tag tech support) again whenever you are available for a call from PC/Laptop",
+      "embeds": [],
+      "created": 1772040899707,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "i can follow the steps if you tell me being on a call is difficult for me",
+      "embeds": [],
+      "created": 1772040931594,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "It would be easy to understand the issue over call, You can ping here again whenever you are avaialable for a call.",
+      "embeds": [],
+      "created": 1772041063552,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "will it resolve as the progress took a lot of time",
+      "embeds": [],
+      "created": 1772041182842,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "yes <@1237721609209511958>",
+      "embeds": [],
+      "created": 1772041877077,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1237721609209511958> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772084750744,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "no",
+      "embeds": [],
+      "created": 1772132325694,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "my progress is still not updated",
+      "embeds": [],
+      "created": 1772132329691,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "<@&1473943500390141984>",
+      "embeds": [],
+      "created": 1772132339362,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@1237721609209511958> , are you available for a call from your pc now?",
+      "embeds": [],
+      "created": 1772134783140,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "if not now, please mention a suitable time we can connect over call.",
+      "embeds": [],
+      "created": 1772134880316,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "YES I AM",
+      "embeds": [],
+      "created": 1772135031998,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "I am available right now",
+      "embeds": [],
+      "created": 1772135055642,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@1237721609209511958> \nI am escalating the matter and will let you know after resolving the issue.",
+      "embeds": [],
+      "created": 1772136262899,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1237721609209511958> \nIs your issue resolved?\nCC: <@1178273014085857294>",
+      "embeds": [],
+      "created": 1772169303427,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "no",
+      "embeds": [],
+      "created": 1772186676658,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "i hoped on a vc and then sir told me he is escalating the ticket t ohis senior",
+      "embeds": [],
+      "created": 1772186702617,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "the issue is not resolved",
+      "embeds": [],
+      "created": 1772186709952,
+      "edited": null
+    },
+    {
+      "index": 26,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1237721609209511958> Could you share one screen recording of the issue are you facing. it would be helpfull for us to resolve your issue properly. Thank you.",
+      "embeds": [],
+      "created": 1772189661455,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "the issue is my progress has gone back",
+      "embeds": [],
+      "created": 1772194892465,
+      "edited": null
+    },
+    {
+      "index": 28,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "i was in express mdule and somehow it is back to mongo db",
+      "embeds": [],
+      "created": 1772194911608,
+      "edited": null
+    },
+    {
+      "index": 29,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "I WAS HERE",
+      "embeds": [],
+      "created": 1772195997470,
+      "edited": null
+    },
+    {
+      "index": 30,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "ANS NOW IT SHOWS ME I AM GERE",
+      "embeds": [],
+      "created": 1772196056266,
+      "edited": null
+    },
+    {
+      "index": 31,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "I AM NOT ABLE TO STUDY DUE TO THI S",
+      "embeds": [],
+      "created": 1772196063770,
+      "edited": null
+    },
+    {
+      "index": 32,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "<@&1473943500390141984>",
+      "embeds": [],
+      "created": 1772196169719,
+      "edited": null
+    },
+    {
+      "index": 33,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1366708005483053076> \nKindly help us out here.",
+      "embeds": [],
+      "created": 1772196649025,
+      "edited": null
+    },
+    {
+      "index": 34,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "i also faced this kind of issue around 5 days ago the one mentor who helped me then completed the course and then backed it up to the point i shoud be at",
+      "embeds": [],
+      "created": 1772197214774,
+      "edited": null
+    },
+    {
+      "index": 35,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "Hi, <@1237721609209511958> \n\nWe have reviewed your progress and quiz submissions for the Express module, but no related submissions or data were found. We can only see that you have completed both videos and quizzes up to the MongoDB module (Installation section). Therefore, we kindly request you to share a screen recording of the issue so we can confirm whether you have completed the MongoDB module and any videos or quizzes under the Express section. Thank you\n\nCC: <@874267631350317106>, <@1468955868019298526>",
+      "embeds": [],
+      "created": 1772200865320,
+      "edited": 1772200886774
+    },
+    {
+      "index": 36,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "but how will i prove that i have done it till there ? all i have is a ss to prove that i was there",
+      "embeds": [],
+      "created": 1772210080914,
+      "edited": null
+    },
+    {
+      "index": 37,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1237721609209511958> \n\nWe apologize for the inconvenience caused. Since we are unable to find any data indicating completion of the Express module, it is necessary to share a screen recording after clicking the Continue button, showing the “Completed” tag on the items under the Express module. Also, you may click the View Details button (on dashboard course card) and share a screenshot. We will consider this as proof of completion. This will help us update your progress accordingly.",
+      "embeds": [],
+      "created": 1772243464251,
+      "edited": null
+    },
+    {
+      "index": 38,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "when io click continue it starts me from the mongodb module \nfor the proof of express i only have a screenshot \nstating that i have completed the module \nin the view details section too it shows till mongodb",
+      "embeds": [],
+      "created": 1772269807878,
+      "edited": null
+    },
+    {
+      "index": 39,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "why should i do the course again if i have already done it once?",
+      "embeds": [],
+      "created": 1772269825613,
+      "edited": null
+    },
+    {
+      "index": 40,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1237721609209511958> we'll arrange an escalation meet to discuss the issue and sort it out hands on with the tech team.... Please state your availability.... Is 7 good?\n\nCC: <@666826791016595456> <@1468955868019298526> <@956180961832362014>",
+      "embeds": [],
+      "created": 1772271958028,
+      "edited": null
+    },
+    {
+      "index": 41,
+      "author": "girish_jain",
+      "user_id": "1237721609209511958",
+      "is_bot": false,
+      "content": "i am free at 8 if that works?",
+      "embeds": [],
+      "created": 1772273059619,
+      "edited": null
+    },
+    {
+      "index": 42,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1237721609209511958>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772293188972,
+      "edited": null
+    },
+    {
+      "index": 43,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772293191304,
+      "edited": null
+    },
+    {
+      "index": 44,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772293405685,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0255",
+    "id": "1476262115135193320"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 44
+}

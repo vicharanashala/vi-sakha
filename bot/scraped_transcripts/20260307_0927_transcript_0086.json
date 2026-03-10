@@ -1,0 +1,192 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1291464523559075953> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I didn't receive the zoom meeting link for yesterday's stand up session via mail",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771392611919,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1291464523559075953> \nYour ViBe progress was below 25% after the deadline. \nThis may be a reason that you might have not received the zoom meeting link.",
+      "embeds": [],
+      "created": 1771394060734,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "architamitra_",
+      "user_id": "1291464523559075953",
+      "is_bot": false,
+      "content": "No.. it isn't",
+      "embeds": [],
+      "created": 1771395676065,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "architamitra_",
+      "user_id": "1291464523559075953",
+      "is_bot": false,
+      "content": "It is at 73",
+      "embeds": [],
+      "created": 1771395681180,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "architamitra_",
+      "user_id": "1291464523559075953",
+      "is_bot": false,
+      "content": "Before that it was 60+",
+      "embeds": [],
+      "created": 1771395690575,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1291464523559075953> You might not have completed the previous deadlines",
+      "embeds": [],
+      "created": 1771396273990,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "architamitra_",
+      "user_id": "1291464523559075953",
+      "is_bot": false,
+      "content": "I only missed the last one",
+      "embeds": [],
+      "created": 1771396294387,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1291464523559075953> \nWe kindly request you to adhere to all deadlines, as missing them may unfortunately lead to discontinuation.",
+      "embeds": [],
+      "created": 1771396817915,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "architamitra_",
+      "user_id": "1291464523559075953",
+      "is_bot": false,
+      "content": "So my internship has been discontinued? Please kindly confirm",
+      "embeds": [],
+      "created": 1771396871957,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As per the program requirements, participants were expected to complete 50% of VIBE within the given deadline. Since this milestone was not met, the internship has been discontinued.\nWe sincerely appreciate your efforts and encourage you to apply again for the upcoming cohort. We would be happy to have you back in the next cohorts.",
+      "embeds": [],
+      "created": 1771413654384,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@1291464523559075953>",
+      "embeds": [],
+      "created": 1771487275929,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Archita Mitra has left the channel. Hence the ticket can be closed. \n<@836880971017748512>",
+      "embeds": [],
+      "created": 1771666589895,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771667104016,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771667104584,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771667106596,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0086",
+    "id": "1473552156052160673"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 15
+}

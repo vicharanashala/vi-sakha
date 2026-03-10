@@ -1,0 +1,282 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1256570433877049364> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Backend issue ViBe completion and HP not corrected after confirmation from support.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771933260178,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1256570433877049364> Please elaborate on the issue.",
+      "embeds": [],
+      "created": 1771933311820,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "sarthak_2005",
+      "user_id": "1256570433877049364",
+      "is_bot": false,
+      "content": "Hello,\n\nI am raising this ticket regarding my ViBe completion and HP correction issue.\n\nBefore the deadline, several videos that were earlier marked as “Completed” were automatically reset and no longer reflected as completed. Due to this tracking issue, my progress remained below 100% even though I had completed the required content from my side.\n\nI reported this issue before the deadline and I received confirmation from support that:\n1. I would be considered as having completed the ViBe course.\n2. Any HP reduction in this regard would be reverted.\n\nHowever, as of now:\n• Completion status still does not reflect correctly.\n• The -10% HP penalty has not been reverted.\n• The +10% HP completion reward has not been applied.\n\nThe deadline passed a week ago, and this issue was reported in advance. Since it directly affects my HP and completion status despite prior confirmation, I kindly request you to verify my activity logs and process the correction at the earliest.\n\nPlease let me know if any additional information is required from my side.",
+      "embeds": [],
+      "created": 1771933386055,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "sarthak_2005",
+      "user_id": "1256570433877049364",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771933472123,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1256570433877049364> please mention the following:\n1. Completion date of the ViBe course\n2. Percentage of completion\n3. Cohort name",
+      "embeds": [],
+      "created": 1771933475264,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "sarthak_2005",
+      "user_id": "1256570433877049364",
+      "is_bot": false,
+      "content": "Hello,\n\nPlease find the requested details below:\n\nCompletion date of the ViBe course: 12 Feb, 2026\n\nPercentage of completion: 99.7%\n\nCohort name: Euclideans\n\nPlease let me know if any further details are required.\n\nThank you.",
+      "embeds": [],
+      "created": 1771933685014,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1256570433877049364> Your issue is forwarded and the HP will be reverted and awarded",
+      "embeds": [],
+      "created": 1771934997439,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "sarthak_2005",
+      "user_id": "1256570433877049364",
+      "is_bot": false,
+      "content": "Ok, thank you",
+      "embeds": [],
+      "created": 1771935027398,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1256570433877049364> \nIs your issue been resolved?",
+      "embeds": [],
+      "created": 1771940661646,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "sarthak_2005",
+      "user_id": "1256570433877049364",
+      "is_bot": false,
+      "content": "Not yet",
+      "embeds": [],
+      "created": 1771940754115,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Ok don't worry it will be resolved soon we have escalated your query.",
+      "embeds": [],
+      "created": 1771940787994,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "sarthak_2005",
+      "user_id": "1256570433877049364",
+      "is_bot": false,
+      "content": "Not yet",
+      "embeds": [],
+      "created": 1772030325703,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1256570433877049364> please mention your mail id too",
+      "embeds": [],
+      "created": 1772030801519,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "sarthak_2005",
+      "user_id": "1256570433877049364",
+      "is_bot": false,
+      "content": "sarthakgoel_23cs380@dtu.ac.in",
+      "embeds": [],
+      "created": 1772030827749,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1256570433877049364> \nThe HP's have been reverted. \nIt may take sometime to be visible on the dashboard.",
+      "embeds": [],
+      "created": 1772083772305,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "sarthak_2005",
+      "user_id": "1256570433877049364",
+      "is_bot": false,
+      "content": "My HP is now correctly updated, thank you.\nHowever, the leaderboard rank does not reflect the updated HP yet.\nKindly confirm if it will auto-update or needs manual refresh.",
+      "embeds": [],
+      "created": 1772085899767,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "It will update automatically but may take some time.",
+      "embeds": [],
+      "created": 1772085949969,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "sarthak_2005",
+      "user_id": "1256570433877049364",
+      "is_bot": false,
+      "content": "Ok",
+      "embeds": [],
+      "created": 1772085968468,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1256570433877049364> As the issue has been resolved can we close this ticket?",
+      "embeds": [],
+      "created": 1772085988899,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "sarthak_2005",
+      "user_id": "1256570433877049364",
+      "is_bot": false,
+      "content": "Yes, the issue has been resolved.",
+      "embeds": [],
+      "created": 1772086046376,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1772086069706,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772086079359,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772086079794,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772086081681,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0217",
+    "id": "1475819799605936158"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 24
+}

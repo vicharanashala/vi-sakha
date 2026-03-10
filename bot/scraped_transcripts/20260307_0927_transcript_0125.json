@@ -1,0 +1,142 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1167445225246031883> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Where can we find codes used in lectures in vibe portal for a quick revision?",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771580190879,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1167445225246031883> Those are the case studies taught. So you can take a look at the Case studies to get an idea.",
+      "embeds": [],
+      "created": 1771580310554,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "brangotur",
+      "user_id": "1167445225246031883",
+      "is_bot": false,
+      "content": "but for Javascript there is no case study",
+      "embeds": [],
+      "created": 1771581415311,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Will speak with the team and let you know whether we can release the code.",
+      "embeds": [],
+      "created": 1771582338232,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "brangotur",
+      "user_id": "1167445225246031883",
+      "is_bot": false,
+      "content": "ok thanks! It will be helpful if the code will be available on github for quick revision of the concepts",
+      "embeds": [],
+      "created": 1771585967560,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1167445225246031883> \nWe have escalated your issue. \nThey will take the appropriate decision henceforth. \nWe hope your doubt is cleared?",
+      "embeds": [],
+      "created": 1771666719033,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "brangotur",
+      "user_id": "1167445225246031883",
+      "is_bot": false,
+      "content": "yes",
+      "embeds": [],
+      "created": 1771695068057,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1167445225246031883>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771695078309,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771695078925,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771739683666,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0125",
+    "id": "1474338919762890814"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 10
+}

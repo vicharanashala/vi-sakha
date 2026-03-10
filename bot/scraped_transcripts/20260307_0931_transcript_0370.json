@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473715810542555208> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Request to consider taking me in volunteers group. I would genuinely like to help people out as much as I can.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772730200025,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473715810542555208> we are glad that people are coming up. We will consider you as a volunteer. Meanwhile you can help out your peers in the channels.\n\nCC: <@956180961832362014>",
+      "embeds": [],
+      "created": 1772760811547,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1359148118444343517> \nKindly help out <@1473715810542555208>",
+      "embeds": [],
+      "created": 1772769970495,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "shaurya.loop",
+      "user_id": "775738285103775775",
+      "is_bot": false,
+      "content": "Welcome to the Volunteers Club ✅  <@1473715810542555208> \n\nCC: <@836880971017748512> <@956180961832362014>",
+      "embeds": [],
+      "created": 1772773395647,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "sereena_thomas",
+      "user_id": "1473715810542555208",
+      "is_bot": false,
+      "content": "Thank you so much",
+      "embeds": [],
+      "created": 1772793498268,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "sereena_thomas",
+      "user_id": "1473715810542555208",
+      "is_bot": false,
+      "content": "Thank youu glad to be a part of it🙏",
+      "embeds": [],
+      "created": 1772793523968,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473715810542555208> Can I close the ticket?",
+      "embeds": [],
+      "created": 1772793572010,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "sereena_thomas",
+      "user_id": "1473715810542555208",
+      "is_bot": false,
+      "content": "yes",
+      "embeds": [],
+      "created": 1772793583956,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772793592823,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772793593459,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772793595228,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0370",
+    "id": "1479162406889586810"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

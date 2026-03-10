@@ -1,0 +1,3 @@
+Student (sekiro_vg81): video quality issue on vibe no my video quality is still bad my suggestion is to make a resolution selector to give users manual control over the video playback quality
+
+Instructor (jinalgupta., riyamehtaatwork): Kindly look at this issue. HI Please try the following and attach the screenshots if these do not work, and the issue persists: 1. Hard reload the browser 2. Use an incognito tab to login 3. Try a different Browser Also attach your network speed screenshot. As there is no reply we will mark the issue as resolved. Hence closing the ticket.

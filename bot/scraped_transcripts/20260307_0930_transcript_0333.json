@@ -1,0 +1,142 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1471866849565347892> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I have completed my Vibe lecture with 100% completion. A 10% increase is showing in individual HP, but the health points have not been added to my total HP.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772525431386,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1471866849565347892> \nThey will be added soon. It may take sometime so kindly wait for the same.",
+      "embeds": [],
+      "created": 1772643633296,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "We have escalated your issue.",
+      "embeds": [],
+      "created": 1772643641010,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "aryankumararya_",
+      "user_id": "1471866849565347892",
+      "is_bot": false,
+      "content": "Thank you.",
+      "embeds": [],
+      "created": 1772643668163,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1471866849565347892> \nYou HP has been updated kindly check once.",
+      "embeds": [],
+      "created": 1772696038014,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "aryankumararya_",
+      "user_id": "1471866849565347892",
+      "is_bot": false,
+      "content": "<@956180961832362014> Yes I have checked . Thanks for the help .",
+      "embeds": [],
+      "created": 1772696101776,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue is resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1772696979718,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772696985037,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772696985445,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772696987311,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0333",
+    "id": "1478303545353572443"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 10
+}

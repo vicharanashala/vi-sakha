@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1469339907485860129> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I completed all course requirements before the deadline, but one quiz was not reflected as completed in the system. Since quiz status is not visible to students, I was unaware of the issue. I sent multiple emails and raised the concern throu",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772363337662,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469339907485860129> \nKindly elaborate your issue.",
+      "embeds": [],
+      "created": 1772363653747,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "ekanshagrawal_43514",
+      "user_id": "1469339907485860129",
+      "is_bot": false,
+      "content": "Hello mam,\nI completed all course components before the deadline from my end. However, one quiz was not reflected as completed in the system. Since quiz completion status is not visible to students, I was unaware that it had not been properly registered.\n\nAs soon as I realized the issue, I sent multiple emails and raised the concern through the Vi-Sakha AI assistant, following all suggested steps, but I did not receive a response at that time. The issue was later resolved after discussion on the official Discord server.\n\nI am requesting reconsideration because the submission was completed before the deadline, and the issue occurred due to a system-related error beyond my control.",
+      "embeds": [],
+      "created": 1772364065921,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "ekanshagrawal_43514",
+      "user_id": "1469339907485860129",
+      "is_bot": false,
+      "content": "so under 100% vibe course deadline i have received -10% thats why i am falling into unsafe zone.",
+      "embeds": [],
+      "created": 1772364211490,
+      "edited": 1772371454086
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469339907485860129> \nAs we already stated that we have closed the support desk emails. Sorry for the inconvenience caused. \nKindly mention your cohort name so that I can escalate your query.",
+      "embeds": [],
+      "created": 1772424508079,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "ekanshagrawal_43514",
+      "user_id": "1469339907485860129",
+      "is_bot": false,
+      "content": "mam i am from Euclidean cohort \ne-mail: ekanshagrawal_23cs149@dtu.ac.in\nphone: 7838024822",
+      "embeds": [],
+      "created": 1772444050930,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469339907485860129> \nwe have escalated your issue.",
+      "embeds": [],
+      "created": 1772447854037,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "imsakshivk",
+      "user_id": "1293270010537578575",
+      "is_bot": false,
+      "content": "resolved",
+      "embeds": [],
+      "created": 1772509344557,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1293270010537578575>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772509354724,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772509355159,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772513183583,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0300",
+    "id": "1477623675443220612"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

@@ -1,0 +1,23 @@
+Student (thefazalkarim): My name appears as my Roll Number followed by my actual name on the vibe platform. Is it possible to change it? I got mixed answers in the discussion forum and no reply on mail. My name appears as 24F3004636 S on the leaderboard which is not my actual name, its just my roll number, the vibe platform automatically took this name while registering as my name on my college gmail account is 24F3004636 S M FAZAL KARIM. And one the leaderboard and the live dashboard my name appears as 24F3004636 S as seen in the screenshot above. My real name, that is my full legal name is S M Fazal Karim, like it appears here on Discord.
+
+Instructor (nitin_fighter1379): This might be an issue as your college domain mail might recognize the roll number as your first name. Do not worry if the progress are good, we'll see what we can do in this regard.
+
+Student (thefazalkarim): okay so right now i don't need to worry about it, right? I was worrying that my name here on Discord and the leaderboards, dashboards are different so it might create some identification problems
+
+Instructor (jinalgupta.): No there is no issue. Don't worry. Just see if you have the option to edit your name in the profile section of ViBe if it starts working then you can easily change your name. Else no worries. Just keep progressing. We hope your doubt is cleared now.
+
+Student (thefazalkarim): yes there is an option to edit on vibe, i was unsure whether we are allowed to change it or not since on registration it automatically took my name from the college gmail id
+
+Instructor (jinalgupta.): Then no issues. you can keep going with the progress.
+
+Student (thefazalkarim): so i should be editing it on vibe ig?
+
+Instructor (jinalgupta.): You can leave it as it is also as it won't create any issue.
+
+Student (thefazalkarim): okay then, thank you
+
+Instructor (jinalgupta.): So I hope your doubt is cleared ?
+
+Student (thefazalkarim): yes it is thank you
+
+Instructor (jinalgupta.): As the issue has been resolved so closing the ticket.

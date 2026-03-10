@@ -1,0 +1,279 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1397587600306470962> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Hello sir/mam  I am a student of cohort 5 Akasians  I have my completed my joy of computing python NPTEL courses in last sem and this sem I have enrolled in some other courses that is not sudarshan sir . So I have a doubt will I get the cert",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771944576380,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@1397587600306470962> , we have noted your issue, we will get back to you after checking with the concern team.\ncc: <@956180961832362014> Mam",
+      "embeds": [],
+      "created": 1771956790693,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1397587600306470962> \nWe have escalated your query. We will soon release an official announcement regarding the same.",
+      "embeds": [],
+      "created": 1772002292621,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Till the time you can continue with your ViBe progress",
+      "embeds": [],
+      "created": 1772002322204,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "aayushishipra",
+      "user_id": "1397587600306470962",
+      "is_bot": false,
+      "content": "Mam please it's a request to please give me a chance to continue the internship \nI assure that I will give my 100% to complete the internship",
+      "embeds": [],
+      "created": 1772002379266,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Yes yes sure. \nJust for now get enrolled in any of the sir's courses on NPTEL. \nAnd continue with your ViBe course.",
+      "embeds": [],
+      "created": 1772002432027,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "aayushishipra",
+      "user_id": "1397587600306470962",
+      "is_bot": false,
+      "content": "But the registration are closed",
+      "embeds": [],
+      "created": 1772002462112,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Ok we have escalated your query and it is under review. \nThere will soon be an announcement regarding the same.",
+      "embeds": [],
+      "created": 1772002564732,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "aayushishipra",
+      "user_id": "1397587600306470962",
+      "is_bot": false,
+      "content": "Ok thankyou mam \nBut please mam don't eliminate from this opportunity",
+      "embeds": [],
+      "created": 1772011354804,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1397587600306470962> \nDon't worry we won't eliminate you from this opportunity",
+      "embeds": [],
+      "created": 1772083880745,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1397587600306470962> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772514465963,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Can we close this ticket now?",
+      "embeds": [],
+      "created": 1772514475314,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "aayushishipra",
+      "user_id": "1397587600306470962",
+      "is_bot": false,
+      "content": "I will get the completion certificate n",
+      "embeds": [],
+      "created": 1772514503227,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1397587600306470962> \nIs your name on the dashboard?",
+      "embeds": [],
+      "created": 1772514527488,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "aayushishipra",
+      "user_id": "1397587600306470962",
+      "is_bot": false,
+      "content": "Which dashboard?",
+      "embeds": [],
+      "created": 1772514541564,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "I hope you are following this website for regular updates: \nhttps://sudarshansudarshan.github.io/vinternship/",
+      "embeds": [
+        {
+          "title": "Welcome to Vinternship",
+          "description": "Vinternship - A comprehensive full-stack development internship program covering the MERN stack and modern web technologies. Master TypeScript, React, Express.js, and MongoDB through hands-on case studies.",
+          "url": "https://sudarshansudarshan.github.io/vinternship/",
+          "fields": []
+        }
+      ],
+      "created": 1772515031228,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "aayushishipra",
+      "user_id": "1397587600306470962",
+      "is_bot": false,
+      "content": "Yes mam my name is there in the dashboard at 164 position",
+      "embeds": [],
+      "created": 1772521074355,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "If your name is there then keep completing the milestones to get the certificate.",
+      "embeds": [],
+      "created": 1772533478491,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1397587600306470962> \nI hope your issue has been resolved now?",
+      "embeds": [],
+      "created": 1772533490075,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "aayushishipra",
+      "user_id": "1397587600306470962",
+      "is_bot": false,
+      "content": "Yes mam",
+      "embeds": [],
+      "created": 1772536791275,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772542242309,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772542242760,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772542244620,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0223",
+    "id": "1475867263339991100"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 23
+}

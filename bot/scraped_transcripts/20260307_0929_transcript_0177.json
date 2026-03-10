@@ -1,0 +1,262 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473641344462487725> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : i didnt get viBe platform joining link",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771765953320,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "rithikahamsagouni_45000",
+      "user_id": "1473641344462487725",
+      "is_bot": false,
+      "content": "can anyone help me with this i didnt get the joining link of viBe",
+      "embeds": [],
+      "created": 1771765988678,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@1473641344462487725> , if you have registered at the required link then you can continue at https://vibe.vicharanashala.ai/student",
+      "embeds": [],
+      "created": 1771766382724,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@956180961832362014>, i dint found any registration from email rithikahamsa0@gmail.com in AKSians, can you please help me out here",
+      "embeds": [],
+      "created": 1771766926608,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@1473641344462487725> , i hope your issue is resolved!!",
+      "embeds": [],
+      "created": 1771777067758,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1178273014085857294> <@1473641344462487725> \nIs the issue resolved?",
+      "embeds": [],
+      "created": 1771780650190,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "<@956180961832362014> , I had approved the registration.\n<@1473641344462487725> , kindly confirm if the issue has been resolved.",
+      "embeds": [],
+      "created": 1771780769875,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473641344462487725> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1771825898707,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "rithikahamsagouni_45000",
+      "user_id": "1473641344462487725",
+      "is_bot": false,
+      "content": "<@956180961832362014> no",
+      "embeds": [],
+      "created": 1771851997815,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Could tell me your email ID once?",
+      "embeds": [],
+      "created": 1771852402942,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473641344462487725> \nYour email ID.",
+      "embeds": [],
+      "created": 1771913708911,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "rithikahamsagouni_45000",
+      "user_id": "1473641344462487725",
+      "is_bot": false,
+      "content": "<@956180961832362014> yes my issue is resolved but i can see only vedios in the ui i cant see the  upcoming quizzes  my mail id rithikahamsa0@gmail.com",
+      "embeds": [],
+      "created": 1771935690516,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "In the ui, quizzes won't be visible but they must be rendering after each video. Are they not? <@1473641344462487725>",
+      "embeds": [],
+      "created": 1771936534503,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473641344462487725> \nKindly update us with the information.",
+      "embeds": [],
+      "created": 1771940114964,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "rithikahamsagouni_45000",
+      "user_id": "1473641344462487725",
+      "is_bot": false,
+      "content": "yes theyre but yesterday the quizzes showed in ui",
+      "embeds": [],
+      "created": 1771954564855,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Yes there have been a few changes in UI that are being made. But it should work fine otherwise.\n\nIf everything is working fine, kindly let me know. So that we can close the ticket.",
+      "embeds": [],
+      "created": 1771954752121,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473641344462487725> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772001008764,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "rithikahamsagouni_45000",
+      "user_id": "1473641344462487725",
+      "is_bot": false,
+      "content": "yes my issue is resolved thankyou",
+      "embeds": [],
+      "created": 1772021029218,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Ticket",
+      "embeds": [],
+      "created": 1772021558614,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772021570873,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772021571365,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772021573608,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0177",
+    "id": "1475118063845245182"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 22
+}

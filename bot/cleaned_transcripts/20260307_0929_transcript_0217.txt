@@ -1,0 +1,35 @@
+Student (sarthak_2005): Backend issue ViBe completion and HP not corrected after confirmation from support.
+
+Instructor (nitin_fighter1379): Please elaborate on the issue.
+
+Student (sarthak_2005): Hello, I am raising this ticket regarding my ViBe completion and HP correction issue. Before the deadline, several videos that were earlier marked as “Completed” were automatically reset and no longer reflected as completed. Due to this tracking issue, my progress remained below 100% even though I had completed the required content from my side. I reported this issue before the deadline and I received confirmation from support that: 1. I would be considered as having completed the ViBe course. 2. Any HP reduction in this regard would be reverted. However, as of now: • Completion status still does not reflect correctly. • The -10% HP penalty has not been reverted. • The +10% HP completion reward has not been applied. The deadline passed a week ago, and this issue was reported in advance. Since it directly affects my HP and completion status despite prior confirmation, I kindly request you to verify my activity logs and process the correction at the earliest. Please let me know if any additional information is required from my side.
+
+Instructor (nitin_fighter1379): please mention the following: 1. Completion date of the ViBe course 2. Percentage of completion 3. Cohort name
+
+Student (sarthak_2005): Hello, Please find the requested details below: Completion date of the ViBe course: 12 Feb, 2026 Percentage of completion: 99.7% Cohort name: Euclideans Please let me know if any further details are required. Thank you.
+
+Instructor (nitin_fighter1379): Your issue is forwarded and the HP will be reverted and awarded
+
+Student (sarthak_2005): Ok, thank you
+
+Instructor (jinalgupta.): Is your issue been resolved?
+
+Student (sarthak_2005): Not yet
+
+Instructor (jinalgupta.): Ok don't worry it will be resolved soon we have escalated your query.
+
+Student (sarthak_2005): Not yet
+
+Instructor (nitin_fighter1379): please mention your mail id too
+
+Student (sarthak_2005): sarthakgoel_23cs380.ac.in
+
+Instructor (jinalgupta.): The HP's have been reverted. It may take sometime to be visible on the dashboard.
+
+Student (sarthak_2005): My HP is now correctly updated, thank you. However, the leaderboard rank does not reflect the updated HP yet. Kindly confirm if it will auto-update or needs manual refresh.
+
+Instructor (jinalgupta.): It will update automatically but may take some time. As the issue has been resolved can we close this ticket?
+
+Student (sarthak_2005): Yes, the issue has been resolved.
+
+Instructor (jinalgupta.): As the issue has been resolved hence closing the ticket.

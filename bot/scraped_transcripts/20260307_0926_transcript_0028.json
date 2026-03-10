@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1197026637401817089> Welcome, the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : ViBe progress issue",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1770828081324,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "mrthanosxd",
+      "user_id": "1197026637401817089",
+      "is_bot": false,
+      "content": "In react module, it shows 368/369 completed\nBut I completed all the videos and it shows completed in videos but as a module it shows incomplete",
+      "embeds": [],
+      "created": 1770828134086,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Hey <@1197026637401817089>",
+      "embeds": [],
+      "created": 1770829313283,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Dont worry",
+      "embeds": [],
+      "created": 1770829315309,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "mrthanosxd",
+      "user_id": "1197026637401817089",
+      "is_bot": false,
+      "content": "Yeah, tomorrow is the deadline right\nSo I am bit worried",
+      "embeds": [],
+      "created": 1770829357349,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "I get you!",
+      "embeds": [],
+      "created": 1770829438403,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "yazdan_irfan",
+      "user_id": "761846131679297546",
+      "is_bot": false,
+      "content": "Hi Siddartha,\nSo the issue you are facing is a backend issue and it mentioned in the FAQ,\nDon't worry about it now showing completed, the backend team will manually change it \nSo you need not worry about this and continue your Study on ViBe\nThank you",
+      "embeds": [],
+      "created": 1770829844150,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "mrthanosxd",
+      "user_id": "1197026637401817089",
+      "is_bot": false,
+      "content": "Yeah\nThanks a lot",
+      "embeds": [],
+      "created": 1770862790791,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771059242690,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771059243321,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771059248577,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0028",
+    "id": "1471184343543185658"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

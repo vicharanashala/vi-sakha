@@ -1,0 +1,276 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1342809809149231125> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : This ticket is being raised to report the delay in approval of my registration request and to seek timely assistance in processing it.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771507199791,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1342809809149231125> Which cohort are you from?",
+      "embeds": [],
+      "created": 1771507519268,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "vanshbhasin3",
+      "user_id": "1342809809149231125",
+      "is_bot": false,
+      "content": "Cohort 5 aksians",
+      "embeds": [],
+      "created": 1771507800038,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "It is under consideration and will be accepted soon.",
+      "embeds": [],
+      "created": 1771508615235,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "vanshbhasin3",
+      "user_id": "1342809809149231125",
+      "is_bot": false,
+      "content": "But it takes less time but it has been over 24 hours",
+      "embeds": [],
+      "created": 1771509253160,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "sudarshansudarshan",
+      "user_id": "903979459475021874",
+      "is_bot": false,
+      "content": "Is it solved now <@1342809809149231125> ?",
+      "embeds": [],
+      "created": 1771516675961,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "vanshbhasin3",
+      "user_id": "1342809809149231125",
+      "is_bot": false,
+      "content": "No not yet",
+      "embeds": [],
+      "created": 1771516995707,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "vanshbhasin3",
+      "user_id": "1342809809149231125",
+      "is_bot": false,
+      "content": "I have checked just now",
+      "embeds": [],
+      "created": 1771517001924,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1342809809149231125> your request has been approved yesterday itself. Please use the registered mail id and try again from a different browser to verify",
+      "embeds": [],
+      "created": 1771518658855,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "vanshbhasin3",
+      "user_id": "1342809809149231125",
+      "is_bot": false,
+      "content": "First i registered with vansh.122768@stu.upes.ac.in but then I get to know that use only your personal mail id so I registered with vanshbhasin36@gmail.com and in this the request is not approved whereas in my previous institute id i am already enrolled",
+      "embeds": [],
+      "created": 1771518783098,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "vanshbhasin3",
+      "user_id": "1342809809149231125",
+      "is_bot": false,
+      "content": "I want to get enrolled through vanshbhasin36@gmail.com id",
+      "embeds": [],
+      "created": 1771518809377,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1342809809149231125>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771519320147,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript saved to <#1468832805713875159>",
+          "color": "#66bb6a",
+          "fields": []
+        }
+      ],
+      "created": 1771519343295,
+      "edited": 1771519344270
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript saved to <#1468832805713875159>",
+          "color": "#66bb6a",
+          "fields": []
+        }
+      ],
+      "created": 1771519424200,
+      "edited": 1771519425241
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@956180961832362014>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1771519434618,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1342809809149231125> \nWe hope your issue has been resolved?",
+      "embeds": [],
+      "created": 1771519469545,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "vanshbhasin3",
+      "user_id": "1342809809149231125",
+      "is_bot": false,
+      "content": "Yesss it's resolved now thanks",
+      "embeds": [],
+      "created": 1771519496269,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing the thread.",
+      "embeds": [],
+      "created": 1771520069923,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771520077389,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771520077832,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771520081027,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0110",
+    "id": "1474032772518772838"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 21
+}

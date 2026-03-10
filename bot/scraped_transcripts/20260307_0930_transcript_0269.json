@@ -1,0 +1,362 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1472972250562171023> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Hp",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772116420099,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "shaik.sannuarshi",
+      "user_id": "1472972250562171023",
+      "is_bot": false,
+      "content": "There is no 9%  increment in my Individual HP...it has been 3 days....I am unsafe position...it would help me alot",
+      "embeds": [],
+      "created": 1772116554849,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@1472972250562171023> \nWe have noted your concern and would come back after connecting with the concern team. Kindly also provide your email and cohort name for reference.\ncc <@956180961832362014> Mam",
+      "embeds": [],
+      "created": 1772128329872,
+      "edited": 1772128512796
+    },
+    {
+      "index": 4,
+      "author": "shaik.sannuarshi",
+      "user_id": "1472972250562171023",
+      "is_bot": false,
+      "content": "Sannuarshishaik@gmail.com\nEuclidean \nActually I even said that before....when the base points are 127... now it become 131....I am having 126..if my 9 points are increased it would help me alot....",
+      "embeds": [],
+      "created": 1772165208800,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1472972250562171023> \nWe have escalated your issue. \nwe will soon update you with the information.",
+      "embeds": [],
+      "created": 1772169554949,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "shaik.sannuarshi",
+      "user_id": "1472972250562171023",
+      "is_bot": false,
+      "content": "Ok mam",
+      "embeds": [],
+      "created": 1772177237699,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1472972250562171023> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772427908659,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1472972250562171023> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772460883832,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "shaik.sannuarshi",
+      "user_id": "1472972250562171023",
+      "is_bot": false,
+      "content": "No mam",
+      "embeds": [],
+      "created": 1772514349944,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "shaik.sannuarshi",
+      "user_id": "1472972250562171023",
+      "is_bot": false,
+      "content": "Sorry for the late reply I am having exams",
+      "embeds": [],
+      "created": 1772514375311,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "shaik.sannuarshi",
+      "user_id": "1472972250562171023",
+      "is_bot": false,
+      "content": "My 9 points need to increase mam",
+      "embeds": [],
+      "created": 1772514406786,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "shaik.sannuarshi",
+      "user_id": "1472972250562171023",
+      "is_bot": false,
+      "content": "It would help me alot",
+      "embeds": [],
+      "created": 1772514417766,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "shaik.sannuarshi",
+      "user_id": "1472972250562171023",
+      "is_bot": false,
+      "content": "Please increase that mam....Please",
+      "embeds": [],
+      "created": 1772514664025,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "We have escalated your query once again. \nThe team will soon update with the resolution.",
+      "embeds": [],
+      "created": 1772515295891,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "shaik.sannuarshi",
+      "user_id": "1472972250562171023",
+      "is_bot": false,
+      "content": "Ok mam",
+      "embeds": [],
+      "created": 1772515453012,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "imsakshivk",
+      "user_id": "1293270010537578575",
+      "is_bot": false,
+      "content": "Issued has been resolved she is already in safe zone",
+      "embeds": [],
+      "created": 1772523965053,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "imsakshivk",
+      "user_id": "1293270010537578575",
+      "is_bot": false,
+      "content": "please check dashboard your current HP is above 131",
+      "embeds": [],
+      "created": 1772524018749,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "shaik.sannuarshi",
+      "user_id": "1472972250562171023",
+      "is_bot": false,
+      "content": "132...those my case study points mam...but the points...for vibe...those points didn't increased...",
+      "embeds": [],
+      "created": 1772534015669,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "shaik.sannuarshi",
+      "user_id": "1472972250562171023",
+      "is_bot": false,
+      "content": "I got safe by my case studies completion.....",
+      "embeds": [],
+      "created": 1772534109521,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "shaik.sannuarshi",
+      "user_id": "1472972250562171023",
+      "is_bot": false,
+      "content": "I am scared...that will make any problem...if those points won't increase mam",
+      "embeds": [],
+      "created": 1772534166418,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1472972250562171023> \nWe have escalated your issue.",
+      "embeds": [],
+      "created": 1772639809251,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "shaik.sannuarshi",
+      "user_id": "1472972250562171023",
+      "is_bot": false,
+      "content": "Ok mam",
+      "embeds": [],
+      "created": 1772641068651,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "shaik.sannuarshi",
+      "user_id": "1472972250562171023",
+      "is_bot": false,
+      "content": "There is increment in my HP mam...are those my 9 points...?",
+      "embeds": [],
+      "created": 1772641894341,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "shaik.sannuarshi",
+      "user_id": "1472972250562171023",
+      "is_bot": false,
+      "content": "Which I have did with my VIBE completion...or those are awarded for my completion of case studies",
+      "embeds": [],
+      "created": 1772641976006,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Yes",
+      "embeds": [],
+      "created": 1772643057418,
+      "edited": null
+    },
+    {
+      "index": 26,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "We have reverted your HP for ViBe",
+      "embeds": [],
+      "created": 1772643073534,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Kindly check individual HP page for further consideration.",
+      "embeds": [],
+      "created": 1772643088659,
+      "edited": null
+    },
+    {
+      "index": 28,
+      "author": "shaik.sannuarshi",
+      "user_id": "1472972250562171023",
+      "is_bot": false,
+      "content": "Ok thank you so much mam.....",
+      "embeds": [],
+      "created": 1772643108251,
+      "edited": null
+    },
+    {
+      "index": 29,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Ok <@1472972250562171023> \nAs the issue has been resolved hence closing this ticket.",
+      "embeds": [],
+      "created": 1772643126409,
+      "edited": null
+    },
+    {
+      "index": 30,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772643133030,
+      "edited": null
+    },
+    {
+      "index": 31,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772643133643,
+      "edited": null
+    },
+    {
+      "index": 32,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772643136391,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0269",
+    "id": "1476588027034861630"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 32
+}

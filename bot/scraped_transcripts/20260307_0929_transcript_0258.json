@@ -1,0 +1,252 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1250086217601650709> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : i am unable to go forward and load new videos,after completing 2 sessions from typescript video again goes back to the very firstest video",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772044948113,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Hi <@1250086217601650709> \nkindly provide your cohort name, email and the specific module video you're stuck on",
+      "embeds": [],
+      "created": 1772044990499,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jj032807",
+      "user_id": "1250086217601650709",
+      "is_bot": false,
+      "content": "cohort name:AKSians",
+      "embeds": [],
+      "created": 1772045265569,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jj032807",
+      "user_id": "1250086217601650709",
+      "is_bot": false,
+      "content": "email:juliejohnson9629@gmail.com",
+      "embeds": [],
+      "created": 1772045283665,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jj032807",
+      "user_id": "1250086217601650709",
+      "is_bot": false,
+      "content": "module stucked on:Javascript(basic building block-introduction to js)",
+      "embeds": [],
+      "created": 1772045423640,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Are you sure you're registered with this email? i cant find your profile in AKSians",
+      "embeds": [],
+      "created": 1772045427757,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jj032807",
+      "user_id": "1250086217601650709",
+      "is_bot": false,
+      "content": "sry pls try this email:23cs357@mgits.ac.in",
+      "embeds": [],
+      "created": 1772045493544,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jj032807",
+      "user_id": "1250086217601650709",
+      "is_bot": false,
+      "content": "profile",
+      "embeds": [],
+      "created": 1772045754823,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jj032807",
+      "user_id": "1250086217601650709",
+      "is_bot": false,
+      "content": "pls help me out mam, by tomorrow i need to complete 25%",
+      "embeds": [],
+      "created": 1772045789138,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "You're stuck on video 1 right?",
+      "embeds": [],
+      "created": 1772045820564,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "What was your current progress?",
+      "embeds": [],
+      "created": 1772045855224,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "before it moved to module 1? video 1",
+      "embeds": [],
+      "created": 1772045866076,
+      "edited": 1772045872529
+    },
+    {
+      "index": 13,
+      "author": "jj032807",
+      "user_id": "1250086217601650709",
+      "is_bot": false,
+      "content": "13.95%",
+      "embeds": [],
+      "created": 1772045999180,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Please try again",
+      "embeds": [],
+      "created": 1772046066393,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "after reloading",
+      "embeds": [],
+      "created": 1772046071467,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "and login in again",
+      "embeds": [],
+      "created": 1772046082127,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "<@1250086217601650709> was the issue resolved?",
+      "embeds": [],
+      "created": 1772046541195,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "jj032807",
+      "user_id": "1250086217601650709",
+      "is_bot": false,
+      "content": "s mam",
+      "embeds": [],
+      "created": 1772046813859,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1469178567551090933>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772047455696,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772047456251,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772047458380,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0258",
+    "id": "1476288252661989539"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 21
+}

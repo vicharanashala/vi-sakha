@@ -1,0 +1,13 @@
+Student (atulmishra0214): It failing to load the couses on vibe after login.
+
+Instructor (prkharvndn): hard refresh your webpage! and please refer to FAQ
+
+Student (atulmishra0214): I had done this just now but still it gives error failed to fetch course
+
+Instructor (abiramk7427, prkharvndn): it will be resolved! don't worry Could you share one screen recording of it Also share your mail id
+
+Student (atulmishra0214): Also when I click browse all course it show failed to fetch. My id 23f2001262.study.iitm.ac.in
+
+Instructor (abiramk7427): Could you try switching to a different network, it might be a network issue.
+
+Student (atulmishra0214): I tried sir and it worked.

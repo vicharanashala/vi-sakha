@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@721686022341132298> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : name not showing on vinternship dashboard",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772713311490,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@721686022341132298> please mention your name, cohort name, registered mail id and your progress in ViBe",
+      "embeds": [],
+      "created": 1772713363394,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "harshhhh4u",
+      "user_id": "721686022341132298",
+      "is_bot": false,
+      "content": "Vasu Choudhari, Euclideans, vasu2005choudhari@gmail.com, 100% progress on vibe",
+      "embeds": [],
+      "created": 1772713405582,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "harshhhh4u",
+      "user_id": "721686022341132298",
+      "is_bot": false,
+      "content": "I had medical issues that's why i didnt completed milestone 2 and 3 of case studies on time, but i did all the case studies there after, also completed milestone 4 on time. for this issue i even submitted the google form which was shared",
+      "embeds": [],
+      "created": 1772713566959,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "harshhhh4u",
+      "user_id": "721686022341132298",
+      "is_bot": false,
+      "content": "still no reply from the management",
+      "embeds": [],
+      "created": 1772713579082,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "harshhhh4u",
+      "user_id": "721686022341132298",
+      "is_bot": false,
+      "content": "<@836880971017748512>",
+      "embeds": [],
+      "created": 1772713655006,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@721686022341132298> please wait until the appeal is processed.",
+      "embeds": [],
+      "created": 1772714337369,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "harshhhh4u",
+      "user_id": "721686022341132298",
+      "is_bot": false,
+      "content": "okk thank you",
+      "embeds": [],
+      "created": 1772714398894,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@721686022341132298>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772801783704,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772801784620,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772804052925,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0361",
+    "id": "1479091571533021236"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

@@ -1,0 +1,232 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1474020189191409787> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Good morning, I registered on ViBe on 23 feb 2026, completed 28% till now but my name is not present on the health points dashboard.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772426514504,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474020189191409787> Which cohort are you from?",
+      "embeds": [],
+      "created": 1772440840320,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "deepshichoubey",
+      "user_id": "1474020189191409787",
+      "is_bot": false,
+      "content": "RSAians",
+      "embeds": [],
+      "created": 1772444156420,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474020189191409787> We have escalated your issue to the concerned team.",
+      "embeds": [],
+      "created": 1772461722384,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "deepshichoubey",
+      "user_id": "1474020189191409787",
+      "is_bot": false,
+      "content": "Thank you mam",
+      "embeds": [],
+      "created": 1772461782676,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474020189191409787> \nYour issue has been resolved kindly check once and then update for the same.",
+      "embeds": [],
+      "created": 1772516233301,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "deepshichoubey",
+      "user_id": "1474020189191409787",
+      "is_bot": false,
+      "content": "no, my name is still not there on dashboarrd",
+      "embeds": [],
+      "created": 1772520938179,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "deepshichoubey",
+      "user_id": "1474020189191409787",
+      "is_bot": false,
+      "content": "mam it is updated here. but my HP is 0",
+      "embeds": [],
+      "created": 1772528220433,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "deepshichoubey",
+      "user_id": "1474020189191409787",
+      "is_bot": false,
+      "content": "it is still not updated here",
+      "embeds": [],
+      "created": 1772528260465,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "deepshichoubey",
+      "user_id": "1474020189191409787",
+      "is_bot": false,
+      "content": "Any updates mam?",
+      "embeds": [],
+      "created": 1772544328923,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@956180961832362014> Is it resolved before?",
+      "embeds": [],
+      "created": 1772545513577,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "deepshichoubey",
+      "user_id": "1474020189191409787",
+      "is_bot": false,
+      "content": "My Health Point is still 0. <@956180961832362014>",
+      "embeds": [],
+      "created": 1772634720427,
+      "edited": 1772635077606
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474020189191409787> \nI will escalate the issue once again do not worry.",
+      "embeds": [],
+      "created": 1772642057477,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474020189191409787> \nKindly check once your name is visible on the dashboard now.",
+      "embeds": [],
+      "created": 1772693714721,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "deepshichoubey",
+      "user_id": "1474020189191409787",
+      "is_bot": false,
+      "content": "yes mam, Thank you so much",
+      "embeds": [],
+      "created": 1772700984011,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1772705536927,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772705543501,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772705544028,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772705546180,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0311",
+    "id": "1477888659234750506"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 19
+}

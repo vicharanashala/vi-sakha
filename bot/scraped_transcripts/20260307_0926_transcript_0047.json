@@ -1,0 +1,266 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1438213317972852859> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Sir, I have completed this course (MERN Developer Sprint: Your Code2Career Journey) so can I directly start with case study or internship",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771074426849,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "razabsinghbawa_81935",
+      "user_id": "1438213317972852859",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771074490453,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "I hope it was solved!",
+      "embeds": [],
+      "created": 1771074924839,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "razabsinghbawa_81935",
+      "user_id": "1438213317972852859",
+      "is_bot": false,
+      "content": "sorry sir I did not understand",
+      "embeds": [],
+      "created": 1771075178876,
+      "edited": 1771075201276
+    },
+    {
+      "index": 5,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Directly start your new course!",
+      "embeds": [],
+      "created": 1771075718172,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "razabsinghbawa_81935",
+      "user_id": "1438213317972852859",
+      "is_bot": false,
+      "content": "<@1359148118444343517>  sir i have asked it in zoom meeting Sudarshan  sir has told me that i can directly start with case study . and have to raise a ticket i think",
+      "embeds": [],
+      "created": 1771075820199,
+      "edited": 1771075912217
+    },
+    {
+      "index": 7,
+      "author": "razabsinghbawa_81935",
+      "user_id": "1438213317972852859",
+      "is_bot": false,
+      "content": "okay sir",
+      "embeds": [],
+      "created": 1771078086028,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "meenakshi7731",
+      "user_id": "909096926560018482",
+      "is_bot": false,
+      "content": "Yes, <@1359148118444343517> . You are right!\n<@1438213317972852859> You can start working on the case study exercises. Refer to the website for more details. The submission forms will soon be live on the website.",
+      "embeds": [],
+      "created": 1771083134875,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "razabsinghbawa_81935",
+      "user_id": "1438213317972852859",
+      "is_bot": false,
+      "content": "Okay <@909096926560018482>  mam I don’t know like where to find this case study & detail in website.. can you guide me",
+      "embeds": [],
+      "created": 1771083516380,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "meenakshi7731",
+      "user_id": "909096926560018482",
+      "is_bot": false,
+      "content": "Explore, it is very obvious to find it on the header.",
+      "embeds": [],
+      "created": 1771088815193,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "razabsinghbawa_81935",
+      "user_id": "1438213317972852859",
+      "is_bot": false,
+      "content": "<@909096926560018482> Mam, I find website for more details but I did not get any option for case study",
+      "embeds": [],
+      "created": 1771092741845,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "amritkumarchanchal",
+      "user_id": "914823902545473546",
+      "is_bot": false,
+      "content": "Hi <@1438213317972852859> , you can find the case study details here:\nhttps://sudarshansudarshan.github.io/vinternship/case-studies/",
+      "embeds": [
+        {
+          "title": "Case Studies",
+          "description": "Vinternship - A comprehensive full-stack development internship program covering the MERN stack and modern web technologies. Master TypeScript, React, Express.js, and MongoDB through hands-on case studies.",
+          "url": "https://sudarshansudarshan.github.io/vinternship/case-studies/",
+          "fields": []
+        }
+      ],
+      "created": 1771122509032,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "razabsinghbawa_81935",
+      "user_id": "1438213317972852859",
+      "is_bot": false,
+      "content": "<@914823902545473546> thank u sir",
+      "embeds": [],
+      "created": 1771124800183,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "razabsinghbawa_81935",
+      "user_id": "1438213317972852859",
+      "is_bot": false,
+      "content": "<@914823902545473546> Sir, where to submit the case study ??",
+      "embeds": [],
+      "created": 1771133828229,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@666826791016595456>",
+      "embeds": [],
+      "created": 1771161861122,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "abiramk7427",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@836880971017748512>",
+      "embeds": [],
+      "created": 1771168676425,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1438213317972852859> Please refer to the website cohort specific page where you'll be able to see the form in the forms and links section\nhttps://sudarshansudarshan.github.io/vinternship//cohort4/",
+      "embeds": [
+        {
+          "title": "RSAians",
+          "description": "📋 General Information",
+          "url": "https://sudarshansudarshan.github.io/vinternship//cohort4/",
+          "fields": []
+        }
+      ],
+      "created": 1771217601553,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "razabsinghbawa_81935",
+      "user_id": "1438213317972852859",
+      "is_bot": false,
+      "content": "<@836880971017748512> Thank you sir",
+      "embeds": [],
+      "created": 1771220349433,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771227346541,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771227347222,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771227349360,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0047",
+    "id": "1472217591903682611"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 21
+}

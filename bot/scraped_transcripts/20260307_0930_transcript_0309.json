@@ -1,0 +1,236 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1469544599247654956> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I submitted 6 case studies yesterday, but they are not appearing on the dashboard",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772415683122,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1469544599247654956> please mention your mail id used for submission, cohort name and time of submission",
+      "embeds": [],
+      "created": 1772422317936,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "tejeswari_",
+      "user_id": "1469544599247654956",
+      "is_bot": false,
+      "content": "Mail id: tejeswarisanaboina@gmail.com \nCohort name: Kruskalians \nTime: I have submitted case studies between 2pm to 9:30pm",
+      "embeds": [],
+      "created": 1772423917075,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469544599247654956> \nWe have escalated your query.",
+      "embeds": [],
+      "created": 1772440823238,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "tejeswari_",
+      "user_id": "1469544599247654956",
+      "is_bot": false,
+      "content": "Ok thank you",
+      "embeds": [],
+      "created": 1772452123903,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1469544599247654956>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772452383653,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@956180961832362014>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1772454524611,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469544599247654956> \nThere were some backend issue which are now been resolved. So kindly check now and update us with the same.",
+      "embeds": [],
+      "created": 1772516178026,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "tejeswari_",
+      "user_id": "1469544599247654956",
+      "is_bot": false,
+      "content": "Ok thank you",
+      "embeds": [],
+      "created": 1772537933299,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1469544599247654956>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772537942594,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@956180961832362014>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1772542178604,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469544599247654956> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772642021737,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469544599247654956> \nIs your issue resolved now?",
+      "embeds": [],
+      "created": 1772693694338,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "tejeswari_",
+      "user_id": "1469544599247654956",
+      "is_bot": false,
+      "content": "Yes resolved",
+      "embeds": [],
+      "created": 1772701198381,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1469544599247654956>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772701221431,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772701222007,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772704111086,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0309",
+    "id": "1477843228500689100"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 17
+}

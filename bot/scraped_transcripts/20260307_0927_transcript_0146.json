@@ -1,0 +1,202 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1292872734497574965> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I am experiencing an issue where my HP has decreased despite completing the required internship course on time, as per the guidelines. I would like the team to review my course progress and correct the HP discrepancy. Internship ID: WIN25846",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771694015717,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1292872734497574965> please mention your cohort name and also please attach screenshots for verification",
+      "embeds": [],
+      "created": 1771694284636,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jakirhussainkhan",
+      "user_id": "1292872734497574965",
+      "is_bot": false,
+      "content": "Okay sir, should I raise another ticket or should I attach them here?",
+      "embeds": [],
+      "created": 1771694586840,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Please attach here",
+      "embeds": [],
+      "created": 1771694797272,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jakirhussainkhan",
+      "user_id": "1292872734497574965",
+      "is_bot": false,
+      "content": "Sir, Initially my HP was at 147. After completing the course, it dropped to 139. After submitting the case studies, it is now at 146.\n\nCohort: Euclideans.\nInternship ID: WIN25846",
+      "embeds": [],
+      "created": 1771695297332,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1292872734497574965> \nWe have escalated your issue. It will be resolved soon.",
+      "embeds": [],
+      "created": 1771744945464,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jakirhussainkhan",
+      "user_id": "1292872734497574965",
+      "is_bot": false,
+      "content": "Thank you for the update mam.",
+      "embeds": [],
+      "created": 1771752585134,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1292872734497574965> We have noticed that you've missed the submission of week 1 case studies on 12 Feb. As this is the case, your HP is calculated correctly based on this.",
+      "embeds": [],
+      "created": 1771823822157,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1292872734497574965> \nWe hope your doubt has been cleared?",
+      "embeds": [],
+      "created": 1771846514526,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1292872734497574965>",
+      "embeds": [],
+      "created": 1771855856485,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jakirhussainkhan",
+      "user_id": "1292872734497574965",
+      "is_bot": false,
+      "content": "Okay sir, i didn't notice case studies has to be submitted on the same week.",
+      "embeds": [],
+      "created": 1771860862474,
+      "edited": 1771860908905
+    },
+    {
+      "index": 12,
+      "author": "jakirhussainkhan",
+      "user_id": "1292872734497574965",
+      "is_bot": false,
+      "content": "Yes mam, all clear. Thank you!!",
+      "embeds": [],
+      "created": 1771860874622,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Ticket.",
+      "embeds": [],
+      "created": 1771860902869,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771860910101,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771860910744,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771860913492,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0146",
+    "id": "1474816334205419532"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 16
+}

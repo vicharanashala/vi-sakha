@@ -1,0 +1,282 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1474020189191409787> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I am a student of IITM BS degree. I was unable to register for RSAians that's why I registered for AKSians but I was not aware that it is mandatory to be enrolled in Sudershan sir's course to be eligible for this internship. Please guide me",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771857172313,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474020189191409787> \nKindly de- enroll yourself from the AKSians batch and enroll in RSAians batch with your IITM BS mail ID",
+      "embeds": [],
+      "created": 1771857458382,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474020189191409787> \nAny update?",
+      "embeds": [],
+      "created": 1771914660407,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "deepshichoubey",
+      "user_id": "1474020189191409787",
+      "is_bot": false,
+      "content": "yes mam, I enrolled in RSAians",
+      "embeds": [],
+      "created": 1771914692589,
+      "edited": 1771914743097
+    },
+    {
+      "index": 5,
+      "author": "deepshichoubey",
+      "user_id": "1474020189191409787",
+      "is_bot": false,
+      "content": "but don't know how to de-enroll from AKSians",
+      "embeds": [],
+      "created": 1771914715532,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Wait I will remove your from there.",
+      "embeds": [],
+      "created": 1771914786471,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "deepshichoubey",
+      "user_id": "1474020189191409787",
+      "is_bot": false,
+      "content": "Thank you so much mam",
+      "embeds": [],
+      "created": 1771914807143,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474020189191409787> \nHave you joined using your IITM id?",
+      "embeds": [],
+      "created": 1771914867347,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "deepshichoubey",
+      "user_id": "1474020189191409787",
+      "is_bot": false,
+      "content": "One more query mam, I have completed 8% of course in RSAians and other peers have moved to case studies. What should I do to complete it earlier and catch their level?",
+      "embeds": [],
+      "created": 1771914926633,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "deepshichoubey",
+      "user_id": "1474020189191409787",
+      "is_bot": false,
+      "content": "yes mam",
+      "embeds": [],
+      "created": 1771914932430,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Kindly complete the ViBe progress here first dear. \nThen only move to the case study. \nYou may tak ehelp from your peers if you get stuck somewhere.",
+      "embeds": [],
+      "created": 1771914980010,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "deepshichoubey",
+      "user_id": "1474020189191409787",
+      "is_bot": false,
+      "content": "ok",
+      "embeds": [],
+      "created": 1771914999137,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "deepshichoubey",
+      "user_id": "1474020189191409787",
+      "is_bot": false,
+      "content": "and should I attend live session because there they solve react problems",
+      "embeds": [],
+      "created": 1771915023887,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "You can join the live session it will increase your knowledge and you could also connect with the peers and the concepts which you may have to learn at a rather later stage.",
+      "embeds": [],
+      "created": 1771915095240,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474020189191409787> \nI have removed you from the AKSians.\nKindly check once.",
+      "embeds": [],
+      "created": 1771915116612,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "deepshichoubey",
+      "user_id": "1474020189191409787",
+      "is_bot": false,
+      "content": "checked, removed",
+      "embeds": [],
+      "created": 1771915162089,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Ok <@1474020189191409787> \nI hope your issues have resolved now.",
+      "embeds": [],
+      "created": 1771915176372,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "deepshichoubey",
+      "user_id": "1474020189191409787",
+      "is_bot": false,
+      "content": "yes mam, Thank You!!",
+      "embeds": [],
+      "created": 1771915186751,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issues have resolved then I would close this ticket.",
+      "embeds": [],
+      "created": 1771915206011,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "deepshichoubey",
+      "user_id": "1474020189191409787",
+      "is_bot": false,
+      "content": "Ok mam",
+      "embeds": [],
+      "created": 1771915212414,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Have a nice day ahead <@1474020189191409787> !",
+      "embeds": [],
+      "created": 1771915224273,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771915242130,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771915242573,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771915244531,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0196",
+    "id": "1475500664418467921"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 24
+}

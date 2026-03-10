@@ -1,0 +1,132 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1022465956003459092> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : About Offer letter",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772436208697,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "bhanu_teja_t_s",
+      "user_id": "1022465956003459092",
+      "is_bot": false,
+      "content": "I have completed 26 percentage before deadline and still i have not received the offer letter  please help me out....",
+      "embeds": [],
+      "created": 1772436258505,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "We have noted your concern and would come back after connecting with the concern team.",
+      "embeds": [],
+      "created": 1772436548639,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "cc: <@956180961832362014>  Ma'am",
+      "embeds": [],
+      "created": 1772436562418,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1022465956003459092> \nWe will soon be releasing the offer letter we are working on it so don't worry much. \nYou can continue your progress.",
+      "embeds": [],
+      "created": 1772440961992,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "bhanu_teja_t_s",
+      "user_id": "1022465956003459092",
+      "is_bot": false,
+      "content": "Thank you",
+      "embeds": [],
+      "created": 1772443272917,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1022465956003459092>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772443280824,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772443281276,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772443409437,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0313",
+    "id": "1477929319232966696"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 9
+}

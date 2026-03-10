@@ -1,0 +1,9 @@
+Student (sonalkendre_97771): Query Regarding Health Points Not Updated
+
+Instructor (nitin_fighter1379): Please elaborate on the issue so that it would be easier to dissect and resolve quickly
+
+Student (sonalkendre_97771): Dear Sir/Madam, I hope you are doing well. I am writing to raise a concern regarding my Health Points (HP) on the Vinternship dashboard. Despite completing the required milestones within the given deadlines, my Health Points do not seem to have increased accordingly. According to the milestones and deadlines mentioned on the portal, I have completed the required course percentage and submissions. However, my current HP displayed on the dashboard is still showing the same value. Kindly request you to please review my progress and verify whether my Health Points have been correctly updated. If there is any pending requirement or additional action needed from my side, please let me know so that I can resolve it immediately. I have attached the relevant screenshots for your reference. Looking forward to your response. Thank you for your time and support. Regards, Sonal Kendre [24f2004938.study.iitm.ac.in](mailto:24f2004938.study.iitm.ac.in)
+
+Instructor (jinalgupta.): It may take some time for the HP to reflect on the dashboard after you have completed your milestone. Kindly request you to please be patient while we process the update. We are actively working on it. Thank you for your understanding.
+
+Student (sonalkendre_97771): Thank you for your time and support

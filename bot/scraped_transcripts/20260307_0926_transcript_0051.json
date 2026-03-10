@@ -1,0 +1,164 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@800631606623600672> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : i cant change my email id to the official iitm email id , in the registration form",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771137176907,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "atharvan4557",
+      "user_id": "800631606623600672",
+      "is_bot": false,
+      "content": "i cant change my email id to the official iitm email id",
+      "embeds": [],
+      "created": 1771137212416,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@800631606623600672>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771137889342,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@1359148118444343517>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1771141102237,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Logout and login again using student email id",
+      "embeds": [],
+      "created": 1771141120030,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@800631606623600672> hope the issue has been resolved and your doubt has been cleared?",
+      "embeds": [],
+      "created": 1771300556117,
+      "edited": 1771300571306
+    },
+    {
+      "index": 7,
+      "author": "atharvan4557",
+      "user_id": "800631606623600672",
+      "is_bot": false,
+      "content": "Yes , already registered thank you",
+      "embeds": [],
+      "created": 1771300827045,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Thank you for your prompt reply <@800631606623600672>.\nAs your issue has been resolved hence I will be closing the ticket.",
+      "embeds": [],
+      "created": 1771301668640,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771301679421,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771301680027,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771301682273,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0051",
+    "id": "1472480784488337584"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

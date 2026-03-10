@@ -1,0 +1,172 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1398563639698657293> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : submission of case study is not reflecting on dashboard",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772428037659,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1398563639698657293> please mention your mail id used for submission, cohort name and time of submission",
+      "embeds": [],
+      "created": 1772428141599,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "shreya_16228",
+      "user_id": "1398563639698657293",
+      "is_bot": false,
+      "content": "I am trying to submit since yesterday but none of the submission are reflecting after 6 case studies although I tried to submit till 12",
+      "embeds": [],
+      "created": 1772428142042,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "shreya_16228",
+      "user_id": "1398563639698657293",
+      "is_bot": false,
+      "content": "Shreya Jha \nkruskalians",
+      "embeds": [],
+      "created": 1772428172850,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "shreya_16228",
+      "user_id": "1398563639698657293",
+      "is_bot": false,
+      "content": "shreyajha242005@gmail.com",
+      "embeds": [],
+      "created": 1772428185436,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "shreya_16228",
+      "user_id": "1398563639698657293",
+      "is_bot": false,
+      "content": "yesterday near 3-4 pm \ntoday around 10 am",
+      "embeds": [],
+      "created": 1772428219789,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1398563639698657293> The issue is resolved, please check",
+      "embeds": [],
+      "created": 1772429701704,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "shreya_16228",
+      "user_id": "1398563639698657293",
+      "is_bot": false,
+      "content": "<@836880971017748512> thanks sir",
+      "embeds": [],
+      "created": 1772430590789,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1398563639698657293> \nWe hope your issue hase beenr resolved and we can close this ticket now.",
+      "embeds": [],
+      "created": 1772461746274,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "shreya_16228",
+      "user_id": "1398563639698657293",
+      "is_bot": false,
+      "content": "<@956180961832362014> Yes mam sure",
+      "embeds": [],
+      "created": 1772508380647,
+      "edited": 1772508402049
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772516243726,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772516244556,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772516246742,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0312",
+    "id": "1477895047038107754"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 13
+}

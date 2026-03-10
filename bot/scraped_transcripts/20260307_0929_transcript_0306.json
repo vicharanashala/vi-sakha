@@ -1,0 +1,122 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473935305928216724> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Registered on Vibe 3 days ago but still can't access the modules",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772386763230,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473935305928216724> please mention your cohort name",
+      "embeds": [],
+      "created": 1772422792071,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "dilpreetsinghgill",
+      "user_id": "1473935305928216724",
+      "is_bot": false,
+      "content": "<@836880971017748512> Askians is my cohort name",
+      "embeds": [],
+      "created": 1772422840726,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Hi <@1473935305928216724> , have you  registered and logged in at https://vibe.vicharanashala.ai/ and tried to access the modules there. If yes kindly share a screenshot",
+      "embeds": [],
+      "created": 1772423548521,
+      "edited": 1772423735970
+    },
+    {
+      "index": 5,
+      "author": "dilpreetsinghgill",
+      "user_id": "1473935305928216724",
+      "is_bot": false,
+      "content": "<@1469178567551090933> The issue has been resolved successfully. Now I am able to access the modules .Thank you",
+      "embeds": [],
+      "created": 1772426468799,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1473935305928216724>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772426488797,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772426489212,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772426826691,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0306",
+    "id": "1477721930059481252"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 8
+}

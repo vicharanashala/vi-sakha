@@ -1,0 +1,11 @@
+Student (shubhamthakur_18): Cant see any course after signup in vibe portal I have registered on vibe portal via iitmbs student email, but i cant see any courses there. here is image attached
+
+Instructor (abiramk7427): Hi, could you try switching to a different network, and also send your registered email id here.
+
+Student (shubhamthakur_18): 24f3004054.study.iitm.ac.in change in network didnt work
+
+Instructor (abiramk7427): I sent an invite, please check
+
+Student (shubhamthakur_18): okay thanks
+
+Instructor (abiramk7427): Are you able to access the course?

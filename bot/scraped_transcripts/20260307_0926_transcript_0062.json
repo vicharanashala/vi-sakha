@@ -1,0 +1,182 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1040954446013792337> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Cant see any course after signup in vibe portal",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771219359672,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "shubhamthakur_18",
+      "user_id": "1040954446013792337",
+      "is_bot": false,
+      "content": "I have  registered on vibe portal via iitmbs student email,  but i cant see any courses there.",
+      "embeds": [],
+      "created": 1771219416221,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "shubhamthakur_18",
+      "user_id": "1040954446013792337",
+      "is_bot": false,
+      "content": "here is image attached",
+      "embeds": [],
+      "created": 1771219447601,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "abiramk7427",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1040954446013792337> Hi, could you try switching to a different network, and also send your registered email id here.",
+      "embeds": [],
+      "created": 1771219953956,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "shubhamthakur_18",
+      "user_id": "1040954446013792337",
+      "is_bot": false,
+      "content": "24f3004054@ds.study.iitm.ac.in",
+      "embeds": [],
+      "created": 1771220046073,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "shubhamthakur_18",
+      "user_id": "1040954446013792337",
+      "is_bot": false,
+      "content": "change in network didnt work",
+      "embeds": [],
+      "created": 1771220124509,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "abiramk7427",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1040954446013792337> I sent an invite, please check",
+      "embeds": [],
+      "created": 1771220371014,
+      "edited": 1771220394341
+    },
+    {
+      "index": 8,
+      "author": "shubhamthakur_18",
+      "user_id": "1040954446013792337",
+      "is_bot": false,
+      "content": "okay thanks",
+      "embeds": [],
+      "created": 1771220459762,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "shubhamthakur_18",
+      "user_id": "1040954446013792337",
+      "is_bot": false,
+      "content": "<@666826791016595456> \\",
+      "embeds": [],
+      "created": 1771220467707,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "abiramk7427",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "Are you able to access the course?",
+      "embeds": [],
+      "created": 1771220482317,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "shubhamthakur_18",
+      "user_id": "1040954446013792337",
+      "is_bot": false,
+      "content": "yes",
+      "embeds": [],
+      "created": 1771220520894,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@666826791016595456>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771220530814,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771220531669,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771220533280,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0062",
+    "id": "1472825483602169924"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 14
+}

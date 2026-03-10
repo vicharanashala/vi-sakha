@@ -1,0 +1,55 @@
+Student (girish_jain): Completed Module still showing incomplete items
+
+Instructor (riyamehtaatwork): Hi Kindly let me know your email, cohort and the specific module and section in which you're facing this issue.
+
+Student (girish_jain): Girishjainl3016.com cohort 5 (aksians) JS module 1st sec (video 3 and quiz 13) 2nd sec ( quiz 10)
+
+Instructor (riyamehtaatwork): On which module, section and item are you on currently?
+
+Student (girish_jain): Currently on TS module 7th section 1st item
+
+Instructor (riyamehtaatwork): Go to JS>section 1> video 3 and watch it again
+
+Student (girish_jain): it doesnt allow me to watch it again pops up an error
+
+Instructor (riyamehtaatwork): Kindly refresh and try again and then send the screenshot Hi were you able to watch it?
+
+Student (girish_jain): yes was able to watch the 3rd video but it still does not say completed watched it 2-3 times also completed the quiz again after it but still does not show completed
+
+Instructor (riyamehtaatwork): Did you try refreshing after as well?
+
+Student (girish_jain): yess ]
+
+Instructor (riyamehtaatwork): isn't the progress now increased from 87 to 89? it was 87 before right? if this is the case please try hard reload logout and then login It is now showing the whole 90/90 progress. kindly check again and let me know
+
+Student (girish_jain): yes it was updated to 89 but still the video one isnt updated to 90/90 ok let me login again
+
+Instructor (riyamehtaatwork): sure
+
+Student (girish_jain): yes it worked
+
+Instructor (riyamehtaatwork): Okay Great!
+
+Student (girish_jain): but now i cant return to the module i was on
+
+Instructor (riyamehtaatwork): Which one was it?
+
+Student (girish_jain): thanks again
+
+Instructor (riyamehtaatwork): Anytime! It's meta programming with decorators right? just to be sure
+
+Student (girish_jain): i have to start it from the 1st video
+
+Instructor (riyamehtaatwork): Okay! please try again after refreshing and logging in again
+
+Student (girish_jain): didnt work logged in again still starting from the very first module
+
+Instructor (riyamehtaatwork): the very first as in js module? Even when you're clicking on TS, module 7, item 1 still you're not able to play it. Is that right?
+
+Student (girish_jain): yes it pops up an error that i cant access and re directs me tot he js 1st video
+
+Instructor (riyamehtaatwork): Please refresh and try again once more
+
+Student (girish_jain): ya it came back for once it showed 100% and i was geniuely happy !!
+
+Instructor (riyamehtaatwork): Haha yea it was an issue so everything back to normal right? Okay great!

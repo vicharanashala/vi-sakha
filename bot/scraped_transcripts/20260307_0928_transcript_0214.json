@@ -1,0 +1,252 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1475314192603938870> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : In the vibe page should I wait for the approval cuz my registration is done but still it is not showing any courses",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771932008331,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "<@1475314192603938870> can you send me the emailid and chort name?",
+      "embeds": [],
+      "created": 1771932219503,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "aksharanelakuditi08",
+      "user_id": "1475314192603938870",
+      "is_bot": false,
+      "content": "nelakuditiakshara08@gmail.com",
+      "embeds": [],
+      "created": 1771932248630,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "aksharanelakuditi08",
+      "user_id": "1475314192603938870",
+      "is_bot": false,
+      "content": "AKSians",
+      "embeds": [],
+      "created": 1771932259529,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "Ok thankyou let me check your registration.",
+      "embeds": [],
+      "created": 1771932326459,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "<@1475314192603938870> can you refresh the dashboard page?",
+      "embeds": [],
+      "created": 1771932377836,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "aksharanelakuditi08",
+      "user_id": "1475314192603938870",
+      "is_bot": false,
+      "content": "I have registered and it asked me to wait for further approval and when I just reopen the page it is just showing me begin register link and after trying to register again it is showing u have already registered",
+      "embeds": [],
+      "created": 1771932459331,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "You have to go to student dashboard to see the course\nhttps://vibe.vicharanashala.ai/student",
+      "embeds": [],
+      "created": 1771932835796,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "aksharanelakuditi08",
+      "user_id": "1475314192603938870",
+      "is_bot": false,
+      "content": "Thank you!!",
+      "embeds": [],
+      "created": 1771932869314,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "So it is showing the course right?",
+      "embeds": [],
+      "created": 1771932904768,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "<@1475314192603938870>",
+      "embeds": [],
+      "created": 1771932915743,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "aksharanelakuditi08",
+      "user_id": "1475314192603938870",
+      "is_bot": false,
+      "content": "Yes thank you",
+      "embeds": [],
+      "created": 1771932918734,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "aksharanelakuditi08",
+      "user_id": "1475314192603938870",
+      "is_bot": false,
+      "content": "I am on my phone it is showing access restricted I will try from my laptop",
+      "embeds": [],
+      "created": 1771932945523,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "Yes you need to have laptop to access the course..",
+      "embeds": [],
+      "created": 1771932965958,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "We have not allowed phone to watch the course..",
+      "embeds": [],
+      "created": 1771932984898,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "<@1475314192603938870> if your issue is resolved shall I close the ticket?",
+      "embeds": [],
+      "created": 1771933098705,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "aksharanelakuditi08",
+      "user_id": "1475314192603938870",
+      "is_bot": false,
+      "content": "Yes sir sure",
+      "embeds": [],
+      "created": 1771933292667,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "Ok enjoy the journey and happy learning 🙂",
+      "embeds": [],
+      "created": 1771933323182,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@857556884750729217>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771933330095,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771933330635,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771933332564,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0214",
+    "id": "1475814548601573508"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 21
+}

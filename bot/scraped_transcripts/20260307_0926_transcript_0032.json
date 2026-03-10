@@ -1,0 +1,142 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1469217309435367537> Welcome, the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : family emergency affecting course schedule",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1770888424462,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "vanshikaupadhyay.",
+      "user_id": "1469217309435367537",
+      "is_bot": false,
+      "content": "Hello Sir/Ma’am,\nI want to inform you that my grandmother passed away yesterday. Because of this situation at home, I couldn’t complete my VIBE course by yesterday. Today I watched the remaining videos at different times without booking a slot, since many relatives are coming home and I’m unable to commit to a fixed schedule right now.\n\nI sincerely hope this does not negatively affect my HPs. I understand the rules, and I’m willing to follow whatever decision you and the team feel is appropriate. Thank you for your understanding during this difficult time.",
+      "embeds": [],
+      "created": 1770888480955,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Hello Vanshika, I'm really sorry for your loss! and don't worry, you and your family will definitely overcome this hard time, I am gonna assign this ticket to someone else! will revert back to you asap!",
+      "embeds": [],
+      "created": 1770906006037,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "||<@1293270010537578575> ||",
+      "embeds": [],
+      "created": 1770906016349,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "vanshikaupadhyay.",
+      "user_id": "1469217309435367537",
+      "is_bot": false,
+      "content": "Sir, is there any update? It’s already been a day.",
+      "embeds": [],
+      "created": 1770990946541,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@1469217309435367537> Don't worry, it won't affect your HP for this incident!",
+      "embeds": [],
+      "created": 1770991653776,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "vanshikaupadhyay.",
+      "user_id": "1469217309435367537",
+      "is_bot": false,
+      "content": "Thankyou sir 🙏🏻",
+      "embeds": [],
+      "created": 1771031553630,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771059342367,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771059342986,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771059344747,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0032",
+    "id": "1471437440274403338"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 10
+}

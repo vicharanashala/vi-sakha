@@ -1,0 +1,11 @@
+Student (brangotur): Where can we find codes used in lectures in vibe portal for a quick revision?
+
+Instructor (nitin_fighter1379): Those are the case studies taught. So you can take a look at the Case studies to get an idea.
+
+Student (brangotur): but for Javascript there is no case study
+
+Instructor (nitin_fighter1379): Will speak with the team and let you know whether we can release the code.
+
+Student (brangotur): ok thanks! It will be helpful if the code will be available on github for quick revision of the concepts
+
+Instructor (jinalgupta.): We have escalated your issue. They will take the appropriate decision henceforth. We hope your doubt is cleared?

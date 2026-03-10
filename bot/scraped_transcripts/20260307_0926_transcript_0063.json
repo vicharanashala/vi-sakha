@@ -1,0 +1,862 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1218603681679806564> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Test ticket",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771223218513,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Shall I close this ticket ?",
+      "embeds": [],
+      "created": 1771223248301,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "Sure! I was test it 🙂",
+      "embeds": [],
+      "created": 1771223262057,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "Testing it**",
+      "embeds": [],
+      "created": 1771223271592,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Perfect! Lemme know if there's any improvement needed",
+      "embeds": [],
+      "created": 1771223287576,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "So basically all the tickets come to you?",
+      "embeds": [],
+      "created": 1771223291118,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Nah",
+      "embeds": [],
+      "created": 1771223295940,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "It goes to ticketsolvers",
+      "embeds": [],
+      "created": 1771223302182,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Which includes",
+      "embeds": [],
+      "created": 1771223308236,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Me",
+      "embeds": [],
+      "created": 1771223309242,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Nitin",
+      "embeds": [],
+      "created": 1771223310615,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Abiram",
+      "embeds": [],
+      "created": 1771223313715,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "Then you distribute it to the authorised person to be resolved?",
+      "embeds": [],
+      "created": 1771223315462,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "It goes to Nitin and then he escalates if necessary",
+      "embeds": [],
+      "created": 1771223345028,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Sometimes",
+      "embeds": [],
+      "created": 1771223348691,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "Where can I see this interface?",
+      "embeds": [],
+      "created": 1771223349697,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "I look after some tickets",
+      "embeds": [],
+      "created": 1771223355451,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "There's no additional interface",
+      "embeds": [],
+      "created": 1771223381728,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "They get notified",
+      "embeds": [],
+      "created": 1771223388950,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "Oki.",
+      "embeds": [],
+      "created": 1771223391793,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "About creation of ticket",
+      "embeds": [],
+      "created": 1771223398142,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "One more question.",
+      "embeds": [],
+      "created": 1771223401011,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Yes please",
+      "embeds": [],
+      "created": 1771223425303,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "Are these tickets visible to all members of this server?",
+      "embeds": [],
+      "created": 1771223434457,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Nah",
+      "embeds": [],
+      "created": 1771223439291,
+      "edited": null
+    },
+    {
+      "index": 26,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Only to mentors, ticket solvers, admins and the person who created the ticket",
+      "embeds": [],
+      "created": 1771223462460,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "They are asking less questions in the ticket?\nDo the participants get their queries resolved in the discussion channels?\nIs that the mechanism?",
+      "embeds": [],
+      "created": 1771223503790,
+      "edited": null
+    },
+    {
+      "index": 28,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "More queries get resolved in the discussions, ai I right?",
+      "embeds": [],
+      "created": 1771223557190,
+      "edited": null
+    },
+    {
+      "index": 29,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "Am*",
+      "embeds": [],
+      "created": 1771223563063,
+      "edited": null
+    },
+    {
+      "index": 30,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Participants are helping out each other in discussion channel, no moderator/mentor is allowed to reply them over there, if the issue isn't resolved, they create tickets and we have closed alot of tickets that's why there is less ticket in sight",
+      "embeds": [],
+      "created": 1771223578188,
+      "edited": 1771223592855
+    },
+    {
+      "index": 31,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "Great!",
+      "embeds": [],
+      "created": 1771223602941,
+      "edited": null
+    },
+    {
+      "index": 32,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "So the moderator will only reply to them if it comes as a ticket and not in the open discussions so that we can track data?\nAi I right?",
+      "embeds": [],
+      "created": 1771223642861,
+      "edited": null
+    },
+    {
+      "index": 33,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "Am*",
+      "embeds": [],
+      "created": 1771223651080,
+      "edited": null
+    },
+    {
+      "index": 34,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Moderators are not allowed to reply anyone! Mentors will reply them in tickets and yeah! That is the case",
+      "embeds": [],
+      "created": 1771223695442,
+      "edited": null
+    },
+    {
+      "index": 35,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Moderators are volunteers, we can't let them handle tickets to ensure the quality of replies",
+      "embeds": [],
+      "created": 1771223723846,
+      "edited": null
+    },
+    {
+      "index": 36,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "And response",
+      "embeds": [],
+      "created": 1771223733458,
+      "edited": null
+    },
+    {
+      "index": 37,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "Who all are the mentors? and who all are the moderators?",
+      "embeds": [],
+      "created": 1771223736784,
+      "edited": null
+    },
+    {
+      "index": 38,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Lab members are mentors",
+      "embeds": [],
+      "created": 1771223747434,
+      "edited": null
+    },
+    {
+      "index": 39,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Including Nitin and everyone",
+      "embeds": [],
+      "created": 1771223757322,
+      "edited": null
+    },
+    {
+      "index": 40,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Ahana, Yazdan, Karthik, and KomalPreet are moderators",
+      "embeds": [],
+      "created": 1771223784969,
+      "edited": null
+    },
+    {
+      "index": 41,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "They are volunteers from vinternship",
+      "embeds": [],
+      "created": 1771223794281,
+      "edited": null
+    },
+    {
+      "index": 42,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "Can mentors reply in open discussions to resolve their queries there itself before it reaches the ticket system?",
+      "embeds": [],
+      "created": 1771223804275,
+      "edited": 1771223846241
+    },
+    {
+      "index": 43,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "They certainly can but if they do, students wont have discussions within themselves and might start mentioning mentors everywhere for small problems as well",
+      "embeds": [],
+      "created": 1771223856180,
+      "edited": null
+    },
+    {
+      "index": 44,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "So it would be a huge headache for them",
+      "embeds": [],
+      "created": 1771223873582,
+      "edited": null
+    },
+    {
+      "index": 45,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "But they can if they want to!",
+      "embeds": [],
+      "created": 1771223882599,
+      "edited": null
+    },
+    {
+      "index": 46,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "Good! great mechanism! They should only escalate to mentors through tickets. 🙂",
+      "embeds": [],
+      "created": 1771223903919,
+      "edited": null
+    },
+    {
+      "index": 47,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Thanksss!",
+      "embeds": [],
+      "created": 1771223914969,
+      "edited": null
+    },
+    {
+      "index": 48,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Is this getting demonstrated in a live meeting rn?",
+      "embeds": [],
+      "created": 1771223933864,
+      "edited": null
+    },
+    {
+      "index": 49,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "Are you timelogging? You are our intern, right? You need to timelog your hours you have worked.",
+      "embeds": [],
+      "created": 1771223952107,
+      "edited": null
+    },
+    {
+      "index": 50,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "Ayein! I didn't understand?",
+      "embeds": [],
+      "created": 1771223973840,
+      "edited": null
+    },
+    {
+      "index": 51,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Yeah I did, using toggl but I missed alot of my logs",
+      "embeds": [],
+      "created": 1771223976588,
+      "edited": null
+    },
+    {
+      "index": 52,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Like ticketing system ko kisi meeting me test kar rahe the aap?",
+      "embeds": [],
+      "created": 1771223996900,
+      "edited": null
+    },
+    {
+      "index": 53,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "Very Bad! Please timelog properly .",
+      "embeds": [],
+      "created": 1771224005948,
+      "edited": null
+    },
+    {
+      "index": 54,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Yeah! I logged 15+ hours last week",
+      "embeds": [],
+      "created": 1771224020148,
+      "edited": null
+    },
+    {
+      "index": 55,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "As of i remember it was more cuz sometimes while working on bot, my system crashes",
+      "embeds": [],
+      "created": 1771224049942,
+      "edited": null
+    },
+    {
+      "index": 56,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "No no dear. It will be demostrated soon, maybe.\nRight now all the members re not on discord it seems.",
+      "embeds": [],
+      "created": 1771224057364,
+      "edited": null
+    },
+    {
+      "index": 57,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Ahhh, that's not good! We must invite all of them",
+      "embeds": [],
+      "created": 1771224077810,
+      "edited": null
+    },
+    {
+      "index": 58,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "Oops!",
+      "embeds": [],
+      "created": 1771224080115,
+      "edited": null
+    },
+    {
+      "index": 59,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "That's one of the reason why I miss the logs!",
+      "embeds": [],
+      "created": 1771224101510,
+      "edited": null
+    },
+    {
+      "index": 60,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "Excatly! What is the members count , right now?",
+      "embeds": [],
+      "created": 1771224108165,
+      "edited": null
+    },
+    {
+      "index": 61,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "I see many pending requests. What is it about?",
+      "embeds": [],
+      "created": 1771224121294,
+      "edited": null
+    },
+    {
+      "index": 62,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "1193",
+      "embeds": [],
+      "created": 1771224123372,
+      "edited": null
+    },
+    {
+      "index": 63,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "That's too low",
+      "embeds": [],
+      "created": 1771224137078,
+      "edited": null
+    },
+    {
+      "index": 64,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Its for profile screening to ensure that everyone has professional profile picture and good username",
+      "embeds": [],
+      "created": 1771224161276,
+      "edited": null
+    },
+    {
+      "index": 65,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "If we penalize student to not join discord, then they'll join",
+      "embeds": [],
+      "created": 1771224186672,
+      "edited": null
+    },
+    {
+      "index": 66,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Alot of them are ignoring this",
+      "embeds": [],
+      "created": 1771224197190,
+      "edited": null
+    },
+    {
+      "index": 67,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "How many in :-\n\n1. Euclideans\n2. Dijkstrians\n3. Kruskalians\n4. RSAians\n5. Founderskeepers\n6. Any other group etc.",
+      "embeds": [],
+      "created": 1771224244841,
+      "edited": null
+    },
+    {
+      "index": 68,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Wait",
+      "embeds": [],
+      "created": 1771224256748,
+      "edited": null
+    },
+    {
+      "index": 69,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "Where to check these stats is future, so that I am aware all the time?",
+      "embeds": [],
+      "created": 1771224279307,
+      "edited": null
+    },
+    {
+      "index": 70,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771224286061,
+      "edited": null
+    },
+    {
+      "index": 71,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Go to server setting",
+      "embeds": [],
+      "created": 1771224292501,
+      "edited": null
+    },
+    {
+      "index": 72,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Click on roles",
+      "embeds": [],
+      "created": 1771224298877,
+      "edited": null
+    },
+    {
+      "index": 73,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "Where is this? 🙁 Sorry for aksing stupid questions.",
+      "embeds": [],
+      "created": 1771224335943,
+      "edited": null
+    },
+    {
+      "index": 74,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Few of the students joined but didn't completed their onboarding so that's why they didn't got their role",
+      "embeds": [],
+      "created": 1771224339000,
+      "edited": null
+    },
+    {
+      "index": 75,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Join me in VC",
+      "embeds": [],
+      "created": 1771224357005,
+      "edited": null
+    },
+    {
+      "index": 76,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "I'll explain",
+      "embeds": [],
+      "created": 1771224359841,
+      "edited": null
+    },
+    {
+      "index": 77,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Right now if possible",
+      "embeds": [],
+      "created": 1771224366546,
+      "edited": null
+    },
+    {
+      "index": 78,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "Yes,\nWhere in VC?",
+      "embeds": [],
+      "created": 1771224380458,
+      "edited": null
+    },
+    {
+      "index": 79,
+      "author": "harshiji",
+      "user_id": "1218603681679806564",
+      "is_bot": false,
+      "content": "Close the ticket, please.",
+      "embeds": [],
+      "created": 1771225399211,
+      "edited": null
+    },
+    {
+      "index": 80,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1218603681679806564>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771225425465,
+      "edited": null
+    },
+    {
+      "index": 81,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771225426139,
+      "edited": null
+    },
+    {
+      "index": 82,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771246383964,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0063",
+    "id": "1472841668628844676"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 82
+}

@@ -1,0 +1,132 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473371173348966513> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I am not able to open quizzes in the Javascript module even though I have completed the module wholly, please rectify this error",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771758541536,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@1473371173348966513> , please try once now",
+      "embeds": [],
+      "created": 1771761240560,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473371173348966513> \nIs your issue been resolved?",
+      "embeds": [],
+      "created": 1771780335592,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "pranjal._.gupta",
+      "user_id": "1473371173348966513",
+      "is_bot": false,
+      "content": "Yes sir, thank u very much",
+      "embeds": [],
+      "created": 1771782126439,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "<@1473371173348966513> , kindly also add your profile pic as per the server rules. Thank you.",
+      "embeds": [],
+      "created": 1771782225551,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "pranjal._.gupta",
+      "user_id": "1473371173348966513",
+      "is_bot": false,
+      "content": "Yes sir, I have updated it, I apologize for not having done the same earlier",
+      "embeds": [],
+      "created": 1771782370288,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771822616360,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771822616796,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771822618535,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0169",
+    "id": "1475086975865454693"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 9
+}

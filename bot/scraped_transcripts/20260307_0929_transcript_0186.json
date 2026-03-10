@@ -1,0 +1,372 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1471774232437588050> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I'm new to this internship program , please tell me which 20% courses I have to complete , please tell steps.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771849884422,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1471774232437588050> \nKindly refere to <#1468577919075880980> .",
+      "embeds": [],
+      "created": 1771850409761,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1471774232437588050> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1771913954392,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "shraddha111j_72520",
+      "user_id": "1471774232437588050",
+      "is_bot": false,
+      "content": "not",
+      "embeds": [],
+      "created": 1771914561746,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1471774232437588050> can you elaborate on the issue?",
+      "embeds": [],
+      "created": 1771915256256,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "shraddha111j_72520",
+      "user_id": "1471774232437588050",
+      "is_bot": false,
+      "content": "I don't know which & where to complete 20% lectures..",
+      "embeds": [],
+      "created": 1771916910417,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1471774232437588050> \nhttps://vibe.vicharanashala.ai/student/course-registration/69942dc6d6d99b252e3a54ff\n\nRegister to this MERN course on ViBe platform and follow up on the milestones as mentioned in the Vinternship webpage. please go through the cohort specific dashboard of your cohort and proceed.",
+      "embeds": [],
+      "created": 1771917198379,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1471774232437588050> please refer to this channel to find the important links",
+      "embeds": [],
+      "created": 1771917274315,
+      "edited": 1771917316951
+    },
+    {
+      "index": 9,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<#1468674639189381214>",
+      "embeds": [],
+      "created": 1771917307039,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1471774232437588050> \nIs your issue been resolved?",
+      "embeds": [],
+      "created": 1771940151135,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "shraddha111j_72520",
+      "user_id": "1471774232437588050",
+      "is_bot": false,
+      "content": "When i clicked on begin registration it is saying no form fields available.",
+      "embeds": [],
+      "created": 1771941059760,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Kindly share the screenshot for reference when you begin registration. <@1471774232437588050>",
+      "embeds": [],
+      "created": 1771943459488,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "shraddha111j_72520",
+      "user_id": "1471774232437588050",
+      "is_bot": false,
+      "content": "It's showing registered now..but when i clicked on courses are there any videos",
+      "embeds": [],
+      "created": 1771943576759,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Now you will need to go to https://vibe.vicharanashala.ai/ and register and then login. \nOnce done:\nKindly update me if you're able to access the course or not.",
+      "embeds": [],
+      "created": 1771943636697,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "<@1471774232437588050> was your issue resolved?",
+      "embeds": [],
+      "created": 1771948514895,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "shraddha111j_72520",
+      "user_id": "1471774232437588050",
+      "is_bot": false,
+      "content": "Where can i complete 20% courses",
+      "embeds": [],
+      "created": 1771948541272,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "were you able to get access to the course?",
+      "embeds": [],
+      "created": 1771948574717,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "<@1471774232437588050>",
+      "embeds": [],
+      "created": 1771948604282,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "shraddha111j_72520",
+      "user_id": "1471774232437588050",
+      "is_bot": false,
+      "content": "No",
+      "embeds": [],
+      "created": 1771948818082,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "hello <@1471774232437588050> what is your issue??",
+      "embeds": [],
+      "created": 1771949895497,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "shraddha111j_72520",
+      "user_id": "1471774232437588050",
+      "is_bot": false,
+      "content": "I'm unable to see video lectures",
+      "embeds": [],
+      "created": 1771950337133,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "Alright can you send me the email id and the cohort name in which you registered? <@1471774232437588050>",
+      "embeds": [],
+      "created": 1771950383515,
+      "edited": 1771950405660
+    },
+    {
+      "index": 23,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1471774232437588050> \nKindly upload a professional profile picture. And tell us if your issue has been resolved?",
+      "embeds": [],
+      "created": 1772001066963,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "shraddha111j_72520",
+      "user_id": "1471774232437588050",
+      "is_bot": false,
+      "content": "shraddha30405@gmail.com\nAKSians",
+      "embeds": [],
+      "created": 1772004161844,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Kindly attach a screenshot for reference.\nOnce you log in, click on invites. and check if there is a course being shown",
+      "embeds": [],
+      "created": 1772024668113,
+      "edited": null
+    },
+    {
+      "index": 26,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "hi <@1471774232437588050> was your issue resolved?",
+      "embeds": [],
+      "created": 1772047745803,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "shraddha111j_72520",
+      "user_id": "1471774232437588050",
+      "is_bot": false,
+      "content": "Where to watch lectures",
+      "embeds": [],
+      "created": 1772115503789,
+      "edited": null
+    },
+    {
+      "index": 28,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1471774232437588050> \nKindly login using your laptop or desktop",
+      "embeds": [],
+      "created": 1772122343408,
+      "edited": null
+    },
+    {
+      "index": 29,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Hi <@1471774232437588050> \n\nWas your issue resolved?\n\nif not, you will need to go to https://vibe.vicharanashala.ai/student/login and REGISTER AS A STUDENT and THEN LOGIN. \n\nYou must have an invite that you need to accept and then it should work.",
+      "embeds": [],
+      "created": 1772199022681,
+      "edited": null
+    },
+    {
+      "index": 30,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1471774232437588050> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772269999774,
+      "edited": null
+    },
+    {
+      "index": 31,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1359148118444343517>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772383594673,
+      "edited": null
+    },
+    {
+      "index": 32,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772383595873,
+      "edited": null
+    },
+    {
+      "index": 33,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772383599701,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0186",
+    "id": "1475470096074801243"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 33
+}

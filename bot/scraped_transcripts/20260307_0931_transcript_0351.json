@@ -1,0 +1,352 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1472488410982780929> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Regarding formatting issue in case study",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772609222100,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "Weird discrepancy between the github and the case study page, you can see that in the page it is formatted as 1. 1. 1. 2. but in the github it is 1. 2. 3. 4.\n\nI suspect that the latest github version is not being used for the rendered page?",
+      "embeds": [],
+      "created": 1772609324234,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "Also would like to be able to directly contribute more easily for the case study page",
+      "embeds": [],
+      "created": 1772609805557,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "I want to add some fixes to some of the case studies I noticed",
+      "embeds": [],
+      "created": 1772610316887,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1375317764239134770> please look into it. \n\nCC: <@956180961832362014>",
+      "embeds": [],
+      "created": 1772611471029,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Is it technical or some logical mismatch you found?",
+      "embeds": [],
+      "created": 1772612844523,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "both formatting and logical issues",
+      "embeds": [],
+      "created": 1772612883638,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "the later case studies have this problem more frequently",
+      "embeds": [],
+      "created": 1772612909956,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1468485581246959747> sir, can we look into this?",
+      "embeds": [],
+      "created": 1772612951474,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "imrohitvk",
+      "user_id": "1468485581246959747",
+      "is_bot": false,
+      "content": "Sure. Will look into this.",
+      "embeds": [],
+      "created": 1772615286576,
+      "edited": 1772615338011
+    },
+    {
+      "index": 11,
+      "author": "imrohitvk",
+      "user_id": "1468485581246959747",
+      "is_bot": false,
+      "content": "The issue is resolved.",
+      "embeds": [],
+      "created": 1772623146063,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "Sir there are some other case studies that have minor errors like these, is there any way we can directly contribute?",
+      "embeds": [],
+      "created": 1772623341908,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "imrohitvk",
+      "user_id": "1468485581246959747",
+      "is_bot": false,
+      "content": "All are fixed, please check.",
+      "embeds": [],
+      "created": 1772623547519,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "In case study 18, we have this error, where it mentions InversifyJS, whereas the module we learn in the next case study, i.e. 19 actually is about TypeDI",
+      "embeds": [],
+      "created": 1772623589596,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "Similarly in Case Study 19 there are random InversifyJS references without specifying they are from there",
+      "embeds": [],
+      "created": 1772623614518,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "imrohitvk",
+      "user_id": "1468485581246959747",
+      "is_bot": false,
+      "content": "Any other issues?",
+      "embeds": [],
+      "created": 1772623630986,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "I remember there being a few more, but I will have to manually check through all the case studies again. For now I can point out case study 13. Default should come before optional",
+      "embeds": [],
+      "created": 1772623698661,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "imrohitvk",
+      "user_id": "1468485581246959747",
+      "is_bot": false,
+      "content": "For contribution you can fork the repository and make the changes and then you can send the PR. We will review it and merge if everything is good.",
+      "embeds": [],
+      "created": 1772623766444,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "I tried sir but there were so many PRs it got lost, I will try to consolidate all the errors and push them in one pr and then let you know, the previous PR of mine is addressed by the fixes you added just now. 😅 \n\nCan i make a pr in the future and then make a ticket to let you know?",
+      "embeds": [],
+      "created": 1772623855556,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "imrohitvk",
+      "user_id": "1468485581246959747",
+      "is_bot": false,
+      "content": "<@1375317764239134770> ma'am. Please verify this.",
+      "embeds": [],
+      "created": 1772623904032,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "imrohitvk",
+      "user_id": "1468485581246959747",
+      "is_bot": false,
+      "content": "You can send the PR and inform us in the discord. We will merge if the changes looks good to team. You can tag Nitin and me in the discord.",
+      "embeds": [],
+      "created": 1772624017038,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "is it fine to ping you in <#1471922333986848989>?",
+      "embeds": [],
+      "created": 1772624036967,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "imrohitvk",
+      "user_id": "1468485581246959747",
+      "is_bot": false,
+      "content": "Me and Nitin both you can tag.",
+      "embeds": [],
+      "created": 1772624059098,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "Ok sir I will do that, thank you for being available 👍",
+      "embeds": [],
+      "created": 1772624078795,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1472488410982780929>  is the issue resolved? Can the ticket be closed?",
+      "embeds": [],
+      "created": 1772707762613,
+      "edited": 1772707769761
+    },
+    {
+      "index": 26,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "There are some more updates possible, but I will make a PR and ping rohit sir or you in <#1471922333986848989>  👍",
+      "embeds": [],
+      "created": 1772707796073,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the ticket.",
+      "embeds": [],
+      "created": 1772707815612,
+      "edited": null
+    },
+    {
+      "index": 28,
+      "author": "staticfan",
+      "user_id": "1472488410982780929",
+      "is_bot": false,
+      "content": "👍",
+      "embeds": [],
+      "created": 1772707819229,
+      "edited": null
+    },
+    {
+      "index": 29,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772707821961,
+      "edited": null
+    },
+    {
+      "index": 30,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772707822827,
+      "edited": null
+    },
+    {
+      "index": 31,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772707825000,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0351",
+    "id": "1478654988971544617"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 31
+}

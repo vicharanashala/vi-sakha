@@ -1,0 +1,232 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1472100194324709406> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I donot have permission to attempt quiz. Its redirecting to the video",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771742277812,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@&1473943500390141984> \nKindly look into this",
+      "embeds": [],
+      "created": 1771744819078,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "shobhansarkar_68209",
+      "user_id": "1472100194324709406",
+      "is_bot": false,
+      "content": "Madam, which question should I look into there ? <@956180961832362014>",
+      "embeds": [],
+      "created": 1771747910460,
+      "edited": 1771747925916
+    },
+    {
+      "index": 4,
+      "author": "shobhansarkar_68209",
+      "user_id": "1472100194324709406",
+      "is_bot": false,
+      "content": "<@956180961832362014> Madam, please help... I have tried again to attempt that quiz.. Its not resolved yet..",
+      "embeds": [],
+      "created": 1771748344476,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "shobhansarkar_68209",
+      "user_id": "1472100194324709406",
+      "is_bot": false,
+      "content": "my email in vibe lab is : 25f2007002@ds.study.iitm.ac.in  <@956180961832362014>",
+      "embeds": [],
+      "created": 1771748388882,
+      "edited": 1771748402848
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1472100194324709406> \nKindly first watch the video and then the quiz will pop up automatically.",
+      "embeds": [],
+      "created": 1771752603467,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As soon as you give the answer correctly you will be redirected to the next video.",
+      "embeds": [],
+      "created": 1771752644828,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Ok give us some time we are looking into this issue.",
+      "embeds": [],
+      "created": 1771752670189,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1220060098643230811> Kindly look into this",
+      "embeds": [],
+      "created": 1771752682166,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "nxtnilesh.",
+      "user_id": "1220060098643230811",
+      "is_bot": false,
+      "content": "Okay",
+      "embeds": [],
+      "created": 1771752747423,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1472100194324709406> \nIs the issue resolved?\n\nCC: <@1220060098643230811> <@836880971017748512>",
+      "embeds": [],
+      "created": 1771825576769,
+      "edited": 1771825608885
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1472100194324709406> \nAny update?",
+      "embeds": [],
+      "created": 1771855843244,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1472100194324709406> \nIs your issue been resolved?",
+      "embeds": [],
+      "created": 1771913585099,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "shobhansarkar_68209",
+      "user_id": "1472100194324709406",
+      "is_bot": false,
+      "content": "yes yes Madam.. Its fully resolved now.. <@956180961832362014> <@1220060098643230811> <@836880971017748512>",
+      "embeds": [],
+      "created": 1771926060996,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "shobhansarkar_68209",
+      "user_id": "1472100194324709406",
+      "is_bot": false,
+      "content": "Thank you so much for all your support and help.. <@956180961832362014> <@1220060098643230811>",
+      "embeds": [],
+      "created": 1771926159139,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Ticket.",
+      "embeds": [],
+      "created": 1771928409813,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771928416911,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771928417389,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771928620978,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0150",
+    "id": "1475018761743630558"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 19
+}

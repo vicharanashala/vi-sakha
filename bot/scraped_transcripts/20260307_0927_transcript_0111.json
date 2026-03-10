@@ -1,0 +1,294 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1469346329720520802> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Hp deducted not yet reverted",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771511805349,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@1469346329720520802> , do you remeber the ticket id of last ticket that you created ?",
+      "embeds": [],
+      "created": 1771511858253,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "suchismitasahoo0222",
+      "user_id": "1469346329720520802",
+      "is_bot": false,
+      "content": "Noo",
+      "embeds": [],
+      "created": 1771511888983,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "suchismitasahoo0222",
+      "user_id": "1469346329720520802",
+      "is_bot": false,
+      "content": "This is for the first time",
+      "embeds": [],
+      "created": 1771511896026,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "suchismitasahoo0222",
+      "user_id": "1469346329720520802",
+      "is_bot": false,
+      "content": "I created",
+      "embeds": [],
+      "created": 1771511903693,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1469346329720520802>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771511908002,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@1359148118444343517>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1771512028985,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "ahhhh <@1469346329720520802>",
+      "embeds": [],
+      "created": 1771512044019,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "you mentioned 'not yet'",
+      "embeds": [],
+      "created": 1771512059029,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "no worries, can you please describe your issue in detail ?",
+      "embeds": [],
+      "created": 1771512099754,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "suchismitasahoo0222",
+      "user_id": "1469346329720520802",
+      "is_bot": false,
+      "content": "Actually I got the mail on 12th feb that my issue has been noted and any hp reduction done will be reverted soon ,",
+      "embeds": [],
+      "created": 1771512134492,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "please share a screenshot of that mail if possible!",
+      "embeds": [],
+      "created": 1771512201649,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "suchismitasahoo0222",
+      "user_id": "1469346329720520802",
+      "is_bot": false,
+      "content": "I have completed vibe on 8th feb bt due to some backend technical issues on vibe ,my vibe progress showing 99.9 %  so this problem got solved on 13th and now I can see 100% vibe completed,  bt my hp points are not yet reverted",
+      "embeds": [],
+      "created": 1771512268713,
+      "edited": 1771512302041
+    },
+    {
+      "index": 14,
+      "author": "suchismitasahoo0222",
+      "user_id": "1469346329720520802",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771512280926,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "suchismitasahoo0222",
+      "user_id": "1469346329720520802",
+      "is_bot": false,
+      "content": "Shared!!",
+      "embeds": [],
+      "created": 1771512582689,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@956180961832362014> <@836880971017748512>",
+      "embeds": [],
+      "created": 1771512679961,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Thanks! Will revert asap",
+      "embeds": [],
+      "created": 1771512690467,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1359148118444343517> This issue has already been noted and will be reverted soon by Sakshi mam",
+      "embeds": [],
+      "created": 1771513897494,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@1469346329720520802>",
+      "embeds": [],
+      "created": 1771513938767,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "suchismitasahoo0222",
+      "user_id": "1469346329720520802",
+      "is_bot": false,
+      "content": "Thank you!!",
+      "embeds": [],
+      "created": 1771513965026,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the ticket",
+      "embeds": [],
+      "created": 1771518318235,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771518333125,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771518333600,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771518335978,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0111",
+    "id": "1474052089775915020"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 24
+}

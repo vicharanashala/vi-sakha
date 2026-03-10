@@ -1,0 +1,172 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1295409453407141898> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Unable to get the updated case studies and health point, i did 18 case studies submission but yet my score is low. Please check what happened .",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772425843738,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1295409453407141898> please mention your mail id used for submission, cohort name and time of submission",
+      "embeds": [],
+      "created": 1772426420764,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "amankumarmehta_98006",
+      "user_id": "1295409453407141898",
+      "is_bot": false,
+      "content": "Name :Aman Kumar Mehta\nEmail :amankumarmehta22@gmail.com\ncohort name :Kruskalians\nTime of submission :1/3/2026 Evening",
+      "embeds": [],
+      "created": 1772426516116,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Please mention the exact timing",
+      "embeds": [],
+      "created": 1772426734401,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "amankumarmehta_98006",
+      "user_id": "1295409453407141898",
+      "is_bot": false,
+      "content": "I don't remember the exact timing",
+      "embeds": [],
+      "created": 1772426771342,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "amankumarmehta_98006",
+      "user_id": "1295409453407141898",
+      "is_bot": false,
+      "content": "did you find that?",
+      "embeds": [],
+      "created": 1772427400206,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Do not worry, your issue is conveyed to the team and will be resolved soon",
+      "embeds": [],
+      "created": 1772427655582,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "amankumarmehta_98006",
+      "user_id": "1295409453407141898",
+      "is_bot": false,
+      "content": "ok",
+      "embeds": [],
+      "created": 1772427662764,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "amankumarmehta_98006",
+      "user_id": "1295409453407141898",
+      "is_bot": false,
+      "content": "Issue resolved",
+      "embeds": [],
+      "created": 1772430450031,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the ticket",
+      "embeds": [],
+      "created": 1772432705134,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772432711859,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772432712223,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772432714402,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0310",
+    "id": "1477885842486722671"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 13
+}

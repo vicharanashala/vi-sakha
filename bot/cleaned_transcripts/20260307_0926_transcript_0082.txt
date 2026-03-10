@@ -1,0 +1,5 @@
+Student (coralone.): I would like to do case studies as I progress through my MERN lectures. This will help me be concrete in my fundamentals gives me hands on experience. Can I keep doing that or do I have to finish all the video lectures before moving on to ca
+
+Instructor (nitin_fighter1379): Sure you can parallelly proceed with the ViBe course and case studies but be aware of the deadlines to be completed.
+
+Student (coralone.): i finished my week 1 milestone

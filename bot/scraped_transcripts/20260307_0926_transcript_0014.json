@@ -1,0 +1,132 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1455123861581594716> Welcome, the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I am unable to follow the announcements channel",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1770308605131,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "can you share a screenshot of the issue <@1455123861581594716> ?",
+      "embeds": [],
+      "created": 1770308671926,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "mungararangababu",
+      "user_id": "1455123861581594716",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1770308718585,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "you don't have to worry about that",
+      "embeds": [],
+      "created": 1770309239902,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "no need to follow it",
+      "embeds": [],
+      "created": 1770309248745,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "mungararangababu",
+      "user_id": "1455123861581594716",
+      "is_bot": false,
+      "content": "Thank you",
+      "embeds": [],
+      "created": 1770309263869,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1455123861581594716>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1770309293755,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1770309294318,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1770309297040,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0014",
+    "id": "1469005502338826303"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 9
+}

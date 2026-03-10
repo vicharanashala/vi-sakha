@@ -1,0 +1,132 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1421111414558294067> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Failed to access quiz",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772006311103,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "Please provide your email along with the current module, section, and quiz you are referring to <@1421111414558294067>",
+      "embeds": [],
+      "created": 1772007268261,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "ayushsahu28",
+      "user_id": "1421111414558294067",
+      "is_bot": false,
+      "content": "Email :  ayushsahurajmarg@gmail.com \nModule : Typescript \nSection: Generics and reusability \nQuiz: 3\n<@759435748721557514>",
+      "embeds": [],
+      "created": 1772007870395,
+      "edited": 1772007891543
+    },
+    {
+      "index": 4,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "<@1421111414558294067> Kindly check now and update us.",
+      "embeds": [],
+      "created": 1772009421196,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "ayushsahu28",
+      "user_id": "1421111414558294067",
+      "is_bot": false,
+      "content": "Now working, thankyou very much",
+      "embeds": [],
+      "created": 1772010988104,
+      "edited": 1772010993317
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the ticket",
+      "embeds": [],
+      "created": 1772015543924,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772015549293,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772015549934,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772015552805,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0246",
+    "id": "1476126197422489660"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 9
+}

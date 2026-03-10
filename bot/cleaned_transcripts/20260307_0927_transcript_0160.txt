@@ -1,0 +1,11 @@
+Student (sudeepa980): Hi Team, earlier ticket (Lesson 1 access) was resolved and videos are completed. Now at 24% progress, I’m getting “Failed to start quiz – no permission.” I closed the previous ticket thinking it was fixed. Please help resolve this issue.
+
+Instructor (abiramk0107, jinalgupta.): Kindly try watching the precious video lecture and after attempting the quiz you may comeback again. Kindly share your email id.
+
+Student (sudeepa980): sudeepakongoti.com
+
+Instructor (abiramk0107, jinalgupta.): We have fixed the issue, kindly refresh the page and try again. please let us know if it is working fine. Thank you. Is the issue been resolved?
+
+Student (sudeepa980): Yes yes
+
+Instructor (jinalgupta.): As the issue has been resolved hence closing the ticket.

@@ -1,0 +1,122 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@875234429528866837> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I had registered for the NPTEL course “The Joy of Computing Using Python”, but I did not fill out the exam form. Is there any alternative way through which I can get the internship certificate? Some students are talking about NPTEL+ courses.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772040075111,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@875234429528866837> \nWe have noted your concern and will back to you after confirming with the concern team.\ncc: <@836880971017748512>",
+      "embeds": [],
+      "created": 1772042297694,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@875234429528866837> \nYes you can continue the NPTEL course on NPTEL+ it is also completely fine.",
+      "embeds": [],
+      "created": 1772084795848,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "mayankpandey33",
+      "user_id": "875234429528866837",
+      "is_bot": false,
+      "content": "We have to enroll in course and also give the exam on NPTEL+ Then we will get the internship certificate?",
+      "embeds": [],
+      "created": 1772084943502,
+      "edited": 1772084973724
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Yes, this is to be on the safer side as enrolling in the course is mandatory.",
+      "embeds": [],
+      "created": 1772085530868,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@875234429528866837>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772085566742,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772085567359,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772085607360,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0256",
+    "id": "1476267812614836318"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 8
+}

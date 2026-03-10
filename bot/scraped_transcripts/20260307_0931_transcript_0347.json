@@ -1,0 +1,142 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1351132102686543873> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Hello,  I had previously raised a ticket regarding my viva completion being stuck at 99.9% and the resulting reduction in my health points. The ticket was marked as resolved, and I was informed that my completion would be considered and that",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772563240068,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jems_1234",
+      "user_id": "1351132102686543873",
+      "is_bot": false,
+      "content": "coud you please check into this matter and increase my hp because there was recently an announcement where maam said students who are in the unsafe zone will be removed from the cohort",
+      "embeds": [],
+      "created": 1772593809049,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1351132102686543873> \nWe have escalated your issue.",
+      "embeds": [],
+      "created": 1772645219319,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1351132102686543873> \nWe have restored you to the dashboard.",
+      "embeds": [],
+      "created": 1772697711371,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Kindly check and inform us.",
+      "embeds": [],
+      "created": 1772697725629,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1351132102686543873> is the issue resolved? Can the ticket be closed?",
+      "embeds": [],
+      "created": 1772707841669,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jems_1234",
+      "user_id": "1351132102686543873",
+      "is_bot": false,
+      "content": "Yes it has been resolved. Thank you so much. I will close the ticket now",
+      "embeds": [],
+      "created": 1772717721620,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1351132102686543873>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772717753376,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772717753983,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772717909027,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0347",
+    "id": "1478462126719897700"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 10
+}

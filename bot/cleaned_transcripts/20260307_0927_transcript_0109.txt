@@ -1,0 +1,5 @@
+Student (sumaymittal): Hp got reduced by 10% due to vibe completion glitch Hello team, I completed the vibe course before the deadline but it was stuck at 99.2% due to some missed videos and quizzes, I was able to reach 99.8 by watching all the missed videos but there was still a quiz left as the deadline passed by, I was able to find that quiz after many attemps and reached 100% but the issue is that my hp got reduced by 10%, placing me in the unsafe zone, I request you to please address this issue and revert back my hp as I tried the best from my end, but couldn't get it completed in time because of the server issue. Thank You Sumay Mittal
+
+Instructor (nitin_fighter1379): Do not worry. If the course is completed before deadline and this issue caused HP reduction, your case will be considered as course completed successfully and the HP reduction will be reverted.
+
+Student (sumaymittal): OK Sir, Thankyou

@@ -1,0 +1,142 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1288805550070698046> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I am unable to enter into the quiz after watching the video",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771744072955,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@&1473943500390141984> \nKindly look into this.",
+      "embeds": [],
+      "created": 1771744835713,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1220060098643230811> \nKindly look into this query.",
+      "embeds": [],
+      "created": 1771752885883,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1288805550070698046> Could you share your email id",
+      "embeds": [],
+      "created": 1771755173186,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "kranthicontributor_34730",
+      "user_id": "1288805550070698046",
+      "is_bot": false,
+      "content": "323103382036@gvpce.ac.in \nNaremsetti Venkata Kranthi Kumar",
+      "embeds": [],
+      "created": 1771762401263,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@1288805550070698046> , kindly check again if the issue still persist",
+      "embeds": [],
+      "created": 1771776872015,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "kranthicontributor_34730",
+      "user_id": "1288805550070698046",
+      "is_bot": false,
+      "content": "Solved Thank you",
+      "embeds": [],
+      "created": 1771780894521,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1288805550070698046>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771780906972,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771780907603,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771814552739,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0151",
+    "id": "1475026291039404134"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 10
+}

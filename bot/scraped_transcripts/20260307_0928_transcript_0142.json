@@ -1,0 +1,222 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473353735961968795> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : i have completed lesson-2 but i can't open lesson-1. i accidently click lesson-2 after joining instead of lesson-1. Now i completed lesson-2 but till now i can't open lesson-1.what should i so?",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771666743756,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "savio_stephen_57289",
+      "user_id": "1473353735961968795",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771666767647,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "savio_stephen_57289",
+      "user_id": "1473353735961968795",
+      "is_bot": false,
+      "content": "they are saying access restricted",
+      "embeds": [],
+      "created": 1771666789510,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1366708005483053076> \nKindly look into this.",
+      "embeds": [],
+      "created": 1771667189657,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "sure",
+      "embeds": [],
+      "created": 1771667965351,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "<@1473353735961968795>  You have to watch the videos in correct order linearly",
+      "embeds": [],
+      "created": 1771668056329,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "Now you only watched the 2nd video of module 1, right?",
+      "embeds": [],
+      "created": 1771668086997,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "<@1473353735961968795>  tell me your cohort name and mail id",
+      "embeds": [],
+      "created": 1771668297263,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473353735961968795> \nAs visible in the image your camera is also switched off.",
+      "embeds": [],
+      "created": 1771669082287,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473353735961968795> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1771744975481,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473353735961968795> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1771825501071,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473353735961968795> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1771855891172,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473353735961968795> \nIs you issue been resolved?",
+      "embeds": [],
+      "created": 1771913554764,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473353735961968795> \nIs your issue been resolved?",
+      "embeds": [],
+      "created": 1771940060907,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473353735961968795> \nAs you have not been responding to the messages we will assume that your issue has been resolved and hence closing the ticket. \nCC: <@836880971017748512>",
+      "embeds": [],
+      "created": 1772001855270,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772001881376,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772001881919,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772001883941,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0142",
+    "id": "1474701947658440804"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 18
+}

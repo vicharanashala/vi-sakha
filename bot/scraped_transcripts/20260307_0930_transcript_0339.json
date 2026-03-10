@@ -1,0 +1,132 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473375952514846924> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Not a College Student. Requesting clarification on the forms provided.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772552205291,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "anirudhraobeedu",
+      "user_id": "1473375952514846924",
+      "is_bot": false,
+      "content": "I am currently a working professional in a Private Company. \n\nRequesting clarification on what to add under \"Institute Name\", \"College/University Name\" or any of the educational institution specific fields in the forms.\n\nThank you!",
+      "embeds": [],
+      "created": 1772552223924,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "anirudhraobeedu",
+      "user_id": "1473375952514846924",
+      "is_bot": false,
+      "content": "Also, I was of the assumption it should be the current college/institute as suggested by the instructions on the form. But that wouldn't apply to my case, I suppose.",
+      "embeds": [],
+      "created": 1772552518118,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473375952514846924> Sir, you can mention your college from which you've graduated from at the moment. \n\n<@1468485581246959747> sir and <@956180961832362014> mam, please correct me if I'm wrong.",
+      "embeds": [],
+      "created": 1772552613795,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@836880971017748512> \nYou are totally correct. \n<@1473375952514846924> Sir, we hope this has leared your doubt for the same.",
+      "embeds": [],
+      "created": 1772644633810,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "anirudhraobeedu",
+      "user_id": "1473375952514846924",
+      "is_bot": false,
+      "content": "Thank you so much <@836880971017748512> <@956180961832362014> <@1468485581246959747> for the clarification! I'll go ahead and close this ticket.",
+      "embeds": [],
+      "created": 1772647198578,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772647211549,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772647212062,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772647219054,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0339",
+    "id": "1478415839756812451"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 9
+}

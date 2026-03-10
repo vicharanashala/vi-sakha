@@ -1,0 +1,9 @@
+Student (shreshthkumar_09): Unexpected decrease in HP. Dear Support team, My HP decreased suddenly from 142 to 118 and I don't know why. And I have also not violated any rules and regulations. I would kindly request you to look into the matter. I shall be highly ob Oh I am sorry I think the message got chopped in the end I wrote, Dear Support Team, My HP decreased suddenly from 142 to 118 and I don't know why. And I have also not violated any rules and regulations. I would kindly request you to look into the matter. I shall be highly obliged to you for this. Thank you Yours sincerely Shreshth Kumar Email ID - shreshthkumar2808.com Internship Id - "WIN251601"
+
+Instructor (yazdan_irfan): Hi Shreshth We suggest you to ones confirm weather a reason is mentioned in the live dashboard of your Cohort Website under the Health Point -> Add/remove reason
+
+Student (shreshthkumar_09): Hello I looked it up on the website dashboard I don't see any reason there for hp decrease I only see 10% hp added for attending 31 st January standup meeting which was updated on 2 nd February Hello, Is there any update?
+
+Instructor (nitin_fighter1379): We have noticed that instead of 10% increase in HP which was intended, 30% was given by the scripts. It was a mistake from our side that the scripts have mistook the increment. This is the reason why there was a decreement in HP.
+
+Student (shreshthkumar_09): Ok sir thank you for the clarification . 🙂🙏

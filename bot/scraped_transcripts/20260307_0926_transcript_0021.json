@@ -1,0 +1,112 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1441423648048152747> Welcome, the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I am unable to access the ViBe platform as it is showing an error while loading courses. This issue has occurred multiple times, and I am facing it again now. It is affecting my learning process. Kindly guide me on how to proceed further.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1770618020021,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@647093625594839050>",
+      "embeds": [],
+      "created": 1770619758842,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "adityabmv",
+      "user_id": "647093625594839050",
+      "is_bot": false,
+      "content": "<@1441423648048152747> I think the problem should be resolved by now.\nIs it still present?",
+      "embeds": [],
+      "created": 1770649255519,
+      "edited": 1770649260359
+    },
+    {
+      "index": 4,
+      "author": "susmita_r_betadur",
+      "user_id": "1441423648048152747",
+      "is_bot": false,
+      "content": "no the problem is resolved",
+      "embeds": [],
+      "created": 1770736234418,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1441423648048152747>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1770736244540,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1770736245144,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1770737108374,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0021",
+    "id": "1470303281896226930"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 7
+}

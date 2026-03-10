@@ -1,0 +1,432 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1472433706353426567> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : How to Join the Zoom Meeting , When I try to join using the meeting ID  and passcode , it asks me to sign in. After that , it ask for many other details like an Organization Name. Please help me sir .",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771405292705,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1472433706353426567> In order to join the scheduled session, you need to register with the details.",
+      "embeds": [],
+      "created": 1771407183278,
+      "edited": 1771411095065
+    },
+    {
+      "index": 3,
+      "author": "vipul31_",
+      "user_id": "1472433706353426567",
+      "is_bot": false,
+      "content": "<@836880971017748512> I want to register but i did not get any link. how should i register?",
+      "embeds": [],
+      "created": 1771415413504,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Please mention your cohort name. Also let us know whether you received a mail from zoom for the meeting?",
+      "embeds": [],
+      "created": 1771415690178,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "vipul31_",
+      "user_id": "1472433706353426567",
+      "is_bot": false,
+      "content": "<@836880971017748512> RSAians",
+      "embeds": [],
+      "created": 1771415981487,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "vipul31_",
+      "user_id": "1472433706353426567",
+      "is_bot": false,
+      "content": "I received a mail on my student email id  .",
+      "embeds": [],
+      "created": 1771416066095,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "vipul31_",
+      "user_id": "1472433706353426567",
+      "is_bot": false,
+      "content": "23f3003765@ds.study.iitm.ac.in",
+      "embeds": [],
+      "created": 1771416107580,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "vipul31_",
+      "user_id": "1472433706353426567",
+      "is_bot": false,
+      "content": "<@836880971017748512>",
+      "embeds": [],
+      "created": 1771416129672,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1472433706353426567> You must register to the scheduled meet from that mail as mentioned in it and join the meet in the scheduled time.",
+      "embeds": [],
+      "created": 1771416226215,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "vipul31_",
+      "user_id": "1472433706353426567",
+      "is_bot": false,
+      "content": "<@836880971017748512> I received only meeting link not registration link . plz give me that link .I even missed the meeting on the 15th . please help me sir .",
+      "embeds": [],
+      "created": 1771416478070,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1472433706353426567> Please join the voice channel created to discuss on this issue.",
+      "embeds": [],
+      "created": 1771416626912,
+      "edited": 1771416802877
+    },
+    {
+      "index": 12,
+      "author": "vipul31_",
+      "user_id": "1472433706353426567",
+      "is_bot": false,
+      "content": "<@836880971017748512>  sorry but I am not good in english .",
+      "embeds": [],
+      "created": 1771416950356,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "vipul31_",
+      "user_id": "1472433706353426567",
+      "is_bot": false,
+      "content": "can you explain in chat plz",
+      "embeds": [],
+      "created": 1771416981954,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "You received a mail from zoom for the meeting confirmation, right? Register in that mail itself and join the meeting at the time mentioned",
+      "embeds": [],
+      "created": 1771417106465,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "vipul31_",
+      "user_id": "1472433706353426567",
+      "is_bot": false,
+      "content": "<@836880971017748512>",
+      "embeds": [],
+      "created": 1771417289948,
+      "edited": 1771417314125
+    },
+    {
+      "index": 16,
+      "author": "vipul31_",
+      "user_id": "1472433706353426567",
+      "is_bot": false,
+      "content": "sorry",
+      "embeds": [],
+      "created": 1771417400364,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "what language ?",
+      "embeds": [],
+      "created": 1771417535186,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "vipul31_",
+      "user_id": "1472433706353426567",
+      "is_bot": false,
+      "content": "<@836880971017748512>   I received this mail only .",
+      "embeds": [],
+      "created": 1771417535871,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Hindi?",
+      "embeds": [],
+      "created": 1771417539871,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "tamil? telegu ?",
+      "embeds": [],
+      "created": 1771417546089,
+      "edited": 1771417555228
+    },
+    {
+      "index": 21,
+      "author": "vipul31_",
+      "user_id": "1472433706353426567",
+      "is_bot": false,
+      "content": "Hindi",
+      "embeds": [],
+      "created": 1771417555698,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "vipul bhai, meri baat suniye!",
+      "embeds": [],
+      "created": 1771417566848,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "aap phone pe ho ya laptop pe ?",
+      "embeds": [],
+      "created": 1771417579030,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "vipul31_",
+      "user_id": "1472433706353426567",
+      "is_bot": false,
+      "content": "laptop par",
+      "embeds": [],
+      "created": 1771417587334,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "accha toh ek kaam kariye, kya aap zoom pe sign up kar sakte hai ?",
+      "embeds": [],
+      "created": 1771417614719,
+      "edited": null
+    },
+    {
+      "index": 26,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "agar nahi toh dariye mat",
+      "embeds": [],
+      "created": 1771417622914,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "kya aapko discord pe voice channel ya meeting hall dikh raha hai ?",
+      "embeds": [],
+      "created": 1771417649376,
+      "edited": null
+    },
+    {
+      "index": 28,
+      "author": "vipul31_",
+      "user_id": "1472433706353426567",
+      "is_bot": false,
+      "content": "ha kar sakta hu but baad me bahut saari details magta hai pta nahi kya kya .",
+      "embeds": [],
+      "created": 1771417652288,
+      "edited": null
+    },
+    {
+      "index": 29,
+      "author": "vipul31_",
+      "user_id": "1472433706353426567",
+      "is_bot": false,
+      "content": "ha dikha rha hai",
+      "embeds": [],
+      "created": 1771417666654,
+      "edited": null
+    },
+    {
+      "index": 30,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "pehle voice channel join kar lijiye",
+      "embeds": [],
+      "created": 1771417670819,
+      "edited": null
+    },
+    {
+      "index": 31,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "uspe click kariye",
+      "embeds": [],
+      "created": 1771417676821,
+      "edited": null
+    },
+    {
+      "index": 32,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "discord me hi",
+      "embeds": [],
+      "created": 1771417679557,
+      "edited": null
+    },
+    {
+      "index": 33,
+      "author": "vipul31_",
+      "user_id": "1472433706353426567",
+      "is_bot": false,
+      "content": "ok",
+      "embeds": [],
+      "created": 1771417711705,
+      "edited": null
+    },
+    {
+      "index": 34,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "abhi",
+      "embeds": [],
+      "created": 1771417761362,
+      "edited": null
+    },
+    {
+      "index": 35,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "move mat kariye ga",
+      "embeds": [],
+      "created": 1771417764757,
+      "edited": null
+    },
+    {
+      "index": 36,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "rukiye yahi pe",
+      "embeds": [],
+      "created": 1771417770439,
+      "edited": null
+    },
+    {
+      "index": 37,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1359148118444343517>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771419190762,
+      "edited": null
+    },
+    {
+      "index": 38,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771419191280,
+      "edited": null
+    },
+    {
+      "index": 39,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771419193044,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0089",
+    "id": "1473605342415032405"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 39
+}

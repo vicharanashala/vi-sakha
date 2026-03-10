@@ -1,0 +1,112 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1099898271985586198> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Google form to submit slot booking commit/ progress is not available",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771255566772,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1099898271985586198> \nHere are the links: \nCommit when you will watch: - https://forms.gle/mcbqd1mLVZQzugfM8\nAre you true to your Commitments: - https://forms.gle/Y2yn3nW7m6Lx3sKq9",
+      "embeds": [],
+      "created": 1771257725524,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "coralone.",
+      "user_id": "1099898271985586198",
+      "is_bot": false,
+      "content": "Thank you so much!!!! This was fast response...",
+      "embeds": [],
+      "created": 1771257752427,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved I will be closing the ticket.",
+      "embeds": [],
+      "created": 1771257778613,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1099898271985586198>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771257789571,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771257790239,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771257792311,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0067",
+    "id": "1472977346696052871"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 7
+}

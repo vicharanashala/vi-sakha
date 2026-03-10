@@ -1,0 +1,162 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473547376596615271> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Videos 3 and 11 in the “Basics of JavaScript” section are still marked as incomplete even though I’ve finished them",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771951996979,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "Hello <@1473547376596615271> can you give me our email id and cohort name?",
+      "embeds": [],
+      "created": 1771953512899,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "mumtazparveen",
+      "user_id": "1473547376596615271",
+      "is_bot": false,
+      "content": "Email id - mumtazparveen2905@gmail.com \nCohort - AKSians",
+      "embeds": [],
+      "created": 1771954053966,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "mumtazparveen",
+      "user_id": "1473547376596615271",
+      "is_bot": false,
+      "content": "I hv to mention my email id, right sir?",
+      "embeds": [],
+      "created": 1771954055300,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "mumtazparveen",
+      "user_id": "1473547376596615271",
+      "is_bot": false,
+      "content": "<@857556884750729217> .",
+      "embeds": [],
+      "created": 1771954087943,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "Yes the email id through which you are registered in the course..",
+      "embeds": [],
+      "created": 1771954135060,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "Alright <@1473547376596615271> can you go to the dashboard and refresh the page. And tell me is it working or not..",
+      "embeds": [],
+      "created": 1771954269924,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "mumtazparveen",
+      "user_id": "1473547376596615271",
+      "is_bot": false,
+      "content": "<@857556884750729217> Yes sir, it's working and the fault is cleared. Thankyou so much",
+      "embeds": [],
+      "created": 1771954963456,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "<@1473547376596615271> alright enjoy your journey with ViBe and happy learning 🙂",
+      "embeds": [],
+      "created": 1771955039351,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@857556884750729217>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771955052496,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771955052997,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771955055913,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0226",
+    "id": "1475898386900062401"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 12
+}

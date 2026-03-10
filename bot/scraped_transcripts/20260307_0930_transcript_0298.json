@@ -1,0 +1,132 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1099898271985586198> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I would like to know how to do case studies for MongoDB. I am trying to figure out where to access databases and how to submit case studies. Any link or document to explain this would be really helpful.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772357852655,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@956180961832362014>",
+      "embeds": [],
+      "created": 1772357875824,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1099898271985586198> Ma'am, \nUnless explicitly mentioned, MongoDB case studies can be completed and tested using MongoDB Compass or MongoDB Atlas. A full backend setup is not mandatory.\nYou can simply send the queries you used to implement the same.",
+      "embeds": [],
+      "created": 1772448157810,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "coralone.",
+      "user_id": "1099898271985586198",
+      "is_bot": false,
+      "content": "so for uploading the files, it would be a vs code file?",
+      "embeds": [],
+      "created": 1772461546545,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "No ma'am, you can simply print the pdf file of the outputs and teh queries you might have used or enetered and create a zip file and then submit it.",
+      "embeds": [],
+      "created": 1772461612990,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "coralone.",
+      "user_id": "1099898271985586198",
+      "is_bot": false,
+      "content": "Thank you so much, I will close the ticket...",
+      "embeds": [],
+      "created": 1772462010737,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1099898271985586198>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772462025793,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772462026181,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772462824797,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0298",
+    "id": "1477600669967061074"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 9
+}

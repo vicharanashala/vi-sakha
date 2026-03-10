@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1333477196609749045> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I had previously raised a ticket regarding the 10% HP deduction when my ViBe progress was stuck at 99.9%. I was informed that I would be considered as having completed the course and that the HP deduction would be reverted. However, it has n",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772371307880,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1333477196609749045> do not worry....your health points will be reverted",
+      "embeds": [],
+      "created": 1772371370039,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1333477196609749045> \nKindly mention your cohort name and do elaborate on your issue.",
+      "embeds": [],
+      "created": 1772424594018,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1333477196609749045>",
+      "embeds": [],
+      "created": 1772460317517,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "sanjay.a_20",
+      "user_id": "1333477196609749045",
+      "is_bot": false,
+      "content": "Ma'am, I am from Euclideans cohort. On February 13th or 14th, I raised a ticket regarding the 10% HP deduction when my ViBe progress was stuck at 99.9%. I was informed that I would be considered as having completed the course and that the HP deduction would be reverted. However, it has not been reverted yet.",
+      "embeds": [],
+      "created": 1772461013897,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "imsakshivk",
+      "user_id": "1293270010537578575",
+      "is_bot": false,
+      "content": "Reverted and restored on dashboard",
+      "embeds": [],
+      "created": 1772512586008,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1333477196609749045> \nIS your issue resolved now?",
+      "embeds": [],
+      "created": 1772513226357,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "sanjay.a_20",
+      "user_id": "1333477196609749045",
+      "is_bot": false,
+      "content": "Thank you, Ma’am. The issue has been resolved now.",
+      "embeds": [],
+      "created": 1772540428984,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772542290570,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772542291073,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772542293393,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0302",
+    "id": "1477657105405186210"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

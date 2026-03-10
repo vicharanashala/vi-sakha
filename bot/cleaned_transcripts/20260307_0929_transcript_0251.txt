@@ -1,0 +1,11 @@
+Student (yashkalra27): UNSAFE Label despite Sufficient HP I had created a ticket before which thanks to the support team got addressed promptly and got my HP updated as discussed, but now on the dashboard, I am still being marked UNSAFE, kindly help with this issue as well My Cohort is Euclideans
+
+Instructor (nitin_fighter1379): Do not worry, it will be changed soon as we have conveyed this to the tech team. Please mention your mail id too here
+
+Student (yashkalra27): Ohh Alright Sir, I thought my previous issue was resolved and the ticket got closed, so this might be a fresh issue My Email ID is : yashkalra_23it178.ac.in
+
+Instructor (jinalgupta., nitin_fighter1379): Do not worry, it will be resolved soon We have reverted your HP's, it will be soon visible on the dashboard.
+
+Student (yashkalra27): Yes Ma'am, the issue has been resolved now, the HP has been reverted and also the Unsafe tag is now showing Safe, Thanks a lot for your support, and appologies for the delay in my response !
+
+Instructor (jinalgupta.): As the issue has been resolved. Hence, closing the ticket.

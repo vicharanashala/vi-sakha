@@ -1,0 +1,222 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1469382524445786399> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Is it mandatory to fill the attendance form every day for dijkstrains batch students from the internship offer letter.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771002357797,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "shreshthkumar_09",
+      "user_id": "1469382524445786399",
+      "is_bot": false,
+      "content": "Dear Support Team,\n\nIs it mandatory to fill the attendance form every for dijkstrains batch students from the internship offer letter because I remember the moderators/ mentors clearly mentioning it in the  standup meeting that attendance was no more mandatory. And this announcement was made like way back in January.\n\nThis confusion is created because some other students are talking about attendance in the discussion channel.",
+      "embeds": [],
+      "created": 1771002574549,
+      "edited": 1771002652368
+    },
+    {
+      "index": 3,
+      "author": "shreshthkumar_09",
+      "user_id": "1469382524445786399",
+      "is_bot": false,
+      "content": "Hello support team,\nPlease help me clear this confusion.🙂🙏",
+      "embeds": [],
+      "created": 1771049976002,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@836880971017748512>",
+      "embeds": [],
+      "created": 1771050475695,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "The attendance form is to be filled even after making the attendance not compulsory as we have clearly mentioned in FAQ also that it is for the Reference of the NPTEL Internship team. So yes, it needs to be filled.",
+      "embeds": [],
+      "created": 1771054580476,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "shreshthkumar_09",
+      "user_id": "1469382524445786399",
+      "is_bot": false,
+      "content": "But I am not filling the attendance form from the day after the announcement was made in the standup meeting. \nWhat will happen now ? \n\nAnd even after the announcement  it is still mentioned in the FAQ that it is compulsory to attend the standup meeting.\n\nSo I thought that the FAQ might have not been updated regarding the attendance and I thought since the attendance is not compulsory I don't need to fill the attendance form from the offer.",
+      "embeds": [],
+      "created": 1771060865110,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Please refer to the FAQ question about attendance form.",
+      "embeds": [],
+      "created": 1771060931146,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "shreshthkumar_09",
+      "user_id": "1469382524445786399",
+      "is_bot": false,
+      "content": "What do I do now? \nWhat will happen now?",
+      "embeds": [],
+      "created": 1771060944640,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "shreshthkumar_09",
+      "user_id": "1469382524445786399",
+      "is_bot": false,
+      "content": "It says I need to fill the form everyday except Sunday.",
+      "embeds": [],
+      "created": 1771060996366,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "shreshthkumar_09",
+      "user_id": "1469382524445786399",
+      "is_bot": false,
+      "content": "But I wanted to know if there is any problem since I have not been filling the attendance form. Will I be able to complete my internship? \nWill I get a certificate of completion?",
+      "embeds": [],
+      "created": 1771061099418,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "For this, you need to contact NPTEL Internship team whom sent you the offer letter. We have clearly mentioned in the FAQ and in the announcements that this is to be filled even though we are relaxing the attendance",
+      "embeds": [],
+      "created": 1771061245116,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "shreshthkumar_09",
+      "user_id": "1469382524445786399",
+      "is_bot": false,
+      "content": "Ok sir I will mail them",
+      "embeds": [],
+      "created": 1771065171142,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "shreshthkumar_09",
+      "user_id": "1469382524445786399",
+      "is_bot": false,
+      "content": "But what about the standup meeting and live sessions is it still compulsory as mentioned in the FAQ  or is it not compulsory as announced in the standup meeting.",
+      "embeds": [],
+      "created": 1771065324927,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "It is not compulsory as mentioned in the standup.",
+      "embeds": [],
+      "created": 1771073831569,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "shreshthkumar_09",
+      "user_id": "1469382524445786399",
+      "is_bot": false,
+      "content": "Ok thank you sir.🙂🙏",
+      "embeds": [],
+      "created": 1771093094382,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1359148118444343517>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771163649750,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771163650333,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771163653510,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0042",
+    "id": "1471915311765782810"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 18
+}

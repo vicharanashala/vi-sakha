@@ -1,0 +1,159 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@791511988261879838> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I have not received any email regarding the standup session and its link",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772724172507,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@791511988261879838> Please check your spam folders or the mail once again as there may be a delay",
+      "embeds": [],
+      "created": 1772724232432,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "mirajane5471",
+      "user_id": "791511988261879838",
+      "is_bot": false,
+      "content": "I have already checked my spam folders, it's not there",
+      "embeds": [],
+      "created": 1772724280796,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "You're from RSAians or the AKSians?",
+      "embeds": [],
+      "created": 1772724292888,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "https://zoom.us/j/99393348157?pwd=4XytWIf8vdB605xJNfXJZXZAkggBfY.1\n\n<@791511988261879838> please join using this link if you are a part of the above mentioned cohorts",
+      "embeds": [
+        {
+          "title": "Welcome! You are invited to join a meeting: Vinternship Standup (RS...",
+          "description": "Welcome! You are invited to join a meeting: Vinternship Standup (RSAians & AKSians). After registering, you will receive a confirmation email about joining the meeting.",
+          "url": "https://zoom.us/j/99393348157?pwd=4XytWIf8vdB605xJNfXJZXZAkggBfY.1",
+          "fields": []
+        }
+      ],
+      "created": 1772724324061,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "mirajane5471",
+      "user_id": "791511988261879838",
+      "is_bot": false,
+      "content": "RSAians",
+      "embeds": [],
+      "created": 1772724363058,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Please join",
+      "embeds": [],
+      "created": 1772724461666,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "mirajane5471",
+      "user_id": "791511988261879838",
+      "is_bot": false,
+      "content": "yes, recieved the mail just now also",
+      "embeds": [],
+      "created": 1772724568665,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@791511988261879838>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772724857747,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772724858098,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772725016366,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0365",
+    "id": "1479137125780688956"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}
