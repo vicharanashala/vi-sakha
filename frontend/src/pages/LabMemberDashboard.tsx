@@ -50,14 +50,6 @@ const mockStudents = [
   { name: 'Vikram N.', cohort: 'Kruskalians', hp: 38, modules: '2/10', status: 'critical', lastActive: '1d ago', avatar: 'V' },
 ]
 
-// NOTE: All Q&A pairs belong to the currently logged-in lab member
-// const mockQAPairs = [
-//   { id: 1, title: 'HP Deduction Policy', question: 'What is the HP deduction for missing a ViBe deadline?', answer: '5 HP will be deducted for each missed ViBe module deadline. Consistent misses may trigger ejection review.', status: 'approved', date: '2026-03-08' },
-//   { id: 2, title: 'Case Study Submission', question: 'How do I submit a case study on the platform?', answer: 'Navigate to ViBe → Case Studies tab → Select your assigned case study → Upload your solution in .zip format before the deadline.', status: 'pending', date: '2026-03-09' },
-//   { id: 3, title: 'Cohort Transfer', question: 'Can I switch cohorts mid-program?', answer: 'Cohort switching is not allowed once the internship has started. Please contact VLED Lab for exceptional circumstances.', status: 'pending', date: '2026-03-09' },
-//   { id: 4, title: 'Ejection Consequences', question: 'What happens if I get ejected?', answer: 'Ejection means removal from the active cohort. You lose access to ViBe, case studies, and Discord. You may reapply in the next cycle.', status: 'rejected', date: '2026-03-07' },
-// ]
-
 const mockConversations = [
   { id: 1, student: 'Arjun P.', cohort: 'Euclideans', messages: 5, lastMsg: 'When is the MongoDB module deadline?', resolved: true, date: '2026-03-09 14:32', confidence: 0.94 },
   { id: 2, student: 'Meera D.', cohort: 'Dijkstrians', messages: 3, lastMsg: 'My ViBe tab keeps crashing on case study 4', resolved: false, date: '2026-03-09 13:18', confidence: 0.41 },
