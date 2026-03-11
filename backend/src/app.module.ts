@@ -4,6 +4,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { QaPairsModule } from './qa-pairs/qa-pairs.module';
 import { EmbeddingsModule } from './embeddings/embeddings.module';
 import { QaProposalsModule } from './qa-proposals/qa-proposals.module';
+import { ChatModule } from './chat/chat.module';
 
 @Module({
   imports: [
@@ -26,6 +27,7 @@ import { QaProposalsModule } from './qa-proposals/qa-proposals.module';
     QaPairsModule,
     EmbeddingsModule,
     QaProposalsModule,
+    ChatModule,
   ],
 })
 export class AppModule {}

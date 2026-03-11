@@ -15,7 +15,7 @@ import {
   ArrowUpRight,
   X,
 } from 'lucide-react'
-import { ViSakhaChatInput } from '@/components/ui/vi-sakha-chat-input'
+import { ChatView } from '@/components/chat/ChatView'
 
 /* ── Sidebar Nav ────────────────────────────── */
 const sidebarItems = [
@@ -100,9 +100,12 @@ export default function Dashboard() {
   const [showChat, setShowChat] = useState(false)
   const [showBanner, setShowBanner] = useState(true)
 
-  const handleSendMessage = (data: { message: string; files: unknown[] }) => {
-    console.log('Message sent:', data)
-    // Mock: would send to Vi-Sakha API
+  // Mock student info - in production this would come from auth/session
+  const studentInfo = {
+    studentId: 'student-001',
+    studentName: 'Student',
+    studentEmail: 'student@example.com',
+    cohort: 'Euclideans',
   }
 
   return (
@@ -192,38 +195,13 @@ export default function Dashboard() {
 
         {showChat ? (
           /* ── Chat View ── */
-          <div className="flex flex-col items-center justify-center h-[calc(100vh-48px)] px-4">
-            <div className="w-20 h-20 mx-auto mb-6 bg-gray-900 rounded-2xl flex items-center justify-center">
-              <span className="text-white font-bold text-2xl">VS</span>
-            </div>
-            <h2 className="text-2xl font-serif text-gray-900 mb-2">
-              {getGreeting()}, <span className="italic">Student</span>
-            </h2>
-            <p className="text-gray-400 text-sm mb-8">Ask me anything about VInternship</p>
-            <ViSakhaChatInput
-              onSendMessage={handleSendMessage}
-              onRaiseTicket={() => {
-                setActiveItem('Raise Ticket')
-                setShowChat(false)
-              }}
-            />
-            {/* Quick suggestion pills */}
-            <div className="flex flex-wrap justify-center gap-2 mt-4 max-w-2xl">
-              {[
-                'What is my HP score?',
-                'Case study deadlines',
-                'ViBe module status',
-                'Ejection policy',
-              ].map((q) => (
-                <button
-                  key={q}
-                  className="px-3 py-1.5 text-sm text-gray-500 border border-gray-200 rounded-full hover:bg-gray-50 hover:text-gray-700 transition-colors"
-                >
-                  {q}
-                </button>
-              ))}
-            </div>
-          </div>
+          <ChatView
+            onRaiseTicket={() => {
+              setActiveItem('Raise Ticket')
+              setShowChat(false)
+            }}
+            studentInfo={studentInfo}
+          />
         ) : (
           /* ── Onboarding View ── */
           <div className="max-w-4xl mx-auto px-8 py-10">
@@ -332,11 +310,4 @@ export default function Dashboard() {
       </main>
     </div>
   )
-}
-
-function getGreeting() {
-  const h = new Date().getHours()
-  if (h < 12) return 'Good morning'
-  if (h < 18) return 'Good afternoon'
-  return 'Good evening'
 }

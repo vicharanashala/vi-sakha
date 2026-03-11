@@ -14,7 +14,6 @@ import {
   CheckCircle2,
   Clock,
   XCircle,
-  Eye,
   ChevronRight,
   TrendingUp,
   Bot,
@@ -25,6 +24,9 @@ import {
   HelpCircle,
   FileJson,
   Loader2,
+  ThumbsUp,
+  ThumbsDown,
+  AlertTriangle,
 } from 'lucide-react'
 import {
   fetchProposals,
@@ -33,7 +35,92 @@ import {
   approveProposal,
   rejectProposal,
   type QaProposal,
+  getConversations,
+  getConversation,
+  getChatStats,
+  resolveConversation,
+  type Conversation,
+  type ChatMessage,
+  type ChatStats,
 } from '../lib/api'
+
+/**
+ * Simple markdown renderer for chat messages
+ */
+function renderMarkdown(text: string): JSX.Element {
+  const lines = text.split('\n')
+  const elements: JSX.Element[] = []
+  let listItems: string[] = []
+  let listType: 'ul' | 'ol' | null = null
+
+  const processInline = (line: string): JSX.Element => {
+    const parts: (string | JSX.Element)[] = []
+    let remaining = line
+    let key = 0
+
+    while (remaining.length > 0) {
+      const boldMatch = remaining.match(/\*\*(.+?)\*\*/)
+      const italicMatch = remaining.match(/(?<!\*)\*([^*]+)\*(?!\*)/)
+      
+      const boldIdx = boldMatch ? remaining.indexOf(boldMatch[0]) : -1
+      const italicIdx = italicMatch ? remaining.indexOf(italicMatch[0]) : -1
+
+      if (boldIdx !== -1 && (italicIdx === -1 || boldIdx <= italicIdx)) {
+        if (boldIdx > 0) parts.push(remaining.substring(0, boldIdx))
+        parts.push(<strong key={key++} className="font-semibold">{boldMatch![1]}</strong>)
+        remaining = remaining.substring(boldIdx + boldMatch![0].length)
+      } else if (italicIdx !== -1) {
+        if (italicIdx > 0) parts.push(remaining.substring(0, italicIdx))
+        parts.push(<em key={key++}>{italicMatch![1]}</em>)
+        remaining = remaining.substring(italicIdx + italicMatch![0].length)
+      } else {
+        parts.push(remaining)
+        remaining = ''
+      }
+    }
+    return <>{parts}</>
+  }
+
+  const flushList = () => {
+    if (listItems.length > 0 && listType) {
+      const ListTag = listType
+      elements.push(
+        <ListTag key={elements.length} className={`${listType === 'ul' ? 'list-disc' : 'list-decimal'} ml-4 space-y-1`}>
+          {listItems.map((item, i) => <li key={i}>{processInline(item)}</li>)}
+        </ListTag>
+      )
+      listItems = []
+      listType = null
+    }
+  }
+
+  lines.forEach((line, idx) => {
+    const trimmed = line.trim()
+    if (trimmed.startsWith('- ') || trimmed.startsWith('• ')) {
+      if (listType !== 'ul') flushList()
+      listType = 'ul'
+      listItems.push(trimmed.substring(2))
+    } else if (/^\d+\.\s/.test(trimmed)) {
+      if (listType !== 'ol') flushList()
+      listType = 'ol'
+      listItems.push(trimmed.replace(/^\d+\.\s/, ''))
+    } else {
+      flushList()
+      if (trimmed) {
+        elements.push(<p key={idx} className="mb-1 last:mb-0">{processInline(trimmed)}</p>)
+      }
+    }
+  })
+  flushList()
+  return <>{elements}</>
+}
+
+// Helper to normalize confidence values (handles both 0-1 and 0-100 scales)
+const normalizeConfidence = (value: number | undefined): number | undefined => {
+  if (value === undefined) return undefined
+  // If value is <= 1, it's in the old 0-1 scale, multiply by 100
+  return value <= 1 ? Math.round(value * 100) : Math.round(value)
+}
 
 /* ═══════════════════════════════════════
    MOCK DATA
@@ -50,14 +137,6 @@ const mockStudents = [
   { name: 'Vikram N.', cohort: 'Kruskalians', hp: 38, modules: '2/10', status: 'critical', lastActive: '1d ago', avatar: 'V' },
 ]
 
-const mockConversations = [
-  { id: 1, student: 'Arjun P.', cohort: 'Euclideans', messages: 5, lastMsg: 'When is the MongoDB module deadline?', resolved: true, date: '2026-03-09 14:32', confidence: 0.94 },
-  { id: 2, student: 'Meera D.', cohort: 'Dijkstrians', messages: 3, lastMsg: 'My ViBe tab keeps crashing on case study 4', resolved: false, date: '2026-03-09 13:18', confidence: 0.41 },
-  { id: 3, student: 'Karan S.', cohort: 'AKSians', messages: 8, lastMsg: 'I lost 10 HP but I submitted on time', resolved: false, date: '2026-03-09 12:05', confidence: 0.62 },
-  { id: 4, student: 'Divya L.', cohort: 'Kruskalians', messages: 2, lastMsg: 'How to join the Discord server?', resolved: true, date: '2026-03-09 11:45', confidence: 0.98 },
-  { id: 5, student: 'Rohit G.', cohort: 'RSAians', messages: 6, lastMsg: 'Express case study 7 test cases failing', resolved: false, date: '2026-03-08 22:10', confidence: 0.55 },
-]
-
 const mockTickets = [
   { id: 'TKT-001', student: 'Meera D.', cohort: 'Dijkstrians', subject: 'ViBe platform crash on case study 4', priority: 'high', status: 'open', created: '2026-03-09 13:20', messages: 2 },
   { id: 'TKT-002', student: 'Karan S.', cohort: 'AKSians', subject: 'Incorrect HP deduction — submitted before deadline', priority: 'high', status: 'open', created: '2026-03-09 12:10', messages: 4 },
@@ -72,13 +151,7 @@ const mockTickets = [
 
 type View = 'home' | 'conversations' | 'tickets' | 'qa' | 'analytics'
 
-const sidebarItems: { icon: typeof Users; label: string; view: View; badge?: string }[] = [
-  { icon: Users, label: 'Students', view: 'home' },
-  { icon: MessagesSquare, label: 'Conversations', view: 'conversations', badge: '3' },
-  { icon: Ticket, label: 'Tickets', view: 'tickets', badge: '3' },
-  { icon: MessageSquarePlus, label: 'Q&A Proposals', view: 'qa', badge: '2' },
-  { icon: BarChart3, label: 'Analytics', view: 'analytics' },
-]
+// Sidebar items defined inside component for dynamic badges
 
 const bottomItems = [
   { icon: Search, label: 'Search', shortcut: '⌘ K' },
@@ -96,7 +169,9 @@ function StatusBadge({ status }: { status: string }) {
     pending: 'bg-amber-50 text-amber-700 border-amber-200',
     rejected: 'bg-red-50 text-red-700 border-red-200',
     open: 'bg-blue-50 text-blue-700 border-blue-200',
+    active: 'bg-amber-50 text-amber-700 border-amber-200',
     resolved: 'bg-emerald-50 text-emerald-700 border-emerald-200',
+    escalated: 'bg-red-50 text-red-700 border-red-200',
     high: 'bg-red-50 text-red-700 border-red-200',
     medium: 'bg-amber-50 text-amber-700 border-amber-200',
     low: 'bg-gray-50 text-gray-600 border-gray-200',
@@ -252,14 +327,86 @@ function StudentsHomeView() {
    ═══════════════════════════════════════ */
 
 function ConversationsView() {
-  const [filterType, setFilterType] = useState<'all' | 'resolved' | 'unresolved'>('all')
+  const [filterType, setFilterType] = useState<'all' | 'active' | 'resolved' | 'escalated'>('all')
+  const [conversations, setConversations] = useState<Conversation[]>([])
+  const [stats, setStats] = useState<ChatStats | null>(null)
+  const [loading, setLoading] = useState(true)
+  const [selectedConversation, setSelectedConversation] = useState<{
+    conversation: Conversation;
+    messages: ChatMessage[];
+  } | null>(null)
+  const [detailLoading, setDetailLoading] = useState(false)
 
-  const filtered = filterType === 'all' ? mockConversations
-    : filterType === 'resolved' ? mockConversations.filter(c => c.resolved)
-    : mockConversations.filter(c => !c.resolved)
+  // Fetch conversations and stats
+  useEffect(() => {
+    async function fetchData() {
+      setLoading(true)
+      try {
+        const [convResult, statsResult] = await Promise.all([
+          getConversations(filterType !== 'all' ? { status: filterType } : undefined),
+          getChatStats(),
+        ])
+        setConversations(convResult.conversations)
+        setStats(statsResult)
+      } catch (error) {
+        console.error('Failed to fetch conversations:', error)
+      } finally {
+        setLoading(false)
+      }
+    }
+    fetchData()
+  }, [filterType])
+
+  // Open conversation detail
+  const openConversation = async (conv: Conversation) => {
+    setDetailLoading(true)
+    try {
+      const result = await getConversation(conv.id)
+      setSelectedConversation(result)
+    } catch (error) {
+      console.error('Failed to fetch conversation:', error)
+    } finally {
+      setDetailLoading(false)
+    }
+  }
+
+  // Mark conversation as resolved
+  const handleResolve = async (conv: Conversation) => {
+    try {
+      await resolveConversation(conv.id)
+      // Refresh conversations
+      const result = await getConversations(filterType !== 'all' ? { status: filterType } : undefined)
+      setConversations(result.conversations)
+      if (selectedConversation?.conversation.id === conv.id) {
+        setSelectedConversation(null)
+      }
+    } catch (error) {
+      console.error('Failed to resolve conversation:', error)
+    }
+  }
+
+  // Format date
+  const formatDate = (dateStr?: string) => {
+    if (!dateStr) return 'Unknown'
+    const date = new Date(dateStr)
+    const now = new Date()
+    const diff = now.getTime() - date.getTime()
+    const hours = Math.floor(diff / (1000 * 60 * 60))
+    if (hours < 1) return 'Just now'
+    if (hours < 24) return `${hours}h ago`
+    return date.toLocaleDateString('en-IN', { month: 'short', day: 'numeric' })
+  }
+
+  const getStatusColor = (status: Conversation['status']) => {
+    switch (status) {
+      case 'resolved': return 'bg-emerald-500'
+      case 'escalated': return 'bg-red-500'
+      default: return 'bg-amber-500'
+    }
+  }
 
   return (
-    <div>
+    <div className="relative">
       <div className="flex items-center justify-between mb-6">
         <div>
           <h1 className="text-xl font-bold text-gray-900">Chatbot Conversations</h1>
@@ -272,11 +419,12 @@ function ConversationsView() {
       </div>
 
       {/* Stats */}
-      <div className="grid grid-cols-3 gap-4 mb-6">
+      <div className="grid grid-cols-4 gap-4 mb-6">
         {[
-          { label: 'Total Today', value: '47', icon: MessagesSquare, color: 'text-blue-600 bg-blue-50' },
-          { label: 'Resolved by AI', value: '38', icon: Bot, color: 'text-emerald-600 bg-emerald-50' },
-          { label: 'Needs Review', value: '3', icon: Eye, color: 'text-amber-600 bg-amber-50' },
+          { label: 'Total Conversations', value: stats?.totalConversations ?? '—', icon: MessagesSquare, color: 'text-blue-600 bg-blue-50' },
+          { label: 'Resolved by AI', value: stats?.resolvedConversations ?? '—', icon: Bot, color: 'text-emerald-600 bg-emerald-50' },
+          { label: 'Needs Review', value: stats?.escalatedConversations ?? '—', icon: AlertTriangle, color: 'text-red-600 bg-red-50' },
+          { label: 'Avg Confidence', value: stats?.averageConfidence !== undefined ? `${normalizeConfidence(stats.averageConfidence)}%` : '—', icon: TrendingUp, color: 'text-purple-600 bg-purple-50' },
         ].map(stat => (
           <div key={stat.label} className="bg-white border border-gray-200 rounded-2xl p-4 shadow-sm">
             <div className="flex items-center gap-3">
@@ -290,44 +438,191 @@ function ConversationsView() {
         ))}
       </div>
 
+      {/* Feedback Stats */}
+      {stats && (
+        <div className="flex items-center gap-6 mb-4 px-4 py-3 bg-gray-50 rounded-xl">
+          <div className="flex items-center gap-2">
+            <ThumbsUp className="w-4 h-4 text-emerald-500" />
+            <span className="text-sm font-medium text-gray-700">{stats.totalLikes} helpful</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <ThumbsDown className="w-4 h-4 text-red-400" />
+            <span className="text-sm font-medium text-gray-700">{stats.totalDislikes} unhelpful</span>
+          </div>
+          <div className="text-sm text-gray-500">
+            {stats.totalMessages} total messages
+          </div>
+        </div>
+      )}
+
       {/* Filter Tabs */}
       <div className="flex gap-1 mb-4 bg-gray-100 rounded-xl p-1 w-fit">
-        {(['all', 'unresolved', 'resolved'] as const).map(f => (
+        {(['all', 'active', 'resolved', 'escalated'] as const).map(f => (
           <button key={f} onClick={() => setFilterType(f)} className={`px-3 py-1.5 rounded-lg text-xs font-semibold capitalize transition-colors ${filterType === f ? 'bg-white text-gray-900 shadow-sm' : 'text-gray-500 hover:text-gray-700'}`}>
             {f}
           </button>
         ))}
       </div>
 
-      {/* Cards */}
-      <div className="space-y-2">
-        {filtered.map(conv => (
-          <div key={conv.id} className="bg-white border border-gray-200 rounded-2xl p-4 hover:border-gray-300 hover:shadow-sm transition-all cursor-pointer group">
-            <div className="flex items-start gap-4">
-              <div className={`w-10 h-10 rounded-xl flex items-center justify-center text-white font-bold text-sm flex-shrink-0 ${conv.resolved ? 'bg-emerald-500' : 'bg-amber-500'}`}>
-                {conv.student.charAt(0)}
-              </div>
-              <div className="flex-1 min-w-0">
-                <div className="flex items-center gap-2 mb-1">
-                  <span className="text-sm font-semibold text-gray-900">{conv.student}</span>
-                  <span className="text-[11px] text-gray-400">· {conv.cohort} · {conv.messages} msgs</span>
+      {/* Loading State */}
+      {loading ? (
+        <div className="flex items-center justify-center py-12">
+          <Loader2 className="w-6 h-6 animate-spin text-gray-400" />
+        </div>
+      ) : conversations.length === 0 ? (
+        <div className="text-center py-12">
+          <MessagesSquare className="w-12 h-12 text-gray-300 mx-auto mb-3" />
+          <p className="text-gray-500">No conversations yet</p>
+        </div>
+      ) : (
+        /* Conversation Cards */
+        <div className="space-y-2">
+          {conversations.map(conv => (
+            <div
+              key={conv.id}
+              onClick={() => openConversation(conv)}
+              className="bg-white border border-gray-200 rounded-2xl p-4 hover:border-gray-300 hover:shadow-sm transition-all cursor-pointer group"
+            >
+              <div className="flex items-start gap-4">
+                <div className={`w-10 h-10 rounded-xl flex items-center justify-center text-white font-bold text-sm flex-shrink-0 ${getStatusColor(conv.status)}`}>
+                  {conv.studentName?.charAt(0) || '?'}
                 </div>
-                <p className="text-sm text-gray-600 truncate">{conv.lastMsg}</p>
-                <div className="flex items-center gap-3 mt-2">
-                  <span className="text-[11px] text-gray-400">{conv.date}</span>
-                  <span className={`text-[11px] font-medium ${conv.confidence >= 0.8 ? 'text-emerald-600' : conv.confidence >= 0.6 ? 'text-amber-600' : 'text-red-500'}`}>
-                    {Math.round(conv.confidence * 100)}% confidence
-                  </span>
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center gap-2 mb-1">
+                    <span className="text-sm font-semibold text-gray-900">{conv.studentName || 'Unknown Student'}</span>
+                    <span className="text-[11px] text-gray-400">· {conv.cohort || 'No cohort'} · {conv.messageCount} msgs</span>
+                  </div>
+                  <p className="text-sm text-gray-600 truncate">{conv.lastMessagePreview || 'No messages'}</p>
+                  <div className="flex items-center gap-3 mt-2">
+                    <span className="text-[11px] text-gray-400">{formatDate(conv.lastMessageAt)}</span>
+                    {conv.averageConfidence !== undefined && (
+                      <span className={`text-[11px] font-medium ${normalizeConfidence(conv.averageConfidence)! >= 80 ? 'text-emerald-600' : normalizeConfidence(conv.averageConfidence)! >= 60 ? 'text-amber-600' : 'text-red-500'}`}>
+                        {normalizeConfidence(conv.averageConfidence)}% confidence
+                      </span>
+                    )}
+                    {/* Feedback indicators */}
+                    {(conv.likeCount > 0 || conv.dislikeCount > 0) && (
+                      <div className="flex items-center gap-2">
+                        {conv.likeCount > 0 && (
+                          <span className="flex items-center gap-0.5 text-[11px] text-emerald-600">
+                            <ThumbsUp className="w-3 h-3" /> {conv.likeCount}
+                          </span>
+                        )}
+                        {conv.dislikeCount > 0 && (
+                          <span className="flex items-center gap-0.5 text-[11px] text-red-500">
+                            <ThumbsDown className="w-3 h-3" /> {conv.dislikeCount}
+                          </span>
+                        )}
+                      </div>
+                    )}
+                  </div>
                 </div>
-              </div>
-              <div className="flex items-center gap-2 flex-shrink-0">
-                <StatusBadge status={conv.resolved ? 'resolved' : 'open'} />
-                <ChevronRight className="w-4 h-4 text-gray-300 group-hover:text-gray-500 transition-colors" />
+                <div className="flex items-center gap-2 flex-shrink-0">
+                  <StatusBadge status={conv.status} />
+                  <ChevronRight className="w-4 h-4 text-gray-300 group-hover:text-gray-500 transition-colors" />
+                </div>
               </div>
             </div>
+          ))}
+        </div>
+      )}
+
+      {/* Conversation Detail Modal */}
+      {(selectedConversation || detailLoading) && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
+          <div className="bg-white rounded-2xl w-full max-w-2xl max-h-[80vh] flex flex-col shadow-xl">
+            {/* Header */}
+            <div className="flex items-center justify-between p-4 border-b border-gray-200">
+              {detailLoading ? (
+                <div className="flex items-center gap-2">
+                  <Loader2 className="w-4 h-4 animate-spin" />
+                  <span className="text-gray-500">Loading...</span>
+                </div>
+              ) : (
+                <>
+                  <div className="flex items-center gap-3">
+                    <div className={`w-10 h-10 rounded-xl flex items-center justify-center text-white font-bold text-sm ${getStatusColor(selectedConversation!.conversation.status)}`}>
+                      {selectedConversation!.conversation.studentName?.charAt(0) || '?'}
+                    </div>
+                    <div>
+                      <h2 className="font-bold text-gray-900">{selectedConversation!.conversation.studentName}</h2>
+                      <p className="text-xs text-gray-500">{selectedConversation!.conversation.cohort} · {selectedConversation!.conversation.messageCount} messages</p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <StatusBadge status={selectedConversation!.conversation.status} />
+                    {selectedConversation!.conversation.status === 'active' && (
+                      <button
+                        onClick={() => handleResolve(selectedConversation!.conversation)}
+                        className="text-xs px-3 py-1.5 bg-emerald-50 text-emerald-700 rounded-lg hover:bg-emerald-100"
+                      >
+                        Mark Resolved
+                      </button>
+                    )}
+                  </div>
+                </>
+              )}
+              <button onClick={() => setSelectedConversation(null)} className="p-2 hover:bg-gray-100 rounded-xl" title="Close">
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+
+            {/* Messages */}
+            {!detailLoading && selectedConversation && (
+              <div className="flex-1 overflow-y-auto p-4 space-y-4">
+                {selectedConversation.messages.map((msg) => (
+                  <div key={msg.id} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
+                    <div className={`max-w-[80%] ${msg.role === 'user' ? 'bg-blue-600 text-white rounded-2xl rounded-br-md px-4 py-3' : 'bg-gray-100 text-gray-900 rounded-2xl rounded-bl-md px-4 py-3'}`}>
+                      <div className="text-sm">
+                        {msg.role === 'assistant' ? renderMarkdown(msg.content) : <p className="whitespace-pre-wrap">{msg.content}</p>}
+                      </div>
+                      {msg.role === 'assistant' && (
+                        <div className="flex items-center justify-between mt-2 pt-2 border-t border-gray-200">
+                          <div className="flex items-center gap-2">
+                            {msg.confidence !== undefined && (
+                              <span className={`text-[10px] font-medium ${msg.confidence >= 0.8 ? 'text-emerald-600' : msg.confidence >= 0.6 ? 'text-amber-600' : 'text-red-500'}`}>
+                                {Math.round(msg.confidence * 100)}% confident
+                              </span>
+                            )}
+                            {msg.sources && msg.sources.length > 0 && (
+                              <span className="text-[10px] text-gray-400">{msg.sources.length} sources</span>
+                            )}
+                          </div>
+                          {/* Feedback indicator */}
+                          {msg.feedback && (
+                            <span className={`flex items-center gap-1 text-[10px] ${msg.feedback === 'like' ? 'text-emerald-600' : 'text-red-500'}`}>
+                              {msg.feedback === 'like' ? <ThumbsUp className="w-3 h-3" /> : <ThumbsDown className="w-3 h-3" />}
+                              {msg.feedback === 'like' ? 'Helpful' : 'Unhelpful'}
+                            </span>
+                          )}
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {/* Footer with stats */}
+            {!detailLoading && selectedConversation && (
+              <div className="px-4 py-3 border-t border-gray-200 bg-gray-50 rounded-b-2xl">
+                <div className="flex items-center gap-4 text-xs text-gray-500">
+                  <span>Started: {new Date(selectedConversation.conversation.createdAt).toLocaleDateString()}</span>
+                  <span className="flex items-center gap-1">
+                    <ThumbsUp className="w-3 h-3 text-emerald-500" /> {selectedConversation.conversation.likeCount}
+                  </span>
+                  <span className="flex items-center gap-1">
+                    <ThumbsDown className="w-3 h-3 text-red-400" /> {selectedConversation.conversation.dislikeCount}
+                  </span>
+                  {selectedConversation.conversation.averageConfidence !== undefined && (
+                    <span>Avg confidence: {normalizeConfidence(selectedConversation.conversation.averageConfidence)}%</span>
+                  )}
+                </div>
+              </div>
+            )}
           </div>
-        ))}
-      </div>
+        </div>
+      )}
     </div>
   )
 }
@@ -799,6 +1094,40 @@ function AnalyticsView() {
 export default function LabMemberDashboard() {
   const [activeView, setActiveView] = useState<View>('home')
   const [showBanner, setShowBanner] = useState(true)
+  const [sidebarStats, setSidebarStats] = useState<{
+    activeConversations: number;
+    openTickets: number;
+    pendingProposals: number;
+  }>({ activeConversations: 0, openTickets: 0, pendingProposals: 0 })
+
+  // Fetch sidebar badge counts
+  useEffect(() => {
+    async function fetchBadgeCounts() {
+      try {
+        const [chatStats, proposalsResult] = await Promise.all([
+          getChatStats(),
+          fetchProposals(),
+        ])
+        setSidebarStats({
+          activeConversations: chatStats.activeConversations,
+          openTickets: 3, // TODO: Replace with real ticket count when implemented
+          pendingProposals: proposalsResult.data.filter((p: QaProposal) => p.status === 'pending').length,
+        })
+      } catch (error) {
+        console.error('Failed to fetch badge counts:', error)
+      }
+    }
+    fetchBadgeCounts()
+  }, [activeView]) // Refresh when view changes
+
+  // Dynamic sidebar items with real counts
+  const sidebarItems: { icon: typeof Users; label: string; view: View; badge?: string }[] = [
+    { icon: Users, label: 'Students', view: 'home' },
+    { icon: MessagesSquare, label: 'Conversations', view: 'conversations', badge: sidebarStats.activeConversations > 0 ? String(sidebarStats.activeConversations) : undefined },
+    { icon: Ticket, label: 'Tickets', view: 'tickets', badge: sidebarStats.openTickets > 0 ? String(sidebarStats.openTickets) : undefined },
+    { icon: MessageSquarePlus, label: 'Q&A Proposals', view: 'qa', badge: sidebarStats.pendingProposals > 0 ? String(sidebarStats.pendingProposals) : undefined },
+    { icon: BarChart3, label: 'Analytics', view: 'analytics' },
+  ]
 
   return (
     <div className="flex h-screen bg-white font-['Inter']">

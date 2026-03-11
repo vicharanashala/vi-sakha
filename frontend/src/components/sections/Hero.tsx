@@ -183,6 +183,8 @@ export function Hero() {
                     duration={0.6}
                     getEnterDelay={(i) => i * 0.08 + 1.0}
                     getExitDelay={(i) => i * 0.08 + 1.2}
+                    repeat={true}
+                    repeatInterval={5000}
                   >
                     VInternship
                   </TextRoll>

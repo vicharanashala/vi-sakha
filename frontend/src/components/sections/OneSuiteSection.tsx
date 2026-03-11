@@ -170,7 +170,7 @@ export function OneSuiteSection() {
         >
           <div className="illustration-card relative rounded-3xl overflow-hidden h-[420px] sm:h-[520px] noise-texture">
             <img
-              src="/one-suite-banner.webp"
+              src="/koifish.jpg"
               alt="One Platform"
               className="w-full h-full object-cover"
             />

@@ -43,7 +43,7 @@ const FilePreviewCard: React.FC<{ file: AttachedFile; onRemove: (id: string) => 
           </div>
         </div>
       )}
-      <button onClick={() => onRemove(file.id)} className="absolute top-1 right-1 p-1 bg-black/50 hover:bg-black/70 rounded-full text-white opacity-0 group-hover:opacity-100 transition-opacity">
+      <button type="button" title="Remove file" onClick={() => onRemove(file.id)} className="absolute top-1 right-1 p-1 bg-black/50 hover:bg-black/70 rounded-full text-white opacity-0 group-hover:opacity-100 transition-opacity">
         <X className="w-3 h-3" />
       </button>
       {file.uploadStatus === 'uploading' && (
@@ -59,9 +59,10 @@ const FilePreviewCard: React.FC<{ file: AttachedFile; onRemove: (id: string) => 
 interface ViSakhaChatInputProps {
   onSendMessage: (data: { message: string; files: AttachedFile[] }) => void;
   onRaiseTicket?: () => void;
+  disabled?: boolean;
 }
 
-export const ViSakhaChatInput: React.FC<ViSakhaChatInputProps> = ({ onSendMessage, onRaiseTicket }) => {
+export const ViSakhaChatInput: React.FC<ViSakhaChatInputProps> = ({ onSendMessage, onRaiseTicket, disabled = false }) => {
   const [message, setMessage] = useState("");
   const [files, setFiles] = useState<AttachedFile[]>([]);
   const [isDragging, setIsDragging] = useState(false);
@@ -117,7 +118,7 @@ export const ViSakhaChatInput: React.FC<ViSakhaChatInputProps> = ({ onSendMessag
   };
 
   const handleSend = () => {
-    if (!message.trim() && files.length === 0) return;
+    if (disabled || (!message.trim() && files.length === 0)) return;
     onSendMessage({ message, files });
     setMessage("");
     setFiles([]);
@@ -125,10 +126,11 @@ export const ViSakhaChatInput: React.FC<ViSakhaChatInputProps> = ({ onSendMessag
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); handleSend(); }
+    if (e.key === 'Enter' && !e.shiftKey && !disabled) { e.preventDefault(); handleSend(); }
   };
 
   const hasContent = message.trim() || files.length > 0;
+  const canSend = hasContent && !disabled;
 
   return (
     <div className="relative w-full max-w-2xl mx-auto transition-all duration-300" onDragOver={onDragOver} onDragLeave={onDragLeave} onDrop={onDrop}>
@@ -188,8 +190,8 @@ export const ViSakhaChatInput: React.FC<ViSakhaChatInputProps> = ({ onSendMessag
             {/* Send */}
             <button
               onClick={handleSend}
-              disabled={!hasContent}
-              className={`inline-flex items-center justify-center h-8 w-8 rounded-xl transition-colors active:scale-95 ${hasContent ? 'bg-gray-900 text-white hover:bg-gray-800 shadow-md' : 'bg-gray-200 text-gray-400 cursor-default'}`}
+              disabled={!canSend}
+              className={`inline-flex items-center justify-center h-8 w-8 rounded-xl transition-colors active:scale-95 ${canSend ? 'bg-gray-900 text-white hover:bg-gray-800 shadow-md' : 'bg-gray-200 text-gray-400 cursor-default'}`}
               type="button"
               aria-label="Send message"
             >
@@ -207,7 +209,7 @@ export const ViSakhaChatInput: React.FC<ViSakhaChatInputProps> = ({ onSendMessag
         </div>
       )}
 
-      <input ref={fileInputRef} type="file" multiple className="hidden" onChange={(e) => { if (e.target.files) handleFiles(e.target.files); e.target.value = ''; }} />
+      <input ref={fileInputRef} type="file" multiple className="hidden" title="Attach files" aria-label="Attach files" onChange={(e) => { if (e.target.files) handleFiles(e.target.files); e.target.value = ''; }} />
 
       <div className="text-center mt-3">
         <p className="text-xs text-gray-400">Vi-Sakha may make mistakes. Always verify important information.</p>

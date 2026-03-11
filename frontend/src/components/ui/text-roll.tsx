@@ -1,4 +1,5 @@
 'use client';
+import { useEffect, useState } from 'react';
 import {
   motion,
   VariantLabels,
@@ -24,7 +25,8 @@ export type TextRollProps = {
       animate: TargetAndTransition | VariantLabels;
     };
   };
-
+  repeat?: boolean;
+  repeatInterval?: number; // in milliseconds
   onAnimationComplete?: () => void;
 };
 
@@ -36,8 +38,22 @@ export function TextRoll({
   className,
   transition = { ease: 'easeIn' },
   variants,
+  repeat = false,
+  repeatInterval = 5000,
   onAnimationComplete,
 }: TextRollProps) {
+  const [animationKey, setAnimationKey] = useState(0);
+
+  useEffect(() => {
+    if (!repeat) return;
+    
+    const interval = setInterval(() => {
+      setAnimationKey((prev) => prev + 1);
+    }, repeatInterval);
+
+    return () => clearInterval(interval);
+  }, [repeat, repeatInterval]);
+
   const defaultVariants = {
     enter: {
       initial: { rotateX: 0 },
@@ -52,7 +68,7 @@ export function TextRoll({
   const letters = children.split('');
 
   return (
-    <span className={className}>
+    <span className={className} key={animationKey}>
       {letters.map((letter, i) => {
         return (
           <span
