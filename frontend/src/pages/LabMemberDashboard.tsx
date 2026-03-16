@@ -24,9 +24,8 @@ import {
   HelpCircle,
   FileJson,
   Loader2,
-  ThumbsUp,
-  ThumbsDown,
-  AlertTriangle,
+  Paperclip,
+  ChevronLeft,
 } from 'lucide-react'
 import {
   fetchProposals,
@@ -35,14 +34,33 @@ import {
   approveProposal,
   rejectProposal,
   type QaProposal,
-  getConversations,
-  getConversation,
-  getChatStats,
-  resolveConversation,
-  type Conversation,
-  type ChatMessage,
-  type ChatStats,
+  getAggregatedConversations,
+  getAggregatedConversationDetail,
+  getAggregatedConversationStats,
+  type AggregatedConversation,
+  type AggregatedConversationStats,
+  type ConversationSource,
+  getTickets,
+  getTicketsPaginated,
+  assignTicket,
+  transferTicket,
+  addTicketMessage,
+  closeTicket,
+  getTicket,
+  type SupportTicket,
+  type TicketScreenshot,
+  getTicketStats,
+  type TicketStats,
 } from '../lib/api'
+
+function fileToDataUrl(file: File): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader()
+    reader.onload = () => resolve(reader.result as string)
+    reader.onerror = reject
+    reader.readAsDataURL(file)
+  })
+}
 
 /**
  * Simple markdown renderer for chat messages
@@ -137,14 +155,6 @@ const mockStudents = [
   { name: 'Vikram N.', cohort: 'Kruskalians', hp: 38, modules: '2/10', status: 'critical', lastActive: '1d ago', avatar: 'V' },
 ]
 
-const mockTickets = [
-  { id: 'TKT-001', student: 'Meera D.', cohort: 'Dijkstrians', subject: 'ViBe platform crash on case study 4', priority: 'high', status: 'open', created: '2026-03-09 13:20', messages: 2 },
-  { id: 'TKT-002', student: 'Karan S.', cohort: 'AKSians', subject: 'Incorrect HP deduction — submitted before deadline', priority: 'high', status: 'open', created: '2026-03-09 12:10', messages: 4 },
-  { id: 'TKT-003', student: 'Rohit G.', cohort: 'RSAians', subject: 'Express case study 7 — test runner issue', priority: 'medium', status: 'open', created: '2026-03-08 22:15', messages: 3 },
-  { id: 'TKT-004', student: 'Ananya B.', cohort: 'Euclideans', subject: 'Need extension for React module deadline', priority: 'low', status: 'resolved', created: '2026-03-07 09:30', messages: 5 },
-  { id: 'TKT-005', student: 'Vikram N.', cohort: 'Kruskalians', subject: 'Cannot access MongoDB Atlas cluster', priority: 'medium', status: 'resolved', created: '2026-03-06 16:45', messages: 3 },
-]
-
 /* ═══════════════════════════════════════
    TYPES & CONFIG
    ═══════════════════════════════════════ */
@@ -178,6 +188,9 @@ function StatusBadge({ status }: { status: string }) {
     'on-track': 'bg-emerald-50 text-emerald-700 border-emerald-200',
     'at-risk': 'bg-amber-50 text-amber-700 border-amber-200',
     critical: 'bg-red-50 text-red-700 border-red-200',
+    rag: 'bg-blue-50 text-blue-700 border-blue-200',
+    discord: 'bg-indigo-50 text-indigo-700 border-indigo-200',
+    librechat: 'bg-teal-50 text-teal-700 border-teal-200',
   }
   return (
     <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-[11px] font-semibold border capitalize ${styles[status] || 'bg-gray-50 text-gray-600 border-gray-200'}`}>
@@ -327,65 +340,133 @@ function StudentsHomeView() {
    ═══════════════════════════════════════ */
 
 function ConversationsView() {
-  const [filterType, setFilterType] = useState<'all' | 'active' | 'resolved' | 'escalated'>('all')
-  const [conversations, setConversations] = useState<Conversation[]>([])
-  const [stats, setStats] = useState<ChatStats | null>(null)
+  const PAGE_SIZE = 20
+  const [sourceFilter, setSourceFilter] = useState<'all' | ConversationSource>('all')
+  const [conversations, setConversations] = useState<AggregatedConversation[]>([])
+  const [stats, setStats] = useState<AggregatedConversationStats | null>(null)
   const [loading, setLoading] = useState(true)
-  const [selectedConversation, setSelectedConversation] = useState<{
-    conversation: Conversation;
-    messages: ChatMessage[];
-  } | null>(null)
+  const [refreshing, setRefreshing] = useState(false)
+  const [page, setPage] = useState(1)
+  const [pagination, setPagination] = useState({ total: 0, page: 1, limit: PAGE_SIZE, pages: 1 })
+  const [selectedConversation, setSelectedConversation] = useState<AggregatedConversation | null>(null)
+  const [selectedConversationDetail, setSelectedConversationDetail] = useState<AggregatedConversation | null>(null)
   const [detailLoading, setDetailLoading] = useState(false)
 
-  // Fetch conversations and stats
-  useEffect(() => {
-    async function fetchData() {
-      setLoading(true)
-      try {
-        const [convResult, statsResult] = await Promise.all([
-          getConversations(filterType !== 'all' ? { status: filterType } : undefined),
-          getChatStats(),
-        ])
-        setConversations(convResult.conversations)
-        setStats(statsResult)
-      } catch (error) {
-        console.error('Failed to fetch conversations:', error)
-      } finally {
-        setLoading(false)
-      }
-    }
-    fetchData()
-  }, [filterType])
-
-  // Open conversation detail
-  const openConversation = async (conv: Conversation) => {
-    setDetailLoading(true)
+  const loadStats = async (refresh = false) => {
     try {
-      const result = await getConversation(conv.id)
-      setSelectedConversation(result)
+      const statsResult = await getAggregatedConversationStats({ refresh })
+      setStats(statsResult)
     } catch (error) {
-      console.error('Failed to fetch conversation:', error)
+      console.error('Failed to fetch conversation stats:', error)
+    }
+  }
+
+  const loadConversations = async (nextPage = 1, refresh = false) => {
+    if (refresh) setRefreshing(true)
+    else setLoading(true)
+
+    try {
+      const result = await getAggregatedConversations({
+        source: sourceFilter,
+        refresh,
+        page: nextPage,
+        limit: PAGE_SIZE,
+      })
+
+      setConversations(result.data)
+      setPagination(result.pagination)
+      setPage(result.pagination.page)
+    } catch (error) {
+      console.error('Failed to fetch aggregated conversations:', error)
+    } finally {
+      setLoading(false)
+      setRefreshing(false)
+    }
+  }
+
+  useEffect(() => {
+    setPage(1)
+    setSelectedConversation(null)
+    setSelectedConversationDetail(null)
+    loadConversations(1, false)
+  }, [sourceFilter])
+
+  useEffect(() => {
+    loadStats(false)
+  }, [])
+
+  const getVisiblePages = () => {
+    const totalPages = pagination.pages
+    if (totalPages <= 7) {
+      return Array.from({ length: totalPages }, (_, index) => index + 1)
+    }
+
+    if (page <= 4) {
+      return [1, 2, 3, 4, 5, -1, totalPages]
+    }
+
+    if (page >= totalPages - 3) {
+      return [1, -1, totalPages - 4, totalPages - 3, totalPages - 2, totalPages - 1, totalPages]
+    }
+
+    return [1, -1, page - 1, page, page + 1, -1, totalPages]
+  }
+
+  const openConversation = async (conversation: AggregatedConversation) => {
+    setSelectedConversation(conversation)
+    setSelectedConversationDetail(null)
+    setDetailLoading(true)
+
+    try {
+      const detail = await getAggregatedConversationDetail(conversation.source, conversation.conversation_id)
+      setSelectedConversationDetail(detail)
+    } catch (error) {
+      console.error('Failed to fetch conversation detail:', error)
     } finally {
       setDetailLoading(false)
     }
   }
 
-  // Mark conversation as resolved
-  const handleResolve = async (conv: Conversation) => {
-    try {
-      await resolveConversation(conv.id)
-      // Refresh conversations
-      const result = await getConversations(filterType !== 'all' ? { status: filterType } : undefined)
-      setConversations(result.conversations)
-      if (selectedConversation?.conversation.id === conv.id) {
-        setSelectedConversation(null)
-      }
-    } catch (error) {
-      console.error('Failed to resolve conversation:', error)
-    }
+  const avgRagConfidence = stats?.avgRagConfidence ?? null
+
+  const sourceCounts = stats?.sourceCounts ?? {
+    rag: 0,
+    discord: 0,
+    librechat: 0,
   }
 
-  // Format date
+  const sourceLabel = (source: ConversationSource) => {
+    if (source === 'rag') return 'RAG'
+    if (source === 'discord') return 'Discord'
+    return 'LibreChat'
+  }
+
+  const getConversationPreview = (conversation: AggregatedConversation) => {
+    if (conversation.last_message_preview && conversation.last_message_preview.trim().length > 0) {
+      return conversation.last_message_preview
+    }
+
+    const firstUserMessage = conversation.messages.find((message) => message.role === 'user' && message.text.trim().length > 0)
+    if (firstUserMessage) {
+      return firstUserMessage.text
+    }
+
+    const firstNonEmpty = conversation.messages.find((message) => message.text.trim().length > 0)
+    return firstNonEmpty?.text ?? 'No messages'
+  }
+
+  const getLatestSpeaker = (conversation: AggregatedConversation) => {
+    if (conversation.source !== 'discord') {
+      return null
+    }
+
+    const latestMessageWithAuthor = [...conversation.messages]
+      .reverse()
+      .find((message) => message.author && message.author.trim().length > 0)
+
+    return latestMessageWithAuthor?.author ?? null
+  }
+
   const formatDate = (dateStr?: string) => {
     if (!dateStr) return 'Unknown'
     const date = new Date(dateStr)
@@ -397,12 +478,10 @@ function ConversationsView() {
     return date.toLocaleDateString('en-IN', { month: 'short', day: 'numeric' })
   }
 
-  const getStatusColor = (status: Conversation['status']) => {
-    switch (status) {
-      case 'resolved': return 'bg-emerald-500'
-      case 'escalated': return 'bg-red-500'
-      default: return 'bg-amber-500'
-    }
+  const getSourceColor = (source: ConversationSource) => {
+    if (source === 'rag') return 'bg-blue-500'
+    if (source === 'discord') return 'bg-indigo-500'
+    return 'bg-teal-500'
   }
 
   return (
@@ -410,21 +489,27 @@ function ConversationsView() {
       <div className="flex items-center justify-between mb-6">
         <div>
           <h1 className="text-xl font-bold text-gray-900">Chatbot Conversations</h1>
-          <p className="text-sm text-gray-500 mt-1">Review student interactions with Vi-Sakha</p>
+          <p className="text-sm text-gray-500 mt-1">Unified chat feed from RAG, Discord transcripts, and LibreChat</p>
         </div>
-        <button className="inline-flex items-center gap-1.5 text-sm text-gray-500 border border-gray-200 px-3 py-2 rounded-xl hover:bg-gray-50 transition-colors">
-          <Filter className="w-3.5 h-3.5" />
-          Filter
+        <button
+          onClick={() => {
+            loadConversations(1, true)
+            loadStats(true)
+          }}
+          className="inline-flex items-center gap-1.5 text-sm text-gray-500 border border-gray-200 px-3 py-2 rounded-xl hover:bg-gray-50 transition-colors"
+        >
+          {refreshing ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : <Filter className="w-3.5 h-3.5" />}
+          {refreshing ? 'Refreshing...' : 'Refresh'}
         </button>
       </div>
 
       {/* Stats */}
       <div className="grid grid-cols-4 gap-4 mb-6">
         {[
-          { label: 'Total Conversations', value: stats?.totalConversations ?? '—', icon: MessagesSquare, color: 'text-blue-600 bg-blue-50' },
-          { label: 'Resolved by AI', value: stats?.resolvedConversations ?? '—', icon: Bot, color: 'text-emerald-600 bg-emerald-50' },
-          { label: 'Needs Review', value: stats?.escalatedConversations ?? '—', icon: AlertTriangle, color: 'text-red-600 bg-red-50' },
-          { label: 'Avg Confidence', value: stats?.averageConfidence !== undefined ? `${normalizeConfidence(stats.averageConfidence)}%` : '—', icon: TrendingUp, color: 'text-purple-600 bg-purple-50' },
+          { label: 'Total Conversations', value: stats?.totalConversations ?? conversations.length, icon: MessagesSquare, color: 'text-blue-600 bg-blue-50' },
+          { label: 'RAG Chats', value: sourceCounts.rag, icon: Bot, color: 'text-emerald-600 bg-emerald-50' },
+          { label: 'Discord Chats', value: sourceCounts.discord, icon: Ticket, color: 'text-indigo-600 bg-indigo-50' },
+          { label: 'RAG Avg Confidence', value: avgRagConfidence !== null ? `${avgRagConfidence}%` : '—', icon: TrendingUp, color: 'text-purple-600 bg-purple-50' },
         ].map(stat => (
           <div key={stat.label} className="bg-white border border-gray-200 rounded-2xl p-4 shadow-sm">
             <div className="flex items-center gap-3">
@@ -438,28 +523,21 @@ function ConversationsView() {
         ))}
       </div>
 
-      {/* Feedback Stats */}
-      {stats && (
-        <div className="flex items-center gap-6 mb-4 px-4 py-3 bg-gray-50 rounded-xl">
-          <div className="flex items-center gap-2">
-            <ThumbsUp className="w-4 h-4 text-emerald-500" />
-            <span className="text-sm font-medium text-gray-700">{stats.totalLikes} helpful</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <ThumbsDown className="w-4 h-4 text-red-400" />
-            <span className="text-sm font-medium text-gray-700">{stats.totalDislikes} unhelpful</span>
-          </div>
-          <div className="text-sm text-gray-500">
-            {stats.totalMessages} total messages
-          </div>
-        </div>
-      )}
+      <div className="flex items-center gap-6 mb-4 px-4 py-3 bg-gray-50 rounded-xl text-sm text-gray-600">
+        <span>{stats?.totalMessages ?? conversations.reduce((sum, conv) => sum + conv.message_count, 0)} total messages</span>
+        <span>{sourceCounts.librechat} LibreChat chats</span>
+        <span>Confidence is displayed only for RAG conversations</span>
+      </div>
 
-      {/* Filter Tabs */}
+      {/* Source Filter Tabs */}
       <div className="flex gap-1 mb-4 bg-gray-100 rounded-xl p-1 w-fit">
-        {(['all', 'active', 'resolved', 'escalated'] as const).map(f => (
-          <button key={f} onClick={() => setFilterType(f)} className={`px-3 py-1.5 rounded-lg text-xs font-semibold capitalize transition-colors ${filterType === f ? 'bg-white text-gray-900 shadow-sm' : 'text-gray-500 hover:text-gray-700'}`}>
-            {f}
+        {(['all', 'rag', 'discord', 'librechat'] as const).map(filter => (
+          <button
+            key={filter}
+            onClick={() => setSourceFilter(filter)}
+            className={`px-3 py-1.5 rounded-lg text-xs font-semibold capitalize transition-colors ${sourceFilter === filter ? 'bg-white text-gray-900 shadow-sm' : 'text-gray-500 hover:text-gray-700'}`}
+          >
+            {filter}
           </button>
         ))}
       </div>
@@ -477,145 +555,150 @@ function ConversationsView() {
       ) : (
         /* Conversation Cards */
         <div className="space-y-2">
-          {conversations.map(conv => (
-            <div
-              key={conv.id}
-              onClick={() => openConversation(conv)}
-              className="bg-white border border-gray-200 rounded-2xl p-4 hover:border-gray-300 hover:shadow-sm transition-all cursor-pointer group"
-            >
-              <div className="flex items-start gap-4">
-                <div className={`w-10 h-10 rounded-xl flex items-center justify-center text-white font-bold text-sm flex-shrink-0 ${getStatusColor(conv.status)}`}>
-                  {conv.studentName?.charAt(0) || '?'}
-                </div>
-                <div className="flex-1 min-w-0">
-                  <div className="flex items-center gap-2 mb-1">
-                    <span className="text-sm font-semibold text-gray-900">{conv.studentName || 'Unknown Student'}</span>
-                    <span className="text-[11px] text-gray-400">· {conv.cohort || 'No cohort'} · {conv.messageCount} msgs</span>
+          {conversations.map(conv => {
+            const latestSpeaker = getLatestSpeaker(conv)
+
+            return (
+              <div
+                key={`${conv.source}-${conv.conversation_id}`}
+                onClick={() => openConversation(conv)}
+                className="bg-white border border-gray-200 rounded-2xl p-4 hover:border-gray-300 hover:shadow-sm transition-all cursor-pointer group"
+              >
+                <div className="flex items-start gap-4">
+                  <div className={`w-10 h-10 rounded-xl flex items-center justify-center text-white font-bold text-sm flex-shrink-0 ${getSourceColor(conv.source)}`}>
+                    {conv.user?.charAt(0) || '?'}
                   </div>
-                  <p className="text-sm text-gray-600 truncate">{conv.lastMessagePreview || 'No messages'}</p>
-                  <div className="flex items-center gap-3 mt-2">
-                    <span className="text-[11px] text-gray-400">{formatDate(conv.lastMessageAt)}</span>
-                    {conv.averageConfidence !== undefined && (
-                      <span className={`text-[11px] font-medium ${normalizeConfidence(conv.averageConfidence)! >= 80 ? 'text-emerald-600' : normalizeConfidence(conv.averageConfidence)! >= 60 ? 'text-amber-600' : 'text-red-500'}`}>
-                        {normalizeConfidence(conv.averageConfidence)}% confidence
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="text-sm font-semibold text-gray-900">{conv.user || 'Unknown User'}</span>
+                      <span className="text-[11px] text-gray-400">
+                        · {sourceLabel(conv.source)} · {conv.message_count} msgs
+                        {latestSpeaker ? ` · latest: ${latestSpeaker}` : ''}
                       </span>
-                    )}
-                    {/* Feedback indicators */}
-                    {(conv.likeCount > 0 || conv.dislikeCount > 0) && (
-                      <div className="flex items-center gap-2">
-                        {conv.likeCount > 0 && (
-                          <span className="flex items-center gap-0.5 text-[11px] text-emerald-600">
-                            <ThumbsUp className="w-3 h-3" /> {conv.likeCount}
-                          </span>
-                        )}
-                        {conv.dislikeCount > 0 && (
-                          <span className="flex items-center gap-0.5 text-[11px] text-red-500">
-                            <ThumbsDown className="w-3 h-3" /> {conv.dislikeCount}
-                          </span>
-                        )}
-                      </div>
-                    )}
+                    </div>
+                    <p className="text-sm text-gray-600 truncate">{getConversationPreview(conv)}</p>
+                    <div className="flex items-center gap-3 mt-2">
+                      <span className="text-[11px] text-gray-400">{formatDate(conv.timestamp)}</span>
+                      {conv.source === 'rag' && conv.confidence !== undefined && conv.confidence !== null && (
+                        <span className={`text-[11px] font-medium ${normalizeConfidence(conv.confidence)! >= 80 ? 'text-emerald-600' : normalizeConfidence(conv.confidence)! >= 60 ? 'text-amber-600' : 'text-red-500'}`}>
+                          {normalizeConfidence(conv.confidence)}% confidence
+                        </span>
+                      )}
+                    </div>
                   </div>
-                </div>
-                <div className="flex items-center gap-2 flex-shrink-0">
-                  <StatusBadge status={conv.status} />
-                  <ChevronRight className="w-4 h-4 text-gray-300 group-hover:text-gray-500 transition-colors" />
+                  <div className="flex items-center gap-2 flex-shrink-0">
+                    <StatusBadge status={conv.source} />
+                    <ChevronRight className="w-4 h-4 text-gray-300 group-hover:text-gray-500 transition-colors" />
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            )
+          })}
+        </div>
+      )}
+
+      {!loading && pagination.pages > 1 && (
+        <div className="mt-4 flex items-center justify-center gap-2 flex-wrap">
+          <button
+            onClick={() => loadConversations(Math.max(1, page - 1), false)}
+            disabled={page <= 1}
+            className="px-3 py-2 rounded-xl border border-gray-200 text-sm text-gray-600 hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            Previous
+          </button>
+          {getVisiblePages().map((pageNumber, index) =>
+            pageNumber === -1 ? (
+              <span key={`ellipsis-${index}`} className="px-2 text-sm text-gray-400">
+                ...
+              </span>
+            ) : (
+              <button
+                key={pageNumber}
+                onClick={() => loadConversations(pageNumber, false)}
+                className={`min-w-10 px-3 py-2 rounded-xl border text-sm transition-colors ${
+                  page === pageNumber
+                    ? 'border-gray-900 bg-gray-900 text-white'
+                    : 'border-gray-200 text-gray-600 hover:bg-gray-50'
+                }`}
+              >
+                {pageNumber}
+              </button>
+            ),
+          )}
+          <button
+            onClick={() => loadConversations(Math.min(pagination.pages, page + 1), false)}
+            disabled={page >= pagination.pages}
+            className="px-3 py-2 rounded-xl border border-gray-200 text-sm text-gray-600 hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            Next
+          </button>
         </div>
       )}
 
       {/* Conversation Detail Modal */}
-      {(selectedConversation || detailLoading) && (
+      {selectedConversation && (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
           <div className="bg-white rounded-2xl w-full max-w-2xl max-h-[80vh] flex flex-col shadow-xl">
             {/* Header */}
             <div className="flex items-center justify-between p-4 border-b border-gray-200">
-              {detailLoading ? (
-                <div className="flex items-center gap-2">
-                  <Loader2 className="w-4 h-4 animate-spin" />
-                  <span className="text-gray-500">Loading...</span>
+              <>
+                <div className="flex items-center gap-3">
+                  <div className={`w-10 h-10 rounded-xl flex items-center justify-center text-white font-bold text-sm ${getSourceColor(selectedConversation.source)}`}>
+                    {selectedConversation.user?.charAt(0) || '?'}
+                  </div>
+                  <div>
+                    <h2 className="font-bold text-gray-900">{selectedConversation.user}</h2>
+                    <p className="text-xs text-gray-500">{sourceLabel(selectedConversation.source)} · {selectedConversation.message_count} messages</p>
+                  </div>
                 </div>
-              ) : (
-                <>
-                  <div className="flex items-center gap-3">
-                    <div className={`w-10 h-10 rounded-xl flex items-center justify-center text-white font-bold text-sm ${getStatusColor(selectedConversation!.conversation.status)}`}>
-                      {selectedConversation!.conversation.studentName?.charAt(0) || '?'}
-                    </div>
-                    <div>
-                      <h2 className="font-bold text-gray-900">{selectedConversation!.conversation.studentName}</h2>
-                      <p className="text-xs text-gray-500">{selectedConversation!.conversation.cohort} · {selectedConversation!.conversation.messageCount} messages</p>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <StatusBadge status={selectedConversation!.conversation.status} />
-                    {selectedConversation!.conversation.status === 'active' && (
-                      <button
-                        onClick={() => handleResolve(selectedConversation!.conversation)}
-                        className="text-xs px-3 py-1.5 bg-emerald-50 text-emerald-700 rounded-lg hover:bg-emerald-100"
-                      >
-                        Mark Resolved
-                      </button>
-                    )}
-                  </div>
-                </>
-              )}
+                <div className="flex items-center gap-2">
+                  <StatusBadge status={selectedConversation.source} />
+                  {selectedConversation.source === 'rag' && selectedConversation.confidence !== null && selectedConversation.confidence !== undefined && (
+                    <span className="text-xs text-gray-500">Confidence: {normalizeConfidence(selectedConversation.confidence)}%</span>
+                  )}
+                </div>
+              </>
               <button onClick={() => setSelectedConversation(null)} className="p-2 hover:bg-gray-100 rounded-xl" title="Close">
                 <X className="w-4 h-4" />
               </button>
             </div>
 
-            {/* Messages */}
-            {!detailLoading && selectedConversation && (
+            {detailLoading ? (
+              <div className="flex-1 flex items-center justify-center">
+                <Loader2 className="w-5 h-5 animate-spin text-gray-400" />
+              </div>
+            ) : selectedConversationDetail ? (
               <div className="flex-1 overflow-y-auto p-4 space-y-4">
-                {selectedConversation.messages.map((msg) => (
-                  <div key={msg.id} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
+                {selectedConversationDetail.messages.map((msg, index) => (
+                  <div key={`${selectedConversation.conversation_id}-${index}`} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
                     <div className={`max-w-[80%] ${msg.role === 'user' ? 'bg-blue-600 text-white rounded-2xl rounded-br-md px-4 py-3' : 'bg-gray-100 text-gray-900 rounded-2xl rounded-bl-md px-4 py-3'}`}>
+                      {selectedConversation.source === 'discord' && msg.author && (
+                        <p className={`text-[10px] font-semibold mb-1 ${msg.role === 'user' ? 'text-blue-100' : 'text-gray-500'}`}>
+                          {msg.author}
+                        </p>
+                      )}
                       <div className="text-sm">
-                        {msg.role === 'assistant' ? renderMarkdown(msg.content) : <p className="whitespace-pre-wrap">{msg.content}</p>}
+                        {msg.role === 'assistant' ? renderMarkdown(msg.text) : <p className="whitespace-pre-wrap">{msg.text}</p>}
                       </div>
-                      {msg.role === 'assistant' && (
-                        <div className="flex items-center justify-between mt-2 pt-2 border-t border-gray-200">
-                          <div className="flex items-center gap-2">
-                            {msg.confidence !== undefined && (
-                              <span className={`text-[10px] font-medium ${msg.confidence >= 0.8 ? 'text-emerald-600' : msg.confidence >= 0.6 ? 'text-amber-600' : 'text-red-500'}`}>
-                                {Math.round(msg.confidence * 100)}% confident
-                              </span>
-                            )}
-                            {msg.sources && msg.sources.length > 0 && (
-                              <span className="text-[10px] text-gray-400">{msg.sources.length} sources</span>
-                            )}
-                          </div>
-                          {/* Feedback indicator */}
-                          {msg.feedback && (
-                            <span className={`flex items-center gap-1 text-[10px] ${msg.feedback === 'like' ? 'text-emerald-600' : 'text-red-500'}`}>
-                              {msg.feedback === 'like' ? <ThumbsUp className="w-3 h-3" /> : <ThumbsDown className="w-3 h-3" />}
-                              {msg.feedback === 'like' ? 'Helpful' : 'Unhelpful'}
-                            </span>
-                          )}
-                        </div>
+                      {msg.timestamp && (
+                        <p className="text-[10px] text-gray-400 mt-2">{formatDate(msg.timestamp)}</p>
                       )}
                     </div>
                   </div>
                 ))}
               </div>
+            ) : (
+              <div className="flex-1 overflow-y-auto p-4 text-sm text-gray-500">Unable to load conversation messages.</div>
             )}
 
             {/* Footer with stats */}
-            {!detailLoading && selectedConversation && (
+            {selectedConversation && (
               <div className="px-4 py-3 border-t border-gray-200 bg-gray-50 rounded-b-2xl">
                 <div className="flex items-center gap-4 text-xs text-gray-500">
-                  <span>Started: {new Date(selectedConversation.conversation.createdAt).toLocaleDateString()}</span>
-                  <span className="flex items-center gap-1">
-                    <ThumbsUp className="w-3 h-3 text-emerald-500" /> {selectedConversation.conversation.likeCount}
-                  </span>
-                  <span className="flex items-center gap-1">
-                    <ThumbsDown className="w-3 h-3 text-red-400" /> {selectedConversation.conversation.dislikeCount}
-                  </span>
-                  {selectedConversation.conversation.averageConfidence !== undefined && (
-                    <span>Avg confidence: {normalizeConfidence(selectedConversation.conversation.averageConfidence)}%</span>
+                  <span>Started: {new Date(selectedConversation.timestamp).toLocaleDateString()}</span>
+                  <span>Source: {sourceLabel(selectedConversation.source)}</span>
+                  {selectedConversation.source === 'rag' && selectedConversation.confidence !== undefined && selectedConversation.confidence !== null && (
+                    <span>Confidence: {normalizeConfidence(selectedConversation.confidence)}%</span>
                   )}
                 </div>
               </div>
@@ -632,9 +715,172 @@ function ConversationsView() {
    ═══════════════════════════════════════ */
 
 function TicketsView() {
-  const [filter, setFilter] = useState('all')
-  const filtered = filter === 'all' ? mockTickets : mockTickets.filter(t => t.status === filter)
-  const openCount = mockTickets.filter(t => t.status === 'open').length
+  const [filter, setFilter] = useState<'all' | 'unassigned' | 'open' | 'mine' | 'resolved'>('all')
+  const [currentInstructor, setCurrentInstructor] = useState('Lab Member')
+  const [tickets, setTickets] = useState<SupportTicket[]>([])
+  const [loading, setLoading] = useState(true)
+  const [selectedTicket, setSelectedTicket] = useState<SupportTicket | null>(null)
+  const [resolveNote, setResolveNote] = useState('')
+  const [replyMessage, setReplyMessage] = useState('')
+  const [transferTo, setTransferTo] = useState('')
+  const [updatingTicket, setUpdatingTicket] = useState(false)
+  const [page, setPage] = useState(1)
+  const [pagination, setPagination] = useState({ total: 0, page: 1, limit: 8, pages: 1 })
+  const [pendingScreenshots, setPendingScreenshots] = useState<TicketScreenshot[]>([])
+  const messagesEndRef = useRef<HTMLDivElement>(null)
+  const replyFileInputRef = useRef<HTMLInputElement>(null)
+
+  const loadTickets = useCallback(async () => {
+    setLoading(true)
+    try {
+      const status = filter === 'resolved' ? 'resolved' : filter === 'open' || filter === 'unassigned' || filter === 'mine' ? 'open' : undefined
+      const assignment = filter === 'unassigned' ? 'unassigned' : filter === 'mine' ? 'mine' : 'all'
+
+      const result = await getTicketsPaginated({
+        status,
+        assignment,
+        instructorName: currentInstructor,
+        page,
+        limit: 8,
+      })
+      setTickets(result.data)
+      setPagination(result.pagination)
+    } catch (error) {
+      console.error('Failed to load tickets:', error)
+    } finally {
+      setLoading(false)
+    }
+  }, [filter, page, currentInstructor])
+
+  useEffect(() => {
+    loadTickets()
+  }, [loadTickets])
+
+  useEffect(() => {
+    setPage(1)
+  }, [filter, currentInstructor])
+
+  // Auto-scroll to latest message
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
+  }, [selectedTicket?.messages])
+
+  const openCount = tickets.filter((ticket) => ticket.status === 'open').length
+
+  const formatTicketDate = (date?: string) => {
+    if (!date) return 'Unknown'
+    return new Date(date).toLocaleString('en-IN', {
+      day: '2-digit',
+      month: 'short',
+      year: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit',
+    })
+  }
+
+  const handleOpenTicket = async (ticket: SupportTicket) => {
+    try {
+      const fresh = await getTicket(ticket.id)
+      setSelectedTicket(fresh)
+      setTransferTo(fresh.assignedInstructor ?? '')
+    } catch (error) {
+      console.error('Failed to open ticket details:', error)
+      setSelectedTicket(ticket)
+      setTransferTo(ticket.assignedInstructor ?? '')
+    }
+  }
+
+  const refreshSelectedTicket = async (ticketId: string) => {
+    const fresh = await getTicket(ticketId)
+    setSelectedTicket(fresh)
+    return fresh
+  }
+
+  const handleAssignToMe = async (ticket: SupportTicket) => {
+    setUpdatingTicket(true)
+    try {
+      await assignTicket(ticket.id, currentInstructor)
+      const fresh = await refreshSelectedTicket(ticket.id)
+      setTransferTo(fresh.assignedInstructor ?? '')
+      await loadTickets()
+    } catch (error) {
+      console.error('Failed to assign ticket:', error)
+    } finally {
+      setUpdatingTicket(false)
+    }
+  }
+
+  const handleTransfer = async (ticket: SupportTicket) => {
+    if (!transferTo.trim()) {
+      return
+    }
+
+    setUpdatingTicket(true)
+    try {
+      await transferTicket(ticket.id, transferTo.trim())
+      await refreshSelectedTicket(ticket.id)
+      await loadTickets()
+    } catch (error) {
+      console.error('Failed to transfer ticket:', error)
+    } finally {
+      setUpdatingTicket(false)
+    }
+  }
+
+  const handlePickReplyScreenshots = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const files = Array.from(e.target.files || [])
+    if (files.length === 0) return
+    const picked = await Promise.all(
+      files.slice(0, 4).map(async (file) => ({
+        fileName: file.name,
+        mimeType: file.type || 'image/png',
+        dataUrl: await fileToDataUrl(file),
+      }))
+    )
+    setPendingScreenshots((prev) => [...prev, ...picked].slice(0, 4))
+    e.target.value = ''
+  }
+
+  const handleSendMessage = async (ticket: SupportTicket) => {
+    if (!replyMessage.trim() && pendingScreenshots.length === 0) {
+      return
+    }
+
+    setUpdatingTicket(true)
+    try {
+      await addTicketMessage(ticket.id, {
+        senderName: currentInstructor,
+        senderRole: 'instructor',
+        message: replyMessage.trim() || '📷 Screenshot(s) attached',
+        screenshots: pendingScreenshots.length > 0 ? pendingScreenshots : undefined,
+      })
+      setReplyMessage('')
+      setPendingScreenshots([])
+      await refreshSelectedTicket(ticket.id)
+      await loadTickets()
+    } catch (error) {
+      console.error('Failed to send message:', error)
+    } finally {
+      setUpdatingTicket(false)
+    }
+  }
+
+  const handleCloseTicket = async (ticket: SupportTicket) => {
+    setUpdatingTicket(true)
+    try {
+      await closeTicket(ticket.id, {
+        closedBy: currentInstructor,
+        resolutionNote: resolveNote || undefined,
+      })
+      setResolveNote('')
+      await refreshSelectedTicket(ticket.id)
+      await loadTickets()
+    } catch (error) {
+      console.error('Failed to close ticket:', error)
+    } finally {
+      setUpdatingTicket(false)
+    }
+  }
 
   return (
     <div>
@@ -643,41 +889,344 @@ function TicketsView() {
           <h1 className="text-xl font-bold text-gray-900">Student Tickets</h1>
           <p className="text-sm text-gray-500 mt-1">{openCount} open tickets need your attention</p>
         </div>
+        <div className="flex items-center gap-2">
+          <span className="text-xs text-gray-500">Instructor</span>
+          <input
+            value={currentInstructor}
+            onChange={(e) => setCurrentInstructor(e.target.value)}
+            className="border border-gray-200 rounded-lg px-3 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500/20"
+          />
+        </div>
       </div>
 
       <div className="flex gap-1 mb-4 bg-gray-100 rounded-xl p-1 w-fit">
-        {['all', 'open', 'resolved'].map(f => (
+        {(['all', 'unassigned', 'open', 'mine', 'resolved'] as const).map(f => (
           <button key={f} onClick={() => setFilter(f)} className={`px-3 py-1.5 rounded-lg text-xs font-semibold capitalize transition-colors ${filter === f ? 'bg-white text-gray-900 shadow-sm' : 'text-gray-500 hover:text-gray-700'}`}>
-            {f} {f === 'open' ? `(${openCount})` : ''}
+            {f === 'resolved' ? 'closed' : f} {f === 'open' ? `(${openCount})` : ''}
           </button>
         ))}
       </div>
 
       <div className="space-y-2">
-        {filtered.map(ticket => (
-          <div key={ticket.id} className="bg-white border border-gray-200 rounded-2xl p-5 hover:border-gray-300 hover:shadow-sm transition-all cursor-pointer group">
-            <div className="flex items-start justify-between mb-2">
-              <div className="flex items-center gap-2">
-                <span className="text-xs font-mono text-gray-400">{ticket.id}</span>
+        {loading ? (
+          <div className="flex items-center justify-center py-12">
+            <Loader2 className="w-6 h-6 animate-spin text-gray-400" />
+          </div>
+        ) : tickets.length === 0 ? (
+          <div className="text-center py-12 text-sm text-gray-500 bg-white border border-gray-200 rounded-2xl">No tickets found.</div>
+        ) : tickets.map(ticket => (
+          <button key={ticket.id} onClick={() => handleOpenTicket(ticket)} className="w-full text-left bg-white border border-gray-200 rounded-2xl p-5 hover:border-gray-300 hover:shadow-sm transition-all cursor-pointer group">
+            <div className="flex items-start justify-between mb-2 gap-3">
+              <div className="flex items-center gap-2 flex-wrap">
+                <span className="text-xs font-mono text-gray-400">{ticket.ticketNumber}</span>
                 <StatusBadge status={ticket.status} />
-                <StatusBadge status={ticket.priority} />
+                {ticket.assignedInstructor ? (
+                  <span className="text-[11px] px-2 py-0.5 rounded-full bg-blue-50 text-blue-700 border border-blue-100">
+                    Assigned: {ticket.assignedInstructor}
+                  </span>
+                ) : (
+                  <span className="text-[11px] px-2 py-0.5 rounded-full bg-amber-50 text-amber-700 border border-amber-100">Unassigned</span>
+                )}
               </div>
-              <span className="text-[11px] text-gray-400">{ticket.created}</span>
+              <span className="text-[11px] text-gray-400">Raised: {formatTicketDate(ticket.createdAt)}</span>
             </div>
             <h3 className="text-sm font-semibold text-gray-900 mb-1.5">{ticket.subject}</h3>
+            <p className="text-sm text-gray-600 line-clamp-2 mb-2">{ticket.reason}</p>
             <div className="flex items-center justify-between">
-              <div className="flex items-center gap-2 text-xs text-gray-500">
-                <span>{ticket.student}</span><span>·</span><span>{ticket.cohort}</span><span>·</span><span>{ticket.messages} messages</span>
+              <div className="flex items-center gap-2 text-xs text-gray-500 flex-wrap">
+                <span>{ticket.studentName}</span><span>·</span><span>{ticket.cohort || 'No cohort'}</span><span>·</span><span>{ticket.screenshots.length} screenshot(s)</span>
+                <span>·</span><span>{ticket.messages?.length ?? 0} message(s)</span>
+                {ticket.resolvedBy && <><span>·</span><span>Resolved by {ticket.resolvedBy}</span></>}
               </div>
               {ticket.status === 'open' && (
-                <button className="text-xs font-semibold text-blue-600 hover:text-blue-700 transition-colors inline-flex items-center gap-1 opacity-0 group-hover:opacity-100">
+                <span className="text-xs font-semibold text-blue-600 inline-flex items-center gap-1 opacity-0 group-hover:opacity-100">
                   Reply <ArrowUpRight className="w-3 h-3" />
-                </button>
+                </span>
               )}
             </div>
-          </div>
+          </button>
         ))}
       </div>
+
+      {!loading && pagination.pages > 1 && (
+        <div className="mt-4 flex items-center justify-between text-sm text-gray-500">
+          <span>
+            Showing page {pagination.page} of {pagination.pages} ({pagination.total} tickets)
+          </span>
+          <div className="flex gap-2">
+            <button
+              onClick={() => setPage((prev) => Math.max(1, prev - 1))}
+              disabled={pagination.page <= 1}
+              className="px-3 py-1.5 rounded-lg border border-gray-200 disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-50"
+            >
+              Previous
+            </button>
+            <button
+              onClick={() => setPage((prev) => Math.min(pagination.pages, prev + 1))}
+              disabled={pagination.page >= pagination.pages}
+              className="px-3 py-1.5 rounded-lg border border-gray-200 disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-50"
+            >
+              Next
+            </button>
+          </div>
+        </div>
+      )}
+
+      {selectedTicket && (
+        /* ── Intercom-style popup ticket chat panel ── */
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm p-6">
+          <div className="w-[min(92vw,1120px)] h-[min(82vh,640px)] flex rounded-2xl shadow-2xl overflow-hidden bg-white">
+          {/* ── Left sidebar: ticket metadata + controls ── */}
+          <div className="w-[280px] flex-shrink-0 border-r border-gray-800 bg-gradient-to-b from-[#0f0f0f] to-[#1a1a1a] flex flex-col overflow-y-auto">
+            {/* Back button */}
+            <div className="px-4 py-3 border-b border-gray-800">
+              <button
+                onClick={() => { setSelectedTicket(null); setPendingScreenshots([]); setReplyMessage('') }}
+                className="inline-flex items-center gap-1.5 text-sm text-gray-400 hover:text-white transition-colors"
+              >
+                <ChevronLeft className="w-4 h-4" />
+                Back to tickets
+              </button>
+            </div>
+
+            {/* Ticket metadata */}
+            <div className="px-4 py-4 border-b border-gray-800">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-xs font-mono text-gray-500">{selectedTicket.ticketNumber}</span>
+                <StatusBadge status={selectedTicket.status} />
+              </div>
+              <h3 className="text-sm font-bold text-white leading-snug mb-3">{selectedTicket.subject}</h3>
+              <div className="space-y-1.5 text-xs">
+                <div className="flex items-start gap-2">
+                  <span className="text-gray-500 font-medium w-16 flex-shrink-0">Student</span>
+                  <span className="text-gray-300 font-medium">{selectedTicket.studentName}</span>
+                </div>
+                {selectedTicket.cohort && (
+                  <div className="flex items-start gap-2">
+                    <span className="text-gray-500 font-medium w-16 flex-shrink-0">Cohort</span>
+                    <span className="text-gray-300">{selectedTicket.cohort}</span>
+                  </div>
+                )}
+                <div className="flex items-start gap-2">
+                  <span className="text-gray-500 font-medium w-16 flex-shrink-0">Raised</span>
+                  <span className="text-gray-300">{formatTicketDate(selectedTicket.createdAt)}</span>
+                </div>
+                <div className="flex items-start gap-2">
+                  <span className="text-gray-500 font-medium w-16 flex-shrink-0">Assigned</span>
+                  <span className={selectedTicket.assignedInstructor ? 'text-emerald-400 font-medium' : 'text-amber-500'}>
+                    {selectedTicket.assignedInstructor || 'Unassigned'}
+                  </span>
+                </div>
+                {selectedTicket.instructors.length > 0 && (
+                  <div className="flex items-start gap-2">
+                    <span className="text-gray-500 font-medium w-16 flex-shrink-0">Team</span>
+                    <span className="text-gray-300">{selectedTicket.instructors.join(', ')}</span>
+                  </div>
+                )}
+                {selectedTicket.resolvedBy && (
+                  <div className="flex items-start gap-2">
+                    <span className="text-gray-500 font-medium w-16 flex-shrink-0">Closed by</span>
+                    <span className="text-gray-300">{selectedTicket.resolvedBy}</span>
+                  </div>
+                )}
+              </div>
+            </div>
+
+            {/* Initial ticket screenshots (submitted with the original ticket) */}
+            {selectedTicket.screenshots.length > 0 && (
+              <div className="px-4 py-4 border-b border-gray-800">
+                <p className="text-[10px] font-semibold text-gray-500 uppercase tracking-wider mb-2">Submitted Screenshots</p>
+                <div className="space-y-2">
+                  {selectedTicket.screenshots.map((shot, i) => (
+                    <a key={`init-${i}`} href={shot.dataUrl} target="_blank" rel="noreferrer" className="block rounded-xl overflow-hidden border border-gray-700">
+                      <img src={shot.dataUrl} alt={shot.fileName} className="w-full h-28 object-cover" />
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {selectedTicket.status === 'open' && (
+              <>
+                {/* Assignment controls */}
+                <div className="px-4 py-4 border-b border-gray-800">
+                  <p className="text-[10px] font-semibold text-gray-500 uppercase tracking-wider mb-3">Assignment</p>
+                  <button
+                    onClick={() => handleAssignToMe(selectedTicket)}
+                    disabled={updatingTicket || selectedTicket.assignedInstructor === currentInstructor}
+                    className="w-full px-3 py-2 rounded-xl border border-gray-700 bg-gray-800 text-xs font-semibold text-gray-200 hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors mb-2"
+                  >
+                    {selectedTicket.assignedInstructor === currentInstructor ? '✓ Assigned to you' : 'Assign to me'}
+                  </button>
+                  <div className="flex gap-1.5">
+                    <input
+                      value={transferTo}
+                      onChange={(e) => setTransferTo(e.target.value)}
+                      placeholder="Transfer to..."
+                      className="flex-1 border border-gray-700 bg-gray-800 text-white placeholder-gray-500 rounded-xl px-2.5 py-1.5 text-xs focus:outline-none focus:ring-2 focus:ring-gray-500/20"
+                    />
+                    <button
+                      onClick={() => handleTransfer(selectedTicket)}
+                      disabled={updatingTicket || !transferTo.trim()}
+                      className="px-2.5 py-1.5 rounded-xl border border-gray-700 bg-gray-800 text-xs font-semibold text-gray-200 hover:bg-gray-700 disabled:opacity-50 transition-colors"
+                    >
+                      Transfer
+                    </button>
+                  </div>
+                </div>
+
+                {/* Close ticket */}
+                <div className="px-4 py-4">
+                  <p className="text-[10px] font-semibold text-gray-500 uppercase tracking-wider mb-3">Close Ticket</p>
+                  <textarea
+                    value={resolveNote}
+                    onChange={(e) => setResolveNote(e.target.value)}
+                    rows={3}
+                    placeholder="Resolution note (optional)"
+                    className="w-full border border-gray-700 bg-gray-800 text-white placeholder-gray-500 rounded-xl px-3 py-2 text-xs focus:outline-none focus:ring-2 focus:ring-gray-500/20 resize-none mb-2"
+                  />
+                  <button
+                    onClick={() => handleCloseTicket(selectedTicket)}
+                    disabled={updatingTicket}
+                    className="w-full inline-flex items-center justify-center gap-1.5 bg-emerald-600 text-white text-xs font-semibold px-3 py-2 rounded-xl hover:bg-emerald-700 transition-colors disabled:opacity-60"
+                  >
+                    Close Ticket
+                  </button>
+                </div>
+              </>
+            )}
+          </div>
+
+          {/* ── Right panel: full-height chat ── */}
+          <div className="flex-1 flex flex-col min-w-0">
+            {/* Chat header */}
+            <div className="px-6 py-4 border-b border-gray-200 bg-white flex items-center gap-3 flex-shrink-0">
+              <div className="flex-1 min-w-0">
+                <p className="text-xs text-gray-400 font-medium mb-0.5">{selectedTicket.studentName} · {selectedTicket.cohort || 'No cohort'}</p>
+                <h2 className="text-base font-bold text-gray-900 truncate">{selectedTicket.subject}</h2>
+              </div>
+              {updatingTicket && <Loader2 className="w-4 h-4 animate-spin text-gray-400 flex-shrink-0" />}
+            </div>
+
+            {/* Messages area */}
+            <div className="flex-1 overflow-y-auto px-6 py-4 space-y-4">
+              {/* Original ticket reason as first "message" */}
+              <div className="flex justify-start">
+                <div className="flex gap-3 max-w-[72%]">
+                  <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center text-xs font-bold text-gray-600 flex-shrink-0 mt-0.5">
+                    {selectedTicket.studentName.charAt(0).toUpperCase()}
+                  </div>
+                  <div>
+                    <div className="flex items-baseline gap-2 mb-1">
+                      <span className="text-xs font-semibold text-gray-700">{selectedTicket.studentName}</span>
+                      <span className="text-[10px] text-gray-400">{formatTicketDate(selectedTicket.createdAt)}</span>
+                    </div>
+                    <div className="bg-gray-100 rounded-2xl rounded-tl-sm px-4 py-3">
+                      <p className="text-sm text-gray-900 whitespace-pre-wrap">{selectedTicket.reason}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Chat messages */}
+              {(selectedTicket.messages ?? []).map((msg, index) => {
+                const isInstructor = msg.senderRole === 'instructor'
+                return (
+                  <div key={`${selectedTicket.id}-${index}`} className={`flex ${isInstructor ? 'justify-end' : 'justify-start'}`}>
+                    <div className={`flex gap-3 max-w-[72%] ${isInstructor ? 'flex-row-reverse' : ''}`}>
+                      <div className={`w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5 ${isInstructor ? 'bg-gray-700 text-white' : 'bg-gray-200 text-gray-600'}`}>
+                        {msg.senderName.charAt(0).toUpperCase()}
+                      </div>
+                      <div className={isInstructor ? 'items-end flex flex-col' : ''}>
+                        <div className={`flex items-baseline gap-2 mb-1 ${isInstructor ? 'flex-row-reverse' : ''}`}>
+                          <span className="text-xs font-semibold text-gray-700">{msg.senderName}</span>
+                          <span className="text-[10px] text-gray-400">{formatTicketDate(msg.timestamp)}</span>
+                        </div>
+                        <div className={`rounded-2xl px-4 py-3 ${isInstructor ? 'bg-gray-900 text-white rounded-tr-sm' : 'bg-gray-100 text-gray-900 rounded-tl-sm'}`}>
+                          {msg.message !== '📷 Screenshot(s) attached' && (
+                            <p className="text-sm whitespace-pre-wrap">{msg.message}</p>
+                          )}
+                          {msg.screenshots && msg.screenshots.length > 0 && (
+                            <div className={`grid gap-2 ${msg.screenshots.length > 1 ? 'grid-cols-2' : 'grid-cols-1'} ${msg.message !== '📷 Screenshot(s) attached' ? 'mt-2' : ''}`}>
+                              {msg.screenshots.map((shot, si) => (
+                                <a key={si} href={shot.dataUrl} target="_blank" rel="noreferrer" className="block rounded-xl overflow-hidden">
+                                  <img src={shot.dataUrl} alt={shot.fileName} className="w-full h-36 object-cover" />
+                                </a>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )
+              })}
+
+              {/* Resolved banner */}
+              {selectedTicket.status === 'resolved' && (
+                <div className="flex justify-center">
+                  <div className="bg-emerald-50 text-emerald-700 border border-emerald-200 rounded-full px-4 py-1.5 text-xs font-semibold">
+                    Ticket closed by {selectedTicket.resolvedBy || 'instructor'}
+                    {selectedTicket.resolutionNote && ` — ${selectedTicket.resolutionNote}`}
+                  </div>
+                </div>
+              )}
+
+              <div ref={messagesEndRef} />
+            </div>
+
+            {/* Composer */}
+            {selectedTicket.status === 'open' && (
+              <div className="border-t border-gray-200 bg-white px-4 py-3 flex-shrink-0">
+                {/* Pending screenshot thumbnails */}
+                {pendingScreenshots.length > 0 && (
+                  <div className="flex gap-2 mb-2 flex-wrap">
+                    {pendingScreenshots.map((shot, i) => (
+                      <div key={i} className="relative w-16 h-16 rounded-xl overflow-hidden border border-gray-200 flex-shrink-0">
+                        <img src={shot.dataUrl} alt={shot.fileName} className="w-full h-full object-cover" />
+                        <button
+                          onClick={() => setPendingScreenshots((prev) => prev.filter((_, idx) => idx !== i))}
+                          className="absolute top-0.5 right-0.5 w-4 h-4 bg-black/60 rounded-full flex items-center justify-center text-white text-[10px] leading-none"
+                        >
+                          ×
+                        </button>
+                      </div>
+                    ))}
+                  </div>
+                )}
+                <div className="flex items-end gap-2">
+                  <textarea
+                    value={replyMessage}
+                    onChange={(e) => setReplyMessage(e.target.value)}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter' && !e.shiftKey) {
+                        e.preventDefault()
+                        handleSendMessage(selectedTicket)
+                      }
+                    }}
+                    rows={1}
+                    placeholder="Write a reply… (Enter to send, Shift+Enter for new line)"
+                    className="flex-1 border border-gray-200 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-gray-400/20 focus:border-gray-400 resize-none leading-relaxed"
+                    style={{ minHeight: '42px', maxHeight: '120px', overflowY: 'auto' }}
+                  />
+                  <label className="flex-shrink-0 w-10 h-10 rounded-xl border border-gray-200 bg-white flex items-center justify-center cursor-pointer hover:bg-gray-50 transition-colors">
+                    <Paperclip className="w-4 h-4 text-gray-500" />
+                    <input ref={replyFileInputRef} type="file" accept="image/*" multiple className="hidden" onChange={handlePickReplyScreenshots} />
+                  </label>
+                  <button
+                    onClick={() => handleSendMessage(selectedTicket)}
+                    disabled={updatingTicket || (!replyMessage.trim() && pendingScreenshots.length === 0)}
+                    className="flex-shrink-0 w-10 h-10 rounded-xl bg-gradient-to-br from-gray-900 to-black text-white flex items-center justify-center hover:from-black hover:to-gray-900 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                    <Send className="w-4 h-4" />
+                  </button>
+                </div>
+              </div>
+            )}
+          </div>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
@@ -856,8 +1405,12 @@ function QAProposalsView() {
           </div>
 
           {/* New Proposal */}
-          <button onClick={() => setShowForm(!showForm)} className="inline-flex items-center gap-2 bg-gray-900 text-white text-sm font-semibold px-4 py-2.5 rounded-xl hover:bg-gray-800 transition-colors">
-            <Plus className="w-4 h-4" /> New Proposal
+          <button
+            onClick={() => setShowForm((prev) => !prev)}
+            className="inline-flex items-center gap-2 text-sm font-semibold text-white bg-gray-900 px-4 py-2.5 rounded-xl hover:bg-gray-800 transition-colors"
+          >
+            <Plus className="w-4 h-4" />
+            New Proposal
           </button>
         </div>
       </div>
@@ -984,6 +1537,21 @@ function QAProposalsView() {
    ═══════════════════════════════════════ */
 
 function AnalyticsView() {
+  const [ticketStats, setTicketStats] = useState<TicketStats | null>(null)
+
+  useEffect(() => {
+    async function loadTicketStats() {
+      try {
+        const stats = await getTicketStats()
+        setTicketStats(stats)
+      } catch (error) {
+        console.error('Failed to load ticket stats:', error)
+      }
+    }
+
+    loadTicketStats()
+  }, [])
+
   const barData = [
     { label: 'Mon', value: 32 }, { label: 'Tue', value: 45 }, { label: 'Wed', value: 28 },
     { label: 'Thu', value: 56 }, { label: 'Fri', value: 41 }, { label: 'Sat', value: 18 }, { label: 'Sun', value: 12 },
@@ -1016,7 +1584,13 @@ function AnalyticsView() {
           { label: 'Total Queries', value: '1,247', change: '+12%', icon: MessagesSquare, color: 'bg-blue-50 text-blue-600' },
           { label: 'AI Resolution', value: '87%', change: '+3%', icon: Bot, color: 'bg-emerald-50 text-emerald-600' },
           { label: 'Avg Response', value: '1.2s', change: '-0.3s', icon: Clock, color: 'bg-purple-50 text-purple-600' },
-          { label: 'Active Students', value: '423', change: '+8%', icon: Users, color: 'bg-amber-50 text-amber-600' },
+          {
+            label: 'Ticket Resolution',
+            value: ticketStats ? `${ticketStats.resolutionRate}%` : '—',
+            change: ticketStats ? `${ticketStats.resolved}/${ticketStats.total}` : '—',
+            icon: Ticket,
+            color: 'bg-amber-50 text-amber-600',
+          },
         ].map(kpi => (
           <div key={kpi.label} className="bg-white border border-gray-200 rounded-2xl p-5 shadow-sm">
             <div className="flex items-start justify-between mb-3">
@@ -1027,6 +1601,38 @@ function AnalyticsView() {
             <p className="text-xs text-gray-500 mt-0.5">{kpi.label}</p>
           </div>
         ))}
+      </div>
+
+      <div className="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm mb-8">
+        <h3 className="text-sm font-bold text-gray-900 mb-1">Ticket Health</h3>
+        <p className="text-xs text-gray-400 mb-4">Live support ticket metrics</p>
+        <div className="grid grid-cols-3 gap-4 mb-4">
+          <div className="rounded-xl bg-gray-50 p-3">
+            <p className="text-[11px] text-gray-500 uppercase tracking-wider">Open</p>
+            <p className="text-2xl font-bold text-amber-600">{ticketStats?.open ?? '—'}</p>
+          </div>
+          <div className="rounded-xl bg-gray-50 p-3">
+            <p className="text-[11px] text-gray-500 uppercase tracking-wider">Resolved</p>
+            <p className="text-2xl font-bold text-emerald-600">{ticketStats?.resolved ?? '—'}</p>
+          </div>
+          <div className="rounded-xl bg-gray-50 p-3">
+            <p className="text-[11px] text-gray-500 uppercase tracking-wider">Avg Resolution Time</p>
+            <p className="text-2xl font-bold text-gray-900">{ticketStats ? `${ticketStats.avgResolutionHours}h` : '—'}</p>
+          </div>
+        </div>
+
+        <div>
+          <div className="mb-1 flex items-center justify-between text-xs text-gray-500">
+            <span>Resolution Rate</span>
+            <span>{ticketStats?.resolutionRate ?? 0}%</span>
+          </div>
+          <div className="h-2.5 rounded-full bg-gray-100 overflow-hidden">
+            <div
+              className="h-full rounded-full bg-emerald-500 transition-all duration-700"
+              style={{ width: `${ticketStats?.resolutionRate ?? 0}%` }}
+            />
+          </div>
+        </div>
       </div>
 
       {/* Charts */}
@@ -1104,13 +1710,14 @@ export default function LabMemberDashboard() {
   useEffect(() => {
     async function fetchBadgeCounts() {
       try {
-        const [chatStats, proposalsResult] = await Promise.all([
-          getChatStats(),
+        const [allConversations, proposalsResult] = await Promise.all([
+          getAggregatedConversationStats(),
           fetchProposals(),
         ])
+        const openTickets = await getTickets({ status: 'open' })
         setSidebarStats({
-          activeConversations: chatStats.activeConversations,
-          openTickets: 3, // TODO: Replace with real ticket count when implemented
+          activeConversations: allConversations.totalConversations,
+          openTickets: openTickets.length,
           pendingProposals: proposalsResult.data.filter((p: QaProposal) => p.status === 'pending').length,
         })
       } catch (error) {

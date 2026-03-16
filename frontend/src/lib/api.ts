@@ -199,6 +199,88 @@ export interface ChatStats {
   averageResponseTime: number;
 }
 
+export type ConversationSource = 'rag' | 'discord' | 'librechat';
+
+export interface AggregatedConversationMessage {
+  role: 'user' | 'assistant';
+  text: string;
+  author?: string;
+  timestamp?: string;
+}
+
+export interface AggregatedConversation {
+  conversation_id: string;
+  source: ConversationSource;
+  user: string;
+  timestamp: string;
+  message_count: number;
+  confidence?: number | null;
+  last_message_preview?: string;
+  messages: AggregatedConversationMessage[];
+}
+
+export interface AggregatedConversationStats {
+  totalConversations: number;
+  totalMessages: number;
+  sourceCounts: Record<ConversationSource, number>;
+  avgRagConfidence: number | null;
+}
+
+export interface AggregatedConversationListResponse {
+  data: AggregatedConversation[];
+  pagination: {
+    total: number;
+    page: number;
+    limit: number;
+    pages: number;
+  };
+}
+
+export type TicketStatus = 'open' | 'resolved';
+
+export type TicketSenderRole = 'student' | 'instructor';
+
+export interface TicketScreenshot {
+  fileName: string;
+  mimeType: string;
+  dataUrl: string;
+}
+
+export interface SupportTicket {
+  id: string;
+  ticketNumber: string;
+  studentId: string;
+  studentName: string;
+  studentEmail?: string;
+  cohort?: string;
+  subject: string;
+  reason: string;
+  screenshots: TicketScreenshot[];
+  messages: Array<{
+    senderRole: TicketSenderRole;
+    senderName: string;
+    message: string;
+    timestamp: string;
+    screenshots?: TicketScreenshot[];
+  }>;
+  status: TicketStatus;
+  assignedInstructor?: string;
+  instructors: string[];
+  resolvedBy?: string;
+  resolutionNote?: string;
+  resolvedAt?: string;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface TicketStats {
+  total: number;
+  open: number;
+  resolved: number;
+  resolutionRate: number;
+  avgResolutionHours: number;
+}
+
 /**
  * Send a message to the chatbot
  */
@@ -360,5 +442,276 @@ export async function getStudentConversations(studentId: string): Promise<Conver
   if (!response.ok) {
     throw new Error(`Failed to get student conversations: ${response.statusText}`);
   }
+  return response.json();
+}
+
+/**
+ * Get normalized conversations from all plugins
+ */
+export async function getAggregatedConversations(filter?: {
+  source?: 'all' | ConversationSource;
+  refresh?: boolean;
+  page?: number;
+  limit?: number;
+}): Promise<AggregatedConversationListResponse> {
+  const endpoint = filter?.refresh ? 'conversations/refresh' : 'conversations';
+  const url = new URL(`${API_BASE}/${endpoint}`);
+
+  if (filter?.source && filter.source !== 'all') {
+    url.searchParams.set('source', filter.source);
+  }
+  if (filter?.page) {
+    url.searchParams.set('page', String(filter.page));
+  }
+  if (filter?.limit) {
+    url.searchParams.set('limit', String(filter.limit));
+  }
+
+  const response = await fetch(url.toString());
+  if (!response.ok) {
+    throw new Error(`Failed to get aggregated conversations: ${response.statusText}`);
+  }
+
+  const payload = await response.json();
+
+  if (Array.isArray(payload)) {
+    const page = filter?.page ?? 1;
+    const limit = filter?.limit ?? payload.length;
+
+    return {
+      data: payload,
+      pagination: {
+        total: payload.length,
+        page,
+        limit,
+        pages: Math.max(1, Math.ceil(payload.length / Math.max(limit, 1))),
+      },
+    };
+  }
+
+  return payload;
+}
+
+export async function getAggregatedConversationDetail(
+  source: ConversationSource,
+  conversationId: string,
+): Promise<AggregatedConversation | null> {
+  const response = await fetch(
+    `${API_BASE}/conversations/${encodeURIComponent(source)}/${encodeURIComponent(conversationId)}`,
+  );
+
+  if (!response.ok) {
+    throw new Error(`Failed to get aggregated conversation detail: ${response.statusText}`);
+  }
+
+  return response.json();
+}
+
+export async function getAggregatedConversationStats(filter?: {
+  refresh?: boolean;
+}): Promise<AggregatedConversationStats> {
+  const url = new URL(`${API_BASE}/conversations/stats`);
+
+  if (filter?.refresh) {
+    url.searchParams.set('refresh', 'true');
+  }
+
+  const response = await fetch(url.toString());
+  if (!response.ok) {
+    throw new Error(`Failed to get aggregated conversation stats: ${response.statusText}`);
+  }
+
+  return response.json();
+}
+
+export async function createTicket(payload: {
+  studentId: string;
+  studentName: string;
+  studentEmail?: string;
+  cohort?: string;
+  subject: string;
+  reason: string;
+  screenshots?: TicketScreenshot[];
+}): Promise<SupportTicket> {
+  const response = await fetch(`${API_BASE}/tickets`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+  });
+
+  if (!response.ok) {
+    throw new Error(`Failed to create ticket: ${response.statusText}`);
+  }
+
+  return response.json();
+}
+
+export async function getTickets(filter?: {
+  studentId?: string;
+  status?: TicketStatus;
+  assignment?: 'all' | 'unassigned' | 'assigned' | 'mine';
+  instructorName?: string;
+}): Promise<SupportTicket[]> {
+  const url = new URL(`${API_BASE}/tickets`);
+  if (filter?.studentId) {
+    url.searchParams.set('studentId', filter.studentId);
+  }
+  if (filter?.status) {
+    url.searchParams.set('status', filter.status);
+  }
+  if (filter?.assignment) {
+    url.searchParams.set('assignment', filter.assignment);
+  }
+  if (filter?.instructorName) {
+    url.searchParams.set('instructorName', filter.instructorName);
+  }
+
+  const response = await fetch(url.toString());
+  if (!response.ok) {
+    throw new Error(`Failed to get tickets: ${response.statusText}`);
+  }
+
+  return response.json();
+}
+
+export async function getTicketsPaginated(filter?: {
+  studentId?: string;
+  status?: TicketStatus;
+  assignment?: 'all' | 'unassigned' | 'assigned' | 'mine';
+  instructorName?: string;
+  page?: number;
+  limit?: number;
+}): Promise<{
+  data: SupportTicket[];
+  pagination: { total: number; page: number; limit: number; pages: number };
+}> {
+  const url = new URL(`${API_BASE}/tickets/paginated`);
+  if (filter?.studentId) {
+    url.searchParams.set('studentId', filter.studentId);
+  }
+  if (filter?.status) {
+    url.searchParams.set('status', filter.status);
+  }
+  if (filter?.assignment) {
+    url.searchParams.set('assignment', filter.assignment);
+  }
+  if (filter?.instructorName) {
+    url.searchParams.set('instructorName', filter.instructorName);
+  }
+  if (filter?.page) {
+    url.searchParams.set('page', String(filter.page));
+  }
+  if (filter?.limit) {
+    url.searchParams.set('limit', String(filter.limit));
+  }
+
+  const response = await fetch(url.toString());
+  if (!response.ok) {
+    throw new Error(`Failed to get paginated tickets: ${response.statusText}`);
+  }
+
+  return response.json();
+}
+
+export async function getTicketStats(): Promise<TicketStats> {
+  const response = await fetch(`${API_BASE}/tickets/stats`);
+  if (!response.ok) {
+    throw new Error(`Failed to get ticket stats: ${response.statusText}`);
+  }
+
+  return response.json();
+}
+
+export async function resolveTicket(
+  ticketId: string,
+  payload: { resolvedBy: string; resolutionNote?: string },
+): Promise<SupportTicket> {
+  const response = await fetch(`${API_BASE}/tickets/${ticketId}/resolve`, {
+    method: 'PATCH',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+  });
+
+  if (!response.ok) {
+    throw new Error(`Failed to resolve ticket: ${response.statusText}`);
+  }
+
+  return response.json();
+}
+
+export async function assignTicket(ticketId: string, instructorName: string): Promise<SupportTicket> {
+  const response = await fetch(`${API_BASE}/tickets/${ticketId}/assign`, {
+    method: 'PATCH',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ instructorName }),
+  });
+
+  if (!response.ok) {
+    throw new Error(`Failed to assign ticket: ${response.statusText}`);
+  }
+
+  return response.json();
+}
+
+export async function transferTicket(ticketId: string, toInstructor: string): Promise<SupportTicket> {
+  const response = await fetch(`${API_BASE}/tickets/${ticketId}/transfer`, {
+    method: 'PATCH',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ toInstructor }),
+  });
+
+  if (!response.ok) {
+    throw new Error(`Failed to transfer ticket: ${response.statusText}`);
+  }
+
+  return response.json();
+}
+
+export async function addTicketMessage(
+  ticketId: string,
+  payload: {
+    senderName: string;
+    senderRole: TicketSenderRole;
+    message: string;
+    screenshots?: TicketScreenshot[];
+  },
+): Promise<SupportTicket> {
+  const response = await fetch(`${API_BASE}/tickets/${ticketId}/messages`, {
+    method: 'PATCH',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+  });
+
+  if (!response.ok) {
+    throw new Error(`Failed to add ticket message: ${response.statusText}`);
+  }
+
+  return response.json();
+}
+
+export async function closeTicket(
+  ticketId: string,
+  payload: { closedBy: string; resolutionNote?: string },
+): Promise<SupportTicket> {
+  const response = await fetch(`${API_BASE}/tickets/${ticketId}/close`, {
+    method: 'PATCH',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+  });
+
+  if (!response.ok) {
+    throw new Error(`Failed to close ticket: ${response.statusText}`);
+  }
+
+  return response.json();
+}
+
+export async function getTicket(ticketId: string): Promise<SupportTicket> {
+  const response = await fetch(`${API_BASE}/tickets/${ticketId}`);
+
+  if (!response.ok) {
+    throw new Error(`Failed to get ticket: ${response.statusText}`);
+  }
+
   return response.json();
 }

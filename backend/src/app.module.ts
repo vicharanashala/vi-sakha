@@ -5,13 +5,15 @@ import { QaPairsModule } from './qa-pairs/qa-pairs.module';
 import { EmbeddingsModule } from './embeddings/embeddings.module';
 import { QaProposalsModule } from './qa-proposals/qa-proposals.module';
 import { ChatModule } from './chat/chat.module';
+import { ConversationModule } from './conversation/conversation.module';
+import { TicketsModule } from './tickets/tickets.module';
 
 @Module({
   imports: [
     // Load environment variables
     ConfigModule.forRoot({
       isGlobal: true,
-      envFilePath: '.env',
+      envFilePath: ['.env', '../.env'],
     }),
 
     // MongoDB connection
@@ -28,6 +30,8 @@ import { ChatModule } from './chat/chat.module';
     EmbeddingsModule,
     QaProposalsModule,
     ChatModule,
+    ConversationModule,
+    TicketsModule,
   ],
 })
 export class AppModule {}
