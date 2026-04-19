@@ -1,0 +1,202 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1167445225246031883> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I am unable to look for the mistakes committed in quiz it doesnot show which questions I have made wrong. Plz rectify this.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772269085770,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1167445225246031883> can you please elaborate on the issue and let us know your ViBe progress?",
+      "embeds": [],
+      "created": 1772270311877,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "brangotur",
+      "user_id": "1167445225246031883",
+      "is_bot": false,
+      "content": "My current progress is 53 %. Earlier when I used to attempt quizes,after submission , it displayed the questions which i did correct and  incorrect. Now it only displays the final score. I am unable to figure out  in which question I have committed mistakes. I attempted quizes many times.",
+      "embeds": [],
+      "created": 1772270696486,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1167445225246031883> \n\nHi, could you please confirm whether all quizzes are showing only the total score without indicating correct or incorrect answers for each question, or if this issue is occurring for just one quiz?",
+      "embeds": [],
+      "created": 1772271563294,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "brangotur",
+      "user_id": "1167445225246031883",
+      "is_bot": false,
+      "content": "yes for all quizes",
+      "embeds": [],
+      "created": 1772272964909,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "Okay we will check and resolve this as soon as possible, thankyou",
+      "embeds": [],
+      "created": 1772276242687,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "brangotur",
+      "user_id": "1167445225246031883",
+      "is_bot": false,
+      "content": "yes please . Once resolved pls let me know I will start watching videos. Otherwise it consumes much time with such issues.",
+      "embeds": [],
+      "created": 1772276727747,
+      "edited": 1772276777058
+    },
+    {
+      "index": 8,
+      "author": "brangotur",
+      "user_id": "1167445225246031883",
+      "is_bot": false,
+      "content": "<@836880971017748512> <@666826791016595456>  Could you please resolve this issue by afternoon.Usually I cover much of the content on Weekends.",
+      "embeds": [],
+      "created": 1772339767556,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1366708005483053076> \nKindly help us out here.",
+      "embeds": [],
+      "created": 1772515685852,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1167445225246031883> \nIs the issue resolved?",
+      "embeds": [],
+      "created": 1772515693401,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "<@1167445225246031883> please do let me know if the issue is still persist",
+      "embeds": [],
+      "created": 1772521013110,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "brangotur",
+      "user_id": "1167445225246031883",
+      "is_bot": false,
+      "content": "yes now resolved",
+      "embeds": [],
+      "created": 1772591993058,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1772641846565,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772641853913,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772641854489,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772641856583,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0291",
+    "id": "1477228354338947257"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 16
+}

@@ -1,0 +1,252 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1466776043569287199> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : An issue regarding the registration for internship",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771854695098,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1466776043569287199> \nKindly elaborate on your issue.",
+      "embeds": [],
+      "created": 1771854726314,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "gou__7_24943",
+      "user_id": "1466776043569287199",
+      "is_bot": false,
+      "content": "I initially registered to the internship using my college mail id. But when i tried signing in, it showed that mail id aint valid. Then i used my personal mail id. Now it shows that i have registered via both mail id. Also I still haven't gotten the confirmation mail..",
+      "embeds": [],
+      "created": 1771854841774,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1466776043569287199> \nAre you able to watch the course on the platform ?",
+      "embeds": [],
+      "created": 1771854960418,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Are able to show any progress?",
+      "embeds": [],
+      "created": 1771854968835,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "gou__7_24943",
+      "user_id": "1466776043569287199",
+      "is_bot": false,
+      "content": "No\nI haven't got any mail since registration yet\nAnd I don't know where the classes are",
+      "embeds": [],
+      "created": 1771858627146,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1466776043569287199> \nWhich cohort are you from ?",
+      "embeds": [],
+      "created": 1771914049794,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1466776043569287199> \nCould you please mention your cohort, it would be helpful for us.",
+      "embeds": [],
+      "created": 1771940194445,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "gou__7_24943",
+      "user_id": "1466776043569287199",
+      "is_bot": false,
+      "content": "Vksians",
+      "embeds": [],
+      "created": 1771941056734,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Kindly also provide the emails.",
+      "embeds": [],
+      "created": 1771941145765,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "gou__7_24943",
+      "user_id": "1466776043569287199",
+      "is_bot": false,
+      "content": "25ct048@mgits.ac.in \ngourinandakg@gmail.com",
+      "embeds": [],
+      "created": 1771941165666,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "kindly visit : https://vibe.vicharanashala.ai/\nregister and login there and see if you're able to see the course",
+      "embeds": [],
+      "created": 1771941379448,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "<@1466776043569287199> Were you able to get access to the course?",
+      "embeds": [],
+      "created": 1771941956175,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "<@1466776043569287199> was your issue resolved?",
+      "embeds": [],
+      "created": 1771948503217,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "gou__7_24943",
+      "user_id": "1466776043569287199",
+      "is_bot": false,
+      "content": "Yeahh thank you \nBut I still didn't get the mail.. neither was i able to join the zoom meeting",
+      "embeds": [],
+      "created": 1771991115396,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Do not worry, this will be resolved soon. The meeting announcements are also made in the cohort-announcements channel. Please do look into it too.",
+      "embeds": [],
+      "created": 1771993105599,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "gou__7_24943",
+      "user_id": "1466776043569287199",
+      "is_bot": false,
+      "content": "Okay",
+      "embeds": [],
+      "created": 1772027040434,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1466776043569287199> \nWere you able to join any further meetings?",
+      "embeds": [],
+      "created": 1772270029673,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1359148118444343517>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772383616044,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772383616909,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772383618425,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0190",
+    "id": "1475490274183483412"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 21
+}

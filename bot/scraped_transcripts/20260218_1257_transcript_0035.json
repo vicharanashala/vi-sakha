@@ -1,0 +1,402 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1404486592705593385> Welcome, the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : vibe lagging",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1770908725934,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "hey <@1404486592705593385>",
+      "embeds": [],
+      "created": 1770908860988,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "can you please elaborate on your problem ?",
+      "embeds": [],
+      "created": 1770908871122,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "vishali_24494",
+      "user_id": "1404486592705593385",
+      "is_bot": false,
+      "content": "i am trying to watch videos in vibe to complete within today due to deadline the videos were lagging soo much and wont stop afer completion continued with next video if i go back again the quizzes were loading for so much even after answring also it doesn't fetch my answers and again redirecting to the same previous videos",
+      "embeds": [],
+      "created": 1770909027463,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "vishali_24494",
+      "user_id": "1404486592705593385",
+      "is_bot": false,
+      "content": "i have tried clear cache,refereshed my browser everthying same issues",
+      "embeds": [],
+      "created": 1770909097968,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "check discussion forum if any of the post is regarding this and lemme know!",
+      "embeds": [],
+      "created": 1770909128722,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "vishali_24494",
+      "user_id": "1404486592705593385",
+      "is_bot": false,
+      "content": "https://discordapp.com/channels/1468485230053691446/1469917825002111150",
+      "embeds": [],
+      "created": 1770909206028,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "vishali_24494",
+      "user_id": "1404486592705593385",
+      "is_bot": false,
+      "content": "i have followed the replies given to this comment in the disscussion forum",
+      "embeds": [],
+      "created": 1770909327015,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "did it worked?",
+      "embeds": [],
+      "created": 1770909334219,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "any solution in there",
+      "embeds": [],
+      "created": 1770909343637,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "vishali_24494",
+      "user_id": "1404486592705593385",
+      "is_bot": false,
+      "content": "no so i have raised a ticket",
+      "embeds": [],
+      "created": 1770909387301,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "hmm, will revert back",
+      "embeds": [],
+      "created": 1770909422230,
+      "edited": 1770909427792
+    },
+    {
+      "index": 13,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "in few minutes",
+      "embeds": [],
+      "created": 1770909432139,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "vishali_24494",
+      "user_id": "1404486592705593385",
+      "is_bot": false,
+      "content": "okk",
+      "embeds": [],
+      "created": 1770909459524,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "vishali_24494",
+      "user_id": "1404486592705593385",
+      "is_bot": false,
+      "content": "past 10 mins worked good and again same issues started",
+      "embeds": [],
+      "created": 1770911896499,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "try using another browser",
+      "embeds": [],
+      "created": 1770916233105,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "and see if it works",
+      "embeds": [],
+      "created": 1770916238568,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "vishali_24494",
+      "user_id": "1404486592705593385",
+      "is_bot": false,
+      "content": "i have completed somehow managing with the laggings it shows 99.5 omly",
+      "embeds": [],
+      "created": 1770917650478,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "go back to the quiz which is incomplete and attempt it!",
+      "embeds": [],
+      "created": 1770989953470,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "vishali_24494",
+      "user_id": "1404486592705593385",
+      "is_bot": false,
+      "content": "this what i am getting when trying to attempt the last quiz",
+      "embeds": [],
+      "created": 1771051773110,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "clear your lens",
+      "embeds": [],
+      "created": 1771056904766,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1404486592705593385> This issue occurs due to the reflection on your eye glasses.",
+      "embeds": [],
+      "created": 1771059643295,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "vishali_24494",
+      "user_id": "1404486592705593385",
+      "is_bot": false,
+      "content": "ok will try again",
+      "embeds": [],
+      "created": 1771166673812,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "vishali_24494",
+      "user_id": "1404486592705593385",
+      "is_bot": false,
+      "content": "thank you",
+      "embeds": [],
+      "created": 1771166678480,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "great!",
+      "embeds": [],
+      "created": 1771166680565,
+      "edited": null
+    },
+    {
+      "index": 26,
+      "author": "vishali_24494",
+      "user_id": "1404486592705593385",
+      "is_bot": false,
+      "content": "sir i can't find which quiz was it through i got to know it's under the topic express but under express i checked every video it shows completed ,even i watched each video of express last topic  and attended every quizzes but still a quiz was incomplete",
+      "embeds": [],
+      "created": 1771168321311,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@666826791016595456> <@836880971017748512>",
+      "embeds": [],
+      "created": 1771168345885,
+      "edited": null
+    },
+    {
+      "index": 28,
+      "author": "vishali_24494",
+      "user_id": "1404486592705593385",
+      "is_bot": false,
+      "content": "sir do we have any option to find which quiz is it?? or do i need to rewatch the whole topics under express again and answer every quiz again ??",
+      "embeds": [],
+      "created": 1771168503969,
+      "edited": null
+    },
+    {
+      "index": 29,
+      "author": "abiramk7427",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "Hi, we will conduct a thorough review on our end and ensure that the count is accurately updated if you have already completed it. Thank you.",
+      "embeds": [],
+      "created": 1771168525976,
+      "edited": null
+    },
+    {
+      "index": 30,
+      "author": "vishali_24494",
+      "user_id": "1404486592705593385",
+      "is_bot": false,
+      "content": "ok thank you",
+      "embeds": [],
+      "created": 1771168554363,
+      "edited": null
+    },
+    {
+      "index": 31,
+      "author": "abiramk7427",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "On the left side, in each section, we are able to view how many items have been completed.",
+      "embeds": [],
+      "created": 1771168626657,
+      "edited": null
+    },
+    {
+      "index": 32,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1404486592705593385>  hope the issue has been resolved and your doubt has been cleared?",
+      "embeds": [],
+      "created": 1771300702109,
+      "edited": null
+    },
+    {
+      "index": 33,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1404486592705593385> \nWe hope your issue has been resolved?",
+      "embeds": [],
+      "created": 1771414878152,
+      "edited": null
+    },
+    {
+      "index": 34,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1359148118444343517>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771419464237,
+      "edited": null
+    },
+    {
+      "index": 35,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771419464800,
+      "edited": null
+    },
+    {
+      "index": 36,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771419470483,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0035",
+    "id": "1471522591339712677"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 36
+}

@@ -1,0 +1,202 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473350439427899526> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Unable to access quiz nor 20 (from logic to asynchronous web programming)",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771745942037,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "I had already attempted this quiz 20 from logic 5o to asynchronous web programming last night.. and didn't continue further.\nToday when I logged in again it has not been marked as completed neither I am able to access it\n<@&1473943500390141984> <@956180961832362014> Pls look into this",
+      "embeds": [],
+      "created": 1771746162902,
+      "edited": 1771748113374
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@666826791016595456> \nKindly look into this issue.",
+      "embeds": [],
+      "created": 1771746898234,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "I had also attended quiz 13 from javascript block yesterday itself it was marked as completed but now when i see it ..it has not been marked as completed and am not even able to reattempt it",
+      "embeds": [],
+      "created": 1771747744036,
+      "edited": 1771750288890
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1220060098643230811> \nKindly look into this query.",
+      "embeds": [],
+      "created": 1771752942508,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1473350439427899526> Could you share your email id.",
+      "embeds": [],
+      "created": 1771754141357,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "anamjumnal908@gmail.com",
+      "embeds": [],
+      "created": 1771754158167,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "We have fixed the issue, kindly refresh the page and try again. please let us know if it is working fine. Thank you.",
+      "embeds": [],
+      "created": 1771754531992,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "No the issue hasn't been fixed it is showing the same error again \nFirstly after n nor of attempts its redirecting me to watch the video and secondly even if i do watch it ..its not allowing me to attempt the quiz the same message is being displayed as shown in the above screenshot",
+      "embeds": [],
+      "created": 1771755301418,
+      "edited": 1771755561290
+    },
+    {
+      "index": 10,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "Understood. Please refresh the page and continue. The permissions for the missed quizzes will be added soon. For now, you may proceed from the last item where you left off.",
+      "embeds": [],
+      "created": 1771755801918,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "I have refreshed the page..i didn't miss any quizzes i had attempted it..completed it successfully last night .It was marked as completed yesterday..but today it was not marked as completed and i am not able to access it.",
+      "embeds": [],
+      "created": 1771755906077,
+      "edited": 1771756438439
+    },
+    {
+      "index": 12,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "If you have completed an item, your submissions will be properly stored. You may ignore the “Completed” tag shown on the frontend. By tomorrow, you should be able to access the quiz without any permission issues. Thank you for your understanding.\n\nShall I proceed with closing this ticket?",
+      "embeds": [],
+      "created": 1771756536869,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "Yes",
+      "embeds": [],
+      "created": 1771756579203,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@666826791016595456>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771756598509,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771756598959,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771756600948,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0155",
+    "id": "1475034130717609984"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 16
+}

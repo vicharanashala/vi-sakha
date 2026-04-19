@@ -1,0 +1,182 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1389443023561031850> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I don'tknow why but i'm not getting any maill regarding live seassior or stanups",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771493762704,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1389443023561031850> please state your cohort name.",
+      "embeds": [],
+      "created": 1771493987221,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "priyasarwar",
+      "user_id": "1389443023561031850",
+      "is_bot": false,
+      "content": "RSAians",
+      "embeds": [],
+      "created": 1771494047109,
+      "edited": 1771494152567
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1389443023561031850> Have you logged into ViBe?",
+      "embeds": [],
+      "created": 1771498210021,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "priyasarwar",
+      "user_id": "1389443023561031850",
+      "is_bot": false,
+      "content": "Yes",
+      "embeds": [],
+      "created": 1771501183412,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "adityabmv",
+      "user_id": "647093625594839050",
+      "is_bot": false,
+      "content": "<@836880971017748512> \nAny update on this issue?",
+      "embeds": [],
+      "created": 1771518623864,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "The mail id  has already been added to the zoom CSV uploads sheet and the registration mails from zoom has been sent. We have checked the sheets too.\n\n<@647093625594839050>",
+      "embeds": [],
+      "created": 1771518759906,
+      "edited": 1771519066951
+    },
+    {
+      "index": 8,
+      "author": "priyasarwar",
+      "user_id": "1389443023561031850",
+      "is_bot": false,
+      "content": "But sir, I have not received any mail till now, I get to know about it from the cohort announcement only..my mail id is 24f1002669@ds.study.iitm.ac.in or personal sarwarpriyams@gmail.com please check once again",
+      "embeds": [],
+      "created": 1771521454328,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1389443023561031850> we'll look into the issue.",
+      "embeds": [],
+      "created": 1771552620664,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "sudarshansudarshan",
+      "user_id": "903979459475021874",
+      "is_bot": false,
+      "content": "What is the status? <@836880971017748512>",
+      "embeds": [],
+      "created": 1771739469360,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@903979459475021874> Sir, due to bulk invites she did not received the invitation.",
+      "embeds": [],
+      "created": 1771746030565,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1389443023561031850>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771785853787,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771785854362,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771822494696,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0106",
+    "id": "1473976412435124387"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 14
+}

@@ -1,0 +1,172 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473603424720519198> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : not got offer letter completed 23% course",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772538269055,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473603424720519198> As already mentioned in the standups and live sessions, the offer letter procedures are under processing. Please wait for further announcements in this regard.",
+      "embeds": [],
+      "created": 1772538437078,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473603424720519198> \nWe hope you issue has been resolved now?",
+      "embeds": [],
+      "created": 1772696064615,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "aayushkumarmishra0975",
+      "user_id": "1473603424720519198",
+      "is_bot": false,
+      "content": "NO i did not recieve the offer letter",
+      "embeds": [],
+      "created": 1772763335874,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473603424720519198>  Kindly mention your cohort name",
+      "embeds": [],
+      "created": 1772768864519,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473603424720519198> \nWe already announced here <#1473313063108350118>  that the team is working on the offer letters so kindly wait for it.",
+      "embeds": [],
+      "created": 1772770359183,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473603424720519198> is the issue resolved?",
+      "embeds": [],
+      "created": 1772794299846,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "aayushkumarmishra0975",
+      "user_id": "1473603424720519198",
+      "is_bot": false,
+      "content": "RSAians",
+      "embeds": [],
+      "created": 1772807295587,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "For RSAians we never announced giving the offer letters.",
+      "embeds": [],
+      "created": 1772811815840,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473603424720519198> Is the issue resolved? can we close the ticket?",
+      "embeds": [],
+      "created": 1772860132771,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772896136815,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772896137261,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772896139453,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0336",
+    "id": "1478357390293336167"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 13
+}

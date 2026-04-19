@@ -1,0 +1,112 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1305098088662306829> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Request Regarding Removal of Name from Dashboard – PInternship Cohort 3 (Kruskalians)",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773117193628,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "dakshith_kura_52200",
+      "user_id": "1305098088662306829",
+      "is_bot": false,
+      "content": "My name is Dakshith Kura, and I was enrolled in the Pinternship Cohort-3 (Kruskalians). I recently noticed that my name has been removed from the dashboard.\nThe reason I was unable to complete the internship tasks on time is because I had my academic examinations during this period. Due to my exams, I could not actively participate in the internship activities.\nI sincerely request you to kindly review my situation. If possible, please consider reinstating my access to the dashboard or allow me an opportunity to continue and complete the internship tasks.\nI am very interested in completing the internship and learning from this program.\nThank you for your understanding and support.",
+      "embeds": [],
+      "created": 1773117295471,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1305098088662306829> \nWe have escalated your issue.",
+      "embeds": [],
+      "created": 1773122670273,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1305098088662306829> \nWe have resolved your issue kindly check it once now.",
+      "embeds": [],
+      "created": 1773203855118,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1305098088662306829>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773204628490,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773204629059,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773204771067,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0407",
+    "id": "1480785576541163540"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 7
+}

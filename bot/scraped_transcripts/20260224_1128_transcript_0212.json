@@ -1,0 +1,242 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1360637425361354762> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I wasn't able to complete quiz 8 in Typescript it shows you do not have access to attempt this quiz..then how will I watch the lectures?",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771928942081,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1360637425361354762> \nKindly try rewatching the previous video and attempting the quiz for the same.",
+      "embeds": [],
+      "created": 1771928984460,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "madhuri0809",
+      "user_id": "1360637425361354762",
+      "is_bot": false,
+      "content": "I did !! Many times",
+      "embeds": [],
+      "created": 1771928995795,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "madhuri0809",
+      "user_id": "1360637425361354762",
+      "is_bot": false,
+      "content": "But it still shows the same",
+      "embeds": [],
+      "created": 1771929004087,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1469178567551090933> <@857556884750729217> Please look into it",
+      "embeds": [],
+      "created": 1771929584769,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "<@1360637425361354762> are you there?",
+      "embeds": [],
+      "created": 1771930129660,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "madhuri0809",
+      "user_id": "1360637425361354762",
+      "is_bot": false,
+      "content": "Yes",
+      "embeds": [],
+      "created": 1771930148014,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "Are you able to connect on the call?",
+      "embeds": [],
+      "created": 1771930166610,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "madhuri0809",
+      "user_id": "1360637425361354762",
+      "is_bot": false,
+      "content": "Yup",
+      "embeds": [],
+      "created": 1771930185227,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "Ok please wait I am sending the link..",
+      "embeds": [],
+      "created": 1771930200741,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "madhuri0809",
+      "user_id": "1360637425361354762",
+      "is_bot": false,
+      "content": "Okay",
+      "embeds": [],
+      "created": 1771930207294,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "https://discord.com/channels/1468485230053691446/1475807078995198055",
+      "embeds": [],
+      "created": 1771930373833,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "Can you join the breakout room...",
+      "embeds": [],
+      "created": 1771930385902,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "by clicking above..",
+      "embeds": [],
+      "created": 1771930393723,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "<@1360637425361354762> Shall I close this ticket if doubt solved?",
+      "embeds": [],
+      "created": 1771932419468,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "madhuri0809",
+      "user_id": "1360637425361354762",
+      "is_bot": false,
+      "content": "Yes sir",
+      "embeds": [],
+      "created": 1771932451481,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "Ok. Enjoy the journey and happy learning!!",
+      "embeds": [],
+      "created": 1771932489633,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1360637425361354762>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771932496727,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771932497134,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771932499333,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0212",
+    "id": "1475801688156798976"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 20
+}

@@ -1,0 +1,142 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@826027231637143602> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : zoom meet link is not working",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771168715551,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "abiramk7427",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@836880971017748512>",
+      "embeds": [],
+      "created": 1771168769915,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@826027231637143602>  please use the registered student mail id for getting into zoom henceforth as the invites for registration for zoom meet is sent to those mails only",
+      "embeds": [],
+      "created": 1771174593310,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@826027231637143602> hope your issue has been resolved and your doubt has been cleared ?",
+      "embeds": [],
+      "created": 1771300053841,
+      "edited": 1771415936057
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@826027231637143602> \nWe hope your issue has been resolved?",
+      "embeds": [],
+      "created": 1771415925537,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "faizankhan5091",
+      "user_id": "826027231637143602",
+      "is_bot": false,
+      "content": "Yess",
+      "embeds": [],
+      "created": 1771416123274,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved. \nWe will close this ticket.",
+      "embeds": [],
+      "created": 1771416253422,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771416261524,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771416262253,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771416264483,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0058",
+    "id": "1472613066616340733"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 10
+}

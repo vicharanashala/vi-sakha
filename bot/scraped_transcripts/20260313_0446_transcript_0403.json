@@ -1,0 +1,242 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1469322991270760502> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : HP reduction even after submitting case study",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773070088310,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "gayathris06",
+      "user_id": "1469322991270760502",
+      "is_bot": false,
+      "content": "Gayathri S    WIN25874",
+      "embeds": [],
+      "created": 1773070117425,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "gayathris06",
+      "user_id": "1469322991270760502",
+      "is_bot": false,
+      "content": "euclideans batch",
+      "embeds": [],
+      "created": 1773070142808,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "gayathris06",
+      "user_id": "1469322991270760502",
+      "is_bot": false,
+      "content": "i had submitted the final set of case studies before deadline.But my progress was not showing 100%. I resubmitted it today but my HP was reduced by 10% instead of increasing.",
+      "embeds": [],
+      "created": 1773070213347,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "gayathris06",
+      "user_id": "1469322991270760502",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1773070231884,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "gayathris06",
+      "user_id": "1469322991270760502",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1773070263916,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469322991270760502> \nWe have escalated your issue.",
+      "embeds": [],
+      "created": 1773118034725,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469322991270760502> \nAccording to our records, the deadline for CS Week 4 was 5th March, and an extension had already been provided until 8th March. We noticed that 38 out of the 42 case studies were submitted by 5th March, while the remaining ones were submitted on 9th March, which was after the extended deadline.\nDue to this, we regret that we are unable to revert the HPs for this phase. We truly appreciate the effort you have put into completing the case studies.\nWe encourage you to focus on the upcoming phases of the internship, where you will have more opportunities to earn HPs. Wishing you the very best for the next activities!",
+      "embeds": [],
+      "created": 1773122544995,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "gayathris06",
+      "user_id": "1469322991270760502",
+      "is_bot": false,
+      "content": "I waited hoping my case study status would increase.....and did not resubmit since I thought it would affect my health points as I was unaware of the extention date. I'm really sorry from my side. Could you please do something to recover my hp ?",
+      "embeds": [],
+      "created": 1773144883663,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469322991270760502> \nYou can focus on the upcoming phases and perform well there. \nAnd get involved in activities so that you can get additional activities. \nYou can help your peers learn and get extra HP points.",
+      "embeds": [],
+      "created": 1773146393677,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "gayathris06",
+      "user_id": "1469322991270760502",
+      "is_bot": false,
+      "content": "Ok thank you",
+      "embeds": [],
+      "created": 1773147577087,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469322991270760502> \nWe hope your issue is resolved.",
+      "embeds": [],
+      "created": 1773203608584,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Can we close this ticket now?",
+      "embeds": [],
+      "created": 1773203617520,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469322991270760502> \nWe hope your issue is resolved?",
+      "embeds": [],
+      "created": 1773233400697,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469322991270760502> \nWe hope your issue is resolved now?",
+      "embeds": [],
+      "created": 1773288428257,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469322991270760502> \nAs you are not replying to the messages we will be assuming your issue has been resolved and will close the ticket .",
+      "embeds": [],
+      "created": 1773314776509,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "CC: <@836880971017748512>",
+      "embeds": [],
+      "created": 1773314790432,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773377192933,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773377193630,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773377195928,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0403",
+    "id": "1480588001661948317"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 20
+}

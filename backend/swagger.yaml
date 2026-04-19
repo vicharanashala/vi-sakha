@@ -1,0 +1,2167 @@
+openapi: 3.0.0
+paths:
+  /auth/register:
+    post:
+      description: >-
+        Fulfills US1. Creates a base-level student JWT access profile to enable
+        interactive chat and support features.
+      operationId: AuthController_register
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RegisterDto'
+      responses:
+        '201':
+          description: Authentication token granted for new student.
+        '400':
+          description: Fields missing, email already exists, or password length failure.
+        '422':
+          description: Malformed request payload.
+        '500':
+          description: Internal service authentication failure.
+      summary: Register New Learner (Identity Onboarding)
+      tags: &ref_0
+        - Auth and Identity
+        - User Onboarding
+  /auth/login:
+    post:
+      description: >-
+        Fulfills US1. Requests a JWT token in return for local credentials validation,
+        providing the session context for GenAI support.
+      operationId: AuthController_login
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LoginDto'
+      responses:
+        '200':
+          description: Access token provided securely.
+        '401':
+          description: Invalid username or password mismatch.
+        '400':
+          description: Missing email or password fields.
+        '500':
+          description: Identity provider synchronization error.
+      summary: Local Login (Session Initialization)
+      tags: *ref_0
+  /auth/me:
+    get:
+      description: >-
+        Fulfills US1. Uses an active bearer token to evaluate the roles and permissions
+        assigned to the session node for role-based features.
+      operationId: AuthController_getProfile
+      parameters: []
+      responses:
+        '200':
+          description: Personal profile details returned.
+        '401':
+          description: Active session token required.
+        '500':
+          description: Database node retrieval failure.
+      security:
+        - bearer: []
+      summary: Retrieve Personal Profile (State Sync)
+      tags: *ref_0
+  /auth/users:
+    post:
+      description: >-
+        Fulfills US11 (Admin Controls). Directly initializes arbitrary roles and parameters
+        bypassing registration for governance testing and staff provisioning.
+      operationId: AuthController_createUser
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateUserDto'
+      responses:
+        '201':
+          description: Target identity successfully provisioned.
+        '400':
+          description: Schema validation failure or duplicate email.
+        '403':
+          description: Administrative permissions required.
+        '500':
+          description: Internal identity service error.
+      security:
+        - bearer: []
+      summary: Master Identity Generator (Governance Tool)
+      tags: *ref_0
+    get:
+      description: >-
+        Evaluates populations of specific systemic roles (i.e. generating lists
+        of purely Lab Members for UI mapping).
+      operationId: AuthController_getUsers
+      parameters:
+        - name: role
+          required: true
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      security:
+        - bearer: []
+      summary: Retrieve Filtered Member Subsets
+      tags: *ref_0
+  /auth/google:
+    get:
+      operationId: AuthController_googleLogin
+      parameters: []
+      responses:
+        '200':
+          description: ''
+      summary: Initiate Google OAuth2 Redirect
+      tags: *ref_0
+  /auth/google/callback:
+    get:
+      operationId: AuthController_googleCallback
+      parameters: []
+      responses:
+        '200':
+          description: ''
+      summary: Google Cloud Callback Target
+      tags: *ref_0
+  /auth/firebase-sync:
+    post:
+      description: >-
+        Establishes local trust by translating external identity headers to
+        native ecosystem JWT equivalents natively.
+      operationId: AuthController_firebaseSync
+      parameters: []
+      responses:
+        '201':
+          description: ''
+      summary: Verify External Firebase JWT
+      tags: *ref_0
+  /qa-pairs:
+    get:
+      description: >-
+        Fulfills US5 and US6. Retrieves the complete set of verified question-answer
+        pairs stored in the GenAI knowledge base to ensure interaction consistency
+        across website and Discord channels.
+      operationId: QaPairsController_findAll
+      parameters:
+        - name: limit
+          required: true
+          in: query
+          schema:
+            type: string
+        - name: skip
+          required: true
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Verified QA pairs retrieved successfully.
+        '401':
+          description: Session authentication failed.
+        '403':
+          description: Insufficient role permissions for knowledge access.
+        '500':
+          description: Database cluster connectivity failure.
+      summary: List All QA Knowledge
+      tags: &ref_1
+        - QA Pairs
+        - GenAI Services
+  /qa-pairs/search:
+    get:
+      description: >-
+        Fulfills US6 (Instant Resolution). Allows the chatbot to query the existing
+        knowledge base for exact semantic matches before falling back to full
+        RAG generation loops.
+      operationId: QaPairsController_search
+      parameters:
+        - name: q
+          required: true
+          in: query
+          description: The semantic search query string
+          schema:
+            type: string
+        - name: limit
+          required: true
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Semantic search results returned.
+        '400':
+          description: Empty or malformed query string.
+        '404':
+          description: No relevant knowledge nodes found.
+        '500':
+          description: Vector search engine failure.
+      summary: Search Knowledge Base (Instant Resolver)
+      tags: *ref_1
+  /qa-pairs/count:
+    get:
+      operationId: QaPairsController_count
+      parameters: []
+      responses:
+        '200':
+          description: ''
+      summary: Count Verified Knowledge Nodes
+      tags: *ref_1
+  /qa-pairs/source/{source}:
+    get:
+      description: >-
+        Separates knowledge pairs generated from Discord transcripts, PDF
+        ingestion, or manual entry.
+      operationId: QaPairsController_findBySource
+      parameters:
+        - name: source
+          required: true
+          in: path
+          description: Origin type (e.g., discord, manual, pdf)
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      summary: Filter Knowledge by Source
+      tags: *ref_1
+  /qa-pairs/{id}:
+    get:
+      operationId: QaPairsController_findOne
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: QA Pair returned successfully.
+      summary: Lookup Specific QA Node
+      tags: *ref_1
+  /embeddings:
+    get:
+      description: >-
+        Fulfills US11 (Knowledge Governance). Retrieves raw mathematical vector
+        sets stored within the GenAI memory index for administrative audit.
+      operationId: EmbeddingsController_findAll
+      parameters:
+        - name: limit
+          required: true
+          in: query
+          schema:
+            type: string
+        - name: skip
+          required: true
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Embeddings array successfully extracted.
+        '403':
+          description: Admin access required for raw vector audit.
+        '500':
+          description: Index cluster extraction error.
+      summary: List Subspace Embeddings (Vector Audit)
+      tags: &ref_2
+        - GenAI Services
+        - Embeddings
+  /embeddings/metadata:
+    get:
+      description: >-
+        Retrieves dimensions and algorithm specs for the active GenAI
+        embeddings.
+      operationId: EmbeddingsController_getMetadata
+      parameters: []
+      responses:
+        '200':
+          description: Metadata successfully accessed.
+      summary: View Vector Metadata
+      tags: *ref_2
+  /embeddings/count:
+    get:
+      description: >-
+        Counts the total number of QA pairs fully vectorized in the knowledge
+        base.
+      operationId: EmbeddingsController_count
+      parameters: []
+      responses:
+        '200':
+          description: ''
+      summary: Count Total Embeddings
+      tags: *ref_2
+  /embeddings/{id}:
+    get:
+      description: Retrieves a single complex vector embedding map by ID.
+      operationId: EmbeddingsController_findOne
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '404':
+          description: Embedding ID not found in vector space.
+      summary: Lookup Embedding Node
+      tags: *ref_2
+  /embeddings/qa/{qaPairId}:
+    get:
+      description: >-
+        Fulfills US11 correlation logic. Traces a physical QA Pair back to its
+        vectorized coordinate in the embedding matrix.
+      operationId: EmbeddingsController_findByQaPairId
+      parameters:
+        - name: qaPairId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '404':
+          description: The queried QA Pair has no matched embedding.
+      summary: Cross-reference Embedding
+      tags: *ref_2
+  /qa-proposals:
+    get:
+      description: >-
+        Fulfills US11 (Review and Approve). Pulls the list of lab-member-submitted
+        knowledge pairs awaiting administrative verification before semantic
+        vectorization.
+      operationId: QaProposalsController_findAll
+      parameters:
+        - name: status
+          required: true
+          in: query
+          schema:
+            type: string
+        - name: limit
+          required: true
+          in: query
+          schema:
+            type: string
+        - name: skip
+          required: true
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Filtered array of knowledge proposals.
+        '401':
+          description: Active session token required.
+        '403':
+          description: Administrative or staff role required.
+      security: &ref_3
+        - bearer: []
+      summary: List Pending QA Proposals
+      tags: &ref_4
+        - GenAI Services
+        - QA Proposals
+    post:
+      description: >-
+        Fulfills US11 (Propose Responses). Lab members who resolve a ticket
+        manually submit the resolution as a candidate for the GenAI learning
+        pipeline.
+      operationId: QaProposalsController_create
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateProposalDto'
+      responses:
+        '201':
+          description: Knowledge proposal submitted for review.
+        '400':
+          description: Validation failure on question/answer payload.
+        '403':
+          description: Requires Lab Member or Admin privileges.
+        '500':
+          description: Learning pipeline submission failure.
+      security: *ref_3
+      summary: Propose New Knowledge Item
+      tags: *ref_4
+  /qa-proposals/stats:
+    get:
+      description: >-
+        Calculates the volume of pending, rejected, and approved embedding
+        proposals.
+      operationId: QaProposalsController_getStats
+      parameters: []
+      responses:
+        '200':
+          description: ''
+      security: *ref_3
+      summary: Proposal Volume Stats
+      tags: *ref_4
+  /qa-proposals/{id}:
+    get:
+      description: >-
+        Fulfills US11 review step. Loads the exact raw payload proposed by a lab
+        member for admin critique.
+      operationId: QaProposalsController_findOne
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      security: *ref_3
+      summary: Evaluate Single Proposal
+      tags: *ref_4
+    delete:
+      operationId: QaProposalsController_delete
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      security: *ref_3
+      summary: Delete Proposal Sandbox Data
+      tags: *ref_4
+  /qa-proposals/bulk:
+    post:
+      description: >-
+        Mass ingest array of QA rules. Inherits the same US11 requirement
+        structures. Used for pipeline parsing integration.
+      operationId: QaProposalsController_createBulk
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                type: string
+      responses:
+        '201':
+          description: ''
+      security: *ref_3
+      summary: Bulk Import QA Knowledge
+      tags: *ref_4
+  /qa-proposals/{id}/approve:
+    patch:
+      description: >-
+        Fulfills US11 specific approval clause. The Admin verifies the lab
+        member submission. The payload is dynamically sent to the local
+        BAAI/BGE-Small embedding service for vectorization and stored in 
+        the semantic search cluster.
+      operationId: QaProposalsController_approve
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Embedder ran and QA pair accepted natively.
+      security: *ref_3
+      summary: Verify and Memorize QA Pair
+      tags: *ref_4
+  /qa-proposals/{id}/reject:
+    patch:
+      description: >-
+        Fulfills US11 specific rejection clause. Denies the embedding pipeline
+        execution and flags the initial proposal negatively.
+      operationId: QaProposalsController_reject
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ReviewProposalDto'
+      responses:
+        '200':
+          description: ''
+      security: *ref_3
+      summary: Reject QA Pair
+      tags: *ref_4
+  /chat/message:
+    post:
+      description: >-
+        Fulfills US1 and US6. Processes a student’s query against the custom-built
+        GenAI knowledge base to provide an immediate automated response through
+        semantic search and Anthropic Claude Haiku reasoning.
+      operationId: ChatController_sendMessage
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SendMessageDto'
+      responses:
+        '200':
+          description: Message processed and automated response generated.
+        '400':
+          description: Validation failed on input payload (e.g. content length).
+        '401':
+          description: Session token expired or identity rejected.
+        '500':
+          description: RAG pipeline timeout or model execution failure.
+      summary: Send a Chat Message (GenAI Core)
+      tags: &ref_5
+        - Chat
+        - GenAI Services
+  /chat/message/stream:
+    post:
+      description: >-
+        Alternative to sendMessage providing real-time UI typing experience.
+        Fulfills US1 and US6.
+      operationId: ChatController_sendMessageStream
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SendMessageDto'
+      responses:
+        '200':
+          description: Stream opened successfully.
+      summary: Stream a Chat Message (SSE)
+      tags: *ref_5
+  /chat/messages/{id}/feedback:
+    patch:
+      description: >-
+        Fulfills US4. Allows a learner to like or dislike an AI-generated answer.
+        This feedback is integrated into the US12 analytics heatmap to identify
+        defective knowledge clusters.
+      operationId: ChatController_addFeedback
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/FeedbackDto'
+      responses:
+        '200':
+          description: Feedback successfully registered and training logs updated.
+        '404':
+          description: Target message ID does not exist in chat history.
+        '400':
+          description: Invalid feedback status provided.
+      summary: Submit Message Feedback (Learning Loop)
+      tags: *ref_5
+  /chat/conversations:
+    post:
+      description: >-
+        Fulfills US1 structural needs. Initializes a fresh conversation context
+        for isolated AI interactions.
+      operationId: ChatController_createConversation
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateConversationDto'
+      responses:
+        '201':
+          description: Conversation Thread Generated.
+      summary: Create a New Conversation Thread
+      tags: *ref_5
+    get:
+      description: >-
+        Fulfills US9 and US10. Provides paginated lists of systemic
+        conversations filtered by status, specific student, or feedback flags.
+      operationId: ChatController_getConversations
+      parameters:
+        - name: status
+          required: false
+          in: query
+          description: Filter conversations by state (active, escalated, resolved)
+          schema:
+            type: string
+        - name: studentId
+          required: false
+          in: query
+          description: Filter by specific student
+          schema:
+            type: string
+        - name: cohort
+          required: false
+          in: query
+          description: Filter by specific cohort
+          schema:
+            type: string
+        - name: feedbackFilter
+          required: false
+          in: query
+          description: Isolate conversations with specific feedback behaviors
+          schema:
+            type: string
+            enum:
+              - all
+              - liked
+              - disliked
+              - no-feedback
+        - name: page
+          required: false
+          in: query
+          description: Page number for timeline pagination
+          schema:
+            minimum: 1
+            default: 1
+            type: number
+        - name: limit
+          required: false
+          in: query
+          description: Page limit for timeline pagination
+          schema:
+            minimum: 1
+            maximum: 100
+            default: 10
+            type: number
+      responses:
+        '200':
+          description: Paginated array of conversations.
+      summary: Query Conversations
+      tags: *ref_5
+  /chat/conversations/{id}:
+    get:
+      description: >-
+        Retrieves the full dialogue history for a specific Chat ID. Fulfills US7
+        by allowing ticket integration tools to review AI transcripts.
+      operationId: ChatController_getConversation
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Conversation payload returned.
+        '404':
+          description: Conversation ID not recognized.
+      summary: Retrieve Conversation History
+      tags: *ref_5
+    delete:
+      description: Deletes a dialogue entry from the database.
+      operationId: ChatController_deleteConversation
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '204':
+          description: ''
+      summary: Purge Specific Thread
+      tags: *ref_5
+  /chat/stats:
+    get:
+      description: >-
+        Fulfills US10 and US14. Calculates systemic AI accuracy, resolution
+        volume, and load metrics for the administrative UI panel.
+      operationId: ChatController_getStats
+      parameters: []
+      responses:
+        '200':
+          description: Returns analytical aggregations.
+      summary: Generate GenAI Statistics
+      tags: *ref_5
+  /chat/conversations/{id}/resolve:
+    patch:
+      description: >-
+        Fulfills SLA workflows. Closes a dialogue string declaring the student
+        successfully retrieved the data.
+      operationId: ChatController_resolveConversation
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Conversation state changed to Resolved.
+      summary: Mark Chat as Resolved
+      tags: *ref_5
+  /chat/conversations/{id}/escalate:
+    patch:
+      description: >-
+        Fulfills US3 and US7. Notifies the support desk that the GenAI chatbot
+        failed to clear the query autonomously, routing the transcript to a 
+        human lab member for resolution.
+      operationId: ChatController_escalateConversation
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/EscalateDto'
+      responses:
+        '200':
+          description: State changed to Escalated; notification sent to staff.
+        '404':
+          description: Conversation ID not recognized for escalation.
+        '500':
+          description: Failed to initialize support queue routing.
+      summary: Trigger Human Escalation (SLA Routing)
+      tags: *ref_5
+  /chat/feedback:
+    get:
+      description: >-
+        Fulfills US12 (track negative feedback areas). Extracts all system
+        responses that users explicitly flagged as flawed or unhelpful.
+      operationId: ChatController_getMessagesWithFeedback
+      parameters:
+        - name: type
+          required: true
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      summary: Retrieve Feedback Analytics
+      tags: *ref_5
+  /chat/students/{studentId}/conversations:
+    get:
+      description: >-
+        Fulfills US5 pattern verification. Locates previous dialogues initiated
+        by a specific learner node.
+      operationId: ChatController_getStudentConversations
+      parameters:
+        - name: studentId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      summary: Get Specific Student Transcripts
+      tags: *ref_5
+  /chat/clear:
+    delete:
+      description: Internal testing route to purge all threads.
+      operationId: ChatController_clearAllData
+      parameters: []
+      responses:
+        '200':
+          description: ''
+      summary: Clear All Sandbox Data
+      tags: *ref_5
+  /conversations:
+    get:
+      description: >-
+        Retrieves a consolidated list of dialogues from RAG, Discord, and
+        LibreChat sources for review.
+      operationId: ConversationController_getConversations
+      parameters:
+        - name: source
+          required: false
+          in: query
+          schema:
+            enum:
+              - rag
+              - discord
+              - librechat
+              - all
+            type: string
+        - name: page
+          required: true
+          in: query
+          schema:
+            type: string
+        - name: limit
+          required: true
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Unified conversation list retrieved.
+      summary: List Unified Conversations
+      tags: &ref_6
+        - Conversations
+        - Analytics
+  /conversations/refresh:
+    get:
+      description: >-
+        Fulfills US2/US13. Triggers an active poll to Discord and other plugins
+        to sync the latest transcripts manually.
+      operationId: ConversationController_refreshConversations
+      parameters:
+        - name: source
+          required: true
+          in: query
+          schema:
+            type: string
+        - name: page
+          required: true
+          in: query
+          schema:
+            type: string
+        - name: limit
+          required: true
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      summary: Refresh Conversations
+      tags: *ref_6
+  /conversations/stats:
+    get:
+      description: >-
+        Calculates active ticket and message counts across all supported plugin
+        interfaces.
+      operationId: ConversationController_getConversationStats
+      parameters:
+        - name: refresh
+          required: true
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      summary: Conversation Volume Stats
+      tags: *ref_6
+  /conversations/generate-qa:
+    post:
+      description: >-
+        Fulfills US11 (propose responses). Analyzes a past resolution using 
+        Gemini 2.5 Flash and automatically extracts the question-answer pair 
+        for the knowledge base.
+      operationId: ConversationController_generateQa
+      parameters: []
+      responses:
+        '200':
+          description: QA Pair extraction started and returned.
+      summary: Generate QA Pair from Transcript
+      tags: *ref_6
+  /conversations/{source}/{conversationId}:
+    get:
+      description: >-
+        Retrieves the specific messages and metadata for a unique thread
+        identified by source and ID.
+      operationId: ConversationController_getConversationDetail
+      parameters:
+        - name: source
+          required: true
+          in: path
+          schema:
+            type: string
+        - name: conversationId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      summary: Get Conversation Detail
+      tags: *ref_6
+  /discord-ingestion/conversations:
+    get:
+      description: >-
+        Fulfills US5 and US13. Retrieves a list of conversations ingested from
+        Discord for cross-channel consistency audit and knowledge base backfilling.
+      operationId: DiscordController_listConversations
+      parameters:
+        - name: status
+          required: false
+          in: query
+          schema:
+            enum:
+              - open
+              - closed
+            type: string
+      responses:
+        '200':
+          description: Discord conversation list retrieved successfully.
+        '401':
+          description: Staff authentication required.
+        '500':
+          description: Discord API bridge connectivity failure.
+      summary: List Discord Conversations (Channel Sync)
+      tags: &ref_7
+        - Discord Ingestion
+        - GenAI Services
+  /discord-ingestion/conversations/{ticketNumber}:
+    get:
+      description: >-
+        Fulfills US7 by providing full transcripts for auditing chatbot-assisted
+        escalations on Discord.
+      operationId: DiscordController_getConversation
+      parameters:
+        - name: ticketNumber
+          required: true
+          in: path
+          description: 'The unique ticket number formatted as #number'
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Specific Discord thread returned.
+      summary: Get Discord Conversation Detail
+      tags: *ref_7
+  /discord-ingestion/stats:
+    get:
+      description: >-
+        Retrieves volumetric counts for the Discord data pipeline to fulfill
+        US14 reporting.
+      operationId: DiscordController_getStats
+      parameters: []
+      responses:
+        '200':
+          description: ''
+      summary: Discord Ingestion Statistics
+      tags: *ref_7
+  /tickets:
+    post:
+      description: >-
+        Fulfills US1 and US3. Allows a learner to escalate a query that the GenAI 
+        could not resolve. Supports rich media attachments to provide context 
+        for lab member review.
+      operationId: TicketsController_createTicket
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateTicketDto'
+      responses:
+        '201':
+          description: Ticket successfully created and entered into the support queue.
+        '400':
+          description: Validation failed (missing body requirements or invalid file type).
+        '401':
+          description: Authentication token missing or invalid.
+        '500':
+          description: Internal database failure during ticket persistence.
+      security: &ref_8
+        - bearer: []
+      summary: Create a Support Ticket (Escalation Path)
+      tags: &ref_9
+        - Tickets
+    get:
+      description: >-
+        Fulfills US7 and US9. Allows support staff to view all active user tickets 
+        with specific metadata to maintain Service Level Agreements (SLAs).
+      operationId: TicketsController_getTickets
+      parameters:
+        - name: studentId
+          required: false
+          in: query
+          description: Filter tickets by student identifier
+          schema:
+            type: string
+        - name: createdBy
+          required: false
+          in: query
+          description: Filter tickets by the MongoID of the creator
+          schema:
+            type: string
+        - name: status
+          required: false
+          in: query
+          description: Filter tickets by current resolution state
+          schema:
+            type: string
+            enum:
+              - open
+              - resolved
+        - name: assignment
+          required: false
+          in: query
+          description: Filter tickets by assignment status
+          schema:
+            type: string
+            enum:
+              - all
+              - unassigned
+              - assigned
+              - mine
+        - name: instructorName
+          required: false
+          in: query
+          description: Filter by staff name
+          schema:
+            type: string
+        - name: instructorId
+          required: false
+          in: query
+          description: Filter by staff MongoID
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List of matching tickets retrieved successfully.
+        '401':
+          description: Identity verification failed.
+        '403':
+          description: Insufficient staff permissions.
+      security: *ref_8
+      summary: Get All Tickets (Audit Queue)
+      tags: *ref_9
+  /tickets/paginated:
+    get:
+      description: >-
+        Fulfills US9 (view pending tickets) by returning a structured page of
+        tickets with submission timestamps to manage response windows.
+      operationId: TicketsController_getTicketsPaginated
+      parameters:
+        - name: studentId
+          required: false
+          in: query
+          description: >-
+            Filter tickets by student identifier string (e.g., email or
+            registration number)
+          schema:
+            type: string
+        - name: createdBy
+          required: false
+          in: query
+          description: Filter tickets by the MongoID of the creator user
+          schema:
+            type: string
+        - name: status
+          required: false
+          in: query
+          description: Filter tickets by their current state
+          schema:
+            type: string
+            enum:
+              - open
+              - resolved
+        - name: assignment
+          required: false
+          in: query
+          description: Filter tickets by assignment status
+          schema:
+            type: string
+            enum:
+              - all
+              - unassigned
+              - assigned
+              - mine
+        - name: instructorName
+          required: false
+          in: query
+          description: Filter tickets by instructor name
+          schema:
+            type: string
+        - name: instructorId
+          required: false
+          in: query
+          description: Filter tickets by instructor MongoID
+          schema:
+            type: string
+        - name: page
+          required: true
+          in: query
+          schema:
+            type: string
+        - name: limit
+          required: true
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Paginated ticket result returned.
+      security: *ref_8
+      summary: Get Paginated Tickets
+      tags: *ref_9
+  /tickets/stats:
+    get:
+      description: >-
+        Fulfills US10. Provides analytical insights into daily query volume,
+        resolution rates, and staff performance metrics.
+      operationId: TicketsController_getTicketStats
+      parameters: []
+      responses:
+        '200':
+          description: Statistics returned successfully.
+        '401':
+          description: Staff session required.
+        '500':
+          description: Aggregation engine failure.
+      security: *ref_8
+      summary: Get Ticket Statistics (Operational Visibility)
+      tags: *ref_9
+  /tickets/{id}:
+    get:
+      description: >-
+        Fulfills US9. Extracts the precise ticket metadata and paginated 
+        conversation history to provide support staff with full context.
+      operationId: TicketsController_getTicket
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+        - name: page
+          required: false
+          in: query
+          description: Page number for pagination
+          schema:
+            minimum: 1
+            default: 1
+            type: number
+        - name: limit
+          required: false
+          in: query
+          description: Limit of items per page
+          schema:
+            minimum: 1
+            default: 25
+            type: number
+      responses:
+        '200':
+          description: Ticket and timeline returned successfully.
+        '401':
+          description: Identity proof required.
+        '404':
+          description: Ticket ID not found in the database.
+      security: *ref_8
+      summary: Get Ticket By ID (US9 Context)
+      tags: *ref_9
+  /tickets/{id}/messages:
+    get:
+      description: >-
+        Fulfills US8. Pulls the chronological messages within a specified
+        support ticket for context before a lab member provides a resolution.
+      operationId: TicketsController_getTicketMessages
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+        - name: page
+          required: false
+          in: query
+          description: Page number for pagination
+          schema:
+            minimum: 1
+            default: 1
+            type: number
+        - name: limit
+          required: false
+          in: query
+          description: Limit of items per page
+          schema:
+            minimum: 1
+            default: 25
+            type: number
+      responses:
+        '200':
+          description: Chronological thread returned successfully.
+        '401':
+          description: Unauthorized staff access.
+        '404':
+          description: Ticket ID not found in mapping.
+      security: *ref_8
+      summary: Get Ticket Thread History (US8 Context)
+      tags: *ref_9
+    patch:
+      description: >-
+        Fulfills US8. Allows either student or staff to post new messages or 
+        screenshots to an active ticket thread to resolve a program query.
+      operationId: TicketsController_addTicketMessage
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AddTicketMessageDto'
+      responses:
+        '200':
+          description: Message appended and thread state updated.
+        '400':
+          description: Validation error on message content or attachment.
+        '404':
+          description: Ticket session not found.
+      security: *ref_8
+      summary: Post Message to Ticket (US8 Feedback)
+      tags: *ref_9
+  /tickets/start-meeting:
+    post:
+      description: >-
+        Fulfills US8. Provisioning an interactive sync session between staff 
+        and student to solve complex academic blockers.
+      operationId: TicketsController_startMeeting
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/StartMeetingDto'
+      responses:
+        '201':
+          description: Meeting link created and appended to timeline.
+        '404':
+          description: Associated Ticket ID is invalid.
+        '403':
+          description: Requires Lab Member role to initiate sessions.
+      security: *ref_8
+      summary: Start Support Meeting (Human Resolve)
+      tags: *ref_9
+  /tickets/{id}/resolve:
+    patch:
+      description: >-
+        Fulfills US8. Lab members mark the issue as solved and log an optional 
+        resolution note for the US10/14 analytics audit.
+      operationId: TicketsController_resolveTicket
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ResolveTicketDto'
+      responses:
+        '200':
+          description: Ticket status transitioned to RESOLVED.
+        '403':
+          description: Staff permissions required to resolve tickets.
+        '404':
+          description: Ticket ID not found.
+      security: *ref_8
+      summary: Resolve Support Ticket (US8 Completion)
+      tags: *ref_9
+  /tickets/{id}/assign:
+    patch:
+      description: >-
+        Fulfills US7. An authorized user designates an owner for a pending ticket 
+        to ensure accountability.
+      operationId: TicketsController_assignTicket
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AssignTicketDto'
+      responses:
+        '200':
+          description: Ticket assignment successfully updated.
+        '403':
+          description: Only staff can manage assignments.
+        '404':
+          description: Ticket or Instructor identity not found.
+      security: *ref_8
+      summary: Assign Ticket Owner (US7 Routing)
+      tags: *ref_9
+  /tickets/{id}/transfer:
+    patch:
+      description: >-
+        Fulfills US7 by allowing re-assignment of an unresolved query to a
+        different specific lab member.
+      operationId: TicketsController_transferTicket
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TransferTicketDto'
+      responses:
+        '200':
+          description: Ticket transfer executed and timeline logged.
+        '403':
+          description: Transfer requires administrative elevation.
+      security: *ref_8
+      summary: Transfer Ticket Responsibility (US7 Re-route)
+      tags: *ref_9
+  /tickets/{id}/close:
+    patch:
+      description: >-
+        Fulfills US8 and SLA boundaries. Flags physical closure status of the
+        ticket thread.
+      operationId: TicketsController_closeTicket
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CloseTicketDto'
+      responses:
+        '200':
+          description: Ticket status forced to CLOSED.
+      security: *ref_8
+      summary: Close Ticket Permanently
+      tags: *ref_9
+  /feedback:
+    post:
+      description: >-
+        Fulfills US4. Allows learners to evaluate AI-produced answers as either 
+        accurate or flawed, feeding the reinforcement learning loop.
+      operationId: FeedbackController_createFeedback
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateFeedbackDto'
+      responses:
+        '201':
+          description: Feedback logged successfully.
+        '400':
+          description: Validation failed on the payload schema.
+        '401':
+          description: Active session token required for feedback.
+        '500':
+          description: Feedback persistence error.
+      summary: Submit Quality Feedback (US4 Interface)
+      tags: &ref_10
+        - Feedback & Analytics
+        - GenAI Services
+  /analytics/hotspots:
+    get:
+      description: >-
+        Fulfills US12. Identifies frequently asked topics that generate negative
+        feedback (dislikes), allowing for targeted knowledge base updates.
+      operationId: FeedbackController_getHotspots
+      parameters: []
+      responses:
+        '200':
+          description: Sorted array of topic heatmaps with failure ratios.
+        '403':
+          description: Sufficient admin role required for hotspot review.
+        '500':
+          description: Semantic clustering engine failed.
+      summary: View Negative Hotspots (Knowledge Gaps)
+      tags: *ref_10
+  /analytics/trends:
+    get:
+      description: >-
+        Fulfills US10 and US14. Extracts time-series matrices of ticket load 
+        against AI auto-resolutions to track system accuracy and efficiency.
+      operationId: FeedbackController_getTrends
+      parameters:
+        - name: range
+          required: true
+          in: query
+          description: Time window for report (e.g. 7d, 30d)
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Time series trend data returned.
+        '403':
+          description: Requires Staff or Admin role.
+        '500':
+          description: Trend calculation failure.
+      summary: Query Resolution Trends (US10/14 Analytics)
+      tags: &ref_10
+        - Feedback & Analytics
+        - GenAI Services
+  /analytics/feedback-ratio:
+    get:
+      description: >-
+        Fulfills US14. Evaluates overall AI bot effectiveness based on 
+        human-provided quality ratings.
+      operationId: FeedbackController_getFeedbackRatio
+      parameters: []
+      responses:
+        '200':
+          description: Binary satisfaction distribution returned.
+        '403':
+          description: Analytics access restricted to administration.
+      summary: AI Bot Success Ratio (US14)
+      tags: *ref_10
+  /analytics/topic/{topic}:
+    get:
+      description: >-
+        Fulfills US12 by isolating the exact failed conversations of a specific
+        topic category so lab members can review what went wrong.
+      operationId: FeedbackController_getByTopic
+      parameters:
+        - name: topic
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List of individual defective messages.
+        '403':
+          description: Analytics restricted to staff.
+        '404':
+          description: Topic category not found in failure logs.
+      summary: Topic Detail Drilldown (US12 Root Cause)
+      tags: *ref_10
+  /pipeline/run:
+    post:
+      description: >-
+        Fulfills US2 and US13. Forces the system to re-read course data and 
+        re-calculate the vector subspace manually.
+      operationId: PipelineController_run
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RunPipelineDto'
+      responses:
+        '200':
+          description: RAG Pipeline execution requested.
+        '400':
+          description: Process already running.
+        '500':
+          description: Vectorization engine fatal crash.
+      summary: Trigger Knowledge Re-indexing (US2/13)
+      tags: &ref_11
+        - GenAI Services
+        - Embeddings Pipeline
+  /pipeline/status:
+    get:
+      description: >-
+        Fulfills US14. Verifies if the backend local python embedding service 
+        is active. Returns engine health metrics for maintenance audit.
+      operationId: PipelineController_status
+      parameters: []
+      responses:
+        '200':
+          description: Engine Health Result payload retrieved successfully.
+        '401':
+          description: Identity proof required to view engine status.
+        '403':
+          description: Access restricted to administrative roles.
+        '500':
+          description: Engine unreachable or offline.
+      summary: Data Engine Status Probe (US14 Audit)
+      tags: *ref_11
+  /admin/users:
+    get:
+      description: >-
+        Fulfills US11 and US14. Allows Admins to orchestrate and evaluate the 
+        lab member staff matrix and learner density.
+      operationId: AdminController_listUsers
+      parameters: []
+      responses:
+        '200':
+          description: User directory successfully retrieved.
+        '401':
+          description: Session token proof required.
+        '403':
+          description: Admin-only management path.
+      security: &ref_12
+        - bearer: []
+      summary: List Dashboard Identities (US11 Governance)
+      tags: &ref_13
+        - Admin Controls
+  /admin/users/{id}/role:
+    patch:
+      description: >-
+        Fulfills US11. Elevates or demotes user privileges across Student, Lab 
+        Member, and Admin hierarchies.
+      operationId: AdminController_changeRole
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ChangeRoleDto'
+      responses:
+        '200':
+          description: User roles correctly updated.
+        '401':
+          description: Identity proof required.
+        '403':
+          description: Super-admin role required to modify assignments.
+        '404':
+          description: Specific user identity could not be located.
+      security: *ref_12
+      summary: Reassign User Role (US11 Maintenance)
+      tags: *ref_13
+  /admin/users/{id}/status:
+    patch:
+      description: >-
+        Fulfills US11. Suspends or reactivates an account login capabilities 
+        natively to manage student access during security events.
+      operationId: AdminController_setStatus
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SetUserStatusDto'
+      responses:
+        '200':
+          description: User activity status updated successfully.
+        '403':
+          description: Admin role required for status manipulation.
+        '404':
+          description: Identity not found.
+      security: *ref_12
+      summary: Set Identity Status (US11 Governance)
+      tags: *ref_13
+  /admin/users/{id}:
+    delete:
+      description: >-
+        Fulfills US11. Permanently removes a learner or staff account from the 
+        central authentication index.
+      operationId: AdminController_deleteUser
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Profile eliminated successfully.
+        '401':
+          description: Authentication required.
+        '403':
+          description: Admin privileges required for deletion.
+        '404':
+          description: Identity not found.
+      security: *ref_12
+      summary: Purge User Profile (US11 Governance)
+      tags: *ref_13
+  /admin/lab-members:
+    get:
+      description: >-
+        Fulfills US11 and US14. Lists the localized administrative assistants 
+        serving the support desk for resource planning.
+      operationId: AdminController_listLabMembers
+      parameters: []
+      responses:
+        '200':
+          description: Staff directory returned.
+        '403':
+          description: Unauthorized access to staff list.
+      security: *ref_12
+      summary: Retrieve Lab Staff Directory (US11)
+      tags: *ref_13
+    post:
+      description: >-
+        Fulfills US11. Manually provisions a securely hashed authentication 
+        profile specifically scoped into the lab member roleset.
+      operationId: AdminController_createLabMember
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateLabMemberDto'
+      responses:
+        '201':
+          description: Profile correctly initialized and access granted.
+        '400':
+          description: Email structure invalid or schema constraint failed.
+        '403':
+          description: Admin privileges required.
+      security: *ref_12
+      summary: Provision Lab Member Account (US11 Onboarding)
+      tags: *ref_13
+  /admin/lab-members/{id}:
+    patch:
+      description: >-
+        Fulfills US11. Updates string metrics like name, email, or access 
+        credentials for localized administrative staff.
+      operationId: AdminController_updateLabMember
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateLabMemberDto'
+      responses:
+        '200':
+          description: Staff profile updated perfectly.
+        '403':
+          description: Super-admin role required.
+        '404':
+          description: Lab member identity ID not found.
+      security: *ref_12
+      summary: Edit Staff Profile (US11 Maintenance)
+      tags: *ref_13
+    delete:
+      description: >-
+        Fulfills US11. Safely unlinks and removes a lab member identity from 
+        the active directory.
+      operationId: AdminController_deleteLabMember
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Profile decommissioned.
+        '403':
+          description: Insufficient administrative elevation.
+        '404':
+          description: Staff ID does not exist.
+      security: *ref_12
+      summary: Decommission Staff Account (US11 Governance)
+      tags: *ref_13
+  /admin/stats:
+    get:
+      description: >-
+        Fulfills US14. Scopes user density spread across learner and 
+        administrative nodes to define system load and response KPIs.
+      operationId: AdminController_getStats
+      parameters: []
+      responses:
+        '200':
+          description: Metrics payload returned successfully.
+        '401':
+          description: Session token required.
+        '403':
+          description: Analytics restricted to system administrators.
+      security: *ref_12
+      summary: Export Ecosystem Statistics (US14 Audit)
+      tags: *ref_13
+  /admin/qa-pairs:
+    get:
+      description: >-
+        Fulfills US11. Lists current QA pairs verified within the GenAI memory 
+        banks for administrative review and audit.
+      operationId: AdminController_listQaPairs
+      parameters:
+        - name: page
+          required: true
+          in: query
+          schema:
+            type: string
+        - name: limit
+          required: true
+          in: query
+          schema:
+            type: string
+        - name: search
+          required: true
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Paginated array of valid systemic pairings.
+        '403':
+          description: Admin access required.
+      security: *ref_12
+      summary: Lookup Knowledge Base (US11 Governance)
+      tags: *ref_13
+  /admin/qa-pairs/{id}:
+    put:
+      description: >-
+        Fulfills US11. Instantly editing the verified semantic memory 
+        embeddings used to solve learner chats autonomously.
+      operationId: AdminController_updateQaPair
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateQaPairDto'
+      responses:
+        '200':
+          description: QA Pair verified and memory embedded.
+        '403':
+          description: Requires verified Admin or Lab Member role.
+        '404':
+          description: QA Node ID not found.
+      security: *ref_12
+      summary: Update GenAI Knowledge Matrix (US11)
+      tags: *ref_13
+    delete:
+      description: >-
+        Fulfills US11. Eradicates outdated response patterns directly from the
+        memory structure to maintain knowledge precision.
+      operationId: AdminController_deleteQaPair
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Vector node eliminated.
+        '403':
+          description: Deletion restricted to administrative nodes.
+        '404':
+          description: Node ID not found.
+      security: *ref_12
+      summary: Purge Knowledge Node (US11)
+      tags: *ref_13
+info:
+  title: Vinternship API
+  description: >-
+    The high-fidelity backend API for the Vinternship Student Support System. 
+    This ecosystem integrates custom-built GenAI services (Gemini 1.5 Pro) for 
+    automated support, semantic RAG pipelines, and administrative governance. 
+    Each endpoint fulfills specific Learner (US1-6), Support Desk (US7-10), 
+    and Admin (US11-14) User Stories defined in the project scope.
+    
+    ### Integrated GenAI Services:
+    - **RAG Pipeline**: Semantic indexing and retrieval of academic policy PDFs.
+    - **Chatbot Core**: Conversational AI for instant query resolution.
+    - **Embedding Engine**: Vector subspace management for knowledge mapping.
+    - **Sentiment Analysis**: Feedback loops for model performance tracking.
+  version: '1.0'
+  contact: 
+    name: Dev-Team (IITM BS Online)
+tags: []
+servers: []
+components:
+  securitySchemes:
+    bearer:
+      scheme: bearer
+      bearerFormat: JWT
+      type: http
+  schemas:
+    RegisterDto:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Display name for the registering learner
+        email:
+          type: string
+          description: Valid scholastic email address
+        password:
+          type: string
+          description: Complex password, minimum 6 characters
+          minLength: 6
+      required:
+        - name
+        - email
+        - password
+    LoginDto:
+      type: object
+      properties:
+        email:
+          type: string
+          description: Registered email address
+        password:
+          type: string
+          description: Raw credential payload matching the hash
+      required:
+        - email
+        - password
+    CreateUserDto:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Display name for identity creation
+        email:
+          type: string
+          description: User login email address
+        password:
+          type: string
+          description: Secure user login string
+        role:
+          type: string
+          enum:
+            - student
+            - lab_member
+            - admin
+          description: Role to be assigned inside the dashboard
+        cohort:
+          type: string
+          description: Academic cohort code for user scoping
+      required:
+        - name
+        - email
+        - password
+        - role
+    CreateProposalDto:
+      type: object
+      properties:
+        question:
+          type: string
+          description: The proposed question for the knowledge base
+        answer:
+          type: string
+          description: The proposed answer that the GenAI should provide
+        title:
+          type: string
+          description: Optional categorical title mapping
+      required:
+        - question
+        - answer
+    ReviewProposalDto:
+      type: object
+      properties:
+        rejectionReason:
+          type: string
+          description: The specific feedback/reasoning if an Admin rejects the QA pair
+    SendMessageDto:
+      type: object
+      properties:
+        content:
+          type: string
+          description: The text content of the message sent by the user
+        conversationId:
+          type: string
+          description: >-
+            The specific conversation ID this message belongs to. Omit to start
+            a new thread.
+        studentId:
+          type: string
+          description: Student identifier string
+        studentName:
+          type: string
+          description: Student display name
+        studentEmail:
+          type: string
+          description: Student email address
+        cohort:
+          type: string
+          description: Cohort identifier for academic logic
+      required:
+        - content
+    FeedbackDto:
+      type: object
+      properties:
+        feedback:
+          type: string
+          enum:
+            - like
+            - dislike
+          description: Type of feedback submitted against an AI response
+        comment:
+          type: string
+          description: Text explanation for the feedback (especially for dislikes)
+      required:
+        - feedback
+    CreateConversationDto:
+      type: object
+      properties:
+        studentId:
+          type: string
+          description: Student identifier string
+        studentName:
+          type: string
+          description: Student display name
+        studentEmail:
+          type: string
+          description: Student email address
+        cohort:
+          type: string
+          description: Cohort identifier for academic logic
+    EscalateDto:
+      type: object
+      properties:
+        reason:
+          type: string
+          description: >-
+            The reason why the AI interaction is being escalated to support
+            staff
+      required:
+        - reason
+    TicketScreenshotDto:
+      type: object
+      properties:
+        fileName:
+          type: string
+          description: File name of the screenshot
+        mimeType:
+          type: string
+          description: MIME type of the screenshot
+        dataUrl:
+          type: string
+          description: Base64 data URL of the screenshot
+      required:
+        - fileName
+        - mimeType
+        - dataUrl
+    CreateTicketDto:
+      type: object
+      properties:
+        studentName:
+          type: string
+          description: Name of the student submitting the ticket
+        studentEmail:
+          type: string
+          description: Email address of the student
+        cohort:
+          type: string
+          description: Cohort identifier for the student
+        subject:
+          type: string
+          description: Subject line of the ticket issue
+          maxLength: 150
+        reason:
+          type: string
+          description: Detailed reason or description of the issue
+          maxLength: 5000
+        screenshots:
+          description: Optional list of screenshots attached to the ticket
+          type: array
+          items:
+            $ref: '#/components/schemas/TicketScreenshotDto'
+        conversationId:
+          type: string
+          description: Conversation ID if the ticket was originated from a chat session
+        messageId:
+          type: string
+          description: Message ID if the ticket was originated from a chat session
+        originalQuery:
+          type: string
+          description: The original query string provided by the user
+        botResponse:
+          type: string
+          description: The bot response that caused the ticket creation
+      required:
+        - studentName
+        - subject
+        - reason
+    StartMeetingDto:
+      type: object
+      properties:
+        ticketId:
+          type: string
+          description: The MongoID of the ticket to generate a session link for
+      required:
+        - ticketId
+    ResolveTicketDto:
+      type: object
+      properties:
+        resolutionNote:
+          type: string
+          description: >-
+            Optional resolution notes provided by the instructor upon resolving
+            the ticket
+          maxLength: 1000
+    AssignTicketDto:
+      type: object
+      properties:
+        instructorId:
+          type: string
+          description: >-
+            The MongoID userId of the lab member/instructor to assign the ticket
+            to
+        instructorName:
+          type: string
+          description: Optional display name of the instructor being assigned
+      required:
+        - instructorId
+    TransferTicketDto:
+      type: object
+      properties:
+        toInstructorId:
+          type: string
+          description: The MongoID userId of the receiving lab member
+        toInstructorName:
+          type: string
+          description: Optional display name of the receiving lab member
+      required:
+        - toInstructorId
+    AddTicketMessageDto:
+      type: object
+      properties:
+        message:
+          type: string
+          description: The contents of the message to be added to the ticket thread
+          maxLength: 2000
+        screenshots:
+          description: Optional list of screenshots attached to the message
+          type: array
+          items:
+            $ref: '#/components/schemas/TicketScreenshotDto'
+      required:
+        - message
+    CloseTicketDto:
+      type: object
+      properties:
+        resolutionNote:
+          type: string
+          description: Optional notes provided upon unconditionally closing the ticket
+          maxLength: 1000
+    CreateFeedbackDto:
+      type: object
+      properties:
+        conversationId:
+          type: string
+          description: The unique identifier for the parent conversation
+        messageId:
+          type: string
+          description: The unique identifier for the specific AI response
+        messageContent:
+          type: string
+          description: The actual text content of the message being evaluated
+        rating:
+          type: string
+          enum:
+            - up
+            - down
+          description: Binary evaluation of the AI response quality
+      required:
+        - conversationId
+        - messageId
+        - messageContent
+        - rating
+    RunPipelineDto:
+      type: object
+      properties:
+        mode:
+          type: string
+          enum:
+            - backfill_embeddings
+            - extract_qa
+            - full
+          description: The discrete execution sequence you want the ingest pipeline to take
+      required:
+        - mode
+    ChangeRoleDto:
+      type: object
+      properties:
+        role:
+          type: string
+          enum:
+            - student
+            - lab_member
+            - admin
+          description: Target user role to assign.
+      required:
+        - role
+    SetUserStatusDto:
+      type: object
+      properties:
+        isActive:
+          type: boolean
+          description: Boolean indicating whether the user is active
+      required:
+        - isActive
+    CreateLabMemberDto:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Display name for the new lab member
+        email:
+          type: string
+          description: A valid email address for authentication
+        password:
+          type: string
+          description: A secure password, minimum 6 characters
+          minLength: 6
+      required:
+        - name
+        - email
+        - password
+    UpdateLabMemberDto:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Updated display name for the lab member
+        email:
+          type: string
+          description: Updated email address
+        password:
+          type: string
+          description: Updated password, minimum 6 characters
+          minLength: 6
+    UpdateQaPairDto:
+      type: object
+      properties:
+        question:
+          type: string
+          description: The modified question payload for the knowledge base
+        answer:
+          type: string
+          description: The modified answer payload for the knowledge base
+        category:
+          type: string
+          description: Categorical tag for the QA entry

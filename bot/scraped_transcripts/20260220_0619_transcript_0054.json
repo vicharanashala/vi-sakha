@@ -1,0 +1,232 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1441423648048152747> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Initially, my HP was 132, but now it has been reduced to 114.52, even though I completed the ViBe course on time and followed all the required steps. Please provide me the reason for the reduction of my HP",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771140418944,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "|| <@1293270010537578575>  ||",
+      "embeds": [],
+      "created": 1771163507659,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1441423648048152747> \nKindly check the Add/Delete Reason section under the Health points tab on the Dashboard.",
+      "embeds": [],
+      "created": 1771349115591,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "susmita_r_betadur",
+      "user_id": "1441423648048152747",
+      "is_bot": false,
+      "content": "Hello mam, I have checked the Add/Delete Reason section under the Health Points tab, but my name does not appear in the list. Kindly look into this and let me know how I should proceed.",
+      "embeds": [],
+      "created": 1771390576692,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@1293270010537578575>",
+      "embeds": [],
+      "created": 1771419610287,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1441423648048152747> \nAs per the dashboard records, the ViBe completion deadline was unfortunately missed, due to which there has been a deduction in the HP.\nKindly refer to your dashboard for the updated HP details. Please feel free to reach out if you need any clarification or assistance.",
+      "embeds": [],
+      "created": 1771482068147,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "susmita_r_betadur",
+      "user_id": "1441423648048152747",
+      "is_bot": false,
+      "content": "Mam I had completed the ViBe course before the deadline, but it was showing as 99.90%. Since many of my peers were facing the same issue, I assumed it was a technical glitch. However, yesterday one of my peers suggested a solution to resolve it, and after following that, I was able to achieve 100%.I completed the course on time and fixed the 99.90% issue later. Is there any chance my HP can be added back?",
+      "embeds": [],
+      "created": 1771484562855,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1441423648048152747> \nOk. We have heard your query and escalated your query to the concerned team. \nWe will reach out to you soon.",
+      "embeds": [],
+      "created": 1771484806558,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "susmita_r_betadur",
+      "user_id": "1441423648048152747",
+      "is_bot": false,
+      "content": "Ok mam, Thank you",
+      "embeds": [],
+      "created": 1771484865510,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1441423648048152747> \nAs discussed by the team you will be rewarded with the required HP.",
+      "embeds": [],
+      "created": 1771485575585,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "I hope this has resolved your query.",
+      "embeds": [],
+      "created": 1771485588529,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "susmita_r_betadur",
+      "user_id": "1441423648048152747",
+      "is_bot": false,
+      "content": "Thank you, ma’am. However, I am still in the unsafe position on the dashboard. Initially, I had 132 HP, but currently it is showing as 122.65. Could you please recheck if the updated HP has been reflected correctly?",
+      "embeds": [],
+      "created": 1771497327514,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "imrohitvk",
+      "user_id": "1468485581246959747",
+      "is_bot": false,
+      "content": "It will reflect in sometime.",
+      "embeds": [],
+      "created": 1771522139506,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "imsakshivk",
+      "user_id": "1293270010537578575",
+      "is_bot": false,
+      "content": "I will check and revert",
+      "embeds": [],
+      "created": 1771559560607,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "imsakshivk",
+      "user_id": "1293270010537578575",
+      "is_bot": false,
+      "content": "This is updated",
+      "embeds": [],
+      "created": 1771559780310,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "susmita_r_betadur",
+      "user_id": "1441423648048152747",
+      "is_bot": false,
+      "content": "Thank you mam",
+      "embeds": [],
+      "created": 1771565279590,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1441423648048152747>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771565328872,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771565329478,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771568356716,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0054",
+    "id": "1472494382816170165"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 19
+}

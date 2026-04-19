@@ -1,0 +1,232 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1472550622242017403> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Regarding not receiving the health points for activity A1 and A2. I have submitted the forms for both A1 and A2 activity but haven't received health points for that.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772536973619,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "We have noted your concern and would come back after connecting with the concern team.",
+      "embeds": [],
+      "created": 1772537026863,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "cc: <@956180961832362014> Ma'am",
+      "embeds": [],
+      "created": 1772537036580,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "shweta_56797",
+      "user_id": "1472550622242017403",
+      "is_bot": false,
+      "content": "Thank you ma'am. Since today is the last day of submission for both the activities kindly let me know if anything needs to be done from my side.",
+      "embeds": [],
+      "created": 1772537086294,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "shweta_56797",
+      "user_id": "1472550622242017403",
+      "is_bot": false,
+      "content": "Ma'am. Should I submit the forms again?",
+      "embeds": [],
+      "created": 1772542451547,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1472550622242017403> do not worry, it takes time for the dashboard to reflect.....If it doesn't reflect by midnight, you can raise here again.",
+      "embeds": [],
+      "created": 1772543319364,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "shweta_56797",
+      "user_id": "1472550622242017403",
+      "is_bot": false,
+      "content": "Sure Sir. Thank you.",
+      "embeds": [],
+      "created": 1772543364001,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "shweta_56797",
+      "user_id": "1472550622242017403",
+      "is_bot": false,
+      "content": "<@836880971017748512> Sir, I want to mention here that for activity A1 I submitted the form a few days ago. I was waiting for  health points to be updated but it didn't.",
+      "embeds": [],
+      "created": 1772544987326,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "shweta_56797",
+      "user_id": "1472550622242017403",
+      "is_bot": false,
+      "content": "Sir/ma'am. I haven't received health points for A1 and A2 activity yet.",
+      "embeds": [],
+      "created": 1772596371545,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1472550622242017403> \nWe have escalated your query.",
+      "embeds": [],
+      "created": 1772642780940,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "shweta_56797",
+      "user_id": "1472550622242017403",
+      "is_bot": false,
+      "content": "Thank you ma'am.",
+      "embeds": [],
+      "created": 1772642866664,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1472550622242017403> \nKindly check that you are filling the activity form from the email ID you used for ViBe.",
+      "embeds": [],
+      "created": 1772646444109,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "shweta_56797",
+      "user_id": "1472550622242017403",
+      "is_bot": false,
+      "content": "No ma'am .. that was my personal email id.. I did mention my vibe email id in the form though.. Now I have again filled both the forms using vibe email id..",
+      "embeds": [],
+      "created": 1772646743602,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "shweta_56797",
+      "user_id": "1472550622242017403",
+      "is_bot": false,
+      "content": "I have received health points soon after. Thank you so much.",
+      "embeds": [],
+      "created": 1772646802428,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "shweta_56797",
+      "user_id": "1472550622242017403",
+      "is_bot": false,
+      "content": "I am closing this ticket now.",
+      "embeds": [],
+      "created": 1772646818805,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1472550622242017403>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772646838718,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772646839173,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1772647080916,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772647083093,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0335",
+    "id": "1478351956840939626"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 19
+}

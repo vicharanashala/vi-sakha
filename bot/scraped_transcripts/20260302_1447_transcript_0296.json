@@ -1,0 +1,132 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473489624377594050> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I was unable to complete 20% of the vibe course within the 1st week due to college assignments... what should be the next step ... I am eager to do the internship and wish to complete it",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772341221710,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "<@1473489624377594050> Your issue has been noted, the concerned team will reach out shortly. Kindly share your registered email and cohort name. cc: <@956180961832362014> ma'am",
+      "embeds": [],
+      "created": 1772341967441,
+      "edited": 1772342025742
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473489624377594050> Please continue with the course until further announcements.",
+      "embeds": [],
+      "created": 1772346367460,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473489624377594050> \nWe hope your issue has been resolved?",
+      "embeds": [],
+      "created": 1772461512908,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "varada_surve",
+      "user_id": "1473489624377594050",
+      "is_bot": false,
+      "content": "Ya thanks 😊",
+      "embeds": [],
+      "created": 1772462051644,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved we can close the ticket.",
+      "embeds": [],
+      "created": 1772462843820,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772462849571,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772462850367,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772462852025,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0296",
+    "id": "1477530914748764312"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 9
+}

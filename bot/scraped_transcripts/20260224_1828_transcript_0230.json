@@ -1,0 +1,142 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1468961943397335235> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Hi, while going through Express Case Study 3, I noticed a small thing in one of the diagrams. It labels 404 as “Internal Server Error,” but I think that would usually be a 5xx error like 500, since 404 is “Not Found.” Just mentioning it in c",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771956930848,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "arnabacharya.",
+      "user_id": "1468961943397335235",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771956958225,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "<@1468961943397335235> alright we will change it. Thanks for the feedback...",
+      "embeds": [],
+      "created": 1771957033323,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "arnabacharya.",
+      "user_id": "1468961943397335235",
+      "is_bot": false,
+      "content": "Glad that I could help",
+      "embeds": [],
+      "created": 1771957636446,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "Nice <@1468961943397335235>. So shall I resolve the ticket..",
+      "embeds": [],
+      "created": 1771957658093,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "arnabacharya.",
+      "user_id": "1468961943397335235",
+      "is_bot": false,
+      "content": "Yes Sir",
+      "embeds": [],
+      "created": 1771957698545,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "Ok enjoy the vibe journey and happy learning 🙂",
+      "embeds": [],
+      "created": 1771957727392,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@857556884750729217>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771957736646,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771957737362,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771957739362,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0230",
+    "id": "1475919081705312350"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 10
+}

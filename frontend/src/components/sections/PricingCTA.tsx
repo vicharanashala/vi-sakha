@@ -43,7 +43,7 @@ export function PricingCTA() {
               <a href="https://sudarshansudarshan.github.io/vinternship/intro/" target="_blank" rel="noopener noreferrer" className="bg-white/20 backdrop-blur-sm text-white font-semibold text-sm px-6 py-3 rounded-lg border border-white/30 hover:bg-white/30 transition-colors">
                 View program
               </a>
-              <a href="https://sakha.vicharanashala.ai/" target="_blank" rel="noopener noreferrer" className="bg-white text-gray-900 font-semibold text-sm px-6 py-3 rounded-lg hover:bg-gray-50 transition-colors flex items-center gap-2">
+              <a href="/login" className="bg-white text-gray-900 font-semibold text-sm px-6 py-3 rounded-lg hover:bg-gray-50 transition-colors flex items-center gap-2">
                 Try Vi-Sakha <ArrowUpRight className="w-4 h-4" />
               </a>
             </div>

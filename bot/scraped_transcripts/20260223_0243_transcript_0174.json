@@ -1,0 +1,222 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473715810542555208> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Quiz 19 not able to access",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771761752777,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "sereena_thomas",
+      "user_id": "1473715810542555208",
+      "is_bot": false,
+      "content": "I am unable to access quiz 19. it shows \" Failed to start quiz. You do not have permission to start this quiz attempt\" .",
+      "embeds": [],
+      "created": 1771761772877,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@1473715810542555208> , kindly share your your email id and cohort",
+      "embeds": [],
+      "created": 1771761846912,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "sereena_thomas",
+      "user_id": "1473715810542555208",
+      "is_bot": false,
+      "content": "crce.10278.ceb@gmail.com , Cohort 5 AKSians",
+      "embeds": [],
+      "created": 1771761879199,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "con you please try once after and provide fresh screenshot , if the issue still persist",
+      "embeds": [],
+      "created": 1771762664776,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "sereena_thomas",
+      "user_id": "1473715810542555208",
+      "is_bot": false,
+      "content": "it is stuck and I'm not able to go to next quiz section",
+      "embeds": [],
+      "created": 1771762887835,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "Please logout once, clear cookies and login again and then try",
+      "embeds": [],
+      "created": 1771763951514,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473715810542555208> \nIs your issue been resolved?",
+      "embeds": [],
+      "created": 1771780473586,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "sereena_thomas",
+      "user_id": "1473715810542555208",
+      "is_bot": false,
+      "content": "even for the right answer I am getting wrong",
+      "embeds": [],
+      "created": 1771780998690,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "Please share the module, section name and quiz number",
+      "embeds": [],
+      "created": 1771781067034,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "sereena_thomas",
+      "user_id": "1473715810542555208",
+      "is_bot": false,
+      "content": "Javascript module section 2 quiz 19",
+      "embeds": [],
+      "created": 1771781113129,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "sereena_thomas",
+      "user_id": "1473715810542555208",
+      "is_bot": false,
+      "content": "my bad got it right",
+      "embeds": [],
+      "created": 1771781254577,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "sereena_thomas",
+      "user_id": "1473715810542555208",
+      "is_bot": false,
+      "content": "thank you so much",
+      "embeds": [],
+      "created": 1771781259668,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "<@1473715810542555208> is this issue resolved ?",
+      "embeds": [],
+      "created": 1771781294840,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "sereena_thomas",
+      "user_id": "1473715810542555208",
+      "is_bot": false,
+      "content": "yes",
+      "embeds": [],
+      "created": 1771781297516,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@666826791016595456>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771814593119,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771814594083,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771814595943,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0174",
+    "id": "1475100445289484310"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 18
+}

@@ -1,0 +1,229 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473371173348966513> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : i am not able to join the inauguartion meeting",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771853289457,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473371173348966513> \nKindly try joining using your registered email ID",
+      "embeds": [],
+      "created": 1771853310880,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "pranjal._.gupta",
+      "user_id": "1473371173348966513",
+      "is_bot": false,
+      "content": "sir im using the exact same id",
+      "embeds": [],
+      "created": 1771853348272,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Kindly join using the link given in the announcements channel",
+      "embeds": [],
+      "created": 1771853416131,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "@everyone 🚀  Vinternship Inaugural Session – AKSians\nHello AKSians 🌟\nWe’re excited to officially welcome you to the journey!\n⏰ Date and Time: 23rd Feb, 2026. 6:45pm.\n📍 Zoom Link: https://zoom.us/j/93002365940?pwd=2pBHDX913lSJ3iYlaw3YxmdW2z0pbC.1\nIn this session, we’ll explain the program structure, platform usage, expectations, and key milestones. We’ll also answer your questions to ensure you start with complete clarity and confidence. 🚀\n\nThis session is important to help you begin strong and stay aligned from Day 1. 💪\nBe punctual, stay active, and come prepared!\nLet’s build something meaningful together 🚀💙. See you all there at 6:45pm.",
+      "embeds": [
+        {
+          "title": "Welcome! You are invited to join a meeting: Vinternship Inaugural S...",
+          "description": "Welcome! You are invited to join a meeting: Vinternship Inaugural Session – AKSians. After registering, you will receive a confirmation email about joining the meeting.",
+          "url": "https://zoom.us/j/93002365940?pwd=2pBHDX913lSJ3iYlaw3YxmdW2z0pbC.1",
+          "fields": []
+        }
+      ],
+      "created": 1771853436924,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Use this link",
+      "embeds": [],
+      "created": 1771853442397,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Your name on discord and ViBe are differnt kindly change it to your original name",
+      "embeds": [],
+      "created": 1771853491549,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "pranjal._.gupta",
+      "user_id": "1473371173348966513",
+      "is_bot": false,
+      "content": "i did so, still facing the same issue ma'am",
+      "embeds": [],
+      "created": 1771853701131,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Kindly try joining again from some other mail ID if possible",
+      "embeds": [],
+      "created": 1771854503626,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "call_me_mak",
+      "user_id": "1472177322038923317",
+      "is_bot": false,
+      "content": "Please log into zoom before you register",
+      "embeds": [],
+      "created": 1771855881911,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473371173348966513> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1771914008169,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473371173348966513> \nIs your issue been resolved?",
+      "embeds": [],
+      "created": 1771940162880,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "pranjal._.gupta",
+      "user_id": "1473371173348966513",
+      "is_bot": false,
+      "content": "Yes ma'am, thank you",
+      "embeds": [],
+      "created": 1771940774670,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Ok",
+      "embeds": [],
+      "created": 1771940981242,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing this ticket.",
+      "embeds": [],
+      "created": 1771940997901,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771941006651,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771941007395,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771941009526,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0189",
+    "id": "1475484378066063555"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 18
+}

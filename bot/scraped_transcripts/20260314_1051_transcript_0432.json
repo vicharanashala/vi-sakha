@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1481714396521824419> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : My friend is not added into this discord network yet. His name is Aman kumar, emailId: amank.ug23.ec@nitp.ac.in . Please kindly accept his invitation so he could also get all details..",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773483987757,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1359148118444343517> \nKindly help us out here.",
+      "embeds": [],
+      "created": 1773484093334,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@1481714396521824419>",
+      "embeds": [],
+      "created": 1773484181244,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Your friend applied just now!",
+      "embeds": [],
+      "created": 1773484223626,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "himanshuranjan0272",
+      "user_id": "1481714396521824419",
+      "is_bot": false,
+      "content": "<@1359148118444343517> thanks for accepting him",
+      "embeds": [],
+      "created": 1773484445699,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1481714396521824419> \nIs he added now?",
+      "embeds": [],
+      "created": 1773485339757,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "himanshuranjan0272",
+      "user_id": "1481714396521824419",
+      "is_bot": false,
+      "content": "<@956180961832362014> Yes maam",
+      "embeds": [],
+      "created": 1773485361705,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue is resolved hence closing this ticket.",
+      "embeds": [],
+      "created": 1773485463423,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773485468721,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773485469066,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773485471306,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0432",
+    "id": "1482324022418214916"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

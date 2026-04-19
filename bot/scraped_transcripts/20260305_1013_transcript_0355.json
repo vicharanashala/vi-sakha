@@ -1,0 +1,162 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1381634158115295293> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Hi, I am BAVITHA S (EUCLIDIANS), Mail: sbavitha2007@gmail.com, internship id : WIN25837. I want to raise this ticket regarding the 75% ViBA milestone requirement. At the deadline, my progress showed exactly 75%. However, it appears that elig",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772636932047,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1381634158115295293> \nKindly write your query again as it is not clear from the description you have given just now.",
+      "embeds": [],
+      "created": 1772644279649,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "green_soil_70600",
+      "user_id": "1381634158115295293",
+      "is_bot": false,
+      "content": "Thank you for replying Mam, For the 75% VBA milestone, my progress was exactly 75% at the deadline. Since it seems the requirement was above 75%, I didn’t receive the HP.",
+      "embeds": [],
+      "created": 1772644438510,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1381634158115295293> \nWe have escalated your query",
+      "embeds": [],
+      "created": 1772644489123,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "green_soil_70600",
+      "user_id": "1381634158115295293",
+      "is_bot": false,
+      "content": "<@956180961832362014> \nMa’am,\nI couldn’t complete the 100% ViBA milestone before the deadline due to exams. I currently have 108 HP and am below the required 131 HP.\nI’m also working on the vlog and Ajrashaka Hackathon. Kindly consider my situation and please don’t remove me.",
+      "embeds": [],
+      "created": 1772644893358,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1381634158115295293> \nWe have escalated your issue means the concerned team know about your issue and they will work on reverting the HP's back.\nThank you for your patience, understanding and support.",
+      "embeds": [],
+      "created": 1772646181239,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1381634158115295293> \nWe you can continue the cohort. Your name has been restored on the dashboard.",
+      "embeds": [],
+      "created": 1772696788209,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "green_soil_70600",
+      "user_id": "1381634158115295293",
+      "is_bot": false,
+      "content": "Thank you mam",
+      "embeds": [],
+      "created": 1772704082040,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1772705573260,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772705585290,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772705585818,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772705589476,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0355",
+    "id": "1478771214020247783"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 12
+}

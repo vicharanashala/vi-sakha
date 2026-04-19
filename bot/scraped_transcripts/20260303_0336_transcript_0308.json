@@ -1,0 +1,262 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1477066232355361059> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Pls resolve my problem I can't access any lectures on vibe platformof mernstack",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772390215760,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1477066232355361059> please mention your mail id, cohort name and briefly elaborate on the issue.\n\n<@1469178567551090933> <@857556884750729217> <@1178273014085857294> please look into it",
+      "embeds": [],
+      "created": 1772422393989,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "<@1477066232355361059> Kindly provide the above information as mentioned.",
+      "embeds": [],
+      "created": 1772424424161,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1477066232355361059> \nKindly share your details so that we can guide you further.",
+      "embeds": [],
+      "created": 1772461652540,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "ananyaray0965",
+      "user_id": "1477066232355361059",
+      "is_bot": false,
+      "content": "Ok what details will I share?",
+      "embeds": [],
+      "created": 1772461726979,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Which cohort you belong to, you registered email ID.",
+      "embeds": [],
+      "created": 1772461951043,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1477066232355361059>",
+      "embeds": [],
+      "created": 1772463031920,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "ananyaray0965",
+      "user_id": "1477066232355361059",
+      "is_bot": false,
+      "content": "Ok Aksians cohort name and email id ananyaray362@gmail.com",
+      "embeds": [],
+      "created": 1772471200831,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "ananyaray0965",
+      "user_id": "1477066232355361059",
+      "is_bot": false,
+      "content": "<@836880971017748512> pls guide me",
+      "embeds": [],
+      "created": 1772471417173,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "ananyaray0965",
+      "user_id": "1477066232355361059",
+      "is_bot": false,
+      "content": "Actually sir I have enrolled 2 days ago and registered on Aksians vinternship but cannot access any javascript lectures on vibe platform. Has the deadline been passed to complete 20% of course?",
+      "embeds": [],
+      "created": 1772471501501,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1469178567551090933> <@857556884750729217> <@1178273014085857294> <@1366708005483053076> <@666826791016595456> please look into it",
+      "embeds": [],
+      "created": 1772471519471,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1477066232355361059> Please view the deadlines mentioned in the milestones and in the announcements. It is CLEARLY mentioned that for 25% completion, it is 7 days from registration.",
+      "embeds": [],
+      "created": 1772471602838,
+      "edited": 1772471616969
+    },
+    {
+      "index": 13,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1477066232355361059> also as per the regulations of the discord server, you are requested to have the username as the registered name and your formal picture as dp",
+      "embeds": [],
+      "created": 1772471673366,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "ananyaray0965",
+      "user_id": "1477066232355361059",
+      "is_bot": false,
+      "content": "I will have the dp but pls tell me that will I continue with this internship?",
+      "embeds": [],
+      "created": 1772472047693,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "ananyaray0965",
+      "user_id": "1477066232355361059",
+      "is_bot": false,
+      "content": "<@836880971017748512> Because I cannot have any lectures 3 days passed how I complete then?",
+      "embeds": [],
+      "created": 1772472449850,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Do not worry if the issue is technical. You'll be exempted",
+      "embeds": [],
+      "created": 1772472516439,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "ananyaray0965",
+      "user_id": "1477066232355361059",
+      "is_bot": false,
+      "content": "Actually the issue has not resolved yet there is just a description it is showing 90 lectures but can't see <@956180961832362014> <@836880971017748512> pls resolve this issue as early as possible",
+      "embeds": [],
+      "created": 1772472789758,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "ananyaray0965",
+      "user_id": "1477066232355361059",
+      "is_bot": false,
+      "content": "The issue has been resolved",
+      "embeds": [],
+      "created": 1772477181899,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "ananyaray0965",
+      "user_id": "1477066232355361059",
+      "is_bot": false,
+      "content": "Thank you",
+      "embeds": [],
+      "created": 1772477191822,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1477066232355361059>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772479420283,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772479420834,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772508963395,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0308",
+    "id": "1477736410323750963"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 22
+}

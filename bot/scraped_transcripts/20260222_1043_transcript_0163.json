@@ -1,0 +1,132 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1474757185165594624> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : i am unable to attempt the quiz",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771755526379,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1474757185165594624> Could you share a screenshot of the issue and the registered email id to check your issue properly.",
+      "embeds": [],
+      "created": 1771755909877,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "aryanraj0553",
+      "user_id": "1474757185165594624",
+      "is_bot": false,
+      "content": "You don't have permission to attempt the quiz is also written there but it disappear after few second",
+      "embeds": [],
+      "created": 1771756048506,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "aryanraj0553",
+      "user_id": "1474757185165594624",
+      "is_bot": false,
+      "content": "rajaryanji271@gmail.com",
+      "embeds": [],
+      "created": 1771756058519,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1474757185165594624> We have fixed the issue, just refresh the page and try again. Please let us know if it is working fine.",
+      "embeds": [],
+      "created": 1771756791525,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "aryanraj0553",
+      "user_id": "1474757185165594624",
+      "is_bot": false,
+      "content": "Thanku it working now",
+      "embeds": [],
+      "created": 1771756870999,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@666826791016595456>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771756986288,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771756986808,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771756989278,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0163",
+    "id": "1475074329803886603"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 9
+}

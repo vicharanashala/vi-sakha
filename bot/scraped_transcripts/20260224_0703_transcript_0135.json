@@ -1,0 +1,242 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1469382524445786399> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Miscalculation in base HP.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771645121673,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "shreshthkumar_09",
+      "user_id": "1469382524445786399",
+      "is_bot": false,
+      "content": "Miscalculation in base HP.\n\nMy base hp yesterday was 110 and current HP was 114. But today my base hp is 117 and current HP is 114. I don't know how this has happened because my HP was never 117 . I think there might be some miscalculations. I kindly request the tech support team to look into the matter.\n\nThank you.",
+      "embeds": [],
+      "created": 1771645231027,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1469382524445786399> Please elaborate on your issue and mention your cohort name",
+      "embeds": [],
+      "created": 1771645239192,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "shreshthkumar_09",
+      "user_id": "1469382524445786399",
+      "is_bot": false,
+      "content": "Dijkstrains batch",
+      "embeds": [],
+      "created": 1771645300418,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1293270010537578575> mam, please look into the issue.\n\nCC: <@956180961832362014>",
+      "embeds": [],
+      "created": 1771645377364,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "shreshthkumar_09",
+      "user_id": "1469382524445786399",
+      "is_bot": false,
+      "content": "Sir please help.🙏",
+      "embeds": [],
+      "created": 1771691440916,
+      "edited": 1771733542117
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469382524445786399> \nDon'r worry. We are looking into it.",
+      "embeds": [],
+      "created": 1771746511936,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "shreshthkumar_09",
+      "user_id": "1469382524445786399",
+      "is_bot": false,
+      "content": "Hello, is there any update.",
+      "embeds": [],
+      "created": 1771816908367,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1469382524445786399> The issue is currently being handled. Do not worry",
+      "embeds": [],
+      "created": 1771821249883,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "shreshthkumar_09",
+      "user_id": "1469382524445786399",
+      "is_bot": false,
+      "content": "Ok sir. 🙌",
+      "embeds": [],
+      "created": 1771823305728,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469382524445786399> \nWe have reverted your HP it may take some time for it to be reflected on the dashboard so kindly wait for it. \nI hope now your issue is being resolved?",
+      "embeds": [],
+      "created": 1771855966577,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1469382524445786399> Is your issue Resolved?",
+      "embeds": [],
+      "created": 1771905184662,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "shreshthkumar_09",
+      "user_id": "1469382524445786399",
+      "is_bot": false,
+      "content": "Yes thank you very much.🙏\nBut the hp status is still red it is showing unsafe.",
+      "embeds": [],
+      "created": 1771913037450,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469382524445786399> \nIt may take some time to reflect on the dashboard. \nThank you for your patience and understanding.",
+      "embeds": [],
+      "created": 1771913538586,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "shreshthkumar_09",
+      "user_id": "1469382524445786399",
+      "is_bot": false,
+      "content": "Ok , thank you very much for resolving my issue.🙏",
+      "embeds": [],
+      "created": 1771913878230,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1469382524445786399> is the issue resolved? can we close the ticket?",
+      "embeds": [],
+      "created": 1771915303669,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@836880971017748512> \nYes the issue has been resolved we can close this ticket.",
+      "embeds": [],
+      "created": 1771915521010,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771916634015,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771916634485,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771916636642,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0135",
+    "id": "1474611256445894676"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 20
+}

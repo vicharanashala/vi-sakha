@@ -1,0 +1,142 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@758669714435342337> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Request to Join a Later Cohort",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771474477757,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "sahadeep",
+      "user_id": "758669714435342337",
+      "is_bot": false,
+      "content": "I wanted to share that I am currently facing a heavy academic workload along with ongoing eye-related health issues. I have been experiencing noticeable eye pain, especially while looking at screens for long periods, which is making it difficult for me to complete the required tasks at the moment.\n\nWhen I first saw this opportunity connected with the IITM BS Degree programme, I immediately joined because I was very interested and excited about it. However, due to my current health situation, I am struggling to keep up within the present timeline.\n\nI would like to kindly ask if it would be possible for me to join a later cohort of the programme instead. I would also appreciate clarification on whether not completing the current tasks will result in my removal from the programme, and whether that would affect my chances of participating in a future cohort. If needed, I can also provide my medical prescription for reference.",
+      "embeds": [],
+      "created": 1771474549653,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@956180961832362014> <@1468485581246959747> , Can we consider the request?",
+      "embeds": [],
+      "created": 1771476040069,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "imrohitvk",
+      "user_id": "1468485581246959747",
+      "is_bot": false,
+      "content": "Yes <@836880971017748512>. We can consider his request, and he can join a future cohort, as our policy states.",
+      "embeds": [],
+      "created": 1771478387270,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@758669714435342337> I hope your query has been resolved.",
+      "embeds": [],
+      "created": 1771482575527,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@758669714435342337> Is your issue been resolved?",
+      "embeds": [],
+      "created": 1771520569556,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Ticket",
+      "embeds": [],
+      "created": 1771578108078,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771578117197,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771578117852,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771578119790,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0103",
+    "id": "1473895526431854697"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 10
+}

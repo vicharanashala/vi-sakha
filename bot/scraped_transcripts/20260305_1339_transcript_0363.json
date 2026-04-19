@@ -1,0 +1,142 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1437404621654982796> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : i have completed more than 20 % of the course but I haven't got my offer letter",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772717678768,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1437404621654982796> please mention your cohort name",
+      "embeds": [],
+      "created": 1772717706922,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "manas_pandey",
+      "user_id": "1437404621654982796",
+      "is_bot": false,
+      "content": "Askians",
+      "embeds": [],
+      "created": 1772717757207,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1437404621654982796> Do not worry, the process for offer letter is underway. Meanwhile you can proceed with the internship flow with respect to the milestones mentioned in the vintership website.",
+      "embeds": [],
+      "created": 1772717831601,
+      "edited": 1772717845449
+    },
+    {
+      "index": 5,
+      "author": "manas_pandey",
+      "user_id": "1437404621654982796",
+      "is_bot": false,
+      "content": "alright!",
+      "embeds": [],
+      "created": 1772717909766,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1437404621654982796> can we close the ticket?",
+      "embeds": [],
+      "created": 1772717936418,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "manas_pandey",
+      "user_id": "1437404621654982796",
+      "is_bot": false,
+      "content": "yup",
+      "embeds": [],
+      "created": 1772717941942,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772717949501,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772717949963,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772717952091,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0363",
+    "id": "1479109889082130554"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 10
+}

@@ -11,16 +11,15 @@ import os
 import sys
 import json
 from pathlib import Path
+from dotenv import load_dotenv
 
 # Add project root to path
 PROJECT_ROOT = Path(__file__).parent.parent.parent.absolute()
-sys.path.insert(0, str(PROJECT_ROOT / "bot"))
+sys.path.insert(0, str(PROJECT_ROOT))
+load_dotenv(PROJECT_ROOT / ".env")
 
-import chromadb
+from pymongo import MongoClient
 
-# Configuration
-VECTOR_DB_PATH = PROJECT_ROOT / "vector_db"
-COLLECTION_NAME = "vinternship_faq"
 OUTPUT_PATH = PROJECT_ROOT / "bot" / "data" / "embeddings.json"
 
 
@@ -28,44 +27,38 @@ def main():
     print("=" * 60)
     print("Export Embeddings to JSON")
     print("=" * 60)
-    
-    # Load from ChromaDB
-    print(f"\nLoading from ChromaDB: {VECTOR_DB_PATH}")
-    
-    if not VECTOR_DB_PATH.exists():
-        print(f"✗ Vector DB not found: {VECTOR_DB_PATH}")
-        print("Run: python bot/rag/vector_db.py first")
-        sys.exit(1)
-    
+
+    # Load from MongoDB qa_pairs_v2
+    print("\nLoading from MongoDB (qa_pairs_v2)...")
+
     try:
-        chroma_client = chromadb.PersistentClient(path=str(VECTOR_DB_PATH))
-        collection = chroma_client.get_collection(COLLECTION_NAME)
-        
-        # Get all data
-        all_data = collection.get(
-            include=["documents", "metadatas", "embeddings"]
-        )
-        
-        print(f"✓ Loaded {len(all_data['ids'])} embeddings")
-        
+        uri = os.getenv("MONGODB_URI", "mongodb://localhost:27017/vinternship")
+        db_name = uri.split("/")[-1].split("?")[0] or "vinternship"
+        client = MongoClient(uri, serverSelectionTimeoutMS=5000)
+        docs = list(client[db_name]["qa_pairs_v2"].find(
+            {}, {"question": 1, "answer": 1, "embedding": 1, "source": 1}
+        ))
+        client.close()
     except Exception as e:
-        print(f"✗ Error loading ChromaDB: {e}")
+        print(f"✗ Error loading from MongoDB: {e}")
         sys.exit(1)
-    
+
+    if not docs:
+        print("✗ No documents found in qa_pairs_v2. Run rebuild_embeddings.py first.")
+        sys.exit(1)
+
+    print(f"✓ Loaded {len(docs)} embeddings")
+
     # Convert to JSON-serializable format
     print("\nConverting to JSON format...")
-    
+
     embeddings_json = []
-    for i, (id_, embedding, metadata) in enumerate(zip(
-        all_data["ids"],
-        all_data["embeddings"],
-        all_data["metadatas"]
-    )):
+    for doc in docs:
         embeddings_json.append({
-            "id": id_,
-            "embedding": embedding,  # Already a list
-            "question": metadata.get("question", ""),
-            "source": metadata.get("source", "unknown")
+            "id": str(doc["_id"]),
+            "embedding": doc.get("embedding", []),
+            "question": doc.get("question", ""),
+            "source": doc.get("source", "unknown"),
         })
     
     # Save to JSON

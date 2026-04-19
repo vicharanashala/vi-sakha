@@ -1,0 +1,142 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1022465956003459092> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I have completed 25 percentage of course before deadline but i was not rewarded bonous HP points (2.5%) my HP points still remain 100.Please help me out",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772467949737,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1022465956003459092> please mention your name and cohort name.",
+      "embeds": [],
+      "created": 1772515658010,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1022465956003459092> \nKindly mention your cohort.",
+      "embeds": [],
+      "created": 1772516772723,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "bhanu_teja_t_s",
+      "user_id": "1022465956003459092",
+      "is_bot": false,
+      "content": "BHANU TEJA T S",
+      "embeds": [],
+      "created": 1772527508735,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "bhanu_teja_t_s",
+      "user_id": "1022465956003459092",
+      "is_bot": false,
+      "content": "AKSians",
+      "embeds": [],
+      "created": 1772527674456,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "bhanu_teja_t_s",
+      "user_id": "1022465956003459092",
+      "is_bot": false,
+      "content": "Thanks today it was updated",
+      "embeds": [],
+      "created": 1772527729522,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "bhanu_teja_t_s",
+      "user_id": "1022465956003459092",
+      "is_bot": false,
+      "content": "i have recieved bonous of 2.5",
+      "embeds": [],
+      "created": 1772527743280,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1022465956003459092>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772527754014,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772527754478,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772534703528,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0323",
+    "id": "1478062450359140404"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 10
+}

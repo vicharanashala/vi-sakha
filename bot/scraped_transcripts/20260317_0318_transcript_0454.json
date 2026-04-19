@@ -1,0 +1,119 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1306618965572849674> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I am from euclideans batch and i am one of the silver tivket holder. I wanted to konw how to get started with and work on the projects.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773642655364,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "https://sudarshansudarshan.github.io/vinternship/projects/\n<@1306618965572849674> \nYou may refer this page and start working on any one of the projects. \nClone the repo in your local system and then you can continue working on it.",
+      "embeds": [
+        {
+          "title": "Projects",
+          "description": "Vinternship - A comprehensive full-stack development internship program covering the MERN stack and modern web technologies. Master TypeScript, React, Express.js, and MongoDB through hands-on case studies.",
+          "url": "https://sudarshansudarshan.github.io/vinternship/projects/",
+          "fields": []
+        }
+      ],
+      "created": 1773644717418,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "deepak.akuthota",
+      "user_id": "1306618965572849674",
+      "is_bot": false,
+      "content": "Mam so shld we work on any improvements or new features and create a PR?",
+      "embeds": [],
+      "created": 1773661430343,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Yes the new features have been listed on the portal itself or you can try resolving the issues mentioned on the github's issue page.",
+      "embeds": [],
+      "created": 1773662434841,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1306618965572849674>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773682066317,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773682066769,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773717531724,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0454",
+    "id": "1482989522026496040"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 7
+}

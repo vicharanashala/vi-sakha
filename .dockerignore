@@ -1,0 +1,24 @@
+# Exclude all node_modules in any directory
+**/node_modules
+**/dist
+**/.env
+**/.git
+**/.vscode
+
+# Node logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python specific
+.venv
+__pycache__
+**/.pytest_cache
+bot/scraped_transcripts
+bot/cleaned_transcripts
+
+# Other artifacts
+report
+frontend/dist
+backend/dist

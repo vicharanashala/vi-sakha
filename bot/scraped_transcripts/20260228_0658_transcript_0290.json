@@ -1,0 +1,112 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1475058693434380394> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I am not getting enrolled in vibe platform",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772260738638,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "akritiawasthi",
+      "user_id": "1475058693434380394",
+      "is_bot": false,
+      "content": "hey team i am not getting enrolled in vibe platform i have already registered for the aksians course but not getting accepted please help me out. i am attaching the picture for the same.",
+      "embeds": [],
+      "created": 1772260842890,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1475058693434380394> Please refresh the page and try now.",
+      "embeds": [],
+      "created": 1772261643820,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "akritiawasthi",
+      "user_id": "1475058693434380394",
+      "is_bot": false,
+      "content": "Thank you sir for resolving my issue",
+      "embeds": [],
+      "created": 1772261697220,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1475058693434380394>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772261714224,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772261715110,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772261903118,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0290",
+    "id": "1477193345045626880"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 7
+}

@@ -1,0 +1,174 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473350519022944328> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Not able to attempt the quiz",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771745647569,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@666826791016595456>",
+      "embeds": [],
+      "created": 1771745693897,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473350519022944328> We will revert back soon. Kindly mention your email ID and cohort and explain your issue in detail.",
+      "embeds": [],
+      "created": 1771746880197,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "rishowkunwar",
+      "user_id": "1473350519022944328",
+      "is_bot": false,
+      "content": "kunwarrishow35@gmail.com\nCohort- AKSians\nIssue- Showing \"Failed to start quiz: You do not\nhave permission to start this quiz attempt\"\nI have tried multiple times watching the video before the quiz but no use!",
+      "embeds": [],
+      "created": 1771747089906,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1473350519022944328> We have fixed the issue, kindly refresh the page and try to attempt the quiz again. Thank you.",
+      "embeds": [],
+      "created": 1771753401825,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "rishowkunwar",
+      "user_id": "1473350519022944328",
+      "is_bot": false,
+      "content": "Yah! Thanksss",
+      "embeds": [],
+      "created": 1771754706813,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1473350519022944328>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771754709202,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@956180961832362014>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1771754747806,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1771754763757,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "Channel being renamed too quickly, Timeout: 8m, 58s - Skipping",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771754770868,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771754771316,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771754773507,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "ticket-0154",
+    "id": "1475032889270997133"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 12
+}

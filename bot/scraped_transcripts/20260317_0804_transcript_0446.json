@@ -1,0 +1,212 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1471784152562012202> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Regarding missing of details  from the endorsement form.It is visible in the live dashboard in health point dashboard and case studies dashboard .And my health points are above the baseline.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773584781285,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "tejasri0810",
+      "user_id": "1471784152562012202",
+      "is_bot": false,
+      "content": "Good Evening mam/sir,\n\nI have cleared my viva and my health points are above baseline.\n\nThe details are missing from the endorsement form.I have completed vibe and submitted all the case studies as well.\n\nJust gave viva and when the my endorser tried to check details it is not visible.Today is the last date to endorse.\n\nKindly review it as soon as possible.",
+      "embeds": [],
+      "created": 1773585180844,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1471784152562012202> \nWe have escalated your issue.",
+      "embeds": [],
+      "created": 1773633569895,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Do not worry",
+      "embeds": [],
+      "created": 1773633573251,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "tejasri0810",
+      "user_id": "1471784152562012202",
+      "is_bot": false,
+      "content": "Thankyou mam",
+      "embeds": [],
+      "created": 1773634363528,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1471784152562012202> \nKindly check once. You have been restored to the dashboard. \nOn the google form it might take 24 hrs to get updated.",
+      "embeds": [],
+      "created": 1773644306297,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "tejasri0810",
+      "user_id": "1471784152562012202",
+      "is_bot": false,
+      "content": "Okay mam",
+      "embeds": [],
+      "created": 1773644730881,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1471784152562012202> \nKindly check once now and update us for the same.",
+      "embeds": [],
+      "created": 1773720402652,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "tejasri0810",
+      "user_id": "1471784152562012202",
+      "is_bot": false,
+      "content": "Good morning mam,\n\nMam in the Google form I still cannot see my name and email.\n\nIn the dashboard previously also my name was not removed it was present.\nIt is not present only in the endorsement form.",
+      "embeds": [],
+      "created": 1773720682822,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1471784152562012202> \nOk thank you for the update.",
+      "embeds": [],
+      "created": 1773721370785,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "tejasri0810",
+      "user_id": "1471784152562012202",
+      "is_bot": false,
+      "content": "Mam Now the details are visible in the endorsement form",
+      "embeds": [],
+      "created": 1773733703579,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1471784152562012202> \nIs your issue resolved now?",
+      "embeds": [],
+      "created": 1773734470145,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "tejasri0810",
+      "user_id": "1471784152562012202",
+      "is_bot": false,
+      "content": "Yes thankyou mam.\nShould I close this ticket now?",
+      "embeds": [],
+      "created": 1773734598639,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "I will lose the ticket do not worry. <@1471784152562012202>",
+      "embeds": [],
+      "created": 1773734644168,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773734650993,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773734651603,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773734653725,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0446",
+    "id": "1482746781245903041"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 17
+}

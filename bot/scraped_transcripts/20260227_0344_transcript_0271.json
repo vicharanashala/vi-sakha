@@ -1,0 +1,132 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1469361394443882640> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : .js files are not being uploaded in Google form",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772129726518,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@1469361394443882640> \nPlease try to upload the same through zip format.",
+      "embeds": [],
+      "created": 1772129860471,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "maurya_doshi",
+      "user_id": "1469361394443882640",
+      "is_bot": false,
+      "content": "Yes, zip files are being uploaded. Should I follow the same for all Express case studies?",
+      "embeds": [],
+      "created": 1772129916598,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "yes, if the file is not getting uploaded as it is, you can upload zip format.",
+      "embeds": [],
+      "created": 1772130030366,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "I hope your issue is resolved <@1469361394443882640>",
+      "embeds": [],
+      "created": 1772130123378,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "maurya_doshi",
+      "user_id": "1469361394443882640",
+      "is_bot": false,
+      "content": "Yes, thank you",
+      "embeds": [],
+      "created": 1772130135062,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1469361394443882640>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772130140958,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772130141540,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772163898372,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0271",
+    "id": "1476643839321178153"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 9
+}

@@ -1,0 +1,232 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473715810542555208> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Not able to get correct answers for quiz 8 in dynamic rendering react . There is some issue not able to understand it",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773239490318,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "sereena_thomas",
+      "user_id": "1473715810542555208",
+      "is_bot": false,
+      "content": "everytime i enter the right answer it gives me zero",
+      "embeds": [],
+      "created": 1773239527014,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "sereena_thomas",
+      "user_id": "1473715810542555208",
+      "is_bot": false,
+      "content": "this is happening for most of the quizzes of dynamic rendering react",
+      "embeds": [],
+      "created": 1773239549032,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "sereena_thomas",
+      "user_id": "1473715810542555208",
+      "is_bot": false,
+      "content": "I have given 20 attempts now",
+      "embeds": [],
+      "created": 1773239625696,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1366708005483053076> <@1178273014085857294> Please look into it",
+      "embeds": [],
+      "created": 1773239666628,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "sure",
+      "embeds": [],
+      "created": 1773239742981,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "<@1473715810542555208> please tell me your cohort name and mail id",
+      "embeds": [],
+      "created": 1773239818125,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "sereena_thomas",
+      "user_id": "1473715810542555208",
+      "is_bot": false,
+      "content": "AKSians",
+      "embeds": [],
+      "created": 1773239850947,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "sereena_thomas",
+      "user_id": "1473715810542555208",
+      "is_bot": false,
+      "content": "mail id- crce.10278.ceb@gmail.com",
+      "embeds": [],
+      "created": 1773239858014,
+      "edited": 1773239862717
+    },
+    {
+      "index": 10,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "okay, will check it update",
+      "embeds": [],
+      "created": 1773239877864,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "<@1473715810542555208> which was the last video you watched",
+      "embeds": [],
+      "created": 1773240001879,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "module, section and video",
+      "embeds": [],
+      "created": 1773240018079,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "<@1473715810542555208> please try to watch again the 8th video of dynamic rendering pattern in react and then attend the segment 8 quiz",
+      "embeds": [],
+      "created": 1773240290973,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "then tell me if the issue is still persist",
+      "embeds": [],
+      "created": 1773240303888,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "sereena_thomas",
+      "user_id": "1473715810542555208",
+      "is_bot": false,
+      "content": "i got the answer on the 20 th attempt",
+      "embeds": [],
+      "created": 1773240331102,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "sereena_thomas",
+      "user_id": "1473715810542555208",
+      "is_bot": false,
+      "content": "thank you",
+      "embeds": [],
+      "created": 1773240337980,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1473715810542555208>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773240345649,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773240346144,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773242195914,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0413",
+    "id": "1481298525353414667"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 19
+}

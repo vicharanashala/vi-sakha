@@ -1,0 +1,142 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473367944816889959> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I have submitted CaseStudy1 of TYPESCRIPT on 9th march 2026, on the dashboard it is still not updated yet, iam from AKSians Cohort, kindly look into the issue and resolve it as soon as possible.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773201031363,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473367944816889959> \nWe have escalated your query to the concerned team. \nWe will get back to you soon.",
+      "embeds": [],
+      "created": 1773203967949,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "pannala_lokesh_reddy",
+      "user_id": "1473367944816889959",
+      "is_bot": false,
+      "content": "Okay <@956180961832362014>",
+      "embeds": [],
+      "created": 1773204000431,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473367944816889959> \nKindly review it now.\nWe have updated it.",
+      "embeds": [],
+      "created": 1773205530134,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "pannala_lokesh_reddy",
+      "user_id": "1473367944816889959",
+      "is_bot": false,
+      "content": "Let me check…",
+      "embeds": [],
+      "created": 1773205560488,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "pannala_lokesh_reddy",
+      "user_id": "1473367944816889959",
+      "is_bot": false,
+      "content": "Thank you <@956180961832362014> , now it got updated",
+      "embeds": [],
+      "created": 1773205841479,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved will be closing the ticket now.",
+      "embeds": [],
+      "created": 1773205865902,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773205872992,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773205873411,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773205875159,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0411",
+    "id": "1481137216699764817"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 10
+}

@@ -1,0 +1,172 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1112308603718750279> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I have done the activity A1 but it is not being reflected in my health points instead now i am in unsafe zone, also i am in my first year and my college mid sems are going on so i am unable to do the work right now(till this saturday) becaus",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773246890699,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1112308603718750279> Please stick on to the milestones for the completion of the activities.Also, the submission forms must be filled with your registered mail only, otherwise the automized dashboard might not recognize the submission. As with the HP, it updates once a day, so please wait atleast 24 hrs after submission for the HP to display.",
+      "embeds": [],
+      "created": 1773285780362,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "ayush___gupta",
+      "user_id": "1112308603718750279",
+      "is_bot": false,
+      "content": "<@836880971017748512> I have submitted the form on i guess 4 or 5 march its still not updated and also it was with my registered email id.",
+      "embeds": [],
+      "created": 1773303990077,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1112308603718750279> please mention your registered mail ID and your cohort name",
+      "embeds": [],
+      "created": 1773315771516,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "ayush___gupta",
+      "user_id": "1112308603718750279",
+      "is_bot": false,
+      "content": "<@836880971017748512> ayush095005@gmail.com , AKSians",
+      "embeds": [],
+      "created": 1773322644824,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Your issue has been forwarded to the team. Please wait until the issue is resolved.",
+      "embeds": [],
+      "created": 1773324566777,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "ayush___gupta",
+      "user_id": "1112308603718750279",
+      "is_bot": false,
+      "content": "<@836880971017748512> Thankyou",
+      "embeds": [],
+      "created": 1773324672718,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1112308603718750279> \nWe have resolved your issue kindly check it once now. \nIf it has not reflected then kindly wait for a while as it may take time to render on the dashboard.",
+      "embeds": [],
+      "created": 1773382107465,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "ayush___gupta",
+      "user_id": "1112308603718750279",
+      "is_bot": false,
+      "content": "<@956180961832362014> Thankyou!!!",
+      "embeds": [],
+      "created": 1773416259890,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue is resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1773417181525,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773417188048,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773417188462,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773417191067,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0414",
+    "id": "1481329565656678460"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 13
+}

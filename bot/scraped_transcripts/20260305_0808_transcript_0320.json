@@ -1,0 +1,252 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473433163769319594> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Name: Saloni Sharma - Cohort Name: AKSians -I enrolled on the 19th, but due to my assessments and mid-term examinations, I was able to complete only 10% of the course initially. I understand that 20% was expected to be completed within 5 day",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772461429959,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "saloni_sharma_",
+      "user_id": "1473433163769319594",
+      "is_bot": false,
+      "content": "I have holidays now and have resumed the course. Kindly let me know if I can continue and complete the remaining portion without any issue.\n\nThank you for your guidance.",
+      "embeds": [],
+      "created": 1772461470974,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473433163769319594> \nKindly complete the remaining milestones but now that you have not completed the milestones on time you have lost on many HP points which cannot be recorvered. \nBut try that before getting ejected you complete as much as possible.",
+      "embeds": [],
+      "created": 1772461914973,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "saloni_sharma_",
+      "user_id": "1473433163769319594",
+      "is_bot": false,
+      "content": "I also wanted to confirm regarding the NPTEL internship requirement. I have already enrolled in two courses this semester. I would like to ask whether there is any specific course or faculty (for example, Sudarshan Sir’s course) that we are required to enroll in, or if any NPTEL course of our choice is acceptable for internship completion. Kindly guide me.",
+      "embeds": [],
+      "created": 1772462007196,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473433163769319594> \nWe will soon release an official statement regarding the same.",
+      "embeds": [],
+      "created": 1772516615264,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "saloni_sharma_",
+      "user_id": "1473433163769319594",
+      "is_bot": false,
+      "content": "Okay Ma'am !! & Is it mandatory to post it on linkedin ? Because I have completed only 10 % So can I post it ?",
+      "embeds": [],
+      "created": 1772520417728,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "saloni_sharma_",
+      "user_id": "1473433163769319594",
+      "is_bot": false,
+      "content": "<@956180961832362014> Ma'am can we digitally just write the name on consent form or we have to take a printout then sign it & upload it ?",
+      "embeds": [],
+      "created": 1772521459031,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473433163769319594> you can do both also",
+      "embeds": [],
+      "created": 1772534734653,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "saloni_sharma_",
+      "user_id": "1473433163769319594",
+      "is_bot": false,
+      "content": "Okay Sir, Thank you !!",
+      "embeds": [],
+      "created": 1772544234930,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "saloni_sharma_",
+      "user_id": "1473433163769319594",
+      "is_bot": false,
+      "content": "Will LinkedIn post activity count as health points?",
+      "embeds": [],
+      "created": 1772551319391,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "yes",
+      "embeds": [],
+      "created": 1772552827566,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "saloni_sharma_",
+      "user_id": "1473433163769319594",
+      "is_bot": false,
+      "content": "How to submit the activities for example -A1 Activity was updating the discord profile like this which activity belongs to A2?",
+      "embeds": [],
+      "created": 1772553061254,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "saloni_sharma_",
+      "user_id": "1473433163769319594",
+      "is_bot": false,
+      "content": "I've go through the entire website but I can't figure it out.....",
+      "embeds": [],
+      "created": 1772553102813,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "On the website go to the cohort specific announcements page there you will find the link to the activities form. \nKindly refer that.",
+      "embeds": [],
+      "created": 1772642662890,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473433163769319594>",
+      "embeds": [],
+      "created": 1772642667742,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473433163769319594> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772693829956,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "saloni_sharma_",
+      "user_id": "1473433163769319594",
+      "is_bot": false,
+      "content": "Yes Ma'am",
+      "embeds": [],
+      "created": 1772694681380,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "saloni_sharma_",
+      "user_id": "1473433163769319594",
+      "is_bot": false,
+      "content": "Thank you",
+      "embeds": [],
+      "created": 1772694682807,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772698131492,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772698131988,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772698134567,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0320",
+    "id": "1478035104344576042"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 21
+}

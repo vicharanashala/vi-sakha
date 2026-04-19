@@ -1,0 +1,112 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473715810542555208> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I was able to create 73% yesterday before the deadline and completed the rest 2% today morning at 4 am . Will it be considered? I joined the cohort on 19 th Feb",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773269954807,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "sereena_thomas",
+      "user_id": "1473715810542555208",
+      "is_bot": false,
+      "content": "complete 73%",
+      "embeds": [],
+      "created": 1773269972298,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473715810542555208> If the deadline is on 11 March, then the completion of 75 + 1 % must be before 11:59 PM of 11 march. However, please proceed with the internship until further announcements on this regard and please follow up with the milestones as mentioned.",
+      "embeds": [],
+      "created": 1773285912086,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "sereena_thomas",
+      "user_id": "1473715810542555208",
+      "is_bot": false,
+      "content": "Okay",
+      "embeds": [],
+      "created": 1773287336409,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1473715810542555208>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773287357513,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773287358125,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773287563023,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0416",
+    "id": "1481426303654826151"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 7
+}

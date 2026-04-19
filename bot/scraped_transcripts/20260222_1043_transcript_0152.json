@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1274629643906973726> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I am able to attempt quiz it showing that \"Failed to start quiz: You do not have permission to start this quiz attempt\".",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771745530164,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@666826791016595456>",
+      "embeds": [],
+      "created": 1771745673695,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@1274629643906973726>, don't worry, will revert asap",
+      "embeds": [],
+      "created": 1771746005885,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1220060098643230811> \nKindly look into this query.",
+      "embeds": [],
+      "created": 1771752900430,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1274629643906973726> Could you share your email id",
+      "embeds": [],
+      "created": 1771755105206,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nirmalyadav0058",
+      "user_id": "1274629643906973726",
+      "is_bot": false,
+      "content": "<@666826791016595456>  25f1001633@ds.study.iitm.ac.in",
+      "embeds": [],
+      "created": 1771755144907,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1274629643906973726> We have fixed the issue, kindly refresh the page and try again. please let us know if it is working fine. Thank you.",
+      "embeds": [],
+      "created": 1771755264858,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nirmalyadav0058",
+      "user_id": "1274629643906973726",
+      "is_bot": false,
+      "content": "<@666826791016595456>  Thank you sir as it is  working fine now.",
+      "embeds": [],
+      "created": 1771756694311,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@666826791016595456>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771757016616,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771757017156,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771757019394,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0152",
+    "id": "1475032403117477898"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

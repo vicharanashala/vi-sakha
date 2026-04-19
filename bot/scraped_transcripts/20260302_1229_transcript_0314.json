@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473348496600993803> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Restricted Access to the course",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772443118533,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1366708005483053076> \nKindly help us out here.",
+      "embeds": [],
+      "created": 1772443246127,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "hi <@1473348496600993803> \nKindly provide your email, cohort name and a screenshot of the issue.\nIs it happening in a specific section or in the entire course?",
+      "embeds": [],
+      "created": 1772444406199,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "parchuripoojithkumar",
+      "user_id": "1473348496600993803",
+      "is_bot": false,
+      "content": "Mail: 124cs0029@iiitk.ac.in\nCohort Akasians",
+      "embeds": [],
+      "created": 1772444459653,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "parchuripoojithkumar",
+      "user_id": "1473348496600993803",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1772444555569,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Hi <@1473348496600993803> \nas suggested, kindly access the course on a laptop or desktop.\nIf you're unable to access it over there, kindly let us know.",
+      "embeds": [],
+      "created": 1772445596312,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "<@1473348496600993803> is your issue resolved?",
+      "embeds": [],
+      "created": 1772452289191,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "parchuripoojithkumar",
+      "user_id": "1473348496600993803",
+      "is_bot": false,
+      "content": "Yes\nThank you",
+      "embeds": [],
+      "created": 1772453097521,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1469178567551090933>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772454592401,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772454592668,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772454594939,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0314",
+    "id": "1477958301420486698"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

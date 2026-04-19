@@ -1,0 +1,132 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1472070025061073081> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I have completed ViBe lectures, Case Studies, all the activities before deadline ..but my name is not showing on dashboard ...could you help me with this ...",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773459249549,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1472070025061073081> \nWe have escalated your query.",
+      "embeds": [],
+      "created": 1773485602225,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "richasingh2406",
+      "user_id": "1472070025061073081",
+      "is_bot": false,
+      "content": "Hello mam !! It's been more than 2 days ...but my query hasn't been solved yet....",
+      "embeds": [],
+      "created": 1773628727548,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1472070025061073081> \nDo not worry the team knows your issue. \nWe are working on it as many students are facing the same issue.",
+      "embeds": [],
+      "created": 1773632179443,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1472070025061073081> \nKindly check now once and share the updates on the same ones.",
+      "embeds": [],
+      "created": 1773643046025,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "richasingh2406",
+      "user_id": "1472070025061073081",
+      "is_bot": false,
+      "content": "Yes mam !! Thankyou......my  issue has been solved and I can see my name on dashboard.....",
+      "embeds": [],
+      "created": 1773681443456,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773717484663,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773717485283,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773717487665,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0430",
+    "id": "1482220262412914758"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 9
+}

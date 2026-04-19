@@ -1,0 +1,174 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1468981007188361227> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Endorsement and Exams clashing",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773555331366,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "7335920545",
+      "user_id": "1468981007188361227",
+      "is_bot": false,
+      "content": "Sir, i got to know that we have to get endorsed by tonight, I am a 3rd year student at DTU, my midsem exams are going on. I was preparing for my exams so couldn't revise/practice this course content. I won't be able to give it till 20th, please if possible help me out, because even if i give it without studying I won't get endorsed. So I do need time to revise everything. Thankyou",
+      "embeds": [],
+      "created": 1773555583634,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1468981007188361227> \nWe have escalated your issue.",
+      "embeds": [],
+      "created": 1773560061264,
+      "edited": 1773560071287
+    },
+    {
+      "index": 4,
+      "author": "7335920545",
+      "user_id": "1468981007188361227",
+      "is_bot": false,
+      "content": "Thanks <@956180961832362014> ma'am",
+      "embeds": [],
+      "created": 1773560410790,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1468981007188361227> \nWe have extended the date till 21st of March.",
+      "embeds": [],
+      "created": 1773643729262,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "7335920545",
+      "user_id": "1468981007188361227",
+      "is_bot": false,
+      "content": "Thankyou ma'am <@956180961832362014>",
+      "embeds": [],
+      "created": 1773643751636,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1468981007188361227>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773643757023,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@956180961832362014>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1773643865323,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue is now resolved hence closing this ticket.",
+      "embeds": [],
+      "created": 1773643877470,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "Channel being renamed too quickly, Timeout: 7m, 53s - Skipping",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773643884532,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773643885330,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773643887118,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "ticket-0441",
+    "id": "1482623259278315552"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 12
+}

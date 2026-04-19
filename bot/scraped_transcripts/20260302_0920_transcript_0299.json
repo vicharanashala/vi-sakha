@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1472100194324709406> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Deadline of Week 2 ; I joined 14th Feb",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772361801605,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "shobhansarkar_68209",
+      "user_id": "1472100194324709406",
+      "is_bot": false,
+      "content": "Would you plz let me know the official deadline of week 2 ? I am asking because I wanna complete 50% before that to get some HP",
+      "embeds": [],
+      "created": 1772361878250,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "shobhansarkar_68209",
+      "user_id": "1472100194324709406",
+      "is_bot": false,
+      "content": "<@956180961832362014>  Madam",
+      "embeds": [],
+      "created": 1772363380052,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "It is counted from the day of your onboarding to ViBe",
+      "embeds": [],
+      "created": 1772363625356,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "shobhansarkar_68209",
+      "user_id": "1472100194324709406",
+      "is_bot": false,
+      "content": "Okay Thank you Madam",
+      "embeds": [],
+      "created": 1772370401779,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1472100194324709406> \nI hope your issue has been cleared?",
+      "embeds": [],
+      "created": 1772424352050,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "shobhansarkar_68209",
+      "user_id": "1472100194324709406",
+      "is_bot": false,
+      "content": "Yes Madam.. Its clear now..Thank you so much Madam",
+      "embeds": [],
+      "created": 1772431154276,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1772443207228,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772443213630,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772443213915,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772443216006,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0299",
+    "id": "1477617232992272528"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

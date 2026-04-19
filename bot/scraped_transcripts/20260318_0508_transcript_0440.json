@@ -1,0 +1,432 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1219218820758245428> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Name not shown in google form of Endorsement list eventhough I submitted my appeal.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773546864766,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1219218820758245428> \nDid you missed out on any of the milestones previously?",
+      "embeds": [],
+      "created": 1773560036738,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "preethika0351",
+      "user_id": "1219218820758245428",
+      "is_bot": false,
+      "content": "No",
+      "embeds": [],
+      "created": 1773560060831,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "preethika0351",
+      "user_id": "1219218820758245428",
+      "is_bot": false,
+      "content": "For case studies",
+      "embeds": [],
+      "created": 1773560068006,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "preethika0351",
+      "user_id": "1219218820758245428",
+      "is_bot": false,
+      "content": "I have submitted express 1 day late",
+      "embeds": [],
+      "created": 1773560085053,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "preethika0351",
+      "user_id": "1219218820758245428",
+      "is_bot": false,
+      "content": "For linkedin activity my intial mails went to spam so deadline was finished",
+      "embeds": [],
+      "created": 1773560140282,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "preethika0351",
+      "user_id": "1219218820758245428",
+      "is_bot": false,
+      "content": "That might be the reason for my low hp",
+      "embeds": [],
+      "created": 1773560169729,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Did you filled the google form later?",
+      "embeds": [],
+      "created": 1773560183582,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "For the activity then?",
+      "embeds": [],
+      "created": 1773560189960,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "preethika0351",
+      "user_id": "1219218820758245428",
+      "is_bot": false,
+      "content": "No",
+      "embeds": [],
+      "created": 1773560194892,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "preethika0351",
+      "user_id": "1219218820758245428",
+      "is_bot": false,
+      "content": "I thought deadline was finished.. can I fill now..?",
+      "embeds": [],
+      "created": 1773560212644,
+      "edited": 1773560296880
+    },
+    {
+      "index": 12,
+      "author": "preethika0351",
+      "user_id": "1219218820758245428",
+      "is_bot": false,
+      "content": "For vibe it has shown 99.9 later I forgot to see 1 video then it was 100",
+      "embeds": [],
+      "created": 1773560246119,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Please do it.",
+      "embeds": [],
+      "created": 1773560305925,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "preethika0351",
+      "user_id": "1219218820758245428",
+      "is_bot": false,
+      "content": "Ok sure..",
+      "embeds": [],
+      "created": 1773560314982,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "So please watch that as well.",
+      "embeds": [],
+      "created": 1773560323917,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Then give me an update I will escalate your issue.",
+      "embeds": [],
+      "created": 1773560335953,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "preethika0351",
+      "user_id": "1219218820758245428",
+      "is_bot": false,
+      "content": "I have watched that",
+      "embeds": [],
+      "created": 1773560338652,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "preethika0351",
+      "user_id": "1219218820758245428",
+      "is_bot": false,
+      "content": "Ok sure",
+      "embeds": [],
+      "created": 1773560345068,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "preethika0351",
+      "user_id": "1219218820758245428",
+      "is_bot": false,
+      "content": "I have completed all activities and filled all the forms",
+      "embeds": [],
+      "created": 1773563670177,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "preethika0351",
+      "user_id": "1219218820758245428",
+      "is_bot": false,
+      "content": "Can you please check out and keep my name in endorsement form",
+      "embeds": [],
+      "created": 1773563686823,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "preethika0351",
+      "user_id": "1219218820758245428",
+      "is_bot": false,
+      "content": "Mam any update upon my issue.. as today is the last date for endorsements",
+      "embeds": [],
+      "created": 1773587284920,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1219218820758245428> \nYes we are aware of this.",
+      "embeds": [],
+      "created": 1773633347646,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Kindly just endorse each other and we will keep the gform open until it is fully updated.",
+      "embeds": [],
+      "created": 1773633382737,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "preethika0351",
+      "user_id": "1219218820758245428",
+      "is_bot": false,
+      "content": "Is gform updated mam ?",
+      "embeds": [],
+      "created": 1773633459587,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "We will be updating it soon.",
+      "embeds": [],
+      "created": 1773633470449,
+      "edited": null
+    },
+    {
+      "index": 26,
+      "author": "preethika0351",
+      "user_id": "1219218820758245428",
+      "is_bot": false,
+      "content": "Ok mam Thank you 😊",
+      "embeds": [],
+      "created": 1773633483648,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1219218820758245428> \nThe date for endorsement has been increased till 21st of March. \nThe dashboard has been updated. \nYou name on the google form may take 24 hours to get updated there.",
+      "embeds": [],
+      "created": 1773643706706,
+      "edited": null
+    },
+    {
+      "index": 28,
+      "author": "preethika0351",
+      "user_id": "1219218820758245428",
+      "is_bot": false,
+      "content": "Ok mm..Thank you 😊",
+      "embeds": [],
+      "created": 1773645382206,
+      "edited": null
+    },
+    {
+      "index": 29,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1219218820758245428> \nKindly check once now if your name is visible or not on the google form.",
+      "embeds": [],
+      "created": 1773720067189,
+      "edited": null
+    },
+    {
+      "index": 30,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1219218820758245428> \nKindly check once now if your name is visible or not on the google form.",
+      "embeds": [],
+      "created": 1773808930775,
+      "edited": null
+    },
+    {
+      "index": 31,
+      "author": "preethika0351",
+      "user_id": "1219218820758245428",
+      "is_bot": false,
+      "content": "Yes mam, its present.",
+      "embeds": [],
+      "created": 1773810252778,
+      "edited": null
+    },
+    {
+      "index": 32,
+      "author": "preethika0351",
+      "user_id": "1219218820758245428",
+      "is_bot": false,
+      "content": "Thank you mam😊",
+      "embeds": [],
+      "created": 1773810260582,
+      "edited": null
+    },
+    {
+      "index": 33,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1219218820758245428> \nIs your issue resolved now?",
+      "embeds": [],
+      "created": 1773810454885,
+      "edited": null
+    },
+    {
+      "index": 34,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Can we close the ticket now?",
+      "embeds": [],
+      "created": 1773810462918,
+      "edited": null
+    },
+    {
+      "index": 35,
+      "author": "preethika0351",
+      "user_id": "1219218820758245428",
+      "is_bot": false,
+      "content": "Yes mam.. 👍",
+      "embeds": [],
+      "created": 1773810469905,
+      "edited": null
+    },
+    {
+      "index": 36,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1773810496864,
+      "edited": null
+    },
+    {
+      "index": 37,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773810505540,
+      "edited": null
+    },
+    {
+      "index": 38,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773810506024,
+      "edited": null
+    },
+    {
+      "index": 39,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773810508208,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0440",
+    "id": "1482587746655801434"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 39
+}

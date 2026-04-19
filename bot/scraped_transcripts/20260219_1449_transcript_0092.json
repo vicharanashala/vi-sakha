@@ -1,0 +1,192 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1469335160662134918> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : ViBe progress stuck at 97.61 and tried all possible suggestions",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771424332919,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "manishkumar_10769",
+      "user_id": "1469335160662134918",
+      "is_bot": false,
+      "content": "Dear ViBe Support Team,\n\nI hope you are doing well.\n\nI am writing to raise a concern regarding my course completion status on the ViBe platform.\n\nAlthough I have completed the entire course — including attending all lectures, watching all videos (including the final two slots), attempting and completing all quizzes, and making notes throughout — my dashboard is still showing **97.61% completion** instead of 100%.\n\nFrom the completion details:\n\n* Total Completed: 982 / 1006\n* Videos Watched: 394 / 517\n* Quizzes Completed: 487 / 489\n* Express Section: Showing 134/134 \n* React Section: 316/369 completed\n\nHowever, I have already watched all the videos till the last lecture. The Express section also reflects full completion visually, yet the count appears inconsistent. This indicates a possible backend progress-tracking issue.\n\nAt this stage, it is extremely difficult for me to manually scroll and re-open hundreds of videos to identify which specific ones are contributing to the completion percentage. I have already spent nearly 5–6 hours trying to resolve this by replaying some lectures, but the progress percentage does not increase.\n\nI have attached screenshots as proof of my current completion status.\n\nI kindly request the following:\n\n1. Please review my backend progress logs and verify my completion manually.\n2. Kindly update my course completion status to 100% after verification.\n3. Ensure that my Health Points (HPs) are not deducted due to this technical issue, as the incomplete status is not due to lack of effort on my end.\n\nI have carefully reviewed the FAQs and discussion threads, but my situation appears different because replaying lectures is not affecting the progress count.\n\nI sincerely request your assistance in resolving this at the earliest, as I have fully completed the course and fulfilled all requirements.\n\nThank you for your time and support.\n\nRegards,\nManish Kumar",
+      "embeds": [],
+      "created": 1771424431824,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "manishkumar_10769",
+      "user_id": "1469335160662134918",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771424536744,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@666826791016595456> Please look into this issue.",
+      "embeds": [],
+      "created": 1771424558788,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1469335160662134918> Could you share your mail id",
+      "embeds": [],
+      "created": 1771430273204,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "manishkumar_10769",
+      "user_id": "1469335160662134918",
+      "is_bot": false,
+      "content": "manishkumar_23cs242@dtu.ac.in",
+      "embeds": [],
+      "created": 1771477649350,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "We'll check and update your progress accordingly 👍🏻",
+      "embeds": [],
+      "created": 1771478454514,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1469335160662134918> Could you please confirm once you have completed the course? Kindly click on the \"Continue\" button and share a screenshot. We have reviewed your progress and noticed that some videos and quizzes are still pending completion.",
+      "embeds": [],
+      "created": 1771483308201,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "manishkumar_10769",
+      "user_id": "1469335160662134918",
+      "is_bot": false,
+      "content": "Sir As I mentioned there are large number of lectures it is showing in between as not completed but I have gone through each and every lecture and quiz and its  not possible for me to do them again as it will take a lot of time .The proof is those all completed lectures of MongoDb and Express .",
+      "embeds": [],
+      "created": 1771498288250,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "Okay got it",
+      "embeds": [],
+      "created": 1771501252998,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1469335160662134918> We have updated your completion % and completed count, please check and confirm. Thankyou.",
+      "embeds": [],
+      "created": 1771503756244,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "manishkumar_10769",
+      "user_id": "1469335160662134918",
+      "is_bot": false,
+      "content": "Yes Sir , Its now showing completed.\nThank u very much for your kind attention.",
+      "embeds": [],
+      "created": 1771506616476,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1469335160662134918>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771506635567,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771506636089,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771512585043,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0092",
+    "id": "1473685204349485096"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 15
+}

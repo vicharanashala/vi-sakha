@@ -1,0 +1,162 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1213862624014499873> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : My 10% Vibe completion HP was never added to my total HP. I previously sent an email regarding this issue, but it remains unresolved. If the 10% had been applied correctly, my HP would currently be higher than 131",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772515428562,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1213862624014499873> can you mention your cohort name, registered mail ID and the date of completion.",
+      "embeds": [],
+      "created": 1772515568746,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "avi_d_vedi",
+      "user_id": "1213862624014499873",
+      "is_bot": false,
+      "content": "Name - Avinash Dwivedi\nMail ID - avinashssr4666@gmail.com\nCohort - Euclidean \nDateofcompletion - 26 Jan 2026 (approx)",
+      "embeds": [],
+      "created": 1772515835183,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1213862624014499873> \nWe have escalated your query it will be soon resolved.",
+      "embeds": [],
+      "created": 1772516840331,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "avi_d_vedi",
+      "user_id": "1213862624014499873",
+      "is_bot": false,
+      "content": "Thankyou mam",
+      "embeds": [],
+      "created": 1772516889733,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1213862624014499873> Please check now.",
+      "embeds": [],
+      "created": 1772517624958,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "avi_d_vedi",
+      "user_id": "1213862624014499873",
+      "is_bot": false,
+      "content": "<@836880971017748512> Thank you  sir,  points are added but earlier I was removed from cohert page  because of this and still my name is not added in cohort page",
+      "embeds": [],
+      "created": 1772518127903,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1213862624014499873> Your name is in the page",
+      "embeds": [],
+      "created": 1772518694364,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "avi_d_vedi",
+      "user_id": "1213862624014499873",
+      "is_bot": false,
+      "content": "Okay sir thank you",
+      "embeds": [],
+      "created": 1772518779596,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772518794016,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772518794475,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772518798274,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0327",
+    "id": "1478261591274291341"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 12
+}

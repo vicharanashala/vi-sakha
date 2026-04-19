@@ -1,0 +1,254 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1471199232659554315> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : My name(Sushmitha, Mail : sushmitharadapaka9@gmail.com) from Euclidieans Cohort is invisible in endorsement Google form",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773564670524,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "sushmitharadapaka",
+      "user_id": "1471199232659554315",
+      "is_bot": false,
+      "content": "My issue still hasn't resolved please kindly resolve this , also my name is not visible in the leader board too ,please kindly check this and resolve \nThank you",
+      "embeds": [],
+      "created": 1773576722513,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "sushmitharadapaka",
+      "user_id": "1471199232659554315",
+      "is_bot": false,
+      "content": "Today is the last day for my endorsement please kindly resolve it as soon as possible .\nIf not I can't complete my endorsement  please kindly be concerned about my issue",
+      "embeds": [],
+      "created": 1773578913671,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "sushmitharadapaka",
+      "user_id": "1471199232659554315",
+      "is_bot": false,
+      "content": "Dear team \nMy issue still hasn't resolved and today is the deadline for endorsement no improvement in my issue will you please resolve this \nI raised a ticket 2:20 and now the time is 10 :30 still is the same as before I request you  to resolve this as soon as possible",
+      "embeds": [],
+      "created": 1773594107180,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1471199232659554315> We'll be resolving the issue and communicating with the concerned team over the issue\n\nCC: <@956180961832362014>",
+      "embeds": [],
+      "created": 1773631824395,
+      "edited": 1773631833645
+    },
+    {
+      "index": 6,
+      "author": "sushmitharadapaka",
+      "user_id": "1471199232659554315",
+      "is_bot": false,
+      "content": "Okay sir \nThank you",
+      "embeds": [],
+      "created": 1773632456728,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1471199232659554315> \nDid you missed out on any milestones?",
+      "embeds": [],
+      "created": 1773637383168,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "sushmitharadapaka",
+      "user_id": "1471199232659554315",
+      "is_bot": false,
+      "content": "No mam ,on last day of vibe 100 I was stuck at 99.9 and  my hp deducted then I mailed to support they considered it as complete and my hp is also above the base line even after deducting and I completed all mile stones before the deadlines ,my name  is visible on hp dashboard and also on case studies ,it is not visible in leader board and endorsement Google form",
+      "embeds": [],
+      "created": 1773642525504,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1471199232659554315> \nAs mentioned previously we had closed the email support desk temporarily and we are only replying on discord. Sorry for the inconvenience caused. \nWe have escalated your issue.",
+      "embeds": [],
+      "created": 1773643817440,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "sushmitharadapaka",
+      "user_id": "1471199232659554315",
+      "is_bot": false,
+      "content": "Ok mam",
+      "embeds": [],
+      "created": 1773643911718,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1471199232659554315> \nNow is your ViBe progress completed?",
+      "embeds": [],
+      "created": 1773720134169,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "sushmitharadapaka",
+      "user_id": "1471199232659554315",
+      "is_bot": false,
+      "content": "Yes mam I have completed all milestones",
+      "embeds": [],
+      "created": 1773747404800,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1471199232659554315> \nKindly check once now.",
+      "embeds": [],
+      "created": 1773808974393,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "sushmitharadapaka",
+      "user_id": "1471199232659554315",
+      "is_bot": false,
+      "content": "Yes mam it resolved \nThank you",
+      "embeds": [],
+      "created": 1773809108654,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1471199232659554315>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773809382466,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@956180961832362014>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1773809582676,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing this ticket.",
+      "embeds": [],
+      "created": 1773809595576,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "Channel being renamed too quickly, Timeout: 6m, 18s - Skipping",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773809604225,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773809604747,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773809607211,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "ticket-0442",
+    "id": "1482662430915166250"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 20
+}

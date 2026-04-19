@@ -1,0 +1,172 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1144620357806997535> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I just wanted to share a small concern regarding the live session timings. They are scheduled from 10–11 PM, but being exhausted after the day's work and college, it becomes difficult for me to attend the late session. I’m a regular attendee",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771581265531,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1144620357806997535> We understand and congratulate your efforts. We'll release the live session recordings soon daily. We'll announce it formally on the announcements channel at the earliest.",
+      "embeds": [],
+      "created": 1771582738474,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "komalpreetkaur_03",
+      "user_id": "1144620357806997535",
+      "is_bot": false,
+      "content": "Okay sir, thank you",
+      "embeds": [],
+      "created": 1771582773003,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "komalpreetkaur_03",
+      "user_id": "1144620357806997535",
+      "is_bot": false,
+      "content": "Sir, I really wanted to join the sessions live, can't anything be done in this regard?",
+      "embeds": [],
+      "created": 1771584084938,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1144620357806997535> \nThank you for reaching out to use with your query. \nWe will look into it if there is any chance to change the schedule after discussing it with the team. \nWe will update the same on the announcements channel.",
+      "embeds": [],
+      "created": 1771586178207,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "komalpreetkaur_03",
+      "user_id": "1144620357806997535",
+      "is_bot": false,
+      "content": "Thank you so much mam",
+      "embeds": [],
+      "created": 1771586217639,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "You're most welcome <@1144620357806997535> .",
+      "embeds": [],
+      "created": 1771586248201,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "I hope your doubt is cleared and your issue has been resolved.",
+      "embeds": [],
+      "created": 1771586265897,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "komalpreetkaur_03",
+      "user_id": "1144620357806997535",
+      "is_bot": false,
+      "content": "Yes mam",
+      "embeds": [],
+      "created": 1771586936894,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Ok then.\nAs the issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1771586970197,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771586980050,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771586980747,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771586983000,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0126",
+    "id": "1474343426928545976"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 13
+}

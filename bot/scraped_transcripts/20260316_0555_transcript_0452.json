@@ -1,0 +1,102 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1409493936099299441> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Good morning maam,  I am G. Lakshmi from the Aksians batch. I am currently doing the VInternship. I had earlier raised a request regarding the A1 activity. I completed the activity before the deadline on 2nd March, but the HP points have not",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773639602347,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "g.lakshmi",
+      "user_id": "1409493936099299441",
+      "is_bot": false,
+      "content": "They r not updated*",
+      "embeds": [],
+      "created": 1773639647875,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "g.lakshmi",
+      "user_id": "1409493936099299441",
+      "is_bot": false,
+      "content": "They r not updated*",
+      "embeds": [],
+      "created": 1773639648404,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1409493936099299441>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773640439854,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773640440366,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773640541696,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0452",
+    "id": "1482976715805429883"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 6
+}

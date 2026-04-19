@@ -1,0 +1,272 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@700446401733197834> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I cant access the next quiz or videos after video 3",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772000344800,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@759435748721557514> <@1220060098643230811> Please look into the issue.",
+      "embeds": [],
+      "created": 1772000370375,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "durian68",
+      "user_id": "700446401733197834",
+      "is_bot": false,
+      "content": "When I am revisting quiz 2 it says undefined(reading id) but i have already completed it , i can complete video 3 but then it wont let me access quiz 3 shows \"restricted access\"\ni have refreshed quite a few times and it always brings me back to quiz 2 even though i completed video 3 \ni have changed browser , i have flagged this as a report also\nplease I request you to resolve my issue as fast as possible",
+      "embeds": [],
+      "created": 1772000547379,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1449603507865784334> Please look into it",
+      "embeds": [],
+      "created": 1772001115923,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "thirumalesh_33801",
+      "user_id": "1449603507865784334",
+      "is_bot": false,
+      "content": "<@700446401733197834> refresh and try again.",
+      "embeds": [],
+      "created": 1772001271465,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "durian68",
+      "user_id": "700446401733197834",
+      "is_bot": false,
+      "content": "the issue still remains",
+      "embeds": [],
+      "created": 1772001606770,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "durian68",
+      "user_id": "700446401733197834",
+      "is_bot": false,
+      "content": "both of my issues are still there",
+      "embeds": [],
+      "created": 1772001715634,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "thirumalesh_33801",
+      "user_id": "1449603507865784334",
+      "is_bot": false,
+      "content": "Try now.",
+      "embeds": [],
+      "created": 1772001827972,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "durian68",
+      "user_id": "700446401733197834",
+      "is_bot": false,
+      "content": "now it doesnt show i completed quiz 2 so completed the video 2 again and now quiz 2 is still showing undefined reading id and i cannot access video 3 which i was able to before",
+      "embeds": [],
+      "created": 1772001996150,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "durian68",
+      "user_id": "700446401733197834",
+      "is_bot": false,
+      "content": "the issue is not resolved",
+      "embeds": [],
+      "created": 1772002017951,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "durian68",
+      "user_id": "700446401733197834",
+      "is_bot": false,
+      "content": "ok yes now its working i can move on to my next lesson thank you",
+      "embeds": [],
+      "created": 1772002218995,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "thirumalesh_33801",
+      "user_id": "1449603507865784334",
+      "is_bot": false,
+      "content": "Not yet we will look into it.",
+      "embeds": [],
+      "created": 1772002242799,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "durian68",
+      "user_id": "700446401733197834",
+      "is_bot": false,
+      "content": "it kicked me out from the course and the course is not even on the platform and my progress is gone",
+      "embeds": [],
+      "created": 1772002911896,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@700446401733197834> Kindly be assured that your progress remains safe and unaffected. The issue will be resolved as soon as possible.",
+      "embeds": [],
+      "created": 1772003129518,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "<@700446401733197834> kindly check now and update us",
+      "embeds": [],
+      "created": 1772004459754,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "durian68",
+      "user_id": "700446401733197834",
+      "is_bot": false,
+      "content": "its just stuck here for hours",
+      "embeds": [],
+      "created": 1772020367528,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "durian68",
+      "user_id": "700446401733197834",
+      "is_bot": false,
+      "content": "its working now",
+      "embeds": [],
+      "created": 1772020490652,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@700446401733197834> Is the query resolved? Can I close the ticket?",
+      "embeds": [],
+      "created": 1772021643768,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "durian68",
+      "user_id": "700446401733197834",
+      "is_bot": false,
+      "content": "yes it is resolved",
+      "embeds": [],
+      "created": 1772021915989,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Ticket.",
+      "embeds": [],
+      "created": 1772021930500,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772021937867,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772021938288,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772021940159,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0239",
+    "id": "1476101172749271140"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 23
+}

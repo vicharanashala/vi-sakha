@@ -1,0 +1,212 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1341063171338670142> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : my name is not visible in the dashboard, but i had progress in vibe platform and completed and submitted forms even declaration",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773161421226,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1341063171338670142> Please mention your Registered mail cohort name and elaborate on the issue faced",
+      "embeds": [],
+      "created": 1773199492242,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "_noah_00n",
+      "user_id": "1341063171338670142",
+      "is_bot": false,
+      "content": "my mail id is \"mdraquif2952005@gmail.com \", cohort is Aksians but in the hp dashboard i ma unable to find myself but i have completed almost 43% of the course till now in vibe platform but in the hp dashboard i can't see myself in the list",
+      "embeds": [],
+      "created": 1773220618563,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "_noah_00n",
+      "user_id": "1341063171338670142",
+      "is_bot": false,
+      "content": "and i also submitted the activity completion forms of both A1  and A2",
+      "embeds": [],
+      "created": 1773220993205,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "We have escalated your issue. \n<@1341063171338670142>",
+      "embeds": [],
+      "created": 1773223633624,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1341063171338670142> \nAs per the dashboard your name is visible on it..",
+      "embeds": [],
+      "created": 1773233312730,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "_noah_00n",
+      "user_id": "1341063171338670142",
+      "is_bot": false,
+      "content": "But I cannot see my hp score",
+      "embeds": [],
+      "created": 1773257002821,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1341063171338670142> \nWe hope you are actually filling the activity form and completing the activities for the same.",
+      "embeds": [],
+      "created": 1773288698331,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "_noah_00n",
+      "user_id": "1341063171338670142",
+      "is_bot": false,
+      "content": "yes i am filling the forms",
+      "embeds": [],
+      "created": 1773324398999,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1341063171338670142> \nAre your filling the forms with your registered mail ID.",
+      "embeds": [],
+      "created": 1773377242076,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1341063171338670142> \nKindly check now.",
+      "embeds": [],
+      "created": 1773380982731,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1341063171338670142> \nIs your issue resolved now?",
+      "embeds": [],
+      "created": 1773463593010,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "_noah_00n",
+      "user_id": "1341063171338670142",
+      "is_bot": false,
+      "content": "yes thank you",
+      "embeds": [],
+      "created": 1773500012906,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue is now resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1773502126197,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773502138282,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773502139023,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773502142716,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0409",
+    "id": "1480971077546151988"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 17
+}

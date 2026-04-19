@@ -1,0 +1,242 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1317881661894955148> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : i have a issue in viewing content on vibe platform",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772041890911,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Please elaborate on your issue",
+      "embeds": [],
+      "created": 1772041980834,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "oml1321",
+      "user_id": "1317881661894955148",
+      "is_bot": false,
+      "content": "hey guys! so i was trying to complete 20% of the course by today and at one point after completing the quiz, there was a pop up which i have attached. i m unable to view the videos unless i rollback which is exhausting. any other fixes or do i get a extension period!",
+      "embeds": [],
+      "created": 1772041986384,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "oml1321",
+      "user_id": "1317881661894955148",
+      "is_bot": false,
+      "content": "give me a min i'll send the popup screenshot",
+      "embeds": [],
+      "created": 1772041999193,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "oml1321",
+      "user_id": "1317881661894955148",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1772042020964,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Also give me the email you're registered with, cohort name and the specific module you're having this issue with",
+      "embeds": [],
+      "created": 1772042061075,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "oml1321",
+      "user_id": "1317881661894955148",
+      "is_bot": false,
+      "content": "samikshagopinath@gmail.com is the mail, I am registered in AKSians cohort",
+      "embeds": [],
+      "created": 1772042083970,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "oml1321",
+      "user_id": "1317881661894955148",
+      "is_bot": false,
+      "content": "the specific module is typescript- introduction to typescript- video 11",
+      "embeds": [],
+      "created": 1772042108382,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "kindly check once again from video 10\nand see if the issue persists",
+      "embeds": [],
+      "created": 1772042379735,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "<@1317881661894955148> Was the issue resolved?\nAlso, Please ensure that you have a professional DP and the Username.",
+      "embeds": [],
+      "created": 1772047583660,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "oml1321",
+      "user_id": "1317881661894955148",
+      "is_bot": false,
+      "content": "My bad. I'll check and let you know.",
+      "embeds": [],
+      "created": 1772083615789,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1317881661894955148> \nIs you issue resolved?\nKindly put on a professional DP and write your full name on discord.",
+      "embeds": [],
+      "created": 1772084880944,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "oml1321",
+      "user_id": "1317881661894955148",
+      "is_bot": false,
+      "content": "I dont know if the issue is resolved yet. I am currently attending my lectures. As soon as i get home I'll check it out and let you know and I'll update my dp nd name",
+      "embeds": [],
+      "created": 1772086212834,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "oml1321",
+      "user_id": "1317881661894955148",
+      "is_bot": false,
+      "content": "I have a query btw. I havent completed my 20% of course progress yet. This issue happened yesterday when i was attempting to complete it and yesterday was the 5th day of joining the course. Would i still be able to participate in the internship and get the offer letter?",
+      "embeds": [],
+      "created": 1772102604892,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1317881661894955148> \nKindly continue the ViBe learning. \nAbout the offer letter we will announce it soon on the official announcement.",
+      "embeds": [],
+      "created": 1772103784265,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "@sam",
+      "embeds": [],
+      "created": 1772460727575,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Will be closing this ticket as the name and DP are not professional and I am not able to keep a track of the person who raised this issue.",
+      "embeds": [],
+      "created": 1772460785409,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772460793388,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772460793786,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772460798432,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0257",
+    "id": "1476275428233711646"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 20
+}

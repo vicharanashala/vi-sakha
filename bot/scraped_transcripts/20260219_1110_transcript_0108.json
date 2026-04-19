@@ -1,0 +1,122 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1150686193583919134> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Deduction of -10% HP for not completion Vibe.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771495847197,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "ravibaskey70",
+      "user_id": "1150686193583919134",
+      "is_bot": false,
+      "content": "My Vibe was stuck at 99.7% previously and i was not able to complete 100% on vibe. The tech team, Sakishi Mam and Rohit Sir stated that it is a dashboard level issue and it will be resolved automatically but now its been 2 weeks and my issue is still not resolved.\nAlso a deductin of -10% HP has been imposed on me and my HP is reduced due to which i am 'UNSAFE' .\nOn the last day of deadline in Vibe leader board it was showing 'Completed' ( proof attached ) therefore i was not taking any stress.",
+      "embeds": [],
+      "created": 1771496346375,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "ravibaskey70",
+      "user_id": "1150686193583919134",
+      "is_bot": false,
+      "content": "Please help me to restore my HP.",
+      "embeds": [],
+      "created": 1771496819622,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1150686193583919134> Do not worry as this will be considered as completed and the HP will be reverted.",
+      "embeds": [],
+      "created": 1771497829062,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "ravibaskey70",
+      "user_id": "1150686193583919134",
+      "is_bot": false,
+      "content": "Thank you sir for resolving my issue.",
+      "embeds": [],
+      "created": 1771498103471,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1150686193583919134>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771498124258,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771498124693,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771499435806,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0108",
+    "id": "1473985155600351377"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 8
+}

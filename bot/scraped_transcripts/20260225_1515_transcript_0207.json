@@ -1,0 +1,242 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1474626519371350201> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : not able to start quiz",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771914924829,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "khwahish93",
+      "user_id": "1474626519371350201",
+      "is_bot": false,
+      "content": "i saw the video 7 times still quiz is not starting .",
+      "embeds": [],
+      "created": 1771914962472,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1474626519371350201> Could you send one screenshot/screen recording of the issue, it would be helpfull",
+      "embeds": [],
+      "created": 1771914997659,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "khwahish93",
+      "user_id": "1474626519371350201",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771915029454,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "khwahish93",
+      "user_id": "1474626519371350201",
+      "is_bot": false,
+      "content": "i have also attempted quiz 3 but it is also not marked completed .",
+      "embeds": [],
+      "created": 1771915060208,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@759435748721557514> Kindly look into this issue.",
+      "embeds": [],
+      "created": 1771915488979,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "<@1474626519371350201> kindly check now and let us know the status",
+      "embeds": [],
+      "created": 1771916630164,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "khwahish93",
+      "user_id": "1474626519371350201",
+      "is_bot": false,
+      "content": "it is running but only showing that attempt unsuccesful",
+      "embeds": [],
+      "created": 1771917506691,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "khwahish93",
+      "user_id": "1474626519371350201",
+      "is_bot": false,
+      "content": "i am marking correct answer then also",
+      "embeds": [],
+      "created": 1771917519058,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "khwahish93",
+      "user_id": "1474626519371350201",
+      "is_bot": false,
+      "content": "<@759435748721557514> lease resolve it",
+      "embeds": [],
+      "created": 1771917618395,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "khwahish93",
+      "user_id": "1474626519371350201",
+      "is_bot": false,
+      "content": "please**",
+      "embeds": [],
+      "created": 1771917626297,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "The issue will be resolved shortly. Please wait. We apologize for the inconvenience.",
+      "embeds": [],
+      "created": 1771917778773,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "<@1474626519371350201> Please check now and update us.",
+      "embeds": [],
+      "created": 1771918822280,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474626519371350201> \nIs it working now?",
+      "embeds": [],
+      "created": 1771940570804,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "khwahish93",
+      "user_id": "1474626519371350201",
+      "is_bot": false,
+      "content": "yes it is working sorry for the delay i am having my exams now",
+      "embeds": [],
+      "created": 1772031759927,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "may we close this ticket?",
+      "embeds": [],
+      "created": 1772031810400,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "khwahish93",
+      "user_id": "1474626519371350201",
+      "is_bot": false,
+      "content": "yes",
+      "embeds": [],
+      "created": 1772032344563,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772032499416,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772032499963,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772032502804,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0207",
+    "id": "1475742895846854779"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 20
+}

@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1226875837685567569> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Course Completion Status Discrepancy – 95.53% Instead of 100%olve my issue on vibe completion to 100% as today is the deadline",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771519532934,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@647093625594839050> <@1468955868019298526> <@666826791016595456> please address to this issue. This has become a major problem as we are allowing participants over 98% facing this issue as successfully completed mentioned by Rohit sir and Sakshi mam.",
+      "embeds": [],
+      "created": 1771519680759,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1226875837685567569> please ensure that you have completed all the content as there might be some cases where the content might not be marked as completed. Please check them and retry again.",
+      "embeds": [],
+      "created": 1771519749603,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "mohammad.muslim",
+      "user_id": "1226875837685567569",
+      "is_bot": false,
+      "content": "I have tried to go back and rewatch the unmarked videos, but the platform shows a red alert: \"Access Restricted: Returning to previous valid content.\" This restriction makes it impossible to rewatch specific videos, even if they are marked as incomplete.",
+      "embeds": [],
+      "created": 1771519782425,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "mohammad.muslim",
+      "user_id": "1226875837685567569",
+      "is_bot": false,
+      "content": "Subject: Course Completion Status Discrepancy – 95.53% Instead of 100%\n\nDear ViBe Support Team,\n\nI hope you are doing well.\n\nI am writing to raise a concern regarding my course completion status on the ViBe platform.\n\nMain Issue:\n\nI have tried to watch the unmarked videos but the ViBe platform is restricting me from jumping to those unmarked videos, and it is practically not feasible or possible to rewatch all 1006 videos.\n\nAlthough I have completed the entire course — including attending all lectures, watching all videos, attempting and completing all quizzes, and making notes throughout — my dashboard is still showing 95.53% completion instead of 100%.\n\nCompletion Details:\n\nTotal Completed: 961 / 1006\nVideos Watched: 294 / 517\nQuizzes Completed: 475 / 489\nSection-wise Progress:\n\nJavaScript: 2 sections, 79/90 completed\nTypeScript: 12 sections, 211/288 completed\nReact: 19 sections, 253/369 completed\nMongoDB: 9 sections, 118/125 completed\nExpress: 6 sections, 108/134 completed",
+      "embeds": [],
+      "created": 1771519806355,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "mohammad.muslim",
+      "user_id": "1226875837685567569",
+      "is_bot": false,
+      "content": "Additional Notes:\n\nI have already watched all videos up to the last lecture.But the count appears inconsistent, suggesting a backend progress-tracking issue.\nDuring the course, I encountered multiple instances where the platform displayed a red message stating \"progress not saved.\" After clicking \"Continue,\" the system proceeded without updating the progress, indicating a potential backend flaw.\nManually rewatching hundreds of videos to identify unmarked ones is impractical. I have already spent 5–6 hours trying to resolve this, but the progress percentage remains unchanged.\nI have tried to go back and rewatch the unmarked videos, but the platform shows a red alert: \"Access Restricted: Returning to previous valid content.\" This restriction makes it impossible to rewatch specific videos, even if they are marked as incomplete.\n\nRequests:\nPlease review my backend progress logs and manually verify my completion.\nUpdate my course completion status to 100% after verification.\nEnsure my Health Points (HPs) are not deducted due to this technical issue, as the incomplete status is not due to my lack of effort.\nI have attached screenshots as proof of my current completion status and restriction to access previous unmarked videos.\n\nI have carefully reviewed the FAQs and discussion threads, but my situation appears unique, as I’m unable to replay lectures which are  affecting the progress count.\n\nI sincerely request your assistance in resolving this at the earliest, as I have fully completed the course and fulfilled all requirements.\n\nThank you for your time and support.\n\nRegards,\n\nMohammad Muslim\n\nDijkstrians\nmohammadmuslim200@gmail.com",
+      "embeds": [],
+      "created": 1771519816844,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "mohammad.muslim",
+      "user_id": "1226875837685567569",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771519868072,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@666826791016595456>",
+      "embeds": [],
+      "created": 1771522115363,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1226875837685567569>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771525628300,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771525628803,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771553178339,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0113",
+    "id": "1474084501272526903"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

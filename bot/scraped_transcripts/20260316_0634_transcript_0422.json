@@ -1,0 +1,262 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1025037428030967838> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : No Health Point Awarded for Article Activity",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773334183483,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "Hello sir ma’am \nI have completed the Article activity and had submitted the form before the deadline \nbut today i observed that i haven’t been awarded health point for it",
+      "embeds": [],
+      "created": 1773334237304,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "this issue has previously occurred also because my registered mail is of Microsoft domain and wont be able to fill the google form of activity with it",
+      "embeds": [],
+      "created": 1773334283638,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "so i fill the form with my personal mail",
+      "embeds": [],
+      "created": 1773334298966,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "please look into this",
+      "embeds": [],
+      "created": 1773334304530,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "Nishant Singh",
+      "embeds": [],
+      "created": 1773334343535,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Kindly share both the mail IDs please",
+      "embeds": [],
+      "created": 1773336061947,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1025037428030967838> \nKindly share both the email ID's",
+      "embeds": [],
+      "created": 1773377342056,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "My register mail : 240211649@geu.ac.in\n\nForm filled using this mail : singhnishant0131@gmail.com",
+      "embeds": [],
+      "created": 1773401386110,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1025037428030967838> \nWe have escalated your issue. \nWe will soon get back to you with the update.",
+      "embeds": [],
+      "created": 1773404586852,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1025037428030967838> \nKindly check and tell if your issue is resolved or not?",
+      "embeds": [],
+      "created": 1773463804038,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1025037428030967838> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1773553586970,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "No ma’am just checked no health point has been awarded to me for blog section",
+      "embeds": [],
+      "created": 1773553875399,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Ok We will look into it.",
+      "embeds": [],
+      "created": 1773559287109,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "Okay Ma’am",
+      "embeds": [],
+      "created": 1773582202303,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1025037428030967838> \nKindly check once now?",
+      "embeds": [],
+      "created": 1773640968199,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "yes maam the issue has been resolved",
+      "embeds": [],
+      "created": 1773642772486,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "nishant_raghuvanshi",
+      "user_id": "1025037428030967838",
+      "is_bot": false,
+      "content": "Thank you",
+      "embeds": [],
+      "created": 1773642810951,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1773642837225,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773642846118,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773642846636,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773642851949,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0422",
+    "id": "1481695696787869917"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 22
+}

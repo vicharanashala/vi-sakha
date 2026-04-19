@@ -1,0 +1,222 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1475184394007220350> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Help me in registering for the course, it always asks for me to do and can’t see the modules videos",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771867386361,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "syedqadeerahmed",
+      "user_id": "1475184394007220350",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771867509326,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "syedqadeerahmed",
+      "user_id": "1475184394007220350",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771867529056,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "syedqadeerahmed",
+      "user_id": "1475184394007220350",
+      "is_bot": false,
+      "content": "Anyone there",
+      "embeds": [],
+      "created": 1771868033077,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Kindly let me know your email and cohort name you're registering for",
+      "embeds": [],
+      "created": 1771868274503,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "syedqadeerahmed",
+      "user_id": "1475184394007220350",
+      "is_bot": false,
+      "content": "sqa.syed08@gmail.com",
+      "embeds": [],
+      "created": 1771868623600,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "syedqadeerahmed",
+      "user_id": "1475184394007220350",
+      "is_bot": false,
+      "content": "Aksians",
+      "embeds": [],
+      "created": 1771868639507,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "You have been approved\ntry registering and then logging in at https://vibe.vicharanashala.ai/",
+      "embeds": [],
+      "created": 1771868751223,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "using the same email",
+      "embeds": [],
+      "created": 1771868773585,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "syedqadeerahmed",
+      "user_id": "1475184394007220350",
+      "is_bot": false,
+      "content": "Do I have to enable my microphone and camera permissions even when watching an offline lecture video",
+      "embeds": [],
+      "created": 1771868970704,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "yes\ndefinitely",
+      "embeds": [],
+      "created": 1771869080315,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "so were you able to get the access?",
+      "embeds": [],
+      "created": 1771869098435,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "syedqadeerahmed",
+      "user_id": "1475184394007220350",
+      "is_bot": false,
+      "content": "Yes, than you ma’am",
+      "embeds": [],
+      "created": 1771869253303,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "syedqadeerahmed",
+      "user_id": "1475184394007220350",
+      "is_bot": false,
+      "content": "How do I close this ticket",
+      "embeds": [],
+      "created": 1771869260426,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1469178567551090933>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771869345120,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771869345642,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Anytime!\ni'm closing it then.",
+      "embeds": [],
+      "created": 1771869377331,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771869381220,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0206",
+    "id": "1475543504431353986"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 18
+}

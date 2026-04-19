@@ -1,0 +1,282 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1470441864682405949> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Hp related issues",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772203729071,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "akashmukherjee0837",
+      "user_id": "1470441864682405949",
+      "is_bot": false,
+      "content": "Good evening sir.\nI am Akash Mukherjee from Educlideans Cohort.\nMy mail id - mukherjeeakash2004@gmail.com \nRespected sir / mam, \nI have completed my 100% vibe progress in time \nAnd also completed my cs week 2 \nBut till now my hp was not updated it is showing -10% for vibe progress \nAnd -5% for csweek 2.",
+      "embeds": [],
+      "created": 1772203887808,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "Hi <@1470441864682405949> \nWe have noted your concern and would come back after connecting with the concern team. \ncc <@956180961832362014> Ma'am",
+      "embeds": [],
+      "created": 1772204189389,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1470441864682405949> \nWe have escalated your issue.",
+      "embeds": [],
+      "created": 1772295924744,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1470441864682405949> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772428299450,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "akashmukherjee0837",
+      "user_id": "1470441864682405949",
+      "is_bot": false,
+      "content": "Yes mam\nBut same problem for cs 3😭",
+      "embeds": [],
+      "created": 1772428480134,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Kindly elaborate on your issue so that we can escalate it with proper cohort name.",
+      "embeds": [],
+      "created": 1772440521696,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "akashmukherjee0837",
+      "user_id": "1470441864682405949",
+      "is_bot": false,
+      "content": ".",
+      "embeds": [],
+      "created": 1772441865807,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "akashmukherjee0837",
+      "user_id": "1470441864682405949",
+      "is_bot": false,
+      "content": "The previous issue resolved \nBut same problem for cs3",
+      "embeds": [],
+      "created": 1772441890448,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1470441864682405949> \nWe have escalated your issue.",
+      "embeds": [],
+      "created": 1772461202628,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1470441864682405949> \nYour issue has been resolved. \nCan we close this ticket now?",
+      "embeds": [],
+      "created": 1772515464050,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "akashmukherjee0837",
+      "user_id": "1470441864682405949",
+      "is_bot": false,
+      "content": "Mam in cs3 i get -5%",
+      "embeds": [],
+      "created": 1772515972536,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1470441864682405949> \nThis is because you were to submit 30 case studies but you submitted only 29 case studies. And for vibe 100% we already have reverted the HP. \nSo we hope the issue is clear now.",
+      "embeds": [],
+      "created": 1772516069871,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "akashmukherjee0837",
+      "user_id": "1470441864682405949",
+      "is_bot": false,
+      "content": "Ok mam",
+      "embeds": [],
+      "created": 1772532400959,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "akashmukherjee0837",
+      "user_id": "1470441864682405949",
+      "is_bot": false,
+      "content": "But I submitted 30 case studies",
+      "embeds": [],
+      "created": 1772532415486,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1470441864682405949> \nWe have escalated your query.",
+      "embeds": [],
+      "created": 1772640971816,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "In your case, you are saying you have submitted 30, but there are 29 on CSProgress. We  have checked the submission form, and you have missed Typescript CS 17 as the mail entry was incorrect.\nThat is why there are only 29 submissions from your side. \n<@1470441864682405949>",
+      "embeds": [],
+      "created": 1772693569188,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "akashmukherjee0837",
+      "user_id": "1470441864682405949",
+      "is_bot": false,
+      "content": "What can I do now mam",
+      "embeds": [],
+      "created": 1772693777730,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Just try to be focused and try to complete the milestones on time. Try to focus on the next phase and earn the HP's their.",
+      "embeds": [],
+      "created": 1772697985098,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1470441864682405949> is the issue resolved? Cant the ticket be closed?",
+      "embeds": [],
+      "created": 1772707630883,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "akashmukherjee0837",
+      "user_id": "1470441864682405949",
+      "is_bot": false,
+      "content": "Ok sir",
+      "embeds": [],
+      "created": 1772707659125,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772708881776,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772708882263,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772708885646,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0281",
+    "id": "1476954228969836556"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 24
+}

@@ -1,0 +1,132 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1469736094483484764> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Hello,  I’m raising this ticket regarding an HP deduction on my account.  My submission (ViBe 100%) was about one hour late, and I believe this happened due to some unexpected technical issues on the platform at that time. I do have supporti",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771664357342,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nency_patel",
+      "user_id": "1469736094483484764",
+      "is_bot": false,
+      "content": "Hello Team,\n\nI hope you are doing well. I am reaching out here regarding an issue I faced while completing my ViBe platform course before the deadline. Despite my sincere efforts to complete the course on time, I encountered several technical problems that were not caused by my actions.\n\nWhile completing the course, I experienced these issues:\n\n• After submitting quizzes, I received a score of 0 even though all answers were marked correct, which forced me to rewatch videos repeatedly.\n• Even with a 100% quiz score, I was redirected back to the previous video, creating a continuous loop and blocking normal progression.\n• After finishing the course, my progress showed around 99.60% instead of 100%. Upon manual checking, two videos were not marked as “watched” even though I had completed them — otherwise I would not have been able to proceed. After completing them again, the progress showed around 99.90% (dashboard showing 100%), but the deadline had already passed, which resulted in a –10% HP penalty.\n\nBefore contacting support, I followed the proper query process — I checked the FAQ, used the AI assistant ViSakha, and reviewed the broadcast Telegram channel. Since the issue remained unresolved and ViSakha advised me to contact the main support team, I raised this concern.\n\nDuring the same period, I was also managing academic responsibilities, including organizing a segment of the Xenesis tech event at LDRP Institute of Technology and Research along with ongoing mid-examination submissions. Despite this, I made every effort to complete the course, and I believe the delay occurred due to platform glitches rather than negligence from my side.\n\nI kindly request a review of my course progress and reconsideration/restoration of the –10% HP, as it is currently affecting my progress. I have screenshots and proof of the issues and can share them if needed.\n\nName: PATEL NENCY DASHARATHBHAI\nCohort Name: Euclideans\nInternship ID: WIN251002",
+      "embeds": [],
+      "created": 1771665155038,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469736094483484764> \nWe have heard you out. \nWe will be escalating your issue with the concerened team and getting back to you.",
+      "embeds": [],
+      "created": 1771667024636,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nency_patel",
+      "user_id": "1469736094483484764",
+      "is_bot": false,
+      "content": "Thank you ma'am for the update, I appreciate it. I’ll wait for further response.",
+      "embeds": [],
+      "created": 1771667213742,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469736094483484764> \nYour HP has been reverted, it may take sometime to reflect on the dashboard.\nThank you for your patience and understanding.",
+      "embeds": [],
+      "created": 1771825486497,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nency_patel",
+      "user_id": "1469736094483484764",
+      "is_bot": false,
+      "content": "Thank you for the update and for resolving the issue. Noted from my side, thank you team.",
+      "embeds": [],
+      "created": 1771827057064,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771834036713,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771834037230,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771834039330,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0141",
+    "id": "1474691938186821753"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 9
+}

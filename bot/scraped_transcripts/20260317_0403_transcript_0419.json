@@ -1,0 +1,262 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1350175996107685889> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Unable to submit case studies using registered email ID.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773288372976,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nandini_0325_86345",
+      "user_id": "1350175996107685889",
+      "is_bot": false,
+      "content": "Hello ma'am/sir. I'm unable to submit my case studies using the registered email ID, however using other email ID I'm able to submit the same files. Please help in resolving this issue at the earliest. Is it because I'ven't yet filled this consent form? https://forms.zohopublic.in/annamai1/form/DeclarationFormCohortAKSians/formperma/Sx2eewnMfPC9kI-FdVLVbA1jFZaAjP0VsuEwi5chxPM",
+      "embeds": [
+        {
+          "title": "Declaration Form - Cohort AKSians",
+          "description": "Fill out this form.",
+          "url": "https://forms.zohopublic.in/annamai1/form/DeclarationFormCohortAKSians/formperma/Sx2eewnMfPC9kI-FdVLVbA1jFZaAjP0VsuEwi5chxPM",
+          "thumbnail": {
+            "url": "https://static.zohocdn.com/forms/images/formsicon.9f2e4a123b5b37ecd1e026b34f590968.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773288391808,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1350175996107685889> \nCan you please share your  registered Mail ID?",
+      "embeds": [],
+      "created": 1773290065201,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1350175996107685889> please try submitting over other browsers and networks.",
+      "embeds": [],
+      "created": 1773290081970,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1350175996107685889> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1773315256349,
+      "edited": 1773315262956
+    },
+    {
+      "index": 6,
+      "author": "nandini_0325_86345",
+      "user_id": "1350175996107685889",
+      "is_bot": false,
+      "content": "nandinisinghal2006@gmail.com",
+      "embeds": [],
+      "created": 1773332571579,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nandini_0325_86345",
+      "user_id": "1350175996107685889",
+      "is_bot": false,
+      "content": "I've already tried but the same issue persisted.",
+      "embeds": [],
+      "created": 1773332592971,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nandini_0325_86345",
+      "user_id": "1350175996107685889",
+      "is_bot": false,
+      "content": "No",
+      "embeds": [],
+      "created": 1773332599553,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Can you share the screenshot for the same and also check your google storage connected through that mail ID?",
+      "embeds": [],
+      "created": 1773336004417,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1350175996107685889> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1773377297796,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1350175996107685889> \nIs your issue resolved now?",
+      "embeds": [],
+      "created": 1773463732113,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "nandini_0325_86345",
+      "user_id": "1350175996107685889",
+      "is_bot": false,
+      "content": "No, I'm attaching the screenshots. It's still showing problem.",
+      "embeds": [],
+      "created": 1773484784197,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Kindly check your google account's storage once. \n<@1350175996107685889>",
+      "embeds": [],
+      "created": 1773485432159,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "nandini_0325_86345",
+      "user_id": "1350175996107685889",
+      "is_bot": false,
+      "content": "Okay",
+      "embeds": [],
+      "created": 1773549340564,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1350175996107685889> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1773553569573,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1350175996107685889> \nIs your issue resolved?\\",
+      "embeds": [],
+      "created": 1773631896594,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1350175996107685889> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1773719748174,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As you are not replying  to the messages then we will assume that your issue has been resolved and will close the ticket. \nCC: <@836880971017748512>",
+      "embeds": [],
+      "created": 1773719798511,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773720216362,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773720216864,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773720220564,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0419",
+    "id": "1481503555012792381"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 21
+}

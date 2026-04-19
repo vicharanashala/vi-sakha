@@ -1,0 +1,172 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@835732009304588289> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Typescript lessons are restricted even after completing 90/90 javascript lessons.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771351580110,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@835732009304588289> \nKindly tell your cohort name. \n<@666826791016595456> \nPlease help.",
+      "embeds": [],
+      "created": 1771353473704,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "piyush022102",
+      "user_id": "835732009304588289",
+      "is_bot": false,
+      "content": "I don't know what you mean by cohort name.\nBut my full name as I registered was, Piyush Jha \nMail id:- 21f1002373@ds.study.iitm.ac.in\n\nI cleared my cache and logged out and logged in again but the issue persists, I am unable to access my typescript lessons which is just after javascript lessons.",
+      "embeds": [],
+      "created": 1771355017813,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "piyush022102",
+      "user_id": "835732009304588289",
+      "is_bot": false,
+      "content": "What happens now as I was unable to attend my lessons during my slot.",
+      "embeds": [],
+      "created": 1771355115016,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@835732009304588289> We apologize for the inconvenience you are experiencing. Please try switching to a different network and attempt again. If the issue persists, kindly inform us and we will assist you with re enrolling in the course.Thank you.",
+      "embeds": [],
+      "created": 1771376596056,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@835732009304588289> \nI hope your issue has been resolved?",
+      "embeds": [],
+      "created": 1771394382910,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "piyush022102",
+      "user_id": "835732009304588289",
+      "is_bot": false,
+      "content": "I have not checked it, I will inform you after I login at night.",
+      "embeds": [],
+      "created": 1771394870389,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "lemme know!",
+      "embeds": [],
+      "created": 1771419232140,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "piyush022102",
+      "user_id": "835732009304588289",
+      "is_bot": false,
+      "content": "I am able to watch typescript lessons now. It seems like the issue has been resolved.\nThank you.",
+      "embeds": [],
+      "created": 1771436739475,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Perfect",
+      "embeds": [],
+      "created": 1771436765557,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1359148118444343517>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771436770157,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771436770654,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771436772827,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0080",
+    "id": "1473380055823548529"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 13
+}

@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1398811600512880822> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Cannot Complete Endorsement before the dealine",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773505547427,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "yashkalra27",
+      "user_id": "1398811600512880822",
+      "is_bot": false,
+      "content": "This is in reference to the earlier ticket I raised, when the Viva were starting, there I requested to kindly allow me to give Viva after 20th, When my exams get concluded. (Please Refer the attached Screenshots)\n\nNow the deadline for endorsements have been set as 15th, which makes it impossible for me to give Viva to a Jedi. Please provide a way out in this situation.",
+      "embeds": [],
+      "created": 1773505793094,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1398811600512880822> \nThank you for getting back to us. \nI have escalated your issue so please wait for a while.",
+      "embeds": [],
+      "created": 1773559863957,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "yashkalra27",
+      "user_id": "1398811600512880822",
+      "is_bot": false,
+      "content": "Please someone guide me, What to do ?\nsince the deadline is nearing...",
+      "embeds": [],
+      "created": 1773573690174,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1398811600512880822> \nDo not worry we are looking into your issue. \nWe will update you soon.",
+      "embeds": [],
+      "created": 1773633172127,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1398811600512880822> \nAs mentioned in the announcements channel the deadline has been extended till 21st of March.",
+      "embeds": [],
+      "created": 1773643596631,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "yashkalra27",
+      "user_id": "1398811600512880822",
+      "is_bot": false,
+      "content": "Thank you so much Ma'am",
+      "embeds": [],
+      "created": 1773711324546,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Ticket",
+      "embeds": [],
+      "created": 1773717380442,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773717389285,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773717389745,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773717392214,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0437",
+    "id": "1482414449653714954"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

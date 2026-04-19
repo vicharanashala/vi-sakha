@@ -1,0 +1,112 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1022465956003459092> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I have enrolled to this internship in 18th and i have completed 20% on25th and 25% on 27th .So as per guidelines am i eligible to get offer letter?? please help me",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772242712428,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "We have noted your concern and would come back after connecting with the concern team.\ncc: <@956180961832362014>  Ma'am",
+      "embeds": [],
+      "created": 1772281032727,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1022465956003459092> \nDo not worry, we will soon release an update regarding the offer letters. Till then you all can cintinue with your milestones.",
+      "embeds": [],
+      "created": 1772295546293,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "bhanu_teja_t_s",
+      "user_id": "1022465956003459092",
+      "is_bot": false,
+      "content": "Thankyou",
+      "embeds": [],
+      "created": 1772331655221,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1022465956003459092>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772351322268,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772351322762,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772354869723,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0285",
+    "id": "1477117736692879402"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 7
+}

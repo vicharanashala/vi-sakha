@@ -1,0 +1,112 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473352569144475699> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Regarding NPTEL exam certification",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771857087000,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473352569144475699> \nKindly elaborate your issue.",
+      "embeds": [],
+      "created": 1771857111832,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "rajkumarbajiyan",
+      "user_id": "1473352569144475699",
+      "is_bot": false,
+      "content": "Yes, please give me a minute",
+      "embeds": [],
+      "created": 1771857122007,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "rajkumarbajiyan",
+      "user_id": "1473352569144475699",
+      "is_bot": false,
+      "content": "<@956180961832362014> \nIn the zoom session conducted today, we were told that the NPTEL Exam certification is mandatory to get the internship certification. \nBut a lot of people did not know about this. Hence, though they are enrolled in the course, a lot of us haven't registered for the exam.\nBut now, the deadline for exam registrations has already passed. \nSo, what should be done now? I just wanted to get some clarity on this. \nI appreciate your time and response.",
+      "embeds": [],
+      "created": 1771857249025,
+      "edited": 1771857302752
+    },
+    {
+      "index": 5,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1473352569144475699>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771857657290,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771857657821,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771860116183,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0195",
+    "id": "1475500305205690421"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 7
+}

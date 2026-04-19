@@ -1,0 +1,172 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1476279664107585577> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I hope you are doing well.  I would like to inform you that my friend from the Kruskalians batch is currently unable to join the Vintership Discord server. Could you please look into this issue and assist her with gaining access?  Her detail",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772948154216,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1476279664107585577> Please elaborate on the issue.",
+      "embeds": [],
+      "created": 1772948461311,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "satav701",
+      "user_id": "1476279664107585577",
+      "is_bot": false,
+      "content": "Actually, she is new to Discord, so she sent a request to join the Vintership server on 4th March. However, until today the status is still showing “Your application is pending.”\n\nBecause of this, she is unable to access the server and the resources shared there. Could you please check her request and help approve it?  Name : Vijayalaxmi Swami\nEmail: vijayalaxmiswami99@gmail.com Thank you for your help.",
+      "embeds": [],
+      "created": 1772949408749,
+      "edited": 1772949468605
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Please note that the intern must follow the regulations mentioned in order to be accepted: Formal DP and Full name as the user name.",
+      "embeds": [],
+      "created": 1772950457885,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "shaurya.loop",
+      "user_id": "775738285103775775",
+      "is_bot": false,
+      "content": "<@1476279664107585577> \nVijayalaxmi Swami is not uploading a professional picture of herself in her profile picture even after multiple indications about the same that's why her application is getting rejected. Kindly tell her to upload a professional pfp to get her application accepted. \n\nCC: <@836880971017748512>",
+      "embeds": [],
+      "created": 1772952376987,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "shaurya.loop",
+      "user_id": "775738285103775775",
+      "is_bot": false,
+      "content": "Application approved. \n\nCC: <@836880971017748512>",
+      "embeds": [],
+      "created": 1772954051090,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1476279664107585577> Is the issue resolved? Can we close the ticket?",
+      "embeds": [],
+      "created": 1773036540128,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1476279664107585577> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1773120015665,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1476279664107585577> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1773202589780,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1476279664107585577> \nAs you are not replying we will assume that your issue has been resolved and hence will be closing this ticket. \nYou may raise a new ticket for any further queries. \nCC: <@836880971017748512>",
+      "embeds": [],
+      "created": 1773205617083,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773206287058,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773206287566,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773206290326,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0390",
+    "id": "1480076573658058945"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 13
+}

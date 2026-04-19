@@ -1,0 +1,162 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1350137183142678620> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Hello Team, I had mailed on February 10 and was told the deduction due to 100% completion would be reverted, but it has still not been corrected after two weeks. My current HP is 142, whereas it should be around 170, and this is affecting fu",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772197390569,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1350137183142678620> \nWe have escalated your query. \nWe will update you soon with the HP information.",
+      "embeds": [],
+      "created": 1772197489096,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1350137183142678620> \nCould you once elaborate on your issue?",
+      "embeds": [],
+      "created": 1772197507537,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Also stating your cohort name",
+      "embeds": [],
+      "created": 1772197517811,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "kumar_anmol16",
+      "user_id": "1350137183142678620",
+      "is_bot": false,
+      "content": "My ViBe completion was previously stuck at 99.90%, which resulted in a 10% deduction from my HP. I had reported this to the support team via email and received a response stating that the deduction would be reverted soon. However, the correction has not yet been reflected.\nIn the meantime, any activities I complete are being calculated based on the reduced HP, which is causing my total HP to be lower than it should be.\nI am from Euclideans Batch.",
+      "embeds": [],
+      "created": 1772198357820,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "kumar_anmol16",
+      "user_id": "1350137183142678620",
+      "is_bot": false,
+      "content": "Thank you ma'am for resolving the problem.",
+      "embeds": [],
+      "created": 1772348396178,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1350137183142678620> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772428174599,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "kumar_anmol16",
+      "user_id": "1350137183142678620",
+      "is_bot": false,
+      "content": "Yes ma'am",
+      "embeds": [],
+      "created": 1772428205468,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1772428270234,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772428276936,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772428277225,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772428279490,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0279",
+    "id": "1476927643046776844"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 12
+}

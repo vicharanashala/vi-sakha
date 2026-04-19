@@ -1,0 +1,182 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1469248139419713701> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Good evening Ma'am,  I am Gows Maithine from the Euclideans cohort. I have completed the case studies and the VIVA requirements. However, my name is not appearing on the cohort dashboard.  Since appearing for the VIVA is mandatory, I kindly",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773041981199,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469248139419713701> \nWe hope you have not missed any milestone deadline anyhow in the internship.",
+      "embeds": [],
+      "created": 1773042151848,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "gowsmaithine",
+      "user_id": "1469248139419713701",
+      "is_bot": false,
+      "content": "Respected Ma’am,\n\nI joined the cohort a little late and was not aware of the initial details of the program. Because of this, I unfortunately missed the milestone in the first 25% of the course.\n\nHowever, after understanding the structure of the cohort, I worked very hard to catch up. Even though it was quite challenging for me as a final-year student, I made sure not to miss any further milestones. I have consistently and carefully completed all the remaining milestones of the VIBE course as well as the case studies.\n\nI kindly request you to please allow me to attend the viva, Ma’am. I would be grateful if you could guide me on the steps I need to take to attend the viva.\n\nFor your reference, I have attached my VIBE course progress and case study progress.\n\nThank you for your time and consideration.\n\nYours sincerely,\nGows Maithine\nInternship ID: WIN25876",
+      "embeds": [],
+      "created": 1773067497578,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "gowsmaithine",
+      "user_id": "1469248139419713701",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1773068127487,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469248139419713701> \nThe milestones are to be calculated from the day of joining in",
+      "embeds": [],
+      "created": 1773069106259,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "gowsmaithine",
+      "user_id": "1469248139419713701",
+      "is_bot": false,
+      "content": "Respected Ma’am,\n\nI sincerely apologize if I have missed any milestone. I would like to clarify that it was not due to joining late, but because I was not fully aware of the milestone requirements and their deadlines at the beginning.\n\nDuring this period, I was also handling my academic work, project responsibilities, and research activities, which made it quite challenging. However, I have been working consistently and putting in my best effort to complete the tasks.\n\nI humbly request you to kindly consider my situation and guide me on whether there is any possibility for me to proceed further. I would be very grateful for your support and guidance.\n\nThank you for your time and understanding.\n\nYours sincerely,\nGows Maithine\nInternship ID: WIN25876",
+      "embeds": [],
+      "created": 1773069788349,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469248139419713701> \nDid you fill the appeal form?",
+      "embeds": [],
+      "created": 1773070054704,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "gowsmaithine",
+      "user_id": "1469248139419713701",
+      "is_bot": false,
+      "content": "No Ma’am, I have become aware of it only now. I will fill out and submit the appeal form immediately.",
+      "embeds": [],
+      "created": 1773070287803,
+      "edited": 1773071251848
+    },
+    {
+      "index": 9,
+      "author": "gowsmaithine",
+      "user_id": "1469248139419713701",
+      "is_bot": false,
+      "content": "I kindly request you to review my appeal form. I submitted it yesterday regarding my dashboard access issue. I would be grateful if you could please look into it.\n\nThank you for your time and support, Mam.",
+      "embeds": [],
+      "created": 1773144094048,
+      "edited": 1773144605008
+    },
+    {
+      "index": 10,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1469248139419713701> you have been restored in the dashboard. Please verify it and please complete the milestones a day prior to the deadlines henceforth as all the scrips for dashboard are automated, it might miss out the last minute entries",
+      "embeds": [],
+      "created": 1773205047300,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "gowsmaithine",
+      "user_id": "1469248139419713701",
+      "is_bot": false,
+      "content": "Good morning Nitin Sir and Jinal Mam,\n\nMy query has been resolved. Thank you both very much for your support and assistance.",
+      "embeds": [],
+      "created": 1773206353601,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773206524427,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773206525253,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773206527522,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0397",
+    "id": "1480470112224940114"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 14
+}

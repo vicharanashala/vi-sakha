@@ -1,0 +1,194 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1310268985316606084> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Increase in Health Points",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773417146414,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "g.joycearpana_62148",
+      "user_id": "1310268985316606084",
+      "is_bot": false,
+      "content": "Hello sir,\nI am Joyce from Euclideans cohort.\nI had been awarded for increase in health points on January for initiating breakout sessions by Pratheek sir.\nBut my health points weren't updated.\nI request you to look into the same and increase my health points.\nThank you and looking forward to your response",
+      "embeds": [],
+      "created": 1773417302184,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "Hi, <@1310268985316606084> \nYour concern has been noted, and the concerned team will reach out to you soon",
+      "embeds": [],
+      "created": 1773417558184,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "cc: <@956180961832362014>  Ma'am",
+      "embeds": [],
+      "created": 1773417571107,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "g.joycearpana_62148",
+      "user_id": "1310268985316606084",
+      "is_bot": false,
+      "content": "Thank you",
+      "embeds": [],
+      "created": 1773417599897,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Thank you for letting us know Joyce we will update it soon.",
+      "embeds": [],
+      "created": 1773458593068,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1310268985316606084> \nWe have updated the records it may take time to update on the dashboard.",
+      "embeds": [],
+      "created": 1773458846626,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "g.joycearpana_62148",
+      "user_id": "1310268985316606084",
+      "is_bot": false,
+      "content": "thank you ma'am for your immediate action",
+      "embeds": [],
+      "created": 1773464950041,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1310268985316606084>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773481319704,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@956180961832362014>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1773482066188,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "The Issue has been resolved hence closing this ticket.",
+      "embeds": [],
+      "created": 1773482080647,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773482087399,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773482087932,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773482090035,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0428",
+    "id": "1482043669312835584"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 14
+}

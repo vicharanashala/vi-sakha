@@ -1,0 +1,182 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1267859768391761930> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Regarding deadline and NPTEL exam registration",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772023224384,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1267859768391761930> Please elaborate on the issue.",
+      "embeds": [],
+      "created": 1772023277501,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "novalfernandes",
+      "user_id": "1267859768391761930",
+      "is_bot": false,
+      "content": "Hello Sir/Ma'am \nI enrolled for the course on vibe platform on the 18th and completed 20% on 24th, will I get the offer letter? Also is NPTEL exam registration mandatory for the offer letter? Thank you",
+      "embeds": [],
+      "created": 1772023869508,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1267859768391761930> As of now, the exam registration is mandatory for receiving certicificate and offer letter. But please await for further instructions in this regard as the team is considering the situation. You can proceed with the ViBe course until then.",
+      "embeds": [],
+      "created": 1772024139562,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "novalfernandes",
+      "user_id": "1267859768391761930",
+      "is_bot": false,
+      "content": "Okay, thank you Sir \nBut I also have a query regarding whether I will get an offer letter since I have taken 6 days from the 18th to get 20%, although I have done it before the 25th",
+      "embeds": [],
+      "created": 1772025181550,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "novalfernandes",
+      "user_id": "1267859768391761930",
+      "is_bot": false,
+      "content": "<@836880971017748512> Sorry for the ping",
+      "embeds": [],
+      "created": 1772031803591,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "No worries...it will be conveyed from the team while the offer letter is being sent.",
+      "embeds": [],
+      "created": 1772032466609,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "novalfernandes",
+      "user_id": "1267859768391761930",
+      "is_bot": false,
+      "content": "Okay, thank you very much",
+      "embeds": [],
+      "created": 1772046701975,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1267859768391761930> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772084352784,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "novalfernandes",
+      "user_id": "1267859768391761930",
+      "is_bot": false,
+      "content": "Yes sir",
+      "embeds": [],
+      "created": 1772084752215,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing this ticket.",
+      "embeds": [],
+      "created": 1772085586282,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772085594287,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772085595022,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772085596939,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0249",
+    "id": "1476197136835022996"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 14
+}

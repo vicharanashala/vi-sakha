@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473683238336729296> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : In HP Dashboard my mail id is not showing . Am i missing  anything?",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771654526769,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473683238336729296> Can you specify your cohort and share your ViBe Progress here?",
+      "embeds": [],
+      "created": 1771654963117,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "sangeetha_balasubramani",
+      "user_id": "1473683238336729296",
+      "is_bot": false,
+      "content": "<@836880971017748512> cohort is RSAians and ViBe progress is attached in screenshot",
+      "embeds": [],
+      "created": 1771655044783,
+      "edited": 1771676442596
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473683238336729296> \nWe have escalated your issue.",
+      "embeds": [],
+      "created": 1771746596532,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "sangeetha_balasubramani",
+      "user_id": "1473683238336729296",
+      "is_bot": false,
+      "content": "<@956180961832362014> Okay. Thank you for your rply",
+      "embeds": [],
+      "created": 1771746873360,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473683238336729296> \nOnce you complete more than 20% of the course your name will be visible automatically.",
+      "embeds": [],
+      "created": 1771825367004,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "sangeetha_balasubramani",
+      "user_id": "1473683238336729296",
+      "is_bot": false,
+      "content": "Okay",
+      "embeds": [],
+      "created": 1771827441605,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Ticket.",
+      "embeds": [],
+      "created": 1771834073351,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771834079608,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771834080156,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771834082011,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0137",
+    "id": "1474650707448696983"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

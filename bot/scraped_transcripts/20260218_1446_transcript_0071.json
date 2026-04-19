@@ -1,0 +1,162 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1421720332271747244> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : HP Reduced Unexpectedly",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771336394519,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "sarvani_mikkilineni_12122",
+      "user_id": "1421720332271747244",
+      "is_bot": false,
+      "content": "Hi Team,\n\nMy HP has been reduced from 196.0921763 to 147.3269544 between yesterday and today.\n\nYesterday, I completed my ViBe course, and after that I noticed the drop in HP. I’m not sure why this happened, as I did not perform any other action that should reduce my HP.\n\nCould you please check and let me know the reason for this reduction?\n\nThank you.",
+      "embeds": [],
+      "created": 1771336848874,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1421720332271747244> \nThe reason has been provided to you on the cohort specific dashboard under add/delete reason. \nKindly check once.",
+      "embeds": [],
+      "created": 1771348868898,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "sarvani_mikkilineni_12122",
+      "user_id": "1421720332271747244",
+      "is_bot": false,
+      "content": "Mam I don't find anything except this one.",
+      "embeds": [],
+      "created": 1771349449127,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Ok, don't worry. \nWe have noted down your query we are looking into this. \nWe will give you an update very soon.",
+      "embeds": [],
+      "created": 1771350963129,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "sarvani_mikkilineni_12122",
+      "user_id": "1421720332271747244",
+      "is_bot": false,
+      "content": "Thank you mam!",
+      "embeds": [],
+      "created": 1771351155572,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1421720332271747244> \nAs discussed in the last stand-up meeting, there was a technical issue in the dashboard due to which an additional 30% HP was reflected for everyone. This issue has now been corrected, and as a result, you may notice a reduction in the displayed HP.\n\nWe apologize for the inconvenience being caused. We appreciate your understanding.\n\nI hope your issue has been resolved now.",
+      "embeds": [],
+      "created": 1771416012062,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "sarvani_mikkilineni_12122",
+      "user_id": "1421720332271747244",
+      "is_bot": false,
+      "content": "Thank you for the clarification, Ma’am. I understand the reason for the reduction now. I appreciate the prompt update.",
+      "embeds": [],
+      "created": 1771423713849,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1421720332271747244> \nYou're most welcome. \nAs teh issue has been resolved I will be closing this ticket now.",
+      "embeds": [],
+      "created": 1771425956302,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771425965374,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771425965867,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771425968154,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0071",
+    "id": "1473316363001921701"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 12
+}

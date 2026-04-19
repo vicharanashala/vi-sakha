@@ -1,0 +1,339 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1478399541978988685> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I am not receiving the zoom meeting links for standup sessions in my registered email id",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772730956906,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "disharay_",
+      "user_id": "1478399541978988685",
+      "is_bot": false,
+      "content": "I am unable to receive the zoom meeting links for standup sessions in my registered email id..I have refreshed my gmail multiple times and checked inbox,spam, etc..still I can't find it..",
+      "embeds": [],
+      "created": 1772731062521,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1478399541978988685> please mention your cohort name and registered mail id",
+      "embeds": [],
+      "created": 1772760851244,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1478399541978988685> \nDo not worry if you are not getting any emails you may join in using the link provided on the channel and login using your registered mail ID.",
+      "embeds": [],
+      "created": 1772769928436,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "disharay_",
+      "user_id": "1478399541978988685",
+      "is_bot": false,
+      "content": "AKSians\nraydisha806@gmail.com",
+      "embeds": [],
+      "created": 1772770398518,
+      "edited": 1772771158132
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1478399541978988685> \nWe hope your issue has been resolved now",
+      "embeds": [],
+      "created": 1772773035736,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1478399541978988685> can you share a screenshot for the same?",
+      "embeds": [],
+      "created": 1772778950179,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "disharay_",
+      "user_id": "1478399541978988685",
+      "is_bot": false,
+      "content": "Today's no meeting so no link wouldn't be send.I can assure once tomorrow meeting is held and link is sent to all.(Including me)",
+      "embeds": [],
+      "created": 1772779428324,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "disharay_",
+      "user_id": "1478399541978988685",
+      "is_bot": false,
+      "content": "No zoom meeting links sent",
+      "embeds": [],
+      "created": 1772779460761,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1478399541978988685> \nWhen did you joined the cohort?",
+      "embeds": [],
+      "created": 1772779546950,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "disharay_",
+      "user_id": "1478399541978988685",
+      "is_bot": false,
+      "content": "On 2nd March I registered for intership AKSians",
+      "embeds": [],
+      "created": 1772779605066,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1478399541978988685> is the issue resolved? can we close the ticket?",
+      "embeds": [],
+      "created": 1773025619822,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "disharay_",
+      "user_id": "1478399541978988685",
+      "is_bot": false,
+      "content": "I still didn't receive the zoom meeting link on my registered email id.. but they are available to me in the coder's high  announcements section",
+      "embeds": [],
+      "created": 1773029019759,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1478399541978988685> Do not worry, it will be done soon.\n\nCC: <@956180961832362014>",
+      "embeds": [],
+      "created": 1773029058726,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1478399541978988685> \nKindly check your spam folder or promotions folder for the same. \nYou can also search for this mail ID no-reply@zoom.us or dled@iitrpr.ac.in in your Gmail account.",
+      "embeds": [],
+      "created": 1773036001410,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1478399541978988685> \nKindly confirm if you got any mail from these ID's and do share screenshot for the same so that we can help you out further.",
+      "embeds": [],
+      "created": 1773041771526,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "disharay_",
+      "user_id": "1478399541978988685",
+      "is_bot": false,
+      "content": "I have finally got the zoom meeting link on my registered email id..thank you",
+      "embeds": [],
+      "created": 1773045988965,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "disharay_",
+      "user_id": "1478399541978988685",
+      "is_bot": false,
+      "content": "This email shows was sent two days ago, but it's today that it's visible to me.",
+      "embeds": [],
+      "created": 1773046041703,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Ok do not worry. \nYou will get the mail for rest of the sessions as well so please kindly wait for the same. \nFor more information you may visit our website. \nhttps://sudarshansudarshan.github.io/vinternship/",
+      "embeds": [
+        {
+          "title": "Welcome to Vinternship",
+          "description": "Vinternship - A comprehensive full-stack development internship program covering the MERN stack and modern web technologies. Master TypeScript, React, Express.js, and MongoDB through hands-on case studies.",
+          "url": "https://sudarshansudarshan.github.io/vinternship/",
+          "fields": []
+        }
+      ],
+      "created": 1773047836916,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1478399541978988685> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1773119266917,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "disharay_",
+      "user_id": "1478399541978988685",
+      "is_bot": false,
+      "content": "This is the latest one that I got, so I am getting zoom links.. for  today's meeting haven't got the zoom link yet",
+      "embeds": [],
+      "created": 1773119747102,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "disharay_",
+      "user_id": "1478399541978988685",
+      "is_bot": false,
+      "content": "If I get today's meeting link, then I can surely assure about the issue being resolved..thank you",
+      "embeds": [],
+      "created": 1773119782508,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "You might have received it yesterday itself.",
+      "embeds": [],
+      "created": 1773119879439,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1478399541978988685> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1773202496525,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "disharay_",
+      "user_id": "1478399541978988685",
+      "is_bot": false,
+      "content": "Yes, it's finally resolved.thank you",
+      "embeds": [],
+      "created": 1773205827723,
+      "edited": null
+    },
+    {
+      "index": 26,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing this ticket.",
+      "embeds": [],
+      "created": 1773205902523,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773205909989,
+      "edited": null
+    },
+    {
+      "index": 28,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773205910305,
+      "edited": null
+    },
+    {
+      "index": 29,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773205912412,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0371",
+    "id": "1479165581751091280"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 29
+}

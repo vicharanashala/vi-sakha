@@ -1,0 +1,172 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1469346329720520802> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : -10% Hp point not yet reverted due to vibe 100% backend issue",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771951220454,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@1469346329720520802> , we have noted your issue, we will get back to you after checking with the concern team.\ncc: <@956180961832362014> Mam",
+      "embeds": [],
+      "created": 1771956855161,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469346329720520802> Kindly mention your cohort.",
+      "embeds": [],
+      "created": 1772001188752,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "suchismitasahoo0222",
+      "user_id": "1469346329720520802",
+      "is_bot": false,
+      "content": "Mam Euclideans",
+      "embeds": [],
+      "created": 1772001248013,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469346329720520802> \nI have escalated your query to the concerned team. It will be reverted soon.",
+      "embeds": [],
+      "created": 1772001326951,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "suchismitasahoo0222",
+      "user_id": "1469346329720520802",
+      "is_bot": false,
+      "content": "Ok mam , anytimeline ?",
+      "embeds": [],
+      "created": 1772001370824,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "By the end of the day we will try to fix it.",
+      "embeds": [],
+      "created": 1772001391706,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "suchismitasahoo0222",
+      "user_id": "1469346329720520802",
+      "is_bot": false,
+      "content": "Ok mam thank you!!!",
+      "embeds": [],
+      "created": 1772001410021,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469346329720520802> \nYour HP's have been reverted it will be soon visible on the dashboard.",
+      "embeds": [],
+      "created": 1772083972197,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "suchismitasahoo0222",
+      "user_id": "1469346329720520802",
+      "is_bot": false,
+      "content": "Yes mam showing 🙏",
+      "embeds": [],
+      "created": 1772209650512,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1469346329720520802>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772209664028,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772209664383,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772212645980,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0225",
+    "id": "1475895130199425215"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 13
+}

@@ -1,0 +1,122 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1474442045069459467> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I haven't been approved on vibe platform.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771953826952,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "kindly access your course here:  https://vibe.vicharanashala.ai/student through laptop or PC",
+      "embeds": [],
+      "created": 1771954313658,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@1474442045069459467> , can you access your course now ?",
+      "embeds": [],
+      "created": 1771954485246,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "kindly confirm if your issue is resolved.",
+      "embeds": [],
+      "created": 1771954510310,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "amit.kushwaha",
+      "user_id": "1474442045069459467",
+      "is_bot": false,
+      "content": "Yes, it resolved. Thank you",
+      "embeds": [],
+      "created": 1771956940052,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1474442045069459467>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771956977926,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771956978373,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771956994409,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0227",
+    "id": "1475906061872402545"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 8
+}

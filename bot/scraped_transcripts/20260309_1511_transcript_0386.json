@@ -1,0 +1,154 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1297582724290318368> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I mistakenly submitted the blog task completion form thinking I would complete the blog before the deadline. However, I had some medical issues (cough and fever) and had to take 2–3 days of bed rest. At the same time, my mid-semester exams a",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772899135689,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "alalker789",
+      "user_id": "1297582724290318368",
+      "is_bot": false,
+      "content": "I mistakenly submitted the blog task completion form thinking I would complete the blog before the deadline. However, I had some medical issues (cough and fever) and had to take 2–3 days of bed rest. At the same time, my mid-semester exams are going on, so I couldn’t finish the blog. I sincerely apologize for submitting the completion form before completing the task and kindly request a reset so I can submit it properly.",
+      "embeds": [],
+      "created": 1772899183356,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1297582724290318368>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772899321147,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@836880971017748512>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1772899652804,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1297582724290318368> do not worry, you can recoup for the lost HP with upcoming activities.",
+      "embeds": [],
+      "created": 1772899700316,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1297582724290318368> is the issue resolved? can we close the ticket?",
+      "embeds": [],
+      "created": 1773025718423,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "alalker789",
+      "user_id": "1297582724290318368",
+      "is_bot": false,
+      "content": "yes",
+      "embeds": [],
+      "created": 1773059706065,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773066226112,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773066226698,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773069066430,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0386",
+    "id": "1479870975507173386"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 10
+}

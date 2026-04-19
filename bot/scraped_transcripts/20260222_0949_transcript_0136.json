@@ -1,0 +1,174 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@758669714435342337> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Request to Join a Later Cohort",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771647903042,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "sahadeep",
+      "user_id": "758669714435342337",
+      "is_bot": false,
+      "content": "I am writing to inform you that I am currently dealing with a significant academic workload along with ongoing eye-related health issues. I am experiencing eye pain, especially while watching screens, which is making it difficult for me to complete the required tasks within the present timeline.\n\nI would like to request whether it is possible for me to join a later cohort of the programme instead. Additionally, I would be grateful if you could clarify whether not completing the current tasks will lead to my removal from the programme, and whether this would affect my eligibility to participate in a future cohort. I believe I had asked a similar question earlier, but I am unable to locate the previous ticket. Could you please guide me on where I can view my past support tickets?",
+      "embeds": [],
+      "created": 1771647965873,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@758669714435342337> Your request is already approved. Do not worry, you'll be given opportunity in the upcoming cohorts.",
+      "embeds": [],
+      "created": 1771648816420,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@758669714435342337> \nI hope your issue has been resolved?",
+      "embeds": [],
+      "created": 1771666922794,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@758669714435342337> \nIs your issue been resolved?",
+      "embeds": [],
+      "created": 1771746580368,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "sahadeep",
+      "user_id": "758669714435342337",
+      "is_bot": false,
+      "content": "Yes",
+      "embeds": [],
+      "created": 1771753671894,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771753753263,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@956180961832362014>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1771753765536,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence clossing the ticket.",
+      "embeds": [],
+      "created": 1771753780551,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "Channel being renamed too quickly, Timeout: 9m, 27s - Skipping",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771753786636,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771753787054,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771753789381,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "ticket-0136",
+    "id": "1474622924785979392"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 12
+}

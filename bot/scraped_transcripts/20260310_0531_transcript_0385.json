@@ -1,0 +1,212 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473996970954850356> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : course completion",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772896807849,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473996970954850356> please state your name, cohort name and registered mail ID",
+      "embeds": [],
+      "created": 1772896851248,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "chandrasaibadam_04486",
+      "user_id": "1473996970954850356",
+      "is_bot": false,
+      "content": "Chandra Sai Badam \nchandrasaibadam@gmail.com",
+      "embeds": [],
+      "created": 1772896882000,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "chandrasaibadam_04486",
+      "user_id": "1473996970954850356",
+      "is_bot": false,
+      "content": "I have registered for this Aksians on feb 19th. I couldnt complete it to the bench marks as I was busy with my college work. Is there any way for me to still do and get the internship? I am not an nptel student.",
+      "embeds": [],
+      "created": 1772896930222,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473996970954850356> As mentioned in the orboarding process, it is mandatory to stick to the milestones from the day of beginning in ViBe platform. Also note that the registration for exam in one of Prof. Sudarshan Iyengar's NPTEL course is the base eligibility criteria for certificate of completion.",
+      "embeds": [],
+      "created": 1772897168868,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "chandrasaibadam_04486",
+      "user_id": "1473996970954850356",
+      "is_bot": false,
+      "content": "sad to hear",
+      "embeds": [],
+      "created": 1772897835382,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473996970954850356> Do not worry, You'll get ample opportunities to join in the upcoming cohorts. Please check for the announcements and posts made in the Vicharanashala Lab for Education Design and Prof. Sudarshan Iyengar's Linkedin profiles.",
+      "embeds": [],
+      "created": 1772898028309,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "chandrasaibadam_04486",
+      "user_id": "1473996970954850356",
+      "is_bot": false,
+      "content": "for non nptel students too?",
+      "embeds": [],
+      "created": 1772898073209,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Yes, there will be cohorts for non - NPTEL students",
+      "embeds": [],
+      "created": 1772898735054,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473996970954850356> is the issue resolved? can we close the ticket?",
+      "embeds": [],
+      "created": 1773025706290,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473996970954850356> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1773119972754,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "chandrasaibadam_04486",
+      "user_id": "1473996970954850356",
+      "is_bot": false,
+      "content": "Yea",
+      "embeds": [],
+      "created": 1773120345430,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "chandrasaibadam_04486",
+      "user_id": "1473996970954850356",
+      "is_bot": false,
+      "content": "Yes resolved thank you",
+      "embeds": [],
+      "created": 1773120358738,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1773120676982,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773120682835,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773120683290,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773120685261,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0385",
+    "id": "1479861211335233588"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 17
+}

@@ -1,0 +1,234 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473375952514846924> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Unable to access the 1st Section in the JS module",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771747879146,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "anirudhraobeedu",
+      "user_id": "1473375952514846924",
+      "is_bot": false,
+      "content": "Having just started the  course today, I observe that the course begins with the 2nd section of the JS module instead of the 1st Section (\"JavaScript Building Blocks\"). Trying to select the content in the 1st section pops an error message (please see attached screenshot).",
+      "embeds": [],
+      "created": 1771747925610,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "anirudhraobeedu",
+      "user_id": "1473375952514846924",
+      "is_bot": false,
+      "content": "In addition, I'm accessing the ViBe website in an incognito window in Chrome. I've also tried Firefox. The issue persists.",
+      "embeds": [],
+      "created": 1771747983411,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "anirudhraobeedu",
+      "user_id": "1473375952514846924",
+      "is_bot": false,
+      "content": "Request to resolve the issue. Thank you!",
+      "embeds": [],
+      "created": 1771747994407,
+      "edited": 1771748978907
+    },
+    {
+      "index": 5,
+      "author": "anirudhraobeedu",
+      "user_id": "1473375952514846924",
+      "is_bot": false,
+      "content": "I'm raising this ticket after having posted under *tech-issues*",
+      "embeds": [],
+      "created": 1771748060302,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1220060098643230811> \nKindly look into this issue.",
+      "embeds": [],
+      "created": 1771753027412,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nxtnilesh.",
+      "user_id": "1220060098643230811",
+      "is_bot": false,
+      "content": "Please try the following steps one by one and check if the issue is resolved after each step:\n\n1. Log out of your account and then log in again.\n2. Clear your browser cache and all browsing data (cookies, cached files, etc.).\n3. Try using a different browser such as Firefox, Microsoft Edge, or another browser.\n4. If you are using any YouTube ad-blocker extension, disable it temporarily and try again.\n5. Try connecting through a VPN and check if the issue persists.\n6. Try using a different internet connection or mobile hotspot to rule out any network-related issues.\n\nPlease test these steps individually (or all of them if needed) and let me know the results.",
+      "embeds": [],
+      "created": 1771754211909,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1473375952514846924> Kindly share your email id.",
+      "embeds": [],
+      "created": 1771754677168,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "anirudhraobeedu",
+      "user_id": "1473375952514846924",
+      "is_bot": false,
+      "content": "anirudhraobeedu98@gmail.com",
+      "embeds": [],
+      "created": 1771754920394,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1473375952514846924> We have fixed the issue, kindly refresh the page and try again. please let us know if it is working fine. Thank you.",
+      "embeds": [],
+      "created": 1771755671149,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "anirudhraobeedu",
+      "user_id": "1473375952514846924",
+      "is_bot": false,
+      "content": "Hi <@666826791016595456> I still receive the \"Access Restricted\" error pop-up.  Please see attached recording. Thank you!",
+      "embeds": [],
+      "created": 1771761974832,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "anirudhraobeedu",
+      "user_id": "1473375952514846924",
+      "is_bot": false,
+      "content": "Hello, I am able to access the 1st section and view the videos and content present. The content was marked as complete by the support team to allow access.\n\nThank you <@1449603507865784334> !\n\nI'll go ahead and close the ticket.",
+      "embeds": [],
+      "created": 1771779726052,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1473375952514846924>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771779742022,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@956180961832362014>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1771779912277,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resoled hance closing the ticket.",
+      "embeds": [],
+      "created": 1771779924185,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "Channel being renamed too quickly, Timeout: 6m, 51s - Skipping",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771779931421,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771779932146,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771779934301,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "ticket-0158",
+    "id": "1475042255244103740"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 18
+}

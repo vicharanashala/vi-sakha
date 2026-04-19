@@ -1,0 +1,162 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1474626519371350201> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : i have not received email to join vibe platform",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771733468463,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474626519371350201> \nCan you tell you cohort name please?",
+      "embeds": [],
+      "created": 1771733493961,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "khwahish93",
+      "user_id": "1474626519371350201",
+      "is_bot": false,
+      "content": "askians",
+      "embeds": [],
+      "created": 1771733502520,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "khwahish93",
+      "user_id": "1474626519371350201",
+      "is_bot": false,
+      "content": "my invite is accepted but how to join vibe to complete my modules",
+      "embeds": [],
+      "created": 1771733568003,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "khwahish93",
+      "user_id": "1474626519371350201",
+      "is_bot": false,
+      "content": "i did regration but the registration approval is pending am i on the right track ?",
+      "embeds": [],
+      "created": 1771735953921,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Yes you are on right track <@1474626519371350201>",
+      "embeds": [],
+      "created": 1771736013787,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "khwahish93",
+      "user_id": "1474626519371350201",
+      "is_bot": false,
+      "content": "will i be able to access the content after request approval ?",
+      "embeds": [],
+      "created": 1771736054924,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Yes",
+      "embeds": [],
+      "created": 1771736396499,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "khwahish93",
+      "user_id": "1474626519371350201",
+      "is_bot": false,
+      "content": "ok thank you",
+      "embeds": [],
+      "created": 1771736424105,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1474626519371350201>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771736438247,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771736438920,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771738892209,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0148",
+    "id": "1474981807735705731"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 12
+}

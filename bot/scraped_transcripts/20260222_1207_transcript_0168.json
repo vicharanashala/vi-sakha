@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1345033969414176868> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I am unable to access the quiz 19 and the content that follows it..",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771758427740,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "durgs7642_04695",
+      "user_id": "1345033969414176868",
+      "is_bot": false,
+      "content": "It show a permission error",
+      "embeds": [],
+      "created": 1771758509805,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "hello <@1345033969414176868> are you there??",
+      "embeds": [],
+      "created": 1771758536568,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "durgs7642_04695",
+      "user_id": "1345033969414176868",
+      "is_bot": false,
+      "content": "yes sir",
+      "embeds": [],
+      "created": 1771758563731,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "Please join the vled meetings..",
+      "embeds": [],
+      "created": 1771758637465,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "https://discord.com/channels/1468485230053691446/1469566597298524252",
+      "embeds": [],
+      "created": 1771758653537,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "durgs7642_04695",
+      "user_id": "1345033969414176868",
+      "is_bot": false,
+      "content": "could you tell me how can I join",
+      "embeds": [],
+      "created": 1771758754935,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@1345033969414176868> , please try once now",
+      "embeds": [],
+      "created": 1771761269851,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@857556884750729217>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771762018358,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771762019056,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771762021587,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0168",
+    "id": "1475086488977936600"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

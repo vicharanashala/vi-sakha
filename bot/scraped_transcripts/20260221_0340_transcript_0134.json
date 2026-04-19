@@ -1,0 +1,102 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1469544599247654956> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I would like to inform you that the slot booking option is not opening, and I am unable to book the slot. Therefore, I kindly request you to please let me know whether I can attend and listen to the classes normally without booking the slot",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771637631950,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1469544599247654956> The slot booking is temporarily closed and you can proceed without booking until further announcements",
+      "embeds": [],
+      "created": 1771644403555,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "tejeswari_",
+      "user_id": "1469544599247654956",
+      "is_bot": false,
+      "content": "Ok thank you",
+      "embeds": [],
+      "created": 1771644716247,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1469544599247654956>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771645063066,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771645063611,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771645200755,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0134",
+    "id": "1474579844737273927"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 6
+}

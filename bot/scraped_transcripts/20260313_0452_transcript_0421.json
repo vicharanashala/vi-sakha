@@ -1,0 +1,304 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@889765374881595392> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Progress displayed on ViBe platform is not correct. I have completed 75%, but it is displaying 68%.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773325431906,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitheesh_chandra",
+      "user_id": "889765374881595392",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1773325565773,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1178273014085857294> <@1469178567551090933> <@1366708005483053076> Please look into this issue.\n\nCC: <@956180961832362014>",
+      "embeds": [],
+      "created": 1773325877718,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "now it is showing the right value, is it not?\nthe individual progress for the Vinternship course specifically, is 75% right? <@889765374881595392>",
+      "embeds": [],
+      "created": 1773327152641,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "On the top, it is showing 68% because of all the courses' average",
+      "embeds": [],
+      "created": 1773327222923,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitheesh_chandra",
+      "user_id": "889765374881595392",
+      "is_bot": false,
+      "content": "Ok. Got it. Thanks.",
+      "embeds": [],
+      "created": 1773329063543,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitheesh_chandra",
+      "user_id": "889765374881595392",
+      "is_bot": false,
+      "content": "On the Vinternship course card the progress is correct.",
+      "embeds": [],
+      "created": 1773329124127,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nitheesh_chandra",
+      "user_id": "889765374881595392",
+      "is_bot": false,
+      "content": "Could you tell me how the average Calculation works?",
+      "embeds": [],
+      "created": 1773329562839,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Hi, I'll look into it and get back to you. In the mean time, you may proceed with the courses.",
+      "embeds": [],
+      "created": 1773330173224,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Also, kindly try to remove cache and hard reload it once.\nThen send the screenshot again\nAlso, right now the average percentage depends on the total items completed in all the courses and not the average of percentage of the courses completed.",
+      "embeds": [],
+      "created": 1773330973763,
+      "edited": 1773331152419
+    },
+    {
+      "index": 11,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "<@889765374881595392>",
+      "embeds": [],
+      "created": 1773330981737,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "nitheesh_chandra",
+      "user_id": "889765374881595392",
+      "is_bot": false,
+      "content": "Ok",
+      "embeds": [],
+      "created": 1773331354205,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "nitheesh_chandra",
+      "user_id": "889765374881595392",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1773332382705,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "nitheesh_chandra",
+      "user_id": "889765374881595392",
+      "is_bot": false,
+      "content": "<@1469178567551090933>",
+      "embeds": [],
+      "created": 1773332414037,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Okay thank you!\nIt is because of the items in all courses are counted in total completion percentage only. It is intentional.",
+      "embeds": [],
+      "created": 1773332560993,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "nitheesh_chandra",
+      "user_id": "889765374881595392",
+      "is_bot": false,
+      "content": "ok. thanks for the clarification.",
+      "embeds": [],
+      "created": 1773352790646,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@889765374881595392> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1773377312417,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Can we close the ticket now?",
+      "embeds": [],
+      "created": 1773377318764,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "nitheesh_chandra",
+      "user_id": "889765374881595392",
+      "is_bot": false,
+      "content": "Yeah",
+      "embeds": [],
+      "created": 1773377381188,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@889765374881595392>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773377405061,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@956180961832362014>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1773377534546,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue is resolved now hence closing the ticket.",
+      "embeds": [],
+      "created": 1773377548651,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "Channel being renamed too quickly, Timeout: 7m, 29s - Skipping",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773377557382,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773377557776,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773377560057,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "ticket-0421",
+    "id": "1481658990927548456"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 25
+}

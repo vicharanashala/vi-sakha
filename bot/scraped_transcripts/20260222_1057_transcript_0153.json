@@ -1,0 +1,232 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1324684975689171027> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Unable to Attempt Quiz 3",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771745623726,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "abhi_codes_",
+      "user_id": "1324684975689171027",
+      "is_bot": false,
+      "content": "showing \"Failed to start quiz: You do not have permission to\nstart this quiz attempt\"",
+      "embeds": [],
+      "created": 1771745654704,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "abhi_codes_",
+      "user_id": "1324684975689171027",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771745672730,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@666826791016595456>",
+      "embeds": [],
+      "created": 1771745682047,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "abhi_codes_",
+      "user_id": "1324684975689171027",
+      "is_bot": false,
+      "content": "tried multiple times to troubleshoot",
+      "embeds": [],
+      "created": 1771745702148,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@666826791016595456>",
+      "embeds": [],
+      "created": 1771745978262,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "abhi_codes_",
+      "user_id": "1324684975689171027",
+      "is_bot": false,
+      "content": "Sir Any Update ??",
+      "embeds": [],
+      "created": 1771747961779,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1220060098643230811> \nKindly look into this query.",
+      "embeds": [],
+      "created": 1771752915305,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Yes we are looking into your issue.",
+      "embeds": [],
+      "created": 1771752927000,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1178273014085857294> Kindly check this issue in detail. Thank you.",
+      "embeds": [],
+      "created": 1771753154639,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1324684975689171027> Could you share your email id.",
+      "embeds": [],
+      "created": 1771753173576,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "ok <@666826791016595456>",
+      "embeds": [],
+      "created": 1771753243745,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "abhi_codes_",
+      "user_id": "1324684975689171027",
+      "is_bot": false,
+      "content": "24f2009192@ds.study.iitm.ac.in",
+      "embeds": [],
+      "created": 1771757159514,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "abhi_codes_",
+      "user_id": "1324684975689171027",
+      "is_bot": false,
+      "content": "thank you for responding actually since morning i am unable move forward in the content due to this issue",
+      "embeds": [],
+      "created": 1771757314175,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1324684975689171027> We have fixed the issue, just refresh the page and try accessing the quiz. Please let us know if it is working fine. Thank you.",
+      "embeds": [],
+      "created": 1771757599195,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "abhi_codes_",
+      "user_id": "1324684975689171027",
+      "is_bot": false,
+      "content": "Thank you All <@666826791016595456> <@956180961832362014> <@1359148118444343517> <@1178273014085857294>  Now my quiz section  is accessible 🙂",
+      "embeds": [],
+      "created": 1771757767886,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@666826791016595456>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771757839894,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771757840566,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771757842511,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0153",
+    "id": "1475032795565789317"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 19
+}

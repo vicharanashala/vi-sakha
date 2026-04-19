@@ -1,0 +1,142 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1472177322038923317> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : TypeScript files getting uploaded as videos for some reason",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771579791575,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "call_me_mak",
+      "user_id": "1472177322038923317",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771579809551,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "call_me_mak",
+      "user_id": "1472177322038923317",
+      "is_bot": false,
+      "content": "Trying to upload the case studies in the google form.",
+      "embeds": [],
+      "created": 1771579849645,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "call_me_mak",
+      "user_id": "1472177322038923317",
+      "is_bot": false,
+      "content": "The .ts extension is getting uploaded as some invalid video format",
+      "embeds": [],
+      "created": 1771579863934,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Do not worry as it will accept the video format",
+      "embeds": [],
+      "created": 1771580212511,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1472177322038923317> This is due to the file type recognition only. You can proceed to submit in the same way.",
+      "embeds": [],
+      "created": 1771580264842,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "call_me_mak",
+      "user_id": "1472177322038923317",
+      "is_bot": false,
+      "content": "Thanks!",
+      "embeds": [],
+      "created": 1771580288436,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1472177322038923317>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771580303528,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771580304029,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771580315998,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0123",
+    "id": "1474337244788818042"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 10
+}

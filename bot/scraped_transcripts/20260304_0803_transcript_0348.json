@@ -1,0 +1,112 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473547376596615271> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : It is mentioned in the current activity that we must update our profile picture, but my profile picture suits well as per the guidelines. Shall I still change it?",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772567173773,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473547376596615271> If you have already changed the DP, just mark that task as completed. It is for the participants to encourage them to use professional DP for identification.",
+      "embeds": [],
+      "created": 1772597806584,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "mumtazparveen",
+      "user_id": "1473547376596615271",
+      "is_bot": false,
+      "content": "<@836880971017748512> Ohk, thanks",
+      "embeds": [],
+      "created": 1772605636263,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "mumtazparveen",
+      "user_id": "1473547376596615271",
+      "is_bot": false,
+      "content": "U can close the ticket",
+      "embeds": [],
+      "created": 1772605651107,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772611417761,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772611418434,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772611420390,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0348",
+    "id": "1478478626348597479"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 7
+}

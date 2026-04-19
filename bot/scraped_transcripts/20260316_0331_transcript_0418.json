@@ -1,0 +1,404 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1250246319029616651> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I am not receiving any emails regarding the standup sessions.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773276272462,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1250246319029616651> \nKindly share your registered mail ID. \nAnd also check that you didn't missed any milestone resulting of your discontinuation from the cohort.",
+      "embeds": [],
+      "created": 1773289944625,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "manvith2115.",
+      "user_id": "1250246319029616651",
+      "is_bot": false,
+      "content": "manvith2115@gmail.com",
+      "embeds": [],
+      "created": 1773290433473,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "manvith2115.",
+      "user_id": "1250246319029616651",
+      "is_bot": false,
+      "content": "I was actually removed from the dashboard but I've filled the appeal form and then I completed 100% vibe snd started the case studies, and then I was added back to the dashboard day before yesterday.",
+      "embeds": [],
+      "created": 1773290611245,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Ok we will look into this",
+      "embeds": [],
+      "created": 1773290967779,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1250246319029616651>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773314784960,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@956180961832362014>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1773315135472,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1250246319029616651> \nIs your issue resolved now?",
+      "embeds": [],
+      "created": 1773463707184,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Kindly check and please tell.",
+      "embeds": [],
+      "created": 1773463716596,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "manvith2115.",
+      "user_id": "1250246319029616651",
+      "is_bot": false,
+      "content": "no I am still not getting any mails",
+      "embeds": [],
+      "created": 1773465595234,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1250246319029616651> \nDid you checked your spam folder?",
+      "embeds": [],
+      "created": 1773466325025,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "And also find mails from this mail ID: no-reply@zoom.us",
+      "embeds": [],
+      "created": 1773466494945,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "And share a screenshot for the same.",
+      "embeds": [],
+      "created": 1773466512366,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "manvith2115.",
+      "user_id": "1250246319029616651",
+      "is_bot": false,
+      "content": "Yes Its not there even in the spam folder",
+      "embeds": [],
+      "created": 1773467243846,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "manvith2115.",
+      "user_id": "1250246319029616651",
+      "is_bot": false,
+      "content": "Here is the screenshot",
+      "embeds": [],
+      "created": 1773467253470,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "We have added your email ID in the main sheet which we use to send the zoom mails.",
+      "embeds": [],
+      "created": 1773467359303,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "manvith2115.",
+      "user_id": "1250246319029616651",
+      "is_bot": false,
+      "content": "ok, do I need to get Nominated to phase 2 first in order to get email, like is there something like that.\nCould you just clarify me with this one thing",
+      "embeds": [],
+      "created": 1773467450800,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "You need to complete the ViBe progress and submit all the case studies to go to the next phase that is the ViVa phase and the endorsement network phase.",
+      "embeds": [],
+      "created": 1773467561770,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Can you once try searching using dled@iitrpr.ac.in",
+      "embeds": [],
+      "created": 1773467588344,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "manvith2115.",
+      "user_id": "1250246319029616651",
+      "is_bot": false,
+      "content": "No for kruskalians batch we need to get nominated for phase 2 to continue right?",
+      "embeds": [],
+      "created": 1773467618655,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "manvith2115.",
+      "user_id": "1250246319029616651",
+      "is_bot": false,
+      "content": "same",
+      "embeds": [],
+      "created": 1773467626622,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Can you specifically say which phase 2 you are talking about so that I can help you better",
+      "embeds": [],
+      "created": 1773467685133,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "manvith2115.",
+      "user_id": "1250246319029616651",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1773467723725,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "manvith2115.",
+      "user_id": "1250246319029616651",
+      "is_bot": false,
+      "content": "I am talking about this",
+      "embeds": [],
+      "created": 1773467729724,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Yes Manvith. \nYou need to fill the form and get nominated you can reach out to your seniors.",
+      "embeds": [],
+      "created": 1773468151464,
+      "edited": null
+    },
+    {
+      "index": 26,
+      "author": "manvith2115.",
+      "user_id": "1250246319029616651",
+      "is_bot": false,
+      "content": "No I already reached out to a person from the founders keepers batch, he will be talking viva soon,\nI was just asking that do we need to get nominated first in order to continue getting the emails.",
+      "embeds": [],
+      "created": 1773468247111,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "For emails we are looking into it you may continue with the nominations as from our side we have added your email to the list we are working on it to see that why are your not getting these emails.",
+      "embeds": [],
+      "created": 1773468410103,
+      "edited": null
+    },
+    {
+      "index": 28,
+      "author": "manvith2115.",
+      "user_id": "1250246319029616651",
+      "is_bot": false,
+      "content": "Ok\nThanks.",
+      "embeds": [],
+      "created": 1773468462493,
+      "edited": null
+    },
+    {
+      "index": 29,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1250246319029616651> \nDue to bulk mail invitations it might be possible that you may not have received the mails. \nWe are looking into the issue.",
+      "embeds": [],
+      "created": 1773559268161,
+      "edited": null
+    },
+    {
+      "index": 30,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1250246319029616651> \nCan you check once for the email we have sent for tomorrows email if you can check it once and let us know.",
+      "embeds": [],
+      "created": 1773560449596,
+      "edited": null
+    },
+    {
+      "index": 31,
+      "author": "manvith2115.",
+      "user_id": "1250246319029616651",
+      "is_bot": false,
+      "content": "I got the email \nThanks",
+      "embeds": [],
+      "created": 1773594683558,
+      "edited": null
+    },
+    {
+      "index": 32,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue is resolved now hence closing this ticket.",
+      "embeds": [],
+      "created": 1773631852946,
+      "edited": null
+    },
+    {
+      "index": 33,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773631868983,
+      "edited": null
+    },
+    {
+      "index": 34,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773631869837,
+      "edited": null
+    },
+    {
+      "index": 35,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773631871954,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0418",
+    "id": "1481452801451102312"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 35
+}

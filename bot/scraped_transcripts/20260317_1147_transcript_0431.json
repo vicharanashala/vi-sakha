@@ -1,0 +1,219 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1478399541978988685> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Not getting zoom meeting links for standup sessions in registered email id",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773477816959,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "disharay_",
+      "user_id": "1478399541978988685",
+      "is_bot": false,
+      "content": "I previously created a ticket regarding the same issue..it was resolved indeed but the last zoom link that I got was for this week's Tuesday session..I haven't received the Thursday's nor today's sessions zoom links in registered email id...",
+      "embeds": [],
+      "created": 1773477885531,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1478399541978988685> \nDid you missed any milestones?",
+      "embeds": [],
+      "created": 1773478310883,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "disharay_",
+      "user_id": "1478399541978988685",
+      "is_bot": false,
+      "content": "I don't think so..I did the a1 and A2 activities, and completed 50+ percent lectures in two weeks..",
+      "embeds": [],
+      "created": 1773478399763,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "disharay_",
+      "user_id": "1478399541978988685",
+      "is_bot": false,
+      "content": "But I haven't attended any of the zoom meetings.. previously because I didn't receive them, and Tuesdays one couldn't because I was traveling due to medical reasons..",
+      "embeds": [],
+      "created": 1773478441610,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Did you checked your Spam folder?",
+      "embeds": [],
+      "created": 1773482116323,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "disharay_",
+      "user_id": "1478399541978988685",
+      "is_bot": false,
+      "content": "Yes, and there weren't any emails",
+      "embeds": [],
+      "created": 1773499338364,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "https://zoom.us/j/96675257970?pwd=vEW1FbZ7KPlSdz1UsIhXyfBvENVKBy.1\nKindly use this link to join the session",
+      "embeds": [
+        {
+          "title": "Welcome! You are invited to join a meeting: Vinternship Standup (RS...",
+          "description": "Welcome! You are invited to join a meeting: Vinternship Standup (RSAians & AKSians). After registering, you will receive a confirmation email about joining the meeting.",
+          "url": "https://zoom.us/j/96675257970?pwd=vEW1FbZ7KPlSdz1UsIhXyfBvENVKBy.1",
+          "fields": []
+        }
+      ],
+      "created": 1773501877405,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1478399541978988685> \nCan you check once if you are recieving the mails now?",
+      "embeds": [],
+      "created": 1773632211350,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "disharay_",
+      "user_id": "1478399541978988685",
+      "is_bot": false,
+      "content": "Yes, now the zoom emails are sent for Thursday and Saturday 's sessions..the last one  showing,it was sent on Saturday...I don't know why I couldn't see the same on Saturday itself..",
+      "embeds": [],
+      "created": 1773649155298,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "disharay_",
+      "user_id": "1478399541978988685",
+      "is_bot": false,
+      "content": "I am hoping to receive the zoom link for this week's Tuesday session..if I receive then  I will surely inform..",
+      "embeds": [],
+      "created": 1773649189897,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1478399541978988685> Did you get the link for today's session by any chance?",
+      "embeds": [],
+      "created": 1773719853581,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "disharay_",
+      "user_id": "1478399541978988685",
+      "is_bot": false,
+      "content": "I am sorry I was unable to respond earlier due to my college classes,..but yes I have got the link yesterday itself for today's meeting.thank you",
+      "embeds": [],
+      "created": 1773748012666,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Ok <@1478399541978988685> \nAs your issue has been resolved hence closing this ticket.",
+      "embeds": [],
+      "created": 1773748062646,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773748070032,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773748070521,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773748074722,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0431",
+    "id": "1482298139963818067"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 17
+}

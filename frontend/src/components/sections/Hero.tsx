@@ -227,7 +227,7 @@ export function Hero() {
                 <a href="https://sudarshansudarshan.github.io/vinternship/intro/" target="_blank" rel="noopener noreferrer" className="btn-outline-intercom text-white border-white/60 btn-outline-light">
                   View program <ArrowRight className="w-4 h-4" />
                 </a>
-                <a href="https://sakha.vicharanashala.ai/" target="_blank" rel="noopener noreferrer" className="bg-white text-gray-900 font-semibold text-sm px-5 py-2.5 rounded-lg hover:bg-gray-50 transition-colors">
+                <a href="/login" className="bg-white text-gray-900 font-semibold text-sm px-5 py-2.5 rounded-lg hover:bg-gray-50 transition-colors">
                   Try Vi-Sakha
                 </a>
               </div>

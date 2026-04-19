@@ -1,0 +1,262 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1423913891754147911> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Concern regarding the offer letter",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773080137998,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "samarth020968",
+      "user_id": "1423913891754147911",
+      "is_bot": false,
+      "content": "due to some issues i was able to complete 20% milestone required today. will i be getting my offer letter?",
+      "embeds": [],
+      "created": 1773080170231,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1423913891754147911> \nWhen was your onboarding date?",
+      "embeds": [],
+      "created": 1773117008128,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "samarth020968",
+      "user_id": "1423913891754147911",
+      "is_bot": false,
+      "content": "I started the case study on  2nd march",
+      "embeds": [],
+      "created": 1773128992376,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "When did you register?",
+      "embeds": [],
+      "created": 1773129751576,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "samarth020968",
+      "user_id": "1423913891754147911",
+      "is_bot": false,
+      "content": "I don't really remember the exact date and time",
+      "embeds": [],
+      "created": 1773145713618,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1423913891754147911> \nCan you tell your email ID?",
+      "embeds": [],
+      "created": 1773203784656,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "The one registered on ViBe",
+      "embeds": [],
+      "created": 1773203794875,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1423913891754147911> \nKindly tell your registration email ID and also tell if you have registered yourself for the exam for NPTEL course by Sir.",
+      "embeds": [],
+      "created": 1773233438996,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "samarth020968",
+      "user_id": "1423913891754147911",
+      "is_bot": false,
+      "content": "22cs020@charusat.edu.in \n\nI have not registered for the exam",
+      "embeds": [],
+      "created": 1773238418229,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Then kindly register for the NPTEL + course then",
+      "embeds": [],
+      "created": 1773238945630,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "samarth020968",
+      "user_id": "1423913891754147911",
+      "is_bot": false,
+      "content": "What about my offer letter",
+      "embeds": [],
+      "created": 1773286923874,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1423913891754147911> \nFor eligibility for the course you must have enrolled in the NPTEL course and registered for exam. \nThen only we can give you the offer letter.",
+      "embeds": [],
+      "created": 1773288479414,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1423913891754147911> \nI hope your doubt is now cleared and we can close this ticket.",
+      "embeds": [],
+      "created": 1773314875419,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "samarth020968",
+      "user_id": "1423913891754147911",
+      "is_bot": false,
+      "content": "<@874267631350317106> ma'am, with all due respect the registration deadline for the exam has already passed. I cannot register for the exam even if I wish to do so now.",
+      "embeds": [],
+      "created": 1773328477469,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Kindly try enrolling in the same course through NPTEL +",
+      "embeds": [],
+      "created": 1773335937683,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1423913891754147911> \nIs your issue resolved now?",
+      "embeds": [],
+      "created": 1773377211934,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1423913891754147911> \nIs your issue resolved now?",
+      "embeds": [],
+      "created": 1773463579916,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1423913891754147911> \nAs you are not replying for last two days hence closing this ticket assuming your issue has been resolved. \nCC: <@836880971017748512>",
+      "embeds": [],
+      "created": 1773559188813,
+      "edited": 1773559199042
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773636758085,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773636758514,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773636760371,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0404",
+    "id": "1480630153821425716"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 22
+}

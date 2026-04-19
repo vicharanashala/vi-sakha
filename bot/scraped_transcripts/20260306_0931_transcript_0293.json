@@ -1,0 +1,262 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1437442827343757324> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Hp deduction",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772291382012,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "swetha_71031",
+      "user_id": "1437442827343757324",
+      "is_bot": false,
+      "content": "I have completed all my Week 2 case studies. A few files were uploaded separately, and case studies 10 to 18 were compressed and submitted before the deadline.\n\nHowever, I noticed that my HP has been deducted by 5%. I would like to kindly request you to review my submission, as I believe everything was submitted on time.\n\nPlease let me know if any file is missing or if there was an issue with the upload. I am happy to resubmit if required.\nThank you for your time and support.",
+      "embeds": [],
+      "created": 1772291622186,
+      "edited": 1772291647529
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1437442827343757324> please mention your Cohort, Date and time of completion of case studies and filling of form",
+      "embeds": [],
+      "created": 1772291798502,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "swetha_71031",
+      "user_id": "1437442827343757324",
+      "is_bot": false,
+      "content": "I am from Dijkstrian batch \ndate -26/02/2025\ntime 9:30 PM",
+      "embeds": [],
+      "created": 1772291908490,
+      "edited": 1772292297436
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Ok. We have notified the team and the issue will be resolved by EOD tomorrow.\n\nCC: <@956180961832362014>",
+      "embeds": [],
+      "created": 1772294995355,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "swetha_71031",
+      "user_id": "1437442827343757324",
+      "is_bot": false,
+      "content": "Thank you, Sir",
+      "embeds": [],
+      "created": 1772295959325,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1437442827343757324> \nYou issue has been resolved. \nKindly check once and update.",
+      "embeds": [],
+      "created": 1772515841117,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "swetha_71031",
+      "user_id": "1437442827343757324",
+      "is_bot": false,
+      "content": "I would like to inform you that my issue has still not been resolved. The deducted HP has not been added back, and my dashboard continues to show -5%.",
+      "embeds": [],
+      "created": 1772534025155,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1437442827343757324> \nIs the dashboard updated now kindly check once more.",
+      "embeds": [],
+      "created": 1772641971643,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1437442827343757324> \nKindly tell us if you have verified the dashboard once again.",
+      "embeds": [],
+      "created": 1772693650283,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "swetha_71031",
+      "user_id": "1437442827343757324",
+      "is_bot": false,
+      "content": "No ma'am still it's not added",
+      "embeds": [],
+      "created": 1772694990512,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1437442827343757324>  is the issue resolved? Cant the ticket be closed?",
+      "embeds": [],
+      "created": 1772707643242,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "swetha_71031",
+      "user_id": "1437442827343757324",
+      "is_bot": false,
+      "content": "Sir, my hp is not added and my dashboard still shows -5%",
+      "embeds": [],
+      "created": 1772707840059,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "We can find only 10 case study submissions. For each case study, you need to submit a separate entry; only then are they counted. We will consider your case, but for that, you have to fill out the form for the other 10 to 17 CS. Once you fill form let us know we will update your HP.",
+      "embeds": [],
+      "created": 1772772385272,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1437442827343757324>",
+      "embeds": [],
+      "created": 1772772389738,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "swetha_71031",
+      "user_id": "1437442827343757324",
+      "is_bot": false,
+      "content": "Ok mam",
+      "embeds": [],
+      "created": 1772775322426,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Yes.",
+      "embeds": [],
+      "created": 1772776195631,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "I hope your issue is resolved now?",
+      "embeds": [],
+      "created": 1772776204034,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "swetha_71031",
+      "user_id": "1437442827343757324",
+      "is_bot": false,
+      "content": "The issue has been resolved, thank you for your support 🙂",
+      "embeds": [],
+      "created": 1772788574830,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1437442827343757324>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772788593487,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772788594207,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772789460026,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0293",
+    "id": "1477321871077675048"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 22
+}

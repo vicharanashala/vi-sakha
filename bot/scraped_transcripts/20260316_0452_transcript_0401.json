@@ -1,0 +1,282 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@713388213791752273> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : For removing from dashboard. Iam removed due to not completion of target score i completely apologise for what i did . Iam not able to complete the score at that time due examination going on in my college so my concentration and focus was o",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773068481143,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@713388213791752273> \nAccording to the internship guidelines, missing scheduled milestones cannot be accommodated.\nHowever, you are welcome to join the upcoming cohorts and continue your learning journey with us.\nWe would be happy to have you participate in the next batch.",
+      "embeds": [],
+      "created": 1773069696128,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "inddrasen7399",
+      "user_id": "713388213791752273",
+      "is_bot": false,
+      "content": "I have completed the milestone",
+      "embeds": [],
+      "created": 1773069990155,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@713388213791752273> \nYou can raise an appeal using the appeal form for the same",
+      "embeds": [],
+      "created": 1773070086457,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "If the team finds it genuine then they will surely restore you.",
+      "embeds": [],
+      "created": 1773070104872,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "inddrasen7399",
+      "user_id": "713388213791752273",
+      "is_bot": false,
+      "content": "I had submitted form",
+      "embeds": [],
+      "created": 1773070111468,
+      "edited": 1773070141008
+    },
+    {
+      "index": 7,
+      "author": "inddrasen7399",
+      "user_id": "713388213791752273",
+      "is_bot": false,
+      "content": "My progress will be wasted if i exit this batch and i will have extra work if i start from beginning",
+      "embeds": [],
+      "created": 1773070118377,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@713388213791752273> \nIf you have submitted the form then kindly wait.",
+      "embeds": [],
+      "created": 1773070155602,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "inddrasen7399",
+      "user_id": "713388213791752273",
+      "is_bot": false,
+      "content": "Ok but i have submitted before 5 days",
+      "embeds": [],
+      "created": 1773070224660,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@713388213791752273> \nIf that is the case then I will escalate your issue.",
+      "embeds": [],
+      "created": 1773070577602,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@836880971017748512> \nKindly help us out here.",
+      "embeds": [],
+      "created": 1773288406948,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@713388213791752273> We reviewed your appeal and also noted that your ViBe progress is still way below the required milestone as the 100% completion was fixed on 19 February.",
+      "embeds": [],
+      "created": 1773288848670,
+      "edited": 1773288857939
+    },
+    {
+      "index": 13,
+      "author": "inddrasen7399",
+      "user_id": "713388213791752273",
+      "is_bot": false,
+      "content": "Please give me one chance i have completed 51% if i have to start again all this progress will be wasted i will keep my full time to complete the 100% milestone with in a week",
+      "embeds": [],
+      "created": 1773291318338,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "We will forward to the team and let you know.",
+      "embeds": [],
+      "created": 1773291841091,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@713388213791752273> \nAs per the cohort guidelines, participants are expected to complete approximately **3.33% of the ViBe progress each day**.\nAccording to our records, you were enrolled on **31/01/2026**, which means the **100% ViBe progress was expected to be completed within 31 days**. However, it has now been **41 days**, and the current progress reflects **52% completion**.\nDue to this, we regret to inform you that **we are unable to restore your access at this stage**.\nWe truly appreciate the effort you have put in so far, and we would encourage you to **join one of the upcoming cohorts in the future** to continue your learning journey.",
+      "embeds": [],
+      "created": 1773381914820,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1359148118444343517> \nCan we add him to the prospective interns channel?",
+      "embeds": [],
+      "created": 1773390101828,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Done <@956180961832362014>",
+      "embeds": [],
+      "created": 1773390134479,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@713388213791752273> \nWe hope your issue is resolved now?",
+      "embeds": [],
+      "created": 1773390154369,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@713388213791752273> \nWe hope your issue is resolved now and we can close this ticket now?",
+      "embeds": [],
+      "created": 1773463437964,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@713388213791752273> \nAs you are not replying back so we will be assuming your issue has been resolved hence closing this ticket.",
+      "embeds": [],
+      "created": 1773633881223,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "CC: <@836880971017748512>",
+      "embeds": [],
+      "created": 1773633886767,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773636739107,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773636739937,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773636744974,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0401",
+    "id": "1480581261230739560"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 24
+}
