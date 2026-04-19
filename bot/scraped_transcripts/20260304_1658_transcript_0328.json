@@ -1,0 +1,162 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1468867383551594639> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : My 10% Vibe was never added to my total hp but it show in individual hp . I emailed before, but it’s still not fixed. My HP should be higher than 131. Please check this because of threadshold value i removed from cohort please rejoin me in c",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772515731716,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1468867383551594639> please mention your cohort name, registered mail ID",
+      "embeds": [],
+      "created": 1772515903083,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "shriyasharma_10",
+      "user_id": "1468867383551594639",
+      "is_bot": false,
+      "content": "Cohort name - Euclideans \nRegister mail id - shriyasharmanitpatna@gmail.com",
+      "embeds": [],
+      "created": 1772515940065,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1468867383551594639> \nWe have escalated your issue",
+      "embeds": [],
+      "created": 1772516869992,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "shriyasharma_10",
+      "user_id": "1468867383551594639",
+      "is_bot": false,
+      "content": "Thank you ma'am",
+      "embeds": [],
+      "created": 1772517089245,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1468867383551594639> \nThe Issue has been resolved we have reverted your HP.",
+      "embeds": [],
+      "created": 1772517867139,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "shriyasharma_10",
+      "user_id": "1468867383551594639",
+      "is_bot": false,
+      "content": "Thank you ma'am My HP has increased now, but I was removed from the cohort live dashboard  Could you please rejoin me to the group",
+      "embeds": [],
+      "created": 1772518601786,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1468867383551594639> \nWe have escalated your issue.",
+      "embeds": [],
+      "created": 1772642849059,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "shriyasharma_10",
+      "user_id": "1468867383551594639",
+      "is_bot": false,
+      "content": "Ma'am my issue is solve now thank you",
+      "embeds": [],
+      "created": 1772643244497,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772643527744,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772643528360,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772643530695,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0328",
+    "id": "1478262861192232990"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 12
+}

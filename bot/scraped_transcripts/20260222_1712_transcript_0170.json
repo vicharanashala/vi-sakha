@@ -1,0 +1,444 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473993163990503456> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Not able to progress due to Quiz 8 issue",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771758806969,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "gourish0643",
+      "user_id": "1473993163990503456",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771758885408,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "gourish0643",
+      "user_id": "1473993163990503456",
+      "is_bot": false,
+      "content": "In quiz 8, the answer for the 'The code inside the following if block is __ executed.     if(true) {   }\n' should be 'Always'? But it's not letting me pass through it after providing that response.",
+      "embeds": [],
+      "created": 1771758898761,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@1473993163990503456> , please ping here whenever you are availale for a call",
+      "embeds": [],
+      "created": 1771765392269,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "gourish0643",
+      "user_id": "1473993163990503456",
+      "is_bot": false,
+      "content": "Hello!",
+      "embeds": [],
+      "created": 1771771717807,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "gourish0643",
+      "user_id": "1473993163990503456",
+      "is_bot": false,
+      "content": "We can connect if you are available",
+      "embeds": [],
+      "created": 1771771792502,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi",
+      "embeds": [],
+      "created": 1771771892326,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "gourish0643",
+      "user_id": "1473993163990503456",
+      "is_bot": false,
+      "content": "Should I call?",
+      "embeds": [],
+      "created": 1771771934772,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "yes",
+      "embeds": [],
+      "created": 1771771947558,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "gourish0643",
+      "user_id": "1473993163990503456",
+      "is_bot": false,
+      "content": "Started the call - are you getting it?",
+      "embeds": [],
+      "created": 1771772085097,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "gourish0643",
+      "user_id": "1473993163990503456",
+      "is_bot": false,
+      "content": "very new to this - not sure it;s reaching you",
+      "embeds": [],
+      "created": 1771772101471,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "gourish0643",
+      "user_id": "1473993163990503456",
+      "is_bot": false,
+      "content": "it's",
+      "embeds": [],
+      "created": 1771772105521,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "ok",
+      "embeds": [],
+      "created": 1771772112912,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "can you join here: https://meet.google.com/haj-hztc-wzo",
+      "embeds": [
+        {
+          "title": "Meet",
+          "description": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+          "url": "https://meet.google.com/haj-hztc-wzo",
+          "thumbnail": {
+            "url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771772124161,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "gourish0643",
+      "user_id": "1473993163990503456",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771772702678,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "gourish0643",
+      "user_id": "1473993163990503456",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771772720280,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "gourish0643",
+      "user_id": "1473993163990503456",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771772735511,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "gourish0643",
+      "user_id": "1473993163990503456",
+      "is_bot": false,
+      "content": "Should I send you screenshots with other option being selected for the 2nd quiz?",
+      "embeds": [],
+      "created": 1771772802211,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "gourish0643",
+      "user_id": "1473993163990503456",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771772861766,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "can you try with true for 1st one if(a == 20) ?",
+      "embeds": [],
+      "created": 1771772889671,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "gourish0643",
+      "user_id": "1473993163990503456",
+      "is_bot": false,
+      "content": "Now somehow, it has progressed to video_12 and quiz8 is now showing as progress",
+      "embeds": [],
+      "created": 1771772892067,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "gourish0643",
+      "user_id": "1473993163990503456",
+      "is_bot": false,
+      "content": "So, I think the issue is resolved?",
+      "embeds": [],
+      "created": 1771772911113,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "you moved to next video then it's ok",
+      "embeds": [],
+      "created": 1771772940573,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "gourish0643",
+      "user_id": "1473993163990503456",
+      "is_bot": false,
+      "content": "Earlier it was not progressing to video12 - always leading to the last video",
+      "embeds": [],
+      "created": 1771772955679,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "gourish0643",
+      "user_id": "1473993163990503456",
+      "is_bot": false,
+      "content": "yes",
+      "embeds": [],
+      "created": 1771772957615,
+      "edited": null
+    },
+    {
+      "index": 26,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "just go to dashboard, refresh it and come again to course page...",
+      "embeds": [],
+      "created": 1771772976528,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "and let me know",
+      "embeds": [],
+      "created": 1771772985785,
+      "edited": null
+    },
+    {
+      "index": 28,
+      "author": "gourish0643",
+      "user_id": "1473993163990503456",
+      "is_bot": false,
+      "content": "yes I did, and the issue seems to have resolved now",
+      "embeds": [],
+      "created": 1771773049107,
+      "edited": null
+    },
+    {
+      "index": 29,
+      "author": "gourish0643",
+      "user_id": "1473993163990503456",
+      "is_bot": false,
+      "content": "now on video12",
+      "embeds": [],
+      "created": 1771773061279,
+      "edited": null
+    },
+    {
+      "index": 30,
+      "author": "gourish0643",
+      "user_id": "1473993163990503456",
+      "is_bot": false,
+      "content": "Thank you!\\",
+      "embeds": [],
+      "created": 1771773067621,
+      "edited": null
+    },
+    {
+      "index": 31,
+      "author": "gourish0643",
+      "user_id": "1473993163990503456",
+      "is_bot": false,
+      "content": "Should I close the ticket?",
+      "embeds": [],
+      "created": 1771773092128,
+      "edited": null
+    },
+    {
+      "index": 32,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "yes sure",
+      "embeds": [],
+      "created": 1771773100980,
+      "edited": null
+    },
+    {
+      "index": 33,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1473993163990503456>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771773122510,
+      "edited": null
+    },
+    {
+      "index": 34,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@956180961832362014>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1771780341083,
+      "edited": null
+    },
+    {
+      "index": 35,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing this ticket.",
+      "embeds": [],
+      "created": 1771780357592,
+      "edited": null
+    },
+    {
+      "index": 36,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771780365897,
+      "edited": null
+    },
+    {
+      "index": 37,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771780366430,
+      "edited": null
+    },
+    {
+      "index": 38,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771780369192,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0170",
+    "id": "1475088089121554545"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 38
+}

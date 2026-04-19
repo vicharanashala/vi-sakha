@@ -1,0 +1,219 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1475810603317858356> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Hello Team,  I want to raise a concern regarding the VIBE course completion. The due date to complete 50% of the course was 5 February. While I was completing the course, the platform was making delays. After finishing a video, moving to the",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772736904272,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1475810603317858356> please elaborate on the issue and mention your name,cohort name, registered mail id",
+      "embeds": [],
+      "created": 1772760929485,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "kanchandeshmukh_69590",
+      "user_id": "1475810603317858356",
+      "is_bot": false,
+      "content": "Hello Team,\n\nMy name is Kanchan Devanand Deshmukh. I am from the AKSians cohort and my registered email ID is [co.2023.kddeshmukh@bitwardha.ac.in](mailto:co.2023.kddeshmukh@bitwardha.ac.in).\n\nI would like to raise a concern regarding the VIBE course completion. The due date to complete 50% of the course was 5 February. While I was completing the course, the platform was making delays. After finishing a video, moving to the quiz was taking extra time due to loading delays.\n\nBecause of this issue, my progress was slower and I was only able to reach 49.60% completion, which is slightly below the required 50%. I was actively trying to complete the required progress before the deadline.\n\nKindly review my progress and the issue I faced with the platform delays. Also, please let me know if this will affect my health points.\n\nThank you.",
+      "embeds": [],
+      "created": 1772767045590,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1475810603317858356> Did you raise a support ticket regarding this before?",
+      "embeds": [],
+      "created": 1772769082813,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "kanchandeshmukh_69590",
+      "user_id": "1475810603317858356",
+      "is_bot": false,
+      "content": "No.",
+      "embeds": [],
+      "created": 1772771166513,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "kanchandeshmukh_69590",
+      "user_id": "1475810603317858356",
+      "is_bot": false,
+      "content": "Hello Team,\n\nI would like to correct my previous message. I misunderstood the due date earlier. The due date was 5 February, and I realized this afterward.\n\nI apologize for the confusion. I can also see that my health points are now updated after reaching 50% completion.\n\nHowever, I would still like to report that there are delays when switching from the video to the quiz section, as the page takes extra time to load.\n\nThank you.",
+      "embeds": [],
+      "created": 1772772023964,
+      "edited": 1772772266292
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1475810603317858356> Sure, please feel free to raise a flag in the ViBe platform itself while learning that module itself so that our tech team can look into it swiftly.",
+      "embeds": [],
+      "created": 1772772775919,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "kanchandeshmukh_69590",
+      "user_id": "1475810603317858356",
+      "is_bot": false,
+      "content": "Sure, thank you for the guidance. I will raise a flag on the ViBe platform while learning the module so that the tech team can look into the issue.\n\nThank you.",
+      "embeds": [],
+      "created": 1772774479129,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1475810603317858356> is the issue resolved? can we close the ticket?",
+      "embeds": [],
+      "created": 1773025639064,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "kanchandeshmukh_69590",
+      "user_id": "1475810603317858356",
+      "is_bot": false,
+      "content": "My placement-related exams were going on, so I was not able to watch more videos on ViBe. I will watch them tomorrow and update you.",
+      "embeds": [],
+      "created": 1773078604808,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1475810603317858356> \nKindly complete milestones as mentioned on the website. \nFor more information you may visit our website: https://sudarshansudarshan.github.io/vinternship/",
+      "embeds": [
+        {
+          "title": "Welcome to Vinternship",
+          "description": "Vinternship - A comprehensive full-stack development internship program covering the MERN stack and modern web technologies. Master TypeScript, React, Express.js, and MongoDB through hands-on case studies.",
+          "url": "https://sudarshansudarshan.github.io/vinternship/",
+          "fields": []
+        }
+      ],
+      "created": 1773119794113,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1475810603317858356> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1773202510501,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "kanchandeshmukh_69590",
+      "user_id": "1475810603317858356",
+      "is_bot": false,
+      "content": "yess",
+      "embeds": [],
+      "created": 1773207894706,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Ticket.",
+      "embeds": [],
+      "created": 1773208892447,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773208902280,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773208903479,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773208906767,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0374",
+    "id": "1479190526329749565"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 17
+}

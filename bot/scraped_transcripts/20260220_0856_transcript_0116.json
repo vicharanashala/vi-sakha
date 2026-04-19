@@ -1,0 +1,132 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1474020189191409787> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Not getting approval for AKSians registration",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771520998138,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "adityabmv",
+      "user_id": "647093625594839050",
+      "is_bot": false,
+      "content": "Could you please share your email?",
+      "embeds": [],
+      "created": 1771521173909,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "adityabmv",
+      "user_id": "647093625594839050",
+      "is_bot": false,
+      "content": "<@836880971017748512>",
+      "embeds": [],
+      "created": 1771521176821,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "The registration requests are being approved",
+      "embeds": [],
+      "created": 1771521233800,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1474020189191409787> \nWe hope your issue has been resolved.",
+      "embeds": [],
+      "created": 1771563576350,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Issue has been resolved, Closing the ticket.",
+      "embeds": [],
+      "created": 1771577767467,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771577773197,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771577773616,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771577775819,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0116",
+    "id": "1474090646980661333"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 9
+}

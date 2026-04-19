@@ -1,0 +1,112 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1477066232355361059> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I have enrolled on 02/03/26 on vibe  i accessed the lectures from that day so this is the date of my joininng pls ensure me will I get the offer letter as I completed the 25% course on vibe within 7 March or within 1 week.pls confirm",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772834370122,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1477066232355361059> as per the announcements made, 20% completion is needed for the eligibility for offer letter. Do not worry, you'll be getting a certificate of completion upon successful completion of the internship from Vicharanashala Lab for Education Design.",
+      "embeds": [],
+      "created": 1772854437403,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1477066232355361059> is the issue resolved? can we close the ticket?",
+      "embeds": [],
+      "created": 1773025675552,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "ananyaray0965",
+      "user_id": "1477066232355361059",
+      "is_bot": false,
+      "content": "Ok sir",
+      "embeds": [],
+      "created": 1773045463145,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1477066232355361059>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773045478184,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773045478867,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773047398926,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0382",
+    "id": "1479599328845889576"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 7
+}

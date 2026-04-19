@@ -1,0 +1,182 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1013013754067308594> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : HP not reverted for vibe completion glitch yet",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772127832695,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@1013013754067308594> \nWe have noted your concern and would come back after connecting with the concern team. Kindly also provide your email and cohort name for reference.\ncc <@956180961832362014> Mam",
+      "embeds": [],
+      "created": 1772128505372,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "sumaymittal",
+      "user_id": "1013013754067308594",
+      "is_bot": false,
+      "content": "I am Sumay Mittal from the Euclideans cohort.\nMy mail is sumaymittal_23it163@dtu.ac.in'",
+      "embeds": [],
+      "created": 1772128897159,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1013013754067308594> \nKindly elaborate your issue.",
+      "embeds": [],
+      "created": 1772169581531,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "sumaymittal",
+      "user_id": "1013013754067308594",
+      "is_bot": false,
+      "content": "Hello Ma’am,\nThank you for your response.\nI would like to clearly explain the issue. Before the deadline, my Vibe course progress was stuck at 99.8%. I tried every possible solution from my side, revisiting all modules, rewatching videos, checking quizzes, refreshing the portal.. but the progress was not updating to 100% despite completing everything.\nUnfortunately, while it was still showing 99.8%, the deadline passed and my HP was deducted, placing me in the unsafe zone.\nAfter a few days, I again rewatched all the videos carefully, and this time the progress finally updated to 100%. This indicates that the earlier issue was likely due to a technical glitch rather than incomplete work from my side.\nSince I had completed all the required content before the deadline and the delay in progress update was due to a system issue, I kindly request you to please reconsider the HP deduction and restore my HP.\nThank you for your time and understanding.",
+      "embeds": [],
+      "created": 1772184202803,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1013013754067308594> \nWe have escalated your query to the team. \nWe will soon update you when your issue will be resolved from my side.",
+      "embeds": [],
+      "created": 1772196856740,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "sumaymittal",
+      "user_id": "1013013754067308594",
+      "is_bot": false,
+      "content": "okay mam, thankyou",
+      "embeds": [],
+      "created": 1772203782182,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1013013754067308594> \nYou HP's have been reverted back kindly check once, it may take some time to update the HP.",
+      "embeds": [],
+      "created": 1772295054590,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "sumaymittal",
+      "user_id": "1013013754067308594",
+      "is_bot": false,
+      "content": "It's not reverted yet..",
+      "embeds": [],
+      "created": 1772298790526,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "sumaymittal",
+      "user_id": "1013013754067308594",
+      "is_bot": false,
+      "content": "It is reverted now successfully, Thanks a lot team.",
+      "embeds": [],
+      "created": 1772375431171,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "closing the ticket.",
+      "embeds": [],
+      "created": 1772422672887,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772422678636,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772422679014,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772422681037,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0270",
+    "id": "1476635895221190750"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 14
+}

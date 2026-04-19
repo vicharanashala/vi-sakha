@@ -1,0 +1,132 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1393214455177023670> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Im not getting anything in my enrolled courses",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772208741430,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@1393214455177023670> , kindly share your email id through which you registered in the course and cohort name you registered in.",
+      "embeds": [],
+      "created": 1772208975430,
+      "edited": 1772211610186
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1393214455177023670> \nKindly share the details for further guidance.",
+      "embeds": [],
+      "created": 1772428323489,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1393214455177023670> \nKindly give further details like which cohort you belong to.",
+      "embeds": [],
+      "created": 1772461235973,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1393214455177023670> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772515481499,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1393214455177023670> \nAs there is no response from your side we will mark this ticket as closed. \nIf you have any further issues you may open a new ticket.",
+      "embeds": [],
+      "created": 1772641140960,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772641148256,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772641148865,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772641151135,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0282",
+    "id": "1476975251316543608"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 9
+}

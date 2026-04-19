@@ -1,0 +1,132 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1359148118444343517> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : testing the database logger",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773229027021,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "don't worry guys",
+      "embeds": [],
+      "created": 1773229033400,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "i am testing the system itself",
+      "embeds": [],
+      "created": 1773229040603,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "no need to reply in here",
+      "embeds": [],
+      "created": 1773229046561,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "lalala",
+      "embeds": [],
+      "created": 1773229055471,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "closing this ticket now",
+      "embeds": [],
+      "created": 1773229061604,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1359148118444343517>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773229066375,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773229066796,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773229069204,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0412",
+    "id": "1481254639386099837"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 9
+}

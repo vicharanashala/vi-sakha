@@ -1,0 +1,154 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1469217481221734412> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Although I have completed my 100 percent vibe progress,my hps were deducted due to the 99.90 completion issue.When I mailed there came a reply that it will be reverted,but haven't reverted it yet.Please look forward to it",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771654733421,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1469217481221734412>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771654791198,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@836880971017748512>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1771654901873,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1469217481221734412> Is the issue resolved?",
+      "embeds": [],
+      "created": 1771654918530,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "simrankumari0086",
+      "user_id": "1469217481221734412",
+      "is_bot": false,
+      "content": "No sir .",
+      "embeds": [],
+      "created": 1771655081766,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1469217481221734412> As mentioned in the FAQ, it will be considered as successful completion and the HP will be reverted.",
+      "embeds": [],
+      "created": 1771656447027,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "simrankumari0086",
+      "user_id": "1469217481221734412",
+      "is_bot": false,
+      "content": "Okay sir, Thank you.",
+      "embeds": [],
+      "created": 1771660456584,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771665907472,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771665908017,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771665909667,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0138",
+    "id": "1474651573559890004"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 10
+}

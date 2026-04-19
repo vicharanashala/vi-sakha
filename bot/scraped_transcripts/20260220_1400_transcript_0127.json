@@ -1,0 +1,192 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1472157985324400671> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : not able to access the course",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771593874385,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "harshdinodia",
+      "user_id": "1472157985324400671",
+      "is_bot": false,
+      "content": "not able to access course\ncamera permission allowed, lighitning is good but still this is happening",
+      "embeds": [],
+      "created": 1771593954960,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "harshdinodia",
+      "user_id": "1472157985324400671",
+      "is_bot": false,
+      "content": "i got too many penelty score because of this from 16th feb onwards",
+      "embeds": [],
+      "created": 1771594083194,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1472157985324400671> Can you elaborate on the issue? Try from a different browser too. I see that your webcam isn't working in the video. Also try clearing the browser cache, logout and login and try again.",
+      "embeds": [],
+      "created": 1771594087820,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "This score doesn't affect your HP.",
+      "embeds": [],
+      "created": 1771594122241,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "harshdinodia",
+      "user_id": "1472157985324400671",
+      "is_bot": false,
+      "content": "whenever i start the course i saw this only no videos and nothing else \ni already tried by clearing cache and login logout still this is occuring",
+      "embeds": [],
+      "created": 1771594169568,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Can you join my breakout room for a discussion and resolving this issue?",
+      "embeds": [],
+      "created": 1771594256911,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "harshdinodia",
+      "user_id": "1472157985324400671",
+      "is_bot": false,
+      "content": "tell me how to join",
+      "embeds": [],
+      "created": 1771594294576,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Click on the Nitin Sankar's breakout room and join",
+      "embeds": [],
+      "created": 1771594337226,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1472157985324400671> Please join the breakout room",
+      "embeds": [],
+      "created": 1771594544550,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "harshdinodia",
+      "user_id": "1472157985324400671",
+      "is_bot": false,
+      "content": "thanks, its now working",
+      "embeds": [],
+      "created": 1771595991165,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Ticket",
+      "embeds": [],
+      "created": 1771596031166,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771596040499,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771596041036,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771596043781,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0127",
+    "id": "1474396312941105274"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 15
+}

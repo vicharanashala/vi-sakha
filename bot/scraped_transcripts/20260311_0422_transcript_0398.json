@@ -1,0 +1,132 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1409493936099299441> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : About A1 submission form .I have submitted on 4th March. Before the deadline i.e 6th March.i have submitted the A1 task.please check once.i have got the -5% inspite of submitting the form of A1 task",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773043690828,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1409493936099299441> \nWe have escalated your query.",
+      "embeds": [],
+      "created": 1773047235778,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "g.lakshmi",
+      "user_id": "1409493936099299441",
+      "is_bot": false,
+      "content": "Thank you mam",
+      "embeds": [],
+      "created": 1773047942547,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1409493936099299441> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1773120825477,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "g.lakshmi",
+      "user_id": "1409493936099299441",
+      "is_bot": false,
+      "content": "Yes mam.\nIt's resolved",
+      "embeds": [],
+      "created": 1773128218050,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue is resolved hence closing this ticket.",
+      "embeds": [],
+      "created": 1773202932813,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773202937850,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773202938658,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773202941503,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0398",
+    "id": "1480477283780399235"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 9
+}

@@ -1,0 +1,122 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1469358300419067966> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Requesting one chance for endorsement. My HP is below base HP and my name is not in the endorsement form. I was unaware of this requirement for endorsement earlier and have already completed my viva. Kindly consider giving me another chance.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773599635544,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469358300419067966> \nDid you missed any milestones?",
+      "embeds": [],
+      "created": 1773633705130,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "beeramsaishivani",
+      "user_id": "1469358300419067966",
+      "is_bot": false,
+      "content": "Yes mam, I didn't submit case studies within the deadlines because of mid exams, minor project reviews and deadlines. \nNow I submitted all the case studies but in the dashboard it is showing that I didn't submit 2 case studies in the typescript",
+      "embeds": [],
+      "created": 1773638959307,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469358300419067966> \nIt is due to that you submitted it  late. \nWe will escalate your issue to the team for further consideration.",
+      "embeds": [],
+      "created": 1773644423986,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "beeramsaishivani",
+      "user_id": "1469358300419067966",
+      "is_bot": false,
+      "content": "Ok mam \nThank you",
+      "embeds": [],
+      "created": 1773644520159,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1469358300419067966>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773753212992,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773753213403,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773753761986,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0450",
+    "id": "1482809083940573236"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 8
+}

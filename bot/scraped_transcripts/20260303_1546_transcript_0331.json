@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473350439427899526> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : About the activity A1",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772523785275,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "Should we change our dp or is it okay if our dp is appropriate?\nLike i think my current dp is appropriate and clearly identifiable\nPls let me know if its not 😅",
+      "embeds": [],
+      "created": 1772523818489,
+      "edited": 1772523885173
+    },
+    {
+      "index": 3,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "<@956180961832362014>",
+      "embeds": [],
+      "created": 1772530471615,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473350439427899526> this regulation is for the students to identify their peers as we have allowed the participants to use their personal ids.",
+      "embeds": [],
+      "created": 1772534667384,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "No need to change",
+      "embeds": [],
+      "created": 1772534688897,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "Okay sir <@836880971017748512>",
+      "embeds": [],
+      "created": 1772534800741,
+      "edited": 1772534820289
+    },
+    {
+      "index": 7,
+      "author": "shaurya.loop",
+      "user_id": "775738285103775775",
+      "is_bot": false,
+      "content": "<@1473350439427899526> If your issue is resolved, Kindly close this ticket.",
+      "embeds": [],
+      "created": 1772552457917,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "I don't know how to close it pls do it for me",
+      "embeds": [],
+      "created": 1772552534819,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@775738285103775775>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772552556295,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772552556977,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772552812446,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0331",
+    "id": "1478296641378455746"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

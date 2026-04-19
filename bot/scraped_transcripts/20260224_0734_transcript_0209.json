@@ -1,0 +1,142 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1255467086474645514> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Failed to access he quiz",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771916668198,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "vishnuvardhan_1223",
+      "user_id": "1255467086474645514",
+      "is_bot": false,
+      "content": "Failed to access the  quiz 23 in java script from logic to asynchronous after completion of the video .",
+      "embeds": [],
+      "created": 1771916759482,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@759435748721557514> please look into the issue",
+      "embeds": [],
+      "created": 1771917337567,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "<@1255467086474645514> Kindly provide your email ID",
+      "embeds": [],
+      "created": 1771917466926,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "vishnuvardhan_1223",
+      "user_id": "1255467086474645514",
+      "is_bot": false,
+      "content": "<@759435748721557514> Email: vishnuvardhankudikyala@gmail.com",
+      "embeds": [],
+      "created": 1771917531284,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "<@1255467086474645514> kindly check now and let us know the status",
+      "embeds": [],
+      "created": 1771918131845,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "vishnuvardhan_1223",
+      "user_id": "1255467086474645514",
+      "is_bot": false,
+      "content": "<@759435748721557514> Working",
+      "embeds": [],
+      "created": 1771918262998,
+      "edited": 1771918279616
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1255467086474645514>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771918386305,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771918386720,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771918450377,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0209",
+    "id": "1475750208276140153"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 10
+}

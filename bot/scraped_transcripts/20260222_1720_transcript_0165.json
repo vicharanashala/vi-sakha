@@ -1,0 +1,142 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1282025799318503455> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : i complete all js 90 module but cannot access typescript lecture , react lecture are available to  watch",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771755734819,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1282025799318503455> Could you please provide a bit more clarity on the issue you are facing?",
+      "embeds": [],
+      "created": 1771756374710,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "sumitaheer",
+      "user_id": "1282025799318503455",
+      "is_bot": false,
+      "content": "I have successfully completed all 90 modules of the JavaScript course. However, I am unable to access the TypeScript lectures. When I try to open them, a pop-up message appears saying “Access Restricted.”\n\nThe React lectures are accessible and working properly, but the TypeScript section is not available to me.\n\nCould you please check and resolve this issue? \n\nThank you.",
+      "embeds": [],
+      "created": 1771758074985,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1282025799318503455> \nThank you for explaining the issue. We will soon reach out to you with the update for your issue.",
+      "embeds": [],
+      "created": 1771780173808,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "sumitaheer",
+      "user_id": "1282025799318503455",
+      "is_bot": false,
+      "content": "my issue is resolved",
+      "embeds": [],
+      "created": 1771780772084,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Ok",
+      "embeds": [],
+      "created": 1771780787933,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing tht ticket.",
+      "embeds": [],
+      "created": 1771780799699,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771780805824,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771780806323,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771780808857,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0165",
+    "id": "1475075203796303964"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 10
+}

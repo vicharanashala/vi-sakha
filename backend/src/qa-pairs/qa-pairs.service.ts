@@ -9,6 +9,9 @@ export class QaPairsService {
     @InjectModel(QaPair.name) private qaPairModel: Model<QaPairDocument>,
   ) {}
 
+  /**
+   * @description Direct retrieval of verified QA nodes with support for skip/limit pagination.
+   */
   async findAll(limit = 100, skip = 0): Promise<QaPair[]> {
     return this.qaPairModel.find().skip(skip).limit(limit).exec();
   }
@@ -17,6 +20,9 @@ export class QaPairsService {
     return this.qaPairModel.findById(id).exec();
   }
 
+  /**
+   * @description Semantic text search within the QA collection (requires MongoDB text index).
+   */
   async search(query: string, limit = 10): Promise<QaPair[]> {
     return this.qaPairModel
       .find({ $text: { $search: query } })
@@ -32,6 +38,9 @@ export class QaPairsService {
     return this.qaPairModel.countDocuments().exec();
   }
 
+  /**
+   * @description Manually persists a new QA pairing into the database store.
+   */
   async create(data: Partial<QaPair>): Promise<QaPair> {
     const created = new this.qaPairModel(data);
     return created.save();

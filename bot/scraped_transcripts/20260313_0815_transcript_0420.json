@@ -1,0 +1,122 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@724553123552690267> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Hlo jinal  I joined aksians last Thursday  I have started doing vibe course But my base health point is 0",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773297064480,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@724553123552690267> \nIt will be updated soon do not worry. \nWe have escalated your query for the same.",
+      "embeds": [],
+      "created": 1773305480959,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@724553123552690267> \nYour issue has been resolved. \nKindly check once and do update. \nThe dashboard may take some time to fetch the data and reflect on the dashboard.",
+      "embeds": [],
+      "created": 1773380710265,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "arpitha3441",
+      "user_id": "724553123552690267",
+      "is_bot": false,
+      "content": "Hlo mam\nThe dashboard has been updated \nThank you !!",
+      "embeds": [],
+      "created": 1773389328620,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Ok <@724553123552690267> \nAs your issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1773389747787,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773389753731,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773389754346,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773389756798,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0420",
+    "id": "1481540009600483349"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 8
+}

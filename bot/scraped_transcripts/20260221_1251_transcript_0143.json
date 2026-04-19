@@ -1,0 +1,132 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473360597574877381> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Issue in accessing the 1st section of the vibe course videos",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771672917053,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "<@1473360597574877381>  kindly state your cohort name, email and elaborate the issue",
+      "embeds": [],
+      "created": 1771673036290,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "aryajha_003",
+      "user_id": "1473360597574877381",
+      "is_bot": false,
+      "content": "Cohort: AKSians\nEmail: aryajha18062008@gmail.com\n\nIssue:\nI am enrolled in Vinternship (NPTEL) – AKSians. I was not aware earlier about where to watch the course videos and about the course start. When I recently checked the platform and found the videos section, the first section “JavaScript Building Blocks” is showing “Access Restricted”.\n\nBecause of this, I could not watch the videos earlier. I request you to please unlock the videos so I can continue the course and kindly consider this issue so it does not affect my attendance or progress.",
+      "embeds": [],
+      "created": 1771673786424,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "Your issue has been resolved. kindly check and update us.",
+      "embeds": [],
+      "created": 1771673967093,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "aryajha_003",
+      "user_id": "1473360597574877381",
+      "is_bot": false,
+      "content": "The issue has been resolved now and I am able to access the videos. Thank you for your support and quick assistance.",
+      "embeds": [],
+      "created": 1771675863256,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Ticket",
+      "embeds": [],
+      "created": 1771678278854,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771678287033,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771678287886,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771678292874,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0143",
+    "id": "1474727839554080868"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 9
+}

@@ -1,0 +1,122 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1328048842758689008> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I got this internship through the social network, but I was unable to pay the NPTEL exam fee, so I won’t receive the NPTEL certificate. Will this affect my internship certificate?” Or a slightly more formal version: “I received this internsh",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771856997339,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1328048842758689008> \nWe have escalated your issue. \nKindly wait for the official announcement.",
+      "embeds": [],
+      "created": 1771857056766,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "rajitchadar",
+      "user_id": "1328048842758689008",
+      "is_bot": false,
+      "content": "thanks a lot",
+      "embeds": [],
+      "created": 1771857084680,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1328048842758689008> \nWe have escalated your issue to the team. \nThere will be an official announcement regarding the same. \nThank you for your patience, support and undrstanding.",
+      "embeds": [],
+      "created": 1771914648939,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1328048842758689008> \nTill the time there is no official announcement you can continue with your ViBe progress.",
+      "embeds": [],
+      "created": 1771940386274,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1359148118444343517>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772383735661,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772383736056,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772383739356,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0194",
+    "id": "1475499929597247701"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 8
+}

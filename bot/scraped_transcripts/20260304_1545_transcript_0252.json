@@ -1,0 +1,222 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1372251433914863838> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : issue related with discord voice settings",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772031607289,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "ayush_iitm_21877",
+      "user_id": "1372251433914863838",
+      "is_bot": false,
+      "content": "hlo peers, today a stage was conducted by sudarshan sir, but being noob in discord. I was unable to hear him.. I don't know what happened but the mic was not working. Could you guys plz help me with that.\n\nand a brief about what he have said, is appreciated.",
+      "embeds": [],
+      "created": 1772031761904,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1359148118444343517> \nIf you can help out <@1372251433914863838>  in this reference.",
+      "embeds": [],
+      "created": 1772084550681,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Sure <@1372251433914863838>, can we schedule a session on g meet to guide you through discord?",
+      "embeds": [],
+      "created": 1772084600948,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "ayush_iitm_21877",
+      "user_id": "1372251433914863838",
+      "is_bot": false,
+      "content": "that's so sweet of you prakhar, i really appreciated that. can you make a stage, and we could check the audio setting there only. I was facing issue with unability to hear in the stage.\nthanks man!",
+      "embeds": [],
+      "created": 1772112417314,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1372251433914863838> \nWas your issue resolved?",
+      "embeds": [],
+      "created": 1772169229373,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "ayush_iitm_21877",
+      "user_id": "1372251433914863838",
+      "is_bot": false,
+      "content": "i just need the audio to work during any the stage. if someone could create a stage and then i could check if the audio is wroking fine or not. then my problem will be resolved.",
+      "embeds": [],
+      "created": 1772169688870,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1372251433914863838> Yes, sure you can tell anytime one of us can come and hop in to test the same. \nCC: <@836880971017748512> <@1359148118444343517>",
+      "embeds": [],
+      "created": 1772270237473,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Let's finalize a slot",
+      "embeds": [],
+      "created": 1772270313715,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "ayush_iitm_21877",
+      "user_id": "1372251433914863838",
+      "is_bot": false,
+      "content": "tell me a time, most probably i will be there.",
+      "embeds": [],
+      "created": 1772278310413,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1372251433914863838> Was youe issue resolved?",
+      "embeds": [],
+      "created": 1772427810705,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1372251433914863838> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772514507033,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Can we close this ticket?",
+      "embeds": [],
+      "created": 1772514512746,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1372251433914863838> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772533513093,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As there is no response we will close this ticket.",
+      "embeds": [],
+      "created": 1772639101848,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772639108188,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772639108665,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772639110783,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0252",
+    "id": "1476232295936561182"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 18
+}

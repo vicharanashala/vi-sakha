@@ -1,5 +1,5 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
-import { Document } from 'mongoose';
+import { Document, Types } from 'mongoose';
 
 export type TicketDocument = Ticket & Document;
 
@@ -25,33 +25,24 @@ export class TicketScreenshot {
   dataUrl!: string;
 }
 
-const TicketScreenshotSchema = SchemaFactory.createForClass(TicketScreenshot);
-
-@Schema({ _id: false })
-export class TicketMessage {
-  @Prop({ required: true, enum: TicketMessageSenderRole })
-  senderRole!: TicketMessageSenderRole;
-
-  @Prop({ required: true })
-  senderName!: string;
-
-  @Prop({ required: true })
-  message!: string;
-
-  @Prop({ required: true })
-  timestamp!: Date;
-
-  @Prop({ type: [TicketScreenshotSchema], default: [] })
-  screenshots!: TicketScreenshot[];
-}
-
-const TicketMessageSchema = SchemaFactory.createForClass(TicketMessage);
+export const TicketScreenshotSchema = SchemaFactory.createForClass(TicketScreenshot);
 
 @Schema({ timestamps: true, collection: 'tickets' })
 export class Ticket {
   @Prop({ required: true, unique: true })
   ticketNumber!: string;
 
+  // --- User references (authoritative) ---
+  @Prop({ type: Types.ObjectId, ref: 'User', index: true })
+  createdBy?: Types.ObjectId;
+
+  @Prop({ type: Types.ObjectId, ref: 'User', index: true })
+  assignedTo?: Types.ObjectId;
+
+  @Prop({ type: Types.ObjectId, ref: 'User' })
+  assignedBy?: Types.ObjectId;
+
+  // --- Display fields (kept for backward compat) ---
   @Prop({ required: true })
   studentId!: string;
 
@@ -73,8 +64,17 @@ export class Ticket {
   @Prop({ type: [TicketScreenshotSchema], default: [] })
   screenshots!: TicketScreenshot[];
 
-  @Prop({ type: [TicketMessageSchema], default: [] })
-  messages!: TicketMessage[];
+  @Prop()
+  conversationId?: string;
+
+  @Prop()
+  messageId?: string;
+
+  @Prop()
+  originalQuery?: string;
+
+  @Prop()
+  botResponse?: string;
 
   @Prop({ required: true, enum: TicketStatus, default: TicketStatus.OPEN })
   status!: TicketStatus;
@@ -103,6 +103,8 @@ export class Ticket {
 
 export const TicketSchema = SchemaFactory.createForClass(Ticket);
 
+TicketSchema.index({ createdBy: 1, createdAt: -1 });
 TicketSchema.index({ studentId: 1, createdAt: -1 });
+TicketSchema.index({ assignedTo: 1, createdAt: -1 });
 TicketSchema.index({ status: 1, createdAt: -1 });
 TicketSchema.index({ ticketNumber: 1 }, { unique: true });

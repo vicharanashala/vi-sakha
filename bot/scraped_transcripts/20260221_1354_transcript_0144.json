@@ -1,0 +1,112 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1425527200941080677> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I am a dual degree student pursuing my college degree along with the IITM BS degree and my continuous sessional exams of college are from the 23rd to the 27th so If may not be able to complete next week milestone will I still be allowed to c",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771677100792,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "dkhvr_b_27188",
+      "user_id": "1425527200941080677",
+      "is_bot": false,
+      "content": "I am a dual degree student pursuing my college degree along with the IITM BS degree and my continuous sessional exams of college are from the 23rd to the 27th so If may not be able to complete next week milestone will I still be allowed to continue with the internship ?",
+      "embeds": [],
+      "created": 1771677431150,
+      "edited": 1771677448996
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1425527200941080677> \n\nThank you for reaching out and informing us about your situation. We completely understand that managing dual degree commitments along with continuous sessional exams can be demanding, and academics should always take priority.\n\nGiven your current schedule, it would be best for you to step back from this cohort for now. However, you are absolutely welcome to join a later cohort once your academic commitments ease. We appreciate your interest and sincerity, and we wish you the very best for your exams.\n\nLooking forward to having you with us in the future!",
+      "embeds": [],
+      "created": 1771679655289,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "dkhvr_b_27188",
+      "user_id": "1425527200941080677",
+      "is_bot": false,
+      "content": "Thank you for your concern But I would like to continue the current cohort only I'll do my best to cover the milestones I was just looking if there was some other solution It's alright I'll manage to complete the milestones as per the deadlines",
+      "embeds": [],
+      "created": 1771680803091,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1425527200941080677>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771681017576,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771681018394,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771682072811,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0144",
+    "id": "1474745388199317710"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 7
+}

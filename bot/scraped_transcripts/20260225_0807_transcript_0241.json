@@ -1,0 +1,182 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473603424720519198> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : i am facing the issue in quiz section it is showing failed to load in interfaces quiz section of typescript errors is coming failed to load unable to read the properties , please resolve this",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772001499623,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473603424720519198> \nKindly mention your cohort, give your email ID, and also explain your issue in detail.",
+      "embeds": [],
+      "created": 1772001616785,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "aayushkumarmishra0975",
+      "user_id": "1473603424720519198",
+      "is_bot": false,
+      "content": "my gmailid is aayush2005mishra@gmail.com",
+      "embeds": [],
+      "created": 1772001971719,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "<@1473603424720519198> The issue will be resolved soon. Thank you for your patience.",
+      "embeds": [],
+      "created": 1772001993730,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "aayushkumarmishra0975",
+      "user_id": "1473603424720519198",
+      "is_bot": false,
+      "content": "and my cohort is AKSians",
+      "embeds": [],
+      "created": 1772002023036,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "aayushkumarmishra0975",
+      "user_id": "1473603424720519198",
+      "is_bot": false,
+      "content": "issue is not resolved now its showing not my enrolled course",
+      "embeds": [],
+      "created": 1772002527065,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "aayushkumarmishra0975",
+      "user_id": "1473603424720519198",
+      "is_bot": false,
+      "content": "i was enrolled in AKSians and completed 12% also but now it is showing this",
+      "embeds": [],
+      "created": 1772002739556,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "aayushkumarmishra0975",
+      "user_id": "1473603424720519198",
+      "is_bot": false,
+      "content": "kindly please resolve this",
+      "embeds": [],
+      "created": 1772002788998,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "Kindly be assured that your progress remains safe and unaffected. The issue will be resolved as soon as possible.",
+      "embeds": [],
+      "created": 1772003127871,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "<@1473603424720519198> The issue has been resolved. Please verify and let us know the status.",
+      "embeds": [],
+      "created": 1772004687943,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "aayushkumarmishra0975",
+      "user_id": "1473603424720519198",
+      "is_bot": false,
+      "content": "yes sir , thank you so much sir",
+      "embeds": [],
+      "created": 1772004827269,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@759435748721557514>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772006873236,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772006873944,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772006878016,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0241",
+    "id": "1476106016847298591"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 14
+}

@@ -1,0 +1,402 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@859947783355498506> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : i am not receveing any mail regarding standup in my registered mail",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772736743384,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@859947783355498506> \nDo not worry if you are not getting any emails you may join in using the link provided on the channel and login using your registered mail ID.",
+      "embeds": [],
+      "created": 1772769892619,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "subhamsadangi",
+      "user_id": "859947783355498506",
+      "is_bot": false,
+      "content": "In which Chennel I can find the link",
+      "embeds": [],
+      "created": 1772769937547,
+      "edited": 1772770036522
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Yes <@859947783355498506>",
+      "embeds": [],
+      "created": 1772769986432,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "subhamsadangi",
+      "user_id": "859947783355498506",
+      "is_bot": false,
+      "content": "Sorry there was a typing mistake",
+      "embeds": [],
+      "created": 1772770006504,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "No issues",
+      "embeds": [],
+      "created": 1772770029920,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "subhamsadangi",
+      "user_id": "859947783355498506",
+      "is_bot": false,
+      "content": "Please tell me in which Chennel I can find the link for standup",
+      "embeds": [],
+      "created": 1772770057387,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "You can find the daily standup link here <#1473313063108350118>",
+      "embeds": [],
+      "created": 1772770082476,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "subhamsadangi",
+      "user_id": "859947783355498506",
+      "is_bot": false,
+      "content": "in  <#1473313242120982682>  someone shared this image that yesterday there was a standup but there is no such link in <#1473313063108350118> or in my registered email",
+      "embeds": [],
+      "created": 1772775575141,
+      "edited": 1772775590225
+    },
+    {
+      "index": 10,
+      "author": "subhamsadangi",
+      "user_id": "859947783355498506",
+      "is_bot": false,
+      "content": "and another question is how many case studies i need to submit in total and \ncan i choose random problem statement from those 4 topics or do i have to cover some problem from each topics",
+      "embeds": [],
+      "created": 1772776128398,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@859947783355498506> You have to do all the case studies in a stipulated amount of time.",
+      "embeds": [],
+      "created": 1772776875405,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "subhamsadangi",
+      "user_id": "859947783355498506",
+      "is_bot": false,
+      "content": "And what about this",
+      "embeds": [],
+      "created": 1772777205957,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Kindly check your spam mails the link is always shared 24 hours before the standup as per our records you might have received the link .",
+      "embeds": [],
+      "created": 1772777660540,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "subhamsadangi",
+      "user_id": "859947783355498506",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1772777740764,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Can you check for this mail once: no-reply@zoom.us",
+      "embeds": [],
+      "created": 1772777788199,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@859947783355498506> \nKindly share the screen shot for the same.",
+      "embeds": [],
+      "created": 1772778264671,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "subhamsadangi",
+      "user_id": "859947783355498506",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1772778366132,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Kindly share your registered mail ID",
+      "embeds": [],
+      "created": 1772778433599,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "subhamsadangi",
+      "user_id": "859947783355498506",
+      "is_bot": false,
+      "content": "24cseds031.subhamsadangi@giet.edu",
+      "embeds": [],
+      "created": 1772788676084,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Did you checked on this mail only?",
+      "embeds": [],
+      "created": 1772791501091,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "subhamsadangi",
+      "user_id": "859947783355498506",
+      "is_bot": false,
+      "content": "Yes",
+      "embeds": [],
+      "created": 1772791514767,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "subhamsadangi",
+      "user_id": "859947783355498506",
+      "is_bot": false,
+      "content": "Can you tell me if, when I submit code files for case studies, is it necessary to show their UI or will only the logic code work?",
+      "embeds": [],
+      "created": 1772915520250,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "subhamsadangi",
+      "user_id": "859947783355498506",
+      "is_bot": false,
+      "content": "Actually, I completed the nineteen lessons of TypeScript today, but I didn't check the submission format. I submitted them as .tsx files. Is this okay, or do I need to do something else? Please let me know",
+      "embeds": [],
+      "created": 1772916649612,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@859947783355498506> Please check with FAQ 8.5 and submit accordingly.",
+      "embeds": [],
+      "created": 1772946906090,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "subhamsadangi",
+      "user_id": "859947783355498506",
+      "is_bot": false,
+      "content": "I saw yesterday but i already submitted typescript all 19 lessons now tell me what to do",
+      "embeds": [],
+      "created": 1772954207841,
+      "edited": null
+    },
+    {
+      "index": 26,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Please submit again. You can even ask your peers in the cohort for assistance",
+      "embeds": [],
+      "created": 1772960864475,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "subhamsadangi",
+      "user_id": "859947783355498506",
+      "is_bot": false,
+      "content": "I already asked but not getting any valid answer",
+      "embeds": [],
+      "created": 1772965377768,
+      "edited": null
+    },
+    {
+      "index": 28,
+      "author": "subhamsadangi",
+      "user_id": "859947783355498506",
+      "is_bot": false,
+      "content": "So then what about those submission?\n\nIf I submit all 19 lessons again, it shouldn't cause any problems, right?",
+      "embeds": [],
+      "created": 1772965499676,
+      "edited": null
+    },
+    {
+      "index": 29,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Yes, and also use your ViBe registered mail id for submission",
+      "embeds": [],
+      "created": 1772969827955,
+      "edited": null
+    },
+    {
+      "index": 30,
+      "author": "subhamsadangi",
+      "user_id": "859947783355498506",
+      "is_bot": false,
+      "content": "What about this?",
+      "embeds": [],
+      "created": 1772972509485,
+      "edited": null
+    },
+    {
+      "index": 31,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Both are preferred",
+      "embeds": [],
+      "created": 1772978694702,
+      "edited": null
+    },
+    {
+      "index": 32,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@859947783355498506> is the issue resolved? can we close the ticket?",
+      "embeds": [],
+      "created": 1773025627462,
+      "edited": null
+    },
+    {
+      "index": 33,
+      "author": "subhamsadangi",
+      "user_id": "859947783355498506",
+      "is_bot": false,
+      "content": "yes",
+      "embeds": [],
+      "created": 1773063875345,
+      "edited": null
+    },
+    {
+      "index": 34,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773066240826,
+      "edited": null
+    },
+    {
+      "index": 35,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773066241386,
+      "edited": null
+    },
+    {
+      "index": 36,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773066243253,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0373",
+    "id": "1479189852250570975"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 36
+}

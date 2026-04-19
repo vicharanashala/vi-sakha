@@ -10,6 +10,6 @@ import { QaPairsController } from './qa-pairs.controller';
   ],
   controllers: [QaPairsController],
   providers: [QaPairsService],
-  exports: [QaPairsService],
+  exports: [QaPairsService, MongooseModule],
 })
 export class QaPairsModule {}

@@ -1,0 +1,284 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1167445225246031883> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : please resolve the isue",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773725054459,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "brangotur",
+      "user_id": "1167445225246031883",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1773725064372,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1167445225246031883>  Pleae elaborate on the issue and provide your ViBe registered email and your cohort name.",
+      "embeds": [],
+      "created": 1773725101052,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1178273014085857294> <@1366708005483053076> Please look into it",
+      "embeds": [],
+      "created": 1773725116444,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "brangotur",
+      "user_id": "1167445225246031883",
+      "is_bot": false,
+      "content": "24f1002702@ds.study.iitm.ac.in RSAians",
+      "embeds": [],
+      "created": 1773725147633,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "brangotur",
+      "user_id": "1167445225246031883",
+      "is_bot": false,
+      "content": "Unable to view course content after completing 88% tried to change device , clear cache,incognito as well",
+      "embeds": [],
+      "created": 1773725189708,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "will check it and update soon",
+      "embeds": [],
+      "created": 1773725244638,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "<@1167445225246031883> Tell me for which video you are facing this issue",
+      "embeds": [],
+      "created": 1773726385656,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "which module-sectionn-video?",
+      "embeds": [],
+      "created": 1773726396543,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "brangotur",
+      "user_id": "1167445225246031883",
+      "is_bot": false,
+      "content": "video 6 express node js fundamental",
+      "embeds": [],
+      "created": 1773726550287,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "<@1167445225246031883> please check it by watch it from video 5 of express node js fundamental and continue",
+      "embeds": [],
+      "created": 1773727382490,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "then tell me if the problem still persist",
+      "embeds": [],
+      "created": 1773727400143,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "brangotur",
+      "user_id": "1167445225246031883",
+      "is_bot": false,
+      "content": "yes <@1366708005483053076> Thanks now I am able to watch the videos. Btw may know what you did to reolve this issue?",
+      "embeds": [],
+      "created": 1773728835348,
+      "edited": 1773728882592
+    },
+    {
+      "index": 14,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "i reset it",
+      "embeds": [],
+      "created": 1773731374007,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "You are welcome. Feel free to connect if you need any further assistance",
+      "embeds": [],
+      "created": 1773731405784,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1167445225246031883>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773731533530,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@956180961832362014>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1773734214311,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1167445225246031883> \nIs your issue resolved now?",
+      "embeds": [],
+      "created": 1773734224570,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "brangotur",
+      "user_id": "1167445225246031883",
+      "is_bot": false,
+      "content": "yes resolved <@956180961832362014>",
+      "embeds": [],
+      "created": 1773734251166,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1773734288488,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773734296486,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773734296899,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773734299008,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0462",
+    "id": "1483335129182109831"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 23
+}

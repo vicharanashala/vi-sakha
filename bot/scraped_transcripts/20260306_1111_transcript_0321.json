@@ -1,0 +1,202 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1460127550956241009> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Not meeting the course completion criteria within deadline",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772464491516,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1460127550956241009>  please elaborate on the issue",
+      "embeds": [],
+      "created": 1772465345422,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "somiparnapal",
+      "user_id": "1460127550956241009",
+      "is_bot": false,
+      "content": "Hi, I wanted to confirm whether I am officially part of the internship or not. Due to my semester exams, I couldn’t complete 25% within the deadline, but my current progress is 28%.Wanted to ask have already the offer letters been issued to those who met the required criteria?It seems so confusing.",
+      "embeds": [],
+      "created": 1772465383066,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "It has not yet been released....please wait for further announcements. And see to it that you've completed as per the milestones. Failing to do so might need you to discontinue from this cohort and join in later ones",
+      "embeds": [],
+      "created": 1772471800092,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1460127550956241009> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772516661870,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "somiparnapal",
+      "user_id": "1460127550956241009",
+      "is_bot": false,
+      "content": "To some extent <@956180961832362014> ma'am.",
+      "embeds": [],
+      "created": 1772517958909,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1460127550956241009> \nWhich part has been left kindly tell us that.",
+      "embeds": [],
+      "created": 1772518024011,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "somiparnapal",
+      "user_id": "1460127550956241009",
+      "is_bot": false,
+      "content": "My main concern was whether not completing 25% before the deadline would affect my eligibility for the offer letter, even though I have now completed 28%. I just wanted clarity on whether I am still considered for this cohort.",
+      "embeds": [],
+      "created": 1772518237004,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1460127550956241009> \nYes as you have completed 28% of the course this will make you eligible just try to complete the rest of the milestones simultaneously.",
+      "embeds": [],
+      "created": 1772642740316,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1460127550956241009> \nWe hope your issue is now resolved?",
+      "embeds": [],
+      "created": 1772643499220,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1460127550956241009> \nIs your issue resolved now?",
+      "embeds": [],
+      "created": 1772693842829,
+      "edited": 1772693850271
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1460127550956241009> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772772422998,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1460127550956241009> We are closing the ticket since there has been no communication from your side.",
+      "embeds": [],
+      "created": 1772794261874,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772795465542,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772795466120,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772795467808,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0321",
+    "id": "1478047945676030184"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 16
+}

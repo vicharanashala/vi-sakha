@@ -1,0 +1,172 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@854951486697635840> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I’m getting “restricted access” for Lesson 1 on the Vibe platform despite being enrolled. I’ve already completed ~20% of the course excluding Lesson 1 and finished Module 1 via the YouTube link shared by the instructor. Please enable access",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771663011221,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@854951486697635840> please refer to FAQ section ViBe for this issue. Also try using ViBe from a different browser",
+      "embeds": [],
+      "created": 1771663574675,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "sudeepa980",
+      "user_id": "854951486697635840",
+      "is_bot": false,
+      "content": "Okay",
+      "embeds": [],
+      "created": 1771664278822,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@854951486697635840> is the issue resolved?",
+      "embeds": [],
+      "created": 1771665955248,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "sudeepa980",
+      "user_id": "854951486697635840",
+      "is_bot": false,
+      "content": "<@836880971017748512> no sir",
+      "embeds": [],
+      "created": 1771682758173,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@759435748721557514> <@1449603507865784334> Please look into the issue",
+      "embeds": [],
+      "created": 1771685664924,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "<@854951486697635840> Your issue has been resolved. kindly check and let us know.",
+      "embeds": [],
+      "created": 1771686175609,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "sudeepa980",
+      "user_id": "854951486697635840",
+      "is_bot": false,
+      "content": "Yes  sir",
+      "embeds": [],
+      "created": 1771744966529,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@854951486697635840> \nAs the issue is reolved I will be closing the ticket.",
+      "embeds": [],
+      "created": 1771745068879,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "sudeepa980",
+      "user_id": "854951486697635840",
+      "is_bot": false,
+      "content": "Okay",
+      "embeds": [],
+      "created": 1771745076773,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771745087966,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771745088534,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771745091082,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0140",
+    "id": "1474686291126910976"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 13
+}

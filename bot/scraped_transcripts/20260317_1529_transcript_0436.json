@@ -1,0 +1,272 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473567109987696731> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : My name is not showing in the endorsement Google Form. Kindly check and help me resolve this issue so that I can complete the endorsement process.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773502218612,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473567109987696731> \nWe have escalated your issue",
+      "embeds": [],
+      "created": 1773502241390,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "shivanikewat_34866",
+      "user_id": "1473567109987696731",
+      "is_bot": false,
+      "content": "Thank you ma'am",
+      "embeds": [],
+      "created": 1773502352720,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473567109987696731> \nDid you missed any milestone previously",
+      "embeds": [],
+      "created": 1773503639614,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "shivanikewat_34866",
+      "user_id": "1473567109987696731",
+      "is_bot": false,
+      "content": "Yes, I missed the 25% and 50% milestones earlier due to some unavoidable circumstances. I had already filled the required form and submitted an application regarding the issue. After my name was updated on the dashboard, I continued the course sincerely.",
+      "embeds": [],
+      "created": 1773504080336,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473567109987696731> \nOk we have escalated your issue.",
+      "embeds": [],
+      "created": 1773559683401,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "shivanikewat_34866",
+      "user_id": "1473567109987696731",
+      "is_bot": false,
+      "content": "Ok ma'am \nThank you",
+      "embeds": [],
+      "created": 1773560410320,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "shivanikewat_34866",
+      "user_id": "1473567109987696731",
+      "is_bot": false,
+      "content": "<@956180961832362014> Ma'am \nMy name is still not visible in the endorsement Google Form. Since today is the last date, I request you to please check and update my name in the form so that I can complete the endorsement process.",
+      "embeds": [],
+      "created": 1773583103441,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473567109987696731> \nThe team knows your issue we are working on it.",
+      "embeds": [],
+      "created": 1773632317132,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473567109987696731> \nIt will take 24 hours to get your name on the google form.",
+      "embeds": [],
+      "created": 1773643517764,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1359148118444343517> \nWe can get her back in the Euclideans channel and remove her from discontinued channel.",
+      "embeds": [],
+      "created": 1773643545068,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Done",
+      "embeds": [],
+      "created": 1773643569738,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473567109987696731> \nIs your issue resolved now?",
+      "embeds": [],
+      "created": 1773644734474,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "shivanikewat_34866",
+      "user_id": "1473567109987696731",
+      "is_bot": false,
+      "content": "No ma'am still it is not showing",
+      "embeds": [],
+      "created": 1773674869350,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473567109987696731> \nIs your issue resolved now?",
+      "embeds": [],
+      "created": 1773719970328,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "shivanikewat_34866",
+      "user_id": "1473567109987696731",
+      "is_bot": false,
+      "content": "No ma'am",
+      "embeds": [],
+      "created": 1773720158025,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Ok",
+      "embeds": [],
+      "created": 1773721289419,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "We will let the team know the same.",
+      "embeds": [],
+      "created": 1773721298703,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "shivanikewat_34866",
+      "user_id": "1473567109987696731",
+      "is_bot": false,
+      "content": "Ma'am my issue is resolved",
+      "embeds": [],
+      "created": 1773758310708,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "shivanikewat_34866",
+      "user_id": "1473567109987696731",
+      "is_bot": false,
+      "content": "Thank you",
+      "embeds": [],
+      "created": 1773758316011,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773761378485,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773761379032,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773761380868,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0436",
+    "id": "1482400486912032872"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 23
+}

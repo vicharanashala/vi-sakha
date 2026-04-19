@@ -1,0 +1,142 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1480554890731458612> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I recently joined the discord server and saw the link for vibe to enroll in the the course but its not accepting anymore registrations. Is there any way I can get access to the course and register for the internship program.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773069338657,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "lakshyagupta_85218",
+      "user_id": "1480554890731458612",
+      "is_bot": false,
+      "content": "Please help.",
+      "embeds": [],
+      "created": 1773069469231,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1480554890731458612> \nThe registrations have been closed for the internship. \nHowever, you are welcome to join the upcoming cohorts and continue your learning journey with us.\nWe would be happy to have you participate in the next batch.",
+      "embeds": [],
+      "created": 1773069903609,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "lakshyagupta_85218",
+      "user_id": "1480554890731458612",
+      "is_bot": false,
+      "content": "Okay thanks.\nCan you specify when the next batch will start?",
+      "embeds": [],
+      "created": 1773069980576,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Just follow the linkedin pages and we can also add you in the specific discord server for the same.",
+      "embeds": [],
+      "created": 1773070016293,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "lakshyagupta_85218",
+      "user_id": "1480554890731458612",
+      "is_bot": false,
+      "content": "Okay sure.\nThanks.",
+      "embeds": [],
+      "created": 1773070056027,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1359148118444343517>",
+      "embeds": [],
+      "created": 1773070065300,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@761846131679297546>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773074039913,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773074040551,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773074044426,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0402",
+    "id": "1480584858332823622"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 10
+}

@@ -1,0 +1,354 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1382304266382872618> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : for Activity A2 , HP points not added yet",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772944128418,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1382304266382872618> Please state your cohort name, registered mail ID and the date of submission of your activities.",
+      "embeds": [],
+      "created": 1773025841362,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "mayankboob",
+      "user_id": "1382304266382872618",
+      "is_bot": false,
+      "content": "Name : Mayank Rai\nCohort : Aksians\nEmail : mayank.raids2024@indoreinstitute.con\n\nI don't remember exact date but it's around 02/03/2026 or 03/03/2026",
+      "embeds": [],
+      "created": 1773026245491,
+      "edited": 1773026293021
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1382304266382872618> The HP will be added soon as the Dashboard is automated and our team is monitoring it. Please wait for 24 hrs from now until the changes are reflected.",
+      "embeds": [],
+      "created": 1773026410551,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "mayankboob",
+      "user_id": "1382304266382872618",
+      "is_bot": false,
+      "content": "Sure sir",
+      "embeds": [],
+      "created": 1773026450621,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1382304266382872618> \nWe hope you have submitted the activity form for the same. As mentioned under the cohort specific announcements page.",
+      "embeds": [],
+      "created": 1773036299381,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "mayankboob",
+      "user_id": "1382304266382872618",
+      "is_bot": false,
+      "content": "yes ma'am",
+      "embeds": [],
+      "created": 1773036780262,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "https://forms.gle/ydseV19eLqXfFvte9\nThis is the form to be filled",
+      "embeds": [
+        {
+          "title": "Aksians Activity Completion Confirmation Form",
+          "description": "Students are required to submit this form to confirm completion of an assigned activity for the health points.",
+          "url": "https://forms.gle/ydseV19eLqXfFvte9",
+          "thumbnail": {
+            "url": "https://lh4.googleusercontent.com/oxwTLfu64ZkAWKzCTu9SSfKYr6Z-I4r1nI6dUYtRVKh9-cjIAgfspSi9QQsGBeKGA_KQ5L9ORUG-0mA=w1200-h630-p"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773036795123,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "mayankboob",
+      "user_id": "1382304266382872618",
+      "is_bot": false,
+      "content": "i already filled it for A2 And A1 activity",
+      "embeds": [],
+      "created": 1773036838352,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "mayankboob",
+      "user_id": "1382304266382872618",
+      "is_bot": false,
+      "content": "may i have to fill it again ??",
+      "embeds": [],
+      "created": 1773036846976,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "We hope you filled in with your registered email ID.",
+      "embeds": [],
+      "created": 1773036969522,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Because for A2 there is no entry for your name as per our records.",
+      "embeds": [],
+      "created": 1773037004312,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "mayankboob",
+      "user_id": "1382304266382872618",
+      "is_bot": false,
+      "content": "but i filled it ma'am \ncan i refill it ?",
+      "embeds": [],
+      "created": 1773037042033,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Yes please fill it again",
+      "embeds": [],
+      "created": 1773037062996,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "mayankboob",
+      "user_id": "1382304266382872618",
+      "is_bot": false,
+      "content": "ok ma'am",
+      "embeds": [],
+      "created": 1773037072790,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "mayankboob",
+      "user_id": "1382304266382872618",
+      "is_bot": false,
+      "content": "now , what should be the date of completion \ntoday's date or the deadline date ?",
+      "embeds": [],
+      "created": 1773037146593,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Put deadline date only.",
+      "embeds": [],
+      "created": 1773037196551,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "mayankboob",
+      "user_id": "1382304266382872618",
+      "is_bot": false,
+      "content": "done",
+      "embeds": [],
+      "created": 1773037280175,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1382304266382872618> \nWe have escalated your query to the concerned team will soon get back to you once they give a response for the same. Till that time you may continue with your progress.",
+      "embeds": [],
+      "created": 1773038212638,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1382304266382872618> \nThe HP will get updated soon, Kindly wait for sometime.",
+      "embeds": [],
+      "created": 1773038405602,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "mayankboob",
+      "user_id": "1382304266382872618",
+      "is_bot": false,
+      "content": "Ok",
+      "embeds": [],
+      "created": 1773039773897,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1382304266382872618> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1773120005114,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "mayankboob",
+      "user_id": "1382304266382872618",
+      "is_bot": false,
+      "content": "yes ma'am , its updated now",
+      "embeds": [],
+      "created": 1773120034424,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1382304266382872618>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773120064638,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@956180961832362014>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1773120616723,
+      "edited": null
+    },
+    {
+      "index": 26,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing this ticket.",
+      "embeds": [],
+      "created": 1773120633573,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "Channel being renamed too quickly, Timeout: 24s - Skipping",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773120640506,
+      "edited": null
+    },
+    {
+      "index": 28,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773120640971,
+      "edited": null
+    },
+    {
+      "index": 29,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773120646763,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "ticket-0389",
+    "id": "1480059687301943380"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 29
+}

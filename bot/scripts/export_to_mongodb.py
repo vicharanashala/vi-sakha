@@ -73,28 +73,34 @@ def load_qa_dataset():
     return qa_data
 
 
-def load_embeddings_from_chromadb():
-    """Load embeddings from ChromaDB"""
-    print(f"\nLoading embeddings from ChromaDB: {VECTOR_DB_PATH}")
-    
-    if not VECTOR_DB_PATH.exists():
-        print(f"✗ Vector DB not found: {VECTOR_DB_PATH}")
-        print("Run: python bot/rag/vector_db.py first")
-        return None
-    
+def load_embeddings_from_mongodb():
+    """Load embeddings from qa_pairs_v2 MongoDB collection"""
+    print(f"\nLoading embeddings from MongoDB (qa_pairs_v2)...")
+
     try:
-        chroma_client = chromadb.PersistentClient(path=str(VECTOR_DB_PATH))
-        collection = chroma_client.get_collection(COLLECTION_NAME)
-        
-        # Get all data from collection
-        all_data = collection.get(
-            include=["documents", "metadatas", "embeddings"]
-        )
-        
-        print(f"✓ Loaded {len(all_data['ids'])} embeddings")
+        from pymongo import MongoClient
+        uri = os.getenv("MONGODB_URI", "mongodb://localhost:27017/vinternship")
+        db_name = uri.split("/")[-1].split("?")[0] or "vinternship"
+        client = MongoClient(uri, serverSelectionTimeoutMS=5000)
+        collection = client[db_name]["qa_pairs_v2"]
+
+        docs = list(collection.find({}, {"question": 1, "answer": 1, "embedding": 1, "source": 1}))
+        client.close()
+
+        if not docs:
+            print("⚠ No documents found in qa_pairs_v2")
+            return None
+
+        # Return in a shape compatible with the rest of this script
+        all_data = {
+            "ids": [str(d["_id"]) for d in docs],
+            "embeddings": [d.get("embedding", []) for d in docs],
+            "metadatas": [{"question": d.get("question", ""), "source": d.get("source", "mongo")} for d in docs],
+        }
+        print(f"✓ Loaded {len(docs)} embeddings from qa_pairs_v2")
         return all_data
     except Exception as e:
-        print(f"✗ Error loading ChromaDB: {e}")
+        print(f"✗ Error loading from MongoDB: {e}")
         return None
 
 
@@ -203,7 +209,7 @@ def create_metadata_collection(db, qa_data, chroma_data):
         "qa_pairs_count": len(qa_data),
         "embeddings_count": len(chroma_data["ids"]) if chroma_data else 0,
         "embedding_dimensions": embedding_dims,
-        "embedding_model": "BAAI/bge-large-en-v1.5",
+        "embedding_model": "BAAI/bge-small-en-v1.5",
         "llm_model": "claude-haiku-4-5-20251001",
         "last_updated": datetime.utcnow(),
         "version": "1.0.0"
@@ -224,7 +230,7 @@ def main():
     
     # Load data
     qa_data = load_qa_dataset()
-    chroma_data = load_embeddings_from_chromadb()
+    chroma_data = load_embeddings_from_mongodb()
     
     # Create indexes
     create_indexes(db)

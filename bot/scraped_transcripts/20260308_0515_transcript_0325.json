@@ -1,0 +1,412 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1253368107871764610> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I haven’t registered for the nptel exam. The mail regarding internship mentioned only about being enrolled in any of the course. Unfortunately, only after the last date of exam registration, it was informed that interns must clear the nptel",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772475905491,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "dhanyaaa.__",
+      "user_id": "1253368107871764610",
+      "is_bot": false,
+      "content": "In the last section of the form, I came across the terms and conditions. Again, anything regarding the nptel exam wasn’t specified in the completion criteria section. Therefore, I’m confused that if I should continue or will I be kicked out. Another concern is that not being kicked out, completing the internship and not receiving the completion certificate. There are a group of students in the same situation not receiving any clarification regarding this issue. Please look into this matter and help us find a solution. We would like to decide and plan accordingly without wasting much time being confused. It would be greatly appreciated if you could make an exception this time for the non registered students. Hoping for a positive response. Thank you for your time.",
+      "embeds": [],
+      "created": 1772476361624,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1253368107871764610> It was announced that as of this moment, it is required to be registered for a NPTEL course handled by Prof. Sudarshan Iyengar. Please continue with the milestones until further announcements are made. The team is currently discussing on this regard.",
+      "embeds": [],
+      "created": 1772512298975,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "dhanyaaa.__",
+      "user_id": "1253368107871764610",
+      "is_bot": false,
+      "content": "Thank you for your response. When I received the mail, it only stated about being enrolled. Later in the inaugural session, it was informed about clearing the exam. But by then, the last date for registration already passed.",
+      "embeds": [],
+      "created": 1772512433771,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "No worries, we'll release an official announcement in this regard",
+      "embeds": [],
+      "created": 1772512988399,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "dhanyaaa.__",
+      "user_id": "1253368107871764610",
+      "is_bot": false,
+      "content": "Okay thank you",
+      "embeds": [],
+      "created": 1772513445482,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1253368107871764610> \nTry enrolling in Sir's course through NPTEL +.",
+      "embeds": [],
+      "created": 1772772592484,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "dhanyaaa.__",
+      "user_id": "1253368107871764610",
+      "is_bot": false,
+      "content": "It’s quite expensive and unfortunately I can’t afford it. There are many students who couldn’t register for the exam. Pls consider sir.",
+      "embeds": [],
+      "created": 1772772671590,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "dhanyaaa.__",
+      "user_id": "1253368107871764610",
+      "is_bot": false,
+      "content": "Hi\nIs there any other way to continue the internship? In the invitation email and terms and conditions in the consent, it wasn’t mentioned to be registered for the exam. All it said was to be enrolled. Only after the last date, it was communicated that registration is mandatory.",
+      "embeds": [],
+      "created": 1772787529627,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1253368107871764610> As it was mentioned in the inaugural session that the enrollment and registration for the exam is compulsory. It was mentioned in the standups and in the FAQ. Do not worry as there will be opportunities for upcoming cohorts to join.",
+      "embeds": [],
+      "created": 1772860058727,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "dhanyaaa.__",
+      "user_id": "1253368107871764610",
+      "is_bot": false,
+      "content": "Yeah but the last date for exam registration was 20th Feb. \nSo is it like I cannot continue the internship in this cohort?",
+      "embeds": [],
+      "created": 1772860478535,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Unfortunately, yes. But do not worry, you'll be notified of the latest cohort announcements via announcements channel and the Vicharanashala and Prof. Sudarshan Iyengar's linkedin.",
+      "embeds": [],
+      "created": 1772860658687,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "dhanyaaa.__",
+      "user_id": "1253368107871764610",
+      "is_bot": false,
+      "content": "Okay",
+      "embeds": [],
+      "created": 1772860714818,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Is there any other clarifications to be made?",
+      "embeds": [],
+      "created": 1772860952485,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "dhanyaaa.__",
+      "user_id": "1253368107871764610",
+      "is_bot": false,
+      "content": "I’m sorry to ask again. But there are many students on the same boat. Is there any way for sir to reconsider this issue?",
+      "embeds": [],
+      "created": 1772861322361,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Let me check again with the team and get back to you.",
+      "embeds": [],
+      "created": 1772861376638,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "dhanyaaa.__",
+      "user_id": "1253368107871764610",
+      "is_bot": false,
+      "content": "Thank you.",
+      "embeds": [],
+      "created": 1772861406209,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1253368107871764610> It is mandatory for the participants to be enrolled and registered for exams in one of Prof. Sudarshan Iyengar's course for receiving offer letter and certificate of completion.",
+      "embeds": [],
+      "created": 1772890507091,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "dhanyaaa.__",
+      "user_id": "1253368107871764610",
+      "is_bot": false,
+      "content": "Okay thank you",
+      "embeds": [],
+      "created": 1772890523420,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "dhanyaaa.__",
+      "user_id": "1253368107871764610",
+      "is_bot": false,
+      "content": "Is there any deadline to register for nptel+?",
+      "embeds": [],
+      "created": 1772890535023,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "The earlier, the better",
+      "embeds": [],
+      "created": 1772890561684,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "dhanyaaa.__",
+      "user_id": "1253368107871764610",
+      "is_bot": false,
+      "content": "And for the exam?",
+      "embeds": [],
+      "created": 1772890573483,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Yes, it needs registration for examination",
+      "embeds": [],
+      "created": 1772890611424,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "dhanyaaa.__",
+      "user_id": "1253368107871764610",
+      "is_bot": false,
+      "content": "Is the exam mode online?",
+      "embeds": [],
+      "created": 1772890616670,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "For those details, please refer the NPTEL website.",
+      "embeds": [],
+      "created": 1772890654604,
+      "edited": null
+    },
+    {
+      "index": 26,
+      "author": "dhanyaaa.__",
+      "user_id": "1253368107871764610",
+      "is_bot": false,
+      "content": "It’s self paced right. So is it necessary to complete the exam within the duration of internship?",
+      "embeds": [],
+      "created": 1772890663194,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "not necessary, but the certification is mandatory",
+      "embeds": [],
+      "created": 1772890740395,
+      "edited": null
+    },
+    {
+      "index": 28,
+      "author": "dhanyaaa.__",
+      "user_id": "1253368107871764610",
+      "is_bot": false,
+      "content": "Okay so i understand that we can write the exam even after the completion of internship",
+      "embeds": [],
+      "created": 1772890771168,
+      "edited": null
+    },
+    {
+      "index": 29,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "But this needs to be confirmed with the team. But, it is evident that registration for examination is compulsory.",
+      "embeds": [],
+      "created": 1772890827453,
+      "edited": null
+    },
+    {
+      "index": 30,
+      "author": "dhanyaaa.__",
+      "user_id": "1253368107871764610",
+      "is_bot": false,
+      "content": "Okay but sir can I get a clarification on that too if possible?",
+      "embeds": [],
+      "created": 1772890863324,
+      "edited": null
+    },
+    {
+      "index": 31,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "It will be announced in due time.",
+      "embeds": [],
+      "created": 1772890882564,
+      "edited": null
+    },
+    {
+      "index": 32,
+      "author": "dhanyaaa.__",
+      "user_id": "1253368107871764610",
+      "is_bot": false,
+      "content": "Okay sir thank you",
+      "embeds": [],
+      "created": 1772890893773,
+      "edited": null
+    },
+    {
+      "index": 33,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1253368107871764610> Is there any other issue that needs clarification? Can we close the Ticket?",
+      "embeds": [],
+      "created": 1772890917767,
+      "edited": 1772890972065
+    },
+    {
+      "index": 34,
+      "author": "dhanyaaa.__",
+      "user_id": "1253368107871764610",
+      "is_bot": false,
+      "content": "Yeah sure thank you sir",
+      "embeds": [],
+      "created": 1772944564113,
+      "edited": null
+    },
+    {
+      "index": 35,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772946921723,
+      "edited": null
+    },
+    {
+      "index": 36,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772946922170,
+      "edited": null
+    },
+    {
+      "index": 37,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772946924188,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0325",
+    "id": "1478095818035822719"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 37
+}

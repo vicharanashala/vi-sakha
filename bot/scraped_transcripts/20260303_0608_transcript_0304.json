@@ -1,0 +1,182 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1385779135472865392> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I was removed from the 'Euclideans' cohort today after an HP drop below 131. This deduction of HP was caused by a technical glitch on Feb 12th where the ViBe platform failed to record progress in the 'Express' section, forcing multiple rewat",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772380947256,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1385779135472865392> \nDo not worry. We have escalated your query. Kindly fill the appeal form for the same stating your reason. We will verify the logs and then accordingly get you back in the cohort.",
+      "embeds": [],
+      "created": 1772425097687,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1385779135472865392> \nKindly fill the appeal form at the earliest. \nIf the appeal is genuine we will revert your HP and get you onboard again.",
+      "embeds": [],
+      "created": 1772460410144,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "I hope this will clear your doubt and help in resolving the issue.",
+      "embeds": [],
+      "created": 1772460430934,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "tekulanavdeep",
+      "user_id": "1385779135472865392",
+      "is_bot": false,
+      "content": "Submitted, Thank you Mam.",
+      "embeds": [],
+      "created": 1772461049928,
+      "edited": 1772461077770
+    },
+    {
+      "index": 6,
+      "author": "imsakshivk",
+      "user_id": "1293270010537578575",
+      "is_bot": false,
+      "content": "Reverted and Updated on Dashboard",
+      "embeds": [],
+      "created": 1772512912291,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1385779135472865392> \nIs your issue resolved now?",
+      "embeds": [],
+      "created": 1772513240491,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "tekulanavdeep",
+      "user_id": "1385779135472865392",
+      "is_bot": false,
+      "content": "No mam, I can't find my name in the Dashboard.",
+      "embeds": [],
+      "created": 1772513579993,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "imsakshivk",
+      "user_id": "1293270010537578575",
+      "is_bot": false,
+      "content": "Please check again",
+      "embeds": [],
+      "created": 1772514605797,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "tekulanavdeep",
+      "user_id": "1385779135472865392",
+      "is_bot": false,
+      "content": "Yes Mam, it's updated. Thank you very much.",
+      "embeds": [],
+      "created": 1772515142417,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1772518079108,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772518084670,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772518085106,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772518087936,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0304",
+    "id": "1477697534955622531"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 14
+}

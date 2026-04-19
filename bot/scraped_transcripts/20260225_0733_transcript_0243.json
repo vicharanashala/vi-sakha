@@ -1,0 +1,172 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1167445225246031883> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I am unable to view my cohort in enrolled courses? I completed almost 52 %. My batch is RSAins. My email 24f1002702@ds.study.iitm.ac.in",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772002543642,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "brangotur",
+      "user_id": "1167445225246031883",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1772002564356,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1167445225246031883> \nTry refreshing or logging out and logging in or you can just check the activated tab and if those are not working you can further clear cache.",
+      "embeds": [],
+      "created": 1772002629398,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "brangotur",
+      "user_id": "1167445225246031883",
+      "is_bot": false,
+      "content": "I already tried that deleted my cache and refreshed and loggedin and logged out",
+      "embeds": [],
+      "created": 1772002832475,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1167445225246031883> \nOk I got it",
+      "embeds": [],
+      "created": 1772002858044,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@759435748721557514> \nKindly look into this issue.",
+      "embeds": [],
+      "created": 1772002868350,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "Kindly be assured that your progress remains safe and unaffected. The issue will be resolved as soon as possible.",
+      "embeds": [],
+      "created": 1772003018595,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "brangotur",
+      "user_id": "1167445225246031883",
+      "is_bot": false,
+      "content": "okay thanks",
+      "embeds": [],
+      "created": 1772003054884,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "<@1167445225246031883> The issue has been resolved. Please verify and let us know the status.",
+      "embeds": [],
+      "created": 1772004714626,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "brangotur",
+      "user_id": "1167445225246031883",
+      "is_bot": false,
+      "content": "yes Thanks the issue has been resolved.",
+      "embeds": [],
+      "created": 1772004792716,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1167445225246031883>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772004821849,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772004822410,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772004828987,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0243",
+    "id": "1476110395478507623"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 13
+}

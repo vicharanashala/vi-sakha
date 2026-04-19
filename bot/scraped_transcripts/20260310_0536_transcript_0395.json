@@ -1,0 +1,252 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473638338723319934> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : HP Reduction",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773034273613,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "sanhitamukhopadhyay",
+      "user_id": "1473638338723319934",
+      "is_bot": false,
+      "content": "Respected Team,\nI had submitted the A1 form on 04/03/2026\nUnfortunately, for A1 form it is showing a -5%.\nKindly guide me.",
+      "embeds": [],
+      "created": 1773034365245,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "sanhitamukhopadhyay",
+      "user_id": "1473638338723319934",
+      "is_bot": false,
+      "content": "in add/delete section also i did not find any reasons",
+      "embeds": [],
+      "created": 1773034405613,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473638338723319934> \nDo not worry, we have escalated your issue. It will be resolved soon.",
+      "embeds": [],
+      "created": 1773034998172,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "sanhitamukhopadhyay",
+      "user_id": "1473638338723319934",
+      "is_bot": false,
+      "content": "thank you ma'am",
+      "embeds": [],
+      "created": 1773035014581,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473638338723319934> \nKindly fill out the google form with your registered mail ID for activity completion which is available on the cohort specific announcement page.",
+      "embeds": [],
+      "created": 1773036414945,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "sanhitamukhopadhyay",
+      "user_id": "1473638338723319934",
+      "is_bot": false,
+      "content": "yes mam, i submitted with the mail id associated with the cohort",
+      "embeds": [],
+      "created": 1773036465007,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "https://forms.gle/ydseV19eLqXfFvte9\nThis form is to be filled.",
+      "embeds": [
+        {
+          "title": "Aksians Activity Completion Confirmation Form",
+          "description": "Students are required to submit this form to confirm completion of an assigned activity for the health points.",
+          "url": "https://forms.gle/ydseV19eLqXfFvte9",
+          "thumbnail": {
+            "url": "https://lh4.googleusercontent.com/oxwTLfu64ZkAWKzCTu9SSfKYr6Z-I4r1nI6dUYtRVKh9-cjIAgfspSi9QQsGBeKGA_KQ5L9ORUG-0mA=w1200-h630-p"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773036534433,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "sanhitamukhopadhyay",
+      "user_id": "1473638338723319934",
+      "is_bot": false,
+      "content": "ok ma'am",
+      "embeds": [],
+      "created": 1773036564561,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "sanhitamukhopadhyay",
+      "user_id": "1473638338723319934",
+      "is_bot": false,
+      "content": "Thank you Ma'am",
+      "embeds": [],
+      "created": 1773036612367,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473638338723319934> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1773120769074,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "sanhitamukhopadhyay",
+      "user_id": "1473638338723319934",
+      "is_bot": false,
+      "content": "yes mam",
+      "embeds": [],
+      "created": 1773120870622,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "sanhitamukhopadhyay",
+      "user_id": "1473638338723319934",
+      "is_bot": false,
+      "content": "unfortunately i forgot to fillup the 2nd form",
+      "embeds": [],
+      "created": 1773120886961,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "sanhitamukhopadhyay",
+      "user_id": "1473638338723319934",
+      "is_bot": false,
+      "content": "i will give my best for the next attempts",
+      "embeds": [],
+      "created": 1773120901030,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "So can we close this ticket now?",
+      "embeds": [],
+      "created": 1773120930227,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "sanhitamukhopadhyay",
+      "user_id": "1473638338723319934",
+      "is_bot": false,
+      "content": "yes mam",
+      "embeds": [],
+      "created": 1773120934513,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1773120957012,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773120966949,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773120967388,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773120969105,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0395",
+    "id": "1480437784765530112"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 20
+}

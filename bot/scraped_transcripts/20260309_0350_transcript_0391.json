@@ -1,0 +1,122 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473377777687466149> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Hello, I realized that I missed the deadline for submitting Activity A1. I noticed that the form link was still accessible, so I went ahead and completed my submission. I understand the deadline policy and apologize for the delay. If possibl",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772952181986,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473377777687466149> As per the deadlines and milestones, if the activity is not completed, then hp will be reduced",
+      "embeds": [],
+      "created": 1772960928700,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "tanya_kumari.51111",
+      "user_id": "1473377777687466149",
+      "is_bot": false,
+      "content": "Thank you for the clarification. I understand the deadline policy and the HP deduction. I completed and submitted the activity as soon as I noticed the form was still accessible. If possible, could you please consider my submission for full or partial credit? I would really appreciate it.",
+      "embeds": [],
+      "created": 1773025970951,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473377777687466149> Do not worry as there will be ample opportunities for regaining the lost HP by activities and milestone completion. As of this situation, the dashboard is automated and automatically allots the hp.",
+      "embeds": [],
+      "created": 1773026237077,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "tanya_kumari.51111",
+      "user_id": "1473377777687466149",
+      "is_bot": false,
+      "content": "Thank you for the clarification. I understand the policy and appreciate the guidance. I’ll focus on completing upcoming activities and milestones to regain the HP. Thanks for the support.",
+      "embeds": [],
+      "created": 1773028187500,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1473377777687466149>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773028197379,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773028197806,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773028219477,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0391",
+    "id": "1480093467156807690"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 8
+}

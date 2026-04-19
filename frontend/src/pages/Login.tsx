@@ -3,6 +3,9 @@ import { useNavigate, Link } from 'react-router-dom'
 import UniqueLoading from '@/components/ui/morph-loading'
 import { Typewriter } from '@/components/ui/typewriter'
 import { CohortDropdown } from '@/components/ui/cohort-dropdown'
+import { setAuth } from '@/lib/auth'
+import { auth, signInWithEmailAndPassword, signInWithPopup, googleProvider, signOut } from '@/lib/firebase'
+import { api } from '@/lib/api'
 
 const cohorts = [
   { id: 'euclideans', label: 'Euclideans', color: '#6366f1' },
@@ -19,16 +22,69 @@ export default function Login() {
   const [isLoading, setIsLoading] = useState(false)
   const [keepSignedIn, setKeepSignedIn] = useState(false)
   const [selectedCohort, setSelectedCohort] = useState('euclideans')
+  const [error, setError] = useState('')
 
-  const handleLogin = (e: React.FormEvent) => {
+  const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsLoading(true)
-    setTimeout(() => navigate('/dashboard'), 1500)
+    setError('')
+
+    try {
+      // 1. Authenticate with Firebase
+      const userCredential = await signInWithEmailAndPassword(auth, email, password)
+      const firebaseUser = userCredential.user
+
+      // 2. Check email verification
+      if (!firebaseUser.emailVerified) {
+        await signOut(auth)
+        throw new Error('Please verify your email before logging in. Check your inbox for a verification link.')
+      }
+
+      // 3. Get ID Token and sync with Backend
+      const idToken = await firebaseUser.getIdToken()
+      const data = await api.auth.firebaseSync(idToken)
+
+      // 4. Store JWT and user info
+      setAuth(data.access_token, data.user)
+
+      // Role-based redirect
+      if (data.user.role === 'student') {
+        navigate('/dashboard')
+      } else {
+        navigate('/labmember')
+      }
+    } catch (err: any) {
+      console.error('Login error:', err)
+      let message = err.message || 'Login failed'
+      if (err.code === 'auth/invalid-credential') {
+        message = 'Invalid email or password'
+      } else if (err.code === 'auth/user-not-found') {
+        message = 'No account found with this email'
+      }
+      setError(message)
+      setIsLoading(false)
+    }
   }
 
-  const handleGoogleSignIn = () => {
+  const handleGoogleSignIn = async () => {
     setIsLoading(true)
-    setTimeout(() => navigate('/dashboard'), 1500)
+    setError('')
+    try {
+      const result = await signInWithPopup(auth, googleProvider)
+      const idToken = await result.user.getIdToken()
+      const data = await api.auth.firebaseSync(idToken)
+
+      setAuth(data.access_token, data.user)
+      if (data.user.role === 'student') {
+        navigate('/dashboard')
+      } else {
+        navigate('/labmember')
+      }
+    } catch (err: any) {
+      console.error('Google sign-in error:', err)
+      setError(err.message || 'Google sign-in failed')
+      setIsLoading(false)
+    }
   }
 
   if (isLoading) {
@@ -64,7 +120,7 @@ export default function Login() {
       {/* Login Form */}
       <div className="flex-1 flex items-start justify-center px-4 pt-6 pb-24">
         <div className="w-full max-w-md">
-          {/* Title with Typewriter effect on Vi-Sakha */}
+          {/* Title */}
           <h1 className="text-center mb-10">
             <span className="text-[2.5rem] font-bold text-gray-900 tracking-tight">
               Welcome to{' '}
@@ -102,18 +158,26 @@ export default function Login() {
 
           {/* Email/Password Form */}
           <form onSubmit={handleLogin} className="space-y-5">
+            {error && (
+              <div className="bg-red-50 text-red-600 text-sm p-3 rounded-xl border border-red-100">
+                {error}
+              </div>
+            )}
+
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-1.5">
-                Email Address
+                Email
               </label>
               <input
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="you@college.edu"
+                placeholder="you@example.com"
+                required
                 className="w-full px-4 py-3 border border-gray-200 rounded-xl text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-400 transition-all bg-white"
               />
             </div>
+
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-1.5">
                 Password
@@ -122,7 +186,8 @@ export default function Login() {
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                placeholder="password"
+                placeholder="••••••••"
+                required
                 className="w-full px-4 py-3 border border-gray-200 rounded-xl text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-400 transition-all bg-white"
               />
             </div>
@@ -143,7 +208,6 @@ export default function Login() {
               </button>
             </div>
 
-            {/* Sign In Button */}
             <button
               type="submit"
               className="w-full bg-gray-900 hover:bg-gray-800 text-white font-semibold py-3 rounded-xl transition-colors shadow-sm"
@@ -152,7 +216,15 @@ export default function Login() {
             </button>
           </form>
 
-          {/* Cohort selector — animated dropdown */}
+          {/* Register link */}
+          <p className="text-center text-sm text-gray-500 mt-6">
+            Don't have an account?{' '}
+            <Link to="/register" className="text-blue-600 font-semibold hover:underline underline-offset-2">
+              Create one
+            </Link>
+          </p>
+
+          {/* Cohort selector */}
           <div className="flex items-center justify-center gap-3 mt-8">
             <span className="text-sm text-gray-500 font-medium">Cohort:</span>
             <CohortDropdown

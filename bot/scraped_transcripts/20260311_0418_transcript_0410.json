@@ -1,0 +1,102 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473715810542555208> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I have completed 51% till now and today is 11 th march so is there a deadline for completing the course upto 75% by today or was it tomorrow?",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773188270256,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473715810542555208> The deadline is by 11:59 PM on the date mentioned ( Ex: March 11, 11:59 PM). But we urge you to complete an hour prior to the deadline.",
+      "embeds": [],
+      "created": 1773199588466,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "sereena_thomas",
+      "user_id": "1473715810542555208",
+      "is_bot": false,
+      "content": "Oh okay",
+      "embeds": [],
+      "created": 1773202287872,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1473715810542555208>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773202302469,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773202302793,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773202702219,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0410",
+    "id": "1481083693220106390"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 6
+}

@@ -1,0 +1,172 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1436249114068385853> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Unable to access the quiz 16 of javascript From Logic to Asynchronous Web Programming",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771746008907,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "mohini2025",
+      "user_id": "1436249114068385853",
+      "is_bot": false,
+      "content": "I am stuck at Video 21  and not able to attempt the Quiz 16. I'm getting redirected to Quiz section but not able to see it.\nIt's Showing \"Failed to Start Quiz, You Don't Have Permission to start the quiz\" and  continously loading quiz. I waited for a long time to start quiz but nothing happened. I even refreshed the page a few times.  I have submitted a flag too.",
+      "embeds": [],
+      "created": 1771746416230,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "mohini2025",
+      "user_id": "1436249114068385853",
+      "is_bot": false,
+      "content": "I have watched its previous video many times but cant go further.",
+      "embeds": [],
+      "created": 1771746594484,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1436249114068385853> \nThank you for reaching out to us. \nWe look into this further. \n<@666826791016595456> \nKindly look into this.",
+      "embeds": [],
+      "created": 1771746945559,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1220060098643230811> \nKindly look into this query",
+      "embeds": [],
+      "created": 1771752956038,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nxtnilesh.",
+      "user_id": "1220060098643230811",
+      "is_bot": false,
+      "content": "Please try the following steps one by one and check if the issue is resolved after each step:\n\n1. Log out of your account and then log in again.\n2. Clear your browser cache and all browsing data (cookies, cached files, etc.).\n3. Try using a different browser such as Firefox, Microsoft Edge, or another browser.\n4. If you are using any YouTube ad-blocker extension, disable it temporarily and try again.\n5. Try connecting through a VPN and check if the issue persists.\n6. Try using a different internet connection or mobile hotspot to rule out any network-related issues.\n\nPlease test these steps individually (or all of them if needed) and let me know the results.",
+      "embeds": [],
+      "created": 1771754166820,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1436249114068385853> Kindly share your email id.",
+      "embeds": [],
+      "created": 1771754627890,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "mohini2025",
+      "user_id": "1436249114068385853",
+      "is_bot": false,
+      "content": "mohinimathanikar4905@gmail.com",
+      "embeds": [],
+      "created": 1771754799247,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1436249114068385853>  We have fixed the issue, kindly refresh the page and try again. please let us know if it is working fine. Thank you.",
+      "embeds": [],
+      "created": 1771755069532,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "mohini2025",
+      "user_id": "1436249114068385853",
+      "is_bot": false,
+      "content": "It is workinng. Thank you!",
+      "embeds": [],
+      "created": 1771755478249,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@666826791016595456>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771755815254,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771755815718,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771755817701,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0156",
+    "id": "1475034406904139826"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 13
+}

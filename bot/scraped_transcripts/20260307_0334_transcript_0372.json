@@ -1,0 +1,102 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1477066232355361059> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I have not received any email for zoom meeting",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772732203564,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1477066232355361059> \nDo not worry if you are not getting any emails you may join in using the link provided on the channel and login using your registered mail ID.",
+      "embeds": [],
+      "created": 1772769910084,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "ananyaray0965",
+      "user_id": "1477066232355361059",
+      "is_bot": false,
+      "content": "<@956180961832362014>  Thank you mam it's resolved I got the mail",
+      "embeds": [],
+      "created": 1772834209161,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1477066232355361059>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772834220494,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772834221207,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772854460058,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0372",
+    "id": "1479170811012317204"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 6
+}

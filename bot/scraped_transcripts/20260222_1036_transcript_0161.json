@@ -1,0 +1,172 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473373206130987100> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : ViBe is not working on my Linux Ubuntu system[22.04].",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771753719036,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473373206130987100> \nKindly mention your cohort and issue in detail.",
+      "embeds": [],
+      "created": 1771753853127,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin0801",
+      "user_id": "1473373206130987100",
+      "is_bot": false,
+      "content": "Cohort 5 AKSians",
+      "embeds": [],
+      "created": 1771753959895,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin0801",
+      "user_id": "1473373206130987100",
+      "is_bot": false,
+      "content": "Good morning Sir,\n\nViBe is not working on my Linux Ubuntu system[22.04].  I can't attend lectures \n\nThank you.",
+      "embeds": [],
+      "created": 1771754046653,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin0801",
+      "user_id": "1473373206130987100",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771754261897,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1220060098643230811> Kindly look into this",
+      "embeds": [],
+      "created": 1771754314701,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nxtnilesh.",
+      "user_id": "1220060098643230811",
+      "is_bot": false,
+      "content": "Please try the following steps one by one and check if the issue is resolved after each step:\n\n1. Log out of your account and then log in again.\n2. Clear your browser cache and all browsing data (cookies, cached files, etc.).\n3. Try using a different browser such as Firefox, Microsoft Edge, or another browser.\n4. If you are using any YouTube ad-blocker extension, disable it temporarily and try again.\n5. Try connecting through a VPN and check if the issue persists.\n6. Try using a different internet connection or mobile hotspot to rule out any network-related issues.\n\nPlease test these steps individually (or all of them if needed) and let me know the results.",
+      "embeds": [],
+      "created": 1771754373927,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1473373206130987100> Is it working now ?",
+      "embeds": [],
+      "created": 1771755302641,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "nitin0801",
+      "user_id": "1473373206130987100",
+      "is_bot": false,
+      "content": "Trying out sir",
+      "embeds": [],
+      "created": 1771755623426,
+      "edited": 1771755681169
+    },
+    {
+      "index": 10,
+      "author": "nitin0801",
+      "user_id": "1473373206130987100",
+      "is_bot": false,
+      "content": "Thank you, problem Resolved sir 🙂",
+      "embeds": [],
+      "created": 1771756554383,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1473373206130987100>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771756577536,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771756579317,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771756615928,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0161",
+    "id": "1475066749853634723"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 13
+}

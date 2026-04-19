@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1409858348924539011> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : This is regarding my ViBe course completion, which was previously stuck at 99.90% and has now been updated to 100%, along with the HP deduction issue. I was informed that my situation was noted and that the HP reduction would be reverted soo",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771943138111,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1409858348924539011> please mention the following:\nCompletion date of the ViBe course\nPercentage of completion\nCohort name",
+      "embeds": [],
+      "created": 1771943491198,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "atharvyasharma",
+      "user_id": "1409858348924539011",
+      "is_bot": false,
+      "content": "Completion date of the ViBe course: 11 Febrary\nPercentage of completion: 100%\nCohort name: Eucledians",
+      "embeds": [],
+      "created": 1771943824357,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1409858348924539011> Issue has been forwarded to the team and the needed will be done.",
+      "embeds": [],
+      "created": 1771944700863,
+      "edited": 1771944723876
+    },
+    {
+      "index": 5,
+      "author": "atharvyasharma",
+      "user_id": "1409858348924539011",
+      "is_bot": false,
+      "content": "Okay, Thank you Sir",
+      "embeds": [],
+      "created": 1771946311495,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1409858348924539011> The issue has been resolved and it might take some time to reflect in the dashboard. Please let us know when it does.",
+      "embeds": [],
+      "created": 1771993004020,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "atharvyasharma",
+      "user_id": "1409858348924539011",
+      "is_bot": false,
+      "content": "Yes sir, it has been resolved.\nThank you very much.",
+      "embeds": [],
+      "created": 1772001347154,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Ticket",
+      "embeds": [],
+      "created": 1772001442145,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772001448029,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772001448630,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772001451065,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0221",
+    "id": "1475861228751683755"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

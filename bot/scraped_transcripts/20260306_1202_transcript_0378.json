@@ -1,0 +1,192 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473350439427899526> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : About health points",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772796318827,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "I have already posted on linkedin on feb 27 2026 itself and filled out the form still my hp points have not been updated whereas everyone's else is updated",
+      "embeds": [],
+      "created": 1772796360961,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473350439427899526> Did you fill the submission form and select the corresponding activity tag(Eg. A1, A2)?",
+      "embeds": [],
+      "created": 1772796420852,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "Yes sir i did it on march 2 itself and i had guided some others also abt how to do it\nNow m the one who's hp is not updated🥲",
+      "embeds": [],
+      "created": 1772796474390,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "My history 🥲",
+      "embeds": [],
+      "created": 1772796718805,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473350439427899526> \nDo not worry. \nDid you fill the form with your registered mail ID?",
+      "embeds": [],
+      "created": 1772796865868,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "Yes mam",
+      "embeds": [],
+      "created": 1772796940438,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "I will fill again today if its required",
+      "embeds": [],
+      "created": 1772796951556,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "Actually i already did it again today when it was reannounced but i had also done it on march 2 with the same email id itself like no doubt at all",
+      "embeds": [],
+      "created": 1772797035937,
+      "edited": 1772797098569
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Ok anam do not worry we will ask the corcerned team to look into it.",
+      "embeds": [],
+      "created": 1772797150206,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "Ok mam",
+      "embeds": [],
+      "created": 1772797295086,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "It got updated thank you \nYou may close the ticket \n<@956180961832362014> <@836880971017748512>",
+      "embeds": [],
+      "created": 1772798522315,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772798535240,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772798535659,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772798538341,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0378",
+    "id": "1479439730012590111"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 15
+}

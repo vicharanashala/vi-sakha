@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1397254666588520499> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : hi I'm saini, I have successfully registered for the Vinternship program, and the system shows a popup stating \"You are already registered for this course\" when I try to click Register again. However, the course is still showing under the \"A",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771765220605,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@1397254666588520499> kindly share your email id through which you registered and the cohort name",
+      "embeds": [],
+      "created": 1771766524485,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1397254666588520499> \nIs your issue been resolved?",
+      "embeds": [],
+      "created": 1771780612416,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1397254666588520499> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1771825880893,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1397254666588520499> \nIs your issue resolved ?",
+      "embeds": [],
+      "created": 1771855820678,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1397254666588520499> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1771913690612,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1397254666588520499> \nIs your issue been resolved?",
+      "embeds": [],
+      "created": 1771940086251,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1397254666588520499> \nAs you have not been responding to the messages we will assume that your issue has been resolved hnece closing the ticket. \nYou may raise a new ticket if you have any issue. \nCC: <@836880971017748512>",
+      "embeds": [],
+      "created": 1772001981948,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772003836075,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772003836625,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772003838823,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0176",
+    "id": "1475114989646909470"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 11
+}

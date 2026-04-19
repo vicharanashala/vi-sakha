@@ -1,0 +1,154 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1335135339244687453> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Follow-up on Appeal Request Regarding HP Threshold Removal",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772737293392,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "kartikrathore0977",
+      "user_id": "1335135339244687453",
+      "is_bot": false,
+      "content": "Hello Team,\n\nI submitted the appeal Google Form on **4 March** regarding my HP deduction and removal from the active dashboard, where I clearly explained the genuine reasons behind the situation and attached supporting evidence as well.\n\nHowever, I have not yet received any response or update regarding the status of my appeal. I kindly request you to please review my submission and let me know if any further information is required from my side.\n\nI would really appreciate your response and support regarding this matter.\n\nThank you.\n\nKartik\nInternship ID: WIN25920\nCohort: Euclideans",
+      "embeds": [],
+      "created": 1772737527175,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1335135339244687453> the appeals are under consideration. Please wait for further announcements.",
+      "embeds": [],
+      "created": 1772761040743,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1335135339244687453>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772810300580,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@956180961832362014>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1772814965465,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1335135339244687453> is the issue resolved? can we close the ticket?",
+      "embeds": [],
+      "created": 1773025665857,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "kartikrathore0977",
+      "user_id": "1335135339244687453",
+      "is_bot": false,
+      "content": "Yeah issue is resolved and My hp get increased to 153 and I am now in safe zone and also my name is in the leaderboard. \nSo yeah we can close this ticket",
+      "embeds": [],
+      "created": 1773049570492,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1335135339244687453>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773049598943,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773049599543,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773049967133,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0376",
+    "id": "1479192158702534885"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 10
+}

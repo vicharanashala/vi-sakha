@@ -1,0 +1,402 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473350439427899526> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I am not able to access the first video of introduction to typescript",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771772067227,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "I am not able to access first video of intro to typescript🙃\nHonestly my learning is getting disturbed and delayed  alot\nDue to the same issue i couldn't begin at time ..and now again\nPls look into this as soon as possible..my humble request \nAlso i couldn't access quiz 13 from javascript modules and quiz 20 from logic to asynchronous web programming ..even when i had already attempted it last night and it was marked as completed but today its hasn't been marked as completed and i am not able to reattempt it\n<@956180961832362014> <@1366708005483053076>",
+      "embeds": [],
+      "created": 1771772264677,
+      "edited": 1771772381072
+    },
+    {
+      "index": 3,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@1473350439427899526> , kindly provide your emailid through which you have registered in the course and cohort name so that we could look in the matter",
+      "embeds": [],
+      "created": 1771773482475,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "Email id- anamjumnal908@gmail.com \nCohort- AKsians\n<@1178273014085857294>",
+      "embeds": [],
+      "created": 1771773509244,
+      "edited": 1771773528892
+    },
+    {
+      "index": 5,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "And now my quiz 4 from intro to typescript has also been marked as not completed \nI had just now completed it 😞and m not able to reattempt it",
+      "embeds": [],
+      "created": 1771773908185,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "you are currently at video5 of introduction to typescript , right ?",
+      "embeds": [],
+      "created": 1771774182056,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "if you have attempted the quiz and have passed it, then you need not  to worry, It will be handled latter at backend",
+      "embeds": [],
+      "created": 1771774337682,
+      "edited": 1771774378968
+    },
+    {
+      "index": 8,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "Okay sir but i couldn't access the first video i hadn't watched it",
+      "embeds": [],
+      "created": 1771774425690,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "If you have moved forward to next items then you can leave old items, will be handled later, you can continue further for now.",
+      "embeds": [],
+      "created": 1771774522399,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "Okay sir thank you",
+      "embeds": [],
+      "created": 1771774833375,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473350439427899526> \nIs your issue been resolved?",
+      "embeds": [],
+      "created": 1771780669817,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "Like the issue hasn't been resolved but sir has asked me to continue and do not worry about it",
+      "embeds": [],
+      "created": 1771780711696,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Ok.",
+      "embeds": [],
+      "created": 1771780740345,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Then we can keep this thread open once it has been resolved we close this thread.\nCC: <@1178273014085857294> <@836880971017748512>",
+      "embeds": [],
+      "created": 1771780770987,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "Okay",
+      "embeds": [],
+      "created": 1771780805492,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1178273014085857294> \nIs the resolved?",
+      "embeds": [],
+      "created": 1771825919758,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473350439427899526> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1771855775956,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "Like still the quizzes and 1 video are not marked as  completed on the frontend and also not able to reattempt\nI don't know what's the situation in backend so I am not sure about the issue being resolved",
+      "embeds": [],
+      "created": 1771857878822,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469178567551090933> <@1366708005483053076> \nKindly look into this issue.",
+      "embeds": [],
+      "created": 1771858140637,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "kindly let me know which video and quiz is it?",
+      "embeds": [],
+      "created": 1771858185746,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "Quiz 13 from javascript \nQuiz 20 from logic to asynchronous web programming \nVideo 1 of introduction to typescript \n Quiz 4 and 5 of class architecture",
+      "embeds": [],
+      "created": 1771859068383,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Please try Quiz 13 after hard refreshing and logging in again",
+      "embeds": [],
+      "created": 1771859799454,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "Mam i had already attempted it it was marked as completed\nBut next morning when i logged in it wasn't marked as completed\nNow if i reattempt it i may get it wrong coz its been a while since i have watched the video",
+      "embeds": [],
+      "created": 1771859918951,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Go to video before it\nand rewatch it\nthe questions will be from that segment itself.",
+      "embeds": [],
+      "created": 1771859976548,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "Okay👍🏻",
+      "embeds": [],
+      "created": 1771860004949,
+      "edited": null
+    },
+    {
+      "index": 26,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "yes\nplease hard reload and login again before trying",
+      "embeds": [],
+      "created": 1771860031379,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "Thank you mam the issue has been resolved",
+      "embeds": [],
+      "created": 1771860330592,
+      "edited": null
+    },
+    {
+      "index": 28,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "are all of them are working now?\nplease try all of the items , complete them\nand if you get any issue\ntag me and let me know",
+      "embeds": [],
+      "created": 1771860434972,
+      "edited": null
+    },
+    {
+      "index": 29,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Anytime!",
+      "embeds": [],
+      "created": 1771860444964,
+      "edited": null
+    },
+    {
+      "index": 30,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "Yes mam i am trying \nUpto video1 of intro to typescript is resolved \nM trying other two quizzes",
+      "embeds": [],
+      "created": 1771860560787,
+      "edited": null
+    },
+    {
+      "index": 31,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Okay!\nKindly inform me once everything works so that we can close the ticket.",
+      "embeds": [],
+      "created": 1771860597425,
+      "edited": null
+    },
+    {
+      "index": 32,
+      "author": "anamjumnal",
+      "user_id": "1473350439427899526",
+      "is_bot": false,
+      "content": "Yes mam thank you so much the issue has been completely resolved \nYou may close the ticket mam",
+      "embeds": [],
+      "created": 1771860923639,
+      "edited": null
+    },
+    {
+      "index": 33,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Ticket.",
+      "embeds": [],
+      "created": 1771860934159,
+      "edited": null
+    },
+    {
+      "index": 34,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771860942951,
+      "edited": null
+    },
+    {
+      "index": 35,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771860943418,
+      "edited": null
+    },
+    {
+      "index": 36,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771860946818,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0178",
+    "id": "1475143706595037258"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 36
+}

@@ -1,0 +1,252 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1157328621992693801> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I have been removed from dashboard.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773485710593,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "suryesh_kumar",
+      "user_id": "1157328621992693801",
+      "is_bot": false,
+      "content": "I have been removed from the dashboard. My Hp is above the base HP. \nI had filled the appeal form and and also wrote email to the support desk email. \nMy name and email is also not listed in the endorsement google form. And also on the discord, in \"channels and roles\" it shows discontinued in the profile section.",
+      "embeds": [],
+      "created": 1773486164882,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1157328621992693801> \nDid missed any milestone?",
+      "embeds": [],
+      "created": 1773486496414,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "suryesh_kumar",
+      "user_id": "1157328621992693801",
+      "is_bot": false,
+      "content": "I had missed two case studies dead line.",
+      "embeds": [],
+      "created": 1773486634884,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "suryesh_kumar",
+      "user_id": "1157328621992693801",
+      "is_bot": false,
+      "content": "sorry its three",
+      "embeds": [],
+      "created": 1773486692989,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "So that is why you were tagged as discontinued <@1157328621992693801> \nIt's ok. You may join in the next cohort.",
+      "embeds": [],
+      "created": 1773486783877,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "suryesh_kumar",
+      "user_id": "1157328621992693801",
+      "is_bot": false,
+      "content": "Means I have to repeat all the things again",
+      "embeds": [],
+      "created": 1773486817257,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "We may exempt you from some but it depends on your performance in that cohort.",
+      "embeds": [],
+      "created": 1773486872459,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "suryesh_kumar",
+      "user_id": "1157328621992693801",
+      "is_bot": false,
+      "content": "But in this cohort my HP is above base HP so why am I discontinued?",
+      "embeds": [],
+      "created": 1773486925781,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "suryesh_kumar",
+      "user_id": "1157328621992693801",
+      "is_bot": false,
+      "content": "I have completed all the stuff. Can't I be continued if possible please.",
+      "embeds": [],
+      "created": 1773487009935,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1157328621992693801> \nBut you also have not completed the milestones on time.\nRest I have forwarded your case to the team. \nThey will take the rest of the decision so kindly wait for the same.",
+      "embeds": [],
+      "created": 1773487081077,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "suryesh_kumar",
+      "user_id": "1157328621992693801",
+      "is_bot": false,
+      "content": "I had some important work then. Its ok I am waiting.",
+      "embeds": [],
+      "created": 1773487235604,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "suryesh_kumar",
+      "user_id": "1157328621992693801",
+      "is_bot": false,
+      "content": "Thank you",
+      "embeds": [],
+      "created": 1773487281495,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1157328621992693801> \nKindly check once. \nWe have updated your progress on the dashboard.",
+      "embeds": [],
+      "created": 1773643113053,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@836880971017748512> <@1359148118444343517> \nWe can restore him on the euclideans channel as well on discord.",
+      "embeds": [],
+      "created": 1773643154378,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1157328621992693801> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1773719873409,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Kindly check once and update.",
+      "embeds": [],
+      "created": 1773719883463,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "suryesh_kumar",
+      "user_id": "1157328621992693801",
+      "is_bot": false,
+      "content": "Yes mam, issue resolved. \nThank you for your help.",
+      "embeds": [],
+      "created": 1773722891922,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1157328621992693801>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773722910591,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773722911158,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773722990592,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0433",
+    "id": "1482331247853441177"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 21
+}

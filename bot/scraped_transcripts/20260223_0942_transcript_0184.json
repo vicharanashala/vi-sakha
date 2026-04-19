@@ -1,0 +1,92 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1351132102686543873> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I have completed watching all the videos in the course, and each video appears as fully watched. However, my course progress is still showing only 99.9% instead of 100%.  I have refreshed the page and rechecked all the videos,logged in again",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771838611920,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1351132102686543873> Do not worry as this is a technical glitch where one of the contents you've completed might not be marked as such. We''ll note that you've successfully completed the ViBe course. Please proceed with the case studies referring the  milestones.",
+      "embeds": [],
+      "created": 1771838886195,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1351132102686543873>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771838982283,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771838983152,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771839731077,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0184",
+    "id": "1475422815996870686"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 5
+}

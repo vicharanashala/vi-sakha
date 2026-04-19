@@ -1,0 +1,202 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1351435545078792253> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Finished the course 100% yet did not receive the ticket, need the offer letter urgently for official leave from college",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772978082054,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1351435545078792253> please state your cohort name.",
+      "embeds": [],
+      "created": 1772978137892,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1351435545078792253> please note that tickets ( gold, silver and bronze) will be provided by the team based on the assessment of the performance of the intern.\n\nAlso, the offer letter processing is in progress......please wait until further announcements.",
+      "embeds": [],
+      "created": 1772978257026,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "kuroryujinnhoshinima",
+      "user_id": "1351435545078792253",
+      "is_bot": false,
+      "content": "AKSians",
+      "embeds": [],
+      "created": 1772978295300,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "kuroryujinnhoshinima",
+      "user_id": "1351435545078792253",
+      "is_bot": false,
+      "content": "Can you also state exactly on what basi the tickets are given, like on live dashboard rank??",
+      "embeds": [],
+      "created": 1772978325453,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1351435545078792253> since this is a part time internship and the milestones are set to accommodate your regular schedule, therefore it is not necessary to avail leave to complete the internship",
+      "embeds": [],
+      "created": 1772978354602,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "kuroryujinnhoshinima",
+      "user_id": "1351435545078792253",
+      "is_bot": false,
+      "content": "ahh okay, actually my college is a bit strict on internships so they need the offer letters too",
+      "embeds": [],
+      "created": 1772978431778,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "The details are confidential, but mostly it is awarded by the candidate's performance, dashboard standings, hp, involvement in live sessions and Standups and the activity in discord ( helping peers)",
+      "embeds": [],
+      "created": 1772978468357,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "kuroryujinnhoshinima",
+      "user_id": "1351435545078792253",
+      "is_bot": false,
+      "content": "Ahh thanks for the info",
+      "embeds": [],
+      "created": 1772978560824,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "We understand the situation, but the processing is underway and there might be a delay in receiving the offer letter. Please note that you will be receiving a completion certificate upon successful completion from vicharanashala lab for education design.",
+      "embeds": [],
+      "created": 1772978575703,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "kuroryujinnhoshinima",
+      "user_id": "1351435545078792253",
+      "is_bot": false,
+      "content": "Yeah thank you so much",
+      "embeds": [],
+      "created": 1772978588969,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "kuroryujinnhoshinima",
+      "user_id": "1351435545078792253",
+      "is_bot": false,
+      "content": "for the help",
+      "embeds": [],
+      "created": 1772978592985,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "kuroryujinnhoshinima",
+      "user_id": "1351435545078792253",
+      "is_bot": false,
+      "content": "Ill close the ticket then from my side",
+      "embeds": [],
+      "created": 1772978612467,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772978623307,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772978623950,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772978625977,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0393",
+    "id": "1480202099777339432"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 16
+}

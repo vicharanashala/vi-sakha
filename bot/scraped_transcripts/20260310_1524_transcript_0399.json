@@ -1,0 +1,172 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1477407956252495992> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : i can't register in vibe",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773066721490,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "srivastavprateek1712",
+      "user_id": "1477407956252495992",
+      "is_bot": false,
+      "content": "i can't do new registration in vibe",
+      "embeds": [],
+      "created": 1773066758499,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "rishavkumar.nit",
+      "user_id": "1178273014085857294",
+      "is_bot": false,
+      "content": "hi <@1477407956252495992> \nCan you please share cohort name, email id and error screenshot",
+      "embeds": [],
+      "created": 1773067284298,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "srivastavprateek1712",
+      "user_id": "1477407956252495992",
+      "is_bot": false,
+      "content": "i think i am late to join vibe?",
+      "embeds": [],
+      "created": 1773069911603,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1477407956252495992> \nThe registrations have been closed for the internship. \nHowever, you are welcome to join the upcoming cohorts and continue your learning journey with us.\nWe would be happy to have you participate in the next batch.",
+      "embeds": [],
+      "created": 1773069938589,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "srivastavprateek1712",
+      "user_id": "1477407956252495992",
+      "is_bot": false,
+      "content": "sir if you don't mind can you please tell me when will the next cohort start and the name of cohort?",
+      "embeds": [],
+      "created": 1773070349600,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "We will announce it soon.",
+      "embeds": [],
+      "created": 1773072084276,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1477407956252495992> \nHope your issue has been resolved now?",
+      "embeds": [],
+      "created": 1773120876269,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "srivastavprateek1712",
+      "user_id": "1477407956252495992",
+      "is_bot": false,
+      "content": "yup sir sorry for delay",
+      "embeds": [],
+      "created": 1773148245089,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Ticket.",
+      "embeds": [],
+      "created": 1773156230545,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773156236473,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773156238798,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773156240678,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0399",
+    "id": "1480573880451203213"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 13
+}

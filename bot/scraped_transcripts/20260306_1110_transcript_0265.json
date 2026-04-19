@@ -1,0 +1,232 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1406202601325858918> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I am facing technical issues and I am unable to open the Zoom class on Zoom Video Communications. Due to this issue, I could not attend the previous classes as well.  However, I am regularly attending and completing the tasks in Vibe.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772111044478,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "mohanavallis",
+      "user_id": "1406202601325858918",
+      "is_bot": false,
+      "content": "Respected Sir/Madam,\n\nI am facing technical issues and I am unable to open the Zoom class on Zoom Video Communications. Due to this issue, I could not attend the previous classes as well.\n\nHowever, I am regularly attending and completing the tasks in Vibe.",
+      "embeds": [],
+      "created": 1772114326983,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1406202601325858918> \nKindly install the zoom workplace application on your desktop and try logging in with your registered mail ID.\nAlso check that you have signed in using your registered email ID.",
+      "embeds": [],
+      "created": 1772116459083,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1406202601325858918> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772169420565,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1406202601325858918> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772427880137,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1406202601325858918> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772460873513,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "mohanavallis",
+      "user_id": "1406202601325858918",
+      "is_bot": false,
+      "content": "no sir",
+      "embeds": [],
+      "created": 1772470860788,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "mohanavallis",
+      "user_id": "1406202601325858918",
+      "is_bot": false,
+      "content": "What is consent form?",
+      "embeds": [],
+      "created": 1772471366359,
+      "edited": 1772471376929
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1406202601325858918> \nwhich cohort are you from?",
+      "embeds": [],
+      "created": 1772515130832,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "mohanavallis",
+      "user_id": "1406202601325858918",
+      "is_bot": false,
+      "content": "AKSians",
+      "embeds": [],
+      "created": 1772552810130,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "The consent form is just a terms and conditions document <@1406202601325858918>",
+      "embeds": [],
+      "created": 1772639248606,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "The terms and condition document will help you to get more clarity regarding this internship and signing it will make us trust on you that you will adhere to the guidelines.",
+      "embeds": [],
+      "created": 1772639745082,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1406202601325858918> \nWe hope your issue has been cleared.",
+      "embeds": [],
+      "created": 1772639768006,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1406202601325858918> \nIs your doubt clear now?",
+      "embeds": [],
+      "created": 1772693261236,
+      "edited": 1772693266462
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1406202601325858918> \nIs your doubt clear now?",
+      "embeds": [],
+      "created": 1772771947968,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1406202601325858918> We are closing the ticket since there has been no communication from your side.",
+      "embeds": [],
+      "created": 1772794185923,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772795419835,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772795420385,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772795423507,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0265",
+    "id": "1476565479991808030"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 19
+}

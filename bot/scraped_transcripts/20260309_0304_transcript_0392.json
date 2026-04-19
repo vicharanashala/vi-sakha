@@ -1,0 +1,184 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1250086217601650709> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : from my first and second module its not showing completed even though i have completed watching all my videos from first two modules,pls crct it",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772954910956,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1250086217601650709> please elaborate on the issue.",
+      "embeds": [],
+      "created": 1772960957422,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@666826791016595456> <@1469178567551090933> <@857556884750729217> \nPlease look into it",
+      "embeds": [],
+      "created": 1772960983797,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jj032807",
+      "user_id": "1250086217601650709",
+      "is_bot": false,
+      "content": "i have completed watching all videos from the first and second session which is JAVASCRIPT(90-VIDEOS) and TYPESCRIPT(288-VIDEOS),but it still shows 89/90 and 287/288 videos only completed by watching",
+      "embeds": [],
+      "created": 1772962609040,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jj032807",
+      "user_id": "1250086217601650709",
+      "is_bot": false,
+      "content": "pls correct it fastly,my correct progress is not getting reflected",
+      "embeds": [],
+      "created": 1772966348348,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1250086217601650709>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772967543736,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@836880971017748512>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1772969839897,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1250086217601650709> is the issue resolved?",
+      "embeds": [],
+      "created": 1772969853547,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jj032807",
+      "user_id": "1250086217601650709",
+      "is_bot": false,
+      "content": "yes",
+      "embeds": [],
+      "created": 1772990995974,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Ticket.",
+      "embeds": [],
+      "created": 1773025459024,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773025464663,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773025465237,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773025467070,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0392",
+    "id": "1480104914024923251"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 13
+}

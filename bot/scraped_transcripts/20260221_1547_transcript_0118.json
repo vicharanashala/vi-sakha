@@ -1,0 +1,142 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1068557825715994634> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : My Typescript course does not work. The videos when I try to open it says. \"Access Denied, Back to the previous Valid content\", I have tried all the things from faq, also asked peers, and changed browsers, issue still persists..",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771522658014,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "<@1068557825715994634> Please state your email address and cohort name.",
+      "embeds": [],
+      "created": 1771526918103,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "rudrao2.",
+      "user_id": "1068557825715994634",
+      "is_bot": false,
+      "content": "24f3001340@ds.study.iitm.ac.in",
+      "embeds": [],
+      "created": 1771648796690,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "rudrao2.",
+      "user_id": "1068557825715994634",
+      "is_bot": false,
+      "content": "RSians",
+      "embeds": [],
+      "created": 1771648804849,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "Your issue has been resolved. kindly check and update us.",
+      "embeds": [],
+      "created": 1771676811437,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "rudrao2.",
+      "user_id": "1068557825715994634",
+      "is_bot": false,
+      "content": "yes Thanks, solved",
+      "embeds": [],
+      "created": 1771688386832,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Ticket",
+      "embeds": [],
+      "created": 1771688840576,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771688845475,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771688846490,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771688849035,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0118",
+    "id": "1474097609948926103"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 10
+}

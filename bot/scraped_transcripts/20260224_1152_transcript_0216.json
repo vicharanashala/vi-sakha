@@ -1,0 +1,232 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1167445225246031883> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I am not able to watch videos. after login it says its preparing but I could not watch the videos or attempt quiz. On the right screen it shows browse the content.",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771932751464,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1167445225246031883> Please attach some screenshots elaborating the issue",
+      "embeds": [],
+      "created": 1771932800578,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1469178567551090933> <@857556884750729217> Please take a look at them",
+      "embeds": [],
+      "created": 1771932821821,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "<@1167445225246031883> have tried updating chrome and tried to refresh the page...",
+      "embeds": [],
+      "created": 1771933385036,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "brangotur",
+      "user_id": "1167445225246031883",
+      "is_bot": false,
+      "content": "i tried it now its working but only videos are there with no quiz!",
+      "embeds": [],
+      "created": 1771933428272,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "Can you tell me your email id and cohort name?",
+      "embeds": [],
+      "created": 1771933462747,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "brangotur",
+      "user_id": "1167445225246031883",
+      "is_bot": false,
+      "content": "24f1002702@ds.study.iitm.ac.in",
+      "embeds": [],
+      "created": 1771933483720,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "brangotur",
+      "user_id": "1167445225246031883",
+      "is_bot": false,
+      "content": "RSAians",
+      "embeds": [],
+      "created": 1771933540712,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "Your current learning position is \n\nTypeScript › Decorators in Practice › Quiz 16",
+      "embeds": [],
+      "created": 1771933601412,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "right??",
+      "embeds": [],
+      "created": 1771933609806,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "<@1167445225246031883> \nYour current learning position is \n\nTypeScript › Decorators in Practice › Quiz 16\nright??",
+      "embeds": [],
+      "created": 1771933709934,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "brangotur",
+      "user_id": "1167445225246031883",
+      "is_bot": false,
+      "content": "yes",
+      "embeds": [],
+      "created": 1771933756961,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "<@1167445225246031883> Please go to dashboard page refresh it and click continue. And tell me it is working or not..",
+      "embeds": [],
+      "created": 1771933834012,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "brangotur",
+      "user_id": "1167445225246031883",
+      "is_bot": false,
+      "content": "yes its working Thanks!",
+      "embeds": [],
+      "created": 1771933896251,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "Ok welcome enjoy and happy learning 🙂",
+      "embeds": [],
+      "created": 1771933913961,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "brangotur",
+      "user_id": "1167445225246031883",
+      "is_bot": false,
+      "content": "😀",
+      "embeds": [],
+      "created": 1771933942772,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@857556884750729217>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771933964811,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771933965406,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771933968653,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0216",
+    "id": "1475817665988923403"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 19
+}

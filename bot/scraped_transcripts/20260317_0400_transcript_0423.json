@@ -1,0 +1,206 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1068557825715994634> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Vulnerabilities in ViBe Platform",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773337406692,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "rudrao2.",
+      "user_id": "1068557825715994634",
+      "is_bot": false,
+      "content": "## Hey team, \n\nI’m raising this ticket to officially log my findings and take ownership of the custom extension and PoC video I created. \n\n**Just to keep it brief:**\n- I found **20 security vulnerabilities** in the ViBe platform (hardcoded credentials, API bypasses, etc.).\n- I built a custom Chrome extension called **\"Vibe Check\"** to safely test these on the client side, making sure I didn't mess with your server logs.\n- I recorded a 5-minute unlisted PoC video to demonstrate everything. I saw it already has over **1.5 hours of watch time**, so I’m guessing the dev team is already watching it thoroughly and working on the fixes!\n\n**Here is the link to the unlisted video:** \nhttps://www.youtube.com/watch?v=2P60CnrJ6oc\n*I have also attached the report, please do check it.*\n\n**I mainly just wanted to follow up on two things:**\n1. **Any updates on the patches?** I’m totally down to hop on a call and help the dev team reproduce or fix anything if needed.\n2. **Please forward this report directly to Sudarshan sir.** He’s the main reason I joined this internship, and getting his feedback on my security assessment would mean a lot to me.\n\nLet me know what the next steps are. Thanks!",
+      "embeds": [
+        {
+          "title": "Extension Demo",
+          "url": "https://www.youtube.com/watch?v=2P60CnrJ6oc",
+          "color": "#ff0000",
+          "thumbnail": {
+            "url": "https://i.ytimg.com/vi/2P60CnrJ6oc/maxresdefault.jpg"
+          },
+          "author": {
+            "name": "Rudra Pratap Singh",
+            "url": "https://www.youtube.com/channel/UCXNAU_OBHGIANMaPZUNO8yA"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773337908628,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "rudrao2.",
+      "user_id": "1068557825715994634",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1773337934687,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1068557825715994634> \nThank you for getting back to us. We will surely raise these issues and report it to the team for further reviews.",
+      "embeds": [],
+      "created": 1773377508070,
+      "edited": 1773377835249
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1366708005483053076> \nKindly look into this.",
+      "embeds": [],
+      "created": 1773377913967,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "rudrao2.",
+      "user_id": "1068557825715994634",
+      "is_bot": false,
+      "content": "<@956180961832362014> Thanks!  If possible, Please forward this report directly to Sudarshan sir and do let me know what the next steps are.",
+      "embeds": [],
+      "created": 1773392814914,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "rudrao2.",
+      "user_id": "1068557825715994634",
+      "is_bot": false,
+      "content": "<@956180961832362014> Any update??",
+      "embeds": [],
+      "created": 1773545312948,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "We have reported your review to the tech team. \nThey are working on it",
+      "embeds": [],
+      "created": 1773553627155,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469178567551090933> \nKindly look into this vulnerability report by the student.",
+      "embeds": [],
+      "created": 1773559494030,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Hi <@1068557825715994634> \n\nThank you for your insights on the security issues and we really appreciate the time and effort you have put into this!\n\nThe Tech Leads have been forwarded your vulnerability report. They will  work on reviewing, verifying and resolving the issues that have been mentioned in your report. \n\nIn case, we do hit a block while reproducing an issue or need clarity on one, we will surely reach out to you.\n\nThanks Again!",
+      "embeds": [],
+      "created": 1773641020479,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469178567551090933> \nShould close this ticket or should we keep it open?",
+      "embeds": [],
+      "created": 1773719826765,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "We should close it.\nI have conveyed the message to tech leads.\n <@956180961832362014>",
+      "embeds": [],
+      "created": 1773720016456,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1469178567551090933>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773720052851,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773720053346,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773720055849,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0423",
+    "id": "1481709212508618884"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 15
+}

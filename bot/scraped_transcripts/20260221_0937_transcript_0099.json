@@ -1,0 +1,252 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473353735961968795> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I have accidently clicked lesson-2 instead of lesson-1 and also i have watched 12 videos in lesson-2 but now i can't watch lesson-1. the lesson-1 is restricted but i didn't watch lesson-1 . what should i do?",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771435111077,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "Hey <@1473353735961968795> will get back to you in morning",
+      "embeds": [],
+      "created": 1771436799791,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "savio_stephen_57289",
+      "user_id": "1473353735961968795",
+      "is_bot": false,
+      "content": "okay",
+      "embeds": [],
+      "created": 1771466650836,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "Hello, could you please share your email ID and indicate the last video you completed (module–section–item with count)?",
+      "embeds": [],
+      "created": 1771470841363,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "savio_stephen_57289",
+      "user_id": "1473353735961968795",
+      "is_bot": false,
+      "content": "saviostephen6@gmail.com,lesson-2,video-12",
+      "embeds": [],
+      "created": 1771483861584,
+      "edited": 1771483899626
+    },
+    {
+      "index": 6,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@666826791016595456>",
+      "embeds": [],
+      "created": 1771487213126,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "which module is this ? react => section 2 => video 12 is it correct !",
+      "embeds": [],
+      "created": 1771487610949,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "adityabmv",
+      "user_id": "647093625594839050",
+      "is_bot": false,
+      "content": "<@1473353735961968795> Could you please confirm the details?\nThis can help us resolve the issue quickly",
+      "embeds": [],
+      "created": 1771518455347,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "savio_stephen_57289",
+      "user_id": "1473353735961968795",
+      "is_bot": false,
+      "content": "yes",
+      "embeds": [],
+      "created": 1771522524685,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "savio_stephen_57289",
+      "user_id": "1473353735961968795",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771522650393,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "savio_stephen_57289",
+      "user_id": "1473353735961968795",
+      "is_bot": false,
+      "content": "i can't do javascript building blocks section-1",
+      "embeds": [],
+      "created": 1771522683548,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "Have you completed Section 2?",
+      "embeds": [],
+      "created": 1771553371263,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1473353735961968795> Has the issue been resolved?",
+      "embeds": [],
+      "created": 1771572932409,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "savio_stephen_57289",
+      "user_id": "1473353735961968795",
+      "is_bot": false,
+      "content": "no i didn't complete section-3",
+      "embeds": [],
+      "created": 1771590277021,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "savio_stephen_57289",
+      "user_id": "1473353735961968795",
+      "is_bot": false,
+      "content": "issue is not solved",
+      "embeds": [],
+      "created": 1771590392666,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@666826791016595456> Please resolve this",
+      "embeds": [],
+      "created": 1771596074608,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "savio_stephen_57289",
+      "user_id": "1473353735961968795",
+      "is_bot": false,
+      "content": "the problem is not solved and also i completed lesson-2",
+      "embeds": [],
+      "created": 1771666463410,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473353735961968795> Great!\nAs the issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1771666624821,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771666634386,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771666635046,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771666637049,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0099",
+    "id": "1473730410977558578"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 21
+}

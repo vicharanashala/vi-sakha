@@ -1,0 +1,155 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1469719654615355504> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I submitted blog of my internship jouney in sudharsan sir's github repository under blogs folder.  But , i understood, only selected blogs need to submit there. i already uploaded in linkedinn. is it enough at this stage. please guide me",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772557634810,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1469719654615355504> mam, It is enough at this stage. Please follow up with the milestones mentioned.",
+      "embeds": [],
+      "created": 1772597655326,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469719654615355504> Ma'am, \nYou can refer to the following website for milestone: \nhttps://sudarshansudarshan.github.io/vinternship/milestones/",
+      "embeds": [
+        {
+          "title": "Milestones & Completion Requirements",
+          "description": "Vinternship - A comprehensive full-stack development internship program covering the MERN stack and modern web technologies. Master TypeScript, React, Express.js, and MongoDB through hands-on case studies.",
+          "url": "https://sudarshansudarshan.github.io/vinternship/milestones/",
+          "fields": []
+        }
+      ],
+      "created": 1772645010675,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469719654615355504> Ma'am, \nWe hope your issue is now resolved.",
+      "embeds": [],
+      "created": 1772697635052,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1469719654615355504> mam, is the issue resolved? Cant the ticket be closed?",
+      "embeds": [],
+      "created": 1772707732392,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "rama_29624",
+      "user_id": "1469719654615355504",
+      "is_bot": false,
+      "content": "close the ticket sir. i uploaded in my github blogs folder only . I think , we couldnt able to upload in sudharsan sir' s github repository. i am confused. Sorry for the inconvenience",
+      "embeds": [],
+      "created": 1772709806607,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772709949854,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772709950662,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket will be deleted in a few seconds",
+          "color": "#ef5350",
+          "fields": []
+        }
+      ],
+      "created": 1772709952797,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772709954476,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0344",
+    "id": "1478438615485775994"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 10
+}

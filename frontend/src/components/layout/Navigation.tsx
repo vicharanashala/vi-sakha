@@ -3,7 +3,7 @@ import { Menu, X, ChevronDown } from 'lucide-react'
 import { useUIStore } from '@/store/uiStore'
 import { cn } from '@/lib/utils'
 
-const VISAKHA_URL = 'https://sakha.vicharanashala.ai/'
+const VISAKHA_URL = '/login'
 const VINTERNSHIP_BASE = 'https://sudarshansudarshan.github.io/vinternship/'
 const DISCORD_URL = 'https://discord.gg/BrdzTSmMxN'
 
@@ -178,8 +178,6 @@ export function Navigation() {
             </a>
             <a
               href={VISAKHA_URL}
-              target="_blank"
-              rel="noopener noreferrer"
               className={cn(
                 'text-sm font-semibold px-4 py-2 rounded-lg transition-all duration-300 border',
                 scrolled
@@ -240,8 +238,6 @@ export function Navigation() {
             <div className="pt-4 space-y-2 px-4">
               <a
                 href={VISAKHA_URL}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="block w-full bg-gray-900 text-white py-2.5 rounded-lg text-sm font-semibold hover:bg-gray-800 transition-colors text-center"
               >
                 Try Vi-Sakha

@@ -1,0 +1,294 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473488738783854623> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Hello, I’m from the Aksians Cohort. I completed 65% of the course within the deadline and submitted the activity through the Google Form about 2 days before the deadline. However, my HP did not increase, and today it decreased from 107 to 10",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773034121771,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473488738783854623> \nYour issue has been escalated.",
+      "embeds": [],
+      "created": 1773034869030,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "sadhanam_07",
+      "user_id": "1473488738783854623",
+      "is_bot": false,
+      "content": "Thank you mam.",
+      "embeds": [],
+      "created": 1773035546146,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1473488738783854623>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773035558861,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@956180961832362014>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1773035562549,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473488738783854623> \nDo not close the ticket",
+      "embeds": [],
+      "created": 1773035570018,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Untill it is fully resolved.",
+      "embeds": [],
+      "created": 1773035580573,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473488738783854623> \nKindly fill out the google form with your registered mail ID for activity completion which is available on the cohort specific announcement page.",
+      "embeds": [],
+      "created": 1773036403198,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "https://forms.gle/ydseV19eLqXfFvte9",
+      "embeds": [
+        {
+          "title": "Aksians Activity Completion Confirmation Form",
+          "description": "Students are required to submit this form to confirm completion of an assigned activity for the health points.",
+          "url": "https://forms.gle/ydseV19eLqXfFvte9",
+          "thumbnail": {
+            "url": "https://lh4.googleusercontent.com/oxwTLfu64ZkAWKzCTu9SSfKYr6Z-I4r1nI6dUYtRVKh9-cjIAgfspSi9QQsGBeKGA_KQ5L9ORUG-0mA=w1200-h630-p"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773036762808,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Kindly fill this form <@1473488738783854623>",
+      "embeds": [],
+      "created": 1773036774243,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "sadhanam_07",
+      "user_id": "1473488738783854623",
+      "is_bot": false,
+      "content": "I’ve filled out the  Form again with my registered email ID and submitted it mam.",
+      "embeds": [],
+      "created": 1773039255739,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473488738783854623> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1773120751530,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "sadhanam_07",
+      "user_id": "1473488738783854623",
+      "is_bot": false,
+      "content": "<@956180961832362014> Ma’am, my HP has increased back to 107 and I received the HP for A2. However, for A1 it still shows -5. Could you please check if this is correct?",
+      "embeds": [],
+      "created": 1773126765801,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473488738783854623> \nDo not worry we have escalated your issue the team is working on it.",
+      "embeds": [],
+      "created": 1773202623208,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "sadhanam_07",
+      "user_id": "1473488738783854623",
+      "is_bot": false,
+      "content": "Thank you mam",
+      "embeds": [],
+      "created": 1773203017255,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473488738783854623> \nThis issue is because the A1 activity deadline was 6 March, but the form was filled on 9 march, so we might not be able to revert it.",
+      "embeds": [],
+      "created": 1773204886522,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "sadhanam_07",
+      "user_id": "1473488738783854623",
+      "is_bot": false,
+      "content": "<@956180961832362014>  Okay ma’am, understood. Thank you for checking and explaining.",
+      "embeds": [],
+      "created": 1773213257083,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "We hope your issue has been resolved now?",
+      "embeds": [],
+      "created": 1773213323475,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "sadhanam_07",
+      "user_id": "1473488738783854623",
+      "is_bot": false,
+      "content": "Yes Mam. Thank you so much.",
+      "embeds": [],
+      "created": 1773214539381,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1773215089658,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773215098596,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773215099052,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773215102123,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0394",
+    "id": "1480437148271509514"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 23
+}

@@ -1,0 +1,142 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1471786465640841349> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Respected sir/madam, I am from cohort 2. Few days ago I was 46 point ahead of base HP. But suddenly I had a trouble in my life. So I could not be consistent. Since then, I was trying to complete the tasks. However my current health point is",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772448220716,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1471786465640841349> Please elaborate on the issue you are facing",
+      "embeds": [],
+      "created": 1772450162590,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "rahuldas04261",
+      "user_id": "1471786465640841349",
+      "is_bot": false,
+      "content": "My current health point is 98. I was hink I was eliminated yesterday as my point is below 115, as I am from cohort 2. But can I rejoin in same or different cohort?",
+      "embeds": [],
+      "created": 1772450481166,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1471786465640841349> \nKindly try to fill the appeal form if we find your appeal genuine we will revert back your HP's and also onboard again.",
+      "embeds": [],
+      "created": 1772461797230,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "rahuldas04261",
+      "user_id": "1471786465640841349",
+      "is_bot": false,
+      "content": "Thank you",
+      "embeds": [],
+      "created": 1772482591399,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1471786465640841349> \nWe hope your doubt is now cleared and we can close this ticket?",
+      "embeds": [],
+      "created": 1772516309348,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "rahuldas04261",
+      "user_id": "1471786465640841349",
+      "is_bot": false,
+      "content": "Yes Ma'am",
+      "embeds": [],
+      "created": 1772516645508,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772516671322,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772516671694,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772516674371,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0317",
+    "id": "1477979700797374584"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 10
+}

@@ -1,0 +1,212 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1287493213699047425> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I am not able to receive emails regarding official stand-ups, live sessions of this vinternship and it coincided with my booked slots yesterday as discord announcements on the same day and not prior",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771470300474,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1287493213699047425> \nThe mails will be received by you on your registered mail ID.",
+      "embeds": [],
+      "created": 1771472750113,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "saniyaasyed",
+      "user_id": "1287493213699047425",
+      "is_bot": false,
+      "content": "Hii, I have not received it anywhere in the registered email ID either",
+      "embeds": [],
+      "created": 1771481875806,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1287493213699047425> \nThank you for your reply. \nWe are looking into it.",
+      "embeds": [],
+      "created": 1771482530438,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "saniyaasyed",
+      "user_id": "1287493213699047425",
+      "is_bot": false,
+      "content": "thankyou for your time!",
+      "embeds": [],
+      "created": 1771482629160,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "saniyaasyed",
+      "user_id": "1287493213699047425",
+      "is_bot": false,
+      "content": "for reference \nHere's my registered email id : 26f1000855@ds.study.iitm.ac.in \nname : Syeda Saniya Sadaf Syed Ishaque",
+      "embeds": [],
+      "created": 1771482804906,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1287493213699047425> \nDid you receive the link for today's live session?",
+      "embeds": [],
+      "created": 1771520552211,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "saniyaasyed",
+      "user_id": "1287493213699047425",
+      "is_bot": false,
+      "content": "hii nope, i didnt",
+      "embeds": [],
+      "created": 1771523796695,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "saniyaasyed",
+      "user_id": "1287493213699047425",
+      "is_bot": false,
+      "content": "until i clicked on <#1471922498961408020>  and registered for the event",
+      "embeds": [],
+      "created": 1771523825563,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1287493213699047425> \nSorry for the inconvenience caused by us as we are sending bulk registrations from zoom so many students are not able to receive the live session links. \nThis could be a probable reason of you not receiving the mail. \nWe are looking into this and working on it.",
+      "embeds": [],
+      "created": 1771523932604,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "saniyaasyed",
+      "user_id": "1287493213699047425",
+      "is_bot": false,
+      "content": "its fine team! I am super grateful to have the opportunity to learn and grow with such fabulous people.  Just wanted to report this for better accessibility for all!",
+      "embeds": [],
+      "created": 1771524056733,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1287493213699047425> \nThank you for understanding. \nI hope we can close this thread now.",
+      "embeds": [],
+      "created": 1771524113981,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "saniyaasyed",
+      "user_id": "1287493213699047425",
+      "is_bot": false,
+      "content": "yes sure! have a good evening",
+      "embeds": [],
+      "created": 1771524129948,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "You too <@1287493213699047425> Have a good day ahead, and happy learning!",
+      "embeds": [],
+      "created": 1771524166597,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771524175901,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771524178212,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771524180729,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0102",
+    "id": "1473878005687390359"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 17
+}

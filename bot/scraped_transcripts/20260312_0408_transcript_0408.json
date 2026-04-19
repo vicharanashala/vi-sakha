@@ -1,0 +1,269 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1477979846335529054> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I can not find the zoom meeting link for my internship....it's showing some server-follow-channel something like this ...... I need help",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773155712511,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1477979846335529054> Please elaborate on the issue",
+      "embeds": [],
+      "created": 1773156333738,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "abhishiktaghosh",
+      "user_id": "1477979846335529054",
+      "is_bot": false,
+      "content": "this is what I am facing ....... if I try to follow it's showing some server related settings change and all ..... I can't get the meeting link for today",
+      "embeds": [],
+      "created": 1773156440926,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Please check the cohort announcements",
+      "embeds": [],
+      "created": 1773156490166,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "also in your registered mail",
+      "embeds": [],
+      "created": 1773156501632,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "please check in mail",
+      "embeds": [],
+      "created": 1773156509209,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "abhishiktaghosh",
+      "user_id": "1477979846335529054",
+      "is_bot": false,
+      "content": "no there is no meeting link in mail",
+      "embeds": [],
+      "created": 1773156525256,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1477979846335529054> please follow the regulations mentioned in FAQ for DP...also find the link attached here:https://zoom.us/j/97928165972?pwd=J6hSNT0LjCzcem53deOkyhV8w9B4P6.1",
+      "embeds": [
+        {
+          "title": "Welcome! You are invited to join a meeting: Vinternship Standup (RS...",
+          "description": "Welcome! You are invited to join a meeting: Vinternship Standup (RSAians & AKSians). After registering, you will receive a confirmation email about joining the meeting.",
+          "url": "https://zoom.us/j/97928165972?pwd=J6hSNT0LjCzcem53deOkyhV8w9B4P6.1",
+          "fields": []
+        }
+      ],
+      "created": 1773156568387,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "abhishiktaghosh",
+      "user_id": "1477979846335529054",
+      "is_bot": false,
+      "content": "is this the link for today's session ??",
+      "embeds": [],
+      "created": 1773156590535,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Please state your cohort name.",
+      "embeds": [],
+      "created": 1773156666271,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "yes...it is the standup",
+      "embeds": [],
+      "created": 1773156679702,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "abhishiktaghosh",
+      "user_id": "1477979846335529054",
+      "is_bot": false,
+      "content": "cohort name 4",
+      "embeds": [],
+      "created": 1773157045842,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Please state the name of the standup",
+      "embeds": [],
+      "created": 1773157298774,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1477979846335529054> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1773203874806,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "abhishiktaghosh",
+      "user_id": "1477979846335529054",
+      "is_bot": false,
+      "content": "I got the mail providing me the mail id  and meeting link and timing",
+      "embeds": [],
+      "created": 1773204370042,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "So we hope your issue is resolved now?",
+      "embeds": [],
+      "created": 1773205111678,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1477979846335529054> \nWe hope your issue is now cleared?",
+      "embeds": [],
+      "created": 1773233478264,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "abhishiktaghosh",
+      "user_id": "1477979846335529054",
+      "is_bot": false,
+      "content": "I think it is .... thank you for helping ..... for any furthur issue I will contact",
+      "embeds": [],
+      "created": 1773279428022,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved hence cosing this ticket.",
+      "embeds": [],
+      "created": 1773288501730,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773288509479,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773288509921,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773288511568,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0408",
+    "id": "1480947128770625621"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 22
+}

@@ -1,0 +1,182 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1393228544292814991> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I have already raised a  ticket 1 week ago  about my vibe course completion error that  even though I completed watching the all the videos and answering all the quizzes 2 times , some set of quizzes are again resetting, Nitin sankar   calle",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771606339176,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1393228544292814991> Please brief on the issue",
+      "embeds": [],
+      "created": 1771606384043,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1393228544292814991> Also mention your cohort name.",
+      "embeds": [],
+      "created": 1771606659573,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@759435748721557514> <@1449603507865784334> Please follow up on this issue",
+      "embeds": [],
+      "created": 1771606799817,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "sreehari5371",
+      "user_id": "759435748721557514",
+      "is_bot": false,
+      "content": "<@1393228544292814991> Your issue has been resolved. Kindly check and let us know if you are still facing any problems.",
+      "embeds": [],
+      "created": 1771607173286,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "saivenkataharishkillamsetty",
+      "user_id": "1393228544292814991",
+      "is_bot": false,
+      "content": "No the issue isn't resolved ,I just checked my HP in dashboard and it's still marked as -10% under 100% vibe completion",
+      "embeds": [],
+      "created": 1771607520293,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "saivenkataharishkillamsetty",
+      "user_id": "1393228544292814991",
+      "is_bot": false,
+      "content": "Euclidean Cohort",
+      "embeds": [],
+      "created": 1771607542394,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1293270010537578575> mam, The participant has completed ViBe before the deadline.",
+      "embeds": [],
+      "created": 1771607579638,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1393228544292814991> \nWe have escalated your issue.",
+      "embeds": [],
+      "created": 1771746387394,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1393228544292814991> Is the issue resolved? Please do check it now.",
+      "embeds": [],
+      "created": 1771824320854,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "saivenkataharishkillamsetty",
+      "user_id": "1393228544292814991",
+      "is_bot": false,
+      "content": "Yes sir the issue is resolved",
+      "embeds": [],
+      "created": 1771825797475,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771825825036,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771825825517,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771825828453,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0131",
+    "id": "1474448593501815019"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 14
+}

@@ -1,0 +1,299 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473723374613041389> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : To clarify my concern regarding the milestones",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773390218431,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "katheejafathima",
+      "user_id": "1473723374613041389",
+      "is_bot": false,
+      "content": "The offical start of this internship as mentioned is 20th feb , i enrolled it on 19feb . so first week task is to compelte 20 percetn within 5 working days (wed) and then within fri it is 25+%. and yes i compelted 25+% within wed. as the internship officially started on fri (20th feb) so the deadline for milestone is thu right (5 working days from start). thats what i thought of am i right or wrong here?! but my deadline was wed every week , so its like i missed 50% milestone adn 75%milestone cuz i enrolled on thu. there is no clear info regarding this and can you clarify this . As being in 3rd year , to validate the skills we need proof so for me this certificate plays a major role in my college placements.",
+      "embeds": [],
+      "created": 1773390510885,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473723374613041389> \nKindly follow the milestones as mentioned on the website which are as follows: \nhttps://sudarshansudarshan.github.io/vinternship/milestones/",
+      "embeds": [
+        {
+          "title": "Milestones & Completion Requirements",
+          "description": "Vinternship - A comprehensive full-stack development internship program covering the MERN stack and modern web technologies. Master TypeScript, React, Express.js, and MongoDB through hands-on case studies.",
+          "url": "https://sudarshansudarshan.github.io/vinternship/milestones/",
+          "fields": []
+        }
+      ],
+      "created": 1773393085596,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "katheejafathima",
+      "user_id": "1473723374613041389",
+      "is_bot": false,
+      "content": "yes mam . but my query is different. what date is to considered",
+      "embeds": [],
+      "created": 1773393260173,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "From the date of joining you should consider. \nThe date you got enrolled successfully on ViBe.",
+      "embeds": [],
+      "created": 1773393341791,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "katheejafathima",
+      "user_id": "1473723374613041389",
+      "is_bot": false,
+      "content": "okey mam . but why 20% was set to complete withing 5 working days(wed) initially and then 25+% within fri  .(i enrolled on thu) so because of it i missed two deadlines",
+      "embeds": [],
+      "created": 1773394087826,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Actually we wanted that students should complete 25% in first 5 days but we gave a buffer that they can do it in 7 days so it will be easier on their mind as they will have to complete 3.33% ViBe everyday that's why.",
+      "embeds": [],
+      "created": 1773394210467,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "katheejafathima",
+      "user_id": "1473723374613041389",
+      "is_bot": false,
+      "content": "so in the end now i missed two deadline(not intentional). so before project phase i know that hp points will declare a new base line. can you tell me that i should continue or not continue this internship i lost around 12.5 hp points. what should i do now. im really confused.",
+      "embeds": [],
+      "created": 1773394398963,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Kindly continue and complete the rest of the milestones.",
+      "embeds": [],
+      "created": 1773396469089,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Keep progressing",
+      "embeds": [],
+      "created": 1773396475846,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "katheejafathima",
+      "user_id": "1473723374613041389",
+      "is_bot": false,
+      "content": "okie will that in end up in certificate, can you gurantee me?",
+      "embeds": [],
+      "created": 1773396880427,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "katheejafathima",
+      "user_id": "1473723374613041389",
+      "is_bot": false,
+      "content": "so in this as you can see that quiz item is not marked complete and items compelted are 286/288 . can you solve this .",
+      "embeds": [],
+      "created": 1773397857230,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Yes Complete all the milestones before due date and you will be eligible for the certification.",
+      "embeds": [],
+      "created": 1773397903735,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1366708005483053076> \nKindly help us out here.",
+      "embeds": [],
+      "created": 1773397917974,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "katheejafathima",
+      "user_id": "1473723374613041389",
+      "is_bot": false,
+      "content": "okie mam thank you so much",
+      "embeds": [],
+      "created": 1773397921547,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "<@1473723374613041389> Is this issue solved?",
+      "embeds": [],
+      "created": 1773417288273,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "thanhamariyam",
+      "user_id": "1366708005483053076",
+      "is_bot": false,
+      "content": "if not, pleasse tell  me for which module, which section you are getting 286/288 even after you completed 288/288",
+      "embeds": [],
+      "created": 1773418154329,
+      "edited": 1773418195118
+    },
+    {
+      "index": 18,
+      "author": "katheejafathima",
+      "user_id": "1473723374613041389",
+      "is_bot": false,
+      "content": "no mam it isnt resolved",
+      "embeds": [],
+      "created": 1773459798202,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "katheejafathima",
+      "user_id": "1473723374613041389",
+      "is_bot": false,
+      "content": "cohort : AKsians , module : Typescript , section :Class architecture : OOP patterns , QUIZ 2",
+      "embeds": [],
+      "created": 1773459837091,
+      "edited": 1773459917735
+    },
+    {
+      "index": 20,
+      "author": "katheejafathima",
+      "user_id": "1473723374613041389",
+      "is_bot": false,
+      "content": "and module : Typescript, section :introduction to typescript ,QUIZ 7",
+      "embeds": [],
+      "created": 1773459892944,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "thirumalesh_33801",
+      "user_id": "1449603507865784334",
+      "is_bot": false,
+      "content": "<@1473723374613041389> your issue has been resolved\nKindly check and update here.",
+      "embeds": [],
+      "created": 1773460213517,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "katheejafathima",
+      "user_id": "1473723374613041389",
+      "is_bot": false,
+      "content": "yes sir it is resolved. Thank you",
+      "embeds": [],
+      "created": 1773460242660,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1473723374613041389>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773460312175,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773460312534,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773462263534,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0426",
+    "id": "1481930725216358400"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 25
+}

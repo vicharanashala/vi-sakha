@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  # Main Application (React frontend + NestJS backend + Python sidecar)
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"  # UI & NestJS API
+      - "8001:8001"  # Python Embeddings API
+    env_file:
+      - .env
+    environment:
+      - NODE_ENV=production
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    depends_on:
+      - redis
+    restart: unless-stopped
+
+  # Redis for Caching
+  redis:
+    image: redis:7-alpine
+    container_name: vsakha-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - vsakha_redis_data:/data
+    restart: always
+
+volumes:
+  vsakha_redis_data:

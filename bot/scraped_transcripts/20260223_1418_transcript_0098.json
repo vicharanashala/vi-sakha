@@ -1,0 +1,382 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473353771168825509> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Camera isn't detecting face",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771434714424,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "screenshot/screen recording?",
+      "embeds": [],
+      "created": 1771434738819,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "vedratna_bura",
+      "user_id": "1473353771168825509",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771434757819,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "vedratna_bura",
+      "user_id": "1473353771168825509",
+      "is_bot": false,
+      "content": "i have been facing this issue since long time",
+      "embeds": [],
+      "created": 1771434766955,
+      "edited": 1771434782556
+    },
+    {
+      "index": 5,
+      "author": "vedratna_bura",
+      "user_id": "1473353771168825509",
+      "is_bot": false,
+      "content": "it always says only one face",
+      "embeds": [],
+      "created": 1771434801090,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "vedratna_bura",
+      "user_id": "1473353771168825509",
+      "is_bot": false,
+      "content": "tried comet , chrome \n\nnone works for me",
+      "embeds": [],
+      "created": 1771434812259,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "vedratna_bura",
+      "user_id": "1473353771168825509",
+      "is_bot": false,
+      "content": "camera works on other sites for interviews & all , idk whts the issue with ViBe",
+      "embeds": [],
+      "created": 1771434839030,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "ummm, make sure that camera doesnt captures shadow, remove glasses if you're wearing them",
+      "embeds": [],
+      "created": 1771437752582,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "vedratna_bura",
+      "user_id": "1473353771168825509",
+      "is_bot": false,
+      "content": "how would i see the screen then 😭",
+      "embeds": [],
+      "created": 1771439748531,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Just check if you are sitting under proper lighting. \nAnd there is no background noise.",
+      "embeds": [],
+      "created": 1771472534624,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "adityabmv",
+      "user_id": "647093625594839050",
+      "is_bot": false,
+      "content": "<@1473353771168825509> \nDont worry, glasses are usually not a problem.\nCould you share an image of what your camera view looks like from the portal ?\nThis can help us better understand the error and resolve it for you",
+      "embeds": [],
+      "created": 1771518160816,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "vedratna_bura",
+      "user_id": "1473353771168825509",
+      "is_bot": false,
+      "content": "tried every single possible way , its the camera issue I feel",
+      "embeds": [],
+      "created": 1771520466730,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "vedratna_bura",
+      "user_id": "1473353771168825509",
+      "is_bot": false,
+      "content": "",
+      "embeds": [],
+      "created": 1771520838911,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "vedratna_bura",
+      "user_id": "1473353771168825509",
+      "is_bot": false,
+      "content": "i have been facing this issue since many weeks , prev i joined coder's high batch - because of this issue I couldn't complete the course.\n\nI thought its issue from your side,turns out to be mine i.e camera prolly",
+      "embeds": [],
+      "created": 1771520940512,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "adityabmv",
+      "user_id": "647093625594839050",
+      "is_bot": false,
+      "content": "Could you have the lighting exactly in front of you? \nSo that your face is fully lit, with no shadows.\nThe shadows can sometimes lead to such issues.",
+      "embeds": [],
+      "created": 1771521120869,
+      "edited": 1771521143507
+    },
+    {
+      "index": 16,
+      "author": "vedratna_bura",
+      "user_id": "1473353771168825509",
+      "is_bot": false,
+      "content": "Umm tried it ,same error",
+      "embeds": [],
+      "created": 1771521240386,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "vedratna_bura",
+      "user_id": "1473353771168825509",
+      "is_bot": false,
+      "content": "any solution like adding virtual camera or something like it?",
+      "embeds": [],
+      "created": 1771521261479,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "vedratna_bura",
+      "user_id": "1473353771168825509",
+      "is_bot": false,
+      "content": "hey folks !\n\nCan anyone of you drop message in announcements that orientation may happen soon & etc, as everyone is concerned about not getting emails about the orientation of Aksians batch.",
+      "embeds": [],
+      "created": 1771615252466,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Sure, you'll be receiving announcements once the sessions are scheduled.",
+      "embeds": [],
+      "created": 1771645426546,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@666826791016595456> <@1469178567551090933> <@1366708005483053076> Please look into this issue.",
+      "embeds": [],
+      "created": 1771645505726,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Sure, looking into it.",
+      "embeds": [],
+      "created": 1771650998350,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473353771168825509> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1771745946108,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "vedratna_bura",
+      "user_id": "1473353771168825509",
+      "is_bot": false,
+      "content": "Not yet , tried Droid virtual camera but its still giving same error - Only once face \nWill try other virtual cams & let you know if it works.",
+      "embeds": [],
+      "created": 1771752932932,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1220060098643230811> \nKindly look into this issue.",
+      "embeds": [],
+      "created": 1771753152181,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "abiramk0107",
+      "user_id": "666826791016595456",
+      "is_bot": false,
+      "content": "<@1473353771168825509> Are you still facing the same issue ? \nKindly ensure you are seated in proper lighting and maintain an appropriate distance from the laptop. In most cases, this should help resolve the issue.",
+      "embeds": [],
+      "created": 1771757354835,
+      "edited": null
+    },
+    {
+      "index": 26,
+      "author": "vedratna_bura",
+      "user_id": "1473353771168825509",
+      "is_bot": false,
+      "content": "I have tried everything at this point, hence using my friends laptop as of now for doing the course.",
+      "embeds": [],
+      "created": 1771771090970,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473353771168825509> \nIs it working on your friends laptop but not on your laptop?\nCan you try updating your chrome browser or see if there is additional update pending for your laptop, Or check if any chrome extension which can become a hindrance to the software working?",
+      "embeds": [],
+      "created": 1771779827487,
+      "edited": null
+    },
+    {
+      "index": 28,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473353771168825509> \nHave you checked these points?\nIs your issue resolved?",
+      "embeds": [],
+      "created": 1771825172628,
+      "edited": null
+    },
+    {
+      "index": 29,
+      "author": "vedratna_bura",
+      "user_id": "1473353771168825509",
+      "is_bot": false,
+      "content": "Its working well on my friends laptop \nthe issue is my laptop's camera so I need to get it checked once",
+      "embeds": [],
+      "created": 1771851836078,
+      "edited": null
+    },
+    {
+      "index": 30,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473353771168825509> \nAs your issue has been resolved can we close this ticket?",
+      "embeds": [],
+      "created": 1771856252760,
+      "edited": null
+    },
+    {
+      "index": 31,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Ticket.",
+      "embeds": [],
+      "created": 1771856304179,
+      "edited": null
+    },
+    {
+      "index": 32,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771856312962,
+      "edited": null
+    },
+    {
+      "index": 33,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771856313586,
+      "edited": null
+    },
+    {
+      "index": 34,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771856316282,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0098",
+    "id": "1473728746463957012"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 34
+}

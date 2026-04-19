@@ -1,0 +1,212 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1455186808492265650> Welcome, the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Linked Post Activity HP Deduction",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1770566841854,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "vd28_20418",
+      "user_id": "1455186808492265650",
+      "is_bot": false,
+      "content": "I had completed the activity on around January 29 or 30 and had submitted the form 2 times before and after deadline changed, but i still received -5% though i had re-submitted the form before February 6.\nHere's the link to confirm:\nhttps://www.linkedin.com/posts/varima-dudeja-a925972aa_iitropar-virtualinternship-learningbydoing-share-7422699975148617728-q_7E?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEp7Kk4B4EG8B4nhg5O-ebhkWGqpYydJFWk",
+      "embeds": [
+        {
+          "title": "#iitropar #virtualinternship #learningbydoing #studentdeveloper | V...",
+          "description": "Week 1 of my Virtual Internship with IIT Ropar has been a great start to the journey 🚀\nI’ve begun learning JavaScript and TypeScript, focusing on understanding core concepts and building a strong foundation. The experience so far has been engaging and motivating, pushing me to think logically and write cleaner, more structured code.\nLooking...",
+          "url": "https://www.linkedin.com/posts/varima-dudeja-a925972aa_iitropar-virtualinternship-learningbydoing-share-7422699975148617728-q_7E?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEp7Kk4B4EG8B4nhg5O-ebhkWGqpYydJFWk",
+          "thumbnail": {
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQETazBZJDZg2g/feedshare-shrink_800/B56ZwK6SwdJ0Ak-/0/1769709579836?e=2147483647&v=beta&t=MfSZx5bPxjW__N2qJ9uhkHVAnZ85uxsWNmdvELlPosI"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1770567005161,
+      "edited": 1770567162622
+    },
+    {
+      "index": 3,
+      "author": "yazdan_irfan",
+      "user_id": "761846131679297546",
+      "is_bot": false,
+      "content": "Please mention your cohort and other details for us to look into it",
+      "embeds": [],
+      "created": 1770621015913,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "koder_kartik",
+      "user_id": "1302535858519539792",
+      "is_bot": false,
+      "content": "Can you please tell the date when you filled the activity completion google form.",
+      "embeds": [],
+      "created": 1770622992177,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "vd28_20418",
+      "user_id": "1455186808492265650",
+      "is_bot": false,
+      "content": "I am from Dijkstrians Cohort 2.\nI had filled the form on Februray 4.",
+      "embeds": [],
+      "created": 1770625949052,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "will look after it!",
+      "embeds": [],
+      "created": 1770649074909,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "|| <@1293270010537578575>  ||",
+      "embeds": [],
+      "created": 1770649102299,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "imsakshivk",
+      "user_id": "1293270010537578575",
+      "is_bot": false,
+      "content": "Have you used the same emails that is on vibe to submit the activity form.",
+      "embeds": [],
+      "created": 1770697846360,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "imsakshivk",
+      "user_id": "1293270010537578575",
+      "is_bot": false,
+      "content": "If no please let us know the email you have used to fill the activity form.",
+      "embeds": [],
+      "created": 1770697877428,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "imsakshivk",
+      "user_id": "1293270010537578575",
+      "is_bot": false,
+      "content": "Your mail is different, I have manually updated the data, also your HP was recalculated because you have got the attendance HP 10% 3 times so it is now all corrected.",
+      "embeds": [],
+      "created": 1770698170036,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "<@1455186808492265650>",
+      "embeds": [],
+      "created": 1770699377978,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "vd28_20418",
+      "user_id": "1455186808492265650",
+      "is_bot": false,
+      "content": "Okay Mam, Thank you so much\nI couldn't reply earlier since i am unwell.\nI also wanted to confirm one thing that my HP fell from 150 to 142 and then 137, so is it because of the extra attendance HP or because of the slot booking?",
+      "embeds": [],
+      "created": 1770828098294,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1455186808492265650> \nAs discussed in the last stand-up meeting, there was a technical issue in the dashboard due to which an additional 30% HP was reflected for everyone. This issue has now been corrected, and as a result, you may notice a reduction in the displayed HP.\n\nWe apologize for the inconvenience being caused. We appreciate your understanding.\n\nI hope your issue has been resolved now.",
+      "embeds": [],
+      "created": 1771414592694,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1359148118444343517>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771419384136,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771419384675,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771419386562,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0020",
+    "id": "1470088625009066117"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 16
+}

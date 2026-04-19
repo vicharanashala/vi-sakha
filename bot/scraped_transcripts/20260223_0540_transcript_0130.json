@@ -1,0 +1,242 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1470441864682405949> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Regarding health point",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771604192311,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "akashmukherjee0837",
+      "user_id": "1470441864682405949",
+      "is_bot": false,
+      "content": "Good evening Sir/ Madam \nIn the previous week i upload 10 case studies and yesterday i upload 8 case studies \nBut till In case study 2 I get -5 % hp",
+      "embeds": [],
+      "created": 1771604277024,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1470441864682405949> Which mail ID did you use to submit?",
+      "embeds": [],
+      "created": 1771605048416,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "akashmukherjee0837",
+      "user_id": "1470441864682405949",
+      "is_bot": false,
+      "content": "Same id which was linked with my intership program",
+      "embeds": [],
+      "created": 1771605083351,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "akashmukherjee0837",
+      "user_id": "1470441864682405949",
+      "is_bot": false,
+      "content": "mukherjeeakash2004@gmail.com",
+      "embeds": [],
+      "created": 1771605087869,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Do not worry, it will be updated. But please make sure that you submit 1 hour before deadline.",
+      "embeds": [],
+      "created": 1771605148056,
+      "edited": 1771605161032
+    },
+    {
+      "index": 7,
+      "author": "akashmukherjee0837",
+      "user_id": "1470441864682405949",
+      "is_bot": false,
+      "content": "Yes sir \nSubmit at 10 pm",
+      "embeds": [],
+      "created": 1771621021686,
+      "edited": 1771621034608
+    },
+    {
+      "index": 8,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1470441864682405949> please mention your cohort name.",
+      "embeds": [],
+      "created": 1771645299569,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "akashmukherjee0837",
+      "user_id": "1470441864682405949",
+      "is_bot": false,
+      "content": "Good morning sir \nMy Cohort name is Euclideans",
+      "embeds": [],
+      "created": 1771646345607,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1470441864682405949> \nWe have escalated your issue to the concerned team.",
+      "embeds": [],
+      "created": 1771746248225,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "akashmukherjee0837",
+      "user_id": "1470441864682405949",
+      "is_bot": false,
+      "content": "Thank you mam 😊",
+      "embeds": [],
+      "created": 1771746271154,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "akashmukherjee0837",
+      "user_id": "1470441864682405949",
+      "is_bot": false,
+      "content": "<@836880971017748512> sir please checke the hp for completing 100% vibe\nBut till not it is -10% hp",
+      "embeds": [],
+      "created": 1771761294103,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1470441864682405949> \nWe have escalated your query. \nIt will take sometime to update the HP and get it reflected on the dashboard. \nWe apologize for the inconvenience caused.",
+      "embeds": [],
+      "created": 1771779887371,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "akashmukherjee0837",
+      "user_id": "1470441864682405949",
+      "is_bot": false,
+      "content": "Ok\nThank you mam for your concern 😊",
+      "embeds": [],
+      "created": 1771779938068,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1470441864682405949> Is the issue resolved?  Please do check now.",
+      "embeds": [],
+      "created": 1771824287539,
+      "edited": 1771824296745
+    },
+    {
+      "index": 16,
+      "author": "akashmukherjee0837",
+      "user_id": "1470441864682405949",
+      "is_bot": false,
+      "content": "Yes sir\nThank you for your concern ☺️🙏",
+      "embeds": [],
+      "created": 1771824668535,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved we will be closing this ticket.",
+      "embeds": [],
+      "created": 1771825240482,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771825248905,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771825249383,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771825251927,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0130",
+    "id": "1474439589123854659"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 20
+}

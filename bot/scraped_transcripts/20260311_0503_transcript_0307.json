@@ -1,0 +1,262 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473918606826930297> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I have registered for Programming in Java. Can I also take this internship under AKSians, or is there any other cohort available for those who have enrolled in Programming in Java?",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772387173845,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "riyamehtaatwork",
+      "user_id": "1469178567551090933",
+      "is_bot": false,
+      "content": "Hi <@1473918606826930297> \nThe concerned team will reach out to you soon regarding your query.\nCC: <@956180961832362014> Ma'am",
+      "embeds": [],
+      "created": 1772423671406,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473918606826930297> \nWe have escalated your issue.",
+      "embeds": [],
+      "created": 1772440754839,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "swatimuttannavar",
+      "user_id": "1473918606826930297",
+      "is_bot": false,
+      "content": "Thank you for the update, Jinal Ma'am. I will wait to hear from the team.",
+      "embeds": [],
+      "created": 1772442785746,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "swatimuttannavar",
+      "user_id": "1473918606826930297",
+      "is_bot": false,
+      "content": "Ma’am, I still haven’t received any updates from the team. Within these 7 days, I have also completed 25% of the course. Could you please confirm whether students who have registered for Programming in Java are eligible or not?\n\nPlease let me know clearly, Ma’am. If I am eligible, I will be more motivated to continue further. Also, I have not yet received the offer letter. Kindly look into this matter, Ma’am.",
+      "embeds": [],
+      "created": 1772899465377,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473918606826930297> are you a part of both RSAians and AKSians?",
+      "embeds": [],
+      "created": 1772899926186,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473918606826930297> Please note that it is required registration for examination in any of Prof. Sudarshan Iyengar's NPTEL Course is the eligibility criteria to get the certificate of completion.",
+      "embeds": [],
+      "created": 1772900057671,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "swatimuttannavar",
+      "user_id": "1473918606826930297",
+      "is_bot": false,
+      "content": "Sir, I have registered for the Programming in Java course. I am not sure whether this course is under Prof. Sudarshan Sir or not. I have also enrolled in The Joy of Computing Using Python, but I have not registered for the exam for that course. I have applied for the exam only for Programming in Java.",
+      "embeds": [],
+      "created": 1772900307975,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473918606826930297> As mentioned, the registration for the examination for a NPTEL course is mandatory for eligibility to receive certificate of completion.",
+      "embeds": [],
+      "created": 1772947170064,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "swatimuttannavar",
+      "user_id": "1473918606826930297",
+      "is_bot": false,
+      "content": "Is Programming in Java okay even if it is not under Sudarshan sir? Because I have registered for the Java exam.",
+      "embeds": [],
+      "created": 1772953340795,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Unfortunately no",
+      "embeds": [],
+      "created": 1772960820704,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473918606826930297> is the issue resolved? can we close the ticket?",
+      "embeds": [],
+      "created": 1773025582232,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "swatimuttannavar",
+      "user_id": "1473918606826930297",
+      "is_bot": false,
+      "content": "Sir, is there any other cohort available for students who have enrolled in the Programming in Java course?",
+      "embeds": [],
+      "created": 1773025720215,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473918606826930297> There will be prior announcements if there is a new cohort inauguration on the previously mentioned channels.",
+      "embeds": [],
+      "created": 1773026460861,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473918606826930297> \nWe hope your doubt is cleared and your issue has been resolved?",
+      "embeds": [],
+      "created": 1773035833713,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473918606826930297> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1773119236590,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473918606826930297> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1773202468973,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473918606826930297> \nAs you are not replying to the messages we will be assuming that your issue has been resolved and will be closing this ticket. \nIf your issue still persists you may open a new ticket. \nThank you for your support and understanding.",
+      "embeds": [],
+      "created": 1773205381143,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "CC: <@836880971017748512>",
+      "embeds": [],
+      "created": 1773205388566,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773205425829,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773205426251,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773205429818,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0307",
+    "id": "1477723651792048230"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 22
+}

@@ -1,0 +1,324 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1360676047162704196> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Name not showing in endorsment form, even though i have hp more than base",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1773494393160,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1360676047162704196> \nDid you missed any milestone?",
+      "embeds": [],
+      "created": 1773501792551,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "om04715",
+      "user_id": "1360676047162704196",
+      "is_bot": false,
+      "content": "No mam in my knowledge I haven't missed anytime",
+      "embeds": [],
+      "created": 1773504017497,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "om04715",
+      "user_id": "1360676047162704196",
+      "is_bot": false,
+      "content": "can you please check it out",
+      "embeds": [],
+      "created": 1773508607021,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1360676047162704196> \nWe are looking into it. \nWe have escalated your issue kindly wait for the update.",
+      "embeds": [],
+      "created": 1773559626160,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "om04715",
+      "user_id": "1360676047162704196",
+      "is_bot": false,
+      "content": "Mam, what's the update , should I give viva since deadline is approaching ?",
+      "embeds": [],
+      "created": 1773571780827,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "om04715",
+      "user_id": "1360676047162704196",
+      "is_bot": false,
+      "content": "Is there any update ?",
+      "embeds": [],
+      "created": 1773582898162,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1360676047162704196> \nThe team knows about your issue do not worry.",
+      "embeds": [],
+      "created": 1773632297020,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "om04715",
+      "user_id": "1360676047162704196",
+      "is_bot": false,
+      "content": "Mam I've given viva but haven't got endorsement.",
+      "embeds": [],
+      "created": 1773637837569,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "You may continue with the endorsement network give your viva to someone else and try getting endorsed.",
+      "embeds": [],
+      "created": 1773638055931,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "om04715",
+      "user_id": "1360676047162704196",
+      "is_bot": false,
+      "content": "I gave my viva yesterday since the deadline was approaching. However, I have not received the endorsement yet because my name is still not listed in the endorsement Google Form.",
+      "embeds": [],
+      "created": 1773638249361,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1360676047162704196> \nKindly check now for your name on the google form.",
+      "embeds": [],
+      "created": 1773719941979,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "om04715",
+      "user_id": "1360676047162704196",
+      "is_bot": false,
+      "content": "Hello Ma’am, I checked the Google Form again, but my name is still not appearing there.",
+      "embeds": [],
+      "created": 1773720363130,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1360676047162704196> \nThank you for updating Hariom. \nWe will update the team for the same. \nDo not worry.",
+      "embeds": [],
+      "created": 1773721279175,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "om04715",
+      "user_id": "1360676047162704196",
+      "is_bot": false,
+      "content": "Thank you ma'am.",
+      "embeds": [],
+      "created": 1773722705231,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1360676047162704196> \nKindly check once now.",
+      "embeds": [],
+      "created": 1773808890793,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "om04715",
+      "user_id": "1360676047162704196",
+      "is_bot": false,
+      "content": "Yes, it has been updated now. Thank you.\nShould I give the viva again?",
+      "embeds": [],
+      "created": 1773809223101,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1360676047162704196> \nYou can coordinate accordingly with the person who took your viva. \nIf they want then you should else you all can take that decision on your own.",
+      "embeds": [],
+      "created": 1773809660271,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "om04715",
+      "user_id": "1360676047162704196",
+      "is_bot": false,
+      "content": "Thank you for your support and advice. I really appreciate it.",
+      "embeds": [],
+      "created": 1773809772265,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Now can we close this ticket. <@1360676047162704196>",
+      "embeds": [],
+      "created": 1773809907702,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "om04715",
+      "user_id": "1360676047162704196",
+      "is_bot": false,
+      "content": "Yes, we can close the ticket . Thank you.",
+      "embeds": [],
+      "created": 1773809987065,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1360676047162704196>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773810010973,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@956180961832362014>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1773810410135,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "The issue has been resolved hence closing the ticket.",
+      "embeds": [],
+      "created": 1773810423388,
+      "edited": null
+    },
+    {
+      "index": 25,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "Channel being renamed too quickly, Timeout: 3m, 0s - Skipping",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773810430736,
+      "edited": null
+    },
+    {
+      "index": 26,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773810431287,
+      "edited": null
+    },
+    {
+      "index": 27,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773810433532,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "ticket-0435",
+    "id": "1482367665552101487"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 27
+}

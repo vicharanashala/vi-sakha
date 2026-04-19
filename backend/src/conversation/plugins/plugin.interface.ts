@@ -17,6 +17,8 @@ export interface NormalizedMessage {
   text: string;
   author?: string;
   timestamp?: string;
+  type?: 'message' | 'ticket_reason';
+  attachments?: string[];
 }
 
 export interface NormalizedConversation {
@@ -28,6 +30,10 @@ export interface NormalizedConversation {
   confidence?: number | null;
   last_message_preview?: string;
   messages: NormalizedMessage[];
+  mainReason?: string;
+  registeredEmail?: string;
+  cohortName?: string;
+  status?: string;
 }
 
 export interface ConversationPlugin {

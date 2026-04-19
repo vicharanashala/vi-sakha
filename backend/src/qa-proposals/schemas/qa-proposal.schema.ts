@@ -9,6 +9,17 @@ export enum ProposalStatus {
   REJECTED = 'rejected',
 }
 
+export class UserAttribution {
+  @Prop({ required: true })
+  userId!: string;
+
+  @Prop({ required: true })
+  name!: string;
+
+  @Prop({ required: true })
+  role!: string;
+}
+
 @Schema({ timestamps: true, collection: 'qa_proposals' })
 export class QaProposal {
   @Prop({ required: true })
@@ -17,26 +28,38 @@ export class QaProposal {
   @Prop({ required: true })
   answer!: string;
 
-  @Prop({ required: true, default: 'LabMember' })
-  source!: string;
-
   @Prop({ required: true, enum: ProposalStatus, default: ProposalStatus.PENDING })
   status!: ProposalStatus;
 
   @Prop()
-  title?: string; // For frontend display only
+  title?: string;
 
-  @Prop()
-  submittedBy?: string; // Future: user ID
+  // ── Attribution ──────────────────────────────────────────────────────────
 
-  @Prop()
-  reviewedBy?: string; // Future: admin who approved/rejected
+  /** Who proposed this Q&A pair (populated from auth context). */
+  @Prop({ type: Object })
+  proposedBy?: UserAttribution;
+
+  /** Who approved / rejected this proposal (populated on review). */
+  @Prop({ type: Object })
+  reviewedBy?: UserAttribution;
 
   @Prop()
   reviewedAt?: Date;
 
   @Prop()
   rejectionReason?: string;
+
+  // ── Legacy ───────────────────────────────────────────────────────────────
+  // Kept for backward compatibility with older documents; no longer written.
+
+  @Prop()
+  source?: string;
+
+  @Prop()
+  submittedBy?: string;
+
+  // ── Timestamps (managed by Mongoose) ─────────────────────────────────────
 
   @Prop()
   createdAt?: Date;
@@ -49,6 +72,5 @@ export const QaProposalSchema = SchemaFactory.createForClass(QaProposal);
 
 // Indexes
 QaProposalSchema.index({ status: 1 });
-QaProposalSchema.index({ source: 1 });
-QaProposalSchema.index({ submittedBy: 1 });
+QaProposalSchema.index({ 'proposedBy.userId': 1 });
 QaProposalSchema.index({ question: 'text', answer: 'text' });

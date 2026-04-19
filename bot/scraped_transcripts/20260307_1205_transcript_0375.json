@@ -1,0 +1,184 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1380932821975175239> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Hello Support Team,  I completed my case study before the 5th March deadline and tried to upload it around 11:30 PM, but the portal showed a \"Server Not Responding\" error. Because of this technical issue, I couldn't submit it before the dead",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772737182155,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "siri_04666",
+      "user_id": "1380932821975175239",
+      "is_bot": false,
+      "content": "I am writing regarding the case study submission. The deadline mentioned was 5th March, and I completed all my work before the deadline.\nHowever, when I tried to upload my case study at around 11:30 PM on 5th March, the portal showed a \"Server Not Responding\" error and the submission could not be completed. I attempted multiple times, but the issue persisted.\nBecause of this technical problem, I was unable to submit before the deadline even though my work was ready.\nI kindly request you to please look into this issue and allow me an opportunity to submit my completed case studies. I can also provide screenshots or the completed file if required.\nThank you for your support and understanding.",
+      "embeds": [],
+      "created": 1772737271398,
+      "edited": 1772737363296
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1380932821975175239> please note that this might be a network issue from your side as we have been receiving submissions. Please try to submit via other browsers as soon as possible",
+      "embeds": [],
+      "created": 1772760998476,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1380932821975175239> \nKindly check your account storage.",
+      "embeds": [],
+      "created": 1772769683111,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "siri_04666",
+      "user_id": "1380932821975175239",
+      "is_bot": false,
+      "content": "Sure, Thank you for the assistance.",
+      "embeds": [],
+      "created": 1772807694568,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1380932821975175239>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772809578522,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@956180961832362014>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1772814943077,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1380932821975175239> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772814956891,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "siri_04666",
+      "user_id": "1380932821975175239",
+      "is_bot": false,
+      "content": "Yes mam, Thank you for resolving my query and I submitted files by uploading them to drive but before I tried to upload them from my laptop directly.",
+      "embeds": [],
+      "created": 1772884979802,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Ticket.",
+      "embeds": [],
+      "created": 1772885090321,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772885097234,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772885097732,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772885100081,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0375",
+    "id": "1479191692266700914"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 13
+}

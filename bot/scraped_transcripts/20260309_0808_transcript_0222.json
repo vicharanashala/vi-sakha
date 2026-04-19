@@ -1,0 +1,162 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473362172003487866> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Actually I completed Joc last sem and enrolled in Deep learning for this sem in nptel  and didn't pay exam fee. Am I eligible to continue this vintership and receive certificate?",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771943791550,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473362172003487866> \nWe have escalated your issue and will be looking into this. \nThere will be an official announcement regarding this as many students are facing an issue. \nWe would request you to continue your ViBe learning with us. \nThank you for your patience, support and understanding.",
+      "embeds": [],
+      "created": 1771944182242,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473362172003487866> \nWhich cohort you belong to ?",
+      "embeds": [],
+      "created": 1772634655222,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "asireddylokeshreddy",
+      "user_id": "1473362172003487866",
+      "is_bot": false,
+      "content": "Aksians",
+      "embeds": [],
+      "created": 1772635786368,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Ok.",
+      "embeds": [],
+      "created": 1772638624621,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473362172003487866> \nWe have escalated your issue. As many students have the same issue so we will finalise and update you on the same. \nThere will be an official announcement for the same.",
+      "embeds": [],
+      "created": 1773035380808,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "I hope this has cleared your doubt and we can close this ticket now?",
+      "embeds": [],
+      "created": 1773035790719,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473362172003487866> \nCan we close this ticket now?",
+      "embeds": [],
+      "created": 1773041791864,
+      "edited": 1773041802253
+    },
+    {
+      "index": 9,
+      "author": "asireddylokeshreddy",
+      "user_id": "1473362172003487866",
+      "is_bot": false,
+      "content": "Yes",
+      "embeds": [],
+      "created": 1773043113092,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773043718591,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773043719125,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773043721342,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0222",
+    "id": "1475863970257571943"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 12
+}

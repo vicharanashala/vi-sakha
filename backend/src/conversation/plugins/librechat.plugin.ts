@@ -258,16 +258,40 @@ export class LibreChatPlugin implements ConversationPlugin {
     return [];
   }
 
+  private extractText(message: MongoDoc): string {
+    // User messages: direct text field
+    if (message.text) {
+      return this.asString(message.text) ?? '';
+    }
+
+    // Assistant messages: content array with typed blocks
+    if (Array.isArray(message.content)) {
+      const textParts = (message.content as Array<unknown>)
+        .filter((item): item is { type: string; text: unknown } =>
+          typeof item === 'object' && item !== null && (item as Record<string, unknown>)['type'] === 'text',
+        )
+        .map((item) => this.asString(item.text))
+        .filter((t): t is string => t !== null);
+
+      return textParts.join('\n').trim();
+    }
+
+    return '';
+  }
+
   private normalizeMessage(message: MongoDoc): NormalizedMessage {
     const sender = this.asString(message.sender)?.toLowerCase();
-    const roleFromSender = sender === 'user' ? 'user' : sender === 'assistant' ? 'assistant' : null;
+    const roleFromSender =
+      sender === 'user' ? 'user' :
+      sender === 'assistant' || sender === 'ajrasakha' ? 'assistant' :
+      null;
 
     const roleField = this.asString(message.role)?.toLowerCase();
     const roleFromRoleField = roleField === 'user' ? 'user' : roleField === 'assistant' ? 'assistant' : null;
 
     return {
       role: roleFromSender ?? roleFromRoleField ?? 'assistant',
-      text: this.asString(message.text) ?? this.asString(message.content) ?? '',
+      text: this.extractText(message),
       timestamp: this.toIsoString(message.createdAt),
     };
   }
@@ -292,11 +316,7 @@ export class LibreChatPlugin implements ConversationPlugin {
 
       if (count > 0) {
         const lastMessage = last[0] ?? {};
-        const lastText =
-          this.asString(lastMessage.text) ??
-          this.asString(lastMessage.content) ??
-          '';
-
+        const lastText = this.extractText(lastMessage);
         return { count, lastText };
       }
     }
@@ -310,11 +330,7 @@ export class LibreChatPlugin implements ConversationPlugin {
 
       if (messages.length > 0) {
         const lastMessage = messages[messages.length - 1];
-        const lastText =
-          this.asString(lastMessage.text) ??
-          this.asString(lastMessage.content) ??
-          '';
-
+        const lastText = this.extractText(lastMessage);
         return { count: messages.length, lastText };
       }
     }

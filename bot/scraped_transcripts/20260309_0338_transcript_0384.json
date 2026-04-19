@@ -1,0 +1,276 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1437404621654982796> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Why I'm not getting the offer letter? Is it affect my studies in this program?",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772878532304,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1437404621654982796> please refer to FAQ 5.4",
+      "embeds": [],
+      "created": 1772878586616,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1437404621654982796> The team is working on it and announcement will be made soon in this regard.",
+      "embeds": [],
+      "created": 1772878627879,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "manas_pandey",
+      "user_id": "1437404621654982796",
+      "is_bot": false,
+      "content": "Ok",
+      "embeds": [],
+      "created": 1772878707966,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "manas_pandey",
+      "user_id": "1437404621654982796",
+      "is_bot": false,
+      "content": "Should I continue with my studies?",
+      "embeds": [],
+      "created": 1772878719046,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Yes proceed.",
+      "embeds": [],
+      "created": 1772878732843,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "manas_pandey",
+      "user_id": "1437404621654982796",
+      "is_bot": false,
+      "content": "Ok thanks",
+      "embeds": [],
+      "created": 1772878751776,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1437404621654982796> please be in sync with the milestones also",
+      "embeds": [],
+      "created": 1772878755373,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "manas_pandey",
+      "user_id": "1437404621654982796",
+      "is_bot": false,
+      "content": "Where to see the milestones?",
+      "embeds": [],
+      "created": 1772878777941,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Please refer to the Vinternship Home Page and it is mentioned there. \n\nhttps://sudarshansudarshan.github.io/vinternship/milestones/",
+      "embeds": [
+        {
+          "title": "Milestones & Completion Requirements",
+          "description": "Vinternship - A comprehensive full-stack development internship program covering the MERN stack and modern web technologies. Master TypeScript, React, Express.js, and MongoDB through hands-on case studies.",
+          "url": "https://sudarshansudarshan.github.io/vinternship/milestones/",
+          "fields": []
+        }
+      ],
+      "created": 1772878853302,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1437404621654982796> https://sudarshansudarshan.github.io/vinternship/milestones/",
+      "embeds": [
+        {
+          "title": "Milestones & Completion Requirements",
+          "description": "Vinternship - A comprehensive full-stack development internship program covering the MERN stack and modern web technologies. Master TypeScript, React, Express.js, and MongoDB through hands-on case studies.",
+          "url": "https://sudarshansudarshan.github.io/vinternship/milestones/",
+          "fields": []
+        }
+      ],
+      "created": 1772878860991,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "manas_pandey",
+      "user_id": "1437404621654982796",
+      "is_bot": false,
+      "content": "Ok",
+      "embeds": [],
+      "created": 1772878869378,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "manas_pandey",
+      "user_id": "1437404621654982796",
+      "is_bot": false,
+      "content": "Can you please also tell me how can I see my health points",
+      "embeds": [],
+      "created": 1772878957244,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Please refer to the cohort specific dashboards",
+      "embeds": [],
+      "created": 1772882811656,
+      "edited": 1772882818189
+    },
+    {
+      "index": 15,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1437404621654982796> please mention your cohort name",
+      "embeds": [],
+      "created": 1772882919124,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "manas_pandey",
+      "user_id": "1437404621654982796",
+      "is_bot": false,
+      "content": "Askians",
+      "embeds": [],
+      "created": 1772883113042,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "https://sudarshansudarshan.github.io/vinternship//dashboard-aksians.html",
+      "embeds": [],
+      "created": 1772883131919,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1437404621654982796> is the issue resolved? can we close the ticket?",
+      "embeds": [],
+      "created": 1773025697656,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "manas_pandey",
+      "user_id": "1437404621654982796",
+      "is_bot": false,
+      "content": "Yes",
+      "embeds": [],
+      "created": 1773026561964,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773027509782,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773027510173,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773027513641,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0384",
+    "id": "1479784558865023110"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 22
+}

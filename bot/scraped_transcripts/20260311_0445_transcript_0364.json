@@ -1,0 +1,282 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@992791961746558996> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Hi! Currently, there is a lot of study and work pressure in my college. Soon, a technical fest is going to held from 9 March to 11 March and I am a volunteer from my department and after that mid-semester exams will start from 23 March to 28",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772720730596,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@992791961746558996> please elaborate on the issue faced and also mention your cohort name, mail id",
+      "embeds": [],
+      "created": 1772720789439,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "priyalparnami",
+      "user_id": "992791961746558996",
+      "is_bot": false,
+      "content": "<@836880971017748512> I just want to say that I need more time for completion of Vibe course due to upcoming technical fest and mid-semester exams in my college from 9 March.\nCohort Name- Priyal Parnami\nMail ID- priyalparnami01@gmail.com",
+      "embeds": [],
+      "created": 1772720902338,
+      "edited": 1772721159529
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Please mention your cohort name.",
+      "embeds": [],
+      "created": 1772721460683,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "priyalparnami",
+      "user_id": "992791961746558996",
+      "is_bot": false,
+      "content": "<@836880971017748512> Priyal Parnami",
+      "embeds": [],
+      "created": 1772722832814,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@992791961746558996> Not your name, the cohort name. Please share the ViBe course name you've registered or a screenshot of the same",
+      "embeds": [],
+      "created": 1772723083406,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "priyalparnami",
+      "user_id": "992791961746558996",
+      "is_bot": false,
+      "content": "<@836880971017748512> This is my course.",
+      "embeds": [],
+      "created": 1772723200688,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@992791961746558996> please note that your cohort name is AKSians",
+      "embeds": [],
+      "created": 1772723242573,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Regarding the issue, as it was mentioned in the onboarding itself, missing out milestones might lead to your discontinuation from the cohort. I understand that you have a commitment during the tenure, but do not worry, you can join in the later upcoming cohorts for which announcements will be circulated.",
+      "embeds": [],
+      "created": 1772723415253,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "priyalparnami",
+      "user_id": "992791961746558996",
+      "is_bot": false,
+      "content": "<@836880971017748512> Will there by any more internships like this during summer vacations?",
+      "embeds": [],
+      "created": 1772723653094,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@992791961746558996> Yes",
+      "embeds": [],
+      "created": 1772723700957,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "priyalparnami",
+      "user_id": "992791961746558996",
+      "is_bot": false,
+      "content": "<@836880971017748512> Where will we get updates regarding upcoming internships? And will it be available for people not enrolled in NPTEL course?",
+      "embeds": [],
+      "created": 1772723751794,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@992791961746558996> Do not worry, there will be opportunities",
+      "embeds": [],
+      "created": 1772723821928,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@992791961746558996> \nKindly follow our linkedin page for further updates.",
+      "embeds": [],
+      "created": 1772770273556,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "priyalparnami",
+      "user_id": "992791961746558996",
+      "is_bot": false,
+      "content": "<@956180961832362014> What is your LinkedIn ID?",
+      "embeds": [],
+      "created": 1772814505113,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "Search it on linkedin you will surely find me.",
+      "embeds": [],
+      "created": 1772814878032,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@992791961746558996> is the issue resolved? Can we close the tickets?",
+      "embeds": [],
+      "created": 1772860192097,
+      "edited": null
+    },
+    {
+      "index": 18,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@992791961746558996> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1773035862131,
+      "edited": null
+    },
+    {
+      "index": 19,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@992791961746558996> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1773119252151,
+      "edited": null
+    },
+    {
+      "index": 20,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@992791961746558996> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1773202481813,
+      "edited": null
+    },
+    {
+      "index": 21,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@992791961746558996> \nAs you are not replying so we will assuming the issue has been resolved and will be closing the ticket for the same. \nCC: <@836880971017748512>",
+      "embeds": [],
+      "created": 1773204228702,
+      "edited": null
+    },
+    {
+      "index": 22,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1773204306723,
+      "edited": null
+    },
+    {
+      "index": 23,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1773204307174,
+      "edited": null
+    },
+    {
+      "index": 24,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1773204309697,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0364",
+    "id": "1479122690332950621"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 24
+}

@@ -1,0 +1,142 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1472100194324709406> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Regarding Linkedin Posting and Activity 1",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1772110464346,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "shobhansarkar_68209",
+      "user_id": "1472100194324709406",
+      "is_bot": false,
+      "content": "Respected Sir / Madam, I read in site that Linkedin Posting is optional ..So, can I refrain from posting in Linkedin ? Also, Activity 1 is changing dp in discord into a professional one and I have done it .. So, can I fill the Activity completion form for this ( Activity 1 ) ?",
+      "embeds": [],
+      "created": 1772110681492,
+      "edited": 1772110737199
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "The activity might be optional but will help you out to raise some HP. \nYes you can fill the form for the activity you have completed.",
+      "embeds": [],
+      "created": 1772110819414,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "shobhansarkar_68209",
+      "user_id": "1472100194324709406",
+      "is_bot": false,
+      "content": "Okay Madam.. Thank you so much Madam..",
+      "embeds": [],
+      "created": 1772110863328,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "I hope your issue has been resolved?",
+      "embeds": [],
+      "created": 1772110921156,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "shobhansarkar_68209",
+      "user_id": "1472100194324709406",
+      "is_bot": false,
+      "content": "Yes yes Madam, it is resolved .. I went outside  so I could not see the message then.. Thank you so much Madam..",
+      "embeds": [],
+      "created": 1772114878789,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "As the issue has been resolved I will be closing the ticket now.",
+      "embeds": [],
+      "created": 1772124360213,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@956180961832362014>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772124366056,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772124366426,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772124368450,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0264",
+    "id": "1476563046989168651"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 10
+}

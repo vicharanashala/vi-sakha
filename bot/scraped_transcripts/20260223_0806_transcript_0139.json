@@ -1,0 +1,162 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1469222957061640204> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Hp did not revert . It was deducted due to the glitch of vibe stuck at 99.8 percent i revisisted the whole react module again which took me more than deadline but in response of mail i was told that your hp will be reverted but id didnt",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771659906157,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "mahesh_kumar_44",
+      "user_id": "1469222957061640204",
+      "is_bot": false,
+      "content": "As it took so much time to revisit the whole react module again it was not humanly possible to do so in just one day so it took me more than deadline \ni was told by support desk that your course will be considered completed on time and you will get your hp increased by 10 percent but rather it got deducted by 10 percent \nPlease revert my hp",
+      "embeds": [],
+      "created": 1771660252843,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1469222957061640204> do not worry, it will be reverted soon.\n\n<@1293270010537578575> mam, please look into it",
+      "embeds": [],
+      "created": 1771663502173,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "mahesh_kumar_44",
+      "user_id": "1469222957061640204",
+      "is_bot": false,
+      "content": "ok sir",
+      "embeds": [],
+      "created": 1771666387719,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1469222957061640204> \nWe have escalated your issue. \nYour HP will be reverted soon.",
+      "embeds": [],
+      "created": 1771745211285,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1469222957061640204> Is the issue resolved?",
+      "embeds": [],
+      "created": 1771823855620,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "mahesh_kumar_44",
+      "user_id": "1469222957061640204",
+      "is_bot": false,
+      "content": "Yes sir \nThank you very much",
+      "embeds": [],
+      "created": 1771833713396,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "mahesh_kumar_44",
+      "user_id": "1469222957061640204",
+      "is_bot": false,
+      "content": "<@836880971017748512>",
+      "embeds": [],
+      "created": 1771833722199,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Ticket.",
+      "embeds": [],
+      "created": 1771834006430,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771834013108,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771834013592,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771834016308,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0139",
+    "id": "1474673269389918258"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 12
+}

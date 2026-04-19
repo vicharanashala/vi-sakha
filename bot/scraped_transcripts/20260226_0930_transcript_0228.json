@@ -1,0 +1,162 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1412467045664030800> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : I am currently unable to complete 20% of the course due to back to back examinations until 25th February. My exams will conclude on 25th February, and I also have college and an exam tomorrow. If the ASKians could kindly permit an extension,",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771954519188,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "a0rous",
+      "user_id": "857556884750729217",
+      "is_bot": false,
+      "content": "<@956180961832362014> ma'am please look into this matter...",
+      "embeds": [],
+      "created": 1771955137518,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1412467045664030800> \nWith such commitments I would ask you to drop out from this cohort and join in the next cohort.",
+      "embeds": [],
+      "created": 1772001257961,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "honest_fawn_08892",
+      "user_id": "1412467045664030800",
+      "is_bot": false,
+      "content": "<@956180961832362014> \nMam, can you clarify the timings?",
+      "embeds": [],
+      "created": 1772006358570,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1412467045664030800> for what exactly?",
+      "embeds": [],
+      "created": 1772006750230,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "honest_fawn_08892",
+      "user_id": "1412467045664030800",
+      "is_bot": false,
+      "content": "<@956180961832362014> \nFor completing 20% of the course \nCan you specify the time?",
+      "embeds": [],
+      "created": 1772006781092,
+      "edited": 1772007106374
+    },
+    {
+      "index": 7,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1412467045664030800> 1 week form starting the ViBe course",
+      "embeds": [],
+      "created": 1772015521174,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1412467045664030800> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1772083986934,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "honest_fawn_08892",
+      "user_id": "1412467045664030800",
+      "is_bot": false,
+      "content": "Yes mam",
+      "embeds": [],
+      "created": 1772096733678,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1412467045664030800>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772096741608,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772096742092,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772098243671,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0228",
+    "id": "1475908966394626178"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 12
+}

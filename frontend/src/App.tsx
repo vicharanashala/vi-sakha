@@ -15,8 +15,13 @@ import { PricingCTA } from '@/components/sections/PricingCTA'
 import { useSectionScroll } from '@/hooks/useSectionScroll'
 import UniqueLoading from '@/components/ui/morph-loading'
 import Login from '@/pages/Login'
+import Register from '@/pages/Register'
+import AuthCallback from '@/pages/AuthCallback'
 import Dashboard from '@/pages/Dashboard'
 import LabMemberDashboard from '@/pages/LabMemberDashboard'
+import Settings from '@/pages/Settings'
+import ApiDocs from '@/pages/ApiDocs'
+import ProtectedRoute from '@/components/auth/ProtectedRoute'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -122,8 +127,40 @@ function App() {
     <Routes>
       <Route path="/" element={<LandingPage />} />
       <Route path="/login" element={<Login />} />
-      <Route path="/dashboard" element={<Dashboard />} />
-      <Route path="/labmember" element={<LabMemberDashboard />} />
+      <Route path="/register" element={<Register />} />
+      <Route path="/auth/callback" element={<AuthCallback />} />
+      <Route
+        path="/dashboard"
+        element={
+          <ProtectedRoute roles={['student']}>
+            <Dashboard />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/dashboard/settings"
+        element={
+          <ProtectedRoute roles={['student', 'lab_member', 'admin']}>
+            <Settings />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/labmember"
+        element={
+          <ProtectedRoute roles={['lab_member', 'admin']}>
+            <LabMemberDashboard />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/api-docs"
+        element={
+          <ProtectedRoute roles={['lab_member', 'admin']}>
+            <ApiDocs />
+          </ProtectedRoute>
+        }
+      />
     </Routes>
   )
 }

@@ -53,6 +53,12 @@ export class Conversation {
   @Prop()
   escalationReason?: string;
 
+  @Prop({ default: 'New Chat' })
+  title?: string;
+
+  @Prop({ enum: ['mobile', 'desktop', 'unknown'], default: 'unknown' })
+  deviceType?: 'mobile' | 'desktop' | 'unknown';
+
   @Prop()
   createdAt?: Date;
 

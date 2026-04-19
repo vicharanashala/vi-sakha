@@ -1,0 +1,219 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1374336877955645584> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : When im hit Announcemnt Follow Button It shoing You unable to follow , ask admins to give permission",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771347119191,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1359148118444343517> Please help.",
+      "embeds": [],
+      "created": 1771348332480,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "don't click on follow button <@1374336877955645584>",
+      "embeds": [],
+      "created": 1771353364140,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "prkharvndn",
+      "user_id": "1359148118444343517",
+      "is_bot": false,
+      "content": "let it be",
+      "embeds": [],
+      "created": 1771353366410,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "gowravamsandeepkumar",
+      "user_id": "1374336877955645584",
+      "is_bot": false,
+      "content": "Ok Sir ! Thank You",
+      "embeds": [],
+      "created": 1771353405714,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "gowravamsandeepkumar",
+      "user_id": "1374336877955645584",
+      "is_bot": false,
+      "content": "Sir One More doubt sir",
+      "embeds": [],
+      "created": 1771353412571,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "gowravamsandeepkumar",
+      "user_id": "1374336877955645584",
+      "is_bot": false,
+      "content": "Can I ask",
+      "embeds": [],
+      "created": 1771353417544,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1374336877955645584>  \nYes sure. \nGo Ahead.",
+      "embeds": [],
+      "created": 1771353807020,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1374336877955645584> \nKindly ask you doubt if any.",
+      "embeds": [],
+      "created": 1771416096340,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "gowravamsandeepkumar",
+      "user_id": "1374336877955645584",
+      "is_bot": false,
+      "content": "When we will receive Offer letters \n\nWhen this Intern Starts \n\nHow to finish it \n\nCan we receive certificate?",
+      "embeds": [],
+      "created": 1771431045382,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1374336877955645584> \nKindly refer our website for all the information. The link for the same is as follows: \nhttps://sudarshansudarshan.github.io/vinternship/",
+      "embeds": [
+        {
+          "title": "Welcome to Vinternship",
+          "description": "Vinternship - A comprehensive full-stack development internship program covering the MERN stack and modern web technologies. Master TypeScript, React, Express.js, and MongoDB through hands-on case studies.",
+          "url": "https://sudarshansudarshan.github.io/vinternship/",
+          "fields": []
+        }
+      ],
+      "created": 1771482210308,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1374336877955645584> \nIs your issue resolved?",
+      "embeds": [],
+      "created": 1771520438083,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "gowravamsandeepkumar",
+      "user_id": "1374336877955645584",
+      "is_bot": false,
+      "content": "Yes",
+      "embeds": [],
+      "created": 1771647734994,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "gowravamsandeepkumar",
+      "user_id": "1374336877955645584",
+      "is_bot": false,
+      "content": "Thank You",
+      "embeds": [],
+      "created": 1771647738368,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1374336877955645584>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771647746966,
+      "edited": null
+    },
+    {
+      "index": 16,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771647748145,
+      "edited": null
+    },
+    {
+      "index": 17,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771666541692,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0074",
+    "id": "1473361345629130793"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 17
+}

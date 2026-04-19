@@ -1,0 +1,204 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1474625251261546528> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Issue Regarding Vinternship Course Registration on NPTEL",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771990722768,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "gursimran_kaur10",
+      "user_id": "1474625251261546528",
+      "is_bot": false,
+      "content": "Respected Sir/Madam,\nI am facing an issue regarding the Vinternship course registration on the NPTEL portal. It is showing that I am already registered for the course. However, the course content is not visible, and the course is also not appearing in my list of enrolled courses.\nDue to this issue, I am unable to access the course materials. I kindly request you to please check and resolve this issue at the earliest.",
+      "embeds": [],
+      "created": 1771990830828,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@759435748721557514> <@1220060098643230811> Please look into the issue",
+      "embeds": [],
+      "created": 1771990904465,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "thirumalesh_33801",
+      "user_id": "1449603507865784334",
+      "is_bot": false,
+      "content": "<@1474625251261546528> your registration has been approved. You can see course in your dashboard.",
+      "embeds": [],
+      "created": 1771991368825,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "gursimran_kaur10",
+      "user_id": "1474625251261546528",
+      "is_bot": false,
+      "content": "Thanku sir",
+      "embeds": [],
+      "created": 1771991403225,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "thirumalesh_33801",
+      "user_id": "1449603507865784334",
+      "is_bot": false,
+      "content": "<@1474625251261546528>  close this ticket.",
+      "embeds": [],
+      "created": 1771991428550,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "gursimran_kaur10",
+      "user_id": "1474625251261546528",
+      "is_bot": false,
+      "content": "I would like to kindly confirm by which date I need to complete the required 20% of the course content.",
+      "embeds": [],
+      "created": 1771991463928,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1474625251261546528>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771991724332,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Opened by <@836880971017748512>",
+          "color": "#1ec45c",
+          "fields": []
+        }
+      ],
+      "created": 1771991879565,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1474625251261546528> A week's time form starting the ViBe course",
+      "embeds": [],
+      "created": 1771991909143,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "gursimran_kaur10",
+      "user_id": "1474625251261546528",
+      "is_bot": false,
+      "content": "Okk",
+      "embeds": [],
+      "created": 1771991932835,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Ticket",
+      "embeds": [],
+      "created": 1771992064012,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "Channel being renamed too quickly, Timeout: 4m, 12s - Skipping",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771992072146,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771992073325,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771992075784,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "ticket-0232",
+    "id": "1476060814602408036"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 15
+}

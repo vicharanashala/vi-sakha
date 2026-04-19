@@ -1,0 +1,182 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1473353399595438346> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : NPTEL, I've Enrolled for social networks but i didn't Register for the exam And i also finished like 25% in ViBe course at the time of this message So kindly give me a update on what to do? Ill continue my progression of my course in ViBe",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771858390416,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473353399595438346> \nI escalated your issue to the team. \nThere soon will be an official announcement on the announcements channel. \nThank you for your patience, understanding and support.",
+      "embeds": [],
+      "created": 1771915309874,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473353399595438346> \nTill the time there is no official announcement you may continue with your ViBe progress.",
+      "embeds": [],
+      "created": 1771940527711,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "yashwanthkumarc",
+      "user_id": "1473353399595438346",
+      "is_bot": false,
+      "content": "OK mam thank you for taking this to your kind notice",
+      "embeds": [],
+      "created": 1771942920886,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "yashwanthkumarc",
+      "user_id": "1473353399595438346",
+      "is_bot": false,
+      "content": "Will be contiuning the progress",
+      "embeds": [],
+      "created": 1771942931506,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473353399595438346> Please ensure that you have a professional DP and the Username",
+      "embeds": [],
+      "created": 1771943538492,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "yashwanthkumarc",
+      "user_id": "1473353399595438346",
+      "is_bot": false,
+      "content": "Ok sir done",
+      "embeds": [],
+      "created": 1772030061075,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1473353399595438346> Is your issue resolved? Shall I close the ticket?",
+      "embeds": [],
+      "created": 1772030908393,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "yashwanthkumarc",
+      "user_id": "1473353399595438346",
+      "is_bot": false,
+      "content": "Can you give me a update and close please!",
+      "embeds": [],
+      "created": 1772031913367,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1473353399595438346> \nYou may continue your learning on ViBe and complete the milestones till there is no official announcement.",
+      "embeds": [],
+      "created": 1772083686652,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "yashwanthkumarc",
+      "user_id": "1473353399595438346",
+      "is_bot": false,
+      "content": "Ok mam thank you",
+      "embeds": [],
+      "created": 1772083778614,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@1473353399595438346>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1772083794696,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1772083795162,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1772085625422,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0201",
+    "id": "1475505772627492884"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 14
+}

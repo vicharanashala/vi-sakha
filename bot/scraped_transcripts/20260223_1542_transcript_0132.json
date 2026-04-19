@@ -1,0 +1,192 @@
+{
+  "messages": [
+    {
+      "index": 1,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "<@1468961943397335235> Welcome, <@&1471887023374598390> the team will reach out to you shortly! \nClick on the close button to close this ticket only if your issue has been resolved!",
+      "embeds": [
+        {
+          "description": "Reason : Appeal to reconsider HP deduction of CS week 2(19.2.2026)",
+          "color": "#1ec45c",
+          "footer": {
+            "text": "TicketTool.xyz - Ticketing without clutter",
+            "iconURL": "https://tickettool.xyz/images/footer.png"
+          },
+          "fields": []
+        }
+      ],
+      "created": 1771607154421,
+      "edited": null
+    },
+    {
+      "index": 2,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1468961943397335235> Please elaborate on the issue.",
+      "embeds": [],
+      "created": 1771607185554,
+      "edited": null
+    },
+    {
+      "index": 3,
+      "author": "arnabacharya.",
+      "user_id": "1468961943397335235",
+      "is_bot": false,
+      "content": "Sir, I submitted Case Study no. 18 at 11:59, due to slow net speed the form finally submitted at 12:00. I understand that it crossed the deadline technically, but only by a few seconds at most. I would have completed my Case studies much before, but due to college mid semester exams I was struggling to find time. Sorry for the inconvenience",
+      "embeds": [],
+      "created": 1771607407112,
+      "edited": null
+    },
+    {
+      "index": 4,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1468961943397335235> please submit the case studies an hour prior to the deadline henceforth as the scripts are automated and might miss the entry.",
+      "embeds": [],
+      "created": 1771607504690,
+      "edited": null
+    },
+    {
+      "index": 5,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "<@1293270010537578575> mam, can this case be considered?",
+      "embeds": [],
+      "created": 1771607524229,
+      "edited": null
+    },
+    {
+      "index": 6,
+      "author": "arnabacharya.",
+      "user_id": "1468961943397335235",
+      "is_bot": false,
+      "content": "Sir, I assure you that I will. I apologize once again for the error.",
+      "embeds": [],
+      "created": 1771607667728,
+      "edited": null
+    },
+    {
+      "index": 7,
+      "author": "arnabacharya.",
+      "user_id": "1468961943397335235",
+      "is_bot": false,
+      "content": "Hi, just checking if my appeal ticket about the penalty is still being reviewed or if a decision has been made. If it’s rejected, I’ll close the ticket. Thank you.",
+      "embeds": [],
+      "created": 1771732257100,
+      "edited": null
+    },
+    {
+      "index": 8,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1468961943397335235> \nWhat is your cohort?",
+      "embeds": [],
+      "created": 1771746431418,
+      "edited": null
+    },
+    {
+      "index": 9,
+      "author": "arnabacharya.",
+      "user_id": "1468961943397335235",
+      "is_bot": false,
+      "content": "Euclideans",
+      "embeds": [],
+      "created": 1771749702967,
+      "edited": null
+    },
+    {
+      "index": 10,
+      "author": "jinalgupta.",
+      "user_id": "956180961832362014",
+      "is_bot": false,
+      "content": "<@1468961943397335235> \nYour HP's have been updated kindly look at it once. The dashboard may take some time to be updated. \nThank you so much for your patience and support. \nI hope your issue has been resolved now?",
+      "embeds": [],
+      "created": 1771856217803,
+      "edited": null
+    },
+    {
+      "index": 11,
+      "author": "arnabacharya.",
+      "user_id": "1468961943397335235",
+      "is_bot": false,
+      "content": "Thank you so much for the update. I really appreciate you taking the time to review the issue. Yes, the problem is resolved now.\nI’ll go ahead and close the ticket from my side. I’ll also make sure to be more careful with deadlines going forward.\nThanks again for your support.",
+      "embeds": [],
+      "created": 1771860029316,
+      "edited": null
+    },
+    {
+      "index": 12,
+      "author": "nitin_fighter1379",
+      "user_id": "836880971017748512",
+      "is_bot": false,
+      "content": "Closing the Ticket",
+      "embeds": [],
+      "created": 1771861350038,
+      "edited": null
+    },
+    {
+      "index": 13,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Ticket Closed by <@836880971017748512>",
+          "color": "#fbfe32",
+          "fields": []
+        }
+      ],
+      "created": 1771861357253,
+      "edited": null
+    },
+    {
+      "index": 14,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "```Support team ticket controls```",
+          "color": "#2f3136",
+          "fields": []
+        }
+      ],
+      "created": 1771861357644,
+      "edited": null
+    },
+    {
+      "index": 15,
+      "author": "Ticket Tool",
+      "user_id": "557628352828014614",
+      "is_bot": true,
+      "content": "",
+      "embeds": [
+        {
+          "description": "Transcript Saving",
+          "color": "#ffee58",
+          "fields": []
+        }
+      ],
+      "created": 1771861360746,
+      "edited": null
+    }
+  ],
+  "channel": {
+    "name": "closed-0132",
+    "id": "1474452013285642487"
+  },
+  "server": {
+    "name": "Vinternship",
+    "id": "1468485230053691446",
+    "icon": "6697cb480159233842a1be34b3b88c55"
+  },
+  "message_count": 15
+}

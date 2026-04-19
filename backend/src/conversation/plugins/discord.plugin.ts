@@ -1,6 +1,5 @@
 import { Injectable, Logger } from '@nestjs/common';
-import * as fs from 'fs';
-import * as path from 'path';
+import { DiscordConversationService } from '../../discord-ingestion/conversation.service';
 import {
   ConversationPlugin,
   FetchConversationOptions,
@@ -9,223 +8,224 @@ import {
   PluginConversationStats,
 } from './plugin.interface';
 
-interface DiscordTranscriptMessage {
-  index?: number;
-  author?: string;
-  user_id?: string;
-  is_bot?: boolean;
-  content?: string;
-  created?: number | string;
-  embeds?: Array<{ description?: string }>;
-}
-
-interface DiscordTranscript {
-  ticket_id?: string;
-  channel?: { id?: string };
-  messages?: DiscordTranscriptMessage[];
-}
-
 @Injectable()
 export class DiscordPlugin implements ConversationPlugin {
   name: 'discord' = 'discord';
-
   private readonly logger = new Logger(DiscordPlugin.name);
 
+  constructor(private readonly discordConversationService: DiscordConversationService) { }
+
   async fetchConversations(options?: FetchConversationOptions): Promise<NormalizedConversation[]> {
-    const includeMessages = options?.includeMessages ?? true;
-    const limit = options?.limit && options.limit > 0 ? Math.min(options.limit, 500) : undefined;
-    const folder = this.resolveTranscriptFolder();
+    const limit = options?.limit && options.limit > 0 ? Math.min(options.limit, 500) : 500;
 
-    if (!folder || !fs.existsSync(folder)) {
-      this.logger.debug('Discord transcript folder was not found; skipping Discord source');
-      return [];
-    }
-
-    const files = fs
-      .readdirSync(folder)
-      .filter((file) => file.toLowerCase().endsWith('.json'));
+    // Fetch CLOSED tickets directly from the Discord Ingestion MongoDB service
+    const rawConversations = await this.discordConversationService.findByStatus('closed', limit);
 
     const conversations: NormalizedConversation[] = [];
 
-    for (const file of files) {
-      try {
-        const filePath = path.join(folder, file);
-        const raw = JSON.parse(fs.readFileSync(filePath, 'utf8')) as DiscordTranscript;
-        const parsed = this.parseTranscript(raw, file, includeMessages);
-        if (parsed) {
-          conversations.push(parsed);
-        }
-      } catch (error) {
-        const message = error instanceof Error ? error.message : String(error);
-        this.logger.warn(`Failed to parse Discord transcript ${file}: ${message}`);
-      }
+    for (const doc of rawConversations) {
+      const allMessages = doc.messages || [];
+      const validMessages = allMessages.filter(m => {
+        const cleaned = this.cleanText(m.text || '');
+        return this.shouldIncludeMessage(m, cleaned);
+      });
+
+      if (validMessages.length === 0) continue;
+
+      const latestMsg = validMessages[validMessages.length - 1];
+      const previewText = doc.mainReason 
+        ? `Reason: ${doc.mainReason}`.slice(0, 180)
+        : this.cleanText(latestMsg?.text || '').slice(0, 180);
+
+      const timestamp = latestMsg?.timestamp
+        ? new Date(latestMsg.timestamp).toISOString()
+        : doc.updatedAt.toISOString();
+
+      const userName = this.resolveUserName(doc);
+
+      const ownerId = this.resolveTicketOwnerId(doc);
+
+      conversations.push({
+        conversation_id: doc.ticketNumber,
+        source: 'discord',
+        user: userName,
+        timestamp,
+        message_count: validMessages.length,
+        confidence: null,
+        last_message_preview: previewText,
+        mainReason: doc.mainReason,
+        registeredEmail: doc.registeredEmail,
+        cohortName: doc.cohortName,
+        status: doc.status,
+        messages: options?.includeMessages
+          ? validMessages.map(m => this.mapMessage(m, ownerId))
+          : [this.mapMessage(latestMsg, ownerId)],
+      });
     }
 
     const sorted = conversations.sort((a, b) => {
       const first = new Date(a.timestamp).getTime();
       const second = new Date(b.timestamp).getTime();
-      return second - first;
+      return second - first; // newest first
     });
 
-    return typeof limit === 'number' ? sorted.slice(0, limit) : sorted;
+    return sorted.slice(0, limit);
   }
 
   async fetchConversationById(conversationId: string): Promise<NormalizedConversation | null> {
-    const folder = this.resolveTranscriptFolder();
-    if (!folder || !fs.existsSync(folder)) {
-      return null;
-    }
+    const doc = await this.discordConversationService.findByTicketNumber(conversationId);
+    if (!doc) return null;
 
-    const files = fs
-      .readdirSync(folder)
-      .filter((file) => file.toLowerCase().endsWith('.json'));
+    const allMessages = doc.messages || [];
+    const validMessages = allMessages.filter(m => {
+      const cleaned = this.cleanText(m.text || '');
+      return this.shouldIncludeMessage(m, cleaned);
+    });
 
-    for (const file of files) {
-      try {
-        const filePath = path.join(folder, file);
-        const raw = JSON.parse(fs.readFileSync(filePath, 'utf8')) as DiscordTranscript;
+    if (validMessages.length === 0 && !doc.mainReason) return null;
 
-        const candidateId =
-          raw.ticket_id ?? raw.channel?.id ?? path.basename(file, path.extname(file));
+    const latestMsg = validMessages[validMessages.length - 1];
+    const previewText = doc.mainReason 
+        ? `Reason: ${doc.mainReason}`.slice(0, 180)
+        : this.cleanText(latestMsg?.text || '').slice(0, 180);
 
-        if (candidateId !== conversationId) {
-          continue;
-        }
+    const timestamp = latestMsg?.timestamp
+      ? new Date(latestMsg.timestamp).toISOString()
+      : doc.updatedAt.toISOString();
 
-        return this.parseTranscript(raw, file, true);
-      } catch {
-        continue;
-      }
-    }
+    const userName = this.resolveUserName(doc);
 
-    return null;
+    const ownerId = this.resolveTicketOwnerId(doc);
+
+    return {
+      conversation_id: doc.ticketNumber,
+      source: 'discord',
+      user: userName,
+      timestamp,
+      message_count: validMessages.length,
+      confidence: null,
+      last_message_preview: previewText,
+      mainReason: doc.mainReason,
+      registeredEmail: doc.registeredEmail,
+      cohortName: doc.cohortName,
+      status: doc.status,
+      messages: validMessages.map(m => this.mapMessage(m, ownerId)),
+    };
   }
 
   async fetchStats(): Promise<PluginConversationStats> {
-    const conversations = await this.fetchConversations({ includeMessages: false, limit: 5000 });
+    const [conversationCount, totalMessages] = await Promise.all([
+      this.discordConversationService.countByStatus('closed'),
+      this.discordConversationService.countMessagesByStatus('closed'),
+    ]);
 
     return {
       source: 'discord',
-      conversationCount: conversations.length,
-      totalMessages: conversations.reduce((sum, conversation) => sum + conversation.message_count, 0),
+      conversationCount,
+      totalMessages,
       avgConfidence: null,
     };
   }
 
-  private parseTranscript(
-    raw: DiscordTranscript,
-    fileName: string,
-    includeMessages: boolean,
-  ): NormalizedConversation | null {
-    const rawMessages = Array.isArray(raw.messages) ? raw.messages : [];
-    const ticketOwner = this.detectTicketOwner(rawMessages);
-    const messages: NormalizedMessage[] = [];
+  // Known bot display names — always exclude from "ticket owner" logic
+  private static readonly BOT_NAMES = new Set([
+    'vibot', 'ticket tool', 'help tool', 'tickettool', 'helptool',
+    'mee6', 'dyno', 'carl-bot', 'arcane', 'unknown',
+  ]);
 
-    for (const message of rawMessages) {
-      // Convert Ticket Tool first-message reason into the opening student query.
-      if (this.isTicketOpeningMessage(message)) {
-        const reason = this.extractReasonFromTicketMessage(message);
-        if (reason) {
-          messages.push({
-            role: 'user',
-            text: reason,
-            author: ticketOwner.username ?? 'Student',
-            timestamp: this.toIsoString(message.created),
-          });
-        }
-        continue;
-      }
-
-      const cleanedText = this.cleanText(this.getMessageText(message));
-      if (!this.shouldIncludeMessage(message, cleanedText)) {
-        continue;
-      }
-
-      messages.push({
-        role: this.resolveRole(message, ticketOwner),
-        text: cleanedText,
-        author: message.author,
-        timestamp: this.toIsoString(message.created),
-      });
-    }
-
-    if (messages.length === 0) {
-      return null;
-    }
-
-    const conversationId = raw.ticket_id ?? raw.channel?.id ?? path.basename(fileName, path.extname(fileName));
-    const conversationTimestamp =
-      messages.find((message) => !!message.timestamp)?.timestamp ?? new Date().toISOString();
-    const detectedUser = ticketOwner.username ?? ticketOwner.userId ?? 'Student';
-    const lastPreview = messages[messages.length - 1]?.text?.slice(0, 180) ?? '';
-
-    return {
-      conversation_id: conversationId,
-      source: 'discord',
-      user: detectedUser,
-      timestamp: conversationTimestamp,
-      message_count: messages.length,
-      confidence: null,
-      last_message_preview: lastPreview,
-      messages: includeMessages ? messages : [messages[messages.length - 1]],
-    };
+  private isBot(name?: string): boolean {
+    if (!name) return false;
+    return DiscordPlugin.BOT_NAMES.has(name.toLowerCase().trim());
   }
 
-  private isTicketOpeningMessage(message: DiscordTranscriptMessage): boolean {
-    return message.author === 'Ticket Tool' && message.index === 1;
-  }
-
-  private detectTicketOwner(messages: DiscordTranscriptMessage[]): {
-    userId: string | null;
-    username: string | null;
-  } {
-    const openingMessage = messages.find((message) => this.isTicketOpeningMessage(message));
-    if (!openingMessage) {
-      return { userId: null, username: null };
+  /**
+   * Resolve the display name of the ticket owner.
+   * Priority: ticketOwnerName > first human user-role message author > threadName extraction > email > fallback
+   * Always excludes bot names.
+   */
+  private resolveUserName(doc: any): string {
+    // 1. Explicit owner name (if not a bot — guards against past data bugs)
+    if (doc.ticketOwnerName && !this.isBot(doc.ticketOwnerName)) {
+      return doc.ticketOwnerName;
     }
 
-    const text = this.getMessageText(openingMessage);
-
-    const mentionMatch = text.match(/<@!?(\d+)>/);
-    const userId = mentionMatch?.[1] ?? null;
-
-    if (!userId) {
-      return { userId: null, username: null };
-    }
-
-    const ownerMessage = messages.find(
-      (message) => message.user_id === userId && message.author !== 'Ticket Tool',
+    // 2. First human 'user'-role message author
+    const firstUserMsg = (doc.messages || []).find(
+      (m: any) => m.role === 'user' && m.authorName && !this.isBot(m.authorName),
     );
+    if (firstUserMsg?.authorName) return firstUserMsg.authorName;
+
+    // 3. Extract from thread name (e.g., "others-roguethunder_08-100172" → "roguethunder_08")
+    if (doc.threadName) {
+      const parts = doc.threadName.split('-');
+      if (parts.length >= 3) {
+        return parts.slice(1, -1).join('-');
+      }
+    }
+
+    // 4. Registered email prefix
+    if (doc.registeredEmail) {
+      return doc.registeredEmail.split('@')[0];
+    }
+
+    return doc.ticketOwnerId || 'Student';
+  }
+
+  /**
+   * Determine the ticket owner's authorId from the conversation document.
+   * Falls back to message-based detection when the explicit field is missing.
+   */
+  private resolveTicketOwnerId(doc: any): string | undefined {
+    if (doc.ticketOwnerId) return doc.ticketOwnerId;
+
+    // Find the first non-bot, non-agent message author
+    const firstStudent = (doc.messages || []).find(
+      (m: any) => m.role === 'user' && m.authorId && !this.isBot(m.authorName),
+    );
+    return firstStudent?.authorId;
+  }
+
+  /**
+   * Map a raw Discord message to the normalized format.
+   * Uses ticketOwnerId to correctly distinguish student (right/blue) vs mentor (left/gray).
+   */
+  private mapMessage(msg: any, ticketOwnerId?: string): NormalizedMessage {
+    let role: 'user' | 'assistant';
+    const displayAuthor = msg.authorName || 'Unknown';
+    const displayText = this.cleanText(msg.text || '');
+
+    if (msg.role === 'system' || this.isBot(msg.authorName)) {
+      // Bot/system messages → show as assistant (left side / centered pill)
+      role = 'assistant';
+    } else if (msg.role === 'agent') {
+      // Mentors/staff explicitly tagged by the normalizer
+      role = 'assistant';
+    } else if (ticketOwnerId && msg.authorId) {
+      // Compare author ID to ticket owner
+      role = msg.authorId === ticketOwnerId ? 'user' : 'assistant';
+    } else {
+      // No ticketOwnerId available — fall back to the original normalizer role
+      role = msg.role === 'user' ? 'user' : 'assistant';
+    }
 
     return {
-      userId,
-      username: ownerMessage?.author ?? null,
+      role,
+      text: displayText,
+      author: displayAuthor,
+      timestamp: new Date(msg.timestamp || Date.now()).toISOString(),
+      type: msg.type || 'message',
+      attachments: msg.attachments || [],
     };
   }
 
-  private resolveRole(
-    message: DiscordTranscriptMessage,
-    ticketOwner: { userId: string | null; username: string | null },
-  ): 'user' | 'assistant' {
-    const byUserId = ticketOwner.userId && message.user_id === ticketOwner.userId;
-    const byAuthorName =
-      ticketOwner.username &&
-      message.author &&
-      ticketOwner.username.toLowerCase() === message.author.toLowerCase();
+  private shouldIncludeMessage(message: any, text: string): boolean {
+    // metadata cards are handled by the 'type' in frontend, include them here so they reach the frontend
+    if (message.type === 'ticket_reason') return true;
 
-    if (byUserId || byAuthorName) {
-      return 'user';
-    }
+    if (!text || text.length < 2) return false;
 
-    return 'assistant';
-  }
-
-  private shouldIncludeMessage(message: DiscordTranscriptMessage, text: string): boolean {
-    if (!text || text.length < 2) {
-      return false;
-    }
-
-    if (message.author === 'Ticket Tool') {
+    // Hide bots completely, or just the specific phrases
+    if (message.authorName === 'Ticket Tool' || message.authorName === 'Help Tool') {
       return false;
     }
 
@@ -233,7 +233,8 @@ export class DiscordPlugin implements ConversationPlugin {
     if (
       lower.includes('transcript saving') ||
       lower.includes('ticket closed by') ||
-      lower.includes('support team ticket controls')
+      lower.includes('support team ticket controls') ||
+      lower.includes('are you sure you want to close this ticket')
     ) {
       return false;
     }
@@ -241,72 +242,13 @@ export class DiscordPlugin implements ConversationPlugin {
     return true;
   }
 
-  private extractReasonFromTicketMessage(message: DiscordTranscriptMessage): string | null {
-    const embedDescription = message.embeds?.map((embed) => embed.description ?? '').join(' ') ?? '';
-    const source = `${message.content ?? ''} ${embedDescription}`;
-
-    const reasonMatch = source.match(/Reason\s*:\s*(.+?)(?:TicketTool\.xyz|$)/is);
-    if (reasonMatch?.[1]) {
-      const cleaned = this.cleanText(reasonMatch[1]);
-      return cleaned.length > 0 ? cleaned : null;
-    }
-
-    return null;
-  }
-
   private cleanText(text: string): string {
     return text
-      .replace(/<@[!&]?\d+>/g, '')
-      .replace(/<#\d+>/g, '')
-      .replace(/@\w+/g, '')
-      .replace(/https?:\/\/\S+/g, '')
-      .replace(/\n+/g, ' ')
-      .replace(/\s+/g, ' ')
+      .replace(/<@[!&]?\d+>/g, '') // remove discord user pings
+      .replace(/<#\d+>/g, '')      // remove channel mentions
+      .replace(/@\w+/g, '')        // remove inline tags
+      .replace(/https?:\/\/\S+/g, '') // remove pure urls if not surrounded by text
+      .replace(/\s+/g, ' ')        // collapse whitespace
       .trim();
-  }
-
-  private resolveTranscriptFolder(): string | null {
-    const configuredPath = process.env.DISCORD_TRANSCRIPTS_PATH;
-    const candidateFolders = [
-      configuredPath,
-      path.join(process.cwd(), 'discord_transcripts'),
-      path.join(process.cwd(), 'bot', 'scraped_transcripts'),
-      path.join(process.cwd(), '..', 'bot', 'scraped_transcripts'),
-    ].filter((value): value is string => Boolean(value));
-
-    for (const candidate of candidateFolders) {
-      if (fs.existsSync(candidate)) {
-        return candidate;
-      }
-    }
-
-    return null;
-  }
-
-  private getMessageText(message: DiscordTranscriptMessage): string {
-    const content = (message.content ?? '').trim();
-    if (content) {
-      return content;
-    }
-
-    const embedText = (message.embeds ?? [])
-      .map((embed) => (embed.description ?? '').trim())
-      .filter((text) => text.length > 0)
-      .join('\n');
-
-    return embedText;
-  }
-
-  private toIsoString(value?: number | string): string | undefined {
-    if (value === undefined || value === null) {
-      return undefined;
-    }
-
-    if (typeof value === 'number') {
-      return new Date(value).toISOString();
-    }
-
-    const parsed = new Date(value);
-    return Number.isNaN(parsed.getTime()) ? undefined : parsed.toISOString();
   }
 }
