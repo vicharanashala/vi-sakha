@@ -116,7 +116,7 @@ export default function ActionDrivenDashboard({ isAdmin, user, onNavigate }: Act
         </div>
         <div className="flex gap-3">
           <button
-            onClick={() => #}
+            onClick={() => onNavigate('qa')}
             className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-2xl font-bold transition-all shadow-lg shadow-blue-200 active:scale-95"
           >
             <Plus className="w-4 h-4" /> Propose QA

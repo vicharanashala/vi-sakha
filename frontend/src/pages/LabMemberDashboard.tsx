@@ -1103,7 +1103,30 @@ function TicketsView() {
     }
   }
 
+  const handleStartSupportSession = async (ticket: SupportTicket) => {
+    if (user.role !== 'lab_member' && user.role !== 'admin') {
+      return
+    }
 
+    setUpdatingTicket(true)
+    try {
+      const result = await startSupportSession(ticket.id)
+      setSelectedTicket((prev) => {
+        if (!prev || prev.id !== ticket.id) return prev
+
+        const nextMessages = sortTicketMessagesAsc([...(prev.messages ?? []), result.message])
+        return {
+          ...prev,
+          messages: nextMessages,
+        }
+      })
+      await loadTickets()
+    } catch (error) {
+      console.error('Failed to start support session:', error)
+    } finally {
+      setUpdatingTicket(false)
+    }
+  }
 
   const handleCloseTicket = async (ticket: SupportTicket) => {
     setUpdatingTicket(true)

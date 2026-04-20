@@ -1782,6 +1782,276 @@ paths:
       security: *ref_12
       summary: Purge Knowledge Node (US11)
       tags: *ref_13
+  /mcp/query:
+    post:
+      description: >-
+        Centralized entry point for answering user queries using semantic search
+        and plugin context via Model Context Protocol.
+      operationId: McpController_query
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/McpRequestDto'
+      responses:
+        '200':
+          description: LLM answer with aggregated context sources.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/McpResponseDto'
+      security:
+        - bearer: []
+      summary: Process an MCP query
+      tags: &ref_mcp
+        - MCP (Model Context Protocol)
+  /mcp/tools/{toolName}:
+    post:
+      description: Runs a backend pipeline or maintenance task via MCP tools.
+      operationId: McpController_executeTool
+      parameters:
+        - name: toolName
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Tool executed successfully.
+      security:
+        - bearer: []
+      summary: Execute an MCP Tool
+      tags: *ref_mcp
+  /discord-ingestion/trigger:
+    post:
+      description: >-
+        Manually triggers the ingestion of a Discord transcript from a URL.
+        Used for automated testing and auditing.
+      operationId: DiscordController_triggerIngestion
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DiscordIngestionTriggerDto'
+      responses:
+        '200':
+          description: Ingestion triggered and status returned.
+      summary: Trigger Discord Ingestion (Testing)
+      tags: &ref_discord
+        - Discord Ingestion
+        - GenAI Services
+  /discord-ingestion/conversations:
+    get:
+      description: >-
+        Retrieves a list of conversations ingested from Discord. Fulfills US2/US13
+        by providing the raw support threads for processing into GenAI sets.
+      operationId: DiscordController_listConversations
+      parameters:
+        - name: status
+          required: false
+          in: query
+          schema:
+            type: string
+            enum: [open, closed]
+      responses:
+        '200':
+          description: Discord conversation list retrieved successfully.
+      summary: List Discord Conversations
+      tags: *ref_discord
+  /discord-ingestion/conversations/{ticketNumber}:
+    get:
+      description: >-
+        Fulfills US7 by providing full transcripts for auditing chatbot-assisted
+        escalations on Discord.
+      operationId: DiscordController_getConversation
+      parameters:
+        - name: ticketNumber
+          required: true
+          in: path
+          description: The unique ticket number formatted as #number
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Specific Discord thread returned.
+        '404':
+          description: Conversation with ticket not found.
+      summary: Get Discord Conversation Detail
+      tags: *ref_discord
+  /discord-ingestion/stats:
+    get:
+      description: >-
+        Retrieves volumetric counts for the Discord data pipeline to fulfill
+        US14 reporting.
+      operationId: DiscordController_getStats
+      parameters: []
+      responses:
+        '200':
+          description: Volumetric counts returned.
+      summary: Discord Ingestion Statistics
+      tags: *ref_discord
+  /feedback:
+    post:
+      description: >-
+        Fulfills US4 (provide feedback on responses). Allows learners to evaluate
+        AI-produced answers as either accurate or flawed.
+      operationId: FeedbackController_createFeedback
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateFeedbackDto'
+      responses:
+        '201':
+          description: Feedback logged successfully.
+      summary: Submit Quality Feedback
+      tags: &ref_analytics
+        - Feedback & Analytics
+  /analytics/hotspots:
+    get:
+      description: >-
+        Fulfills US12 (track frequently asked topics generating negative feedback).
+        Calculates the ratio of defective queries grouped by isolated topics.
+      operationId: FeedbackController_getHotspots
+      parameters: []
+      responses:
+        '200':
+          description: Returns sorted array of topic heatmaps.
+      summary: View Negative Hotspots
+      tags: *ref_analytics
+  /analytics/feedback-ratio:
+    get:
+      description: >-
+        Fulfills US14 (performance analytics). Evaluates overall AI bot effectiveness
+        and customer satisfaction percentage.
+      operationId: FeedbackController_getFeedbackRatio
+      parameters: []
+      responses:
+        '200':
+          description: Overall binary satisfaction distribution returned.
+      summary: Aggregated Feedback Ratio
+      tags: *ref_analytics
+  /analytics/topic/{topic}:
+    get:
+      description: >-
+        Fulfills US12 by isolating the exact failed conversations of a specific
+        topic category so lab members can review what went wrong.
+      operationId: FeedbackController_getByTopic
+      parameters:
+        - name: topic
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List of individual defective messages.
+        '404':
+          description: Topic strings not found.
+      summary: Topic Detail Drilldown
+      tags: *ref_analytics
+  /analytics/dashboard-summary:
+    get:
+      description: >-
+        Calculates high-level metrics for the dashboard home view, including
+        query volume, AI resolution rates, and Knowledge Base health.
+      operationId: FeedbackController_getSummary
+      parameters: []
+      responses:
+        '200':
+          description: Aggregated KPIs returned.
+      summary: Dashboard KPI Summary
+      tags: *ref_analytics
+  /ai/insights:
+    post:
+      description: Get AI-powered metric insights and anomalies based on quantitative analysis and contribution data.
+      operationId: AiAnalyticsController_getInsights
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                metric:
+                  type: string
+                  enum: [queries, tickets]
+                forceRefresh:
+                  type: boolean
+              required:
+                - metric
+      responses:
+        '200':
+          description: AI-powered metric insights and anomalies.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/AIInsight'
+      summary: Get AI-powered metric insights and anomalies
+      tags: &ref_ai_analytics
+        - AI Analytics
+  /ai/query:
+    post:
+      description: Natural language query interface for exploring system data (Ask Your Data).
+      operationId: AiAnalyticsController_askYourData
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                query:
+                  type: string
+              required:
+                - query
+      responses:
+        '200':
+          description: Natural language query results with visualization strategy.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NLQResponse'
+      summary: Natural language query interface (Ask Your Data)
+      tags: *ref_ai_analytics
+  /admin/analytics/qa-growth:
+    get:
+      description: Returns time-series data of processed QA pairs for growth visualization.
+      operationId: AdminController_getQaGrowth
+      parameters: []
+      responses:
+        '200':
+          description: QA accumulation metrics.
+      security:
+        - bearer: []
+      summary: Get QA accumulation metrics
+      tags:
+        - Admin Controls
+  /admin/analytics/performance:
+    get:
+      description: Returns resolution counts for application-native tickets by staff members.
+      operationId: AdminController_getPerformance
+      parameters: []
+      responses:
+        '200':
+          description: Lab member resolution analytics.
+      security:
+        - bearer: []
+      summary: Get Lab Member Performance
+      tags:
+        - Admin Controls
+
+
 info:
   title: Vinternship API
   description: >-
@@ -2165,3 +2435,117 @@ components:
         category:
           type: string
           description: Categorical tag for the QA entry
+    McpRequestDto:
+      type: object
+      properties:
+        query:
+          type: string
+          description: The query from the user to the MCP server
+        context_sources:
+          type: array
+          items:
+            type: string
+          description: Specific context sources to restrict or expand retrieval
+      required:
+        - query
+    McpResponseDto:
+      type: object
+      properties:
+        answer:
+          type: string
+          description: The answer generated by the LLM via MCP
+        references:
+          type: array
+          items:
+            type: object
+          description: List of references or source materials used for the answer
+        attachments:
+          type: array
+          items:
+            type: object
+          description: Any attachments or tool output metadata
+        confidence:
+          type: number
+          description: Confidence score if available
+        status:
+          type: string
+          description: Response status
+      required:
+        - answer
+        - references
+        - attachments
+    DiscordIngestionTriggerDto:
+      type: object
+      properties:
+        ticketNumber:
+          type: string
+          description: The unique ticket number to associate with the ingestion
+        fileUrl:
+          type: string
+          description: The URL of the transcript file to ingest
+        fileType:
+          type: string
+          enum: [html, json]
+          description: The format of the source file
+      required:
+        - ticketNumber
+        - fileUrl
+    AIInsight:
+      type: object
+      properties:
+        title:
+          type: string
+          description: Professional title describing the insight
+        summary:
+          type: string
+          description: Brief summary of the metric anomaly
+        insight:
+          type: string
+          description: Detailed explanation using contribution data
+        confidence_score:
+          type: number
+          description: Algorithmic confidence in the insight validity
+        recommended_actions:
+          type: array
+          items:
+            type: string
+          description: Suggested steps for lab members to address the anomaly
+        is_verified:
+          type: boolean
+          description: Whether the insight passed hallucination guardrails
+      required:
+        - title
+        - summary
+        - insight
+        - confidence_score
+        - recommended_actions
+        - is_verified
+    NLQResponse:
+      type: object
+      properties:
+        query:
+          type: string
+          description: The original natural language query processed
+        data:
+          type: array
+          items:
+            type: object
+          description: The resulting anonymized dataset from MongoDB
+        summary:
+          type: string
+          description: AI-generated summary interpreting the data results
+        chart:
+          type: object
+          properties:
+            type:
+              type: string
+              enum: [line, bar, pie, kpi]
+            config:
+              type: object
+          description: Visualization strategy recommended for the data
+      required:
+        - query
+        - data
+        - summary
+        - chart
+

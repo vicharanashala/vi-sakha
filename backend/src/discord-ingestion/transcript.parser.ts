@@ -71,9 +71,15 @@ export class TranscriptParserService {
    */
   parseJson(jsonContent: string): ParsedMessage[] {
     try {
-      const rawMessages = JSON.parse(jsonContent);
-      if (!Array.isArray(rawMessages)) {
-        this.logger.error('JSON transcript is not an array');
+      const parsed = JSON.parse(jsonContent);
+      let rawMessages: any[];
+
+      if (Array.isArray(parsed)) {
+        rawMessages = parsed;
+      } else if (parsed && Array.isArray(parsed.messages)) {
+        rawMessages = parsed.messages;
+      } else {
+        this.logger.error('JSON transcript format not recognized: expected an array or an object with a "messages" array');
         return [];
       }
 

@@ -1,6 +1,8 @@
-import { Injectable, Logger } from '@nestjs/common';
+import { Injectable, Logger, BadRequestException, InternalServerErrorException } from '@nestjs/common';
 import { HttpService } from '@nestjs/axios';
 import { firstValueFrom } from 'rxjs';
+import * as fs from 'fs';
+import * as path from 'path';
 
 import { DiscordConversationService } from './conversation.service';
 import { MessageNormalizerService, RawDiscordMessage } from './message.normalizer';
@@ -254,22 +256,50 @@ export class DiscordService {
     // ── Fetch Transcript File ─────────────────────────────────────────────────
     let content: string;
     try {
-      // Force text response type so JSON is not auto-parsed by axios,
-      // letting our parser handle stringification edges if needed
-      const response = await firstValueFrom(
-        this.httpService.get<string>(fileUrl, { responseType: 'text' }),
-      );
-      // Depending on axios config, it might still auto-parse JSON
-      content = typeof response.data === 'string' ? response.data : JSON.stringify(response.data);
+      if (fileUrl.startsWith('http')) {
+        // Fetch remote URL
+        const response = await firstValueFrom(
+          this.httpService.get<string>(fileUrl, { responseType: 'text' }),
+        );
+        content = typeof response.data === 'string' ? response.data : JSON.stringify(response.data);
+      } else {
+        // Assume it is a local file path (for testing/automation)
+        // Check multiple locations to handle different CWDs and startup contexts
+        const possiblePaths = [
+          path.resolve(process.cwd(), fileUrl),
+          path.resolve(process.cwd(), '..', fileUrl),
+          path.resolve(__dirname, '..', '..', '..', fileUrl) // Relative to DiscordService
+        ];
+        
+        const absolutePath = possiblePaths.find(p => fs.existsSync(p));
+        
+        if (!absolutePath) {
+          throw new BadRequestException(`Local transcript file not found. Tried: ${possiblePaths.join(', ')}`);
+        }
+        content = fs.readFileSync(absolutePath, 'utf-8');
+        this.logger.log(`[TRANSCRIPT] Loaded from local file: ${absolutePath}`);
+      }
     } catch (err) {
-      this.logger.error(
-        `Failed to fetch transcript from ${fileUrl}: ${(err as Error).message}`,
-      );
-      return;
+      this.logger.error(`Failed to fetch transcript from ${fileUrl}: ${(err as Error).message}`);
+      // Throw correct exception for controller bubble-up
+      if (err instanceof BadRequestException) throw err;
+      throw new InternalServerErrorException(`Failed to fetch transcript: ${(err as Error).message}`);
     }
 
     // ── Parse ────────────────────────────────────────────────────────────────
-    const messages = fileType === 'json' ? this.parser.parseJson(content) : this.parser.parse(content);
+    let messages: any[] = [];
+    try {
+      messages = fileType === 'json' ? this.parser.parseJson(content) : this.parser.parse(content);
+      
+      if (!messages || messages.length === 0) {
+        throw new BadRequestException(`Parsed zero messages from ${fileType} transcript. File might be invalid or empty.`);
+      }
+    } catch (err) {
+       this.logger.error(`Parsing failure: ${(err as Error).message}`);
+       if (err instanceof BadRequestException) throw err;
+       throw new InternalServerErrorException(`Failed to parse transcript: ${(err as Error).message}`);
+    }
+
     this.logger.log(
       `[TRANSCRIPT] ticket #${ticketNumber} — parsed ${messages.length} messages from ${fileType}`,
     );

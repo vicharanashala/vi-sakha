@@ -92,6 +92,22 @@ export class DiscordRagService {
       return [];
     }
 
+    // ── MOCK MODE for automated testing ─────────────────────────────────────
+    if (apiKey === 'mock' || this.configService.get('DISCORD_MOCK_LLM') === 'true') {
+      this.logger.log('Discord RAG is in MOCK mode — returning static QA pairs');
+      return [
+        {
+          question: 'What is the VInternship program?',
+          answer: 'VInternship is a student internship program focused on practical skills.',
+        },
+        {
+          question: 'How do I submit my case study?',
+          answer: 'Submit your case study via the ViBe platform before the deadline.',
+        },
+      ];
+    }
+    // ─────────────────────────────────────────────────────────────────────────
+
     const transcript = this.buildTranscriptText(conversation);
     if (!transcript) return [];
 

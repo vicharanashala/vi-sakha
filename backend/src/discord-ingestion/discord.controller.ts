@@ -1,13 +1,45 @@
-import { Controller, Get, Param, Query, NotFoundException } from '@nestjs/common';
+import { Controller, Get, Post, Body, Param, Query, HttpCode, HttpStatus, NotFoundException } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse, ApiQuery, ApiParam } from '@nestjs/swagger';
 import { DiscordConversationService } from './conversation.service';
+import { DiscordService } from './discord.service';
 
 @ApiTags('Discord Ingestion', 'GenAI Services')
 @Controller('discord-ingestion')
 export class DiscordController {
   constructor(
     private readonly conversationService: DiscordConversationService,
+    private readonly discordService: DiscordService,
   ) {}
+
+  /**
+   * POST /api/discord-ingestion/trigger
+   * Manually trigger transcript ingestion for testing purposes.
+   */
+  @ApiOperation({
+    summary: 'Trigger Discord Ingestion (Testing)',
+    description: 'Manually triggers the ingestion of a Discord transcript from a URL. Used for automated testing and auditing.',
+  })
+  @Post('trigger')
+  @HttpCode(HttpStatus.OK)
+  async triggerIngestion(
+    @Body() body: { ticketNumber: string; fileUrl: string; fileType?: 'html' | 'json' }
+  ) {
+    const { ticketNumber, fileUrl, fileType = 'html' } = body;
+    
+    // Call the service directly to trigger the pipeline
+    await this.discordService.onTranscriptUploaded(
+      ticketNumber,
+      fileUrl,
+      undefined, 
+      fileType
+    );
+
+    return { 
+      message: `Ingestion triggered for ticket #${ticketNumber}`,
+      ticketNumber,
+      status: 'processing'
+    };
+  }
 
   /**
    * GET /api/discord-ingestion/conversations

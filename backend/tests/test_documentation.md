@@ -54,6 +54,9 @@ This document describes the extensive test cases implemented for the backend API
 - **Admin Lifecycle Journey**: Full governance loop from user registration to role promotion to final offboarding/deactivation.
 - **Knowledge Contribution**: Multi-step quality assurance loop (Proposal -> Rejection -> Correction -> Approval).
 - **Executive Analytics Audit**: Cross-module investigative flow reviewing trends, hotspots, and sentiment ratios.
+- **Model Context Protocol (MCP)**: End-to-end verification of unified Q&A processing, reference generation, and assistant state management via the `/mcp/query` interface.
+- **Discord Automation Pipeline**: Complete lifecycle audit of Discord transcript ingestion, message parsing, and asynchronous Q&A proposal extraction into the governance database.
+
 
 ## 3. High-Fidelity Audit Format
 Every test case above undergoes the same rigorous auditing process in the terminal:
