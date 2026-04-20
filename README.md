@@ -97,10 +97,14 @@ npm run dev
 
 #### 3. AI Pipeline (Python Sidecar)
 ```bash
-cd pipeline
+# Setup Environment in Root
 python -m venv .venv
 source .venv/bin/activate # or .venv\Scripts\activate on Windows
 pip install -r requirements.txt
+
+# Run the Embedding Sidecar
+cd bot/rag
+python embed_sidecar.py
 ```
 
 ---
