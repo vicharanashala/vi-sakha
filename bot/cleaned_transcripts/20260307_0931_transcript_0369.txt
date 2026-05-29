@@ -1,5 +1,0 @@
-Student (pannala_lokesh_reddy): Iam currently watching video 11 of ‘Configuring Typescript for Real Projects’, under module ‘Typescript’, the video 11 is stuck and running in loop and it is getting stuck at exactly 14:58 where only one second left to finish the video watch
-
-Instructor (sreehari5371): kindly check now and update us
-
-Student (pannala_lokesh_reddy): Yes issue resolved thank you &

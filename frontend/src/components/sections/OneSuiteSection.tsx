@@ -227,9 +227,14 @@ export function OneSuiteSection() {
           transition={{ duration: 0.6 }}
           className="text-center"
         >
-          <button className="btn-outline-intercom text-gray-900 border-gray-300">
+          <a
+            href="https://sudarshansudarshan.github.io/vinternship/case-studies/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-outline-intercom text-gray-900 border-gray-300 inline-flex items-center gap-2"
+          >
             View all cohort stories <ArrowUpRight className="w-4 h-4" />
-          </button>
+          </a>
         </motion.div>
       </div>
     </section>

@@ -1,5 +1,0 @@
-Student (mumtazparveen): when I refresh the page, in the Typescript -introduction section from Quiz 8-10 it's not marked complete, even I have completed them multiple times
-
-Instructor (nitin_fighter1379, sreehari5371): Please look into it kindly refresh the page and check now.
-
-Student (mumtazparveen): yes it's resolved

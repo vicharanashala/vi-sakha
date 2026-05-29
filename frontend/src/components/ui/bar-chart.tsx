@@ -932,7 +932,6 @@ function resolveRadius(lineCap: "round" | "butt" | number, barWidth: number): nu
 export function Bar({
   dataKey,
   fill = chartCssVars.linePrimary,
-  stroke,
   lineCap = "round",
   animate = true,
   animationType = "grow",

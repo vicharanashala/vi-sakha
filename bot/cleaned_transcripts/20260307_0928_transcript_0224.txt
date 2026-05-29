@@ -1,9 +1,0 @@
-Student (brangotur): I am following up on my previous ticket regarding links to previous live sessions and video sesions code to be uploaded on github. And also I would like to ask will live sessions be aloigned with our cohort because they are aligned with ou
-
-Instructor (nitin_fighter1379): the live session will be made live as a playlist in the website soon as they are under progress. And live sessions are organised across all cohorts
-
-Student (brangotur): okay and regarding codes used in video for revision ? It was earlier conveyed to the team to upload on github? Right?
-
-Instructor (riyamehtaatwork): Once the github is updated, it will be added to announcements.
-
-Student (brangotur): okay thanks

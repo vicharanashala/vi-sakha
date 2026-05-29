@@ -1,0 +1,32 @@
+[
+  {
+    "tagName": "div",
+    "className": "wrapper",
+    "text": "Welcome to Vinternship Vinternship by VLED Lab — A comprehensive full-stack development internship program for mastering the MERN stack under the guidance of Prof. Sudarshan Iyengar at IIT Ropar’s VLE"
+  },
+  {
+    "tagName": "div",
+    "className": "home",
+    "text": "Welcome to Vinternship Vinternship by VLED Lab — A comprehensive full-stack development internship program for mastering the MERN stack under the guidance of Prof. Sudarshan Iyengar at IIT Ropar’s VLE"
+  },
+  {
+    "tagName": "div",
+    "className": "",
+    "text": "AKSians 🟢 Active 📅 Started: 20th Feb 2026 View dashboard, announcements & info → RSAians 🟢 Active 📅 Started: 14th Feb 2026 View dashboard, announcements & info → Kruskalians 🟢 Active 📅 Started: "
+  },
+  {
+    "tagName": "div",
+    "className": "",
+    "text": "AKSians"
+  },
+  {
+    "tagName": "div",
+    "className": "",
+    "text": "RSAians"
+  },
+  {
+    "tagName": "div",
+    "className": "",
+    "text": "Kruskalians"
+  }
+]

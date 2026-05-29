@@ -1,0 +1,22 @@
+{
+  "name": "visakha-platform",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Vi-Sakha Agentic Multimodal RAG Platform",
+  "workspaces": [
+    "packages/*",
+    "services/*"
+  ],
+  "scripts": {
+    "build": "npm run build:packages && cd backend && npm run build",
+    "build:packages": "npm run build --workspace=@visakha/config && npm run build --workspace=@visakha/prompts && npm run build --workspace=@visakha/shared-types && npm run build --workspace=@visakha/shared-utils && npm run build --workspace=@visakha/embedding-service && npm run build --workspace=@visakha/reranking-service && npm run build --workspace=@visakha/vision-service && npm run build --workspace=@visakha/retrieval-service && npm run build --workspace=@visakha/agent-orchestrator && npm run build --workspace=@visakha/memory-service",
+    "backend:dev": "cd backend && npm run start:dev",
+    "clean": "npm run --workspaces --if-present clean",
+    "lint": "npm run --workspaces --if-present lint",
+    "test": "npm run --workspaces --if-present test"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}

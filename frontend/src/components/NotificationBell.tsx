@@ -91,26 +91,42 @@ const NotificationBell: React.FC = () => {
               initial={{ opacity: 0, y: 10, scale: 0.95 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: 10, scale: 0.95 }}
-              className="absolute right-0 mt-3 w-80 bg-white rounded-2xl shadow-2xl border border-gray-100 z-50 overflow-hidden"
+              transition={{ duration: 0.2, ease: "easeOut" }}
+              className="absolute right-0 mt-3 w-80 bg-white rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-gray-100 z-50 overflow-hidden"
             >
               <div className="p-4 border-b border-gray-50 flex items-center justify-between bg-gray-50/50">
                 <h3 className="font-semibold text-gray-900">Notifications</h3>
                 {unreadCount > 0 && (
                   <button 
                     onClick={markAllRead}
-                    className="text-xs text-blue-600 hover:text-blue-700 font-medium"
+                    className="text-xs text-blue-600 hover:text-blue-700 font-medium transition-colors"
                   >
                     Mark all read
                   </button>
                 )}
               </div>
 
-              <div className="max-h-[400px] overflow-y-auto">
+              <motion.div 
+                className="max-h-[400px] overflow-y-auto"
+                initial="hidden"
+                animate="show"
+                variants={{
+                  hidden: { opacity: 0 },
+                  show: {
+                    opacity: 1,
+                    transition: { staggerChildren: 0.05 }
+                  }
+                }}
+              >
                 {notifications.length > 0 ? (
                   notifications.map((notification) => (
-                    <div
+                    <motion.div
+                      variants={{
+                        hidden: { opacity: 0, y: 10 },
+                        show: { opacity: 1, y: 0, transition: { duration: 0.2 } }
+                      }}
                       key={notification._id}
-                      className={`p-4 border-b border-gray-50 transition-colors relative group ${
+                      className={`p-4 border-b border-gray-50 transition-colors duration-200 relative group ${
                         !notification.isRead ? 'bg-blue-50/30' : 'hover:bg-gray-50'
                       }`}
                     >
@@ -151,15 +167,21 @@ const NotificationBell: React.FC = () => {
                           )}
                         </div>
                       </div>
-                    </div>
+                    </motion.div>
                   ))
                 ) : (
-                  <div className="p-8 text-center">
+                  <motion.div 
+                    variants={{
+                      hidden: { opacity: 0 },
+                      show: { opacity: 1 }
+                    }}
+                    className="p-8 text-center"
+                  >
                     <Bell className="w-8 h-8 text-gray-200 mx-auto mb-2" />
                     <p className="text-sm text-gray-400">All caught up!</p>
-                  </div>
+                  </motion.div>
                 )}
-              </div>
+              </motion.div>
 
               <div className="p-3 bg-gray-50/50 text-center border-t border-gray-50">
                 <button className="text-xs text-gray-500 hover:text-gray-700 font-medium">

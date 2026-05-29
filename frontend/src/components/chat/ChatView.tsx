@@ -1,5 +1,12 @@
 import { useState, useRef, useEffect, useCallback } from 'react'
-import { ThumbsUp, ThumbsDown, AlertCircle, X, Loader2, CheckCircle2 } from 'lucide-react'
+import { 
+  ThumbsUp, 
+  ThumbsDown, 
+  AlertCircle, 
+  X, 
+  Loader2, 
+  CheckCircle2
+} from 'lucide-react'
 import { ViSakhaChatInput } from '@/components/ui/vi-sakha-chat-input'
 import { sendChatMessageStream, addMessageFeedback, postFeedback, getConversation, createTicket, type ChatMessage, type ChatStreamEvent } from '@/lib/api'
 import { getUser } from '@/lib/auth'
@@ -104,6 +111,18 @@ function renderMarkdown(text: string): JSX.Element {
   return <>{elements}</>
 }
 
+const fileToBase64 = (file: File): Promise<string> => {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.readAsDataURL(file);
+    reader.onload = () => resolve(reader.result as string);
+    reader.onerror = (error) => reject(error);
+  });
+};
+
+
+
+
 interface ChatViewProps {
   onRaiseTicket: () => void
   studentInfo?: {
@@ -136,6 +155,7 @@ export function ChatView({ onRaiseTicket, studentInfo, activeConversationId, onC
     originalQuery: string;
     botResponse: string;
   } | null>(null)
+
   const [ticketCreationLoading, setTicketCreationLoading] = useState(false)
   const [ticketCreationSuccess, setTicketCreationSuccess] = useState(false)
   
@@ -202,13 +222,14 @@ export function ChatView({ onRaiseTicket, studentInfo, activeConversationId, onC
             isEscalated: m.isEscalated,
             confidence: m.confidence,
             sources: m.sources,
+            attachments: m.attachments,
           }))
         )
       })
       .catch(() => {})
   }, [activeConversationId])
 
-  const handleSendMessage = async (data: { message: string; files: unknown[] }) => {
+  const handleSendMessage = async (data: { message: string; files: any[] }) => {
     if (!data.message.trim() || isLoading || isStreaming) return
 
     setIsLoading(true)
@@ -216,12 +237,36 @@ export function ChatView({ onRaiseTicket, studentInfo, activeConversationId, onC
     setError(null)
     userScrolledUpRef.current = false  // reset scroll lock on new message
 
+    // Convert files to base64 attachments if present
+    let attachments: Array<{ name: string; type: string; content: string }> | undefined = undefined;
+    if (data.files && data.files.length > 0) {
+      try {
+        attachments = await Promise.all(
+          data.files.map(async (f: any) => {
+            const base64Data = await fileToBase64(f.file);
+            return {
+              name: f.file.name,
+              type: f.file.type,
+              content: base64Data,
+            };
+          })
+        );
+      } catch (err) {
+        console.error('Failed to encode attachments:', err);
+      }
+    }
+
     // Add user message optimistically
     const tempUserMessage: ChatMessage = {
       id: `temp-${Date.now()}`,
       role: 'user',
       content: data.message,
       createdAt: new Date().toISOString(),
+      attachments: attachments?.map(a => ({
+        name: a.name,
+        mimeType: a.type,
+        content: a.content
+      }))
     }
     setMessages((prev) => [...prev, tempUserMessage])
 
@@ -283,6 +328,30 @@ export function ChatView({ onRaiseTicket, studentInfo, activeConversationId, onC
               )
               break
             }
+            case 'node': {
+              setMessages((prev) =>
+                prev.map((m) => {
+                  if (m.id === streamingMsgId) {
+                    const currentTrace = m.trace || [];
+                    const exists = currentTrace.some((t: any) => t.name === event.name);
+                    let newTrace;
+                    if (exists) {
+                      newTrace = currentTrace.map((t: any) =>
+                        t.name === event.name ? { ...t, status: event.status } : t
+                      );
+                    } else {
+                      newTrace = [...currentTrace, { name: event.name, status: event.status }];
+                    }
+                    return {
+                      ...m,
+                      trace: newTrace,
+                    };
+                  }
+                  return m;
+                })
+              )
+              break
+            }
             case 'delta': {
               // Append text token to the streaming message
               setMessages((prev) =>
@@ -325,7 +394,8 @@ export function ChatView({ onRaiseTicket, studentInfo, activeConversationId, onC
           }
         },
         conversationId ?? undefined,
-        studentInfo
+        studentInfo,
+        attachments
       )
 
       onMessageSent?.()
@@ -589,6 +659,33 @@ export function ChatView({ onRaiseTicket, studentInfo, activeConversationId, onC
                       : <p className="whitespace-pre-wrap">{message.content}</p>
                     }
                   </div>
+                  
+                  {message.attachments && message.attachments.length > 0 && (
+                    <div className="flex flex-wrap gap-2 mt-3">
+                      {message.attachments.map((att, idx) => {
+                        const isImage = att.mimeType.startsWith('image/');
+                        return (
+                          <div 
+                            key={idx} 
+                            className="relative group rounded-xl overflow-hidden border border-gray-200 bg-gray-50 flex items-center justify-center transition-all hover:shadow-md max-w-[240px] max-h-[180px]"
+                          >
+                            {isImage ? (
+                              <img 
+                                src={att.content} 
+                                alt={att.name} 
+                                className="object-cover max-w-full max-h-[160px] rounded-lg p-1"
+                              />
+                            ) : (
+                              <div className="p-3 flex items-center gap-2 text-sm text-gray-600">
+                                <span className="p-1.5 rounded-lg bg-gray-200 text-gray-700 font-bold text-xs">FILE</span>
+                                <span className="font-medium truncate max-w-[120px]">{att.name}</span>
+                              </div>
+                            )}
+                          </div>
+                        );
+                      })}
+                    </div>
+                  )}
                   
                   {/* Only show feedback AFTER streaming is complete (not for streaming placeholders) */}
                   {message.role === 'assistant' && !message.id.startsWith('streaming-') && (

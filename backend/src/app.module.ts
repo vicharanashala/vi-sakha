@@ -1,25 +1,25 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { MongooseModule } from '@nestjs/mongoose';
-import { QaPairsModule } from './qa-pairs/qa-pairs.module';
-import { EmbeddingsModule } from './embeddings/embeddings.module';
-import { QaProposalsModule } from './qa-proposals/qa-proposals.module';
-import { ChatModule } from './chat/chat.module';
-import { ConversationModule } from './conversation/conversation.module';
-import { TicketsModule } from './tickets/tickets.module';
-import { AuthModule } from './auth/auth.module';
-import { FeedbackModule } from './feedback/feedback.module';
-import { UsersModule } from './users/users.module';
-import { DiscordIngestionModule } from './discord-ingestion/discord.module';
-import { EmbeddingWorkerModule } from './embedding-worker/embedding-worker.module';
-import { PipelineModule } from './pipeline/pipeline.module';
-import { AdminModule } from './admin/admin.module';
-import { CacheModule } from './cache/cache.module';
-import { McpModule } from './mcp/mcp.module';
+import { QaPairsModule } from './modules/rag/qa-pairs/qa-pairs.module';
+import { EmbeddingsModule } from './modules/rag/embeddings/embeddings.module';
+import { QaProposalsModule } from './modules/rag/qa-proposals/qa-proposals.module';
+import { ChatModule } from './modules/rag/chat/chat.module';
+import { ConversationModule } from './modules/rag/conversation/conversation.module';
+import { TicketsModule } from './modules/rag/tickets/tickets.module';
+import { AuthModule } from './modules/auth/auth.module';
+import { FeedbackModule } from './modules/analytics/feedback/feedback.module';
+import { UsersModule } from './modules/users/users.module';
+import { DiscordIngestionModule } from './modules/discord/discord.module';
+import { EmbeddingWorkerModule } from './modules/rag/embedding-worker/embedding-worker.module';
+import { PipelineModule } from './modules/rag/pipeline/pipeline.module';
+import { AdminModule } from './modules/rag/admin/admin.module';
+import { CacheModule } from './modules/rag/cache/cache.module';
+import { McpModule } from './modules/rag/mcp/mcp.module';
 import { BullModule } from '@nestjs/bullmq';
-import { EmailModule } from './email/email.module';
-import { NotificationModule } from './notifications/notification.module';
-import { AiAnalyticsModule } from './ai-analytics/ai-analytics.module';
+import { EmailModule } from './modules/email/email.module';
+import { NotificationModule } from './modules/notifications/notification.module';
+import { AiAnalyticsModule } from './modules/analytics/ai-analytics/ai-analytics.module';
 
 @Module({
   imports: [

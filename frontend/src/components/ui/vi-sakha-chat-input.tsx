@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect, useCallback } from "react";
-import { Plus, ArrowUp, X, FileText, Loader2, Archive, Ticket } from "lucide-react";
+import { ArrowUp, X, FileText, Loader2, Archive, Ticket, Image } from "lucide-react";
 
 /* --- UTILS --- */
 const formatFileSize = (bytes: number) => {
@@ -171,9 +171,10 @@ export const ViSakhaChatInput: React.FC<ViSakhaChatInputProps> = ({ onSendMessag
                 onClick={() => fileInputRef.current?.click()}
                 className="inline-flex items-center justify-center h-8 w-8 rounded-lg transition-colors text-gray-400 hover:text-gray-700 hover:bg-gray-100 active:scale-95"
                 type="button"
-                aria-label="Attach file"
+                aria-label="Upload image or file"
+                title="Upload image or file"
               >
-                <Plus className="w-5 h-5" />
+                <Image className="w-5 h-5" />
               </button>
 
               {/* Raise Ticket */}

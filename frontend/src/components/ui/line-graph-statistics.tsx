@@ -1,8 +1,8 @@
 "use client"
 
-import React, { useState, useEffect } from "react"
+import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { ChevronDown, Users, Monitor, Smartphone, TrendingUp, Activity, Ticket, Loader2 } from "lucide-react"
+import { Users, Activity, Ticket, Loader2 } from "lucide-react"
 
 import { TrendDataPoint } from "@/lib/api"
 
@@ -20,7 +20,6 @@ export function LineGraphStatistics({
   isLoading = false 
 }: LineGraphStatisticsProps) {
   const [hoveredPoint, setHoveredPoint] = useState<number | null>(null)
-  const [animationPhase, setAnimationPhase] = useState(0)
 
   const mobileData = trendData.map(d => d.mobileQueries);
   const desktopData = trendData.map(d => d.desktopQueries);
@@ -70,15 +69,6 @@ export function LineGraphStatistics({
     return path
   }
 
-  useEffect(() => {
-    setAnimationPhase(0)
-    const timers = [
-      setTimeout(() => setAnimationPhase(1), 100),
-      setTimeout(() => setAnimationPhase(2), 500),
-      setTimeout(() => setAnimationPhase(3), 1000),
-    ]
-    return () => timers.forEach(clearTimeout)
-  }, [selectedPeriod])
 
   const periods = [
     { label: "Last 3 months", val: "3m" },

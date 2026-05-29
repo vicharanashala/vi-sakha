@@ -1,0 +1,45 @@
+# syntax=docker/dockerfile:1
+
+# ── Stage 1: Build ────────────────────────────────────────────────────────────
+FROM node:20-alpine AS builder
+
+WORKDIR /app
+
+# Install build dependencies
+RUN apk add --no-cache python3 make g++
+
+# Copy workspace configuration
+COPY package*.json ./
+COPY tsconfig.base.json ./
+
+# Copy all packages and services
+COPY packages/ ./packages/
+COPY services/ ./services/
+COPY backend/ ./backend/
+
+# Install dependencies and build
+RUN npm install
+RUN npm run build --workspaces --if-present
+
+# ── Stage 2: Prune ────────────────────────────────────────────────────────────
+FROM node:20-alpine AS pruner
+WORKDIR /app
+COPY --from=builder /app ./
+RUN npm prune --production
+
+# ── Stage 3: Runtime ──────────────────────────────────────────────────────────
+FROM node:20-alpine AS runtime
+
+ARG SERVICE_PATH
+WORKDIR /app
+
+# Copy production node_modules and built code
+COPY --from=pruner /app/node_modules ./node_modules
+COPY --from=pruner /app/${SERVICE_PATH}/dist ./dist
+COPY --from=pruner /app/${SERVICE_PATH}/package.json ./package.json
+
+# Copy shared packages if needed (usually bundled or linked)
+COPY --from=pruner /app/packages/ ./packages/
+
+ENV NODE_ENV=production
+CMD ["node", "dist/index.js"]

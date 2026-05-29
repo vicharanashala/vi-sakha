@@ -65,9 +65,14 @@ export function HelpdeskSection() {
                 case studies, HP milestones, policies, and escalation
                 protocols—so students get instant, accurate answers.
               </p>
-              <button className="btn-outline-intercom text-white border-white/50 btn-outline-light">
+              <a
+                href="https://sudarshansudarshan.github.io/vinternship/intro/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-outline-intercom text-white border-white/50 btn-outline-light inline-flex items-center gap-2"
+              >
                 Learn more <ArrowUpRight className="w-4 h-4" />
-              </button>
+              </a>
             </div>
           </div>
         </motion.div>
@@ -94,9 +99,14 @@ export function HelpdeskSection() {
                     <p className="text-gray-500 text-sm leading-relaxed mb-5">
                       {feature.description}
                     </p>
-                    <button className="btn-outline-intercom text-gray-900 border-gray-300">
+                    <a
+                      href="https://sudarshansudarshan.github.io/vinternship/intro/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn-outline-intercom text-gray-900 border-gray-300 inline-flex items-center gap-2"
+                    >
                       Learn more <ArrowUpRight className="w-3.5 h-3.5" />
-                    </button>
+                    </a>
                   </div>
 
                   <div className="bg-gray-50 p-8 flex items-center justify-center border-l border-gray-100">
@@ -163,12 +173,20 @@ export function HelpdeskSection() {
                   pages or Discord-only support.
                 </p>
                 <div className="flex gap-3">
-                  <button className="bg-gray-900 text-white text-sm font-semibold px-5 py-2.5 rounded-lg hover:bg-gray-800 transition-colors">
+                  <a
+                    href="/login"
+                    className="bg-gray-900 text-white text-sm font-semibold px-5 py-2.5 rounded-lg hover:bg-gray-800 transition-colors inline-flex items-center"
+                  >
                     See analytics
-                  </button>
-                  <button className="btn-outline-intercom text-gray-600 border-gray-300 text-sm">
+                  </a>
+                  <a
+                    href="https://sudarshansudarshan.github.io/vinternship/case-studies/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-outline-intercom text-gray-600 border-gray-300 text-sm inline-flex items-center gap-2"
+                  >
                     Student stories <ArrowRight className="w-3.5 h-3.5" />
-                  </button>
+                  </a>
                 </div>
               </div>
 
@@ -218,9 +236,14 @@ export function HelpdeskSection() {
                 case study help, and ticket escalation.
               </p>
             </div>
-            <button className="btn-outline-intercom text-gray-900 border-gray-300 flex-shrink-0">
+            <a
+              href="https://sudarshansudarshan.github.io/vinternship/intro/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-outline-intercom text-gray-900 border-gray-300 flex-shrink-0 inline-flex items-center gap-2"
+            >
               Learn more <ArrowUpRight className="w-4 h-4" />
-            </button>
+            </a>
           </div>
         </motion.div>
       </div>

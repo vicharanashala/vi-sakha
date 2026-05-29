@@ -1,33 +1,117 @@
-version: '3.8'
+
 
 services:
-  # Main Application (React frontend + NestJS backend + Python sidecar)
-  app:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    ports:
-      - "3000:3000"  # UI & NestJS API
-      - "8001:8001"  # Python Embeddings API
-    env_file:
-      - .env
-    environment:
-      - NODE_ENV=production
-      - REDIS_HOST=redis
-      - REDIS_PORT=6379
-    depends_on:
-      - redis
-    restart: unless-stopped
-
-  # Redis for Caching
+  # 1. Redis Cache & Job Queue Session Store
   redis:
-    image: redis:7-alpine
+    image: redis:latest
     container_name: vsakha-redis
     ports:
       - "6379:6379"
     volumes:
-      - vsakha_redis_data:/data
-    restart: always
+      - redis_data:/data
+    networks:
+      - vsakha-net
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # 2. Python RAG Sidecar Server
+  rag-server:
+    build:
+      context: ./rag-server
+      dockerfile: Dockerfile
+    container_name: vsakha-rag-server
+    ports:
+      - "8001:8001"
+    environment:
+      - EMBEDDING_MODEL=BAAI/bge-small-en-v1.5
+      - RERANKER_MODEL=BAAI/bge-reranker-base
+      - CAPTION_MODEL=Salesforce/blip-image-captioning-base
+      - HOST=0.0.0.0
+      - PORT=8001
+    volumes:
+      - huggingface_cache:/root/.cache
+    networks:
+      - vsakha-net
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "python -c 'import urllib.request; urllib.request.urlopen(\"http://localhost:8001/health\")'"]
+      interval: 15s
+      timeout: 10s
+      retries: 8
+      start_period: 60s
+
+  # 3. NestJS Backend API REST/WS Server
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: vsakha-backend
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env.backend
+    environment:
+      - PORT=3000
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - EMBEDDING_SIDECAR_URL=http://rag-server:8001
+    depends_on:
+      redis:
+        condition: service_healthy
+      rag-server:
+        condition: service_healthy
+    networks:
+      - vsakha-net
+    restart: unless-stopped
+
+  # 4. Independent Discord Bot Service
+  discord-bot:
+    build:
+      context: .
+      dockerfile: discord-bot/Dockerfile
+    container_name: vsakha-discord-bot
+    env_file:
+      - .env.bot
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - BACKEND_API_URL=http://backend:3000/api
+    depends_on:
+      redis:
+        condition: service_healthy
+      backend:
+        condition: service_started
+    networks:
+      - vsakha-net
+    restart: unless-stopped
+
+  # 5. Production-Served Frontend Client Gateway
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        - VITE_API_URL=/api
+    container_name: vsakha-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - vsakha-net
+    restart: unless-stopped
 
 volumes:
-  vsakha_redis_data:
+  redis_data:
+    name: vsakha_redis_data
+  huggingface_cache:
+    name: vsakha_huggingface_cache
+
+networks:
+  vsakha-net:
+    name: vsakha-net
+    driver: bridge

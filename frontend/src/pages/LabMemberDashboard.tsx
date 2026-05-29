@@ -5,11 +5,11 @@ import { motion } from 'framer-motion'
 import { Sidebar, SidebarBody, useSidebar } from '@/components/ui/sidebar'
 import Pagination from '@/components/ui/next-gen-pagination-accessible'
 import ActionDrivenDashboard from '@/components/dashboard/ActionDrivenDashboard'
+import { ViSakhaChatInput } from '@/components/ui/vi-sakha-chat-input'
 import {
   MessageSquarePlus,
   MessagesSquare,
   Ticket,
-  BarChart3,
   Users,
   ShieldCheck,
   Search,
@@ -18,7 +18,6 @@ import {
   Plus,
   Send,
   CheckCircle2,
-  Clock,
   XCircle,
   ChevronRight,
   AlertCircle,
@@ -43,26 +42,7 @@ import {
   Pencil,
   Trash2,
   Save,
-  Database,
-  Zap,
 } from 'lucide-react'
-import {
-  ResponsiveContainer,
-  LineChart,
-  Line,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  BarChart as RechartsBarChart,
-  Bar as RechartsBar,
-  Cell,
-  PieChart,
-  Pie,
-  AreaChart,
-  Area,
-  Legend,
-} from 'recharts';
 import {
   adminListUsers,
   adminChangeRole,
@@ -100,17 +80,7 @@ import {
   type SupportTicket,
   type TicketMessage,
   type TicketScreenshot,
-  getTicketStats,
-  getConversation,
   generateQaFromConversation,
-  getFeedbackHotspots,
-  getFeedbackByTopic,
-  getDashboardSummary,
-  type DashboardSummary,
-  type TicketStats,
-  type ChatMessage,
-  type FeedbackHotspot,
-  type FeedbackDrilldownItem,
   getDiscordConversations,
   getDiscordConversation,
   getDiscordStats,
@@ -123,21 +93,12 @@ import {
   adminUpdateQaPair,
   adminDeleteQaPair,
   type QaPairV2,
-  adminGetQaGrowth,
-  adminGetPerformance,
-  type QaGrowthPoint,
-  type MemberPerformance,
+  sendChatMessageStream,
+  type ChatStreamEvent,
+  getConversation,
+  type ChatMessage,
 } from '../lib/api'
 import NotificationBell from '../components/NotificationBell';
-import {
-  BarChart as VisxBarChart,
-  Bar as VisxBar,
-  BarXAxis,
-  Grid as VisxGrid,
-  ChartTooltip,
-  LinearGradient,
-  BarLineIndicator
-} from '@/components/ui/bar-chart';
 
 function fileToDataUrl(file: File): Promise<string> {
   return new Promise((resolve, reject) => {
@@ -147,6 +108,15 @@ function fileToDataUrl(file: File): Promise<string> {
     reader.readAsDataURL(file)
   })
 }
+
+const fileToBase64 = (file: File): Promise<string> => {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.readAsDataURL(file);
+    reader.onload = () => resolve(reader.result as string);
+    reader.onerror = (error) => reject(error);
+  });
+};
 
 function sortTicketMessagesAsc(messages: TicketMessage[]) {
   return [...messages].sort(
@@ -171,7 +141,7 @@ function renderMarkdown(text: string): JSX.Element {
     while (remaining.length > 0) {
       const boldMatch = remaining.match(/\*\*(.+?)\*\*/)
       const italicMatch = remaining.match(/(?<!\*)\*([^*]+)\*(?!\*)/)
-
+      
       const boldIdx = boldMatch ? remaining.indexOf(boldMatch[0]) : -1
       const italicIdx = italicMatch ? remaining.indexOf(italicMatch[0]) : -1
 
@@ -188,6 +158,7 @@ function renderMarkdown(text: string): JSX.Element {
         remaining = ''
       }
     }
+
     return <>{parts}</>
   }
 
@@ -196,7 +167,9 @@ function renderMarkdown(text: string): JSX.Element {
       const ListTag = listType
       elements.push(
         <ListTag key={elements.length} className={`${listType === 'ul' ? 'list-disc' : 'list-decimal'} ml-4 space-y-1`}>
-          {listItems.map((item, i) => <li key={i}>{processInline(item)}</li>)}
+          {listItems.map((item, i) => (
+            <li key={i}>{processInline(item)}</li>
+          ))}
         </ListTag>
       )
       listItems = []
@@ -206,21 +179,39 @@ function renderMarkdown(text: string): JSX.Element {
 
   lines.forEach((line, idx) => {
     const trimmed = line.trim()
+    
     if (trimmed.startsWith('- ') || trimmed.startsWith('• ')) {
       if (listType !== 'ul') flushList()
       listType = 'ul'
       listItems.push(trimmed.substring(2))
-    } else if (/^\d+\.\s/.test(trimmed)) {
+    }
+    else if (/^\d+\.\s/.test(trimmed)) {
       if (listType !== 'ol') flushList()
       listType = 'ol'
       listItems.push(trimmed.replace(/^\d+\.\s/, ''))
-    } else {
+    }
+    else if (trimmed.startsWith('### ')) {
+      flushList()
+      elements.push(<h3 key={idx} className="text-lg font-bold mt-4 mb-2 text-gray-900">{processInline(trimmed.substring(4))}</h3>)
+    }
+    else if (trimmed.startsWith('## ')) {
+      flushList()
+      elements.push(<h2 key={idx} className="text-xl font-bold mt-5 mb-3 text-gray-900">{processInline(trimmed.substring(3))}</h2>)
+    }
+    else if (trimmed.startsWith('# ')) {
+      flushList()
+      elements.push(<h1 key={idx} className="text-2xl font-bold mt-6 mb-4 text-gray-900">{processInline(trimmed.substring(2))}</h1>)
+    }
+    else {
       flushList()
       if (trimmed) {
-        elements.push(<p key={idx} className="mb-1 last:mb-0">{processInline(trimmed)}</p>)
+        elements.push(<p key={idx} className="mb-2 last:mb-0">{processInline(trimmed)}</p>)
+      } else if (idx > 0 && idx < lines.length - 1) {
+        elements.push(<br key={idx} />)
       }
     }
   })
+
   flushList()
   return <>{elements}</>
 }
@@ -2255,605 +2246,6 @@ function QAProposalsView() {
   )
 }
 
-/* ═══════════════════════════════════════
-   PERFORMANCE CHART HELPERS
-   ═══════════════════════════════════════ */
-
-function TrendLineChart({ data, range }: { data: TrendDataPoint[]; range: '7d' | '30d' | '90d' }) {
-  if (data.length === 0) {
-    return <div className="h-48 flex items-center justify-center text-sm text-gray-400 font-medium italic">No trend data available for this range.</div>
-  }
-
-  return (
-    <div className="h-[200px] w-full">
-      <ResponsiveContainer width="100%" height="100%">
-        <AreaChart data={data} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
-          <defs>
-            <linearGradient id="colorQueries" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="5%" stopColor="#3b82f6" stopOpacity={0.1} />
-              <stop offset="95%" stopColor="#3b82f6" stopOpacity={0} />
-            </linearGradient>
-            <linearGradient id="colorResolved" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="5%" stopColor="#10b981" stopOpacity={0.1} />
-              <stop offset="95%" stopColor="#10b981" stopOpacity={0} />
-            </linearGradient>
-          </defs>
-          <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#f3f4f6" />
-          <XAxis
-            dataKey="date"
-            axisLine={false}
-            tickLine={false}
-            tick={{ fontSize: 10, fill: '#9ca3af', fontWeight: 600 }}
-            tickFormatter={(value) => value.slice(5)}
-            minTickGap={range === '30d' ? 30 : 0}
-          />
-          <YAxis
-            axisLine={false}
-            tickLine={false}
-            tick={{ fontSize: 10, fill: '#9ca3af', fontWeight: 600 }}
-          />
-          <Tooltip
-            contentStyle={{ borderRadius: '16px', border: 'none', boxShadow: '0 10px 15px -3px rgba(0,0,0,0.1)', fontSize: '12px', fontWeight: 'bold' }}
-          />
-          <Area type="monotone" dataKey="totalQueries" name="Queries" stroke="#3b82f6" strokeWidth={3} fillOpacity={1} fill="url(#colorQueries)" />
-          <Area type="monotone" dataKey="aiResolved" name="AI Resolved" stroke="#10b981" strokeWidth={2} strokeDasharray="5 5" fillOpacity={1} fill="url(#colorResolved)" />
-          <Area type="monotone" dataKey="ticketsRaised" name="Tickets" stroke="#f59e0b" strokeWidth={2} fillOpacity={0} />
-        </AreaChart>
-      </ResponsiveContainer>
-    </div>
-  )
-}
-
-function FeedbackDonut({ positive, negative, total }: FeedbackRatio) {
-  const data = [
-    { name: 'Satisfied', value: positive, color: '#10b981' },
-    { name: 'Unsatisfied', value: negative, color: '#ef4444' }
-  ];
-
-  const pct = total > 0 ? Math.round((positive / total) * 100) : 0;
-
-  return (
-    <div className="h-[170px] w-full relative">
-      <ResponsiveContainer width="100%" height="100%">
-        <PieChart>
-          <Pie
-            data={total > 0 ? data : [{ name: 'Empty', value: 1, color: '#f3f4f6' }]}
-            cx="50%"
-            cy="50%"
-            innerRadius={45}
-            outerRadius={65}
-            paddingAngle={5}
-            dataKey="value"
-          >
-            {(total > 0 ? data : [{ color: '#f3f4f6' }]).map((entry, index) => (
-              <Cell key={`cell-${index}`} fill={entry.color} />
-            ))}
-          </Pie>
-        </PieChart>
-      </ResponsiveContainer>
-      <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
-        <span className="text-xl font-black text-gray-900">{total > 0 ? `${pct}%` : '—'}</span>
-        <span className="text-[10px] font-bold text-gray-400 uppercase tracking-tighter">Positive</span>
-      </div>
-    </div>
-  )
-}
-
-/* ═══════════════════════════════════════
-   ANALYTICS VIEW
-   ═══════════════════════════════════════ */
-
-function AnalyticsView() {
-  const role = getUser()?.role ?? 'lab_member'
-
-  const [ticketStats, setTicketStats] = useState<TicketStats | null>(null)
-  const [hotspots, setHotspots] = useState<FeedbackHotspot[]>([])
-  const [summary, setSummary] = useState<DashboardSummary | null>(null)
-  const [hotspotsLoading, setHotspotsLoading] = useState(false)
-  const [drilldownTopic, setDrilldownTopic] = useState<string | null>(null)
-  const [drilldownItems, setDrilldownItems] = useState<FeedbackDrilldownItem[]>([])
-  const [drilldownLoading, setDrilldownLoading] = useState(false)
-  const [selectedConvId, setSelectedConvId] = useState<string | null>(null)
-  const [convMessages, setConvMessages] = useState<ChatMessage[] | null>(null)
-  const [convLoading, setConvLoading] = useState(false)
-  const [qaGrowth, setQaGrowth] = useState<QaGrowthPoint[]>([])
-  const [performance, setPerformance] = useState<MemberPerformance[]>([])
-  const [analyticsLoading, setAnalyticsLoading] = useState(true)
-
-  useEffect(() => {
-    async function loadData() {
-      setAnalyticsLoading(true)
-      try {
-        const [tStats, summaryRes, hotspotsRes, growthRes, perfRes] = await Promise.all([
-          getTicketStats(),
-          getDashboardSummary(),
-          getFeedbackHotspots().catch(() => []),
-          adminGetQaGrowth().catch(() => []),
-          adminGetPerformance().catch(() => [])
-        ])
-        setTicketStats(tStats)
-        setSummary(summaryRes)
-        setHotspots(hotspotsRes)
-        setQaGrowth(growthRes)
-        setPerformance(perfRes)
-      } catch (error) {
-        console.error('Failed to load analytics data:', error)
-      } finally {
-        setAnalyticsLoading(false)
-      }
-    }
-
-    loadData()
-  }, [])
-
-
-  const openDrilldown = async (topic: string) => {
-    setDrilldownTopic(topic)
-    setDrilldownLoading(true)
-    setDrilldownItems([])
-    setSelectedConvId(null)
-    setConvMessages(null)
-    try {
-      const items = await getFeedbackByTopic(topic)
-      setDrilldownItems(items)
-    } catch (err) {
-      console.error('Failed to load drilldown:', err)
-    } finally {
-      setDrilldownLoading(false)
-    }
-  }
-
-  const openConversation = async (convId: string) => {
-    setSelectedConvId(convId)
-    setConvLoading(true)
-    setConvMessages(null)
-    try {
-      const { messages } = await getConversation(convId)
-      setConvMessages(messages)
-    } catch (err) {
-      console.error('Failed to load conversation:', err)
-    } finally {
-      setConvLoading(false)
-    }
-  }
-
-  const closeDrilldown = () => {
-    setDrilldownTopic(null)
-    setDrilldownItems([])
-    setSelectedConvId(null)
-    setConvMessages(null)
-  }
-
-  // Map hotspots to topic chart data
-  const topicChartData = hotspots.slice(0, 6).map(h => ({
-    topic: h.topic,
-    count: h.total,
-    neg: h.negative,
-    pct: Math.round(h.negativeRatio * 100)
-  }));
-
-  // AI vs Human resolution distribution data
-  const resData = [
-    { name: 'AI Resolved', value: summary?.aiResolutionRate ?? 85, fill: '#10b981' },
-    { name: 'Human Escalated', value: 100 - (summary?.aiResolutionRate ?? 85), fill: '#f59e0b' }
-  ];
-
-  return (
-    <div className="space-y-8">
-      <div>
-        <h1 className="text-3xl font-black text-gray-900 tracking-tight">Analytics</h1>
-        <p className="text-gray-500 font-medium mt-1">Vi-Sakha performance and system-wide intelligence.</p>
-      </div>
-
-      {/* KPI HERO SECTION */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        {[
-          { label: 'Total Queries', value: summary?.totalQueries?.toLocaleString() ?? '—', change: '+12%', icon: MessagesSquare, color: 'indigo' },
-          { label: 'AI Resolution', value: `${summary?.aiResolutionRate ?? 0}%`, change: '+3.1%', icon: Bot, color: 'emerald' },
-          { label: 'Avg Response', value: `${(summary?.avgResponseMs ?? 0) / 1000}s`, change: '-0.2s', icon: Clock, color: 'blue' },
-          { label: 'Knowledge Base', value: summary?.kbSize?.toLocaleString() ?? '—', change: 'Verfied', icon: ShieldCheck, color: 'purple' },
-        ].map(kpi => (
-          <div key={kpi.label} className="bg-white border border-gray-100 rounded-[2.5rem] p-6 shadow-sm hover:shadow-md transition-all group overflow-hidden relative">
-            <div className={`p-3 rounded-2xl bg-${kpi.color}-50 text-${kpi.color}-600 inline-block mb-4 group-hover:bg-${kpi.color}-600 group-hover:text-white transition-colors`}>
-              <kpi.icon className="w-6 h-6" />
-            </div>
-            <p className="text-3xl font-black text-gray-900 tracking-tight">{kpi.value}</p>
-            <div className="flex items-center justify-between mt-1">
-              <p className="text-[10px] font-black text-gray-400 uppercase tracking-widest">{kpi.label}</p>
-              <span className="text-[10px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full">{kpi.change}</span>
-            </div>
-          </div>
-        ))}
-      </div>
-
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8">
-        {/* DISCORD PULSE SUMMARY */}
-        <div className="bg-indigo-600 rounded-[2.5rem] p-8 text-white shadow-xl relative overflow-hidden flex flex-col justify-between">
-          <div className="absolute top-0 right-0 -mr-10 -mt-10 w-40 h-40 bg-indigo-500/10 blur-3xl rounded-full" />
-          <div className="flex justify-between items-center mb-10 relative z-10">
-            <h3 className="text-xl font-black">Discord Pulse</h3>
-            <div className="p-2 bg-indigo-500/20 rounded-xl text-indigo-100">
-              <Zap className="w-5 h-5" />
-            </div>
-          </div>
-
-          <div className="space-y-8 relative z-10">
-            <div className="flex justify-between items-end">
-              <div>
-                <p className="text-[10px] font-black text-indigo-200 uppercase tracking-widest mb-1">Active Tickets</p>
-                <p className="text-5xl font-black text-white">{summary?.discordOpen ?? 0}</p>
-              </div>
-              <div className="text-right">
-                <p className="text-[10px] font-black text-indigo-200/50 uppercase tracking-widest mb-1">Total Ingested</p>
-                <p className="text-xl font-black text-indigo-100">{summary?.discordTotal ?? 0}</p>
-              </div>
-            </div>
-
-            <div className="space-y-2">
-              <div className="flex justify-between text-[10px] font-black uppercase text-indigo-200/60">
-                <span>Resolution Rate</span>
-                <span>{summary?.discordTotal && summary.discordTotal > 0 ? Math.round(((summary.discordClosed || 0) / summary.discordTotal) * 100) : 0}%</span>
-              </div>
-              <div className="h-2 w-full bg-white/10 rounded-full overflow-hidden">
-                <div
-                  className="h-full bg-white rounded-full"
-                  style={{ width: `${summary?.discordTotal && summary.discordTotal > 0 ? (summary.discordClosed / summary.discordTotal) * 100 : 0}%` }}
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-8">
-        {/* TICKET HEALTH & OPERATIONS */}
-        <div className="lg:col-span-2 bg-white border border-gray-100 rounded-[2.5rem] p-8 shadow-sm">
-          <div className="flex justify-between items-center mb-10">
-            <h3 className="text-xl font-black text-gray-900">Support Operations</h3>
-            <div className="flex gap-2 bg-emerald-50 text-emerald-700 text-[10px] font-black px-3 py-1 rounded-full uppercase tracking-wider">
-              System Active
-            </div>
-          </div>
-
-          <div className="grid grid-cols-3 gap-10 mb-10">
-            <div className="space-y-2">
-              <p className="text-[10px] font-black text-gray-400 uppercase tracking-widest">Open Web</p>
-              <p className="text-4xl font-black text-amber-600">{ticketStats?.open ?? 0}</p>
-              <div className="h-1.5 w-12 bg-amber-400 rounded-full" />
-            </div>
-            <div className="space-y-2">
-              <p className="text-[10px] font-black text-gray-400 uppercase tracking-widest">Resolved</p>
-              <p className="text-4xl font-black text-emerald-600">{ticketStats?.resolved ?? 0}</p>
-              <div className="h-1.5 w-12 bg-emerald-400 rounded-full" />
-            </div>
-            <div className="space-y-2">
-              <p className="text-[10px] font-black text-gray-400 uppercase tracking-widest">Avg. Res.</p>
-              <p className="text-4xl font-black text-gray-900">{ticketStats?.avgResolutionHours ?? 0}h</p>
-              <div className="h-1.5 w-12 bg-gray-900 rounded-full" />
-            </div>
-          </div>
-
-          <div className="p-6 bg-gray-50 border border-gray-100 rounded-3xl">
-            <div className="flex justify-between items-center mb-4 text-[10px] font-black text-gray-400 uppercase tracking-widest">
-              <span>Operational Efficiency (Holistic)</span>
-              <span className="text-gray-900">
-                {Math.round(((summary?.resolvedTickets || 0) + (summary?.discordClosed || 0)) /
-                  Math.max(1, (summary?.openTickets || 0) + (summary?.resolvedTickets || 0) + (summary?.discordTotal || 0)) * 100)}%
-              </span>
-            </div>
-            <div className="h-3 w-full bg-white rounded-full overflow-hidden border border-gray-100 flex items-center p-0.5">
-              <motion.div
-                initial={{ width: 0 }}
-                animate={{
-                  width: `${Math.round(((summary?.resolvedTickets || 0) + (summary?.discordClosed || 0)) /
-                    Math.max(1, (summary?.openTickets || 0) + (summary?.resolvedTickets || 0) + (summary?.discordTotal || 0)) * 100)}%`
-                }}
-                className="h-full bg-indigo-500 rounded-full shadow-lg shadow-indigo-200"
-              />
-            </div>
-          </div>
-        </div>
-
-        {/* RESOLUTION SPLIT DONUT */}
-        <div className="bg-gray-900 rounded-[2.5rem] p-8 shadow-xl text-white flex flex-col justify-between">
-          <h3 className="text-lg font-black mb-1">Resolution Split</h3>
-          <p className="text-xs font-medium text-blue-200/50 mb-6">AI vs Human Automation</p>
-
-          <div className="h-[200px] w-full flex items-center justify-center relative">
-            <ResponsiveContainer width="100%" height="100%">
-              <PieChart>
-                <Pie
-                  data={resData}
-                  cx="50%"
-                  cy="50%"
-                  innerRadius={65}
-                  outerRadius={85}
-                  paddingAngle={8}
-                  dataKey="value"
-                >
-                  {resData.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={entry.fill} stroke="none" />
-                  ))}
-                </Pie>
-                <Tooltip
-                  contentStyle={{ backgroundColor: '#111827', border: 'none', borderRadius: '12px', color: '#fff' }}
-                  itemStyle={{ color: '#fff' }}
-                />
-              </PieChart>
-            </ResponsiveContainer>
-            <div className="absolute flex flex-col items-center">
-              <span className="text-3xl font-black">{summary?.aiResolutionRate ?? 0}%</span>
-              <span className="text-[8px] font-bold text-blue-300 uppercase tracking-tighter">AI Driven</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* NEW ANALYTICS GRAPHS */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8">
-        <div className="bg-white border border-gray-100 rounded-[2.5rem] p-8 shadow-sm">
-          <div className="mb-6">
-            <h3 className="text-xl font-black text-gray-900 tracking-tight">QA Entry Growth</h3>
-            <p className="text-gray-400 text-xs font-bold uppercase tracking-widest mt-1">Daily accumulation in Knowledge Base</p>
-          </div>
-          <div className="h-[400px]">
-            {analyticsLoading ? (
-              <div className="h-full flex items-center justify-center">
-                <Loader2 className="w-8 h-8 animate-spin text-gray-200" />
-              </div>
-            ) : qaGrowth.length > 0 ? (
-              <VisxBarChart data={qaGrowth} xDataKey="date">
-                <VisxGrid horizontal numTicksRows={5} />
-                <BarXAxis />
-                <VisxBar
-                  dataKey="count"
-                  fill="url(#growth-gradient)"
-                  lineCap={6}
-                />
-                <BarLineIndicator
-                  data={qaGrowth}
-                  xKey="date"
-                  valueKey="count"
-                  stroke="#f59e0b"
-                  strokeWidth={3}
-                />
-                <LinearGradient id="growth-gradient" from="#f59e0b" fromOpacity={0.8} to="#f59e0b" toOpacity={0.1} />
-                <ChartTooltip />
-              </VisxBarChart>
-            ) : (
-              <div className="h-full flex flex-col items-center justify-center text-gray-400">
-                <TrendingUp className="w-12 h-12 mb-3 opacity-20" />
-                <p className="text-sm font-bold">No growth data available yet</p>
-              </div>
-            )}
-          </div>
-        </div>
-
-        <div className="bg-white border border-gray-100 rounded-[2.5rem] p-8 shadow-sm">
-          <div className="mb-6">
-            <h3 className="text-xl font-black text-gray-900 tracking-tight">Lab Member Performance</h3>
-            <p className="text-gray-400 text-xs font-bold uppercase tracking-widest mt-1">Resolution benchmarks by member</p>
-          </div>
-          <div className="h-[400px]">
-            {analyticsLoading ? (
-              <div className="h-full flex items-center justify-center">
-                <Loader2 className="w-8 h-8 animate-spin text-gray-200" />
-              </div>
-            ) : performance.length > 0 ? (
-              <VisxBarChart data={performance} xDataKey="name">
-                <VisxGrid horizontal numTicksRows={5} />
-                <BarXAxis />
-                <VisxBar
-                  dataKey="count"
-                  fill="var(--chart-line-secondary)"
-                  lineCap={6}
-                />
-                <ChartTooltip />
-              </VisxBarChart>
-            ) : (
-              <div className="h-full flex flex-col items-center justify-center text-gray-400">
-                <Users className="w-12 h-12 mb-3 opacity-20" />
-                <p className="text-sm font-bold">No performance data available</p>
-              </div>
-            )}
-          </div>
-        </div>
-      </div>
-
-      {/* KNOWLEDGE PULSE FOOTER */}
-      <div className="bg-white border border-gray-100 rounded-[2.5rem] p-8 shadow-sm mt-8">
-        <div className="flex justify-between items-center mb-8">
-          <h3 className="text-xl font-black text-gray-900">Knowledge Pulse</h3>
-          <ShieldCheck className="w-5 h-5 text-purple-400" />
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="flex justify-between items-end border-r border-gray-50 pr-8">
-            <div>
-              <p className="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-1">Total Verified</p>
-              <p className="text-5xl font-black text-gray-900 tracking-tighter">{summary?.kbSize ?? 0}</p>
-            </div>
-            <div className="text-emerald-600 font-bold text-xs bg-emerald-50 px-3 py-1.5 rounded-full">+12 Monthly</div>
-          </div>
-          <div className="bg-gray-50 rounded-2xl p-6">
-            <p className="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-1">Pending Sync</p>
-            <p className="text-2xl font-black text-amber-600">{summary?.qaPending ?? 0}</p>
-          </div>
-          <div className="bg-gray-50 rounded-2xl p-6">
-            <p className="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-1">Approval Velocity</p>
-            <p className="text-2xl font-black text-indigo-600">{summary?.qaApprovalRate ?? 0}%</p>
-          </div>
-        </div>
-      </div>
-      {/* FEEDBACK HOTSPOTS (ADMIN ONLY) */}
-      {role === 'admin' && (
-        <div className="bg-white border border-gray-100 rounded-[2.5rem] p-8 shadow-sm mt-8">
-          <div className="flex items-center justify-between mb-8">
-            <div>
-              <h3 className="text-xl font-black text-gray-900">Negative Hotspots</h3>
-              <p className="text-sm font-medium text-gray-500">Topics requiring knowledge base enrichment.</p>
-            </div>
-            <span className="text-[10px] font-black uppercase tracking-wider text-red-500 bg-red-50 border border-red-100 px-3 py-1 rounded-full">ACTION REQUIRED</span>
-          </div>
-
-          {hotspotsLoading ? (
-            <div className="flex justify-center py-20">
-              <Loader2 className="w-8 h-8 animate-spin text-gray-300" />
-            </div>
-          ) : hotspots.length === 0 ? (
-            <div className="text-center py-20 text-sm font-bold text-gray-400 bg-gray-50/30 rounded-[2rem] border border-dashed border-gray-200">
-              System health is optimal. No negative feedback trends detected.
-            </div>
-          ) : (
-            <div className="overflow-hidden rounded-[2rem] border border-gray-100 bg-gray-50/20">
-              <table className="w-full">
-                <thead>
-                  <tr className="bg-white border-b border-gray-100">
-                    <th className="text-left text-[10px] font-black text-gray-400 uppercase tracking-widest px-8 py-5">Topic Category</th>
-                    <th className="text-right text-[10px] font-black text-gray-400 uppercase tracking-widest px-8 py-5">Interactions</th>
-                    <th className="text-right text-[10px] font-black text-gray-400 uppercase tracking-widest px-8 py-5">Failure Rate</th>
-                    <th className="px-8 py-5" />
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-gray-50">
-                  {hotspots.map((row) => {
-                    const pct = Math.round(row.negativeRatio * 100)
-                    return (
-                      <tr key={row.topic} className="hover:bg-white transition-colors group">
-                        <td className="px-8 py-5 text-sm font-black text-gray-900">{row.topic}</td>
-                        <td className="px-8 py-5 text-sm text-gray-500 text-right font-medium">{row.total}</td>
-                        <td className="px-8 py-5 text-right">
-                          <div className="flex items-center justify-end gap-3">
-                            <span className={`text-[10px] font-black px-2.5 py-1 rounded-full border ${pct >= 50 ? 'bg-red-50 text-red-700 border-red-100' :
-                              pct >= 25 ? 'bg-amber-50 text-amber-700 border-amber-100' :
-                                'bg-gray-50 text-gray-500 border-gray-100'
-                              }`}>
-                              {pct}% Fail
-                            </span>
-                          </div>
-                        </td>
-                        <td className="px-8 py-5 text-right">
-                          <button
-                            onClick={() => openDrilldown(row.topic)}
-                            className="p-2.5 bg-gray-50 text-gray-400 rounded-xl hover:bg-blue-600 hover:text-white hover:shadow-lg hover:shadow-blue-100 transition-all active:scale-95"
-                          >
-                            <ArrowUpRight className="w-4 h-4" />
-                          </button>
-                        </td>
-                      </tr>
-                    )
-                  })}
-                </tbody>
-              </table>
-            </div>
-          )}
-        </div>
-      )}
-
-      {/* ── Drilldown Modal ── */}
-      {drilldownTopic && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-900/40 backdrop-blur-md p-6">
-          <div className="w-[min(90vw,860px)] max-h-[85vh] flex flex-col rounded-[2.5rem] shadow-2xl bg-white overflow-hidden border border-gray-100">
-            {/* Modal header */}
-            <div className="flex items-center gap-4 px-8 py-6 border-b border-gray-50 bg-gray-50/30 flex-shrink-0">
-              {selectedConvId ? (
-                <button
-                  onClick={() => { setSelectedConvId(null); setConvMessages(null) }}
-                  className="flex items-center gap-1 text-sm text-gray-500 hover:text-gray-800 transition-colors"
-                >
-                  <ChevronLeft className="w-4 h-4" /> Back
-                </button>
-              ) : (
-                <div className="flex items-center gap-2 flex-1 min-w-0">
-                  <AlertCircle className="w-4 h-4 text-red-500 flex-shrink-0" />
-                  <span className="text-sm font-bold text-gray-900 truncate">
-                    Negative Feedback — {drilldownTopic}
-                  </span>
-                </div>
-              )}
-              <button
-                onClick={closeDrilldown}
-                className="ml-auto p-1.5 rounded-lg text-gray-400 hover:text-gray-700 hover:bg-gray-200 transition-colors flex-shrink-0"
-              >
-                <X className="w-4 h-4" />
-              </button>
-            </div>
-
-            {/* Modal body */}
-            <div className="flex-1 overflow-y-auto">
-              {selectedConvId ? (
-                <div className="px-6 py-4 space-y-4">
-                  <p className="text-[10px] font-semibold text-gray-400 uppercase tracking-wider mb-2">
-                    Conversation ID: {selectedConvId}
-                  </p>
-                  {convLoading ? (
-                    <div className="flex justify-center py-10">
-                      <Loader2 className="w-5 h-5 animate-spin text-gray-400" />
-                    </div>
-                  ) : convMessages && convMessages.length > 0 ? (
-                    convMessages.map((msg, i) => (
-                      <div
-                        key={i}
-                        className={`flex gap-3 ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}
-                      >
-                        {msg.role === 'assistant' && (
-                          <div className="w-7 h-7 rounded-lg bg-gray-900 flex items-center justify-center flex-shrink-0 mt-0.5">
-                            <span className="text-white text-[10px] font-bold">VS</span>
-                          </div>
-                        )}
-                        <div className={`max-w-[72%] rounded-2xl px-4 py-2.5 text-sm ${msg.role === 'user'
-                          ? 'bg-gray-900 text-white rounded-br-sm'
-                          : 'bg-gray-100 text-gray-900 rounded-bl-sm'
-                          }`}>
-                          {renderMarkdown(msg.content)}
-                        </div>
-                      </div>
-                    ))
-                  ) : (
-                    <p className="text-sm text-gray-400 text-center py-8">No messages found.</p>
-                  )}
-                </div>
-              ) : (
-                drilldownLoading ? (
-                  <div className="flex justify-center py-10">
-                    <Loader2 className="w-5 h-5 animate-spin text-gray-400" />
-                  </div>
-                ) : drilldownItems.length === 0 ? (
-                  <div className="text-center py-10 text-sm text-gray-400">
-                    No negative feedback found for this topic.
-                  </div>
-                ) : (
-                  <div className="divide-y divide-gray-100">
-                    {drilldownItems.map((item) => (
-                      <div key={item.id} className="flex items-center justify-between px-6 py-4 hover:bg-gray-50/50 transition-colors">
-                        <div className="min-w-0">
-                          <p className="text-xs font-mono text-gray-400 truncate">
-                            Conv: {item.conversationId}
-                          </p>
-                          <p className="text-xs text-gray-500 mt-0.5">
-                            {new Date(item.createdAt).toLocaleString('en-IN', {
-                              day: '2-digit', month: 'short', year: 'numeric',
-                              hour: '2-digit', minute: '2-digit',
-                            })}
-                          </p>
-                        </div>
-                        <button
-                          onClick={() => openConversation(item.conversationId)}
-                          className="flex-shrink-0 ml-4 inline-flex items-center gap-1 text-xs font-semibold text-blue-600 hover:text-blue-700 hover:bg-blue-50 px-3 py-1.5 rounded-lg border border-blue-200 hover:border-blue-300 transition-colors"
-                        >
-                          View Transcript <ArrowUpRight className="w-3 h-3" />
-                        </button>
-                      </div>
-                    ))}
-                  </div>
-                )
-              )}
-            </div>
-          </div>
-        </div>
-      )}
-    </div>
-  )
-}
 
 /* ═══════════════════════════════════════
    DISCORD VIEW
@@ -3953,6 +3345,423 @@ function NavItem({
 }
 
 /* ═══════════════════════════════════════
+   CHATBOT SANDBOX PLAYGROUND
+   ═══════════════════════════════════════ */
+
+// Uses the global renderMarkdown function defined above
+
+function ChatbotSandbox() {
+  const [messages, setMessages] = useState<ChatMessage[]>([]);
+  const [conversationId, setConversationId] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [isStreaming, setIsStreaming] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const chatEndRef = useRef<HTMLDivElement>(null);
+  const userScrolledUpRef = useRef(false);
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
+
+  // Initialize with initial assistant message if empty
+  useEffect(() => {
+    if (messages.length === 0) {
+      setMessages([
+        {
+          id: 'initial',
+          role: 'assistant',
+          content: "Hello! I am your RAG Assistant. Ask me any course or syllabus question to test the retrieval logic in real-time.",
+          confidence: 1.0,
+          createdAt: new Date().toISOString(),
+        }
+      ]);
+    }
+  }, [messages.length]);
+
+  const scrollToBottom = useCallback(() => {
+    if (!userScrolledUpRef.current) {
+      chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, []);
+
+  useEffect(() => {
+    scrollToBottom();
+  }, [messages, loading, scrollToBottom]);
+
+  // Track manual scroll
+  useEffect(() => {
+    const container = scrollContainerRef.current;
+    if (!container) return;
+    const handleScroll = () => {
+      const { scrollTop, scrollHeight, clientHeight } = container;
+      userScrolledUpRef.current = scrollHeight - scrollTop - clientHeight > 80;
+    };
+    container.addEventListener('scroll', handleScroll);
+    return () => container.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const handleSend = async (data: { message: string; files: any[] }) => {
+    if (!data.message.trim() || loading || isStreaming) return;
+
+    setLoading(true);
+    setIsStreaming(false);
+    setError(null);
+    userScrolledUpRef.current = false;
+
+    // Convert files to base64 attachments if present
+    let attachments: Array<{ name: string; type: string; content: string }> | undefined = undefined;
+    if (data.files && data.files.length > 0) {
+      try {
+        attachments = await Promise.all(
+          data.files.map(async (f: any) => {
+            const base64Data = await fileToBase64(f.file);
+            return {
+              name: f.file.name,
+              type: f.file.type,
+              content: base64Data,
+            };
+          })
+        );
+      } catch (err) {
+        console.error('Failed to encode attachments:', err);
+      }
+    }
+
+    // Add user message optimistically
+    const tempUserMessage: ChatMessage = {
+      id: `temp-${Date.now()}`,
+      role: 'user',
+      content: data.message,
+      createdAt: new Date().toISOString(),
+      attachments: attachments?.map(a => ({
+        name: a.name,
+        mimeType: a.type,
+        content: a.content
+      }))
+    };
+    setMessages((prev) => [...prev, tempUserMessage]);
+
+    // Prepare placeholder for streaming assistant message
+    const streamingMsgId = `streaming-${Date.now()}`;
+
+    try {
+      await sendChatMessageStream(
+        data.message,
+        (event: ChatStreamEvent) => {
+          switch (event.type) {
+            case 'metadata': {
+              if (!conversationId) {
+                setConversationId(event.conversationId);
+              }
+              // Replace temp user message ID with real one
+              setMessages((prev) =>
+                prev.map((m) =>
+                  m.id === tempUserMessage.id
+                    ? { ...m, id: event.userMessageId }
+                    : m
+                )
+              );
+              // Add streaming assistant placeholder
+              setLoading(false);
+              setIsStreaming(true);
+              setMessages((prev) => [
+                ...prev,
+                {
+                  id: streamingMsgId,
+                  role: 'assistant' as const,
+                  content: '',
+                  createdAt: new Date().toISOString(),
+                },
+              ]);
+              break;
+            }
+            case 'sources': {
+              // Attach sources + confidence to the streaming message
+              setMessages((prev) =>
+                prev.map((m) =>
+                  m.id === streamingMsgId
+                    ? {
+                        ...m,
+                        confidence: event.confidence,
+                        sources: event.sources,
+                        isEscalated: event.status === 'escalated',
+                      }
+                    : m
+                )
+              );
+              break;
+            }
+            case 'node': {
+              setMessages((prev) =>
+                prev.map((m) => {
+                  if (m.id === streamingMsgId) {
+                    const currentTrace = m.trace || [];
+                    const exists = currentTrace.some((t: any) => t.name === event.name);
+                    let newTrace;
+                    if (exists) {
+                      newTrace = currentTrace.map((t: any) =>
+                        t.name === event.name ? { ...t, status: event.status } : t
+                      );
+                    } else {
+                      newTrace = [...currentTrace, { name: event.name, status: event.status }];
+                    }
+                    return {
+                      ...m,
+                      trace: newTrace,
+                    };
+                  }
+                  return m;
+                })
+              );
+              break;
+            }
+            case 'delta': {
+              // Append text token to the streaming message
+              setMessages((prev) =>
+                prev.map((m) =>
+                  m.id === streamingMsgId
+                    ? { ...m, content: m.content + event.text }
+                    : m
+                )
+              );
+              scrollToBottom();
+              break;
+            }
+            case 'done': {
+              // Replace streaming ID with real persisted ID
+              setMessages((prev) =>
+                prev.map((m) =>
+                  m.id === streamingMsgId
+                    ? { ...m, id: event.assistantMessageId }
+                    : m
+                )
+              );
+              break;
+            }
+            case 'error': {
+              setError(event.message);
+              break;
+            }
+          }
+        },
+        conversationId ?? undefined,
+        {
+          studentId: 'sandbox_tester',
+          studentName: 'Sandbox Admin',
+          studentEmail: 'sandbox@vled.iitr.ac.in',
+          cohort: 'Sandbox Testing'
+        },
+        attachments
+      );
+    } catch (err: any) {
+      console.error(err);
+      setError('Failed to send message. Please try again.');
+      // Remove optimistic messages on error
+      setMessages((prev) =>
+        prev.filter((m) => m.id !== tempUserMessage.id && m.id !== streamingMsgId)
+      );
+    } finally {
+      setLoading(false);
+      setIsStreaming(false);
+    }
+  };
+
+  const samplePrompts = [
+    "Grading weightage?",
+    "Late submission policy?",
+    "When are lab vivas?"
+  ];
+
+  return (
+    <div className="bg-[#FAF9F6] border border-gray-250 rounded-[2.5rem] p-6 shadow-sm hover:shadow-md transition-all flex flex-col h-[calc(100vh-140px)] sticky top-6">
+      {/* Sandbox Header */}
+      <div className="flex justify-between items-center pb-4 border-b border-gray-200/60 flex-shrink-0">
+        <div>
+          <h3 className="text-base font-black text-gray-900 flex items-center gap-1.5">
+            <Bot className="w-4 h-4 text-blue-600 animate-pulse" />
+            RAG Sandbox
+          </h3>
+          <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Live retrieval testing</p>
+        </div>
+        <button
+          onClick={() => {
+            setConversationId(null);
+            setMessages([
+              {
+                id: 'reset',
+                role: 'assistant',
+                content: "Session reset. RAG pipeline is initialized for a fresh sequence of questions.",
+                confidence: 1.0,
+                createdAt: new Date().toISOString(),
+              }
+            ]);
+          }}
+          title="Reset Conversation Session"
+          className="p-1.5 text-gray-400 hover:text-gray-900 rounded-lg hover:bg-gray-200 transition-colors"
+        >
+          <RefreshCw className="w-3.5 h-3.5" />
+        </button>
+      </div>
+
+      {/* Messages Stream */}
+      <div ref={scrollContainerRef} className="flex-1 overflow-y-auto py-4 space-y-4 pr-1 scrollbar-thin select-text">
+        {messages.map((msg) => (
+          <div key={msg.id} className={`flex flex-col ${msg.role === 'user' ? 'items-end' : 'items-start'}`}>
+            <div className={`max-w-[85%] rounded-[1.25rem] px-4 py-2.5 text-xs ${msg.role === 'user'
+                ? 'bg-gray-900 text-white rounded-br-sm shadow-md shadow-gray-200'
+                : 'bg-white text-gray-900 rounded-bl-sm border border-gray-200'
+              }`}>
+              <div className="leading-relaxed prose prose-sm max-w-none">
+                {msg.role === 'assistant' ? (
+                  <>
+                    {msg.id.startsWith('streaming-') && !msg.content ? (
+                      <div className="flex items-center gap-1.5 h-[18px]">
+                        <span className="w-1.5 h-1.5 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '0ms' }} />
+                        <span className="w-1.5 h-1.5 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '150ms' }} />
+                        <span className="w-1.5 h-1.5 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '300ms' }} />
+                      </div>
+                    ) : (
+                      <>
+                        {renderMarkdown(msg.content)}
+                        {msg.id.startsWith('streaming-') && (
+                          <span className="inline-block w-[2px] h-[14px] bg-gray-800 ml-0.5 align-text-bottom animate-pulse" />
+                        )}
+                      </>
+                    )}
+                  </>
+                ) : (
+                  <p className="whitespace-pre-wrap">{msg.content}</p>
+                )}
+              </div>
+            </div>
+
+            {/* Render local user attachments */}
+            {msg.role === 'user' && msg.attachments && msg.attachments.length > 0 && (
+              <div className="flex flex-wrap gap-1.5 mt-1.5 justify-end">
+                {msg.attachments.map((att, idx) => {
+                  const isImage = att.mimeType.startsWith('image/');
+                  return (
+                    <div key={idx} className="relative rounded-lg overflow-hidden border border-gray-200 bg-gray-50 max-w-[120px] max-h-[90px]">
+                      {isImage ? (
+                        <img src={att.content} alt={att.name} className="object-cover max-w-full max-h-[80px] p-0.5 rounded-md" />
+                      ) : (
+                        <div className="p-1 flex items-center gap-1 text-[10px] text-gray-650">
+                          <span className="font-semibold truncate max-w-[80px]">{att.name}</span>
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+
+            {/* Response Meta Info */}
+            {msg.role === 'assistant' && (msg.confidence !== undefined || msg.responseTimeMs) && (
+              <div className="flex items-center gap-2 mt-1 px-1 text-[8px] font-bold uppercase tracking-widest text-gray-400">
+                {msg.confidence !== undefined && (
+                  <span className={`px-1.5 py-0.5 rounded ${msg.confidence >= 0.8 ? 'bg-emerald-50 text-emerald-600' :
+                      msg.confidence >= 0.5 ? 'bg-amber-50 text-amber-600' :
+                        'bg-red-50 text-red-600'
+                    }`}>
+                    {Math.round(msg.confidence * 100)}% Match
+                  </span>
+                )}
+                {msg.responseTimeMs && <span>{((msg.responseTimeMs) / 1000).toFixed(2)}s</span>}
+              </div>
+            )}
+
+            {/* Reasoning Trace Info */}
+            {msg.role === 'assistant' && msg.trace && msg.trace.length > 0 && (
+              <div className="flex flex-wrap gap-1 mt-1 px-1 text-[8px] font-bold uppercase text-gray-400">
+                {msg.trace.map((t, idx) => (
+                  <span key={idx} className={`px-1 rounded border border-gray-200/60 ${t.status === 'start' ? 'bg-blue-50/50 text-blue-500 animate-pulse' : 'bg-gray-100/50 text-gray-500'}`}>
+                    {t.name}
+                  </span>
+                ))}
+              </div>
+            )}
+
+            {/* Retrieved Sources Dropdown */}
+            {msg.role === 'assistant' && msg.sources && msg.sources.length > 0 && (
+              <details className="w-[85%] mt-1.5 group">
+                <summary className="text-[9px] font-bold text-blue-600 uppercase tracking-wider cursor-pointer list-none flex items-center gap-1 hover:text-blue-700 select-none">
+                  <ChevronRight className="w-2.5 h-2.5 group-open:rotate-90 transition-transform" />
+                  View Sources ({msg.sources.length})
+                </summary>
+                <div className="mt-1 p-2.5 bg-white border border-gray-200 rounded-xl space-y-2 text-[10px] text-gray-600">
+                  {msg.sources.map((src, sIdx) => {
+                    const isNewStructure = 'content' in src || 'source' in src;
+                    return (
+                      <div key={sIdx} className="space-y-0.5 pb-2 border-b border-gray-200/50 last:pb-0 last:border-none">
+                        {isNewStructure ? (
+                          <>
+                            <p className="font-extrabold text-gray-800">Source: {(src as any).source || 'unknown'}</p>
+                            <p className="text-gray-500 font-medium whitespace-pre-wrap">{(src as any).content}</p>
+                            {(src as any).score !== undefined && (
+                              <p className="text-[8px] font-bold text-gray-450">Similarity Score: {((src as any).score * 100).toFixed(0)}%</p>
+                            )}
+                          </>
+                        ) : (
+                          <>
+                            <p className="font-extrabold text-gray-800">Q: {(src as any).question}</p>
+                            <p className="text-gray-500 font-medium line-clamp-2">{(src as any).answer}</p>
+                            {(src as any).similarity !== undefined && (
+                              <p className="text-[8px] font-bold text-gray-400">Similarity: {(src as any).similarity.toFixed(2)}</p>
+                            )}
+                          </>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              </details>
+            )}
+          </div>
+        ))}
+        {loading && (
+          <div className="flex items-start gap-2">
+            <div className="bg-white rounded-[1.25rem] rounded-bl-sm px-4 py-2.5 text-xs text-gray-500 flex items-center gap-2 border border-gray-200">
+              <span className="w-1.5 h-1.5 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '0ms' }} />
+              <span className="w-1.5 h-1.5 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '150ms' }} />
+              <span className="w-1.5 h-1.5 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '300ms' }} />
+            </div>
+          </div>
+        )}
+        <div ref={chatEndRef} />
+      </div>
+
+      {/* Error message */}
+      {error && (
+        <div className="mb-2 text-red-500 text-xs font-semibold text-center bg-red-50 p-2 rounded-xl border border-red-100 flex items-center justify-center gap-1">
+          <AlertCircle className="w-3.5 h-3.5" />
+          {error}
+        </div>
+      )}
+
+      {/* Sample prompts */}
+      {messages.length === 1 && !loading && (
+        <div className="pb-3 flex flex-wrap gap-1.5 flex-shrink-0">
+          {samplePrompts.map((p, idx) => (
+            <button
+              key={idx}
+              onClick={() => handleSend({ message: p, files: [] })}
+              className="text-[9px] font-black text-blue-600 uppercase tracking-wider bg-blue-50 hover:bg-blue-600 hover:text-white border border-blue-100 rounded-full px-3 py-1 transition-all"
+            >
+              {p}
+            </button>
+          ))}
+        </div>
+      )}
+
+      {/* Input area */}
+      <div className="pt-3 border-t border-gray-200/60 flex-shrink-0">
+        <ViSakhaChatInput
+          onSendMessage={handleSend}
+          disabled={loading || isStreaming}
+        />
+      </div>
+    </div>
+  );
+}
+
+/* ═══════════════════════════════════════
    MAIN DASHBOARD
    ═══════════════════════════════════════ */
 
@@ -4005,7 +3814,6 @@ export default function LabMemberDashboard() {
     { icon: Ticket, label: 'Tickets', view: 'tickets', badge: sidebarStats.openTickets > 0 ? String(sidebarStats.openTickets) : undefined },
     { icon: Radio, label: 'Discord', view: 'discord', badge: discordOpenCount > 0 ? String(discordOpenCount) : undefined },
     { icon: MessageSquarePlus, label: 'Q&A Proposals', view: 'qa', badge: sidebarStats.pendingProposals > 0 ? String(sidebarStats.pendingProposals) : undefined },
-    { icon: BarChart3, label: 'Analytics', view: 'analytics' },
     ...(isAdmin ? [
       { icon: BookOpen as typeof Users, label: 'Q&A Management', view: 'qa-management' as View },
       { icon: ShieldCheck as typeof Users, label: 'ID Management', view: 'id-management' as View },
@@ -4127,19 +3935,28 @@ export default function LabMemberDashboard() {
           </div>
         )}
 
-        <div className={activeView === 'discord' ? 'px-6 py-6' : 'max-w-5xl mx-auto px-8 py-8'}>
+        <div className={activeView === 'discord' || activeView === 'home' ? 'w-full px-6 py-6' : 'max-w-5xl mx-auto px-8 py-8'}>
           {activeView === 'home' && (
-            <ActionDrivenDashboard
-              isAdmin={isAdmin}
-              user={authUser}
-              onNavigate={setActiveView}
-            />
+            <div className="flex flex-col lg:flex-row gap-6 w-full items-stretch min-h-[calc(100vh-140px)]">
+              {/* Left section: ActionDrivenDashboard (with merged analytics) */}
+              <div className="flex-1 lg:w-[78%]">
+                <ActionDrivenDashboard
+                  isAdmin={isAdmin}
+                  user={authUser}
+                  onNavigate={setActiveView}
+                />
+              </div>
+
+              {/* Right section: Chatbot Sandbox */}
+              <div className="w-full lg:w-[22%] shrink-0">
+                <ChatbotSandbox />
+              </div>
+            </div>
           )}
           {activeView === 'conversations' && <ConversationsView />}
           {activeView === 'tickets' && <TicketsView />}
           {activeView === 'discord' && <DiscordView />}
           {activeView === 'qa' && <QAProposalsView />}
-          {activeView === 'analytics' && <AnalyticsView />}
           {activeView === 'id-management' && isAdmin && <IDManagementView />}
           {activeView === 'qa-management' && isAdmin && <QAManagementView />}
         </div>

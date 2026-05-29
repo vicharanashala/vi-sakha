@@ -1,3 +1,0 @@
-Student (unknown): Failed to start quiz: Cannot read properties of undefined (reading '_id')
-
-Instructor (jinalgupta., nitin_fighter1379, sreehari5371): Please look into the issue We are addressing the issue and expect it to be resolved soon. Thank you for your understanding. Is your issue resolved? CC: This was a common issue and was resolved yesterday. We hope your issue has been resolved? We hope your issue has been resolved? As is not responding hence assuming that the issue ha been resolved and closing the ticket.

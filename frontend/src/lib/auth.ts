@@ -6,6 +6,9 @@ export interface AuthUser {
   name: string
   email: string
   role: 'student' | 'lab_member' | 'admin'
+  cohortName?: string
+  cohortEmail?: string
+  isOnboarded?: boolean
 }
 
 export function getToken(): string | null {

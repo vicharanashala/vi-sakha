@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
-import { getUser, clearAuth } from '@/lib/auth'
+import { Link, useNavigate, useSearchParams } from 'react-router-dom'
+import { getUser, clearAuth, setAuth } from '@/lib/auth'
 import {
   MessageCircle,
   Ticket,
@@ -22,6 +22,9 @@ import {
   Search,
 } from 'lucide-react'
 import { ChatView } from '@/components/chat/ChatView'
+import { SkeletonTableRow } from '@/components/ui/skeleton'
+import { EmptyState } from '@/components/ui/empty-state'
+import { FilterTabs } from '@/components/ui/filter-tabs'
 import {
   createTicket,
   getTickets,
@@ -32,6 +35,7 @@ import {
   getStudentConversations,
   createChatConversation,
   deleteChatConversation,
+  onboardStudent,
   type SupportTicket,
   type TicketMessage,
   type TicketScreenshot,
@@ -49,11 +53,10 @@ type StudentView =
 function TicketStatusPill({ status }: { status: 'open' | 'resolved' }) {
   return (
     <span
-      className={`inline-flex items-center rounded-full border px-2 py-0.5 text-[11px] font-semibold capitalize ${
-        status === 'resolved'
+      className={`inline-flex items-center rounded-full border px-2 py-0.5 text-[11px] font-semibold capitalize ${status === 'resolved'
           ? 'border-emerald-200 bg-emerald-50 text-emerald-700'
           : 'border-amber-200 bg-amber-50 text-amber-700'
-      }`}
+        }`}
     >
       {status}
     </span>
@@ -109,11 +112,55 @@ export default function Dashboard() {
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const replyFileInputRef = useRef<HTMLInputElement>(null)
 
+  const [showOnboarding, setShowOnboarding] = useState(
+    authUser?.role === 'student' && !authUser?.isOnboarded
+  )
+  const [onboardName, setOnboardName] = useState(authUser?.name ?? '')
+  const [onboardCohort, setOnboardCohort] = useState('')
+  const [emailIsSame, setEmailIsSame] = useState(true)
+  const [onboardEmail, setOnboardEmail] = useState(authUser?.email ?? '')
+  const [onboardingSubmitting, setOnboardingSubmitting] = useState(false)
+  const [onboardingError, setOnboardingError] = useState<string | null>(null)
+
   const studentInfo = {
     studentId: authUser?.id ?? '',
     studentName: authUser?.name ?? 'Student',
-    studentEmail: authUser?.email ?? '',
-    cohort: '',
+    studentEmail: authUser?.cohortEmail || authUser?.email || '',
+    cohort: authUser?.cohortName ?? '',
+  }
+
+  const handleOnboardSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    if (!onboardName.trim()) {
+      setOnboardingError('Display name is required')
+      return
+    }
+    if (!onboardCohort) {
+      setOnboardingError('Please select your academic cohort')
+      return
+    }
+    if (!emailIsSame && !onboardEmail.trim()) {
+      setOnboardingError('Cohort email address is required')
+      return
+    }
+
+    setOnboardingSubmitting(true)
+    setOnboardingError(null)
+
+    try {
+      const response = await onboardStudent({
+        name: onboardName.trim(),
+        cohortName: onboardCohort,
+        cohortEmail: emailIsSame ? undefined : onboardEmail.trim(),
+      })
+      setAuth(response.access_token, response.user)
+      setShowOnboarding(false)
+      window.location.reload()
+    } catch (err: any) {
+      setOnboardingError(err.message || 'Failed to complete onboarding profile.')
+    } finally {
+      setOnboardingSubmitting(false)
+    }
   }
 
   const loadChatHistory = async () => {
@@ -169,6 +216,26 @@ export default function Dashboard() {
     fetchMyTickets()
     loadChatHistory()
   }, [])
+
+  // Deep link: auto-open a ticket from email ?ticket=100233
+  const [searchParams, setSearchParams] = useSearchParams()
+  useEffect(() => {
+    const ticketParam = searchParams.get('ticket')
+    if (!ticketParam || ticketLoading || tickets.length === 0) return
+
+    // Switch to My Tickets view
+    setActiveItem('My Tickets')
+
+    // Find matching ticket by ticketNumber
+    const match = tickets.find(t => t.ticketNumber === ticketParam)
+    if (match) {
+      openTicketDetail(match)
+    }
+
+    // Clear the param so refreshing doesn't re-trigger
+    searchParams.delete('ticket')
+    setSearchParams(searchParams, { replace: true })
+  }, [tickets, ticketLoading])
 
   const openTickets = tickets.filter((ticket) => ticket.status === 'open').length
 
@@ -477,12 +544,12 @@ export default function Dashboard() {
   const renderFAQ = () => {
     const filtered = faqSearch.trim()
       ? faqData.map(cat => ({
-          ...cat,
-          items: cat.items.filter(it =>
-            it.q.toLowerCase().includes(faqSearch.toLowerCase()) ||
-            it.a.toLowerCase().includes(faqSearch.toLowerCase())
-          ),
-        })).filter(cat => cat.items.length > 0)
+        ...cat,
+        items: cat.items.filter(it =>
+          it.q.toLowerCase().includes(faqSearch.toLowerCase()) ||
+          it.a.toLowerCase().includes(faqSearch.toLowerCase())
+        ),
+      })).filter(cat => cat.items.length > 0)
       : faqData
 
     return (
@@ -628,23 +695,34 @@ export default function Dashboard() {
           <p className="mt-1 text-sm text-gray-500">Track all tickets, resolution status, and submitted screenshots.</p>
         </div>
       </div>
-      <div className="mb-4 flex gap-1 rounded-xl bg-gray-100 p-1 w-fit">
-        {(['all', 'open', 'resolved'] as const).map((filter) => (
-          <button
-            key={filter}
-            onClick={() => setTicketFilter(filter)}
-            className={`rounded-lg px-3 py-1.5 text-xs font-semibold capitalize transition-colors ${
-              ticketFilter === filter ? 'bg-white text-gray-900 shadow-sm' : 'text-gray-500 hover:text-gray-700'
-            }`}
-          >
-            {filter}
-          </button>
-        ))}
+      <div className="mb-4">
+        <FilterTabs
+          options={[
+            { id: 'all', label: 'All', count: tickets.length },
+            { id: 'open', label: 'Open', count: tickets.filter(t => t.status === 'open').length },
+            { id: 'resolved', label: 'Resolved', count: tickets.filter(t => t.status === 'resolved').length },
+          ]}
+          selected={ticketFilter}
+          onChange={(id) => setTicketFilter(id as 'all' | 'open' | 'resolved')}
+        />
       </div>
       {ticketLoading ? (
-        <div className="flex justify-center py-12"><Loader2 className="h-6 w-6 animate-spin text-gray-400" /></div>
+        <div className="rounded-2xl border border-gray-100 bg-white overflow-hidden shadow-sm">
+          <SkeletonTableRow />
+          <SkeletonTableRow />
+          <SkeletonTableRow />
+        </div>
       ) : filteredTickets.length === 0 ? (
-        <div className="rounded-2xl border border-gray-200 bg-white py-12 text-center text-sm text-gray-500">No tickets found.</div>
+        <EmptyState
+          icon={Ticket}
+          title="No tickets found"
+          description={ticketFilter === 'all' ? "You haven't raised any tickets yet." : `You have no ${ticketFilter} tickets.`}
+          action={
+            <button onClick={() => setActiveItem('Raise Ticket')} className="text-sm font-semibold text-blue-600 hover:text-blue-700">
+              Raise a new ticket
+            </button>
+          }
+        />
       ) : (
         <div className="space-y-3">
           {filteredTickets.map((ticket) => (
@@ -925,11 +1003,10 @@ export default function Dashboard() {
                 >
                   <button
                     onClick={() => { setActiveChatId(conv.id); setActiveItem('Chat') }}
-                    className={`w-full text-left px-3 py-2 rounded-lg text-sm transition-colors ${
-                      activeChatId === conv.id && activeItem === 'Chat'
+                    className={`w-full text-left px-3 py-2 rounded-lg text-sm transition-colors ${activeChatId === conv.id && activeItem === 'Chat'
                         ? 'bg-white/10 text-white'
                         : 'text-gray-400 hover:bg-white/5 hover:text-gray-200'
-                    }`}
+                      }`}
                   >
                     <div className="flex items-center gap-2">
                       <MessageCircle className="w-3.5 h-3.5 flex-shrink-0 opacity-60" />
@@ -959,18 +1036,16 @@ export default function Dashboard() {
             <button
               key={item.label}
               onClick={() => setActiveItem(item.label)}
-              className={`w-full flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-colors ${
-                activeItem === item.label
+              className={`w-full flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-colors ${activeItem === item.label
                   ? 'bg-white/10 text-white'
                   : 'text-gray-400 hover:bg-white/5 hover:text-gray-200'
-              }`}
+                }`}
             >
               <item.icon className="w-4 h-4 flex-shrink-0" />
               <span className="flex-1 text-left">{item.label}</span>
               {item.badge && (
-                <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded-full min-w-[18px] text-center ${
-                  item.badgeAlert ? 'bg-orange-500 text-white' : 'bg-white/10 text-gray-300'
-                }`}>
+                <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded-full min-w-[18px] text-center ${item.badgeAlert ? 'bg-orange-500 text-white' : 'bg-white/10 text-gray-300'
+                  }`}>
                   {item.badge}
                 </span>
               )}
@@ -982,11 +1057,10 @@ export default function Dashboard() {
         <div className="px-2 py-2 border-t border-white/5">
           <button
             onClick={() => navigate('/dashboard/settings')}
-            className={`w-full flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-colors ${
-              activeItem === 'Settings'
+            className={`w-full flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-colors ${activeItem === 'Settings'
                 ? 'bg-white/10 text-white'
                 : 'text-gray-400 hover:bg-white/5 hover:text-gray-200'
-            }`}
+              }`}
           >
             <Settings className="w-4 h-4 flex-shrink-0" />
             Settings
@@ -1029,6 +1103,122 @@ export default function Dashboard() {
         {activeItem === 'Resources' && renderResources()}
         {activeItem === 'FAQ' && renderFAQ()}
       </main>
+
+      {/* ── First-time Student Onboarding Glassmorphism Modal ── */}
+      {showOnboarding && (
+        <div className="fixed inset-0 z-50 bg-[#0f172a]/40 backdrop-blur-sm flex items-center justify-center p-4 transition-all duration-300">
+          <div className="bg-white border border-gray-200/80 rounded-2xl w-full max-w-md p-7 shadow-[0_20px_50px_rgba(0,0,0,0.15)] relative overflow-hidden transition-all transform scale-100 duration-300">
+            <div className="relative z-10">
+              <div className="text-center mb-6">
+                <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-[#0f172a] text-white mb-3.5 shadow-md">
+                  <span className="font-bold text-lg tracking-tight">VS</span>
+                </div>
+                <h2 className="text-xl font-bold text-slate-900 tracking-tight">Complete Your Profile 👋</h2>
+                <p className="text-xs text-slate-500 mt-2 leading-relaxed">
+                  Let's quickly set up your VInternship cohort details. This automatically personalizes the chatbot and instantly retrieves your Health Points (HP).
+                </p>
+              </div>
+
+              <form onSubmit={handleOnboardSubmit} className="space-y-4">
+                {/* Display Name Input */}
+                <div>
+                  <label className="block text-[11px] font-semibold text-slate-500 uppercase tracking-wider mb-1.5">
+                    Display Name
+                  </label>
+                  <input
+                    type="text"
+                    value={onboardName}
+                    onChange={(e) => setOnboardName(e.target.value)}
+                    placeholder="Your full name"
+                    required
+                    className="w-full bg-white border border-gray-200 rounded-xl px-4 py-2.5 text-sm text-slate-900 focus:outline-none focus:ring-4 focus:ring-slate-100 focus:border-slate-400 transition-all placeholder-gray-400"
+                  />
+                </div>
+
+                {/* Cohort Dropdown */}
+                <div>
+                  <label className="block text-[11px] font-semibold text-slate-500 uppercase tracking-wider mb-1.5">
+                    Academic Cohort
+                  </label>
+                  <div className="relative">
+                    <select
+                      value={onboardCohort}
+                      onChange={(e) => setOnboardCohort(e.target.value)}
+                      required
+                      className="w-full bg-white border border-gray-200 rounded-xl px-4 py-2.5 text-sm text-slate-900 focus:outline-none focus:ring-4 focus:ring-slate-100 focus:border-slate-400 transition-all appearance-none cursor-pointer"
+                    >
+                      <option value="" disabled className="text-gray-400">Select your cohort...</option>
+                      <option value="aksians">Aksians (aksians)</option>
+                      <option value="rsaians">Rsaians (rsaians)</option>
+                      <option value="kruskalians">Kruskalians (kruskalians)</option>
+                      <option value="dijkstrians">Dijkstrians (dijkstrians)</option>
+                      <option value="euclideans">Euclideans (euclideans)</option>
+                    </select>
+                    <ChevronDown className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 pointer-events-none" />
+                  </div>
+                </div>
+
+                {/* Cohort Email ID Checkbox/Switch */}
+                <div className="bg-slate-50 border border-slate-100 rounded-xl p-3.5 space-y-3">
+                  <label className="flex items-start gap-3 cursor-pointer select-none">
+                    <input
+                      type="checkbox"
+                      checked={emailIsSame}
+                      onChange={(e) => setEmailIsSame(e.target.checked)}
+                      className="mt-0.5 w-4 h-4 rounded border-gray-300 text-slate-900 focus:ring-slate-400/20 bg-white cursor-pointer"
+                    />
+                    <div className="text-xs">
+                      <span className="font-semibold text-slate-800 block">Use login email for cohort tasks</span>
+                      <span className="text-slate-400 block mt-0.5 truncate max-w-[280px]">({authUser?.email})</span>
+                    </div>
+                  </label>
+
+                  {/* Custom email input if different */}
+                  {!emailIsSame && (
+                    <div className="pt-2 border-t border-slate-100 animate-in slide-in-from-top-1.5 duration-200">
+                      <label className="block text-[10px] font-semibold text-slate-500 uppercase tracking-wider mb-1.5">
+                        Cohort Registered Email ID
+                      </label>
+                      <input
+                        type="email"
+                        value={onboardEmail}
+                        onChange={(e) => setOnboardEmail(e.target.value)}
+                        placeholder="e.g. yourname@college.edu"
+                        required={!emailIsSame}
+                        className="w-full bg-white border border-gray-200 rounded-lg px-3.5 py-2 text-xs text-slate-900 focus:outline-none focus:ring-4 focus:ring-slate-100 focus:border-slate-400 transition-all placeholder-gray-400"
+                      />
+                    </div>
+                  )}
+                </div>
+
+                {/* Onboarding Errors */}
+                {onboardingError && (
+                  <div className="bg-red-50 border border-red-100 text-red-600 text-xs rounded-xl p-3 flex items-start gap-2.5 animate-pulse">
+                    <span className="font-semibold">⚠️</span>
+                    <p className="leading-relaxed">{onboardingError}</p>
+                  </div>
+                )}
+
+                {/* Submit Button */}
+                <button
+                  type="submit"
+                  disabled={onboardingSubmitting}
+                  className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-slate-900 hover:bg-slate-800 active:bg-slate-950 text-white font-semibold text-sm py-3 px-4 shadow-sm hover:shadow transition-all disabled:opacity-60 disabled:cursor-not-allowed group cursor-pointer"
+                >
+                  {onboardingSubmitting ? (
+                    <Loader2 className="w-4 h-4 animate-spin" />
+                  ) : (
+                    <>
+                      <span>Let's Begin</span>
+                      <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+                    </>
+                  )}
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   )
 }

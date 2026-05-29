@@ -1,0 +1,17 @@
+{
+  "name": "@visakha/retrieval-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vector search, hybrid retrieval, and reranking pipeline",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": { "build": "tsc", "clean": "rimraf dist" },
+  "dependencies": {
+    "@visakha/shared-types": "*",
+    "@visakha/shared-utils": "*",
+    "@visakha/config": "*",
+    "@qdrant/js-client-rest": "^1.11.0",
+    "mongoose": "^7.3.1"
+  },
+  "devDependencies": { "typescript": "^5.1.3" }
+}

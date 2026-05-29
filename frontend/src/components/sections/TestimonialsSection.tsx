@@ -61,9 +61,14 @@ export function TestimonialsSection() {
             <br />
             across all cohorts
           </h2>
-          <button className="btn-outline-intercom text-gray-900 border-gray-400">
+          <a
+            href="https://sudarshansudarshan.github.io/vinternship/case-studies/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-outline-intercom text-gray-900 border-gray-400 inline-flex items-center gap-2"
+          >
             View all student stories <ArrowUpRight className="w-4 h-4" />
-          </button>
+          </a>
         </motion.div>
 
         {/* Cohort tabs */}

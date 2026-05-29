@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { 
   ArrowLeft, 
   BookOpen, 
@@ -8,7 +8,6 @@ import {
   Search, 
   Copy, 
   Check, 
-  ExternalLink,
   ChevronRight,
   Terminal,
   Cpu

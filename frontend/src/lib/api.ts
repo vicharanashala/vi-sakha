@@ -28,6 +28,25 @@ function authFetch(url: string, init: RequestInit = {}): Promise<Response> {
   return fetch(url, { ...init, headers })
 }
 
+export async function onboardStudent(data: {
+  name: string
+  cohortName: string
+  cohortEmail?: string
+}): Promise<{ access_token: string; user: any }> {
+  const response = await authFetch(`${API_BASE}/auth/onboard`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(data),
+  })
+  if (!response.ok) {
+    const errorData = await response.json().catch(() => ({}))
+    throw new Error(errorData.message || 'Onboarding update failed.')
+  }
+  return response.json()
+}
+
 export interface UserAttribution {
   userId: string;
   name: string;
@@ -197,6 +216,12 @@ export interface ChatMessage {
   isEscalated?: boolean;
   responseTimeMs?: number;
   createdAt: string;
+  attachments?: Array<{
+    name: string;
+    mimeType: string;
+    content: string;
+  }>;
+  trace?: Array<{ name: string; status: 'start' | 'end' }>;
 }
 
 export interface Conversation {
@@ -213,6 +238,7 @@ export interface Conversation {
   lastMessageAt?: string;
   lastMessagePreview?: string;
   createdAt: string;
+  _id?: string;
 }
 
 export interface SendMessageResponse {
@@ -335,6 +361,8 @@ export interface SupportTicket {
   resolvedAt?: string;
   createdAt: string;
   updatedAt: string;
+  _id?: string;
+  priority?: 'low' | 'medium' | 'high';
 }
 
 export interface TicketStats {
@@ -439,7 +467,8 @@ export async function sendChatMessage(
     studentName?: string;
     studentEmail?: string;
     cohort?: string;
-  }
+  },
+  attachments?: Array<{ name: string; type: string; content: string }>
 ): Promise<SendMessageResponse> {
   const response = await authFetch(`${API_BASE}/chat/message`, {
     method: 'POST',
@@ -447,6 +476,7 @@ export async function sendChatMessage(
     body: JSON.stringify({
       content,
       conversationId,
+      attachments,
       ...studentInfo,
     }),
   });
@@ -464,6 +494,7 @@ export type ChatStreamEvent =
   | { type: 'metadata'; conversationId: string; userMessageId: string }
   | { type: 'sources'; sources: any[]; confidence: number; status: string }
   | { type: 'delta'; text: string }
+  | { type: 'node'; name: string; status: 'start' | 'end' }
   | { type: 'done'; assistantMessageId: string }
   | { type: 'error'; message: string };
 
@@ -480,7 +511,8 @@ export async function sendChatMessageStream(
     studentName?: string;
     studentEmail?: string;
     cohort?: string;
-  }
+  },
+  attachments?: Array<{ name: string; type: string; content: string }>
 ): Promise<void> {
   const response = await authFetch(`${API_BASE}/chat/message/stream`, {
     method: 'POST',
@@ -488,6 +520,7 @@ export async function sendChatMessageStream(
     body: JSON.stringify({
       content,
       conversationId,
+      attachments,
       ...studentInfo,
     }),
   });
@@ -867,6 +900,7 @@ export async function getTicketsPaginated(filter?: {
   instructorName?: string;
   page?: number;
   limit?: number;
+  ticketNumber?: string;
 }): Promise<{
   data: SupportTicket[];
   pagination: { total: number; page: number; limit: number; pages: number };
@@ -1081,6 +1115,23 @@ export interface DashboardSummary {
   totalUsers: number;
   studentCount: number;
   staffCount: number;
+  todayQueries: number;
+  todayAiResolved: number;
+  todayAiResolutionRate: number;
+}
+
+export interface TrendDataPoint {
+  date: string;
+  totalQueries: number;
+  aiResolved: number;
+  mobileQueries: number;
+  desktopQueries: number;
+}
+
+export interface FeedbackRatio {
+  positive: number;
+  negative: number;
+  total: number;
 }
 
 export interface QaGrowthPoint {

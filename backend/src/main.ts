@@ -1,12 +1,3 @@
-import { NestFactory } from '@nestjs/core';
-import { NestExpressApplication } from '@nestjs/platform-express';
-import { ValidationPipe } from '@nestjs/common';
-import { json, urlencoded, static as expressStatic } from 'express';
-import { IoAdapter } from '@nestjs/platform-socket.io';
-import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
-import { AppModule } from './app.module';
-import { UsersService } from './users/users.service';
-
 import * as dotenv from 'dotenv';
 import * as path from 'path';
 import * as fs from 'fs';
@@ -14,20 +5,18 @@ import * as fs from 'fs';
 // Load .env only if it exists (graceful for Docker environments)
 const envPath = path.resolve(process.cwd(), '.env');
 if (fs.existsSync(envPath)) {
-  console.log(`[Bootstrap] Attempting to load .env from: ${envPath}`);
-  const result = dotenv.config({ path: envPath });
-  if (result.error) {
-    console.error(`[Bootstrap] Error parsing .env file:`, result.error);
-  } else {
-    console.log(`[Bootstrap] Successfully loaded .env variables!`);
-  }
-} else {
-  if (process.env.MONGODB_URI) {
-    console.log(`[Bootstrap] No .env file — using environment variables (Docker mode).`);
-  } else {
-    console.warn(`[Bootstrap] No .env file and MONGODB_URI is missing. App may not start correctly.`);
-  }
+  dotenv.config({ path: envPath });
 }
+
+import { NestFactory } from '@nestjs/core';
+import { NestExpressApplication } from '@nestjs/platform-express';
+import { ValidationPipe } from '@nestjs/common';
+import { json, urlencoded, static as expressStatic } from 'express';
+import { IoAdapter } from '@nestjs/platform-socket.io';
+import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
+import { AppModule } from './app.module';
+import { UsersService } from './modules/users/users.service';
+
 
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);

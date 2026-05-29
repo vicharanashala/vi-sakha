@@ -85,7 +85,7 @@ export default function Settings() {
   };
 
   return (
-    <div className="min-h-screen bg-[#FAF9F6] flex flex-col items-center justify-start p-8 font-['Inter']">
+    <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-start p-8 font-['Inter']">
       <div className="max-w-3xl w-full">
         {/* Back Button */}
         <button 
@@ -101,7 +101,7 @@ export default function Settings() {
 
         <div className="space-y-6">
           {/* Account Profile Section */}
-          <div className="bg-white rounded-2xl shadow-sm border border-[#E8DFD3] overflow-hidden">
+          <div className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
             <div className="p-6 border-b border-gray-100 flex items-center justify-between bg-gray-50/50">
               <div className="flex items-center space-x-3">
                 <div className="p-2 bg-gray-900 text-white rounded-lg">
@@ -154,7 +154,7 @@ export default function Settings() {
 
           {/* API Key Section - Restricted to Admin/LabMember */}
           {(authUser?.role === 'admin' || authUser?.role === 'lab_member') && (
-            <div className="bg-white rounded-2xl shadow-sm border border-[#E8DFD3] overflow-hidden">
+            <div className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
               <div className="p-6 border-b border-gray-100 flex items-center justify-between bg-gray-50/50">
                 <div className="flex items-center space-x-3">
                   <div className="p-2 bg-blue-600 text-white rounded-lg">

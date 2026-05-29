@@ -7,16 +7,19 @@
   "license": "MIT",
   "scripts": {
     "build": "nest build",
+    "clean": "node -e \"const fs=require('fs'); ['dist', 'tsconfig.tsbuildinfo', 'tsconfig.build.tsbuildinfo'].forEach(f => fs.rmSync(f, {recursive:true, force:true}))\"",
     "format": "prettier --write \"src/**/*.ts\"",
     "start": "nest start",
+    "prestart:dev": "npm run clean",
     "start:dev": "nest start --watch",
+    "prestart:debug": "npm run clean",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "seed": "ts-node src/scripts/seed.ts",
     "seed:qa": "ts-node src/scripts/seed-qa.ts",
     "export-yaml": "ts-node src/scripts/export-swagger.ts",
-    "mcp:server": "node dist/mcp/stdio-server.js"
+    "mcp:server": "node dist/modules/rag/mcp/stdio-server.js"
   },
   "dependencies": {
     "@google/genai": "^1.46.0",
@@ -56,7 +59,11 @@
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.1",
     "socket.io": "^4.8.3",
-    "swagger-ui-express": "^5.0.1"
+    "swagger-ui-express": "^5.0.1",
+    "@visakha/agent-orchestrator": "file:../services/agent-orchestrator",
+    "@visakha/config": "file:../packages/config",
+    "@visakha/shared-types": "file:../packages/shared-types",
+    "@visakha/shared-utils": "file:../packages/shared-utils"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",

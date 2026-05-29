@@ -1,9 +1,0 @@
-Student (thethirukonda): Im unable to access the course. it says im registered but im not enrolled in the course
-
-Instructor (nitin_fighter1379): Can you attach scrrenshots of the issue?
-
-Student (thethirukonda): here you go . i cant see the enrollment
-
-Instructor (nitin_fighter1379): Can you check it now?
-
-Student (thethirukonda): yes, thank you. i think you can close the ticket now\

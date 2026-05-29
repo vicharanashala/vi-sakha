@@ -46,9 +46,14 @@ export function FinSection() {
                 When Vi-Sakha can't resolve a query, students raise tickets that
                 flow to the VLED Lab dashboard for human-in-the-loop review
               </p>
-              <button className="btn-outline-intercom text-white border-white/40 btn-outline-light">
+              <a
+                href="https://sudarshansudarshan.github.io/vinternship/intro/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-outline-intercom text-white border-white/40 btn-outline-light inline-flex items-center gap-2"
+              >
                 Learn more <ArrowUpRight className="w-4 h-4" />
-              </button>
+              </a>
             </div>
           </div>
         </motion.div>
@@ -75,9 +80,14 @@ export function FinSection() {
                 the entire VInternship ecosystem and resolves queries across
                 all categories.
               </p>
-              <button className="btn-outline-intercom text-white border-white/30 btn-outline-light">
+              <a
+                href="https://sudarshansudarshan.github.io/vinternship/intro/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-outline-intercom text-white border-white/30 btn-outline-light inline-flex items-center gap-2"
+              >
                 Learn more <ArrowUpRight className="w-3.5 h-3.5" />
-              </button>
+              </a>
             </div>
 
             {/* Query Topics mockup */}
@@ -196,9 +206,14 @@ export function FinSection() {
                 accurate, up-to-date, and contextually relevant to each
                 student's cohort and progress.
               </p>
-              <button className="btn-outline-intercom text-white border-white/30 btn-outline-light">
+              <a
+                href="https://sudarshansudarshan.github.io/vinternship/intro/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-outline-intercom text-white border-white/30 btn-outline-light inline-flex items-center gap-2"
+              >
                 Learn more <ArrowUpRight className="w-3.5 h-3.5" />
-              </button>
+              </a>
             </div>
 
             {/* RAG Architecture wireframe */}
@@ -305,9 +320,14 @@ export function FinSection() {
                 with the human-in-the-loop interface.
               </p>
             </div>
-            <button className="btn-outline-intercom text-white border-white/30 btn-outline-light flex-shrink-0">
+            <a
+              href="https://sudarshansudarshan.github.io/vinternship/intro/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-outline-intercom text-white border-white/30 btn-outline-light flex-shrink-0 inline-flex items-center gap-2"
+            >
               Learn more <ArrowUpRight className="w-4 h-4" />
-            </button>
+            </a>
           </div>
         </motion.div>
       </div>

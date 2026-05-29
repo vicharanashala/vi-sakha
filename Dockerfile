@@ -3,6 +3,7 @@
 # ==========================================
 FROM node:20-alpine AS frontend-builder
 WORKDIR /app/frontend
+ENV NODE_OPTIONS=--max-old-space-size=4096
 COPY frontend/package*.json ./
 RUN npm install
 COPY frontend/ ./
@@ -14,6 +15,7 @@ RUN npm run build
 # ==========================================
 FROM node:20-alpine AS backend-builder
 WORKDIR /app/backend
+ENV NODE_OPTIONS=--max-old-space-size=4096
 COPY backend/package*.json ./
 RUN npm install --legacy-peer-deps
 COPY backend/ ./
@@ -44,6 +46,8 @@ ENV NODE_ENV=production
 WORKDIR /app/backend
 COPY backend/package*.json ./
 RUN npm install --only=production --legacy-peer-deps
+COPY backend/.env ./
+COPY backend/service-account.json ./
 COPY --from=backend-builder /app/backend/dist ./dist
 
 # 3. Setup Frontend Assets (served by NestJS)

@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { Zap, Activity } from "lucide-react"
+import { Activity } from "lucide-react"
 
 interface DataPoint {
   time: number
@@ -17,8 +17,7 @@ interface RealTimeActivityProps {
 }
 
 export function RealTimeActivity({ 
-  summary, 
-  isLoading = false 
+  summary
 }: RealTimeActivityProps) {
   const [data, setData] = useState<DataPoint[]>([])
   const [hoveredPoint, setHoveredPoint] = useState<DataPoint | null>(null)

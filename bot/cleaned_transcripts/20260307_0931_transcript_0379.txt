@@ -1,7 +1,0 @@
-Student (peethakowsalya): I accidentally entered my name incorrectly in the consent form. Can I submit the form again with the correct name?
-
-Instructor (nitin_fighter1379): Please submit the consent form again is the issue resolved? Can we close the ticket?
-
-Student (peethakowsalya): Solved sir
-
-Instructor (nitin_fighter1379): Closing the Ticket.

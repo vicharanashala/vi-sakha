@@ -1,9 +1,0 @@
-Student (st0rm_16): Unable to Attempt Quiz Due to Loading Error
-
-Instructor (jinalgupta., sreehari5371): Kindly look at this. Kindly elaborate on the issue and provide a screenshot or screen recording for better understanding.
-
-Student (st0rm_16): I am unable to attempt the quiz as it is stuck on loading and showing an error, “Failed to start quiz: Cannot use 'in' operator to search for 'message' in undefined.” I have attached a screenshot. Please check.
-
-Instructor (sreehari5371): Please check now and update us.
-
-Student (st0rm_16): The issue has been resolved now and I am able to attempt the quiz. Thank you for the support.

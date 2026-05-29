@@ -34,3 +34,6 @@ export {
   onAuthStateChanged,
   GoogleAuthProvider
 };
+
+export default app;
+

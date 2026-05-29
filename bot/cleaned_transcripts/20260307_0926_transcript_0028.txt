@@ -1,9 +1,0 @@
-Student (mrthanosxd): ViBe progress issue In react module, it shows 368/369 completed But I completed all the videos and it shows completed in videos but as a module it shows incomplete
-
-Instructor (prkharvndn): Hey Dont worry
-
-Student (mrthanosxd): Yeah, tomorrow is the deadline right So I am bit worried
-
-Instructor (prkharvndn, yazdan_irfan): I get you! Hi Siddartha, So the issue you are facing is a backend issue and it mentioned in the FAQ, Don't worry about it now showing completed, the backend team will manually change it So you need not worry about this and continue your Study on ViBe Thank you
-
-Student (mrthanosxd): Yeah Thanks a lot
