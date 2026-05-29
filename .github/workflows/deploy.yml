@@ -1,4 +1,4 @@
-name: Build & Deploy (Docker Hub & Optional Cloud Run)
+name: Backend CI/CD
 
 on:
   push:
@@ -18,11 +18,9 @@ on:
 permissions:
   contents: write
   packages: write
-  id-token: write
 
 env:
   DOCKER_IMAGE: vi-sakha
-  DOCKER_TAG: 2.0
   GCP_REGION: asia-south1
   GCP_SERVICE_STAGING: vi-sakha-staging
   GCP_SERVICE_PRODUCTION: vi-sakha-production
@@ -34,21 +32,21 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
-      - name: Create Dummy environment files if missing
+      - name: Create gitignored files needed by Docker
         run: |
-          mkdir -p backend
+          # The .dockerignore whitelists these two files (!backend/.env, !backend/service-account.json)
+          # but they are gitignored, so they won't exist in the GitHub checkout.
+          # Create safe placeholders so the COPY instructions in backend/Dockerfile succeed.
           if [ ! -f backend/.env ]; then
             echo "NODE_ENV=production" > backend/.env
             echo "PORT=3000" >> backend/.env
           fi
           if [ ! -f backend/service-account.json ]; then
-            echo '{"type": "service_account", "project_id": "dummy"}' > backend/service-account.json
+            echo '{}' > backend/service-account.json
           fi
 
       - name: Log in to Docker Hub
@@ -61,11 +59,12 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          file: ./Dockerfile
+          file: ./backend/Dockerfile
           push: true
+          provenance: false
           tags: |
-            dita67/${{ env.DOCKER_IMAGE }}:latest
-            dita67/${{ env.DOCKER_IMAGE }}:${{ env.DOCKER_TAG }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.DOCKER_IMAGE }}:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.DOCKER_IMAGE }}:${{ github.sha }}
 
   deploy_staging:
     name: Deploy to Cloud Run (Staging)
@@ -79,44 +78,14 @@ jobs:
         uses: google-github-actions/auth@v2
         with:
           credentials_json: '${{ secrets.GCP_SA_KEY }}'
-         
+
       - name: Deploy to Cloud Run
-        uses: google-github-actions/deploy-cloudrun@v1
+        uses: google-github-actions/deploy-cloudrun@v2
         with:
           service: ${{ env.GCP_SERVICE_STAGING }}
           region: ${{ env.GCP_REGION }}
-          image: dita67/${{ env.DOCKER_IMAGE }}:${{ env.DOCKER_TAG }}
+          image: ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.DOCKER_IMAGE }}:${{ github.sha }}
           project_id: ${{ secrets.GCP_PROJECT_ID }}
-          env_vars: |
-            NODE_ENV=staging
-            PORT=3000
-            LLM_PROVIDER=${{ secrets.LLM_PROVIDER }}
-            ANTHROPIC_API_KEY=${{ secrets.ANTHROPIC_API_KEY }}
-            GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}
-            MONGODB_URI=${{ secrets.MONGODB_URI }}
-            LIBRECHAT_MONGODB_URI=${{ secrets.LIBRECHAT_MONGODB_URI }}
-            LIBRECHAT_DB_NAME=${{ secrets.LIBRECHAT_DB_NAME }}
-            FIREBASE_API_KEY=${{ secrets.FIREBASE_API_KEY }}
-            FIREBASE_AUTH_DOMAIN=${{ secrets.FIREBASE_AUTH_DOMAIN }}
-            FIREBASE_PROJECT_ID=${{ secrets.FIREBASE_PROJECT_ID }}
-            FIREBASE_STORAGE_BUCKET=${{ secrets.FIREBASE_STORAGE_BUCKET }}
-            FIREBASE_MESSAGING_SENDER_ID=${{ secrets.FIREBASE_MESSAGING_SENDER_ID }}
-            FIREBASE_APP_ID=${{ secrets.FIREBASE_APP_ID }}
-            GOOGLE_CLIENT_ID=${{ secrets.GOOGLE_CLIENT_ID }}
-            GOOGLE_CLIENT_SECRET=${{ secrets.GOOGLE_CLIENT_SECRET }}
-            GOOGLE_REDIRECT_URI=${{ secrets.GOOGLE_REDIRECT_URI }}
-            GOOGLE_REFRESH_TOKEN=${{ secrets.GOOGLE_REFRESH_TOKEN }}
-            GMAIL_USER=${{ secrets.GMAIL_USER }}
-            GMAIL_PASS=${{ secrets.GMAIL_PASS }}
-            DISCORD_BOT_TOKEN=${{ secrets.DISCORD_BOT_TOKEN }}
-            DISCORD_CHANNEL_ID=${{ secrets.DISCORD_CHANNEL_ID }}
-            DISCORD_GUILD_ID=${{ secrets.DISCORD_GUILD_ID }}
-            JWT_SECRET=${{ secrets.JWT_SECRET }}
-            CORS_ORIGINS=${{ secrets.CORS_ORIGINS }}
-            REDIS_HOST=localhost
-            REDIS_PORT=6379
-            QDRANT_URL=${{ secrets.QDRANT_URL }}
-            EMBEDDING_SIDECAR_URL=http://localhost:8001
           flags: --allow-unauthenticated
 
   deploy_production:
@@ -133,40 +102,10 @@ jobs:
           credentials_json: '${{ secrets.GCP_SA_KEY }}'
 
       - name: Deploy to Cloud Run (Production)
-        uses: google-github-actions/deploy-cloudrun@v1
+        uses: google-github-actions/deploy-cloudrun@v2
         with:
           service: ${{ env.GCP_SERVICE_PRODUCTION }}
           region: ${{ env.GCP_REGION }}
-          image: dita67/${{ env.DOCKER_IMAGE }}:${{ env.DOCKER_TAG }}
+          image: ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.DOCKER_IMAGE }}:${{ github.sha }}
           project_id: ${{ secrets.GCP_PROJECT_ID }}
-          env_vars: |
-            NODE_ENV=production
-            PORT=3000
-            LLM_PROVIDER=${{ secrets.LLM_PROVIDER }}
-            ANTHROPIC_API_KEY=${{ secrets.ANTHROPIC_API_KEY }}
-            GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}
-            MONGODB_URI=${{ secrets.MONGODB_URI }}
-            LIBRECHAT_MONGODB_URI=${{ secrets.LIBRECHAT_MONGODB_URI }}
-            LIBRECHAT_DB_NAME=${{ secrets.LIBRECHAT_DB_NAME }}
-            FIREBASE_API_KEY=${{ secrets.FIREBASE_API_KEY }}
-            FIREBASE_AUTH_DOMAIN=${{ secrets.FIREBASE_AUTH_DOMAIN }}
-            FIREBASE_PROJECT_ID=${{ secrets.FIREBASE_PROJECT_ID }}
-            FIREBASE_STORAGE_BUCKET=${{ secrets.FIREBASE_STORAGE_BUCKET }}
-            FIREBASE_MESSAGING_SENDER_ID=${{ secrets.FIREBASE_MESSAGING_SENDER_ID }}
-            FIREBASE_APP_ID=${{ secrets.FIREBASE_APP_ID }}
-            GOOGLE_CLIENT_ID=${{ secrets.GOOGLE_CLIENT_ID }}
-            GOOGLE_CLIENT_SECRET=${{ secrets.GOOGLE_CLIENT_SECRET }}
-            GOOGLE_REDIRECT_URI=${{ secrets.GOOGLE_REDIRECT_URI }}
-            GOOGLE_REFRESH_TOKEN=${{ secrets.GOOGLE_REFRESH_TOKEN }}
-            GMAIL_USER=${{ secrets.GMAIL_USER }}
-            GMAIL_PASS=${{ secrets.GMAIL_PASS }}
-            DISCORD_BOT_TOKEN=${{ secrets.DISCORD_BOT_TOKEN }}
-            DISCORD_CHANNEL_ID=${{ secrets.DISCORD_CHANNEL_ID }}
-            DISCORD_GUILD_ID=${{ secrets.DISCORD_GUILD_ID }}
-            JWT_SECRET=${{ secrets.JWT_SECRET }}
-            CORS_ORIGINS=${{ secrets.CORS_ORIGINS }}
-            REDIS_HOST=localhost
-            REDIS_PORT=6379
-            QDRANT_URL=${{ secrets.QDRANT_URL }}
-            EMBEDDING_SIDECAR_URL=http://localhost:8001
           flags: --allow-unauthenticated
