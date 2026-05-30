@@ -171,10 +171,10 @@ export class ConversationService {
       .map((m) => `${m.role === 'user' ? 'User' : 'Assistant'}: ${m.text}`)
       .join('\n');
 
-    // const apiKey = this.configService.get<string>('ANTHROPIC_API_KEY');
-    // if (!apiKey) throw new Error('ANTHROPIC_API_KEY not configured');
-    const apiKey = this.configService.get<string>('GEMINI_API_KEY');
-    if (!apiKey) throw new Error('GEMINI_API_KEY not configured');
+    const apiKey = this.configService.get<string>('ANTHROPIC_API_KEY');
+    if (!apiKey) throw new Error('ANTHROPIC_API_KEY not configured');
+    // const apiKey = this.configService.get<string>('GEMINI_API_KEY');
+    // if (!apiKey) throw new Error('GEMINI_API_KEY not configured');
 
     const prompt = `You are an expert knowledge base curator.
 
@@ -196,30 +196,30 @@ Return ONLY valid JSON:
 Conversation:
 ${conversationText}`;
 
-    const ai = new GoogleGenAI({ apiKey: apiKey });
-    // const response = await firstValueFrom(
-    //   this.httpService.post(
-    //     'https://api.anthropic.com/v1/messages',
-    //     {
-    //       model: 'claude-haiku-4-5-20251001',
-    //       max_tokens: 500,
-    //       messages: [{ role: 'user', content: prompt }],
-    //     },
-    //     {
-    //       headers: {
-    //         'x-api-key': apiKey,
-    //         'anthropic-version': '2023-06-01',
-    //         'content-type': 'application/json',
-    //       },
-    //     },
-    //   ),
-    // );
-    const response = await ai.models.generateContent({
-      model: "gemini-2.5-flash",
-      contents: prompt,
-    });
+    // const ai = new GoogleGenAI({ apiKey: apiKey });
+    const response = await firstValueFrom(
+      this.httpService.post(
+        'https://api.anthropic.com/v1/messages',
+        {
+          model: 'claude-haiku-4-5-20251001',
+          max_tokens: 500,
+          messages: [{ role: 'user', content: prompt }],
+        },
+        {
+          headers: {
+            'x-api-key': apiKey,
+            'anthropic-version': '2023-06-01',
+            'content-type': 'application/json',
+          },
+        },
+      ),
+    );
+    // const response = await ai.models.generateContent({
+    //   model: "gemini-2.5-flash",
+    //   contents: prompt,
+    // });
 
-    const text: string = response.text?.trim() ?? '';
+    const text: string = response?.data?.content?.[0]?.text?.trim() ?? '';
     const jsonMatch = text.match(/\{[\s\S]*\}/);
     if (!jsonMatch) throw new Error('Invalid JSON response from LLM');
 
