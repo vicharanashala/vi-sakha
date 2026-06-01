@@ -1,4 +1,4 @@
-name: Backend CI/CD
+name: Build & Deploy All Services
 
 on:
   push:
@@ -20,15 +20,38 @@ permissions:
   packages: write
 
 env:
-  DOCKER_IMAGE: vi-sakha
   GCP_REGION: asia-south1
-  GCP_SERVICE_STAGING: vi-sakha-staging
-  GCP_SERVICE_PRODUCTION: vi-sakha-production
 
 jobs:
+  # ============================================================
+  # Build all 4 custom service images in parallel
+  # (Redis uses the official image — no build needed)
+  # ============================================================
   build:
-    name: Build and Push to Docker Hub
+    name: Build ${{ matrix.service }}
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          # backend & discord-bot use root context (monorepo workspaces)
+          - service: backend
+            dockerfile: backend/Dockerfile
+            context: .
+            image: vi-sakha-backend
+          - service: frontend
+            dockerfile: frontend/Dockerfile
+            context: ./frontend
+            image: vi-sakha-frontend
+          - service: discord-bot
+            dockerfile: discord-bot/Dockerfile
+            context: .
+            image: vi-sakha-discord-bot
+          - service: rag-server
+            dockerfile: rag-server/Dockerfile
+            context: ./rag-server
+            image: vi-sakha-rag-server
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -36,11 +59,12 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
-      - name: Create gitignored files needed by Docker
+      - name: Create gitignored files needed by backend Docker build
+        if: matrix.service == 'backend'
         run: |
-          # The .dockerignore whitelists these two files (!backend/.env, !backend/service-account.json)
-          # but they are gitignored, so they won't exist in the GitHub checkout.
-          # Create safe placeholders so the COPY instructions in backend/Dockerfile succeed.
+          # backend/Dockerfile COPYs these files but they are gitignored.
+          # The .dockerignore whitelists them (!backend/.env, !backend/service-account.json).
+          # Create safe placeholders so the COPY instructions succeed in CI.
           if [ ! -f backend/.env ]; then
             echo "NODE_ENV=production" > backend/.env
             echo "PORT=3000" >> backend/.env
@@ -55,17 +79,21 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Build and Push Docker image
+      - name: Build and Push ${{ matrix.service }}
         uses: docker/build-push-action@v5
         with:
-          context: .
-          file: ./backend/Dockerfile
+          context: ${{ matrix.context }}
+          file: ${{ matrix.dockerfile }}
           push: true
           provenance: false
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.DOCKER_IMAGE }}:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.DOCKER_IMAGE }}:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/${{ matrix.image }}:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/${{ matrix.image }}:${{ github.sha }}
 
+  # ============================================================
+  # Optional: Deploy to Cloud Run (Staging)
+  # Only runs on manual workflow_dispatch
+  # ============================================================
   deploy_staging:
     name: Deploy to Cloud Run (Staging)
     if: github.event_name == 'workflow_dispatch'
@@ -79,15 +107,19 @@ jobs:
         with:
           credentials_json: '${{ secrets.GCP_SA_KEY }}'
 
-      - name: Deploy to Cloud Run
+      - name: Deploy Backend to Cloud Run
         uses: google-github-actions/deploy-cloudrun@v2
         with:
-          service: ${{ env.GCP_SERVICE_STAGING }}
+          service: vi-sakha-backend-staging
           region: ${{ env.GCP_REGION }}
-          image: ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.DOCKER_IMAGE }}:${{ github.sha }}
+          image: ${{ secrets.DOCKERHUB_USERNAME }}/vi-sakha-backend:${{ github.sha }}
           project_id: ${{ secrets.GCP_PROJECT_ID }}
           flags: --allow-unauthenticated
 
+  # ============================================================
+  # Optional: Deploy to Cloud Run (Production)
+  # Only runs on manual workflow_dispatch with deploy_production=true
+  # ============================================================
   deploy_production:
     name: Deploy to Cloud Run (Production)
     if: github.event_name == 'workflow_dispatch' && github.event.inputs.deploy_production == 'true'
@@ -101,11 +133,11 @@ jobs:
         with:
           credentials_json: '${{ secrets.GCP_SA_KEY }}'
 
-      - name: Deploy to Cloud Run (Production)
+      - name: Deploy Backend to Cloud Run
         uses: google-github-actions/deploy-cloudrun@v2
         with:
-          service: ${{ env.GCP_SERVICE_PRODUCTION }}
+          service: vi-sakha-backend-production
           region: ${{ env.GCP_REGION }}
-          image: ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.DOCKER_IMAGE }}:${{ github.sha }}
+          image: ${{ secrets.DOCKERHUB_USERNAME }}/vi-sakha-backend:${{ github.sha }}
           project_id: ${{ secrets.GCP_PROJECT_ID }}
           flags: --allow-unauthenticated
